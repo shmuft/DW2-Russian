@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfGovernment>
+	<Government>
+		<GovernmentId>32759</GovernmentId> 
+		<LeaderTitle>President</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>0</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>0</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>30</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1.3</Stability>
+		<ConcernForOwnReputation>1</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
+		<UsesCabinet>false</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<RequiresColoniesToExist>false</RequiresColoniesToExist>
+		<CanRaid>false</CanRaid>
+		<AllowControlMiningShips>true</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>Временный</string>
+			<string>Переходный</string>
+		</EmpireNameAdjectives>
+		<EmpireNameNouns>
+			<string>Администрация</string>
+			<string>Власть</string>
+		</EmpireNameNouns>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>RefugeeFleet</SpecialMode>
+		<Name>Флот беженцев</Name>
+		<Description>[HL]Обратите внимание: это продвинутый старт для опытных игроков, уверенно чувствующих себя при ручном управлении.[/HL]
+
+Правительство «Флот беженцев» предоставляет вам уникальную стартовую ситуацию: жестокие инопланетные захватчики вынудили вас покинуть родной мир, и теперь вы находитесь в бегах.
+
+У вас нет колоний. Вместо этого вы начинаете с небольшого флота кораблей, включающего несколько военных судов, некоторые топливные заправщики, некоторые исследовательские корабли и ваш единственный Колонизационный корабль. Ваша цель — основать новый родной мир, затем выбрать новое правительство и перейти к обычному режиму игры.
+
+Но куда же вы отправитесь?
+
+Древние мифы хранят память о далеком прошлом, когда группа вашего народа была изгнана, оставив свой родной мир позади и отправившись далеко в звёздные просторы, чтобы основать свою собственную новую планету. Со временем связь с ними была утеряна. Сможем ли мы найти их снова и объединить усилия?
+
+У нас есть несколько подсказок относительно их местоположения в галактике. Нам следует отправиться к этим координатам (отмеченным на нашей карте) и провести расследование. Возможно, в конечном итоге мы найдем наших давно потерянных братьев и воссоединимся с ними вновь.
+
+В качестве альтернативы, если нам не удастся их отыскать, мы можем основать собственную новую колонию. У нас есть Массивный колонизационный корабль, вмещающий всё оставшееся население нашей фракции. Мы можем использовать его для основания нашего нового родного мира. Нам следует тщательно искать планету, пригодную для нашей расы. Крайне важно защитить наш Колонизационный корабль. Если мы потеряем его, то потеряем всё.
+
+Как только мы обоснуемся на новой родине, мы выберем новое правительство и перейдём к обычному имперскому режиму со всеми стандартными функциями: исследованиями, строительством, добычей ресурсов и дальнейшей колонизацией. Если мы не выберем новое правительство вручную, по умолчанию будет автоматически выбрано одно из них.</Description>
+	</Government>
+	<Government>
+		<GovernmentId>32760</GovernmentId> 
+		<LeaderTitle>Dark Lord</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>0</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>0</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+				<float>1</float> 
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>30</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1.3</Stability>
+		<ConcernForOwnReputation>1</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
+		<UsesCabinet>false</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<RequiresColoniesToExist>false</RequiresColoniesToExist>
+		<CanRaid>false</CanRaid>
+		<AllowControlMiningShips>false</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>Временный</string>
+			<string>Переходный</string>
+		</EmpireNameAdjectives>
+		<EmpireNameNouns>
+			<string>Администрация</string>
+			<string>Власть</string>
+		</EmpireNameNouns>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+			<string>Установить форму правления (Флот беженцев Разлома)</string>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>RefugeeFleet</SpecialMode>
+		<Name>Флот беженцев Разлома</Name>
+	</Government>
+</ArrayOfGovernment>
