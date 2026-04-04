@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 
-def translate_file(input_path: Path, output_path: Path, words_mode: bool = False, check_mode: bool = False) -> int:
+def translate_file(input_path: Path, output_path: Path, words_mode: bool = False, check_mode: bool = False, pool_addresses=None, pool_timeout: int = 120) -> int:
     """
     Run translate.py for a single XML file.
 
@@ -28,6 +28,11 @@ def translate_file(input_path: Path, output_path: Path, words_mode: bool = False
         cmd.extend([str(input_path), str(output_path)])
         if words_mode:
             cmd.append('--words')
+        if pool_addresses:
+            for addr in pool_addresses:
+                cmd.extend(['--pool', addr])
+            if pool_timeout is not None:
+                cmd.extend(['--pool-timeout', str(pool_timeout)])
 
     try:
         subprocess.run(cmd, check=True)
@@ -67,11 +72,27 @@ def main():
         action='store_true',
         help='Проверить уже переведённые файлы на наличие английских слов'
     )
+    parser.add_argument(
+        '--pool',
+        action='append',
+        help='Адреса пул воркеров (например: host:port или host:port,host2:port)'
+    )
+    parser.add_argument(
+        '--pool-timeout',
+        type=int,
+        default=120,
+        help='Таймаут запроса к пулу в секундах'
+    )
 
     args = parser.parse_args()
 
     if args.words and args.check:
         parser.error('--words и --check нельзя использовать одновременно')
+
+    pool_addresses = []
+    if args.pool:
+        for chunk in args.pool:
+            pool_addresses.extend([addr.strip() for addr in chunk.split(',') if addr.strip()])
 
     english_dir = Path('./1.3.4.3/English')
     russian_dir = Path('./1.3.4.3/Russian')
@@ -116,7 +137,14 @@ def main():
         action = 'Проверка' if args.check else 'Translating'
         print(f"{action} {xml_file} -> {output_file}")
 
-        result_code = translate_file(xml_file, output_file, words_mode=args.words, check_mode=args.check)
+        result_code = translate_file(
+        xml_file,
+        output_file,
+        words_mode=args.words,
+        check_mode=args.check,
+        pool_addresses=pool_addresses,
+        pool_timeout=args.pool_timeout,
+    )
         if result_code == 0:
             success_count += 1
             print("OK")
