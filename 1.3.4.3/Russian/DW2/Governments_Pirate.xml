@@ -1,0 +1,804 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfGovernment>
+	<Government>
+		<GovernmentId>32750</GovernmentId> 
+		<LeaderTitle>Chief Raider</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>0.1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>Undefined</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1</Stability>
+		<ConcernForOwnReputation>0</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0</ImportanceOfOthersReputations>
+		<UsesCabinet>false</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<RequiresColoniesToExist>false</RequiresColoniesToExist>
+		<UseBaseForCapital>true</UseBaseForCapital>
+		<CanRaid>true</CanRaid>
+		<AllowControlMiningShips>true</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>Кровавый</string>
+			<string>Ужас</string>
+			<string>Грязный</string>
+			<string>Зло</string>
+			<string>Железо</string>
+			<string>Свирепый</string>
+			<string>Жестокий</string>
+			<string>Зловещий</string>
+			<string>Злобный</string>
+			<string>Одинокий</string>
+			<string>Дикарь</string>
+			<string>Грозный</string>
+			<string>Смертоносный</string>
+			<string>Ядовитый</string>
+			<string>Убийственный</string>
+			<string>Красный</string>
+			<string>Чёрный</string>
+			<string>Тьма</string>
+			<string>Мрачный</string>
+			<string>Одержимый</string>
+			<string>Угрожающий</string>
+			<string>Кровь</string>
+			<string>Сжигание</string>
+			<string>Скрыто</string>
+			<string>Огонь</string>
+			<string>Потерян</string>
+		</EmpireNameAdjectives>
+		<EmpireNameMiddles>
+			<string>Солнце</string>
+			<string>Звезда</string>
+			<string>Камень</string>
+			<string>Луна</string>
+			<string>Шторм</string>
+			<string>Клык</string>
+			<string>Коготь</string>
+			<string>Кинжал</string>
+			<string>Молния</string>
+			<string>Пламя</string>
+		</EmpireNameMiddles>
+		<EmpireNameNouns>
+			<string>Пираты</string>
+			<string>Мародеры</string>
+			<string>Бандиты</string>
+			<string>Буканьеры</string>
+			<string>Бандиты</string>
+			<string>Корсары</string>
+			<string>Бандиты</string>
+			<string>Патрульные корабли</string>
+			<string>Вторжение</string>
+			<string>Небесные захватчики</string>
+			<string>Банда</string>
+			<string>Совет</string>
+			<string>Сеть</string>
+			<string>Лига</string>
+			<string>Сила</string>
+			<string>Клан</string>
+			<string>Власть</string>
+			<string>Конфедерация</string>
+			<string>Конфедерация</string>
+			<string>Флот</string>
+			<string>Консорциум</string>
+			<string>Синдикат</string>
+			<string>Картель</string>
+		</EmpireNameNouns>
+		<Biases>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ScanEvasion</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<BonusesPerTreatyTypeTreaties>
+		</BonusesPerTreatyTypeTreaties>
+		<BonusesPerTreatyType>
+		</BonusesPerTreatyType>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Пираты</Name>
+		<Description>Сбалансированные пираты не специализируются сильно ни в одной области. Они универсальны и могут попробовать всё понемногу.\n\nОни стремятся контролировать колонии, получать доход от соглашений о защите с другими империями, а также захватывать вражеские корабли и базы.</Description>
+	</Government>
+
+	<Government>
+		<GovernmentId>32751</GovernmentId>
+		
+		<LeaderTitle>Chief Trader</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>0.1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>Undefined</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1</Stability>
+		<ConcernForOwnReputation>0</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0</ImportanceOfOthersReputations>
+		<UsesCabinet>false</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<RequiresColoniesToExist>false</RequiresColoniesToExist>
+		<UseBaseForCapital>true</UseBaseForCapital>
+		<CanRaid>true</CanRaid>
+		<AllowControlMiningShips>true</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>Одинокий</string>
+			<string>Красный</string>
+			<string>Чёрный</string>
+			<string>Тьма</string>
+			<string>Мрачный</string>
+			<string>Одержимый</string>
+			<string>Кровь</string>
+			<string>Сжигание</string>
+			<string>Скрыто</string>
+			<string>Огонь</string>
+			<string>Потерян</string>
+			<string>Быстрый</string>
+			<string>Ловкий</string>
+			<string>Ловкий</string>
+			<string>Бесстрашный</string>
+			<string>Смелый</string>
+			<string>Жирный</string>
+			<string>Посвященный</string>
+		</EmpireNameAdjectives>
+		<EmpireNameMiddles>
+			<string>Солнце</string>
+			<string>Звезда</string>
+			<string>Камень</string>
+			<string>Луна</string>
+			<string>Шторм</string>
+			<string>Клык</string>
+			<string>Коготь</string>
+			<string>Кинжал</string>
+			<string>Молния</string>
+			<string>Пламя</string>
+		</EmpireNameMiddles>
+		<EmpireNameNouns>
+			<string>Банда</string>
+			<string>Совет</string>
+			<string>Сеть</string>
+			<string>Лига</string>
+			<string>Сила</string>
+			<string>Клан</string>
+			<string>Флот</string>
+			<string>Власть</string>
+			<string>Конфедерация</string>
+			<string>Конфедерация</string>
+			<string>Орда</string>
+			<string>Корпорация</string>
+			<string>Консорциум</string>
+			<string>Синдикат</string>
+			<string>Картель</string>
+			<string>Гильдия</string>
+			<string>Контрабандисты</string>
+			<string>Торговцы</string>
+			<string>Предприятия</string>
+		</EmpireNameNouns>
+		<Biases>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyInfluenceRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ScanEvasion</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<BonusesPerTreatyTypeTreaties>
+		</BonusesPerTreatyTypeTreaties>
+		<BonusesPerTreatyType>
+		</BonusesPerTreatyType>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Контрабандисты</Name>
+		<Description>Контрабандисты сосредоточены на торговле ресурсами с другими фракциями.
+
+Обычно они также создают сеть добывающих станций для поставки ключевых ресурсов, которые затем продают другим.
+
+Контрабандисты ценят стабильность и мирное сосуществование с другими фракциями вместо открытого конфликта. Они также эффективно используют шпионов для влияния на события в свою пользу.</Description>
+	</Government>
+
+	<Government>
+		<GovernmentId>32752</GovernmentId>
+		
+		<LeaderTitle>Chief Raider</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>0.1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>Undefined</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1</Stability>
+		<ConcernForOwnReputation>0</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0</ImportanceOfOthersReputations>
+		<UsesCabinet>false</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<RequiresColoniesToExist>false</RequiresColoniesToExist>
+		<UseBaseForCapital>true</UseBaseForCapital>
+		<CanRaid>true</CanRaid>
+		<AllowControlMiningShips>true</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>Кровавый</string>
+			<string>Ужас</string>
+			<string>Грязный</string>
+			<string>Зло</string>
+			<string>Железо</string>
+			<string>Свирепый</string>
+			<string>Жестокий</string>
+			<string>Зловещий</string>
+			<string>Злобный</string>
+			<string>Одинокий</string>
+			<string>Дикарь</string>
+			<string>Грозный</string>
+			<string>Смертоносный</string>
+			<string>Ядовитый</string>
+			<string>Убийственный</string>
+			<string>Красный</string>
+			<string>Чёрный</string>
+			<string>Тьма</string>
+			<string>Мрачный</string>
+			<string>Одержимый</string>
+			<string>Угрожающий</string>
+			<string>Кровь</string>
+			<string>Сжигание</string>
+			<string>Скрыто</string>
+			<string>Огонь</string>
+			<string>Потеряно</string>
+		</EmpireNameAdjectives>
+		<EmpireNameMiddles>
+			<string>Солнце</string>
+			<string>Звезда</string>
+			<string>Камень</string>
+			<string>Луна</string>
+			<string>Шторм</string>
+			<string>Клык</string>
+			<string>Коготь</string>
+			<string>Кинжал</string>
+			<string>Молния</string>
+			<string>Пламя</string>
+		</EmpireNameMiddles>
+		<EmpireNameNouns>
+			<string>Пираты</string>
+			<string>Мародеры</string>
+			<string>Бандиты</string>
+			<string>Набеговые отряды</string>
+			<string>Буканьеры</string>
+			<string>Бандиты</string>
+			<string>Корсары</string>
+			<string>Грабители</string>
+			<string>Бандиты</string>
+			<string>Разрушители</string>
+			<string>Патрульные корабли</string>
+			<string>Вторжение</string>
+			<string>Захватчики</string>
+			<string>Небесные похитители</string>
+			<string>Банда</string>
+			<string>Сила</string>
+			<string>Клан</string>
+			<string>Армия</string>
+			<string>Флот</string>
+			<string>Орда</string>
+		</EmpireNameNouns>
+		<Biases>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>RaidIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<BonusesPerTreatyTypeTreaties>
+		</BonusesPerTreatyTypeTreaties>
+		<BonusesPerTreatyType>
+		</BonusesPerTreatyType>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Рейдеры</Name>
+		<Description>Набеговые отряды пытаются установить контроль над колониями, как независимыми, так и принадлежащими обычным империям. Они обогащаются, откачивая богатства из этих контролируемых колоний.\n\nЧтобы укрепить свой контроль, они отражают нападения конкурирующих пиратских группировок и пытаются построить пиратские базы и крепости в своих колониях.</Description>
+	</Government>
+
+	<Government>
+		<GovernmentId>32753</GovernmentId>
+		
+		<LeaderTitle>Bounty Hunter</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>0.1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+				<float>1</float>
+				
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>Undefined</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1</Stability>
+		<ConcernForOwnReputation>0</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0</ImportanceOfOthersReputations>
+		<UsesCabinet>false</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<RequiresColoniesToExist>false</RequiresColoniesToExist>
+		<UseBaseForCapital>true</UseBaseForCapital>
+		<CanRaid>true</CanRaid>
+		<AllowControlMiningShips>true</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>Кровавый</string>
+			<string>Ужас</string>
+			<string>Грязный</string>
+			<string>Зло</string>
+			<string>Железо</string>
+			<string>Свирепый</string>
+			<string>Жестокий</string>
+			<string>Зловещий</string>
+			<string>Злобный</string>
+			<string>Одинокий</string>
+			<string>Дикарь</string>
+			<string>Грозный</string>
+			<string>Смертоносный</string>
+			<string>Ядовитый</string>
+			<string>Убийственный</string>
+			<string>Красный</string>
+			<string>Чёрный</string>
+			<string>Тьма</string>
+			<string>Мрачный</string>
+			<string>Призрачный</string>
+			<string>Угрожающий</string>
+			<string>Кровь</string>
+			<string>Огненный шторм</string>
+			<string>Скрыто</string>
+			<string>Огонь</string>
+			<string>Потеряно</string>
+		</EmpireNameAdjectives>
+		<EmpireNameMiddles>
+			<string>Солнце</string>
+			<string>Звезда</string>
+			<string>Камень</string>
+			<string>Луна</string>
+			<string>Шторм</string>
+			<string>Клык</string>
+			<string>Коготь</string>
+			<string>Кинжал</string>
+			<string>Молния</string>
+			<string>Пламя</string>
+		</EmpireNameMiddles>
+		<EmpireNameNouns>
+			<string>Пираты</string>
+			<string>Бандиты</string>
+			<string>Корсары</string>
+			<string>Бандиты</string>
+			<string>Патрульные корабли</string>
+			<string>Вторжение</string>
+			<string>Банда</string>
+			<string>Наёмники</string>
+			<string>Совет</string>
+			<string>Сеть</string>
+			<string>Лига</string>
+			<string>Сила</string>
+			<string>Клан</string>
+			<string>Власть</string>
+			<string>Безопасность</string>
+			<string>Воины</string>
+			<string>Охотники</string>
+			<string>Гильдия</string>
+		</EmpireNameNouns>
+		<Biases>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ScanEvasion</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<BonusesPerTreatyTypeTreaties>
+		</BonusesPerTreatyTypeTreaties>
+		<BonusesPerTreatyType>
+		</BonusesPerTreatyType>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Наёмники</Name>
+		<Description>Наемники — это наемные солдаты, ищущие контракты на нападение или оборону, предлагаемые другими империями.
+
+Когда они не выполняют контракты, они наращивают свои флоты, захватывая корабли у вражеских империй. Наемники также совершают набеги на колонии и базы в поисках добычи.
+
+Они могут также заключать соглашения о частном корсарстве с другими империями.</Description>
+	</Government>
+
+</ArrayOfGovernment>

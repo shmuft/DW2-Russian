@@ -1,0 +1,797 @@
+Лог перевода: 1.3.4.3\English\DW2\Races.xml
+Выходной файл: 1.3.4.3\Russian\DW2\Races.xml
+Всего переводов: 91
+================================================================================
+
+Description: Humans are a contradictory species, brutal in war, yet welcoming of fellowship. Which path they follow may well depend on their leaders and what dangers or opportunities they face as they expand into the stars. Many species are slaves to their nature, but humans are notoriously hard to predict.
+
+While not the most research-oriented of the galactic races, humans are naturally curious and creative, which can give them a slight advantage in their scientific inquiries. They are also skillful merchants and traders. But their true strengths lie in diplomacy, espionage, and (should other options fail) warfare.
+
+Humans are keen to share their culture and learn the ways of other species, making them eager to seek out new partners for trade and cultural exchange. They also love to expand, and settling new worlds inspires them to press even further into the unknown. Perhaps more than anything else this is what makes them dangerous, for once Humans have a taste of success, they will only crave more.
+
+When war becomes unavoidable (or merely desirable), they enjoy the advantages of their massive ships and skilled leaders upon whom they depend to blaze a trail to victory. They also seek strength in numbers, and they are always eager to seek out partners for defensive treaties.
+
+Humans may lack the signature strengths of some space faring species, but their ability to learn, adapt, trade, and negotiate make them worthy allies and dangerous enemies. They should not be underestimated.
+->
+Люди — противоречивый вид: жестокие в войне, но открытые к общению. Какой путь они выберут, может зависеть от их лидеров и тех опасностей или возможностей, с которыми они столкнутся при расширении в звезды. Многие виды рабски подчинены своей природе, но людей notoriously трудно предсказать.
+
+Хотя люди не являются самым ориентированным на исследования видом галактических рас, они по своей природе любопытны и креативны, что может дать им небольшое преимущество в научных изысканиях. Они также искусные купцы и торговцы. Но их истинная сила заключается в дипломатии, шпионаже и (если другие варианты исчерпаны) войне.
+
+Люди охотно делятся своей культурой и стремятся перенять обычаи других видов, что делает их готовыми искать новых партнеров для торговли и культурного обмена. Они также любят расширяться, и заселение новых миров вдохновляет их двигаться еще дальше в неизведанное. Возможно, именно это больше всего делает их опасными: как только люди попробуют вкус успеха, они будут жаждать лишь большего.
+
+Когда война становится неизбежной (или просто желаемой), они пользуются преимуществами своих огромных кораблей и искусных лидеров, на которых полагаются, чтобы проложить путь к победе. Они также стремятся к силе в числах и всегда готовы искать партнеров для оборонительных союзов.
+
+Люди могут не обладать уникальными сильными сторонами некоторых космических видов, но их способность учиться, адаптироваться, торговать и вести переговоры делает их достойными союзниками и опасными врагами. Их нельзя недооценивать.
+
+string (FeatureExplanations): [HL]Great Art Exposition:[/HL] When you sign a Free Trade Agreement or build a new Resort Base obtain a 2 year boost to Trade and Tourism income throughout your empire along with a boost to Colony income and Tourism for the colony where the Great Art Exposition is held. Cannot trigger more than once every 5 years
+->
+[HL]Великая художественная выставка:[/HL] При подписании соглашения о свободной торговле или строительстве нового развлекательного комплекса вы получаете бонус к доходам от торговли и туризма на всей империи, а также дополнительный доход колонии и туризм в колонии, где проводится Великая художественная выставка. Эффект может срабатывать не чаще одного раза в 5 лет.
+
+string (FeatureExplanations): [HL]Hero of the Hour:[/HL] When war is declared on you choose either a new Admiral or new General with two positive traits
+->
+[HL]Герой часа:[/HL] Когда объявлена война, выберите нового адмирала или нового генерала с двумя положительными чертами.
+
+string (FeatureExplanations): [HL]Internal Debates:[/HL] When you sign a new Defense treaty obtain a capable new Ambassador but also a 2 year decrease to Colony Happiness throughout your empire
+->
+[HL]Внутренние споры:[/HL] При подписании нового оборонительного договора вы получаете способного нового посла, но также и снижение счастья колоний на 2 года во всей вашей империи.
+
+string (FeatureExplanations): [HL]Heightened Security:[/HL] When a foreign intelligence mission against you succeeds (but is detected) you may choose to spend a Spy to gain a 2 year boost to Counter Espionage along with a decrease to Colony Happiness throughout your empire
+->
+[HL]Усиленные меры безопасности:[/HL] Когда иностранная разведывательная миссия против вас успешна (но обнаружена), вы можете потратить шпиона, чтобы получить 2-летний бонус к контршпионажу наряду со снижением счастья в колониях по всей вашей империи.
+
+string (FeatureExplanations): [HL]New Worlds:[/HL] When you colonize or conquer a Continental planet obtain a free random Colonization tech advance
+->
+[HL]Новые миры:[/HL] При колонизации или завоевании континентальной планеты вы получаете случайную бесплатную технологию развития колонизации
+
+string (FeatureExplanations): [HL]Large Carriers:[/HL] all Carrier ship hulls +50 size
+->
+[HL]Крупные авианосцы:[/HL] все корпуса кораблей-авианосцев +50 к размеру
+
+string (FeatureExplanations): [HL]Unique Leader trait - Alliance Builder:[/HL] +10% Diplomacy
+->
+[HL]Уникальная черта лидера — Строитель альянсов:[/HL] +10% к дипломатии
+
+string (FeatureExplanations): [HL]Unique Ambassador trait - Entrepreneur:[/HL] +10% Trade Income
+->
+[HL]Уникальная черта посла — Предприимчивость:[/HL] +10% к доходам от торговли
+
+string (FeatureExplanations): [HL]Unique Spy trait - Industrial Agent:[/HL] +5% Espionage
+->
+[HL]Уникальная черта шпиона — Промышленный агент:[/HL] +5% к шпионажу
+
+string (FeatureExplanations): [HL]Unique Scientist trait - Destructive:[/HL] +10% Weapons Research
+->
+[HL]Уникальная черта учёного — Разрушительная:[/HL] +10% к исследованиям оружия
+
+Description: Ackdarians are highly industrious, semi-aquatic marine mammals. They have large webbed hands and feet, making them excellent swimmers. However their hands are also quite dexterous and they are equally happy living out of water.
+
+Ackdarians are intelligent, peaceful and friendly. They have a rich culture that focuses on the hybrid nature of their living environment, encompassing both water and land.
+
+They excel in building highly maintainable star ships. Their technology includes the advanced TurboThruster engine. This engine component is extremely fuel-efficient, allowing Ackdarian star ships to use less fuel and travel further.
+
+Ackdarians are famous for cultivating Nepthys seaweed, from which they make Nepthys wine. Ackdarians grow enormous forests of the seaweed deep beneath the oceans. They regularly harvest it and then slowly ferment it into a superbly smooth wine.
+
+They are also masters of underwater construction, building vast and elaborate underwater cities. These cities have many levels, some of which reach far down into the vast depths of the oceans they inhabit. At the deepest levels Ackdarians seek out precious resources like the rare Ucantium pearl.
+
+Ackdarians also inhabit the small islands and shallow coastal areas of Ocean planets.
+->
+Акдарианы — крайне трудолюбивые полуводные морские млекопитающие. У них большие перепончатые руки и ноги, что делает их превосходными пловцами. Однако их руки также очень ловкие, и они с равным удовольствием живут как в воде, так и на суше.
+
+Акдарианы умны, миролюбивы и дружелюбны. У них богатая культура, сосредоточенная на гибридной природе их среды обитания, объединяющей воду и землю.
+
+Они преуспевают в создании высокоподдерживаемых звездных кораблей. Их технологии включают усовершенствованный двигатель «Турбо-импульс». Этот компонент двигателя обладает исключительной топливной эффективностью, позволяя акдарианским звездным кораблям расходовать меньше топлива и преодолевать большие расстояния.
+
+Акдарианы известны выращиванием нефтидской водоросли, из которой они производят нефтидское вино. Они культивируют огромные леса этой водоросли глубоко под океанами. Регулярно собирая её, они медленно сбраживают в превосходное по гладкости вино.
+
+Они также являются мастерами подводного строительства, возводя обширные и изысканные подводные города. Эти города имеют множество уровней, некоторые из которых уходят далеко вниз в бездны океанов, которыми они населяют. На самых глубоких уровнях акдарианы добывают ценные ресурсы, такие как редкая укантиевая жемчужина.
+
+Акдарианы также обитают на небольших островах и мелководных прибрежных зонах океанических планет.
+
+Description: Teekans are a small furry rodent-like race with three eyes.
+
+They see no value in washing regularly and thus tend to smell.
+
+Teekans take special interest in hoarding all kinds of mechanical junk, disassembling and repairing items they collect. Teekans have very little technology that is truly original, but they can occasionally progress to the point of being space-faring.
+
+Teekans are born traders, profitably selling their wares far and wide. They are also excellent miners, rapidly exploiting any natural resources they discover.
+
+Despite being fairly insular they are very peaceful and make very loyal allies should you wish to befriend them.
+
+Teekans are semi-nomadic; while some live in permanent settlements, many prefer to live in temporary camps, periodically migrating to new locations.
+
+The nomadic Teekan tribes are obsessed with hunting the Bakdur, also known as the Sand Slug. As the herds of Bakdurs migrate across the sandy deserts, the Teekan camps follow them.
+
+Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Desert Savanna planets.
+->
+Тиканы — небольшой пушистый род, похожий на грызунов, обладающий тремя глазами.
+
+Они не видят ценности в регулярном мытье и потому часто имеют неприятный запах.
+
+Тиканы проявляют особый интерес к накоплению всякого механического хлама, разбирая и ремонтируя собранные ими предметы. У тиканов очень мало по-настоящему оригинальных технологий, но иногда они способны развиться до уровня космических странников.
+
+Тиканы рождаются торговцами, выгодно сбывая свои товары далеко и широко. Они также являются отличными шахтёрами, быстро эксплуатируя любые природные ресурсы, которые обнаруживают.
+
+Несмотря на довольно замкнутый образ жизни, они очень миролюбивы и станут верными союзниками, если вы пожелаете подружиться с ними.
+
+Тиканы ведут полукочевой образ жизни; хотя некоторые живут в постоянных поселениях, многие предпочитают временные лагеря, периодически мигрируя на новые места.
+
+Кочевые племена Тиканов одержимы охотой на Бакдуров, также известных как Песчаный Слизень. Поскольку стада Бакдуров мигрируют через песчаные пустыни, лагеря тиканов следуют за ними.
+
+Тиканы населяют обширные пустынные пустоши планет типов Песчаная пустыня, Каменистая пустыня и Пустынная саванна.
+
+string (FeatureExplanations): [HL]Rapid Modular Construction:[/HL] all ships, bases and planetary facilities are built +30% faster than normal
+->
+[HL]Быстрая модульная сборка:[/HL] все корабли, базы и планетарные сооружения строятся на 30% быстрее обычного
+
+string (FeatureExplanations): [HL]Natural Traders:[/HL] -5 threshold to sign new trade treaties
+->
+[HL]Естественные торговцы:[/HL] -5 порог для подписания новых торговых договоров
+
+string (FeatureExplanations): [HL]Nomadic Population:[/HL] naturally dispersed population provides +30% resistance to bombardment and ground combat losses
+->
+[HL]Кочевое население:[/HL] естественно рассредоточенное население обеспечивает +30% устойчивости к бомбардировкам и потерям в наземных боях
+
+string (FeatureExplanations): [HL]Desert Dwellers:[/HL] Teekan Militia troops gain +50% attack and defense strength, and all other Teekan troops (i.e. Infantry, Armor, etc) gain +20% attack and defense strength when fighting on any desert planet (Sandy Desert, Rocky Desert, Desert Savanna)
+->
+[HL]Жители пустыни:[/HL] Войска ополчения Тиканов получают +50% к силе атаки и защиты, а все остальные войска Тиканов (т. е. пехота, бронетехника и т. д.) получают +20% к силе атаки и защиты при ведении боя на любой пустынной планете (песчаная пустыня, каменистая пустыня, пустынная саванна).
+
+string (FeatureExplanations): [HL]Galactic Nomads:[/HL] when a Teekan faction has only one colony then they can choose to abandon that planet and become a Refugee Fleet in search of a new home. The full population of the last colony is loaded onto the single Colony Ship. All previous ships and bases are lost, with the exception of the small Refugee Fleet. To activate Galactic Nomads, select your last colony and click the 'Galactic Nomads' action button under the Selection Panel
+->
+[HL]Галактические кочевники:[/HL] когда у фракции Тиканов остается только одна колония, она может покинуть эту планету и стать Флотом беженцев в поисках нового дома. Всё население последней колонии переселяется на единственный Колонизационный корабль. Все предыдущие корабли и базы теряются, за исключением небольшого Флота беженцев. Чтобы активировать «Галактических кочевников», выберите свою последнюю колонию и нажмите кнопку действия «Галактические кочевники» в панели выбора.
+
+string (FeatureExplanations): [HL]Wander Time:[/HL] when a new colony is established, migration draw to the new colony is greatly increased for 5 years
+->
+[HL]Время странствий:[/HL] при основании новой колонии приток мигрантов в неё значительно возрастает на 5 лет.
+
+string (FeatureExplanations): [HL]Great Bakdur Hunt:[/HL] Teekan player can manually initiate a Great Bakdur Hunt at any Desert colony (Sandy Desert, Rocky Desert, Desert Savanna) for 25,000 credits once every 5 years. The outcome of the hunt will vary, but will always provide some benefits: typically an empire-wide Happiness bonus and a Development bonus at the colony
+->
+[HL]Великая охота на Бакдуров:[/HL] Игрок-Тикан может вручную начать Великую охоту на Бакдуров в любой пустынной колонии (Песчаная пустыня, Каменистая пустыня, Пустынная саванна) за 25,000 кредитов раз в 5 лет. Результат охоты будет разным, но всегда принесет определенные преимущества: обычно это общеимперский бонус к счастью и бонус к развитию колонии.
+
+string (FeatureExplanations): [HL]Salvage Kings:[/HL] when a Teekan ship discovers loot from salvaged ship debris, they may sometimes have the opportunity to forfeit the initial discovery in exchange for a chance to instead find better loot by searching harder. However sometimes pursuing this option will yield no further benefits, in which case nothing will be gained from the salvage
+->
+[HL]Короли спасения:[/HL] когда корабль тиканов обнаруживает добычу из обломков спасенного судна, у него иногда появляется возможность отказаться от первоначальной находки в обмен на шанс найти более ценную добычу благодаря тщательному поиску. Однако иногда преследование этого варианта не приносит никаких дополнительных выгод, и в таком случае от спасения ничего не будет получено.
+
+string (FeatureExplanations): [HL]Fragile Hulls:[/HL] all military ship hulls are 20% smaller, making them more fragile in combat
+->
+[HL]Хрупкие корпуса:[/HL] все военные корпуса кораблей на 20% меньше, что делает их более хрупкими в бою
+
+string (FeatureExplanations): [HL]Unique Leader trait - Wanderer:[/HL] +20% Leader Quality causing more rapid skill progression
+->
+[HL]Уникальная черта лидера — Странник:[/HL] +20% к качеству лидеров, обеспечивающее более быстрое развитие навыков
+
+string (FeatureExplanations): [HL]Unique Leader trait - Haggler:[/HL] +5% Trade Income
+->
+[HL]Уникальная черта лидера — Торговец:[/HL] +5% к доходам от торговли
+
+string (FeatureExplanations): [HL]Unique Scientist trait - Tinkerer:[/HL] +5% High Tech Research, +5% Industrial Research
+->
+[HL]Уникальная черта учёного — «Изобретатель»:[/HL] +5% к исследованиям высоких технологий, +5% к промышленным исследованиям
+
+string (FeatureExplanations): [HL]Unique Ambassador trait - Bargainer:[/HL] +5% Trade Income
+->
+[HL]Уникальная черта посла — Торговец:[/HL] +5% к доходам от торговли
+
+string (FeatureExplanations): [HL]Unique Spy trait - Unnoticed:[/HL] +10% Concealment
+->
+[HL]Уникальная черта шпиона — Незаметность:[/HL] +10% к скрытности
+
+Description: Haakonish are a bipedal reptilian race. They have broad, flat heads with prominent protrusions on each side. The protrusions are nasal cavities that provide the Haakonish with an unrivalled sense of smell. Haakonish have very poor eyesight, but compensate for this with their excellent sense of smell and taste.
+
+They are intelligent and quite aggressive. Haakonish are highly pretentious. They also have a strong sense of their own racial superiority. Thus they do not enjoy the company of other races and have a tendency to be xenophobic.
+
+Haakonish are naturally drawn towards intricate technology. They take great pride in designing and building equipment with many advanced features, even if some of these features are unnecessary or superfluous.
+
+The natural miserliness of the Haakonish has led them to develop the High Density Fuel Cell, a high-capacity fuel tank. This gives Haakonish star ships longer range and endurance.
+
+Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy Swamp and Mangrove Forest planets.
+->
+Хаакониш — это двуногая рептилоидная раса. У них широкие плоские головы с заметными выступами по бокам. Эти выступы представляют собой носовые полости, обеспечивающие хаакониш непревзойдённым обонянием. Хаакониш обладают крайне плохим зрением, но компенсируют это превосходным чувством обоняния и вкуса.
+
+Они умны и довольно агрессивны. Хаакониш чрезвычайно тщеславны. Они также сильно ощущают собственное расовое превосходство. Поэтому они не любят общество других рас и склонны к ксенофобии.
+
+Хаакониш от природы тяготеют к сложным технологиям. Они гордятся проектированием и созданием оборудования с множеством передовых функций, даже если некоторые из этих функций излишни или избыточны.
+
+Природная бережливость хаакониш привела их к созданию топливного элемента высокой плотности — высокоёмкого топливного бака. Это обеспечивает звёздным кораблям хаакониш большую дальность полёта и выносливость.
+
+Хаакониш обычно живут в полностью закрытых биосферах в прибрежных районах планет с болотистыми топями и мангровыми лесами.
+
+string (FeatureExplanations): [HL]Pretentious Design:[/HL] all ship and base hulls use 20% more resources and cost 10% more to build. Planetary facilities are 10% slower to build
+->
+[HL]Вычурный дизайн:[/HL] все корпуса кораблей и базовых сооружений требуют на 20% больше ресурсов и стоят на 10% дороже в постройке. Планетарные сооружения строятся на 10% медленнее
+
+string (FeatureExplanations): [HL]Binding Contracts:[/HL] other factions with a trade treaty with the Haakonish are [B]more likely to buy resources from Haakonish locations[/B] instead of other foreign suppliers
+->
+[HL]Связанные контракты:[/HL] другие фракции, имеющие торговый договор с Хаакониш, [B]с большей вероятностью будут закупать ресурсы на территориях Хаакониш[/B], а не у других иностранных поставщиков.
+
+string (FeatureExplanations): [HL]Penalty Clauses:[/HL] factions declaring war on a Haakonish faction suffer a [B]-10 Reputation penalty[/B]. Independent Colonies will also immediately [B]cancel any trade treaties with the warring faction[/B] if they also have a trade treaty with the Haakonish faction
+->
+[HL]Штрафные условия:[/HL] фракции, объявившие войну хааконишской фракции, получают [B]-10 к репутации[/B]. Независимые колонии также немедленно [B]отменяют любые торговые договоры с воюющей фракцией[/B], если у них также есть торговый договор с хааконишской фракцией.
+
+string (FeatureExplanations): [HL]Acccount Confiscation:[/HL] when a faction declares war on the Haakonish, the Haakonish faction will immediately [B]take bonus income equal to all trade[/B] with the warring faction over the previous year
+->
+[HL]Конфискация счетов:[/HL] когда фракция объявляет войну Хааконишам, фракция Хааконишей немедленно [B]получает бонусный доход в размере всех торговых операций[/B] с воюющей фракцией за предыдущий год
+
+string (FeatureExplanations): [HL]Superior Destiny:[/HL] each time a Haakonish-specific research project is completed, gain a [GOOD]+5 empire-wide Happiness bonus[/GOOD] for 2 years
+->
+[HL]Высшее предназначение:[/HL] каждый раз при завершении проекта исследований Хааконишей получайте бонус к счастью по всей империи [+5% на 2 года][/GOOD]
+
+string (FeatureExplanations): [HL]Exploit Loopholes:[/HL] a Haakonish faction may choose to exploit a trade treaty with another faction by [GOOD]taking money directly from the other faction[/GOOD] (up to 30,000 credits for standard empires, up to 15,000 credits for independent colonies). However this action will cause the other faction to immediately [BAD]cancel the trade treaty[/BAD] and will [BAD]harm our reputation[/BAD]
+->
+[HL]Использование лазеек:[/HL] фракция Хааконишей может выбрать использование торговой сделки с другой фракцией, чтобы [GOOD]получить деньги напрямую от этой фракции[/GOOD] (до 30 000 кредитов для стандартных империй, до 15 000 кредитов для независимых колоний). Однако это действие заставит другую фракцию немедленно [BAD]отменить торговую сделку[/BAD] и нанесет [BAD]ущерб нашей репутации[/BAD].
+
+string (FeatureExplanations): [HL]Economic Boost:[/HL] creative accounting [GOOD]boosts empire income by +10%[/GOOD] for 5 years. However later it also triggers [BAD]growing corruption throughout all colonies[/BAD] that lasts 5 years. Can be initiated at any colony once every 8 years
+->
+[HL]Экономический подъем:[/HL] творческий учет [GOOD]увеличивает доход империи на +10%[/GOOD] в течение 5 лет. Однако позже он также запускает [BAD]рост коррупции во всех колониях[/BAD], который длится 5 лет. Может быть запущен в любой колонии раз в 8 лет
+
+string (FeatureExplanations): [HL]Xenophobic Riots:[/HL] can be initiated at any colony to [B]immediately reduce non-Haakonish populations by 25%[/B] at the colony. The colony also gains [GOOD]+10 Happiness[/GOOD] for 5 years and has [BAD]reduced Migration[/BAD] for 10 years. The Haakonish faction also suffers a [BAD]-10 Reputation penalty[/BAD]
+->
+[HL]Межрасовые беспорядки:[/HL] можно инициировать в любой колонии, чтобы [B]мгновенно сократить численность не-хааконишских рас на 25%[/B] в этой колонии. Колония также получает [GOOD]+10 к счастью[/GOOD] на 5 лет и имеет [BAD]сниженную миграцию[/BAD] в течение 10 лет. Фракция Хааконишей также получает [BAD]-10 к репутации[/BAD].
+
+string (FeatureExplanations): [HL]Unique Leader trait - Hard Bargainer:[/HL] +10% Trade Income, -5% Diplomacy
+->
+[HL]Уникальная черта лидера — Жёсткий переговорщик:[/HL] +10% к доходам от торговли, -5% к дипломатии
+
+string (FeatureExplanations): [HL]Unique Leader trait - Xenophile:[/HL] -5% Colony Happiness, -5% Counter Esionage
+->
+[HL]Уникальная черта лидера — Ксенофил:[/HL] −5% счастья колоний, −5% контршпионаж
+
+string (FeatureExplanations): [HL]Unique Scientist trait - Multi-Dimensional:[/HL] +5% Armor Research, +5% Construction Research, +5% Engine Research, +5% High Tech Research, +5% Hyperdrive Research, +5% Industrial Research, +5% Reactor Research, +5% Sensor Research, +5% Shields Research, +5% Troop Research, +5% Weapons Research
+->
+[HL]Уникальная черта учёного — Многомерность:[/HL] +5% к исследованиям брони, +5% к исследованиям строительства, +5% к исследованиям двигателей, +5% к высокотехнологичным исследованиям, +5% к исследованиям гипердвигателей, +5% к промышленным исследованиям, +5% к исследованиям реакторов, +5% к исследованиям сенсоров, +5% к исследованиям щитов, +5% к исследованиям войск, +5% к исследованиям оружия
+
+string (FeatureExplanations): [HL]Unique Ambassador trait - Xenolocutor:[/HL] +10% Diplomacy, -5% Counter Esionage
+->
+[HL]Уникальная черта посла — Ксенолокутор:[/HL] +10% к дипломатии, -5% к контршпионажу
+
+string (FeatureExplanations): [HL]Unique Spy trait - Suspicious:[/HL] +5% Counter Esionage, +5% Concealment
+->
+[HL]Уникальная черта шпиона — Подозрительность:[/HL] +5% к контршпионажу, +5% к маскировке
+
+Description: While some species look to their future, the Mortalen look to their past, but it would be a mistake to see their traditional ways as a weakness. The Mortalen value honor, loyalty, and victory above all, making them desirable friends and terrible enemies.
+
+With their culture firmly rooted in their ancient ways, they now stand ready to bring those traditions to the stars. Chief among their values is the primacy of combat. As individuals, the Mortalen seek honor in contests of will, in hunting dangerous beasts, and in deadly contests.
+
+As a society, the Mortalen thrive on contests that provide opportunities to demonstrate their culture's prowess and discipline. When they choose an enemy, the entire Mortalen population will dedicate itself to victory. The Mortalen are far less likely than other species to grow weary of conflict. They never give up and will fight even when they cannot succeed. A glorious death is far better than shameful survival. 
+
+This innate belligerence strikes fear in their enemies, but it comes with a cost within their own culture. In accordance with their ancient traditions, the Mortalen will battle one another in contests of skill and courage, and even high-ranking leaders can give themselves over to personal vendettas. 
+
+The Mortalen are known for their well-armored ships that are uniquely agile. These are the perfect tools with which they set out in search of conquest. Craving advancement and pursuing honor, their military leaders dream of galactic dominion, capturing more worlds and subjugating more people than their rivals. 
+
+For the Mortalen, honor is paramount, and the galaxy itself is their proving ground.
+->
+Хотя некоторые виды смотрят в будущее, Морталены обращаются к прошлому, однако было бы ошибкой считать их традиционные пути слабостью. Для Морталенов честь, верность и победа стоят превыше всего, что делает их желанными друзьями и ужасными врагами.
+
+Их культура прочно укоренена в древних обычаях, и теперь они готовы нести эти традиции к звёздам. Главной из их ценностей является приоритет боя. Как личности, Морталены ищут славы в состязаниях воли, охоте на опасных зверей и смертельных поединках.
+
+Как общество, Морталены процветают благодаря состязаниям, дающим возможность продемонстрировать мощь и дисциплину своей культуры. Когда они выбирают врага, всё население Морталенов посвящает себя победе. Морталены гораздо реже других видов устают от конфликтов. Они никогда не сдаются и сражаются даже тогда, когда успех невозможен. Славная смерть несравнимо лучше позорного выживания.
+
+Эта врождённая воинственность вселяет страх в их врагов, но имеет свою цену внутри самой культуры Морталенов. В соответствии со своими древними традициями они сражаются друг с другом в состязаниях мастерства и мужества, и даже высокопоставленные лидеры могут предаваться личным междоусобицам.
+
+Морталены известны своими хорошо бронированными кораблями, обладающими уникальной маневренностью. Это идеальные инструменты для покорения новых миров. Стремясь к прогрессу и гонясь за честью, их военные лидеры мечтают о галактическом господстве, захватывая больше миров и порабощая больше народов, чем их соперники.
+
+Для Морталенов честь превыше всего, а сама галактика — это арена для проверки своей доблести.
+
+string (FeatureExplanations): [HL]Warrior Wave:[/HL] When you declare war obtain a 2 year boost to Mortalen Population Growth along with your choice of either a large Troop Recruitment Rate boost or a Troop Attack Strength boost
+->
+[HL]Волна воинов:[/HL] При объявлении войны вы получаете бонус к росту населения Морталенов на 2 года, а также выбираете один из двух вариантов: значительное увеличение скорости набора войск или повышение силы атаки войск.
+
+string (FeatureExplanations): [HL]Patriotic Wave:[/HL] When war is declared on you obtain a 2 year boost to Mortalen Population Growth along with your choice of either Colony Coruption Reduction or War Weariness Reduction
+->
+[HL]Волна патриотизма:[/HL] При объявлении войны вы получаете бонус к росту населения Морталенов на 2 года, а также выбираете одно из двух: снижение коррупции в колониях или снижение усталости от войны.
+
+string (FeatureExplanations): [HL]Know Your Enemy:[/HL] When you invade and conquer an enemy world choose a 2 year boost to either Espionage and Counter Espionage or Targeting and Countermeasures
+->
+[HL]Знай своего врага:[/HL] При вторжении и завоевании мира противника выберите бонус на 2 года: либо к шпионажу и контршпионажу, либо к точности наведения и противодействию.
+
+string (FeatureExplanations): [HL]Prove Yourself:[/HL] Periodically choose between 2 characters (from Leader, Admirals, Generals) to undergo a trial by arms. If successful the selected character gains a positive trait, otherwise a negative trait
+->
+[HL]Докажи себя:[/HL] Периодически выбирайте одного из двух персонажей (из Лидеров, Адмиралов или Генералов) для испытания оружием. В случае успеха выбранный персонаж получает положительную черту, в противном случае — отрицательную.
+
+string (FeatureExplanations): [HL]Reinforced Hulls:[/HL] all ship and spaceport hulls have +1 Reactive Armor rating
+->
+[HL]Усиленные корпуса:[/HL] все корпуса кораблей и космических портов имеют рейтинг реактивной брони +1
+
+string (FeatureExplanations): [HL]Unique Leader trait - Warmaster:[/HL] +10% Troop Maintenance Savings, +20% Ship Maintenance Savings
+->
+[HL]Уникальная черта лидера — Верховный главнокомандующий:[/HL] +10% экономии на содержании войск, +20% экономии на содержании кораблей
+
+string (FeatureExplanations): [HL]Unique Admiral trait - Grand Admiral:[/HL] +10% Weapons Damage, +10% Targeting
+->
+[HL]Уникальная черта адмирала — Великий адмирал:[/HL] +10% к урону оружием, +10% к точности наведения
+
+string (FeatureExplanations): [HL]Unique General trait - Disciple of War:[/HL] +20% Troop Attack Strength, +10% Troop Maintenance Savings
+->
+[HL]Уникальная общая черта — Последователь войны:[/HL] +20% к силе атаки войск, +10% к экономии на содержании войск
+
+string (FeatureExplanations): [HL]Unique Ambassador trait - Intimidating Presence:[/HL] +10% Diplomacy
+->
+[HL]Уникальная черта посла — Запугивающее присутствие:[/HL] +10% к дипломатии
+
+Description: Ikkuro are large, muscular primates with short brown-red fur.
+
+They have very large, widely-spaced ears that enable them to precisely determine the location of sounds. This ability gives them rudimentary sonar skills, allowing them to ‘see’ in the dark.
+
+Ikkuro tend to be intelligent and aggressive, though cautious. Ikkuro are often short-tempered. When provoked or threatened they can quickly become violent. Despite this they are generally gentle and affectionate to those they know well.
+
+They are extremely capable mechanics. Ikkuro can repair nearly any type of machinery. They also confidently reverse-engineer new devices they encounter. In fact they often end up improving the machine when they reassemble it.
+
+This natural mechanical predisposition has also led the Ikkuro to develop the S2F7 RepairBot, an advanced repair robot that can swiftly fix damage to star ships, even while they are in battle.
+
+Ikkuro have a great fascination with trees and plants, and have extensive knowledge of the various types of flora throughout the galaxy. They use this expert understanding to create an array of highly effective herbal medications.
+
+They typically live in tree-dwellings high in the forest canopies on Forest, Continental or Grasslands planets.
+->
+Иккуро — крупные мускулистые приматы с короткой коричнево-красной шерстью.
+
+У них очень большие широко расставленные уши, позволяющие точно определять местоположение звуков. Эта способность наделяет их элементарными навыками эхолокации, давая возможность «видеть» в темноте.
+
+Иккуро обычно умны и агрессивны, хотя и осторожны. Они часто бывают вспыльчивы. При провокации или угрозе они могут быстро перейти к насилию. Несмотря на это, по отношению к хорошо знакомым им существам они, как правило, мягки и ласковы.
+
+Они исключительно искусные механики. Иккуро способны ремонтировать практически любые виды техники. Они также уверенно разбирают новые устройства, с которыми сталкиваются, чтобы понять их устройство. Более того, при сборке они часто улучшают механизм.
+
+Эта природная склонность к механике привела Иккуро к созданию ремонтного робота S2F7 RepairBot — продвинутого аппарата для быстрого устранения повреждений звездолетов, даже в ходе боя.
+
+Иккуро испытывают глубокую тягу к деревьям и растениям и обладают обширными знаниями о разнообразных видах флоры во всей галактике. Используя это экспертное понимание, они создают широкий спектр высокоэффективных лекарственных средств на основе трав.
+
+Обычно Иккуро живут в жилищах, устроенных в кронах деревьев, высоко над землей, на планетах с лесным, континентальным или луговым биомом.
+
+Description: Boskara are a ferocious insectoid race with a tough brown exoskeleton skin.
+
+They are the most violent and aggressive race in the known galaxy. They excel in combat, using trickery and deceit to gain the upper-hand. Boskara are untrustworthy allies.
+
+Boskarans instinctive lust for conquest and expansion is without equal. Most other races consider them to be completely without scruples, and thus steer well clear of them. However Boskara have a natural ally in the Sluken, their slightly more reasonable close relatives.
+
+Their technology includes the deadly Shaktur FireStorm, an immensely destructive torpedo weapon. This weapon gives Boskaran star ships very powerful planetary assault capabilities, allowing them to quickly take down defending spaceports at enemy colonies. The Shaktur Firestorm also has a planetary bombardment capability, allowing the Boskara to wipe out the populations of enemy colonies.
+
+Boskara typically inhabit the forbidding terrain of Volcanic planets. Communities may sometimes also be found in the rocky mountains of Carbonaceous planets.
+->
+Боскара — свирепая раса инсектоидов с прочной коричневой хитиновой броней.
+
+Они являются самой жестокой и агрессивной расой в известной галактике. Боскара преуспевают в боях, используя хитрость и обман для достижения превосходства. Боскара — ненадежные союзники.
+
+Инстинктивная жажда завоеваний и экспансии у боскаран не имеет равных. Большинство других рас считает их совершенно беспринципными, поэтому они держатся от них подальше. Однако у боскара есть естественный союзник — слукены, их немного более разумные близкие родственники.
+
+Их технологии включают смертоносное оружие «Шактурский Огненный Шторм» — чрезвычайно разрушительную торпеду. Это вооружение придает звездным кораблям боскаран колоссальные возможности для планетарных штурмов, позволяя им быстро уничтожать оборонительные космопорты на вражеских колониях. «Шактурский Огненный Шторм» также обладает способностью к планетарной бомбардировке, что позволяет боскара полностью истреблять население вражеских колоний.
+
+Боскара обычно обитают в суровых условиях вулканических планет. Сообщества иногда можно обнаружить и в скалистых горах углеродистых планет.
+
+string (FeatureExplanations): [HL]Poor Damage Control:[/HL] all ship and base hulls have -10% Damage Reduction, increasing damage that penetrates shields and armor
+->
+[HL]Плохая система борьбы за живучесть:[/HL] все корпуса кораблей и баз имеют -10% к снижению урона, что увеличивает количество повреждений, проникающих сквозь щиты и броню.
+
+string (FeatureExplanations): [HL]Warspawn:[/HL] option to obtain a new strong 'Warspawn' [CHARACTER]admiral or general[/CHARACTER] when you declare war against another faction, but at the cost of [BAD]greatly reduced relations[/BAD] with all other factions without a Non Aggression Pact or Defense treaty. Having a Warspawn character also enables the [B]War Spawning[/B] feature (see below). Will not occur if you already have a Warspawn character
+->
+[HL]Порождения войны:[/HL] возможность получить нового сильного адмирала или генерала «Порождения войны» при объявлении войны другой фракции, но ценой [BAD]сильного снижения отношений[/BAD] со всеми остальными фракциями, у которых нет пакта о ненападении или оборонительного договора. Наличие персонажа «Порождения войны» также активирует функцию [B]Генерация войны[/B] (см. ниже). Не произойдет, если у вас уже есть персонаж «Порождения войны».
+
+string (FeatureExplanations): [HL]Underlords:[/HL] discover an additional resource when establish a new Volcanic colony
+->
+[HL]Подчиненные лорды:[/HL] обнаруживают дополнительный ресурс при создании новой вулканической колонии
+
+string (FeatureExplanations): [HL]We Reign Supreme:[/HL] when you conquer another empire's homeworld obtain +20% Empire Happiness for 10 years
+->
+[HL]Мы безраздельно властвуем:[/HL] при захвате столичного мира другой империи получите +20% к счастью империи на 10 лет
+
+string (FeatureExplanations): [HL]Crazed Cannibalism:[/HL] when not at war, one of your Boskara colonies may periodically engage in a hyper-aggressive frenzy of cannibalism, losing about 10% of it's population
+->
+[HL]Безумный каннибализм:[/HL] когда вы не ведете войну, одна из ваших колоний Боскара может периодически впадать в гиперагрессивное безумие и предаваться каннибализму, теряя около 10% своего населения.
+
+string (FeatureExplanations): [HL]Total War:[/HL] when not at war, the player can mobilize any colony towards war production for 2 years. During this time the colony will have +50% Ship Construction Speed and +50% Troop Recruitment Rate. However the colony will also take [BAD]5 damage per year[/BAD]
+->
+[HL]Тотальная война:[/HL] когда вы не ведете войну, игрок может мобилизовать любую колонию на военное производство сроком на 2 года. В течение этого времени колония получит +50% к скорости строительства кораблей и +50% к скорости набора войск. Однако колония также будет получать [BAD]5 единиц урона в год[/BAD].
+
+string (FeatureExplanations): [HL]War Spawning:[/HL] when a 'Warspawn' character exists in the empire, player can initiate War Spawning at any colony with over 1 billion Boskara. This will immediately convert 10% of the colony population into 10 new Infantry troop units at no cost
+->
+[HL]Генерация войны:[/HL] когда в империи существует персонаж «Порождения войны», игрок может инициировать Генерацию войны на любой колонии с населением более 1 миллиарда Боскара. Это мгновенно превратит 10% населения колонии в 10 новых отрядов пехоты без каких-либо затрат.
+
+string (FeatureExplanations): [HL]Core-Linked Weapons Mega Lab:[/HL] unique Boskara facility that provides bonuses to Weapons Research and All Research, but lowers the planet quality where it is built
+->
+[HL]Оружейная мега-лаборатория с прямой связью с ядром:[/HL] уникальная боскаранская установка, предоставляющая бонусы к исследованиям оружия и всем исследованиям, но снижающая качество планеты, на которой она построена.
+
+string (FeatureExplanations): [HL]Unique Leader trait - Underlord:[/HL] +10% Mining Rate. High chance of acquiring when establish a new Volcanic colony
+->
+[HL]Уникальная черта лидера — Подчиненный лорд:[/HL] +10% к скорости добычи. Высокая вероятность получения при создании новой вулканической колонии
+
+string (FeatureExplanations): [HL]Unique Spy trait - Malicious:[/HL] +10% Sabotage, +10% Assassination. High chance of acquiring when successfully complete any sabotage or assassination spy mission
+->
+[HL]Уникальная черта шпиона — Злобность:[/HL] +10% к саботажу, +10% к убийствам. Высокая вероятность получения при успешном выполнении любой шпионской миссии по саботажу или убийству
+
+string (FeatureExplanations): [HL]Unique Admiral and General trait - Warspawn:[/HL] +20% Ground Attack Strength, +10% Weapons Damage, +10% Targeting. Acquired when choose to assign a Warspawn after declaring war
+->
+[HL]Уникальная черта адмирала и генерала — Порождения войны:[/HL] +20% к силе наземной атаки, +10% к урону от оружия, +10% к точности наведения. Приобретается при назначении Порождения войны после объявления войны
+
+string (FeatureExplanations): [HL]Unique Admiral trait - World Scorcher:[/HL] +20% Bombardment Damage. Acquired when completely destroy a colony via bombardment
+->
+[HL]Уникальная черта адмирала — «Сжигатель миров»:[/HL] +20% урона от бомбардировки. Приобретается при полном уничтожении колонии в результате бомбардировки.
+
+Description: Zenox are an ancient feline race with thick golden fur.
+
+They are very cautious and will not lightly enter into an agreement with others. Any new treaties they form usually involve an extremely lengthy period of negotiation, with a protracted review phase at every step of the discussions. Zenox ensure that they are absolutely clear on every last detail of the agreement before finally approving it.
+
+Zenox take a particular interest in recording and preserving galactic history. They seek out items of historical significance from all over the galaxy.
+
+They are also outstanding epic story-tellers. They draw upon their vast store of old myth and legend to produce unique and compelling tales. Zenox claim to be guardians of secret knowledge of galactic history, some of which they reveal in their stories.
+
+In fact some of their historical research has led to unorthodox claims about the galaxy’s past. One of these stories asserts that all the Insectoid races once betrayed the rest of the galaxy to an outside invader. However most other alien races dismiss these conclusions as unproven fairy-tales.
+
+Zenox technology includes an advanced shield component, the Megatron. These powerful shields impart a potent defense to Zenox star ships and bases.
+
+Zenox inhabit the tundra wastelands of Ice Tundra, Ice or Frozen Ice planets. They typically build large cities deep underground in vast ice caves and tunnels.
+->
+Зеноксы — древняя кошачья раса с густой золотистой шерстью.
+
+Они крайне осторожны и не вступают легко в соглашения с другими. Любые новые договоры, которые они заключают, обычно требуют чрезвычайно длительного периода переговоров, на каждом этапе которых проводится затянутая фаза пересмотра. Зеноксы убеждаются, что абсолютно ясно понимают каждую последнюю деталь соглашения, прежде чем окончательно его утвердить.
+
+Зеноксы проявляют особый интерес к записи и сохранению галактической истории. Они ищут предметы исторического значения по всей галактике.
+
+Они также являются выдающимися рассказчиками эпических историй. Они черпают из своего обширного запаса древних мифов и легенд, чтобы создавать уникальные и захватывающие повествования. Зеноксы утверждают, что являются хранителями секретных знаний о галактической истории, часть которых они раскрывают в своих историях.
+
+На самом деле некоторые их исторические исследования привели к неординарным утверждениям о прошлом галактики. Одна из этих историй утверждает, что все инсектоидные расы когда-то предали остальную галактику внешнему захватчику. Однако большинство других инопланетных рас отвергают эти выводы как недоказанные сказки.
+
+Технологии Зеноксов включают передовой компонент щитов — «Мега́трон». Эти мощные щиты обеспечивают надежную защиту звездолетам и базам Зеноксов.
+
+Зеноксы населяют тундровые пустоши планет типов Ледяная тундра, Лед или Замерзший лед. Обычно они строят крупные города глубоко под землей в огромных ледяных пещерах и тоннелях.
+
+string (FeatureExplanations): [HL]Built-in Stealth:[/HL] most hulls for military ships and bases have +10 Stealth
+->
+[HL]Встроенная стелс-система:[/HL] большинство корпусов военных кораблей и баз имеют +10 к скрытности
+
+string (FeatureExplanations): [HL]Ancient Star Charts:[/HL] Exploration ships scan and survey 20% faster. All ships have 20% better Hyperdrive jump accuracy, exiting their jumps closer to the target (at foreign locations)
+->
+[HL]Древние звездные карты:[/HL] Корабли исследования сканируют и обследуют на 20% быстрее. Все корабли имеют точность гиперпрыжков на 20% выше, выходя из прыжков ближе к цели (на чужих локациях).
+
+string (FeatureExplanations): [HL]Wonders of the Past:[/HL] when a ruin is investigated there is a choice of +10% Empire Happiness or +10% All Research for one year
+->
+[HL]Чудеса прошлого:[/HL] при исследовании руин можно выбрать: +10% к счастью империи или +10% ко всем исследованиям на один год.
+
+string (FeatureExplanations): [HL]Predictive History:[/HL] when a ruin is investigated can choose to get improved Diplomacy and Intelligence for two years, but at the cost of reduced Research
+->
+[HL]Предсказательная история:[/HL] при исследовании руин можно выбрать получение улучшенной дипломатии и разведки на два года, но ценой снижения исследований.
+
+string (FeatureExplanations): [HL]Preserve the Ruins:[/HL] when establishing a new colony at a location with ruins there is a choice to convert the ruin to a free Governance facility, or keep the ruin, but with increased bonus levels
+->
+[HL]Сохранить руины:[/HL] при основании новой колонии в месте с руинами есть выбор: превратить их в бесплатное административное сооружение или сохранить руины, получив повышенные бонусы.
+
+string (FeatureExplanations): [HL]Subterranean Cities:[/HL] all planetary facilities have +25% Bombardment Resistance and +25% Ground Combat Resistance
+->
+[HL]Подземные города:[/HL] все планетарные сооружения получают +25% к сопротивлению бомбардировкам и +25% к сопротивлению наземным боям
+
+string (FeatureExplanations): [HL]Search the Archives:[/HL] can pay to perform a thorough review of all data in the Zenox archives. This review will provide a random benefit: a short-term boost to happiness or research, or even the coordinates of an important galactic location...
+->
+[HL]Поиск в архивах:[/HL] позволяет заплатить за тщательный обзор всех данных в архивах Зеноксов. Этот обзор даст случайную выгоду: краткосрочное повышение счастья или уровня исследований, а также координаты важного галактического объекта...
+
+string (FeatureExplanations): [HL]Unique Leader trait - Archivist:[/HL] +5% All Research, -5% Diplomacy. Acquired when investigate a ruin with any bonus of 10% or higher
+->
+[HL]Уникальная черта лидера — Архивист:[/HL] +5% ко всем исследованиям, -5% к дипломатии. Приобретается при исследовании руин с любым бонусом 10% или выше
+
+string (FeatureExplanations): [HL]Unique Leader trait - Ancient Lineage:[/HL] ensures the character only ever has positive traits. Any negative traits will be changed to positive ones. High chance of acquiring when investigate a ruin with an 'All Research' bonus
+->
+[HL]Уникальная черта лидера — Древнее происхождение:[/HL] гарантирует, что персонаж обладает исключительно положительными чертами. Любые негативные черты будут заменены на положительные. Высокая вероятность получения при исследовании руин с бонусом «Все исследования».
+
+string (FeatureExplanations): [HL]Unique Scientist trait - Living in the Past:[/HL] -5% All Research, but greatly increased chances of critical research breakthroughs. Acquired when investigate Ancient Guardian vaults
+->
+[HL]Уникальная черта учёного — Жизнь в прошлом:[/HL] −5% ко всем исследованиям, но значительно повышенные шансы на критические прорывы в науке. Приобретается при исследовании хранилищ Древних Стражей
+
+string (FeatureExplanations): [HL]Unique Ambassador trait - Manipulator:[/HL] -10% Diplomacy, +10% PsyOps. Acquire when sign treaty with another empire
+->
+[HL]Уникальная черта посла — Манипулятор:[/HL] −10% к дипломатии, +10% к пси-операциям. Приобретается при подписании договора с другой империей.
+
+string (FeatureExplanations): [HL]Unique Spy trait - Secretive:[/HL] +5% Counter Espionage, +5% Concealment. Acquire when intercept an enemy spy
+->
+[HL]Уникальная черта шпиона — Тайный характер:[/HL] +5% к контршпионажу, +5% к скрытности. Приобретается при перехвате вражеского шпиона
+
+Description: Wekkarus are large crustaceans with distinctive facial mandibles.
+
+Wekkarus live deep in the seas of Ocean planets. They can also live out of water for extended periods, but prefer a damp environment.
+
+They construct entire underwater cities in the vast caverns and tunnels of the ocean worlds they inhabit. These cities are centers of technology and industry, manufacturing advanced underwater technology that is used throughout the galaxy.
+
+The deep undersea tunnels that the Wekkarus inhabit are also the home to an abundance of other marine life - some of it hostile. Wekkarus fear one predator in particular: the leviathan Darkhul, a formidable deep-sea monster that grows to lengths of 100 meters or more.
+
+Wekkarus have adapted to these threats by developing powerful force-fields that guard the entrances to their underwater colonies.
+
+The Wekkarus also have deep knowledge of highly specialized Wave Beam weapons. This has led them to develop the potent PulseWave weapon. This unique type of beam weapon fires powerful waves of energy at targets.
+
+Wekkarus are a generally peaceful species that like to keep to themselves.
+->
+Веккарусы — крупные ракообразные с характерными челюстями на лице.
+
+Веккарусы обитают глубоко в морях планет океанического типа. Они также могут жить вне воды продолжительное время, но предпочитают влажную среду.
+
+Они строят целые подводные города в обширных пещерах и туннелях океанских миров, которые населяют. Эти города являются центрами технологий и промышленности, производя передовую подводную технику, используемую по всей галактике.
+
+Глубокие подводные туннели, где обитают Веккарусы, также служат домом для обилия другой морской фауны — часть из которой враждебна. Веккарусы особенно боятся одного хищника: левиафана Даркхула, грозного глубоководного монстра, достигающего длины 100 метров и более.
+
+Веккарусы адаптировались к этим угрозам, создав мощные силовые поля, защищающие входы в их подводные колонии.
+
+Веккарусы также обладают глубокими знаниями о высоко специализированных лучевых оружиях типа «Wave Beam». Это позволило им создать мощное оружие «PulseWave». Этот уникальный тип лучевого оружия выпускает по целям мощные энергетические волны.
+
+Веккарусы — в целом мирный вид, предпочитающий держаться обособленно.
+
+Description: Atuuks are a primitive, short, cuddly bear-like race with gold-green fur.
+
+Atuuks are very friendly, but rarely develop sufficient technology to be space-faring. However with their high reproductive rate, Atuuk communities can grow quickly.
+
+They have preserved a detailed oral history reaching back hundreds of generations. Over time they have also developed a complex social order. Each individual must accept their preordained status within the community, or face ostracism.
+
+Their unwillingness to tolerate any innovative thinking has caused their culture and technology to stagnate at a fairly primitive level.
+
+Above all else Atuuks enjoy hunting in the jungles of their homeworlds. Their preferred prey is the striped Caguar, a huge sabre-cat armed with razor-sharp claws. Hunting this enormous beast is extremely dangerous. Atuuks usually hunt Caguars in teams of 30-40, armed only with simple stone-tipped spears.
+
+Atuuks live in crude tree-huts on Forest, Grasslands or Mangrove Forest planets.
+->
+Атууки — примитивная, низкорослая, милая раса, похожая на медведей, с золотисто-зелёным мехом.
+
+Атууки очень дружелюбны, но редко развивают достаточные технологии для космических полетов. Однако благодаря высокой рождаемости общины Атууков могут быстро расти.
+
+Они сохранили подробную устную историю, уходящую корнями в сотни поколений. Со временем они также выработали сложный социальный порядок. Каждый индивид должен принять предопределённый статус внутри сообщества или столкнуться с остракизмом.
+
+Их нежелание терпеть любые новаторские идеи привело к тому, что их культура и технологии застыли на довольно примитивном уровне.
+
+Прежде всего Атууки любят охотиться в джунглях своих родных миров. Их любимая добыча — полосатый кагуар, огромный саблезубый кот с бритвенно-острыми когтями. Охота на это огромное существо крайне опасна. Атууки обычно охотятся на кагуаров группами по 30–40 человек, вооружённые лишь простыми копьями с каменными наконечниками.
+
+Атууки живут в грубых хижинах из деревьев на планетах с лесным, луговым или мангровым биомом.
+
+Description: Dhayuts are a large, powerful arachnid race. Dhayuts have a massive distended head with prominent red splotches and large orange-yellow eyes.
+
+Dhayuts are very aggressive and highly unfriendly. They can also prove to be treacherous partners, betraying their allies whenever expedient.
+
+They reproduce at a low rate, and thus their populations can take some time to grow.
+
+When they are angered Dhayuts can become frenzied and temporarily insane, acting instinctively wild. At these times they are extremely dangerous, becoming totally fearless when attacking.
+
+Dhayuts are also famous for their ruthlessness. They generally have no qualms about stealing, cheating or murdering if it furthers their interests. For this reason it is wise to use extreme caution when dealing with them.
+
+The Dhayuts natural fascination with hyperspace technology has led them to develop the VelocityDrive ST3, an extremely fast and efficient hyperdrive.
+
+The natural habitats of Dhayuts are rocky retreats on Desert Savanna, Rocky Desert or Sandy Desert planets.
+->
+Дхаюты — крупная и могущественная раса паукообразных. У Дхаютов массивная вытянутая голова с заметными красными пятнами и большие оранжево-желтые глаза.
+
+Дхаюты крайне агрессивны и крайне недружелюбны. Они также могут оказаться предательскими партнерами, предавая своих союзников всякий раз, когда это выгодно.
+
+Они размножаются медленно, поэтому их популяциям требуется некоторое время для роста.
+
+Когда Дхаютов злят, они впадают в ярость и временно теряют рассудок, действуя инстинктивно дико. В такие моменты они крайне опасны, становясь совершенно бесстрашными при атаке.
+
+Дхаюты также известны своей безжалостностью. Они обычно не испытывают угрызений совести, крадя, обманывая или убивая, если это служит их интересам. По этой причине при общении с ними следует проявлять крайнюю осторожность.
+
+Естественная тяга Дхаютов к технологиям гиперпространства привела их к созданию VelocityDrive ST3 — чрезвычайно быстрого и эффективного гипердвигателя.
+
+Естественные места обитания Дхаютов — скалистые убежища на планетах с пустынно-саванновым, каменисто-пустынным или песчано-пустынным климатом.
+
+Description: Gizureans are an insectoid race with four arms. Gizureans can also fly short distances with their small wings.
+
+They are aggressive and unfriendly, though not very intelligent. Gizureans tend to be highly belligerent. They often make inflammatory claims of their own tribal superiority, viciously mocking and insulting other tribes. This leads to frequent inter-tribal battles.
+
+Gizureans have an intense dislike of other alien races, especially non-insectoid races. This trait makes it very difficult to peacefully assimilate Gizureans into an empire.
+
+They have a very high reproductive rate, and thus their empires can grow and expand very quickly.
+
+Gizureans typically build their cavernous underground homes on in rocky areas of Rocky Desert or Sandy Desert planets, but can sometimes also be found on Desert Savanna or Volcanic planets.
+->
+Гизуриане — это инсектоидная раса с четырьмя руками. Гизуриане также способны на короткие перелеты благодаря своим небольшим крыльям.
+
+Они агрессивны и недружелюбны, хотя и не отличаются высоким интеллектом. Гизуриане склонны к крайней воинственности. Они часто выдвигают провокационные заявления о превосходстве своего племени, жестоко высмеивая и оскорбляя другие племена. Это приводит к частым межплеменным битвам.
+
+Гизурианы испытывают глубокую неприязнь к другим инопланетным расам, особенно к неинсектоидным. Эта черта делает крайне трудной мирную ассимиляцию Гизуриан в составе империи.
+
+Они обладают очень высокой скоростью размножения, поэтому их империи могут расти и расширяться с невероятной быстротой.
+
+Гизуриане обычно строят свои просторные подземные жилища в скалистых районах планет типа Каменистой пустыни или Песчаной пустыни, но иногда их можно встретить также на планетах типа Пустынной саванны или Вулканических планет.
+
+Description: Ketarovs are an average-sized bipedal mammalian race with short white fur.
+
+Ketarovs are very intelligent and love intrigue and deception. Instead of engaging in open conflict with their enemies, they prefer to use espionage and sabotage to exploit their weaknesses.
+
+They are often suspicious that others are working to undermine them. This natural paranoia reinforces their inclination towards spying and espionage. However it can also lead to misunderstandings, as they constantly question the intentions of even their friends.
+
+For these reasons Ketarovs are often unreliable allies - ironically they are untrustworthy because they do not trust others.
+
+Ketarovs are usually found in large communities dwelling on the open plains of Grasslands or Continental planets.
+->
+Кетаровы — раса средних размеров, двуногих млекопитающих с короткой белой шерстью.
+
+Кетаровы обладают высоким интеллектом и любят интриги и обман. Вместо того чтобы вступать в открытую конфронтацию со своими врагами, они предпочитают использовать шпионаж и саботаж, чтобы эксплуатировать их слабости.
+
+Они часто подозревают, что другие стремятся подорвать их позиции. Эта естественная паранойя укрепляет их склонность к шпионажу и разведке. Однако это также может приводить к недопониманию, поскольку они постоянно ставят под сомнение намерения даже своих друзей.
+
+По этим причинам Кетаровы часто являются ненадежными союзниками — иронично, но они не заслуживают доверия именно потому, что сами никому не доверяют.
+
+Кетаровы обычно обитают в крупных сообществах на открытых равнинах планет с луговым или континентальным биомом.
+
+Description: Kiadians are a highly intelligent humanoid race with an expanded cranium.
+
+Kiadians are shrewd and sensible. They carefully evaluate and plan for potential repercussions from any course of action they undertake. They also make some of the most loyal allies known.
+
+Kiadians are deep thinkers with an absorbing culture of profound subtlety. They love to ponder the abstract complexities of advanced mathematics. They are also a very practical people: they apply their sharp intellect to developing sophisticated technology.
+
+Their advanced technology includes the ShadowGhost ECM, an exceptionally capable countermeasures component. These powerful countermeasures make Kiadian star ships very difficult for enemies to target, allowing them to avoid a lot of enemy weapons fire.
+
+The Kiadian honor code is legendary: they would prefer to die than break their word. Once a Kiadian commits to an agreement they will never break it.
+
+They are also a very proud race, and they revel in undertaking impossible assignments that typically end in honorable defeat. This seemingly irrational approach can sometimes lead to astonishing accomplishments - Kiadians will struggle tenaciously in a situation that others would dismiss as hopeless.
+
+The typical habitats of Kiadians are the mountains and low plains of Continental or Forest planets.
+->
+Киадианы — высокоразвитая гуманоидная раса с увеличенным черепом.
+
+Киадианы хитры и рассудительны. Они тщательно оценивают и планируют возможные последствия любого предпринимаемого ими действия. Кроме того, они являются одними из самых верных союзников в галактике.
+
+Киадианы — глубокие мыслители с поглотительной культурой, проникнутой тончайшей глубиной. Они любят размышлять над абстрактными сложностями продвинутой математики. В то же время они очень практичны: применяют свой острый интеллект для создания изощренных технологий.
+
+Их передовые технологии включают систему противодействия ShadowGhost ECM — исключительно эффективный компонент защиты. Эти мощные средства противодействия делают звездные корабли киадиан крайне трудными целями для врагов, позволяя им уклоняться от значительной части вражеского огня.
+
+Код чести киадианов легендарен: они предпочтут смерть нарушению своего слова. Как только киадиан дает обещание или заключает соглашение, он никогда его не нарушит.
+
+Они также — очень гордая раса и с радостью берутся за невыполнимые задания, которые обычно заканчиваются почетным поражением. Этот кажущийся иррациональным подход иногда приводит к удивительным достижениям: киадианы будут упорно бороться в ситуации, которую другие сочли бы безнадежной.
+
+Типичные места обитания киадианов — горы и равнины континентальных или лесных планет.
+
+Description: Naxxilians are towering, fearsome reptiles with intense red eyes. Although they are reptilian, Naxxilians are covered in shaggy fur. They have immensely powerful forearms that equip them well for hand-to-hand combat.
+
+They are highly aggressive, but can be quite loyal allies if befriended. Naxxilians tend to be extremely cautious, though they can be quite friendly once they become familiar with others.
+
+Naxxilians are fanatically devoted to a competitive sport they call Todash. Todash is a game played with two small rocks. The object of the game is to get both rocks into the opposing team’s goal area at the same time. A point is scored when this happens. The first team to reach 10 points wins the game.
+
+In Todash, there are no strict rules about how you can tackle a player carrying one of the rocks, so the game can sometimes become rather brutal. Possession over the two rocks can see-saw back and forth for considerable time, with no clear advantage for either team. Games can sometimes stretch on for many hours, and can even be adjourned to resume the next day.
+
+Many Naxxilians live in small tribal encampments. However they also have highly-developed urban areas, filled with advanced industries such as starship construction.
+
+Naxxilians normally live on the tundra wastelands of Ice Tundra and Ice planets, but can sometimes also be found in secluded valleys on Frozen Ice planets.
+->
+Наксиллианы — это величественные и страшные рептилии с яростными красными глазами. Несмотря на то что они являются рептилиями, их тела покрыты густой шерстью. Они обладают невероятно мощными предплечьями, что делает их превосходными бойцами в рукопашном бою.
+
+Они крайне агрессивны, но могут стать весьма верными союзниками, если с ними подружиться. Наксиллианы обычно проявляют крайнюю осторожность, однако становятся довольно дружелюбными, когда узнают друг друга поближе.
+
+Наксиллианы фанатично преданы конкурентному спорту, который они называют Тодаш. Тодаш — это игра с двумя маленькими камнями. Цель игры заключается в том, чтобы одновременно забросить оба камня в зону ворот противника. Очко засчитывается, когда это происходит. Команда, первой набравшая 10 очков, выигрывает игру.
+
+В Тодаше нет строгих правил относительно того, как можно сбить игрока, несущего один из камней, поэтому игра иногда становится довольно жестокой. Владение двумя камнями может переходить от одной команды к другой в течение длительного времени без явного преимущества ни для кого. Игры могут длиться многие часы и даже прерываться на следующий день для продолжения.
+
+Многие Наксиллианы живут в небольших племенных лагерях. Однако у них также есть высокоразвитые городские районы, наполненные передовыми отраслями промышленности, такими как строительство звездолетов.
+
+Наксиллианы обычно обитают на тундровых пустошах мира Ice Tundra и ледяных планет, но их иногда можно встретить в уединенных долинах на замерзших ледяных планетах.
+
+Description: Quamenos are a highly intelligent amphibious race. Quamenos are tall and graceful, with long limbs and neck. Their large eyes are set on the side of their heads, giving them excellent peripheral vision with a range of nearly 360 degrees.
+
+Quamenos are very peaceful and prefer to keep to themselves. They typically choose to live in isolation from other races, staying out of the mainstream of galactic activity.
+
+They enjoy difficult mental challenges such as solving puzzles or deciphering unknown inscriptions. This natural inclination also makes them gifted linguists - they can master a new language within a few days.
+
+They also love to experiment with exotic scientific principles, and in the process they often produce potent technology. In fact their natural fascination with unusual energy theories has led them to develop the NovaCore, a very powerful and efficient reactor.
+
+Quamenos take a tremendous interest in galactic history. They also seek out peculiar prehistoric artifacts. Their studies have led many Quameno scholars to claim that there are large gaps in our understanding of past events.
+
+Quameno communities typically live in semi-submerged, high-tech biodomes in the shallow coastal areas of Mangrove Forest, Marshy Swamp or Ocean planets.
+->
+Куамено — высокоразвитая амфибийная раса. Куамено высокие и грациозные, с длинными конечностями и шеей. Их большие глаза расположены по бокам головы, что обеспечивает отличное периферийное зрение в диапазоне почти 360 градусов.
+
+Куамено очень миролюбивы и предпочитают держаться особняком. Они обычно выбирают жизнь в изоляции от других рас, избегая основного потока галактической активности.
+
+Они любят сложные интеллектуальные задачи, такие как решение головоломок или расшифровка неизвестных надписей. Эта естественная склонность также делает их одарёнными лингвистами — они могут освоить новый язык всего за несколько дней.
+
+Куамено также любят экспериментировать с экзотическими научными принципами, и в процессе часто создают мощные технологии. Более того, их естественный интерес к необычным энергетическим теориям привёл их к созданию НоваКора — чрезвычайно мощного и эффективного реактора.
+
+Куамено проявляют огромный интерес к галактической истории. Они также ищут странные доисторические артефакты. Их исследования побудили многих учёных Куамено заявить, что в нашем понимании прошлых событий существуют огромные пробелы.
+
+Сообщества Куамено обычно живут в полузатопленных высокотехнологичных биокуполах на мелководье прибрежных зон планет с мангровыми лесами, болотистыми топями или океаническими биомными условиями.
+
+Description: Securans are a strikingly attractive, green-skinned humanoid race.
+
+They are friendly and are also very loyal allies.
+
+Securans have a high reproduction rate, and thus their populations can grow quite rapidly.
+
+They excel at performance art, especially singing and dancing. They are also expert musicians and composers.
+
+Securans have a highly developed theater tradition. Their plays are packed with drama and suspense. Securan actors and actresses are in high demand all over the galaxy, filling leading roles in dramatic productions. Large Securan drama companies traverse the galaxy to perform in various locations.
+
+They also take a passionate interest in cooking and eating. Enjoying good food and fine Securan wine is a central part of their culture.
+
+Securans are very hospitable, and they will invariably indulge any off-world visitors in a grand feast that features all of their excellent cuisine.
+
+Securans inhabit the vast open plains of Desert Savanna, Sandy Desert or Rocky Desert planets.
+->
+Секураны — поразительно привлекательная раса гуманоидов с зеленой кожей.
+
+Они дружелюбны и являются также очень верными союзниками.
+
+У секуранов высокий темп размножения, поэтому их популяция может расти довольно быстро.
+
+Секураны преуспевают в исполнительском искусстве, особенно в пении и танцах. Они также являются экспертами-музыкантами и композиторами.
+
+У секуранов высоко развитая театральная традиция. Их спектакли переполнены драматизмом и напряжением. Актеры и актрисы секуранов пользуются высоким спросом по всей галактике, занимая ведущие роли в драматических постановках. Крупные труппы секуранских драматургов путешествуют по галактике, выступая в различных местах.
+
+Они также с большой страстью интересуются кулинарией и едой. Наслаждение хорошей пищей и изысканным винным напитком секуранов является центральной частью их культуры.
+
+Секураны очень гостеприимны, и они неизменно угощают любых посетителей из других миров грандиозным пиром, в котором представлены все их превосходные блюда.
+
+Секураны населяют обширные открытые равнины планет типа Пустынно-саванновые, Песчаные пустынные или Каменистые пустынные.
+
+Description: Shandars are an Easy-going reptilian race with green scaly skin.
+
+Shandar reside near volcanic steam vents on Volcanic or Carbonaceous planets. They may sometimes also be found on Sulphur Volcanic worlds. They love heat and warmth, and especially enjoy lounging for hours on end in geothermal hot-pools.
+
+Shandar lifespan is measured in centuries, with some even reaching 1,000 years of age. They are usually quite laid back and unconcerned with worry or planning. Shandar focus on enjoying simple pleasures and living for the moment.
+
+They are particularly adept at using liquid lava in construction, forming it into structures as it cools to rock. Using these techniques they can quickly fabricate tough, durable buildings. Their vast underground spaceyards, built in this manner, are especially famous.
+
+Though they often industriously mine for gemstones, they generally take little interest in the greater galaxy around them. They are usually content to live their centuries-long lives basking in the heat on the shores of lava lakes.
+->
+Шандары — это легко приспосабливающаяся рептилоидная раса с зеленой чешуйчатой кожей.
+
+Шандары обитают вблизи вулканических паровых фумарол на вулканических или углеродистых планетах. Их также иногда можно встретить на серно-вулканических мирах. Они любят жару и тепло, особенно предпочитая часами нежиться в геотермальных горячих бассейнах.
+
+Продолжительность жизни шандаров исчисляется столетиями; некоторые из них доживают даже до 1000 лет. Обычно они довольно расслаблены и беззаботны, не озабочены тревогами или планированием будущего. Шандары сосредоточены на наслаждении простыми радостями жизни и живут настоящим моментом.
+
+Они особенно искусно используют жидкую лаву в строительстве, формируя из неё сооружения по мере остывания до камня. Используя эти техники, они могут быстро возводить прочные и долговечные здания. Их огромные подземные верфи, построенные таким образом, особенно знамениты.
+
+Хотя они часто усердно добывают драгоценные камни, в целом они проявляют мало интереса к остальной галактике вокруг себя. Обычно им достаточно спокойно прожить свои столетия, нежась на берегу лавовых озер.
+
+Description: Sluken are a short insectoid race with thick brown exoskeleton covering. Sluken have many small forearms enabling them to perform multiple actions simultaneously.
+
+Sluken are very aggressive and intelligent. A central theme in their customs involves a macabre reverence of death.
+
+Sluken have the bizarre and gruesome ability to incorporate into their own bodies the biological appendages and organs from other alien races. Thus some Sluken have additional limbs, eyes or other body parts.
+
+Some other alien races allege that Sluken are in fact genetically modified creatures, designed as an ultimate warrior race. But the Sluken themselves denounce such claims as outrageous slander.
+
+Sluken technology includes the StarBurner, a very fast and powerful engine. With these engines, Sluken star ships are able to outrun nearly any opponent.
+
+Sluken are found on Marshy Swamp and Mangrove Forest planets.
+->
+Слукены — короткая раса инсектоидов с толстым коричневым экзоскелетом. У Слукенов множество маленьких предплечий, позволяющих им выполнять несколько действий одновременно.
+
+Слукены крайне агрессивны и умны. Центральная тема их обычаев — мрачное почитание смерти.
+
+Слукены обладают странным и ужасающим умением встраивать в собственное тело биологические конечности и органы других инопланетных рас. Поэтому некоторые Слукены имеют дополнительные конечности, глаза или другие части тела.
+
+Некоторые другие инопланетные расы утверждают, что Слукены на самом деле являются генетически модифицированными существами, созданными как высшая раса воинов. Однако сами Слукены отвергают такие утверждения как возмутительную клевету.
+
+Технологии Слукенов включают двигатель «Звездный форсаж» — очень быстрый и мощный двигатель. Благодаря этим двигателям звездолеты Слукенов способны обгонять почти любого противника.
+
+Слукены обитают на планетах с болотистыми топями и мангровыми лесами.
+
+Description: Ugnari are a short, wrinkly rodent race.
+
+Though not especially gifted with technology, Ugnari are fascinated by machinery and electronics and spend much time diligently studying and experimenting with them.
+
+This fascination often leads Ugnari to invent interesting alternative technology by combining unrelated components together to form new equipment with improved capabilities.
+
+Ugnari also love to gamble and place bets on nearly any activity imaginable.
+
+By nature they are fairly friendly, though cautious. However it is wise to carefully examine the fine print of any business contract made with an Ugnari - they are often devious, even dishonest.
+
+Ugnari do not see underhandedness as a negative trait, nor do they consider cheating someone to be a personal insult to their victim. Instead they deem a highly profitable business deal as a great achievement, even if it was attained by trickery. In fact they highly admire anyone who manages to outdo them in deceit.
+
+Their technology includes the Raptor Combat Targetting system. This powerful targeting technology makes weapons fire from Ugnari military ships more accurate and deadly.
+
+Ugnari inhabit the tundra wastelands of Ice Tundra and Ice planets. They typically build large cities deep underground in vast ice caves and tunnels.
+->
+Угнари — короткая, морщинистая раса грызунов.
+
+Хотя они не особенно одарены технологиями, Угнари очарованы машинами и электроникой и проводят много времени, усердно изучая их и экспериментируя с ними.
+
+Это увлечение часто приводит Угнари к созданию интересных альтернативных технологий путем объединения несвязанных компонентов для формирования нового оборудования с улучшенными характеристиками.
+
+Угнари также любят азартные игры и делают ставки практически на любое imaginable занятие.
+
+По своей природе они довольно дружелюбны, хотя и осторожны. Однако разумно внимательно изучить мелкий шрифт любого делового контракта, заключенного с Угнари — они часто коварны, даже нечестны.
+
+Угнари не считают подлость негативной чертой и не рассматривают обман кого-либо как личное оскорбление для жертвы. Вместо этого они считают высокоприбыльную сделку великим достижением, даже если она была достигнута хитростью. Более того, они высоко ценят любого, кто сумел превзойти их в коварстве.
+
+Их технологии включают систему целеуказания «Ястреб». Эта мощная система наведения делает огонь оружия с военных кораблей Угнари более точным и смертоносным.
+
+Угнари населяют тундровые пустоши миров типа Ледяная тундра и Ледяные планеты. Обычно они строят крупные города глубоко под землей в огромных ледяных пещерах и тоннелях.
+
+Description: The Shakturi are an extinct race of insectoid aliens that are said to have inhabited the galaxy long ago.
+
+Many ancient myths and legends recount the Shakturi as fearsome invaders from another galaxy far away. They were cunning and merciless aggressors who successfully conquered most of the galaxy. But when they were on the verge of total victory, they suddenly vanished without trace.
+
+At least, that’s what the ancient stories say. Others claim that the Shakturi never really existed, but are instead an invention used to slander all insectoid races as cruel and evil.
+->
+Шактури — исчезнувшая раса инсектоидных пришельцев, которые, по преданиям, населяли галактику в далеком прошлом.
+
+Многие древние мифы и легенды рассказывают о Шактури как о грозных захватчиках из другой далёкой галактики. Они были хитрыми и беспощадными агрессорами, успешно завоевавшими большую часть галактики. Но когда они стояли на пороге полной победы, они внезапно исчезли бесследно.
+
+По крайней мере, так говорят древние предания. Другие утверждают, что Шактури никогда не существовали на самом деле, а являются лишь выдумкой, созданной для того, чтобы очернить все инсектоидные расы как жестоких и злых существ.
+

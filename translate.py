@@ -126,8 +126,47 @@ def check_translated_file(file_path: str) -> int:
     english_re = re.compile(r'[A-Za-z]')
     found = []
 
+    def should_ignore_text(text: str) -> bool:
+        """Check if text should be ignored during English word detection."""
+        # Remove newlines for checking
+        text = text.replace('\n', '').strip()
+        if not text:
+            return True
+            
+        # Find all bracketed content
+        bracket_pattern = re.compile(r'\[([^\]]*)\]|\{([^\}]*)\}')
+        brackets = bracket_pattern.findall(text)
+        
+        # Remove bracketed content from text
+        text_without_brackets = bracket_pattern.sub('', text).strip()
+        
+        # Check if remaining text has English letters (but not Cyrillic or other non-ASCII)
+        # Only consider it English if it contains ASCII letters
+        ascii_letters = re.findall(r'[A-Za-z\+\-%]+', text_without_brackets)
+        if ascii_letters:
+            # Check if these are actual English words (not just single letters or codes)
+            for word in ascii_letters:
+                if len(word) > 2:  # Ignore short codes/abbreviations
+                    return False
+            
+        # Check bracketed content - should only contain digits, English letters, or closing tags
+        for bracket_content in brackets:
+            content = bracket_content[0] or bracket_content[1]  # Either from [] or {}
+            # Allow digits, English letters, spaces, and closing tags like </tag>
+            if not re.match(r'^[\d\sA-Za-z\+\-%,</>]*$', content):
+                return False
+                
+        return True
+
     def check_text(elem, path):
-        if elem.text and elem.text.strip() and english_re.search(elem.text):
+        # Skip technical tags that contain game constants/identifiers
+        technical_tags = {'Type', 'ImageFilename', 'AppliesTo', 'ArtifactId', 'DiscoveryLevel', 
+                         'BonusesOnlyWhenAtColony', 'BonusesOnlyWhenAtCapital', 'PsychicResistance', 
+                         'RaceId', 'Amount'}
+        if elem.tag in technical_tags:
+            return
+            
+        if elem.text and elem.text.strip() and not should_ignore_text(elem.text):
             found.append((path, elem.text.strip()))
 
     for elem in root.iter():

@@ -2064,7 +2064,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Архив биологического оружия</MessageTitle>
-				<Description>Мы достигли источника энергетического сигнала, похожего на сигнал маяка у галактического края, и обнаружили массивную структуру, которая, по-видимому, недавно emerged из глубин земной коры. Должно быть, оно скрывалось там незамеченным веками.</Description>
+				<Description>Мы достигли источника энергетического сигнала, похожего на сигнал маяка у галактического края, и обнаружили массивную структуру, которая, по-видимому, недавно поднялась из глубин земной коры. Должно быть, оно скрывалось там незамеченным веками.</Description>
 				<ImageFilepath>Environment/Events/shakturi archive</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>

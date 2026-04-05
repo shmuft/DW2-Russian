@@ -6022,7 +6022,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Полезный salvage</MessageTitle>
+				<MessageTitle>Полезная добыча</MessageTitle>
 				<Description>Мы получили много ценного, разобрав остатки древней колонии.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
