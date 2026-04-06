@@ -6,18 +6,75 @@ import xml.etree.ElementTree as ET
 import requests
 from concurrent.futures import ThreadPoolExecutor
 from system_prompt import SYSTEM_PROMPT
+import pickle
+import os
+
+try:
+    import keyboard
+except ImportError:
+    print("Библиотека 'keyboard' не установлена. Установите её командой: pip install keyboard")
+    sys.exit(1)
 
 DEFAULT_MODEL = "qwen/qwen3.5-35b-a3b"
 # DEFAULT_MODEL = "google/gemma-4-26b-a4b"
 DEFAULT_LOCAL_ENDPOINT = "http://localhost:1234/v1/chat/completions"
 DEFAULT_POOL_TIMEOUT = 120000
 
+paused = False
+
+# Глобальный кеш для словаря
+_glossary_cache = None
+_glossary_lock = threading.Lock()
+
+def pause_handler():
+    global paused
+    paused = True
+    print("\nПауза запрошена. Сохраняю прогресс и выхожу...")
+
+
+def _build_glossary():
+    """Парсит SYSTEM_PROMPT и строит словарь переводов."""
+    glossary = {}
+    # Ищем все строки вида: "English Text"→"Русский текст"
+    pattern = r'"([^"]+)"→"([^"]+)"'
+    matches = re.findall(pattern, SYSTEM_PROMPT)
+    for english, russian in matches:
+        glossary[english.strip()] = russian.strip()
+    return glossary
+
+
+def _get_glossary():
+    """Возвращает закешированный словарь (потокобезопасно)."""
+    global _glossary_cache
+    if _glossary_cache is None:
+        with _glossary_lock:
+            if _glossary_cache is None:
+                _glossary_cache = _build_glossary()
+                print(f"[INFO] Загружено {len(_glossary_cache)} требований из системного промпта")
+    return _glossary_cache
+
+
+def _translate_from_glossary(text: str) -> str:
+    """
+    Проверяет словарь и возвращает перевод, если найден.
+    Возвращает None, если перевод не найден.
+    """
+    glossary = _get_glossary()
+    return glossary.get(text.strip())
+
 
 def translate_text(text: str) -> str:
     """
     Перевод текста через LM Studio (локальный LLM).
+    Сначала проверяет словарь из SYSTEM_PROMPT, если текст есть там - возвращает готовый перевод.
     Требуется запущенный LM Studio с включённым локальным сервером.
     """
+    
+    # Сначала проверяем словарь
+    glossary_translation = _translate_from_glossary(text)
+    if glossary_translation:
+        print(f"[GLOSSARY] {text} -> {glossary_translation}")
+        return glossary_translation
 
     prompt = (
         f"Text: {text}"
@@ -27,6 +84,7 @@ def translate_text(text: str) -> str:
         DEFAULT_LOCAL_ENDPOINT,
         json={
             "model": DEFAULT_MODEL,
+            "session_id": "game-translation",
             "messages": [
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": prompt}
@@ -93,6 +151,12 @@ class RemotePoolTranslator:
             return endpoint
 
     def _send_request(self, text, endpoint):
+        # Сначала проверяем словарь
+        glossary_translation = _translate_from_glossary(text)
+        if glossary_translation:
+            print(f"[GLOSSARY] {text} -> {glossary_translation}")
+            return glossary_translation
+        
         url = f"{endpoint}/v1/chat/completions"
         prompt = f"Text: {text}"
         response = self.session.post(
@@ -430,8 +494,26 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
         print(f"Список слов для словаря сохранён: {words_file}")
         return
 
+    # Загрузка прогресса
+    progress_file = f"{output_file}.progress.pkl"
+    start_index = 0
+    if os.path.exists(progress_file):
+        try:
+            with open(progress_file, 'rb') as f:
+                progress = pickle.load(f)
+            if progress.get('file') == output_file:
+                start_index = progress.get('task_index', 0)
+                print(f"Найден сохранённый прогресс. Продолжаю с задачи {start_index + 1}")
+            else:
+                print("Прогресс для другого файла, начинаю заново.")
+        except Exception as e:
+            print(f"Ошибка загрузки прогресса: {e}. Начинаю заново.")
+
     # Process translations one by one to show logs in real time
-    for elem, tag, original in tasks:
+    for i in range(start_index, len(tasks)):
+        if paused:
+            break
+        elem, tag, original = tasks[i]
         if translator is None:
             translated = translate_text(original)
         else:
@@ -442,19 +524,34 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
         print(log_msg, flush=True)
         log_entries.append(log_msg)
 
-    tree.write(output_file, encoding="utf-8", xml_declaration=True)
-    print(f"\nФайл сохранён: {output_file}")
+        # Сохранение прогресса
+        progress = {
+            'file': output_file,
+            'task_index': i + 1
+        }
+        with open(progress_file, 'wb') as f:
+            pickle.dump(progress, f)
+
+    if not paused:
+        tree.write(output_file, encoding="utf-8", xml_declaration=True)
+        print(f"\nФайл сохранён: {output_file}")
         
-    # Save log file
-    log_file = output_file.replace('.xml', '_log.txt')
-    with open(log_file, 'w', encoding='utf-8') as f:
-        f.write(f"Лог перевода: {input_file}\n")
-        f.write(f"Выходной файл: {output_file}\n")
-        f.write(f"Всего переводов: {len(log_entries)}\n")
-        f.write("="*80 + "\n\n")
-        for entry in log_entries:
-            f.write(entry + "\n")
-    print(f"Лог сохранён: {log_file}")
+        # Save log file
+        log_file = output_file.replace('.xml', '_log.txt')
+        with open(log_file, 'w', encoding='utf-8') as f:
+            f.write(f"Лог перевода: {input_file}\n")
+            f.write(f"Выходной файл: {output_file}\n")
+            f.write(f"Всего переводов: {len(log_entries)}\n")
+            f.write("="*80 + "\n\n")
+            for entry in log_entries:
+                f.write(entry + "\n")
+        print(f"Лог сохранён: {log_file}")
+
+        # Удаление файла прогресса
+        if os.path.exists(progress_file):
+            os.remove(progress_file)
+    else:
+        print(f"Прогресс сохранён в {progress_file}. Запустите скрипт снова для продолжения.")
 
 def main():
     parser = argparse.ArgumentParser(
@@ -494,6 +591,9 @@ def main():
 
     if args.output is None:
         parser.error('output обязателен, если не задан --check')
+
+    # Настройка обработчика паузы
+    keyboard.add_hotkey('pause', pause_handler)
 
     pool_addresses = []
     if args.pool:

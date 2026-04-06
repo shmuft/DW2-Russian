@@ -11,6 +11,41 @@ import subprocess
 import sys
 from pathlib import Path
 
+def translate_file(input_path: Path, output_path: Path, words_mode: bool = False, check_mode: bool = False, pool_addresses=None, pool_timeout: int = 120) -> int:
+    """
+    Run translate.py for a single XML file.
+
+    Returns:
+        0 if successful,
+        1 if untranslated English words were found in check mode,
+        2 if another error occurred.
+    """
+    cmd = [sys.executable, 'translate.py']
+    if check_mode:
+        cmd.extend([str(output_path), '--check'])
+    else:
+        cmd.extend([str(input_path), str(output_path)])
+        if words_mode:
+            cmd.append('--words')
+        if pool_addresses:
+            for addr in pool_addresses:
+                cmd.extend(['--pool', addr])
+            if pool_timeout is not None:
+                cmd.extend(['--pool-timeout', str(pool_timeout)])
+
+    try:
+        subprocess.run(cmd, check=True)
+        return 0
+    except subprocess.CalledProcessError as e:
+        if check_mode and e.returncode == 1:
+            print(f"Найдены английские слова в {output_path}")
+            return 1
+        print(f"Error processing {input_path if not check_mode else output_path}: {e}")
+        return 2
+    except Exception as e:
+        print(f"Unexpected error processing {input_path if not check_mode else output_path}: {e}")
+        return 2
+
 
 def translate_file(input_path: Path, output_path: Path, words_mode: bool = False, check_mode: bool = False, pool_addresses=None, pool_timeout: int = 120) -> int:
     """
