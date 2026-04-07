@@ -8,6 +8,7 @@ from concurrent.futures import ThreadPoolExecutor
 from system_prompt import SYSTEM_PROMPT
 import pickle
 import os
+from pathlib import Path
 
 try:
     import keyboard
@@ -24,6 +25,10 @@ paused = False
 # Глобальный кеш для словаря
 _glossary_cache = None
 _glossary_lock = threading.Lock()
+
+# Глобальный кеш для переводов из уже переведённых файлов
+_translation_cache = None
+_translation_cache_lock = threading.Lock()
 
 def pause_handler():
     global paused
@@ -62,18 +67,64 @@ def _translate_from_glossary(text: str) -> str:
     return glossary.get(text.strip())
 
 
+def set_translation_cache(cache_dict: dict):
+    """Устанавливает глобальный кэш переводов из уже переведённых файлов."""
+    global _translation_cache
+    with _translation_cache_lock:
+        _translation_cache = cache_dict if cache_dict else {}
+        if _translation_cache:
+            print(f"[INFO] Загружено {len(_translation_cache)} переводов в кэш")
+
+
+def _get_translation_cache() -> dict:
+    """Возвращает кэш переводов (потокобезопасно)."""
+    global _translation_cache
+    if _translation_cache is None:
+        with _translation_cache_lock:
+            if _translation_cache is None:
+                _translation_cache = {}
+                # Попытаемся загрузить кэш из переменной окружения
+                cache_file = os.environ.get('DW2_TRANSLATION_CACHE')
+                if cache_file and os.path.exists(cache_file):
+                    try:
+                        with open(cache_file, 'rb') as f:
+                            _translation_cache = pickle.load(f)
+                        print(f"[INFO] Загружено {len(_translation_cache)} переводов из кэша")
+                    except Exception as e:
+                        print(f"[WARNING] Ошибка загрузки кэша: {e}")
+                        _translation_cache = {}
+    return _translation_cache
+
+
+def _translate_from_cache(text: str) -> str:
+    """
+    Проверяет кэш переводов и возвращает перевод, если найден.
+    Возвращает None, если перевод не найден.
+    """
+    cache = _get_translation_cache()
+    return cache.get(text.strip())
+
+
 def translate_text(text: str) -> str:
     """
     Перевод текста через LM Studio (локальный LLM) используя lmstudio-python SDK.
-    Сначала проверяет словарь из SYSTEM_PROMPT, если текст есть там - возвращает готовый перевод.
-    Требуется запущенный LM Studio с включённым локальным сервером.
+    Проверяет в порядке приоритета:
+    1. Словарь из SYSTEM_PROMPT 
+    2. Кэш из уже переведённых файлов
+    3. LLM (Qwen)
     """
     
-    # Сначала проверяем словарь
+    # Сначала проверяем системный словарь
     glossary_translation = _translate_from_glossary(text)
     if glossary_translation:
         print(f"[GLOSSARY] {text} -> {glossary_translation}")
         return glossary_translation
+
+    # Затем проверяем кэш переводов из уже переведённых файлов
+    cache_translation = _translate_from_cache(text)
+    if cache_translation:
+        print(f"[CACHE] {text} -> {cache_translation}")
+        return cache_translation
 
     # Получаем модель
     model = lms.llm(DEFAULT_MODEL)
@@ -146,11 +197,17 @@ class RemotePoolTranslator:
             return host
 
     def _translate_with_host(self, text, api_host):
-        # Сначала проверяем словарь
+        # Сначала проверяем системный словарь
         glossary_translation = _translate_from_glossary(text)
         if glossary_translation:
             print(f"[GLOSSARY] {text} -> {glossary_translation}")
             return glossary_translation
+        
+        # Затем проверяем кэш переводов
+        cache_translation = _translate_from_cache(text)
+        if cache_translation:
+            print(f"[CACHE] {text} -> {cache_translation}")
+            return cache_translation
         
         # Проверяем, запущен ли API сервер на этом хосте
         if not lms.Client.is_valid_api_host(api_host):
@@ -325,6 +382,116 @@ def translate_tags(element, tags, log_entries=None, words_set=None, words_mode=F
                     print(log_msg)
                     log_entries.append(log_msg)
     return log_entries, words_set
+
+
+def build_translation_cache_from_files(russian_dir_path: str) -> dict:
+    """
+    Сканирует уже переведённые файлы в русской папке и собирает кэш переводов.
+    Возвращает словарь {english_text: russian_text}
+    """
+    cache = {}
+    russian_dir = Path(russian_dir_path)
+    
+    if not russian_dir.exists():
+        print(f"[WARNING] Русская папка не найдена: {russian_dir_path}")
+        return cache
+    
+    # Найтём все XML файлы в русской папке
+    xml_files = list(russian_dir.rglob('*.xml'))
+    print(f"[INFO] Сканирование {len(xml_files)} переведённых файлов для кэша...")
+    
+    for xml_file in xml_files:
+        try:
+            tree = ET.parse(xml_file)
+            root = tree.getroot()
+            
+            # Извлекаем все переводы из тегов
+            for elem in root.iter():
+                elem_tag = elem.tag
+                if elem.text and elem.text.strip():
+                    # Это простой подход - мы добавляем русский текст в кэш
+                    # но нам нужна пара английский->русский
+                    # Это будет сделано в batch_translate.py путём сравнения файлов
+                    pass
+        except Exception as e:
+            print(f"[WARNING] Ошибка обработки файла {xml_file}: {e}")
+            continue
+    
+    return cache
+
+
+def build_translation_cache_from_paired_files(english_dir_path: str, russian_dir_path: str) -> dict:
+    """
+    Сравнивает английские и русские файлы и собирает кэш переводов.
+    Возвращает словарь {english_text: russian_text}
+    """
+    cache = {}
+    english_dir = Path(english_dir_path)
+    russian_dir = Path(russian_dir_path)
+    
+    if not english_dir.exists():
+        print(f"[WARNING] Английская папка не найдена: {english_dir_path}")
+        return cache
+    
+    if not russian_dir.exists():
+        print(f"[WARNING] Русская папка не найдена: {russian_dir_path}")
+        return cache
+    
+    # Найдём все XML файлы в английской папке
+    xml_files = list(english_dir.rglob('*.xml'))
+    print(f"[INFO] Сканирование {len(xml_files)} файлов для построения кэша переводов...")
+    
+    files_processed = 0
+    for eng_file in xml_files:
+        # Вычислим соответствующий русский файл
+        rel_path = eng_file.relative_to(english_dir)
+        rus_file = russian_dir / rel_path
+        
+        if not rus_file.exists():
+            continue
+        
+        try:
+            # Парсим оба файла
+            eng_tree = ET.parse(eng_file)
+            eng_root = eng_tree.getroot()
+            rus_tree = ET.parse(rus_file)
+            rus_root = rus_tree.getroot()
+            
+            # Собираем переводы с помощью XPath для соответствия элементов
+            # Используем индекс элемента для синхронизации
+            def extract_texts(root, tags_to_extract):
+                """Извлекает все тексты из указанных тегов в порядке обхода."""
+                texts = []
+                for elem in root.iter():
+                    if elem.text and elem.text.strip():
+                        parent_tag = None
+                        if elem.tag in ['Name', 'Description', 'MessageTitle', 'ChoiceButtonText', 'StepTitle', 'MarkupText', 'string']:
+                            texts.append(elem.text.strip())
+                return texts
+            
+            # Простой подход - парсим пары тегов одинаково в обоих файлах
+            # и берём соответствующие элементы
+            for eng_elem, rus_elem in zip(eng_root.iter(), rus_root.iter()):
+                if eng_elem.tag == rus_elem.tag and eng_elem.text and rus_elem.text:
+                    eng_text = eng_elem.text.strip()
+                    rus_text = rus_elem.text.strip()
+                    if eng_text and rus_text:
+                        # Пропускаем технические теги
+                        technical_tags = {'Type', 'ImageFilename', 'AppliesTo', 'ArtifactId', 'DiscoveryLevel'}
+                        if eng_elem.tag not in technical_tags:
+                            cache[eng_text] = rus_text
+            
+            files_processed += 1
+            if files_processed % 10 == 0:
+                print(f"  Обработано {files_processed} файлов, кэш: {len(cache)} записей")
+        
+        except Exception as e:
+            print(f"[WARNING] Ошибка обработки пары файлов {eng_file} / {rus_file}: {e}")
+            continue
+    
+    print(f"[INFO] Построено {len(cache)} переводов в кэше из {files_processed} файлов")
+    return cache
+
 
 def translate_xml(input_file: str, output_file: str, words_mode=False, translator=None):
     tree = ET.parse(input_file)

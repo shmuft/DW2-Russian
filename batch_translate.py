@@ -9,9 +9,11 @@ using the existing translate.py script.
 import argparse
 import subprocess
 import sys
+import os
 from pathlib import Path
+from translate import build_translation_cache_from_paired_files, set_translation_cache
 
-def translate_file(input_path: Path, output_path: Path, words_mode: bool = False, check_mode: bool = False, pool_addresses=None, pool_timeout: int = 120) -> int:
+def translate_file(input_path: Path, output_path: Path, words_mode: bool = False, check_mode: bool = False, pool_addresses=None, pool_timeout: int = 120, cache_file: str = None) -> int:
     """
     Run translate.py for a single XML file.
 
@@ -33,44 +35,13 @@ def translate_file(input_path: Path, output_path: Path, words_mode: bool = False
             if pool_timeout is not None:
                 cmd.extend(['--pool-timeout', str(pool_timeout)])
 
-    try:
-        subprocess.run(cmd, check=True)
-        return 0
-    except subprocess.CalledProcessError as e:
-        if check_mode and e.returncode == 1:
-            print(f"Найдены английские слова в {output_path}")
-            return 1
-        print(f"Error processing {input_path if not check_mode else output_path}: {e}")
-        return 2
-    except Exception as e:
-        print(f"Unexpected error processing {input_path if not check_mode else output_path}: {e}")
-        return 2
-
-
-def translate_file(input_path: Path, output_path: Path, words_mode: bool = False, check_mode: bool = False, pool_addresses=None, pool_timeout: int = 120) -> int:
-    """
-    Run translate.py for a single XML file.
-
-    Returns:
-        0 if successful,
-        1 if untranslated English words were found in check mode,
-        2 if another error occurred.
-    """
-    cmd = [sys.executable, 'translate.py']
-    if check_mode:
-        cmd.extend([str(output_path), '--check'])
-    else:
-        cmd.extend([str(input_path), str(output_path)])
-        if words_mode:
-            cmd.append('--words')
-        if pool_addresses:
-            for addr in pool_addresses:
-                cmd.extend(['--pool', addr])
-            if pool_timeout is not None:
-                cmd.extend(['--pool-timeout', str(pool_timeout)])
+    # Передаём файл кэша через переменную окружения
+    env = os.environ.copy()
+    if cache_file:
+        env['DW2_TRANSLATION_CACHE'] = cache_file
 
     try:
-        subprocess.run(cmd, check=True)
+        subprocess.run(cmd, check=True, env=env)
         return 0
     except subprocess.CalledProcessError as e:
         if check_mode and e.returncode == 1:
@@ -136,6 +107,28 @@ def main():
         print(f"Error: English directory '{english_dir}' does not exist")
         return 1
 
+    # Загружаем кэш переводов из уже переведённых файлов
+    import pickle
+    cache_file = '.translation_cache.pkl'
+    
+    if russian_dir.exists() and not args.check and not args.words:
+        print("\n[INFO] Построение кэша переводов из уже переведённых файлов...")
+        cache = build_translation_cache_from_paired_files(str(english_dir), str(russian_dir))
+        
+        if cache:
+            # Сохраняем кэш в файл для передачи в translate.py
+            try:
+                with open(cache_file, 'wb') as f:
+                    pickle.dump(cache, f)
+                print(f"[INFO] Кэш сохранён ({len(cache)} записей)")
+            except Exception as e:
+                print(f"[WARNING] Ошибка сохранения кэша: {e}")
+                cache_file = None
+        else:
+            cache_file = None
+    else:
+        cache_file = None
+
     # Find all XML files recursively
     xml_files = list(english_dir.rglob('*.xml'))
 
@@ -179,6 +172,7 @@ def main():
         check_mode=args.check,
         pool_addresses=pool_addresses,
         pool_timeout=args.pool_timeout,
+        cache_file=cache_file,
     )
         if result_code == 0:
             success_count += 1
@@ -201,6 +195,13 @@ def main():
     print(f"  Translated: {success_count}")
     print(f"  Skipped: {skip_count}")
     print(f"  Total files: {len(xml_files)}")
+
+    # Очищаем файл кэша
+    if cache_file and os.path.exists(cache_file):
+        try:
+            os.remove(cache_file)
+        except Exception as e:
+            print(f"[WARNING] Ошибка удаления кэша: {e}")
 
     return 0 if success_count > 0 else 1
 

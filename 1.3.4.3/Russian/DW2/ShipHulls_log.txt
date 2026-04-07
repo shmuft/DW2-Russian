@@ -1,0 +1,133 @@
+Лог перевода: 1.3.4.3\English\DW2\ShipHulls.xml
+Выходной файл: 1.3.4.3\Russian\DW2\ShipHulls.xml
+Всего переводов: 32
+================================================================================
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Hive Menace
+->
+Угроза Улья
+
+Name: Drone Bomber
+->
+Дрон-бомбардировщик
+
+Name: Drone Fighter
+->
+Дрон-истребитель
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Destroyer
+->
+Destroyer
+
+Name: Destroyer
+->
+Destroyer
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Large Mining Station
+->
+Большая добывающая станция
+
+Name: Large Mining Station
+->
+Большая добывающая станция
+
+Name: Monitoring Station
+->
+Станция наблюдения
+
+Name: Monitoring Station
+->
+Станция наблюдения
+
+Name: Research Station
+->
+Исследовательская станция
+
+Name: Research Station
+->
+Исследовательская станция
+
+Name: Escort
+->
+Escort
+
+Name: Escort
+->
+Escort
+
+Name: Cruiser
+->
+Крейсер
+
+Name: Frigate
+->
+Frigate
+
+Name: Frigate
+->
+Frigate
+
+Name: Planet Destroyer
+->
+Разрушитель планет
+
+Name: Medium Fuel Tanker
+->
+Средний топливный заправщик
+
+Name: Medium Fuel Tanker
+->
+Средний топливный заправщик
+
+Name: Medium Fuel Tanker
+->
+Средний топливный заправщик
+
+Name: Medium Fuel Tanker
+->
+Средний топливный заправщик
+
+Name: Medium Fuel Tanker
+->
+Средний топливный заправщик
+
+Name: Medium Fuel Tanker
+->
+Средний топливный заправщик
+
+Name: Medium Fuel Tanker
+->
+Средний топливный заправщик
+

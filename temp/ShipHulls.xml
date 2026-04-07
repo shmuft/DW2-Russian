@@ -296605,7 +296605,7 @@
         <Amount>14</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Bomber</Name>
+    <Name>Средний бомбардировщик</Name>
     <ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -296842,7 +296842,7 @@
         <Amount>35</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Strike Bomber</Name>
+    <Name>Штурмовой бомбардировщик</Name>
     <ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -297095,7 +297095,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Bomber</Name>
+    <Name>Тяжелый бомбардировщик</Name>
     <ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -297365,7 +297365,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Assault Bomber</Name>
+    <Name>Штурмовой бомбардировщик</Name>
     <ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -297695,7 +297695,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -298112,7 +298112,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -298643,7 +298643,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -299639,7 +299639,7 @@
         <Amount>125</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -299989,7 +299989,7 @@
         <Amount>70</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Escort</Name>
+    <Name>Тяжёлый эскорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -300459,7 +300459,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Frigate</Name>
+    <Name>Тяжёлый фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -301022,7 +301022,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Destroyer</Name>
+    <Name>Тяжёлый эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -302022,7 +302022,7 @@
         <Amount>188</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -302356,7 +302356,7 @@
         <Amount>70</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Patrol Escort</Name>
+    <Name>Патрульный эскорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -302826,7 +302826,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fast Frigate</Name>
+    <Name>Быстрый фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -303389,7 +303389,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fast Destroyer</Name>
+    <Name>Быстрый эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -304523,7 +304523,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -305070,7 +305070,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fleet Destroyer</Name>
+    <Name>Флотский Эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -306075,7 +306075,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Space Bastion</Name>
+    <Name>Космический бастион</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -307080,7 +307080,7 @@
         <Amount>330</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Space Bastion</Name>
+    <Name>Космический бастион</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -307567,7 +307567,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fleet Frigate</Name>
+    <Name>Флотский фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -307747,7 +307747,7 @@
         <Amount>8</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Basic Fighter</Name>
+    <Name>Базовый истребитель</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -307948,7 +307948,7 @@
         <Amount>10</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Interceptor</Name>
+    <Name>Лёгкий перехватчик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -308149,7 +308149,7 @@
         <Amount>11</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Attack Fighter</Name>
+    <Name>Лёгкий ударный истребитель</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -308350,7 +308350,7 @@
         <Amount>11</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Tactical Interceptor</Name>
+    <Name>Тактический перехватчик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -308567,7 +308567,7 @@
         <Amount>12</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Attack Fighter</Name>
+    <Name>Ударный истребитель</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -308772,7 +308772,7 @@
         <Amount>28</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Advanced Interceptor</Name>
+    <Name>Улучшенные перехватчики</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -308993,7 +308993,7 @@
         <Amount>34</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Strike Fighter</Name>
+    <Name>Штурмовой истребитель</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -309214,7 +309214,7 @@
         <Amount>40</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Superiority Fighter</Name>
+    <Name>Истребитель превосходства</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -309435,7 +309435,7 @@
         <Amount>47</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Superiority Fighter</Name>
+    <Name>Истребитель превосходства</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -309632,7 +309632,7 @@
         <Amount>10</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Basic Bomber</Name>
+    <Name>Базовый бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -309849,7 +309849,7 @@
         <Amount>13</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Bomber</Name>
+    <Name>Лёгкий бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -310066,7 +310066,7 @@
         <Amount>14</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Bomber</Name>
+    <Name>Средний бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -310303,7 +310303,7 @@
         <Amount>35</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Strike Bomber</Name>
+    <Name>Штурмовой бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -310556,7 +310556,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Bomber</Name>
+    <Name>Тяжелый бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -310826,7 +310826,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Assault Bomber</Name>
+    <Name>Штурмовой бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -311156,7 +311156,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -311573,7 +311573,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -312104,7 +312104,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -313100,7 +313100,7 @@
         <Amount>125</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -313450,7 +313450,7 @@
         <Amount>70</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Escort</Name>
+    <Name>Тяжёлый эскорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -313920,7 +313920,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Frigate</Name>
+    <Name>Тяжёлый фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -314483,7 +314483,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Destroyer</Name>
+    <Name>Тяжёлый эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -315483,7 +315483,7 @@
         <Amount>188</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -315817,7 +315817,7 @@
         <Amount>70</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Patrol Escort</Name>
+    <Name>Патрульный эскорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -316287,7 +316287,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fast Frigate</Name>
+    <Name>Быстрый фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -316850,7 +316850,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fast Destroyer</Name>
+    <Name>Быстрый эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -317984,7 +317984,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -318531,7 +318531,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fleet Destroyer</Name>
+    <Name>Флотский Эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -319536,7 +319536,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Space Bastion</Name>
+    <Name>Космический бастион</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -320541,7 +320541,7 @@
         <Amount>330</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Space Bastion</Name>
+    <Name>Космический бастион</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -321028,7 +321028,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fleet Frigate</Name>
+    <Name>Флотский фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -321208,7 +321208,7 @@
         <Amount>8</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Basic Fighter</Name>
+    <Name>Базовый истребитель</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -321409,7 +321409,7 @@
         <Amount>10</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Interceptor</Name>
+    <Name>Лёгкий перехватчик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -321610,7 +321610,7 @@
         <Amount>11</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Attack Fighter</Name>
+    <Name>Лёгкий ударный истребитель</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -321811,7 +321811,7 @@
         <Amount>11</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Tactical Interceptor</Name>
+    <Name>Тактический перехватчик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -322028,7 +322028,7 @@
         <Amount>12</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Attack Fighter</Name>
+    <Name>Ударный истребитель</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -322233,7 +322233,7 @@
         <Amount>28</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Advanced Interceptor</Name>
+    <Name>Улучшенные перехватчики</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -322454,7 +322454,7 @@
         <Amount>34</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Strike Fighter</Name>
+    <Name>Штурмовой истребитель</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -322675,7 +322675,7 @@
         <Amount>40</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Superiority Fighter</Name>
+    <Name>Истребитель превосходства</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -322896,7 +322896,7 @@
         <Amount>47</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Superiority Fighter</Name>
+    <Name>Истребитель превосходства</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -323093,7 +323093,7 @@
         <Amount>10</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Basic Bomber</Name>
+    <Name>Базовый бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -323310,7 +323310,7 @@
         <Amount>13</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Bomber</Name>
+    <Name>Лёгкий бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -323527,7 +323527,7 @@
         <Amount>14</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Bomber</Name>
+    <Name>Средний бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -323764,7 +323764,7 @@
         <Amount>35</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Strike Bomber</Name>
+    <Name>Штурмовой бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -324017,7 +324017,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Bomber</Name>
+    <Name>Тяжелый бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -324287,7 +324287,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Assault Bomber</Name>
+    <Name>Штурмовой бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -324617,7 +324617,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -325034,7 +325034,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -325565,7 +325565,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -326561,7 +326561,7 @@
         <Amount>125</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -326911,7 +326911,7 @@
         <Amount>70</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Escort</Name>
+    <Name>Тяжёлый эскорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -327381,7 +327381,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Frigate</Name>
+    <Name>Тяжёлый фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -327944,7 +327944,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Destroyer</Name>
+    <Name>Тяжёлый эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -328944,7 +328944,7 @@
         <Amount>188</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -329278,7 +329278,7 @@
         <Amount>70</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Patrol Escort</Name>
+    <Name>Патрульный эскорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -329748,7 +329748,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fast Frigate</Name>
+    <Name>Быстрый фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -330311,7 +330311,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fast Destroyer</Name>
+    <Name>Быстрый эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -331445,7 +331445,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -331992,7 +331992,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fleet Destroyer</Name>
+    <Name>Флотский Эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -332997,7 +332997,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Space Bastion</Name>
+    <Name>Космический бастион</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -334002,7 +334002,7 @@
         <Amount>330</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Space Bastion</Name>
+    <Name>Космический бастион</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -334489,7 +334489,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fleet Frigate</Name>
+    <Name>Флотский фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -334669,7 +334669,7 @@
         <Amount>8</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Basic Fighter</Name>
+    <Name>Базовый истребитель</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -334870,7 +334870,7 @@
         <Amount>10</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Interceptor</Name>
+    <Name>Лёгкий перехватчик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -335071,7 +335071,7 @@
         <Amount>11</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Attack Fighter</Name>
+    <Name>Лёгкий ударный истребитель</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -335272,7 +335272,7 @@
         <Amount>11</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Tactical Interceptor</Name>
+    <Name>Тактический перехватчик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -335489,7 +335489,7 @@
         <Amount>12</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Attack Fighter</Name>
+    <Name>Ударный истребитель</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -335694,7 +335694,7 @@
         <Amount>28</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Advanced Interceptor</Name>
+    <Name>Улучшенные перехватчики</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -335915,7 +335915,7 @@
         <Amount>34</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Strike Fighter</Name>
+    <Name>Штурмовой истребитель</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -336136,7 +336136,7 @@
         <Amount>40</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Superiority Fighter</Name>
+    <Name>Истребитель превосходства</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -336357,7 +336357,7 @@
         <Amount>47</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Superiority Fighter</Name>
+    <Name>Истребитель превосходства</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -336554,7 +336554,7 @@
         <Amount>10</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Basic Bomber</Name>
+    <Name>Базовый бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -336771,7 +336771,7 @@
         <Amount>13</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Bomber</Name>
+    <Name>Лёгкий бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -336988,7 +336988,7 @@
         <Amount>14</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Bomber</Name>
+    <Name>Средний бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -337225,7 +337225,7 @@
         <Amount>35</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Strike Bomber</Name>
+    <Name>Штурмовой бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -337478,7 +337478,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Bomber</Name>
+    <Name>Тяжелый бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -337748,7 +337748,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Assault Bomber</Name>
+    <Name>Штурмовой бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -338078,7 +338078,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -338495,7 +338495,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -339026,7 +339026,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -340022,7 +340022,7 @@
         <Amount>125</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -340372,7 +340372,7 @@
         <Amount>70</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Escort</Name>
+    <Name>Тяжёлый эскорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -340842,7 +340842,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Frigate</Name>
+    <Name>Тяжёлый фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -341405,7 +341405,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Destroyer</Name>
+    <Name>Тяжёлый эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -342405,7 +342405,7 @@
         <Amount>188</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -342739,7 +342739,7 @@
         <Amount>70</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Patrol Escort</Name>
+    <Name>Патрульный эскорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -343209,7 +343209,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fast Frigate</Name>
+    <Name>Быстрый фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -343772,7 +343772,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fast Destroyer</Name>
+    <Name>Быстрый эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -344906,7 +344906,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -345453,7 +345453,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fleet Destroyer</Name>
+    <Name>Флотский Эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -346458,7 +346458,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Space Bastion</Name>
+    <Name>Космический бастион</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -347463,7 +347463,7 @@
         <Amount>330</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Space Bastion</Name>
+    <Name>Космический бастион</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -347950,7 +347950,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fleet Frigate</Name>
+    <Name>Флотский фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -348130,7 +348130,7 @@
         <Amount>8</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Basic Fighter</Name>
+    <Name>Базовый истребитель</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -348331,7 +348331,7 @@
         <Amount>10</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Interceptor</Name>
+    <Name>Лёгкий перехватчик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -348532,7 +348532,7 @@
         <Amount>11</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Attack Fighter</Name>
+    <Name>Лёгкий ударный истребитель</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -348733,7 +348733,7 @@
         <Amount>11</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Tactical Interceptor</Name>
+    <Name>Тактический перехватчик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -348950,7 +348950,7 @@
         <Amount>12</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Attack Fighter</Name>
+    <Name>Ударный истребитель</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -349155,7 +349155,7 @@
         <Amount>28</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Advanced Interceptor</Name>
+    <Name>Улучшенные перехватчики</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -349376,7 +349376,7 @@
         <Amount>34</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Strike Fighter</Name>
+    <Name>Штурмовой истребитель</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -349597,7 +349597,7 @@
         <Amount>40</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Superiority Fighter</Name>
+    <Name>Истребитель превосходства</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -349818,7 +349818,7 @@
         <Amount>47</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Superiority Fighter</Name>
+    <Name>Истребитель превосходства</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -350015,7 +350015,7 @@
         <Amount>10</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Basic Bomber</Name>
+    <Name>Базовый бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -350232,7 +350232,7 @@
         <Amount>13</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Bomber</Name>
+    <Name>Лёгкий бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -350449,7 +350449,7 @@
         <Amount>14</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Bomber</Name>
+    <Name>Средний бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -350686,7 +350686,7 @@
         <Amount>35</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Strike Bomber</Name>
+    <Name>Штурмовой бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -350939,7 +350939,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Bomber</Name>
+    <Name>Тяжелый бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -351209,7 +351209,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Assault Bomber</Name>
+    <Name>Штурмовой бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -351389,7 +351389,7 @@
         <Amount>8</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Basic Fighter</Name>
+    <Name>Базовый истребитель</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -351590,7 +351590,7 @@
         <Amount>10</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Interceptor</Name>
+    <Name>Лёгкий перехватчик</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -351791,7 +351791,7 @@
         <Amount>11</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Attack Fighter</Name>
+    <Name>Лёгкий ударный истребитель</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -351992,7 +351992,7 @@
         <Amount>11</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Tactical Interceptor</Name>
+    <Name>Тактический перехватчик</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -352209,7 +352209,7 @@
         <Amount>12</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Attack Fighter</Name>
+    <Name>Ударный истребитель</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -352414,7 +352414,7 @@
         <Amount>28</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Advanced Interceptor</Name>
+    <Name>Улучшенные перехватчики</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -352635,7 +352635,7 @@
         <Amount>34</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Strike Fighter</Name>
+    <Name>Штурмовой истребитель</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -352856,7 +352856,7 @@
         <Amount>40</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Superiority Fighter</Name>
+    <Name>Истребитель превосходства</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -353077,7 +353077,7 @@
         <Amount>47</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Superiority Fighter</Name>
+    <Name>Истребитель превосходства</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -353274,7 +353274,7 @@
         <Amount>10</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Basic Bomber</Name>
+    <Name>Базовый бомбардировщик</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -353491,7 +353491,7 @@
         <Amount>13</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Bomber</Name>
+    <Name>Лёгкий бомбардировщик</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -353708,7 +353708,7 @@
         <Amount>14</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Bomber</Name>
+    <Name>Средний бомбардировщик</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -353945,7 +353945,7 @@
         <Amount>35</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Strike Bomber</Name>
+    <Name>Штурмовой бомбардировщик</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -354198,7 +354198,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Bomber</Name>
+    <Name>Тяжелый бомбардировщик</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -354468,7 +354468,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Assault Bomber</Name>
+    <Name>Штурмовой бомбардировщик</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -354797,7 +354797,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Escort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -355260,7 +355260,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Monitoring Station</Name>
+    <Name>Станция наблюдения</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Research_Station</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -356256,7 +356256,7 @@
         <Amount>125</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -356652,7 +356652,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Construction Ship</Name>
+    <Name>Малый строительный корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Construction</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -357000,7 +357000,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Exploration Ship</Name>
+    <Name>Малый исследовательский корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Exploration</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -357279,7 +357279,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Mining Ship</Name>
+    <Name>Малый добывающий корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Mining</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -357624,7 +357624,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Freighter</Name>
+    <Name>Малый грузовой корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Freighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -358094,7 +358094,7 @@
         <Amount>112</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Mining Station</Name>
+    <Name>Малая добывающая станция</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Mining_Station</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -358589,7 +358589,7 @@
         <Amount>112</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Research Station</Name>
+    <Name>Исследовательская станция</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Research_Station</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -358955,7 +358955,7 @@
         <Amount>70</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Escort</Name>
+    <Name>Тяжёлый эскорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Escort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -359304,7 +359304,7 @@
         <Amount>70</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Patrol Escort</Name>
+    <Name>Патрульный эскорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Escort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -359720,7 +359720,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Frigate</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -360179,7 +360179,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Troop Transport</Name>
+    <Name>Малый десантный корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -361179,7 +361179,7 @@
         <Amount>188</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -361561,7 +361561,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Colony Ship</Name>
+    <Name>Малый колонизационный корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Colony</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -361927,7 +361927,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Mining Ship</Name>
+    <Name>Средний добывающий корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Mining</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -362260,7 +362260,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Passenger Ship</Name>
+    <Name>Малый пассажирский корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Passenger</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -362658,7 +362658,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Fuel Tanker</Name>
+    <Name>Малый топливный заправщик</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Fuel</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -363260,7 +363260,7 @@
         <Amount>175</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Mining Station</Name>
+    <Name>Большая добывающая станция</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Mining_Station</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -363752,7 +363752,7 @@
         <Amount>162</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Resort Station</Name>
+    <Name>Развлекательная станция</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Research_Station</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -364221,7 +364221,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Frigate</Name>
+    <Name>Тяжёлый фрегат</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Frigate</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -364690,7 +364690,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fast Frigate</Name>
+    <Name>Быстрый фрегат</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Frigate</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -365208,7 +365208,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fleet Frigate</Name>
+    <Name>Флотский фрегат</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Frigate</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -365754,7 +365754,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Destroyer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -366298,7 +366298,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Troop Transport</Name>
+    <Name>Средний десантный корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -367432,7 +367432,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -367884,7 +367884,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Construction Ship</Name>
+    <Name>Средний строительный корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Construction</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -368355,7 +368355,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Exploration Ship</Name>
+    <Name>Средний исследовательский корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Exploration</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -368741,7 +368741,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Mining Ship</Name>
+    <Name>Большой добывающий корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Mining</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -369142,7 +369142,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Freighter</Name>
+    <Name>Средний грузовой корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Freighter_Medium</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -369527,7 +369527,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Passenger Ship</Name>
+    <Name>Средний пассажирский корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Passenger</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -370122,7 +370122,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Destroyer</Name>
+    <Name>Тяжёлый эсминец</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Destroyer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -370700,7 +370700,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fast Destroyer</Name>
+    <Name>Быстрый эсминец</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Destroyer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -371278,7 +371278,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fleet Destroyer</Name>
+    <Name>Флотский Эсминец</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Destroyer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -372678,7 +372678,7 @@
         <Amount>360</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Space Port</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Medium_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -373683,7 +373683,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Space Bastion</Name>
+    <Name>Космический бастион</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -374151,7 +374151,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Colony Ship</Name>
+    <Name>Средний колонизационный корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Colony</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -374700,7 +374700,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Fuel Tanker</Name>
+    <Name>Большой топливный заправщик</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Fuel</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -375149,7 +375149,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Freighter</Name>
+    <Name>Большой грузовой корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Freighter_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -375600,7 +375600,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Passenger Ship</Name>
+    <Name>Большой пассажирский корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Passenger</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -376302,7 +376302,7 @@
         <Amount>175</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Cruiser</Name>
+    <Name>Лёгкий крейсер</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -376912,7 +376912,7 @@
         <Amount>168</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Troop Transport</Name>
+    <Name>Большой десантный корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -378312,7 +378312,7 @@
         <Amount>525</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Space Port</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Medium_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -379447,7 +379447,7 @@
         <Amount>330</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Space Bastion</Name>
+    <Name>Космический бастион</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -379981,7 +379981,7 @@
         <Amount>182</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Construction Ship</Name>
+    <Name>Большой строительный корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Construction</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -380484,7 +380484,7 @@
         <Amount>164</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Exploration Ship</Name>
+    <Name>Большой исследовательский корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Exploration</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -380985,7 +380985,7 @@
         <Amount>164</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Colony Ship</Name>
+    <Name>Большой колонизационный корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Colony</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -382053,7 +382053,7 @@
         <Amount>560</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Battlecruiser</Name>
+    <Name>Линейный крейсер</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -383013,7 +383013,7 @@
         <Amount>560</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Carrier</Name>
+    <Name>Лёгкий авианосец</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Carrier</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -383810,7 +383810,7 @@
         <Amount>392</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fast Cruiser</Name>
+    <Name>Быстрый крейсер</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -384606,7 +384606,7 @@
         <Amount>392</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Long Range Cruiser</Name>
+    <Name>Дальнобойный крейсер</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -385410,7 +385410,7 @@
         <Amount>392</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Command Cruiser</Name>
+    <Name>Командный крейсер</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -386215,7 +386215,7 @@
         <Amount>392</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Cruiser</Name>
+    <Name>Крейсер</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -387040,7 +387040,7 @@
         <Amount>490</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Massive Troop Transport</Name>
+    <Name>Сверхкрупный десантный корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -388190,7 +388190,7 @@
         <Amount>680</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Battleship</Name>
+    <Name>Линкор</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -389231,7 +389231,7 @@
         <Amount>680</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Carrier</Name>
+    <Name>Авианосец</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Carrier</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -390059,7 +390059,7 @@
         <Amount>480</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Exploration Cruiser</Name>
+    <Name>Исследовательский крейсер</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -390906,7 +390906,7 @@
         <Amount>480</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Patrol Cruiser</Name>
+    <Name>Патрульный крейсер</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -391742,7 +391742,7 @@
         <Amount>480</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fleet Command Cruiser</Name>
+    <Name>Крейсер командования флотом</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -392563,7 +392563,7 @@
         <Amount>480</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Cruiser</Name>
+    <Name>Тяжёлый крейсер</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -393436,7 +393436,7 @@
         <Amount>680</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Expedition Transport</Name>
+    <Name>Экспедиционный транспорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -394972,7 +394972,7 @@
         <Amount>1600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Space Port</Name>
+    <Name>Большой космический порт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Large_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -395477,7 +395477,7 @@
         <Amount>680</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Massive Colony Ship</Name>
+    <Name>Массивный колонизационный корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Colony</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -396742,7 +396742,7 @@
         <Amount>800</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Battleship</Name>
+    <Name>Тяжёлый линкор</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -397898,7 +397898,7 @@
         <Amount>800</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Carrier</Name>
+    <Name>Тяжёлый авианосец</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Carrier</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -398819,7 +398819,7 @@
         <Amount>800</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Army Transport</Name>
+    <Name>Десантный корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -399404,7 +399404,7 @@
         <Amount>800</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>World Ship</Name>
+    <Name>Мировой корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Colony</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -400669,7 +400669,7 @@
         <Amount>1080</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Dreadnought</Name>
+    <Name>Линейный корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -401825,7 +401825,7 @@
         <Amount>1080</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fleet Carrier</Name>
+    <Name>Флотский авианосец</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Carrier</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -403429,7 +403429,7 @@
         <Amount>3600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Sector Space Port</Name>
+    <Name>Секторный космопорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Large_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -403609,7 +403609,7 @@
         <Amount>8</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Basic Fighter</Name>
+    <Name>Базовый истребитель</Name>
     <ImageFilename>Ships/Boskara/Images/Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -403810,7 +403810,7 @@
         <Amount>10</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Interceptor</Name>
+    <Name>Лёгкий перехватчик</Name>
     <ImageFilename>Ships/Boskara/Images/Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -404011,7 +404011,7 @@
         <Amount>11</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Attack Fighter</Name>
+    <Name>Лёгкий ударный истребитель</Name>
     <ImageFilename>Ships/Boskara/Images/Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -404212,7 +404212,7 @@
         <Amount>11</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Tactical Interceptor</Name>
+    <Name>Тактический перехватчик</Name>
     <ImageFilename>Ships/Boskara/Images/Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -404429,7 +404429,7 @@
         <Amount>12</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Attack Fighter</Name>
+    <Name>Ударный истребитель</Name>
     <ImageFilename>Ships/Boskara/Images/Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -404634,7 +404634,7 @@
         <Amount>28</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Advanced Interceptor</Name>
+    <Name>Улучшенные перехватчики</Name>
     <ImageFilename>Ships/Boskara/Images/Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -404855,7 +404855,7 @@
         <Amount>34</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Strike Fighter</Name>
+    <Name>Штурмовой истребитель</Name>
     <ImageFilename>Ships/Boskara/Images/Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -405076,7 +405076,7 @@
         <Amount>40</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Superiority Fighter</Name>
+    <Name>Истребитель превосходства</Name>
     <ImageFilename>Ships/Boskara/Images/Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -405297,7 +405297,7 @@
         <Amount>47</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Superiority Fighter</Name>
+    <Name>Истребитель превосходства</Name>
     <ImageFilename>Ships/Boskara/Images/Fighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -405494,7 +405494,7 @@
         <Amount>10</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Basic Bomber</Name>
+    <Name>Базовый бомбардировщик</Name>
     <ImageFilename>Ships/Boskara/Images/Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -405711,7 +405711,7 @@
         <Amount>13</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Bomber</Name>
+    <Name>Лёгкий бомбардировщик</Name>
     <ImageFilename>Ships/Boskara/Images/Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -405928,7 +405928,7 @@
         <Amount>14</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Bomber</Name>
+    <Name>Средний бомбардировщик</Name>
     <ImageFilename>Ships/Boskara/Images/Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -406165,7 +406165,7 @@
         <Amount>35</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Strike Bomber</Name>
+    <Name>Штурмовой бомбардировщик</Name>
     <ImageFilename>Ships/Boskara/Images/Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -406418,7 +406418,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Bomber</Name>
+    <Name>Тяжелый бомбардировщик</Name>
     <ImageFilename>Ships/Boskara/Images/Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -406688,7 +406688,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Assault Bomber</Name>
+    <Name>Штурмовой бомбардировщик</Name>
     <ImageFilename>Ships/Boskara/Images/Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -407002,7 +407002,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_escort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -407465,7 +407465,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Monitoring Station</Name>
+    <Name>Станция наблюдения</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_research</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -408461,7 +408461,7 @@
         <Amount>125</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_station_s</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -408857,7 +408857,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Construction Ship</Name>
+    <Name>Малый строительный корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_construction</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -409205,7 +409205,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Exploration Ship</Name>
+    <Name>Малый исследовательский корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_explorer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -409484,7 +409484,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Mining Ship</Name>
+    <Name>Малый добывающий корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_mining</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -409829,7 +409829,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Freighter</Name>
+    <Name>Малый грузовой корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskaran_freighter_s</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -410299,7 +410299,7 @@
         <Amount>112</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Mining Station</Name>
+    <Name>Малая добывающая станция</Name>
     <ImageFilename>Ships/Boskara/Images/boskaran_mining_station</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -410793,7 +410793,7 @@
         <Amount>112</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Research Station</Name>
+    <Name>Исследовательская станция</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_research</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -411144,7 +411144,7 @@
         <Amount>70</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Escort</Name>
+    <Name>Тяжёлый эскорт</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_escort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -411478,7 +411478,7 @@
         <Amount>70</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Patrol Escort</Name>
+    <Name>Патрульный эскорт</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_escort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -411895,7 +411895,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_frigate</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -412352,7 +412352,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Troop Transport</Name>
+    <Name>Малый десантный корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskaran_trooptransport_small</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -413352,7 +413352,7 @@
         <Amount>188</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_station_s</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -413734,7 +413734,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Colony Ship</Name>
+    <Name>Малый колонизационный корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_colony</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -414100,7 +414100,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Mining Ship</Name>
+    <Name>Средний добывающий корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_mining</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -414433,7 +414433,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Passenger Ship</Name>
+    <Name>Малый пассажирский корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_passenger</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -414831,7 +414831,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Fuel Tanker</Name>
+    <Name>Малый топливный заправщик</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_fuel</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -415433,7 +415433,7 @@
         <Amount>175</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Mining Station</Name>
+    <Name>Большая добывающая станция</Name>
     <ImageFilename>Ships/Boskara/Images/boskaran_mining_station</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -415924,7 +415924,7 @@
         <Amount>162</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Resort Station</Name>
+    <Name>Развлекательная станция</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_research</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -416394,7 +416394,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Frigate</Name>
+    <Name>Тяжёлый фрегат</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_frigate</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -416864,7 +416864,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fast Frigate</Name>
+    <Name>Быстрый фрегат</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_frigate</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -417351,7 +417351,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fleet Frigate</Name>
+    <Name>Флотский фрегат</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_frigate</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -417865,7 +417865,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_destroyer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -418407,7 +418407,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Troop Transport</Name>
+    <Name>Средний десантный корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskaran_trooptransport_small</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -419541,7 +419541,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Space Port</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_station_s</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -419993,7 +419993,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Construction Ship</Name>
+    <Name>Средний строительный корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_construction</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -420431,7 +420431,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Exploration Ship</Name>
+    <Name>Средний исследовательский корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_explorer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -420817,7 +420817,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Mining Ship</Name>
+    <Name>Большой добывающий корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_mining</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -421218,7 +421218,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Freighter</Name>
+    <Name>Средний грузовой корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskaran_freighter_m</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -421587,7 +421587,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Passenger Ship</Name>
+    <Name>Средний пассажирский корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_passenger</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -422133,7 +422133,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Destroyer</Name>
+    <Name>Тяжёлый эсминец</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_destroyer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -422662,7 +422662,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fast Destroyer</Name>
+    <Name>Быстрый эсминец</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_destroyer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -423208,7 +423208,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fleet Destroyer</Name>
+    <Name>Флотский Эсминец</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_destroyer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -424478,7 +424478,7 @@
         <Amount>360</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Space Port</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_station_m</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -425483,7 +425483,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Space Bastion</Name>
+    <Name>Космический бастион</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_station_s</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -425951,7 +425951,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Colony Ship</Name>
+    <Name>Средний колонизационный корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_colony</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -426500,7 +426500,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Fuel Tanker</Name>
+    <Name>Большой топливный заправщик</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_fuel</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -426949,7 +426949,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Freighter</Name>
+    <Name>Большой грузовой корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_freighter</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -427400,7 +427400,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Passenger Ship</Name>
+    <Name>Большой пассажирский корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_passenger</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -428122,7 +428122,7 @@
         <Amount>175</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Cruiser</Name>
+    <Name>Лёгкий крейсер</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -428713,7 +428713,7 @@
         <Amount>168</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Troop Transport</Name>
+    <Name>Большой десантный корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskaran_trooptransport_small</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -430113,7 +430113,7 @@
         <Amount>525</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Space Port</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_station_m</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -431248,7 +431248,7 @@
         <Amount>330</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Space Bastion</Name>
+    <Name>Космический бастион</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_station_s</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -431782,7 +431782,7 @@
         <Amount>182</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Construction Ship</Name>
+    <Name>Большой строительный корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_construction</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -432285,7 +432285,7 @@
         <Amount>164</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Exploration Ship</Name>
+    <Name>Большой исследовательский корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_explorer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -432786,7 +432786,7 @@
         <Amount>164</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Colony Ship</Name>
+    <Name>Большой колонизационный корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_colony</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -433840,7 +433840,7 @@
         <Amount>560</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Battlecruiser</Name>
+    <Name>Линейный крейсер</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -434786,7 +434786,7 @@
         <Amount>560</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Light Carrier</Name>
+    <Name>Лёгкий авианосец</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_carrier</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -435603,7 +435603,7 @@
         <Amount>392</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fast Cruiser</Name>
+    <Name>Быстрый крейсер</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -436419,7 +436419,7 @@
         <Amount>392</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Long Range Cruiser</Name>
+    <Name>Дальнобойный крейсер</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -437209,7 +437209,7 @@
         <Amount>392</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Command Cruiser</Name>
+    <Name>Командный крейсер</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -438000,7 +438000,7 @@
         <Amount>392</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Cruiser</Name>
+    <Name>Крейсер</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -438630,7 +438630,7 @@
         <Amount>490</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Massive Troop Transport</Name>
+    <Name>Сверхкрупный десантный корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskaran_trooptransport_large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -439800,7 +439800,7 @@
         <Amount>680</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Battleship</Name>
+    <Name>Линкор</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -440861,7 +440861,7 @@
         <Amount>680</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Carrier</Name>
+    <Name>Авианосец</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_carrier</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -441709,7 +441709,7 @@
         <Amount>480</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Exploration Cruiser</Name>
+    <Name>Исследовательский крейсер</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -442542,7 +442542,7 @@
         <Amount>480</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Patrol Cruiser</Name>
+    <Name>Патрульный крейсер</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -443364,7 +443364,7 @@
         <Amount>480</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fleet Command Cruiser</Name>
+    <Name>Крейсер командования флотом</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -444171,7 +444171,7 @@
         <Amount>480</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Cruiser</Name>
+    <Name>Тяжёлый крейсер</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -445012,7 +445012,7 @@
         <Amount>680</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Expedition Transport</Name>
+    <Name>Экспедиционный транспортный корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskaran_trooptransport_large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -446548,7 +446548,7 @@
         <Amount>1600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Large Space Port</Name>
+    <Name>Большой космический порт</Name>
     <ImageFilename>Ships/Boskara/Images/boskaran_station_l</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -447101,7 +447101,7 @@
         <Amount>680</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Massive Colony Ship</Name>
+    <Name>Массивный колонизационный корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_colony</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -448353,7 +448353,7 @@
         <Amount>800</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Battleship</Name>
+    <Name>Тяжёлый линкор</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -449495,7 +449495,7 @@
         <Amount>800</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Heavy Carrier</Name>
+    <Name>Тяжёлый авианосец</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_carrier</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -450416,7 +450416,7 @@
         <Amount>800</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Army Transport</Name>
+    <Name>Десантный корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskaran_trooptransport_large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -451017,7 +451017,7 @@
         <Amount>800</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>World Ship</Name>
+    <Name>Мировой корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_colony</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -452269,7 +452269,7 @@
         <Amount>1080</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Dreadnought</Name>
+    <Name>Линейный корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -453411,7 +453411,7 @@
         <Amount>1080</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Fleet Carrier</Name>
+    <Name>Флотский авианосец</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_carrier</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -455015,7 +455015,7 @@
         <Amount>3600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Sector Space Port</Name>
+    <Name>Секторный космопорт</Name>
     <ImageFilename>Ships/Boskara/Images/boskaran_station_l</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -455376,7 +455376,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Small Freighter</Name>
+    <Name>Малый грузовой корабль</Name>
     <ImageFilename>Ships/Independent/Images/Independent_Freighter_01</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -455731,7 +455731,7 @@
         </DisplayEffectOffset>
       </ComponentBay>
     </ComponentBays>
-    <Name>Small Freighter</Name>
+    <Name>Малый грузовой корабль</Name>
     <ImageFilename>Ships/Independent/Images/Independent_Freighter_02</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -456086,7 +456086,7 @@
         </DisplayEffectOffset>
       </ComponentBay>
     </ComponentBays>
-    <Name>Small Freighter</Name>
+    <Name>Малый грузовой корабль</Name>
     <ImageFilename>Ships/Independent/Images/Independent_Freighter_03</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -456441,7 +456441,7 @@
         </DisplayEffectOffset>
       </ComponentBay>
     </ComponentBays>
-    <Name>Small Freighter</Name>
+    <Name>Малый грузовой корабль</Name>
     <ImageFilename>Ships/Independent/Images/Independent_Freighter_04</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -456810,7 +456810,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Medium Freighter</Name>
+    <Name>Средний грузовой корабль</Name>
     <ImageFilename>Ships/Independent/Images/Independent_Freighter_05</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -457165,7 +457165,7 @@
         </DisplayEffectOffset>
       </ComponentBay>
     </ComponentBays>
-    <Name>Medium Freighter</Name>
+    <Name>Средний грузовой корабль</Name>
     <ImageFilename>Ships/Independent/Images/Independent_Freighter_06</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -457728,7 +457728,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Abandoned/Images/Abandoned_Destroyer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -458563,7 +458563,7 @@
         <Amount>210</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Cruiser</Name>
+    <Name>Крейсер</Name>
     <ImageFilename>Ships/Abandoned/Images/Abandoned_Cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -459140,7 +459140,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Colony Ship</Name>
+    <Name>Колонизационный корабль</Name>
     <ImageFilename>Ships/Abandoned/Images/Abandoned_Colony</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -460266,7 +460266,7 @@
         <Amount>225</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Abandoned/Images/AbandonedStation1</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -462712,7 +462712,7 @@
         <Amount>12</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Дрон-бомбардировщик</Name>
+    <Name>Бомбардировщик-дрон</Name>
     <ImageFilename>Creatures/Menace/Images/HiveBomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -464030,7 +464030,7 @@
         <Amount>225</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Abandoned/Images/AbandonedStation1Dead</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -465164,7 +465164,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Abandoned/Images/AbandonedStation2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -466284,7 +466284,7 @@
         </DisplayEffectOffset>
       </ComponentBay>
     </ComponentBays>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Abandoned/Images/AbandonedStation2Dead</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -466833,7 +466833,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Abandoned/Images/abandoned destroyer 2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -467382,7 +467382,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Abandoned/Images/abandoned destroyer 2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -468502,7 +468502,7 @@
         </DisplayEffectOffset>
       </ComponentBay>
     </ComponentBays>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Abandoned/Images/AbandonedStation3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -469622,7 +469622,7 @@
         </DisplayEffectOffset>
       </ComponentBay>
     </ComponentBays>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Abandoned/Images/AbandonedStation3Dead</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -470742,7 +470742,7 @@
         </DisplayEffectOffset>
       </ComponentBay>
     </ComponentBays>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Abandoned/Images/AbandonedStation4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -471862,7 +471862,7 @@
         </DisplayEffectOffset>
       </ComponentBay>
     </ComponentBays>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Abandoned/Images/AbandonedStation4Dead</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -475208,7 +475208,7 @@
         <Amount>70</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Abandoned/Images/Abandoned_escort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -475526,7 +475526,7 @@
         <Amount>70</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Abandoned/Images/Abandoned_escort2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -476883,7 +476883,7 @@
         <Amount>82</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Abandoned/Images/abandoned frigate</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -477339,7 +477339,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Abandoned/Images/abandoned frigate2</ImageFilename>
   </ShipHull>
   <ShipHull>
