@@ -113,7 +113,19 @@ def main():
     
     if russian_dir.exists() and not args.check and not args.words:
         print("\n[INFO] Построение кэша переводов из уже переведённых файлов...")
-        cache = build_translation_cache_from_paired_files(str(english_dir), str(russian_dir))
+        print("[INFO] Пропускаем файлы в процессе перевода...")
+        
+        # Найдём все файлы на паузе
+        files_in_progress = set()
+        for xml_file in english_dir.rglob('*.xml'):
+            rel_path = xml_file.relative_to(english_dir)
+            output_file = russian_dir / rel_path
+            progress_file = f"{output_file}.progress.pkl"
+            if os.path.exists(progress_file):
+                files_in_progress.add(str(output_file))
+                print(f"[INFO] Пропускаю файл на паузе: {output_file}")
+        
+        cache = build_translation_cache_from_paired_files(str(english_dir), str(russian_dir), exclude_files=files_in_progress)
         
         if cache:
             # Сохраняем кэш в файл для передачи в translate.py
@@ -154,10 +166,19 @@ def main():
                 skip_count += 1
                 continue
         else:
-            if output_file.exists() and not args.force:
+            # Проверяем, есть ли файл на паузе
+            progress_file = f"{output_file}.progress.pkl"
+            is_paused = os.path.exists(progress_file)
+            
+            # Пропускаем только если файл ПОЛНОСТЬЮ перевёден и это не на паузе
+            if output_file.exists() and not args.force and not is_paused:
                 print(f"Skipping {xml_file} (output exists: {output_file})")
                 skip_count += 1
                 continue
+            
+            # Если файл на паузе, продолжаем перевод (не пропускаем)
+            if is_paused:
+                print(f"Resuming paused translation: {xml_file}")
 
             # Ensure output directory exists
             output_file.parent.mkdir(parents=True, exist_ok=True)

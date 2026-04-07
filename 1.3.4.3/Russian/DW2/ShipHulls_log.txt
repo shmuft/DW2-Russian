@@ -1,7 +1,2951 @@
 Лог перевода: 1.3.4.3\English\DW2\ShipHulls.xml
 Выходной файл: 1.3.4.3\Russian\DW2\ShipHulls.xml
-Всего переводов: 32
+Всего переводов: 768
 ================================================================================
+
+Name: Escort
+->
+Escort
+
+Name: Monitoring Station
+->
+Станция наблюдения
+
+Name: Small Construction Ship
+->
+Малый строительный корабль
+
+Name: Small Exploration Ship
+->
+Малый исследовательский корабль
+
+Name: Small Mining Ship
+->
+Малый добывающий корабль
+
+Name: Small Freighter
+->
+Малый грузовой корабль
+
+Name: Small Mining Station
+->
+Малая добывающая станция
+
+Name: Research Station
+->
+Исследовательская станция
+
+Name: Escort
+->
+Escort
+
+Name: Monitoring Station
+->
+Станция наблюдения
+
+Name: Small Construction Ship
+->
+Малый строительный корабль
+
+Name: Small Exploration Ship
+->
+Малый исследовательский корабль
+
+Name: Small Mining Ship
+->
+Малый добывающий корабль
+
+Name: Small Freighter
+->
+Малый грузовой корабль
+
+Name: Small Mining Station
+->
+Малая добывающая станция
+
+Name: Research Station
+->
+Исследовательская станция
+
+Name: Heavy Escort
+->
+Тяжёлый эскорт
+
+Name: Patrol Escort
+->
+Патрульный эскорт
+
+Name: Frigate
+->
+Frigate
+
+Name: Small Troop Transport
+->
+Малый десантный корабль
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Colony Ship
+->
+Малый колонизационный корабль
+
+Name: Medium Mining Ship
+->
+Средний добывающий корабль
+
+Name: Small Passenger Ship
+->
+Малый пассажирский корабль
+
+Name: Small Fuel Tanker
+->
+Малый топливный заправщик
+
+Name: Large Mining Station
+->
+Большая добывающая станция
+
+Name: Resort Station
+->
+Развлекательная станция
+
+Name: Basic Fighter
+->
+Базовый истребитель
+
+Name: Basic Bomber
+->
+Базовый бомбардировщик
+
+Name: Heavy Escort
+->
+Тяжёлый эскорт
+
+Name: Patrol Escort
+->
+Патрульный эскорт
+
+Name: Frigate
+->
+Frigate
+
+Name: Small Troop Transport
+->
+Малый десантный корабль
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Colony Ship
+->
+Малый колонизационный корабль
+
+Name: Medium Mining Ship
+->
+Средний добывающий корабль
+
+Name: Small Passenger Ship
+->
+Малый пассажирский корабль
+
+Name: Small Fuel Tanker
+->
+Малый топливный заправщик
+
+Name: Large Mining Station
+->
+Большая добывающая станция
+
+Name: Resort Station
+->
+Развлекательная станция
+
+Name: Basic Fighter
+->
+Базовый истребитель
+
+Name: Basic Bomber
+->
+Базовый бомбардировщик
+
+Name: Heavy Frigate
+->
+Тяжёлый фрегат
+
+Name: Fast Frigate
+->
+Быстрый фрегат
+
+Name: Fleet Frigate
+->
+Флотский фрегат
+
+Name: Heavy Frigate
+->
+Тяжёлый фрегат
+
+Name: Fast Frigate
+->
+Быстрый фрегат
+
+Name: Fleet Frigate
+->
+Флотский фрегат
+
+Name: Destroyer
+->
+Destroyer
+
+Name: Destroyer
+->
+Destroyer
+
+Name: Medium Troop Transport
+->
+Средний десантный корабль
+
+Name: Medium Troop Transport
+->
+Средний десантный корабль
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Medium Construction Ship
+->
+Средний строительный корабль
+
+Name: Medium Construction Ship
+->
+Средний строительный корабль
+
+Name: Medium Exploration Ship
+->
+Средний исследовательский корабль
+
+Name: Medium Exploration Ship
+->
+Средний исследовательский корабль
+
+Name: Large Mining Ship
+->
+Большой добывающий корабль
+
+Name: Large Mining Ship
+->
+Большой добывающий корабль
+
+Name: Medium Freighter
+->
+Средний грузовой корабль
+
+Name: Medium Freighter
+->
+Средний грузовой корабль
+
+Name: Medium Passenger Ship
+->
+Средний пассажирский корабль
+
+Name: Medium Passenger Ship
+->
+Средний пассажирский корабль
+
+Name: Light Interceptor
+->
+Лёгкий перехватчик
+
+Name: Light Bomber
+->
+Лёгкий бомбардировщик
+
+Name: Light Bomber
+->
+Лёгкий бомбардировщик
+
+Name: Light Interceptor
+->
+Лёгкий перехватчик
+
+Name: Light Attack Fighter
+->
+Лёгкий ударный истребитель
+
+Name: Light Attack Fighter
+->
+Лёгкий ударный истребитель
+
+Name: Heavy Destroyer
+->
+Тяжёлый эсминец
+
+Name: Fast Destroyer
+->
+Быстрый эсминец
+
+Name: Fleet Destroyer
+->
+Флотский Эсминец
+
+Name: Heavy Destroyer
+->
+Тяжёлый эсминец
+
+Name: Fast Destroyer
+->
+Быстрый эсминец
+
+Name: Fleet Destroyer
+->
+Флотский Эсминец
+
+Name: Medium Space Port
+->
+Средний космический порт
+
+Name: Medium Space Port
+->
+Средний космический порт
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Medium Colony Ship
+->
+Средний колонизационный корабль
+
+Name: Medium Colony Ship
+->
+Средний колонизационный корабль
+
+Name: Large Fuel Tanker
+->
+Большой топливный заправщик
+
+Name: Large Fuel Tanker
+->
+Большой топливный заправщик
+
+Name: Large Freighter
+->
+Большой грузовой корабль
+
+Name: Large Freighter
+->
+Большой грузовой корабль
+
+Name: Large Passenger Ship
+->
+Большой пассажирский корабль
+
+Name: Large Passenger Ship
+->
+Большой пассажирский корабль
+
+Name: Tactical Interceptor
+->
+Тактический перехватчик
+
+Name: Attack Fighter
+->
+Ударный истребитель
+
+Name: Medium Bomber
+->
+Средний бомбардировщик
+
+Name: Tactical Interceptor
+->
+Тактический перехватчик
+
+Name: Attack Fighter
+->
+Ударный истребитель
+
+Name: Medium Bomber
+->
+Средний бомбардировщик
+
+Name: Skip Fighter
+->
+Прыжковый истребитель
+
+Name: ZimZip Attack Shuttle
+->
+Ударный шаттл «ЗимЗип»
+
+Name: Wave Bomber
+->
+Волновой бомбардировщик
+
+Name: Light Cruiser
+->
+Лёгкий крейсер
+
+Name: Light Cruiser
+->
+Лёгкий крейсер
+
+Name: Large Troop Transport
+->
+Большой десантный корабль
+
+Name: Large Troop Transport
+->
+Большой десантный корабль
+
+Name: Medium Space Port
+->
+Средний космический порт
+
+Name: Medium Space Port
+->
+Средний космический порт
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Large Construction Ship
+->
+Большой строительный корабль
+
+Name: Large Construction Ship
+->
+Большой строительный корабль
+
+Name: Large Exploration Ship
+->
+Большой исследовательский корабль
+
+Name: Large Exploration Ship
+->
+Большой исследовательский корабль
+
+Name: Large Colony Ship
+->
+Большой колонизационный корабль
+
+Name: Large Colony Ship
+->
+Большой колонизационный корабль
+
+Name: Gyrfalcon Interceptor
+->
+Перехватчик «Кречет»
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Escort
+->
+Escort
+
+Name: Monitoring Station
+->
+Станция наблюдения
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Construction Ship
+->
+Малый строительный корабль
+
+Name: Small Exploration Ship
+->
+Малый исследовательский корабль
+
+Name: Small Mining Ship
+->
+Малый добывающий корабль
+
+Name: Small Freighter
+->
+Малый грузовой корабль
+
+Name: Small Mining Station
+->
+Малая добывающая станция
+
+Name: Research Station
+->
+Исследовательская станция
+
+Name: Heavy Escort
+->
+Тяжёлый эскорт
+
+Name: Patrol Escort
+->
+Патрульный эскорт
+
+Name: Frigate
+->
+Frigate
+
+Name: Small Troop Transport
+->
+Малый десантный корабль
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Colony Ship
+->
+Малый колонизационный корабль
+
+Name: Medium Mining Ship
+->
+Средний добывающий корабль
+
+Name: Small Passenger Ship
+->
+Малый пассажирский корабль
+
+Name: Small Fuel Tanker
+->
+Малый топливный заправщик
+
+Name: Large Mining Station
+->
+Большая добывающая станция
+
+Name: Resort Station
+->
+Развлекательная станция
+
+Name: Heavy Frigate
+->
+Тяжёлый фрегат
+
+Name: Fast Frigate
+->
+Быстрый фрегат
+
+Name: Fleet Frigate
+->
+Флотский фрегат
+
+Name: Destroyer
+->
+Destroyer
+
+Name: Medium Troop Transport
+->
+Средний десантный корабль
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Medium Construction Ship
+->
+Средний строительный корабль
+
+Name: Medium Exploration Ship
+->
+Средний исследовательский корабль
+
+Name: Large Mining Ship
+->
+Большой добывающий корабль
+
+Name: Medium Freighter
+->
+Средний грузовой корабль
+
+Name: Medium Passenger Ship
+->
+Средний пассажирский корабль
+
+Name: Heavy Destroyer
+->
+Тяжёлый эсминец
+
+Name: Fast Destroyer
+->
+Быстрый эсминец
+
+Name: Fleet Destroyer
+->
+Флотский Эсминец
+
+Name: Medium Space Port
+->
+Средний космический порт
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Medium Colony Ship
+->
+Средний колонизационный корабль
+
+Name: Large Fuel Tanker
+->
+Большой топливный заправщик
+
+Name: Large Freighter
+->
+Большой грузовой корабль
+
+Name: Large Passenger Ship
+->
+Большой пассажирский корабль
+
+Name: Light Cruiser
+->
+Лёгкий крейсер
+
+Name: Large Troop Transport
+->
+Большой десантный корабль
+
+Name: Medium Space Port
+->
+Средний космический порт
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Large Construction Ship
+->
+Большой строительный корабль
+
+Name: Large Exploration Ship
+->
+Большой исследовательский корабль
+
+Name: Large Colony Ship
+->
+Большой колонизационный корабль
+
+Name: Basic Fighter
+->
+Базовый истребитель
+
+Name: Basic Bomber
+->
+Базовый бомбардировщик
+
+Name: Light Interceptor
+->
+Лёгкий перехватчик
+
+Name: Light Bomber
+->
+Лёгкий бомбардировщик
+
+Name: Light Attack Fighter
+->
+Лёгкий ударный истребитель
+
+Name: Tactical Interceptor
+->
+Тактический перехватчик
+
+Name: Medium Bomber
+->
+Средний бомбардировщик
+
+Name: Attack Fighter
+->
+Ударный истребитель
+
+Name: Escort
+->
+Escort
+
+Name: Monitoring Station
+->
+Станция наблюдения
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Construction Ship
+->
+Малый строительный корабль
+
+Name: Small Exploration Ship
+->
+Малый исследовательский корабль
+
+Name: Small Mining Ship
+->
+Малый добывающий корабль
+
+Name: Small Freighter
+->
+Малый грузовой корабль
+
+Name: Small Mining Station
+->
+Малая добывающая станция
+
+Name: Research Station
+->
+Исследовательская станция
+
+Name: Heavy Escort
+->
+Тяжёлый эскорт
+
+Name: Patrol Escort
+->
+Патрульный эскорт
+
+Name: Frigate
+->
+Frigate
+
+Name: Small Troop Transport
+->
+Малый десантный корабль
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Colony Ship
+->
+Малый колонизационный корабль
+
+Name: Medium Mining Ship
+->
+Средний добывающий корабль
+
+Name: Small Passenger Ship
+->
+Малый пассажирский корабль
+
+Name: Small Fuel Tanker
+->
+Малый топливный заправщик
+
+Name: Large Mining Station
+->
+Большая добывающая станция
+
+Name: Resort Station
+->
+Развлекательная станция
+
+Name: Heavy Frigate
+->
+Тяжёлый фрегат
+
+Name: Fast Frigate
+->
+Быстрый фрегат
+
+Name: Fleet Frigate
+->
+Флотский фрегат
+
+Name: Destroyer
+->
+Destroyer
+
+Name: Medium Troop Transport
+->
+Средний десантный корабль
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Medium Construction Ship
+->
+Средний строительный корабль
+
+Name: Medium Exploration Ship
+->
+Средний исследовательский корабль
+
+Name: Large Mining Ship
+->
+Большой добывающий корабль
+
+Name: Medium Freighter
+->
+Средний грузовой корабль
+
+Name: Medium Passenger Ship
+->
+Средний пассажирский корабль
+
+Name: Heavy Destroyer
+->
+Тяжёлый эсминец
+
+Name: Fast Destroyer
+->
+Быстрый эсминец
+
+Name: Fleet Destroyer
+->
+Флотский Эсминец
+
+Name: Medium Space Port
+->
+Средний космический порт
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Medium Colony Ship
+->
+Средний колонизационный корабль
+
+Name: Large Fuel Tanker
+->
+Большой топливный заправщик
+
+Name: Large Freighter
+->
+Большой грузовой корабль
+
+Name: Large Passenger Ship
+->
+Большой пассажирский корабль
+
+Name: Light Cruiser
+->
+Лёгкий крейсер
+
+Name: Large Troop Transport
+->
+Большой десантный корабль
+
+Name: Medium Space Port
+->
+Средний космический порт
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Large Construction Ship
+->
+Большой строительный корабль
+
+Name: Large Exploration Ship
+->
+Большой исследовательский корабль
+
+Name: Large Colony Ship
+->
+Большой колонизационный корабль
+
+Name: Basic Fighter
+->
+Базовый истребитель
+
+Name: Basic Bomber
+->
+Базовый бомбардировщик
+
+Name: Light Interceptor
+->
+Лёгкий перехватчик
+
+Name: Light Bomber
+->
+Лёгкий бомбардировщик
+
+Name: Light Attack Fighter
+->
+Лёгкий ударный истребитель
+
+Name: Tactical Interceptor
+->
+Тактический перехватчик
+
+Name: Medium Bomber
+->
+Средний бомбардировщик
+
+Name: Attack Fighter
+->
+Ударный истребитель
+
+Name: Escort
+->
+Escort
+
+Name: Monitoring Station
+->
+Станция наблюдения
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Construction Ship
+->
+Малый строительный корабль
+
+Name: Small Exploration Ship
+->
+Малый исследовательский корабль
+
+Name: Small Mining Ship
+->
+Малый добывающий корабль
+
+Name: Small Freighter
+->
+Малый грузовой корабль
+
+Name: Small Mining Station
+->
+Малая добывающая станция
+
+Name: Research Station
+->
+Исследовательская станция
+
+Name: Heavy Escort
+->
+Тяжёлый эскорт
+
+Name: Patrol Escort
+->
+Патрульный эскорт
+
+Name: Frigate
+->
+Frigate
+
+Name: Small Troop Transport
+->
+Малый десантный корабль
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Colony Ship
+->
+Малый колонизационный корабль
+
+Name: Medium Mining Ship
+->
+Средний добывающий корабль
+
+Name: Small Passenger Ship
+->
+Малый пассажирский корабль
+
+Name: Small Fuel Tanker
+->
+Малый топливный заправщик
+
+Name: Large Mining Station
+->
+Большая добывающая станция
+
+Name: Resort Station
+->
+Развлекательная станция
+
+Name: Heavy Frigate
+->
+Тяжёлый фрегат
+
+Name: Fast Frigate
+->
+Быстрый фрегат
+
+Name: Fleet Frigate
+->
+Флотский фрегат
+
+Name: Destroyer
+->
+Destroyer
+
+Name: Medium Troop Transport
+->
+Средний десантный корабль
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Medium Construction Ship
+->
+Средний строительный корабль
+
+Name: Medium Exploration Ship
+->
+Средний исследовательский корабль
+
+Name: Large Mining Ship
+->
+Большой добывающий корабль
+
+Name: Medium Freighter
+->
+Средний грузовой корабль
+
+Name: Medium Passenger Ship
+->
+Средний пассажирский корабль
+
+Name: Heavy Destroyer
+->
+Тяжёлый эсминец
+
+Name: Fast Destroyer
+->
+Быстрый эсминец
+
+Name: Fleet Destroyer
+->
+Флотский Эсминец
+
+Name: Medium Space Port
+->
+Средний космический порт
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Medium Colony Ship
+->
+Средний колонизационный корабль
+
+Name: Large Fuel Tanker
+->
+Большой топливный заправщик
+
+Name: Large Freighter
+->
+Большой грузовой корабль
+
+Name: Large Passenger Ship
+->
+Большой пассажирский корабль
+
+Name: Light Cruiser
+->
+Лёгкий крейсер
+
+Name: Large Troop Transport
+->
+Большой десантный корабль
+
+Name: Medium Space Port
+->
+Средний космический порт
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Large Construction Ship
+->
+Большой строительный корабль
+
+Name: Large Exploration Ship
+->
+Большой исследовательский корабль
+
+Name: Large Colony Ship
+->
+Большой колонизационный корабль
+
+Name: Battlecruiser
+->
+Линейный крейсер
+
+Name: Light Carrier
+->
+Лёгкий авианосец
+
+Name: Fast Cruiser
+->
+Быстрый крейсер
+
+Name: Long Range Cruiser
+->
+Дальнобойный крейсер
+
+Name: Command Cruiser
+->
+Крейсер командования
+
+Name: Cruiser
+->
+Крейсер
+
+Name: Massive Troop Transport
+->
+Массивный десантный корабль
+
+Name: Battleship
+->
+Линкор
+
+Name: Carrier
+->
+Авианосец
+
+Name: Exploration Cruiser
+->
+Разведывательный крейсер
+
+Name: Patrol Cruiser
+->
+Патрульный крейсер
+
+Name: Fleet Command Cruiser
+->
+Крейсер командования флотом
+
+Name: Heavy Cruiser
+->
+Тяжёлый крейсер
+
+Name: Expedition Transport
+->
+Экспедиционный транспортный корабль
+
+Name: Large Space Port
+->
+Большой космический порт
+
+Name: Massive Colony Ship
+->
+Массивный колонизационный корабль
+
+Name: Heavy Battleship
+->
+Тяжёлый линкор
+
+Name: Heavy Carrier
+->
+Тяжёлый авианосец
+
+Name: Army Transport
+->
+Транспортный корабль армии
+
+Name: World Ship
+->
+Мировой корабль
+
+Name: Dreadnought
+->
+Линейный крейсер
+
+Name: Fleet Carrier
+->
+Флотский авианосец
+
+Name: Sector Space Port
+->
+Секторный космический порт
+
+Name: Battlecruiser
+->
+Линейный крейсер
+
+Name: Light Carrier
+->
+Лёгкий авианосец
+
+Name: Fast Cruiser
+->
+Быстрый крейсер
+
+Name: Long Range Cruiser
+->
+Дальнобойный крейсер
+
+Name: Command Cruiser
+->
+Крейсер командования
+
+Name: Cruiser
+->
+Крейсер
+
+Name: Massive Troop Transport
+->
+Массивный десантный корабль
+
+Name: Battleship
+->
+Линкор
+
+Name: Carrier
+->
+Авианосец
+
+Name: Exploration Cruiser
+->
+Разведывательный крейсер
+
+Name: Patrol Cruiser
+->
+Патрульный крейсер
+
+Name: Fleet Command Cruiser
+->
+Крейсер командования флотом
+
+Name: Heavy Cruiser
+->
+Тяжёлый крейсер
+
+Name: Expedition Transport
+->
+Экспедиционный транспортный корабль
+
+Name: Large Space Port
+->
+Большой космический порт
+
+Name: Massive Colony Ship
+->
+Массивный колонизационный корабль
+
+Name: Heavy Battleship
+->
+Тяжёлый линкор
+
+Name: Heavy Carrier
+->
+Тяжёлый авианосец
+
+Name: Army Transport
+->
+Транспортный корабль армии
+
+Name: World Ship
+->
+Мировой корабль
+
+Name: Dreadnought
+->
+Линейный крейсер
+
+Name: Fleet Carrier
+->
+Флотский авианосец
+
+Name: Sector Space Port
+->
+Секторный космический порт
+
+Name: Battlecruiser
+->
+Линейный крейсер
+
+Name: Light Carrier
+->
+Лёгкий авианосец
+
+Name: Fast Cruiser
+->
+Быстрый крейсер
+
+Name: Long Range Cruiser
+->
+Дальнобойный крейсер
+
+Name: Command Cruiser
+->
+Крейсер командования
+
+Name: Cruiser
+->
+Крейсер
+
+Name: Massive Troop Transport
+->
+Массивный десантный корабль
+
+Name: Battleship
+->
+Линкор
+
+Name: Carrier
+->
+Авианосец
+
+Name: Exploration Cruiser
+->
+Разведывательный крейсер
+
+Name: Patrol Cruiser
+->
+Патрульный крейсер
+
+Name: Fleet Command Cruiser
+->
+Крейсер командования флотом
+
+Name: Heavy Cruiser
+->
+Тяжёлый крейсер
+
+Name: Expedition Transport
+->
+Экспедиционный транспортный корабль
+
+Name: Large Space Port
+->
+Большой космический порт
+
+Name: Massive Colony Ship
+->
+Массивный колонизационный корабль
+
+Name: Heavy Battleship
+->
+Тяжёлый линкор
+
+Name: Heavy Carrier
+->
+Тяжёлый авианосец
+
+Name: Army Transport
+->
+Транспортный корабль армии
+
+Name: World Ship
+->
+Мировой корабль
+
+Name: Dreadnought
+->
+Линейный крейсер
+
+Name: Fleet Carrier
+->
+Флотский авианосец
+
+Name: Sector Space Port
+->
+Секторный космический порт
+
+Name: Battlecruiser
+->
+Линейный крейсер
+
+Name: Light Carrier
+->
+Лёгкий авианосец
+
+Name: Fast Cruiser
+->
+Быстрый крейсер
+
+Name: Long Range Cruiser
+->
+Дальнобойный крейсер
+
+Name: Command Cruiser
+->
+Крейсер командования
+
+Name: Cruiser
+->
+Крейсер
+
+Name: Massive Troop Transport
+->
+Массивный десантный корабль
+
+Name: Battleship
+->
+Линкор
+
+Name: Carrier
+->
+Авианосец
+
+Name: Exploration Cruiser
+->
+Разведывательный крейсер
+
+Name: Patrol Cruiser
+->
+Патрульный крейсер
+
+Name: Fleet Command Cruiser
+->
+Крейсер командования флотом
+
+Name: Heavy Cruiser
+->
+Тяжёлый крейсер
+
+Name: Expedition Transport
+->
+Экспедиционный транспортный корабль
+
+Name: Large Space Port
+->
+Большой космический порт
+
+Name: Massive Colony Ship
+->
+Массивный колонизационный корабль
+
+Name: Heavy Battleship
+->
+Тяжёлый линкор
+
+Name: Heavy Carrier
+->
+Тяжёлый авианосец
+
+Name: Army Transport
+->
+Транспортный корабль армии
+
+Name: World Ship
+->
+Мировой корабль
+
+Name: Dreadnought
+->
+Линейный крейсер
+
+Name: Fleet Carrier
+->
+Флотский авианосец
+
+Name: Sector Space Port
+->
+Секторный космический порт
+
+Name: Battlecruiser
+->
+Линейный крейсер
+
+Name: Light Carrier
+->
+Лёгкий авианосец
+
+Name: Fast Cruiser
+->
+Быстрый крейсер
+
+Name: Long Range Cruiser
+->
+Дальнобойный крейсер
+
+Name: Command Cruiser
+->
+Крейсер командования
+
+Name: Cruiser
+->
+Крейсер
+
+Name: Massive Troop Transport
+->
+Массивный десантный корабль
+
+Name: Battleship
+->
+Линкор
+
+Name: Carrier
+->
+Авианосец
+
+Name: Exploration Cruiser
+->
+Разведывательный крейсер
+
+Name: Patrol Cruiser
+->
+Патрульный крейсер
+
+Name: Fleet Command Cruiser
+->
+Крейсер командования флотом
+
+Name: Heavy Cruiser
+->
+Тяжёлый крейсер
+
+Name: Expedition Transport
+->
+Экспедиционный транспортный корабль
+
+Name: Large Space Port
+->
+Большой космический порт
+
+Name: Massive Colony Ship
+->
+Массивный колонизационный корабль
+
+Name: Heavy Battleship
+->
+Тяжёлый линкор
+
+Name: Heavy Carrier
+->
+Тяжёлый авианосец
+
+Name: Army Transport
+->
+Транспортный корабль армии
+
+Name: World Ship
+->
+Мировой корабль
+
+Name: Dreadnought
+->
+Линейный крейсер
+
+Name: Fleet Carrier
+->
+Флотский авианосец
+
+Name: Sector Space Port
+->
+Секторный космический порт
+
+Name: Advanced Interceptor
+->
+Продвинутый перехватчик
+
+Name: Strike Fighter
+->
+Штурмовой истребитель
+
+Name: Gyrfalcon Interceptor
+->
+Перехватчик «Кречет»
+
+Name: Gyrfalcon Interceptor
+->
+Перехватчик «Кречет»
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Strike Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Heavy Bomber
+->
+Тяжелый бомбардировщик
+
+Name: Assault Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Advanced Interceptor
+->
+Продвинутый перехватчик
+
+Name: Strike Fighter
+->
+Штурмовой истребитель
+
+Name: ZimZip Attack Shuttle
+->
+Ударный шаттл «ЗимЗип»
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: ZimZip Attack Shuttle
+->
+Ударный шаттл «ЗимЗип»
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Strike Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Heavy Bomber
+->
+Тяжелый бомбардировщик
+
+Name: Assault Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Advanced Interceptor
+->
+Продвинутый перехватчик
+
+Name: Strike Fighter
+->
+Штурмовой истребитель
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Strike Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Heavy Bomber
+->
+Тяжелый бомбардировщик
+
+Name: Assault Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Advanced Interceptor
+->
+Продвинутый перехватчик
+
+Name: Strike Fighter
+->
+Штурмовой истребитель
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Strike Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Heavy Bomber
+->
+Тяжелый бомбардировщик
+
+Name: Assault Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Basic Fighter
+->
+Базовый истребитель
+
+Name: Light Interceptor
+->
+Лёгкий перехватчик
+
+Name: Light Attack Fighter
+->
+Лёгкий ударный истребитель
+
+Name: Tactical Interceptor
+->
+Тактический перехватчик
+
+Name: Attack Fighter
+->
+Ударный истребитель
+
+Name: Advanced Interceptor
+->
+Продвинутый перехватчик
+
+Name: Strike Fighter
+->
+Штурмовой истребитель
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Basic Bomber
+->
+Базовый бомбардировщик
+
+Name: Light Bomber
+->
+Лёгкий бомбардировщик
+
+Name: Medium Bomber
+->
+Средний бомбардировщик
+
+Name: Strike Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Heavy Bomber
+->
+Тяжелый бомбардировщик
+
+Name: Assault Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Escort
+->
+Escort
+
+Name: Frigate
+->
+Frigate
+
+Name: Destroyer
+->
+Destroyer
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Heavy Escort
+->
+Тяжёлый эскорт
+
+Name: Heavy Frigate
+->
+Тяжёлый фрегат
+
+Name: Heavy Destroyer
+->
+Тяжёлый эсминец
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Patrol Escort
+->
+Патрульный эскорт
+
+Name: Fast Frigate
+->
+Быстрый фрегат
+
+Name: Fast Destroyer
+->
+Быстрый эсминец
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Fleet Destroyer
+->
+Флотский Эсминец
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Fleet Frigate
+->
+Флотский фрегат
+
+Name: Basic Fighter
+->
+Базовый истребитель
+
+Name: Light Interceptor
+->
+Лёгкий перехватчик
+
+Name: Light Attack Fighter
+->
+Лёгкий ударный истребитель
+
+Name: Tactical Interceptor
+->
+Тактический перехватчик
+
+Name: Attack Fighter
+->
+Ударный истребитель
+
+Name: Advanced Interceptor
+->
+Продвинутый перехватчик
+
+Name: Strike Fighter
+->
+Штурмовой истребитель
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Basic Bomber
+->
+Базовый бомбардировщик
+
+Name: Light Bomber
+->
+Лёгкий бомбардировщик
+
+Name: Medium Bomber
+->
+Средний бомбардировщик
+
+Name: Strike Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Heavy Bomber
+->
+Тяжелый бомбардировщик
+
+Name: Assault Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Escort
+->
+Escort
+
+Name: Frigate
+->
+Frigate
+
+Name: Destroyer
+->
+Destroyer
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Heavy Escort
+->
+Тяжёлый эскорт
+
+Name: Heavy Frigate
+->
+Тяжёлый фрегат
+
+Name: Heavy Destroyer
+->
+Тяжёлый эсминец
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Patrol Escort
+->
+Патрульный эскорт
+
+Name: Fast Frigate
+->
+Быстрый фрегат
+
+Name: Fast Destroyer
+->
+Быстрый эсминец
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Fleet Destroyer
+->
+Флотский Эсминец
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Fleet Frigate
+->
+Флотский фрегат
+
+Name: Basic Fighter
+->
+Базовый истребитель
+
+Name: Light Interceptor
+->
+Лёгкий перехватчик
+
+Name: Light Attack Fighter
+->
+Лёгкий ударный истребитель
+
+Name: Tactical Interceptor
+->
+Тактический перехватчик
+
+Name: Attack Fighter
+->
+Ударный истребитель
+
+Name: Advanced Interceptor
+->
+Продвинутый перехватчик
+
+Name: Strike Fighter
+->
+Штурмовой истребитель
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Basic Bomber
+->
+Базовый бомбардировщик
+
+Name: Light Bomber
+->
+Лёгкий бомбардировщик
+
+Name: Medium Bomber
+->
+Средний бомбардировщик
+
+Name: Strike Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Heavy Bomber
+->
+Тяжелый бомбардировщик
+
+Name: Assault Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Escort
+->
+Escort
+
+Name: Frigate
+->
+Frigate
+
+Name: Destroyer
+->
+Destroyer
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Heavy Escort
+->
+Тяжёлый эскорт
+
+Name: Heavy Frigate
+->
+Тяжёлый фрегат
+
+Name: Heavy Destroyer
+->
+Тяжёлый эсминец
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Patrol Escort
+->
+Патрульный эскорт
+
+Name: Fast Frigate
+->
+Быстрый фрегат
+
+Name: Fast Destroyer
+->
+Быстрый эсминец
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Fleet Destroyer
+->
+Флотский Эсминец
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Fleet Frigate
+->
+Флотский фрегат
+
+Name: Basic Fighter
+->
+Базовый истребитель
+
+Name: Light Interceptor
+->
+Лёгкий перехватчик
+
+Name: Light Attack Fighter
+->
+Лёгкий ударный истребитель
+
+Name: Tactical Interceptor
+->
+Тактический перехватчик
+
+Name: Attack Fighter
+->
+Ударный истребитель
+
+Name: Advanced Interceptor
+->
+Продвинутый перехватчик
+
+Name: Strike Fighter
+->
+Штурмовой истребитель
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Basic Bomber
+->
+Базовый бомбардировщик
+
+Name: Light Bomber
+->
+Лёгкий бомбардировщик
+
+Name: Medium Bomber
+->
+Средний бомбардировщик
+
+Name: Strike Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Heavy Bomber
+->
+Тяжелый бомбардировщик
+
+Name: Assault Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Escort
+->
+Escort
+
+Name: Frigate
+->
+Frigate
+
+Name: Destroyer
+->
+Destroyer
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Heavy Escort
+->
+Тяжёлый эскорт
+
+Name: Heavy Frigate
+->
+Тяжёлый фрегат
+
+Name: Heavy Destroyer
+->
+Тяжёлый эсминец
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Patrol Escort
+->
+Патрульный эскорт
+
+Name: Fast Frigate
+->
+Быстрый фрегат
+
+Name: Fast Destroyer
+->
+Быстрый эсминец
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Fleet Destroyer
+->
+Флотский Эсминец
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Fleet Frigate
+->
+Флотский фрегат
+
+Name: Basic Fighter
+->
+Базовый истребитель
+
+Name: Light Interceptor
+->
+Лёгкий перехватчик
+
+Name: Light Attack Fighter
+->
+Лёгкий ударный истребитель
+
+Name: Tactical Interceptor
+->
+Тактический перехватчик
+
+Name: Attack Fighter
+->
+Ударный истребитель
+
+Name: Advanced Interceptor
+->
+Продвинутый перехватчик
+
+Name: Strike Fighter
+->
+Штурмовой истребитель
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Basic Bomber
+->
+Базовый бомбардировщик
+
+Name: Light Bomber
+->
+Лёгкий бомбардировщик
+
+Name: Medium Bomber
+->
+Средний бомбардировщик
+
+Name: Strike Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Heavy Bomber
+->
+Тяжелый бомбардировщик
+
+Name: Assault Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Basic Fighter
+->
+Базовый истребитель
+
+Name: Light Interceptor
+->
+Лёгкий перехватчик
+
+Name: Light Attack Fighter
+->
+Лёгкий ударный истребитель
+
+Name: Tactical Interceptor
+->
+Тактический перехватчик
+
+Name: Attack Fighter
+->
+Ударный истребитель
+
+Name: Advanced Interceptor
+->
+Продвинутый перехватчик
+
+Name: Strike Fighter
+->
+Штурмовой истребитель
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Basic Bomber
+->
+Базовый бомбардировщик
+
+Name: Light Bomber
+->
+Лёгкий бомбардировщик
+
+Name: Medium Bomber
+->
+Средний бомбардировщик
+
+Name: Strike Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Heavy Bomber
+->
+Тяжелый бомбардировщик
+
+Name: Assault Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Escort
+->
+Escort
+
+Name: Monitoring Station
+->
+Станция наблюдения
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Construction Ship
+->
+Малый строительный корабль
+
+Name: Small Exploration Ship
+->
+Малый исследовательский корабль
+
+Name: Small Mining Ship
+->
+Малый добывающий корабль
+
+Name: Small Freighter
+->
+Малый грузовой корабль
+
+Name: Small Mining Station
+->
+Малая добывающая станция
+
+Name: Research Station
+->
+Исследовательская станция
+
+Name: Heavy Escort
+->
+Тяжёлый эскорт
+
+Name: Patrol Escort
+->
+Патрульный эскорт
+
+Name: Frigate
+->
+Frigate
+
+Name: Small Troop Transport
+->
+Малый десантный корабль
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Colony Ship
+->
+Малый колонизационный корабль
+
+Name: Medium Mining Ship
+->
+Средний добывающий корабль
+
+Name: Small Passenger Ship
+->
+Малый пассажирский корабль
+
+Name: Small Fuel Tanker
+->
+Малый топливный заправщик
+
+Name: Large Mining Station
+->
+Большая добывающая станция
+
+Name: Resort Station
+->
+Развлекательная станция
+
+Name: Heavy Frigate
+->
+Тяжёлый фрегат
+
+Name: Fast Frigate
+->
+Быстрый фрегат
+
+Name: Fleet Frigate
+->
+Флотский фрегат
+
+Name: Destroyer
+->
+Destroyer
+
+Name: Medium Troop Transport
+->
+Средний десантный корабль
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Medium Construction Ship
+->
+Средний строительный корабль
+
+Name: Medium Exploration Ship
+->
+Средний исследовательский корабль
+
+Name: Large Mining Ship
+->
+Большой добывающий корабль
+
+Name: Medium Freighter
+->
+Средний грузовой корабль
+
+Name: Medium Passenger Ship
+->
+Средний пассажирский корабль
+
+Name: Heavy Destroyer
+->
+Тяжёлый эсминец
+
+Name: Fast Destroyer
+->
+Быстрый эсминец
+
+Name: Fleet Destroyer
+->
+Флотский Эсминец
+
+Name: Medium Space Port
+->
+Средний космический порт
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Medium Colony Ship
+->
+Средний колонизационный корабль
+
+Name: Large Fuel Tanker
+->
+Большой топливный заправщик
+
+Name: Large Freighter
+->
+Большой грузовой корабль
+
+Name: Large Passenger Ship
+->
+Большой пассажирский корабль
+
+Name: Light Cruiser
+->
+Лёгкий крейсер
+
+Name: Large Troop Transport
+->
+Большой десантный корабль
+
+Name: Medium Space Port
+->
+Средний космический порт
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Large Construction Ship
+->
+Большой строительный корабль
+
+Name: Large Exploration Ship
+->
+Большой исследовательский корабль
+
+Name: Large Colony Ship
+->
+Большой колонизационный корабль
+
+Name: Battlecruiser
+->
+Линейный крейсер
+
+Name: Light Carrier
+->
+Лёгкий авианосец
+
+Name: Fast Cruiser
+->
+Быстрый крейсер
+
+Name: Long Range Cruiser
+->
+Дальнобойный крейсер
+
+Name: Command Cruiser
+->
+Крейсер командования
+
+Name: Cruiser
+->
+Крейсер
+
+Name: Massive Troop Transport
+->
+Массивный десантный корабль
+
+Name: Battleship
+->
+Линкор
+
+Name: Carrier
+->
+Авианосец
+
+Name: Exploration Cruiser
+->
+Разведывательный крейсер
+
+Name: Patrol Cruiser
+->
+Патрульный крейсер
+
+Name: Fleet Command Cruiser
+->
+Крейсер командования флотом
+
+Name: Heavy Cruiser
+->
+Тяжёлый крейсер
+
+Name: Expedition Transport
+->
+Экспедиционный транспортный корабль
+
+Name: Large Space Port
+->
+Большой космический порт
+
+Name: Massive Colony Ship
+->
+Массивный колонизационный корабль
+
+Name: Heavy Battleship
+->
+Тяжёлый линкор
+
+Name: Heavy Carrier
+->
+Тяжёлый авианосец
+
+Name: Army Transport
+->
+Транспортный корабль армии
+
+Name: World Ship
+->
+Мировой корабль
+
+Name: Dreadnought
+->
+Линейный крейсер
+
+Name: Fleet Carrier
+->
+Флотский авианосец
+
+Name: Sector Space Port
+->
+Секторный космический порт
+
+Name: Basic Fighter
+->
+Базовый истребитель
+
+Name: Light Interceptor
+->
+Лёгкий перехватчик
+
+Name: Light Attack Fighter
+->
+Лёгкий ударный истребитель
+
+Name: Tactical Interceptor
+->
+Тактический перехватчик
+
+Name: Attack Fighter
+->
+Ударный истребитель
+
+Name: Advanced Interceptor
+->
+Продвинутый перехватчик
+
+Name: Strike Fighter
+->
+Штурмовой истребитель
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Basic Bomber
+->
+Базовый бомбардировщик
+
+Name: Light Bomber
+->
+Лёгкий бомбардировщик
+
+Name: Medium Bomber
+->
+Средний бомбардировщик
+
+Name: Strike Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Heavy Bomber
+->
+Тяжелый бомбардировщик
+
+Name: Assault Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Escort
+->
+Escort
+
+Name: Monitoring Station
+->
+Станция наблюдения
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Construction Ship
+->
+Малый строительный корабль
+
+Name: Small Exploration Ship
+->
+Малый исследовательский корабль
+
+Name: Small Mining Ship
+->
+Малый добывающий корабль
+
+Name: Small Freighter
+->
+Малый грузовой корабль
+
+Name: Small Mining Station
+->
+Малая добывающая станция
+
+Name: Research Station
+->
+Исследовательская станция
+
+Name: Heavy Escort
+->
+Тяжёлый эскорт
+
+Name: Patrol Escort
+->
+Патрульный эскорт
+
+Name: Frigate
+->
+Frigate
+
+Name: Small Troop Transport
+->
+Малый десантный корабль
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Colony Ship
+->
+Малый колонизационный корабль
+
+Name: Medium Mining Ship
+->
+Средний добывающий корабль
+
+Name: Small Passenger Ship
+->
+Малый пассажирский корабль
+
+Name: Small Fuel Tanker
+->
+Малый топливный заправщик
+
+Name: Large Mining Station
+->
+Большая добывающая станция
+
+Name: Resort Station
+->
+Развлекательная станция
+
+Name: Heavy Frigate
+->
+Тяжёлый фрегат
+
+Name: Fast Frigate
+->
+Быстрый фрегат
+
+Name: Fleet Frigate
+->
+Флотский фрегат
+
+Name: Destroyer
+->
+Destroyer
+
+Name: Medium Troop Transport
+->
+Средний десантный корабль
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Medium Construction Ship
+->
+Средний строительный корабль
+
+Name: Medium Exploration Ship
+->
+Средний исследовательский корабль
+
+Name: Large Mining Ship
+->
+Большой добывающий корабль
+
+Name: Medium Freighter
+->
+Средний грузовой корабль
+
+Name: Medium Passenger Ship
+->
+Средний пассажирский корабль
+
+Name: Heavy Destroyer
+->
+Тяжёлый эсминец
+
+Name: Fast Destroyer
+->
+Быстрый эсминец
+
+Name: Fleet Destroyer
+->
+Флотский Эсминец
+
+Name: Medium Space Port
+->
+Средний космический порт
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Medium Colony Ship
+->
+Средний колонизационный корабль
+
+Name: Large Fuel Tanker
+->
+Большой топливный заправщик
+
+Name: Large Freighter
+->
+Большой грузовой корабль
+
+Name: Large Passenger Ship
+->
+Большой пассажирский корабль
+
+Name: Light Cruiser
+->
+Лёгкий крейсер
+
+Name: Large Troop Transport
+->
+Большой десантный корабль
+
+Name: Medium Space Port
+->
+Средний космический порт
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Large Construction Ship
+->
+Большой строительный корабль
+
+Name: Large Exploration Ship
+->
+Большой исследовательский корабль
+
+Name: Large Colony Ship
+->
+Большой колонизационный корабль
+
+Name: Battlecruiser
+->
+Линейный крейсер
+
+Name: Light Carrier
+->
+Лёгкий авианосец
+
+Name: Fast Cruiser
+->
+Быстрый крейсер
+
+Name: Long Range Cruiser
+->
+Дальнобойный крейсер
+
+Name: Command Cruiser
+->
+Крейсер командования
+
+Name: Cruiser
+->
+Крейсер
+
+Name: Massive Troop Transport
+->
+Массивный десантный корабль
+
+Name: Battleship
+->
+Линкор
+
+Name: Carrier
+->
+Авианосец
+
+Name: Exploration Cruiser
+->
+Разведывательный крейсер
+
+Name: Patrol Cruiser
+->
+Патрульный крейсер
+
+Name: Fleet Command Cruiser
+->
+Крейсер командования флотом
+
+Name: Heavy Cruiser
+->
+Тяжёлый крейсер
+
+Name: Expedition Transport
+->
+Экспедиционный транспортный корабль
+
+Name: Large Space Port
+->
+Большой космический порт
+
+Name: Massive Colony Ship
+->
+Массивный колонизационный корабль
+
+Name: Heavy Battleship
+->
+Тяжёлый линкор
+
+Name: Heavy Carrier
+->
+Тяжёлый авианосец
+
+Name: Army Transport
+->
+Транспортный корабль армии
+
+Name: World Ship
+->
+Мировой корабль
+
+Name: Dreadnought
+->
+Линейный крейсер
+
+Name: Fleet Carrier
+->
+Флотский авианосец
+
+Name: Sector Space Port
+->
+Секторный космический порт
+
+Name: Small Freighter
+->
+Малый грузовой корабль
+
+Name: Small Freighter
+->
+Малый грузовой корабль
+
+Name: Small Freighter
+->
+Малый грузовой корабль
+
+Name: Small Freighter
+->
+Малый грузовой корабль
+
+Name: Medium Freighter
+->
+Средний грузовой корабль
+
+Name: Medium Freighter
+->
+Средний грузовой корабль
+
+Name: Destroyer
+->
+Destroyer
+
+Name: Cruiser
+->
+Крейсер
+
+Name: Colony Ship
+->
+Колонизационный корабль
 
 Name: Small Space Port
 ->

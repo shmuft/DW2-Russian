@@ -300,9 +300,17 @@ def check_translated_file(file_path: str) -> int:
                 for tag in ['MessageTitle', 'Description', 'ChoiceButtonText']:
                     for child in action.iter(tag):
                         check_text(child, f"{elem_tag}/TriggerActions/GameEventAction/{tag}")
+            for action in elem.findall('.//PlacementActions/GameEventAction'):
+                for tag in ['MessageTitle', 'Description']:
+                    for child in action.iter(tag):
+                        check_text(child, f"{elem_tag}/PlacementActions/GameEventAction/{tag}")
+            for tag in ['Title', 'Description']:
+                for child in elem.iter(tag):
+                    check_text(child, f"{elem_tag}/{tag}")
         elif elem_tag == 'PlanetaryFacilityDefinition':
-            for child in elem.iter('Name'):
-                check_text(child, f"{elem_tag}/Name")
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    check_text(child, f"{elem_tag}/{tag}")
         elif elem_tag == 'Race':
             for child in elem.iter('Description'):
                 check_text(child, f"{elem_tag}/Description")
@@ -313,24 +321,29 @@ def check_translated_file(file_path: str) -> int:
                 for child in elem.iter(tag):
                     check_text(child, f"{elem_tag}/{tag}")
         elif elem_tag == 'ShipHull':
-            for child in elem.iter('Name'):
-                check_text(child, f"{elem_tag}/Name")
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    check_text(child, f"{elem_tag}/{tag}")
         elif elem_tag == 'TroopDefinition':
-            for child in elem.iter('Name'):
-                check_text(child, f"{elem_tag}/Name")
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    check_text(child, f"{elem_tag}/{tag}")
         elif elem_tag == 'ArmyTemplate':
-            for child in elem.iter('Name'):
-                check_text(child, f"{elem_tag}/Name")
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    check_text(child, f"{elem_tag}/{tag}")
         elif elem_tag == 'ColonyEventDefinition':
             for tag in ['Name', 'Description']:
                 for child in elem.iter(tag):
                     check_text(child, f"{elem_tag}/{tag}")
         elif elem_tag == 'ComponentDefinition':
-            for child in elem.iter('Name'):
-                check_text(child, f"{elem_tag}/Name")
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    check_text(child, f"{elem_tag}/{tag}")
         elif elem_tag == 'FleetTemplate':
-            for child in elem.iter('Name'):
-                check_text(child, f"{elem_tag}/Name")
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    check_text(child, f"{elem_tag}/{tag}")
         elif elem_tag == 'Government':
             for tag in ['Name', 'Description', 'string']:
                 for child in elem.iter(tag):
@@ -420,14 +433,175 @@ def build_translation_cache_from_files(russian_dir_path: str) -> dict:
     return cache
 
 
-def build_translation_cache_from_paired_files(english_dir_path: str, russian_dir_path: str) -> dict:
+def _is_technical_string(text: str) -> bool:
+    """
+    Проверяет, является ли строка технической информацией (путь к файлу, ID и т.д.).
+    Такие строки не должны быть в кэше переводов.
+    """
+    if not text:
+        return False
+    
+    text = text.strip()
+    
+    # Пути к файлам содержат слэши
+    if '/' in text or '\\' in text:
+        return True
+    
+    # Технические идентификаторы часто содержат подчеркивание
+    if '_' in text:
+        # Но проверяем, что это не просто слово с подчеркиванием
+        # Если это выглядит как путь/ID и НЕ содержит пробелов
+        if ' ' not in text and len(text) > 2:
+            return True
+    
+    # Строки без пробелов, содержащие только английские буквы, цифры, точки и дефисы
+    # это часто ID файлов (например: "Effects/Weapons/Slug1" без слэша проверяется выше)
+    if ' ' not in text and all(c.isalnum() or c in '._-' for c in text):
+        # Если это похоже на техническое имя (CamelCase ID, snake_case и т.д.)
+        if any(c.isupper() for c in text) or '_' in text:
+            # Это выглядит как техническое имя, не текст для перевода
+            return True
+    
+    return False
+
+
+def extract_translatable_texts(root):
+    """
+    Извлекает все переводимые тексты из XML дерева в том же порядке,
+    что и в translate_xml. Возвращает список кортежей (text, tag_description).
+    """
+    texts = []
+    
+    for elem in root.iter():
+        elem_tag = elem.tag
+        if elem_tag == 'Artifact':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    text = child.text.strip() if child.text else ''
+                    if text:
+                        texts.append((text, f"{elem_tag}/{tag}"))
+        elif elem_tag == 'GameEvent':
+            for action in elem.findall('.//TriggerActions/GameEventAction'):
+                for tag in ['MessageTitle', 'Description', 'ChoiceButtonText']:
+                    for child in action.iter(tag):
+                        text = child.text.strip() if child.text else ''
+                        if text:
+                            texts.append((text, f"{elem_tag}/TriggerActions/GameEventAction/{tag}"))
+            for action in elem.findall('.//PlacementActions/GameEventAction'):
+                for tag in ['MessageTitle', 'Description']:
+                    for child in action.iter(tag):
+                        text = child.text.strip() if child.text else ''
+                        if text:
+                            texts.append((text, f"{elem_tag}/PlacementActions/GameEventAction/{tag}"))
+            for tag in ['Title', 'Description']:
+                for child in elem.iter(tag):
+                    text = child.text.strip() if child.text else ''
+                    if text:
+                        texts.append((text, f"{elem_tag}/{tag}"))
+        elif elem_tag == 'PlanetaryFacilityDefinition':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    text = child.text.strip() if child.text else ''
+                    if text:
+                        texts.append((text, f"{elem_tag}/{tag}"))
+        elif elem_tag == 'Race':
+            for child in elem.iter('Description'):
+                text = child.text.strip() if child.text else ''
+                if text:
+                    texts.append((text, f"{elem_tag}/Description"))
+            for string_elem in elem.findall('.//FeatureExplanations/string'):
+                text = string_elem.text.strip() if string_elem.text else ''
+                if text:
+                    texts.append((text, f"{elem_tag}/FeatureExplanations/string"))
+        elif elem_tag == 'ResearchProjectDefinition':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    text = child.text.strip() if child.text else ''
+                    if text:
+                        texts.append((text, f"{elem_tag}/{tag}"))
+        elif elem_tag == 'ShipHull':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    text = child.text.strip() if child.text else ''
+                    if text:
+                        texts.append((text, f"{elem_tag}/{tag}"))
+        elif elem_tag == 'TroopDefinition':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    text = child.text.strip() if child.text else ''
+                    if text:
+                        texts.append((text, f"{elem_tag}/{tag}"))
+        elif elem_tag == 'ArmyTemplate':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    text = child.text.strip() if child.text else ''
+                    if text:
+                        texts.append((text, f"{elem_tag}/{tag}"))
+        elif elem_tag == 'ColonyEventDefinition':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    text = child.text.strip() if child.text else ''
+                    if text:
+                        texts.append((text, f"{elem_tag}/{tag}"))
+        elif elem_tag == 'ComponentDefinition':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    text = child.text.strip() if child.text else ''
+                    if text:
+                        texts.append((text, f"{elem_tag}/{tag}"))
+        elif elem_tag == 'FleetTemplate':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    text = child.text.strip() if child.text else ''
+                    if text:
+                        texts.append((text, f"{elem_tag}/{tag}"))
+        elif elem_tag == 'Government':
+            for tag in ['Name', 'Description', 'string']:
+                for child in elem.iter(tag):
+                    text = child.text.strip() if child.text else ''
+                    if text:
+                        texts.append((text, f"{elem_tag}/{tag}"))
+        elif elem_tag == 'OrbType':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    text = child.text.strip() if child.text else ''
+                    if text:
+                        texts.append((text, f"{elem_tag}/{tag}"))
+        elif elem_tag == 'Resource':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    text = child.text.strip() if child.text else ''
+                    if text:
+                        texts.append((text, f"{elem_tag}/{tag}"))
+        elif elem_tag == 'SpaceItemDefinition':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    text = child.text.strip() if child.text else ''
+                    if text:
+                        texts.append((text, f"{elem_tag}/{tag}"))
+        elif elem_tag == 'TourItem':
+            for tag in ['StepTitle', 'MarkupText']:
+                for child in elem.iter(tag):
+                    text = child.text.strip() if child.text else ''
+                    if text:
+                        texts.append((text, f"{elem_tag}/{tag}"))
+    
+    return texts
+
+
+def build_translation_cache_from_paired_files(english_dir_path: str, russian_dir_path: str, exclude_files: set = None) -> dict:
     """
     Сравнивает английские и русские файлы и собирает кэш переводов.
+    Пропускает файлы, которые находятся в процессе перевода (указаны в exclude_files).
+    Проверяет, что каждый перевод отличается от оригинала (т.е. отсутствуют недопереведённые элементы).
     Возвращает словарь {english_text: russian_text}
     """
     cache = {}
     english_dir = Path(english_dir_path)
     russian_dir = Path(russian_dir_path)
+    
+    if exclude_files is None:
+        exclude_files = set()
     
     if not english_dir.exists():
         print(f"[WARNING] Английская папка не найдена: {english_dir_path}")
@@ -442,10 +616,17 @@ def build_translation_cache_from_paired_files(english_dir_path: str, russian_dir
     print(f"[INFO] Сканирование {len(xml_files)} файлов для построения кэша переводов...")
     
     files_processed = 0
+    problems_found = []
+    technical_strings_skipped = 0
+    
     for eng_file in xml_files:
         # Вычислим соответствующий русский файл
         rel_path = eng_file.relative_to(english_dir)
         rus_file = russian_dir / rel_path
+        
+        # Пропускаем файлы в процессе перевода
+        if str(rus_file) in exclude_files:
+            continue
         
         if not rus_file.exists():
             continue
@@ -457,29 +638,26 @@ def build_translation_cache_from_paired_files(english_dir_path: str, russian_dir
             rus_tree = ET.parse(rus_file)
             rus_root = rus_tree.getroot()
             
-            # Собираем переводы с помощью XPath для соответствия элементов
-            # Используем индекс элемента для синхронизации
-            def extract_texts(root, tags_to_extract):
-                """Извлекает все тексты из указанных тегов в порядке обхода."""
-                texts = []
-                for elem in root.iter():
-                    if elem.text and elem.text.strip():
-                        parent_tag = None
-                        if elem.tag in ['Name', 'Description', 'MessageTitle', 'ChoiceButtonText', 'StepTitle', 'MarkupText', 'string']:
-                            texts.append(elem.text.strip())
-                return texts
+            # Извлекаем переводимые тексты из обоих файлов
+            eng_texts = extract_translatable_texts(eng_root)
+            rus_texts = extract_translatable_texts(rus_root)
             
-            # Простой подход - парсим пары тегов одинаково в обоих файлах
-            # и берём соответствующие элементы
-            for eng_elem, rus_elem in zip(eng_root.iter(), rus_root.iter()):
-                if eng_elem.tag == rus_elem.tag and eng_elem.text and rus_elem.text:
-                    eng_text = eng_elem.text.strip()
-                    rus_text = rus_elem.text.strip()
-                    if eng_text and rus_text:
-                        # Пропускаем технические теги
-                        technical_tags = {'Type', 'ImageFilename', 'AppliesTo', 'ArtifactId', 'DiscoveryLevel'}
-                        if eng_elem.tag not in technical_tags:
-                            cache[eng_text] = rus_text
+            # Сопоставляем тексты по порядку
+            for (eng_text, tag_desc), (rus_text, _) in zip(eng_texts, rus_texts):
+                # Пропускаем технические строки
+                if _is_technical_string(eng_text):
+                    technical_strings_skipped += 1
+                    continue
+                
+                # Если русский текст равен английскому - это недопереведённый элемент
+                if rus_text == eng_text:
+                    problem_msg = f"[PROBLEM] Недопереводённый элемент в {rus_file}: <{tag_desc.split('/')[-1]}>{eng_text}</{tag_desc.split('/')[-1]}>"
+                    print(problem_msg)
+                    problems_found.append(problem_msg)
+                    # Не добавляем в кэш!
+                else:
+                    # Добавляем только правильно переведённые элементы
+                    cache[eng_text] = rus_text
             
             files_processed += 1
             if files_processed % 10 == 0:
@@ -489,12 +667,46 @@ def build_translation_cache_from_paired_files(english_dir_path: str, russian_dir
             print(f"[WARNING] Ошибка обработки пары файлов {eng_file} / {rus_file}: {e}")
             continue
     
+    # Выводим итоги проблем
+    if problems_found:
+        print(f"\n[ERROR] Найдено {len(problems_found)} недопереведённых элементов:")
+        for problem in problems_found[:20]:  # Показываем первые 20
+            print(f"  {problem}")
+        if len(problems_found) > 20:
+            print(f"  ... и ещё {len(problems_found) - 20} проблем")
+        print("[ERROR] Эти элементы исключены из кэша для пересортировки!")
+    
+    if technical_strings_skipped > 0:
+        print(f"[INFO] Пропущено {technical_strings_skipped} технических строк (пути, ID и т.д.)")
+    
     print(f"[INFO] Построено {len(cache)} переводов в кэше из {files_processed} файлов")
     return cache
 
 
 def translate_xml(input_file: str, output_file: str, words_mode=False, translator=None):
-    tree = ET.parse(input_file)
+    # Загрузка прогресса ДО парсинга файла
+    progress_file = f"{output_file}.progress.pkl"
+    start_index = 0
+    source_file = input_file  # По умолчанию парсим исходный файл
+    
+    if os.path.exists(progress_file):
+        try:
+            with open(progress_file, 'rb') as f:
+                progress = pickle.load(f)
+            if progress.get('file') == output_file:
+                start_index = progress.get('task_index', 0)
+                # Если выходной файл существует, загружаем его вместо исходного
+                # чтобы получить уже сделанные переводы
+                if os.path.exists(output_file):
+                    source_file = output_file
+                    print(f"Загружаю состояние с частичными переводами из {output_file}")
+                print(f"Найден сохранённый прогресс. Продолжаю с задачи {start_index + 1}")
+            else:
+                print("Прогресс для другого файла, начинаю заново.")
+        except Exception as e:
+            print(f"Ошибка загрузки прогресса: {e}. Начинаю заново.")
+
+    tree = ET.parse(source_file)
     root = tree.getroot()
     log_entries = []
     words_set = set()
@@ -524,14 +736,32 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
                                 words_set.add(original)
                             else:
                                 add_task(child, tag, original)
+            for action in elem.findall('.//PlacementActions/GameEventAction'):
+                for tag in ['MessageTitle', 'Description']:
+                    for child in action.iter(tag):
+                        original = child.text.strip() if child.text else ''
+                        if original:
+                            if words_mode:
+                                words_set.add(original)
+                            else:
+                                add_task(child, tag, original)
+            for tag in ['Title', 'Description']:
+                for child in elem.iter(tag):
+                    original = child.text.strip() if child.text else ''
+                    if original:
+                        if words_mode:
+                            words_set.add(original)
+                        else:
+                            add_task(child, tag, original)
         elif elem_tag == 'PlanetaryFacilityDefinition':
-            for child in elem.iter('Name'):
-                original = child.text.strip() if child.text else ''
-                if original:
-                    if words_mode:
-                        words_set.add(original)
-                    else:
-                        add_task(child, 'Name', original)
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    original = child.text.strip() if child.text else ''
+                    if original:
+                        if words_mode:
+                            words_set.add(original)
+                        else:
+                            add_task(child, tag, original)
         elif elem_tag == 'Race':
             for child in elem.iter('Description'):
                 original = child.text.strip() if child.text else ''
@@ -557,29 +787,32 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
                         else:
                             add_task(child, tag, original)
         elif elem_tag == 'ShipHull':
-            for child in elem.iter('Name'):
-                original = child.text.strip() if child.text else ''
-                if original:
-                    if words_mode:
-                        words_set.add(original)
-                    else:
-                        add_task(child, 'Name', original)
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    original = child.text.strip() if child.text else ''
+                    if original:
+                        if words_mode:
+                            words_set.add(original)
+                        else:
+                            add_task(child, tag, original)
         elif elem_tag == 'TroopDefinition':
-            for child in elem.iter('Name'):
-                original = child.text.strip() if child.text else ''
-                if original:
-                    if words_mode:
-                        words_set.add(original)
-                    else:
-                        add_task(child, 'Name', original)
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    original = child.text.strip() if child.text else ''
+                    if original:
+                        if words_mode:
+                            words_set.add(original)
+                        else:
+                            add_task(child, tag, original)
         elif elem_tag == 'ArmyTemplate':
-            for child in elem.iter('Name'):
-                original = child.text.strip() if child.text else ''
-                if original:
-                    if words_mode:
-                        words_set.add(original)
-                    else:
-                        add_task(child, 'Name', original)
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    original = child.text.strip() if child.text else ''
+                    if original:
+                        if words_mode:
+                            words_set.add(original)
+                        else:
+                            add_task(child, tag, original)
         elif elem_tag == 'ColonyEventDefinition':
             for tag in ['Name', 'Description']:
                 for child in elem.iter(tag):
@@ -590,21 +823,23 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
                         else:
                             add_task(child, tag, original)
         elif elem_tag == 'ComponentDefinition':
-            for child in elem.iter('Name'):
-                original = child.text.strip() if child.text else ''
-                if original:
-                    if words_mode:
-                        words_set.add(original)
-                    else:
-                        add_task(child, 'Name', original)
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    original = child.text.strip() if child.text else ''
+                    if original:
+                        if words_mode:
+                            words_set.add(original)
+                        else:
+                            add_task(child, tag, original)
         elif elem_tag == 'FleetTemplate':
-            for child in elem.iter('Name'):
-                original = child.text.strip() if child.text else ''
-                if original:
-                    if words_mode:
-                        words_set.add(original)
-                    else:
-                        add_task(child, 'Name', original)
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    original = child.text.strip() if child.text else ''
+                    if original:
+                        if words_mode:
+                            words_set.add(original)
+                        else:
+                            add_task(child, tag, original)
         elif elem_tag == 'Government':
             for tag in ['Name', 'Description', 'string']:
                 for child in elem.iter(tag):
@@ -660,21 +895,6 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
         print(f"Список слов для словаря сохранён: {words_file}")
         return
 
-    # Загрузка прогресса
-    progress_file = f"{output_file}.progress.pkl"
-    start_index = 0
-    if os.path.exists(progress_file):
-        try:
-            with open(progress_file, 'rb') as f:
-                progress = pickle.load(f)
-            if progress.get('file') == output_file:
-                start_index = progress.get('task_index', 0)
-                print(f"Найден сохранённый прогресс. Продолжаю с задачи {start_index + 1}")
-            else:
-                print("Прогресс для другого файла, начинаю заново.")
-        except Exception as e:
-            print(f"Ошибка загрузки прогресса: {e}. Начинаю заново.")
-
     # Process translations one by one to show logs in real time
     for i in range(start_index, len(tasks)):
         if paused:
@@ -717,6 +937,8 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
         if os.path.exists(progress_file):
             os.remove(progress_file)
     else:
+        # При паузе сохраняем текущее состояние XML с уже сделанными переводами
+        tree.write(output_file, encoding="utf-8", xml_declaration=True)
         print(f"Прогресс сохранён в {progress_file}. Запустите скрипт снова для продолжения.")
 
 def main():

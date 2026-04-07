@@ -2,7 +2,7 @@
 <ArrayOfResource>
   <Resource>
     <ResourceId>0</ResourceId>
-    <Name>Emeros Crystal</Name>
+    <Name>Кристалл эмерос</Name>
     <Description>Кристалл эмерос — это ослепительно зеленый драгоценный камень. Обычно он используется в компонентах оружия. Кристаллы эмерос встречаются на вулканических мирах и иногда на углеродистых мирах.</Description>
     <BaseCost>4</BaseCost>
     <ImageFilename>Environment/Resources/EmerosCrystal</ImageFilename>
