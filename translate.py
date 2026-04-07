@@ -3,7 +3,7 @@ import re
 import sys
 import threading
 import xml.etree.ElementTree as ET
-import requests
+import lmstudio as lms
 from concurrent.futures import ThreadPoolExecutor
 from system_prompt import SYSTEM_PROMPT
 import pickle
@@ -17,8 +17,7 @@ except ImportError:
 
 DEFAULT_MODEL = "qwen/qwen3.5-35b-a3b"
 # DEFAULT_MODEL = "google/gemma-4-26b-a4b"
-DEFAULT_LOCAL_ENDPOINT = "http://localhost:1234/v1/chat/completions"
-DEFAULT_POOL_TIMEOUT = 120000
+DEFAULT_POOL_TIMEOUT = 120  # timeout in seconds (was 120000ms)
 
 paused = False
 
@@ -65,7 +64,7 @@ def _translate_from_glossary(text: str) -> str:
 
 def translate_text(text: str) -> str:
     """
-    Перевод текста через LM Studio (локальный LLM).
+    Перевод текста через LM Studio (локальный LLM) используя lmstudio-python SDK.
     Сначала проверяет словарь из SYSTEM_PROMPT, если текст есть там - возвращает готовый перевод.
     Требуется запущенный LM Studio с включённым локальным сервером.
     """
@@ -76,38 +75,25 @@ def translate_text(text: str) -> str:
         print(f"[GLOSSARY] {text} -> {glossary_translation}")
         return glossary_translation
 
-    prompt = (
-        f"Text: {text}"
-    )
-
-    response = requests.post(
-        DEFAULT_LOCAL_ENDPOINT,
-        json={
-            "model": DEFAULT_MODEL,
-            "session_id": "game-translation",
-            "messages": [
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": prompt}
-            ],
+    # Получаем модель
+    model = lms.llm(DEFAULT_MODEL)
+    
+    # Создаём чат с системным промптом
+    chat = lms.Chat(SYSTEM_PROMPT)
+    chat.add_user_message(f"Text: {text}")
+    
+    # Получаем ответ
+    result = model.respond(
+        chat,
+        config={
             "temperature": 0.1,
-        },
-        timeout=DEFAULT_POOL_TIMEOUT,
+            "maxTokens": 1024*10,
+        }
     )
-
-    response.raise_for_status()
-    result = response.json()
-    translated = result["choices"][0]["message"]["content"].strip()
+    
+    translated = result.content.strip()
     translated = translated.replace('‑', '-')
     return translated
-
-
-def normalize_pool_address(address: str) -> str:
-    address = address.strip()
-    if not address:
-        raise ValueError("Empty pool address")
-    if not address.startswith(("http://", "https://")):
-        address = "http://" + address
-    return address.rstrip('/')
 
 
 class LocalTranslator:
@@ -117,15 +103,24 @@ class LocalTranslator:
 
 class RemotePoolTranslator:
     def __init__(self, addresses, model=DEFAULT_MODEL, timeout=DEFAULT_POOL_TIMEOUT):
-        self.endpoints = [normalize_pool_address(a) for a in addresses]
-        if not self.endpoints:
-            raise ValueError("Pool must contain at least one endpoint")
-        self.model = model
+        self.api_hosts = [self._normalize_host(a) for a in addresses]
+        if not self.api_hosts:
+            raise ValueError("Pool must contain at least one API host")
+        self.model_name = model
         self.timeout = timeout
-        self.session = requests.Session()
         self.lock = threading.Lock()
         self.next_index = 0
-        self.executor = ThreadPoolExecutor(max_workers=len(self.endpoints))
+        self.executor = ThreadPoolExecutor(max_workers=len(self.api_hosts))
+
+    def _normalize_host(self, address: str) -> str:
+        """Normalize host address (remove protocol, keep only host:port)."""
+        address = address.strip()
+        if not address:
+            raise ValueError("Empty pool address")
+        # Remove protocol if present
+        if "://" in address:
+            address = address.split("://", 1)[1]
+        return address.rstrip('/')
 
     def translate_many(self, texts):
         if not texts:
@@ -135,45 +130,49 @@ class RemotePoolTranslator:
 
     def _translate_with_failover(self, text):
         last_error = None
-        for _ in range(len(self.endpoints)):
-            endpoint = self._next_endpoint()
+        for _ in range(len(self.api_hosts)):
+            api_host = self._next_host()
             try:
-                return self._send_request(text, endpoint)
-            except requests.RequestException as exc:
+                return self._translate_with_host(text, api_host)
+            except Exception as exc:
                 last_error = exc
                 continue
         raise RuntimeError(f"All pool endpoints failed: {last_error}") from last_error
 
-    def _next_endpoint(self):
+    def _next_host(self):
         with self.lock:
-            endpoint = self.endpoints[self.next_index]
-            self.next_index = (self.next_index + 1) % len(self.endpoints)
-            return endpoint
+            host = self.api_hosts[self.next_index]
+            self.next_index = (self.next_index + 1) % len(self.api_hosts)
+            return host
 
-    def _send_request(self, text, endpoint):
+    def _translate_with_host(self, text, api_host):
         # Сначала проверяем словарь
         glossary_translation = _translate_from_glossary(text)
         if glossary_translation:
             print(f"[GLOSSARY] {text} -> {glossary_translation}")
             return glossary_translation
         
-        url = f"{endpoint}/v1/chat/completions"
-        prompt = f"Text: {text}"
-        response = self.session.post(
-            url,
-            json={
-                "model": self.model,
-                "messages": [
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": prompt}
-                ],
+        # Проверяем, запущен ли API сервер на этом хосте
+        if not lms.Client.is_valid_api_host(api_host):
+            raise RuntimeError(f"No API server available at {api_host}")
+        
+        # Получаем модель с указанным хостом
+        model = lms.llm(self.model_name, api_host=api_host)
+        
+        # Создаём чат с системным промптом
+        chat = lms.Chat(SYSTEM_PROMPT)
+        chat.add_user_message(f"Text: {text}")
+        
+        # Получаем ответ
+        result = model.respond(
+            chat,
+            config={
                 "temperature": 0.1,
-            },
-            timeout=self.timeout,
+                "maxTokens": 1024*10,
+            }
         )
-        response.raise_for_status()
-        result = response.json()
-        translated = result["choices"][0]["message"]["content"].strip()
+        
+        translated = result.content.strip()
         return translated
 
 

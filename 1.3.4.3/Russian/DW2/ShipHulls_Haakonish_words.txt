@@ -7,13 +7,10 @@ Basic Fighter
 Battlecruiser
 Battleship
 Carrier
-Colony Ship
 Command Cruiser
 Cruiser
 Destroyer
 Dreadnought
-Drone Bomber
-Drone Fighter
 Escort
 Expedition Transport
 Exploration Cruiser
@@ -25,7 +22,6 @@ Fleet Command Cruiser
 Fleet Destroyer
 Fleet Frigate
 Frigate
-Gyrfalcon Interceptor
 Heavy Battleship
 Heavy Bomber
 Heavy Carrier
@@ -33,7 +29,6 @@ Heavy Cruiser
 Heavy Destroyer
 Heavy Escort
 Heavy Frigate
-Hive Menace
 Large Colony Ship
 Large Construction Ship
 Large Exploration Ship
@@ -61,15 +56,14 @@ Medium Fuel Tanker
 Medium Mining Ship
 Medium Passenger Ship
 Medium Space Port
+Medium Space Port v2
 Medium Troop Transport
 Monitoring Station
 Patrol Cruiser
 Patrol Escort
-Planet Destroyer
 Research Station
 Resort Station
 Sector Space Port
-Skip Fighter
 Small Colony Ship
 Small Construction Ship
 Small Exploration Ship
@@ -79,12 +73,14 @@ Small Mining Ship
 Small Mining Station
 Small Passenger Ship
 Small Space Port
+Small Space Port v2
+Small Space Port v3
 Small Troop Transport
 Space Bastion
+Space Bastion v2
 Strike Bomber
 Strike Fighter
 Superiority Fighter
+Superiority Fighter v2
 Tactical Interceptor
-Wave Bomber
 World Ship
-ZimZip Attack Shuttle

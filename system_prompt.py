@@ -2635,6 +2635,12 @@ TERMINOLOGY RULES:
   - "Space Bastion"→"Космический бастион"
   - "Wave Bomber"→"Волновой бомбардировщик"
   - "ZimZip Attack Shuttle"→"Ударный шаттл «ЗимЗип»"
+  - "Drone Bomber"→"Дрон-бомбардировщик"
+  - "Drone Fighter"→"Дрон-истребитель"
+  - "Hive Carrier"→"Авианосец Улья"
+  - "Hive Frigate"→"Фрегат Улья"
+  - "Hive Destroyer"→"Эсминец Улья"
+
 SPECIES RULES:
 24. Species names are alien ethnonyms, not personal names.
 
