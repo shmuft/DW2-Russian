@@ -190,7 +190,7 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
-				<Description>Here, so close to our own shores, we have found something most puzzling. It appears to be the remnants of a research facility, clearly of Quameno design. Surely this was built before the Cataclysm and by our own ancestors. Even as they were desperate to preserve the Quameno from extinction, they invested time and resources into constructing a research base. A mystery indeed! We must know what was so important.</Description>
+				<Description>Здесь, так близко к нашим берегам, мы обнаружили нечто крайне загадочное. Похоже, это остатки исследовательского комплекса, явно созданного куамено. Несомненно, он был построен до Катаклизма и нашими собственными предками. Даже будучи отчаянно стремящимися сохранить куамено от вымирания, они вложили время и ресурсы в создание исследовательской базы. Действительно, загадка! Мы должны узнать, что было столь важным.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -2299,7 +2299,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Угрожать</ChoiceButtonText>
+				<ChoiceButtonText>Запугивать</ChoiceButtonText>
 				<GeneratedItemName>Threaten AI Choice (Quameno)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -4724,7 +4724,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Разобрать корабль на запчасти</ChoiceButtonText>
+				<ChoiceButtonText>Разобрать корабль на детали</ChoiceButtonText>
 				<GeneratedItemName>Scrap Ship Choice (Quameno)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -4744,7 +4744,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Исследовательский корабль</ChoiceButtonText>
+				<ChoiceButtonText>Осмотреть корабль</ChoiceButtonText>
 				<GeneratedItemName>Explore Ship Choice (Quameno)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -5552,9 +5552,9 @@
 				<MessageTitle>Разбившийся корабль Шактури</MessageTitle>
 				<Description>Экспедиция продвинулась в то, что они считают капитанскими каютами. Здесь находятся различные боевые карты ключевых позиций флота древней галактики.
 
-Также обнаружены новые следы присутствия живых существ: больше выброшенных контейнеров с питательной пастой и кучи отходов. Теперь мы полагаем, что на корабле обитают животные, а не разумные существа.
+Также обнаружены новые следы присутствия живых существ: больше брошенных контейнеров с питательной пастой и кучи отходов. Теперь мы полагаем, что на корабле обитают животные, а не разумные существа.
 
-Команда теперь направится в следующий сектор.</Description>
+Команда теперь перейдёт к следующему разделу.</Description>
 				<ImageFilepath>Environment/Events/ship-crash</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -5859,7 +5859,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Разбившийся корабль Шактури</MessageTitle>
-				<Description>Древняя структура не выдержала вторжения наших исследователей. Корабль разрушился, все находившиеся на борту погибли. Те, кто находился на нашем близком корабле, сообщают о пережитом ими «психическом видении». Были образы — мимолётные и неясные, но большинство согласны с тем, что видели множество кораблей Шактури, участвующих в массовом исходе к нашей галактике. Те, кто это испытал, были уверены, что способны понять намерения Шактури, хотя бы лишь на миг, после чего всё исчезло. Все они сообщили о чувстве срочности, необходимости завоевать эту галактику ради восстановления космического порядка.</Description>
+				<Description>Древняя структура не выдержала вторжения наших исследователей. Корабль разрушился, все находившиеся на борту погибли. Те, кто находился на нашем близком корабле, сообщают о пережитом ими «психическом видении». Были образы — мимолётные и неясные, но большинство согласны с тем, что видели множество кораблей Шактури, участвующих в массовом исходе к нашей галактике. Те, кто это испытал, были уверены, что способны понять намерения Шактури, пусть лишь на миг, после чего всё исчезло. Все они сообщили о чувстве срочности, необходимости завоевать эту галактику ради восстановления космического порядка.</Description>
 				<ImageFilepath>Environment/Events/ship-crash</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -5975,7 +5975,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Исследовательский корабль</ChoiceButtonText>
+				<ChoiceButtonText>Осмотреть корабль</ChoiceButtonText>
 				<GeneratedItemName>Explore Ship Choice (Non Quameno)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -7253,7 +7253,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Кибернетический компьютер</MessageTitle>
-				<Description>Тревожные новости! Наши учёные зафиксировали странные энергетические сигнатуры, взаимодействующие с синтетическим сознанием Шактури. Программа может общаться с чем-то, возможно, даже с другими Шактури. Если даже отдалённо возможно, что некоторые Шактури выжили, мы не можем рисковать тем, что это чудовище раскроет наше существование.
+				<Description>Тревожные новости! Наши учёные зафиксировали странные энергетические сигнатуры, взаимодействующие с синтетическим сознанием Шактури. Программа может общаться с чем-то, возможно, даже с другими Шактури. Если даже отдалённо вероятно, что некоторые Шактури выжили, мы не можем рисковать тем, что это чудовище раскроет наше существование.
 
 Мы никогда не должны были вступать в контакт с этим компьютером. Мы больше не можем колебаться. Модель компьютера Шактури должна быть отключена.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>

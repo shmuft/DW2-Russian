@@ -1,0 +1,81 @@
+Лог перевода: 1.3.4.3\English\DW2\GameEvents_Boskara.xml
+Выходной файл: 1.3.4.3\Russian\DW2\GameEvents_Boskara.xml
+Всего переводов: 14
+================================================================================
+
+MessageTitle: Underlords
+->
+Подчиненные лорды
+
+Description: We have recently colonized [LOCATION]{0}[/LOCATION], a Volcanic world native for the Boskara.\n\nIn the initial burst of exploration at the new colony, our settlers have found a new resource!\n\nWe have uncovered a new source of [RESOURCE]RESOURCENAME[/RESOURCE] at {0}.
+->
+Мы недавно колонизировали [LOCATION]{0}[/LOCATION], вулканический мир, родной для Боскара.\n\nВ ходе первоначального всплеска исследований на новой колонии наши поселенцы обнаружили новый ресурс!\n\nМы нашли новый источник [RESOURCE]RESOURCENAME[/RESOURCE] в {0}.
+
+Description: We have recently colonized [LOCATION]{0}[/LOCATION], a Volcanic world native for the Boskara.\n\nIn the initial burst of exploration at the new colony, our settlers have found a new resource!\n\nWe have uncovered a new source of [RESOURCE]RESOURCENAME[/RESOURCE] at {0}.
+->
+Мы недавно колонизировали [LOCATION]{0}[/LOCATION], вулканический мир, родной для Боскара.\n\nВ ходе первоначального всплеска исследований на новой колонии наши поселенцы обнаружили новый ресурс!\n\nМы нашли новый источник [RESOURCE]RESOURCENAME[/RESOURCE] в {0}.
+
+MessageTitle: We Reign Supreme
+->
+Мы безраздельно властвуем
+
+Description: Our recent conquest of another empire's homeworld has filled our population with euphoric pride!\n\nThus for the next 10 years our empire will enjoy the following benefits:[ULI]+20% Empire Happiness[/ULI][ULI]+50% War Weariness Reduction[/ULI]
+->
+Наша недавняя победа в захвате столичного мира другой империи наполнила наше население эйфорической гордостью!
+
+Таким образом, в течение следующих 10 лет наша империя будет пользоваться следующими преимуществами:[ULI]+20% к счастью империи[/ULI][ULI]+50% к снижению военной усталости[/ULI]
+
+Description: Our recent conquest of another empire's homeworld has filled our population with euphoric pride!\n\nThus for the next 10 years our empire will enjoy the following benefits:[ULI]+20% Empire Happiness[/ULI][ULI]+50% War Weariness Reduction[/ULI]
+->
+Наша недавняя победа в захвате столичного мира другой империи наполнила наше население эйфорической гордостью!
+
+Таким образом, в течение следующих 10 лет наша империя будет пользоваться следующими преимуществами:[ULI]+20% к счастью империи[/ULI][ULI]+50% к снижению военной усталости[/ULI]
+
+MessageTitle: Crazed Cannibalism
+->
+Безумный каннибализм
+
+Description: A life without war and conquest does not suit the belligerent Boskara.\n\nTimes of peace have driven the populace at our colony [LOCATION]{0}[/LOCATION] into an insane frenzy. Due to this hyper-aggressive paranoia, there has been widespread cannibalism!\n\nWe expect this frenzy to last for six months. During that time there will be significant population losses at {0}.
+->
+Жизнь без войны и завоеваний не подходит воинственным Боскара.\n\nВремена мира довели население нашей колонии [LOCATION]{0}[/LOCATION] до безумного неистовства. Из-за этой гиперагрессивной паранойи повсюду царит массовый каннибализм!\n\nМы ожидаем, что это неистовство продлится шесть месяцев. В течение этого времени в {0} произойдут значительные потери населения.
+
+Description: A life without war and conquest does not suit the belligerent Boskara.\n\nTimes of peace have driven the populace at our colony [LOCATION]{0}[/LOCATION] into an insane frenzy. Due to this hyper-aggressive paranoia, there has been widespread cannibalism!\n\nWe expect this frenzy to last for six months. During that time there will be significant population losses at {0}.
+->
+Жизнь без войны и завоеваний не подходит воинственным Боскара.\n\nВремена мира довели население нашей колонии [LOCATION]{0}[/LOCATION] до безумного неистовства. Из-за этой гиперагрессивной паранойи повсюду царит массовый каннибализм!\n\nМы ожидаем, что это неистовство продлится шесть месяцев. В течение этого времени в {0} произойдут значительные потери населения.
+
+MessageTitle: Warspawn
+->
+Порождения войны
+
+Description: Our recent war declaration provides us the opportunity to assign a [HL]Warspawn[/HL] to lead our war.\n\nIf we choose to do this, a [CHARACTER]new Admiral or General[/CHARACTER] will appear with the Warspawn trait, giving them [BONUS]great strength in ground and space combat[/BONUS].\n\nAdditionally, having a Warspawn in our empire allows us to implement [HL]War Spawning[/HL], where we can periodically convert 10% of a colony's population into 10 Infantry troop units.\n\nHowever it will also [WARN]very negatively impact our relations[/WARN] with all other empires with whom we do not already have a Non-Aggression Pact or a Defense treaty.\n\nShould we assign a Warspawn?
+->
+Наше недавнее объявление войны предоставляет нам возможность назначить [HL]Порождение войны[/HL] для руководства нашей войной.
+
+Если мы решим сделать это, появится новый [CHARACTER]адмирал или генерал[/CHARACTER] с чертой Порождения войны, что придаст ему [BONUS]огромную силу в наземных и космических боях[/BONUS].
+
+Кроме того, наличие Порождения войны в нашей империи позволяет нам реализовать [HL]Генерацию войны[/HL], где мы можем периодически превращать 10% населения колонии в 10 отрядов пехоты.
+
+Однако это также [WARN]очень негативно повлияет на наши отношения[/WARN] со всеми остальными империями, с которыми у нас еще нет пакта о ненападении или оборонительного договора.
+
+Назначить ли Порождение войны?
+
+ChoiceButtonText: Assign a Warspawn!
+->
+Назначить Порождение войны!
+
+ChoiceButtonText: Do Not Use a Warspawn
+->
+Не использовать Порождения войны
+
+Description: Our recent war declaration provides us the opportunity to assign a [HL]Warspawn[/HL] to lead our war.\n\nIf we choose to do this, a [CHARACTER]new Admiral or General[/CHARACTER] will appear with the Warspawn trait, giving them [BONUS]great strength in ground and space combat[/BONUS].\n\nAdditionally, having a Warspawn in our empire allows us to implement [HL]War Spawning[/HL], where we can periodically convert 10% of a colony's population into 10 Infantry troop units.\n\nHowever it will also [WARN]very negatively impact our relations[/WARN] with all other empires with whom we do not already have a Non-Aggression Pact or a Defense treaty.\n\nShould we assign a Warspawn?
+->
+Наше недавнее объявление войны предоставляет нам возможность назначить [HL]Порождение войны[/HL] для руководства нашей войной.
+
+Если мы решим сделать это, появится новый [CHARACTER]адмирал или генерал[/CHARACTER] с чертой Порождения войны, что придаст ему [BONUS]огромную силу в наземных и космических боях[/BONUS].
+
+Кроме того, наличие Порождения войны в нашей империи позволяет нам реализовать [HL]Генерацию войны[/HL], где мы можем периодически превращать 10% населения колонии в 10 отрядов пехоты.
+
+Однако это также [WARN]очень негативно повлияет на наши отношения[/WARN] со всеми остальными империями, с которыми у нас еще нет пакта о ненападении или оборонительного договора.
+
+Назначить ли Порождение войны?
+

@@ -1,0 +1,29 @@
+Лог перевода: 1.3.4.3\English\DLC Atuuk and Wekkarus\Artifacts_Atuuk.xml
+Выходной файл: 1.3.4.3\Russian\DLC Atuuk and Wekkarus\Artifacts_Atuuk.xml
+Всего переводов: 6
+================================================================================
+
+Name: The Soldiers' Anthem
+->
+Песнь воинов
+
+Description: This audio playback device contains a single recording of remarkable audio fidelity. Many species will be unable to decipher the lyrics, but all who listen will be filled with courage and inspired to new heights of martial prowess.
+->
+Это устройство воспроизведения аудио содержит единственную запись с исключительной точностью звука. Многие виды не смогут расшифровать текст песни, но все, кто её услышит, наполнятся мужеством и будут вдохновлены на новые высоты воинского мастерства.
+
+Name: Tactical Bombardment Computer
+->
+Компьютер тактической бомбардировки
+
+Description: A small, portable computer, featuring an exterior casing consistent with Boskara aesthetics. This device is designed to interface easily with other computer systems, maximizing bombardment effectiveness.
+->
+Небольшой портативный компьютер с внешним корпусом, соответствующим эстетике Боскара. Это устройство предназначено для лёгкого подключения к другим компьютерным системам, что максимизирует эффективность бомбардировок.
+
+Name: The Figurine of Inspiring Heroes
+->
+Фигурка Вдохновляющих Героев
+
+Description: This lightweight statuette depicts an important-looking Atuuk figure gazing contentedly outward. There are visible seams where parts of the statuette were joined together. This relic of the ancient galaxy would make an excellent museum piece and is likely to promote happiness and wonder in all who gaze upon it.
+->
+Эта лёгкая статуэтка изображает важного на вид Атуук, с довольным видом взирающего вдаль. Видны швы, где части статуэтки были соединены вместе. Эта реликвия старой галактики станет отличным экспонатом музея и, вероятно, вызовет счастье и удивление у всех, кто на неё смотрит.
+

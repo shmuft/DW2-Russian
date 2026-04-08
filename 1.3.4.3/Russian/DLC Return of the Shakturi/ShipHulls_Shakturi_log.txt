@@ -1,0 +1,361 @@
+Лог перевода: 1.3.4.3\English\DLC Return of the Shakturi\ShipHulls_Shakturi.xml
+Выходной файл: 1.3.4.3\Russian\DLC Return of the Shakturi\ShipHulls_Shakturi.xml
+Всего переводов: 89
+================================================================================
+
+Name: Escort
+->
+Эскорт
+
+Name: Monitoring Station
+->
+Станция наблюдения
+
+Name: Small Space Port
+->
+Малый космический порт
+
+Name: Small Construction Ship
+->
+Малый строительный корабль
+
+Name: Frigate
+->
+Фрегат
+
+Name: Small Troop Transport
+->
+Малый десантный корабль
+
+Name: Small Space Port v2
+->
+Малый космический порт v2
+
+Name: Small Colony Ship
+->
+Малый колонизационный корабль
+
+Name: Medium Mining Ship
+->
+Средний добывающий корабль
+
+Name: Small Passenger Ship
+->
+Малый пассажирский корабль
+
+Name: Small Fuel Tanker
+->
+Малый топливный заправщик
+
+Name: Large Mining Station
+->
+Большая добывающая станция
+
+Name: Resort Station
+->
+Развлекательная станция
+
+Name: Heavy Frigate
+->
+Тяжёлый фрегат
+
+Name: Fast Frigate
+->
+Быстрый фрегат
+
+Name: Fleet Frigate
+->
+Флотский фрегат
+
+Name: Destroyer
+->
+Эсминец
+
+Name: Medium Troop Transport
+->
+Средний десантный корабль
+
+Name: Small Space Port v3
+->
+Малый космический порт v3
+
+Name: Medium Fuel Tanker
+->
+Средний топливный заправщик
+
+Name: Medium Construction Ship
+->
+Средний строительный корабль
+
+Name: Medium Exploration Ship
+->
+Средний исследовательский корабль
+
+Name: Large Mining Ship
+->
+Большой добывающий корабль
+
+Name: Medium Freighter
+->
+Средний грузовой корабль
+
+Name: Medium Passenger Ship
+->
+Средний пассажирский корабль
+
+Name: Heavy Destroyer
+->
+Тяжёлый эсминец
+
+Name: Fast Destroyer
+->
+Быстрый эсминец
+
+Name: Fleet Destroyer
+->
+Флотский Эсминец
+
+Name: Medium Space Port
+->
+Средний космический порт
+
+Name: Space Bastion
+->
+Космический бастион
+
+Name: Medium Colony Ship
+->
+Средний колонизационный корабль
+
+Name: Large Fuel Tanker
+->
+Большой топливный заправщик
+
+Name: Large Freighter
+->
+Большой грузовой корабль
+
+Name: Large Passenger Ship
+->
+Большой пассажирский корабль
+
+Name: Light Cruiser
+->
+Лёгкий крейсер
+
+Name: Large Troop Transport
+->
+Большой десантный корабль
+
+Name: Medium Space Port v2
+->
+Средний космический порт v2
+
+Name: Space Bastion v2
+->
+Космическая крепость v2
+
+Name: Large Construction Ship
+->
+Большой строительный корабль
+
+Name: Large Exploration Ship
+->
+Большой исследовательский корабль
+
+Name: Large Colony Ship
+->
+Большой колонизационный корабль
+
+Name: Battlecruiser
+->
+Линейный крейсер
+
+Name: Light Carrier
+->
+Лёгкий авианосец
+
+Name: Fast Cruiser
+->
+Быстрый крейсер
+
+Name: Long Range Cruiser
+->
+Дальнобойный крейсер
+
+Name: Command Cruiser
+->
+Крейсер командования
+
+Name: Cruiser
+->
+Крейсер
+
+Name: Massive Troop Transport
+->
+Массивный десантный корабль
+
+Name: Battleship
+->
+Линкор
+
+Name: Carrier
+->
+Авианосец
+
+Name: Exploration Cruiser
+->
+Разведывательный крейсер
+
+Name: Patrol Cruiser
+->
+Патрульный крейсер
+
+Name: Fleet Command Cruiser
+->
+Крейсер командования флотом
+
+Name: Heavy Cruiser
+->
+Тяжёлый крейсер
+
+Name: Expedition Transport
+->
+Экспедиционный транспортный корабль
+
+Name: Large Space Port
+->
+Большой космический порт
+
+Name: Massive Colony Ship
+->
+Массивный колонизационный корабль
+
+Name: Heavy Battleship
+->
+Тяжёлый линкор
+
+Name: Heavy Carrier
+->
+Тяжёлый авианосец
+
+Name: Army Transport
+->
+Транспортный корабль армии
+
+Name: World Ship
+->
+Мировой корабль
+
+Name: Dreadnought
+->
+Линейный крейсер
+
+Name: Fleet Carrier
+->
+Флотский авианосец
+
+Name: Sector Space Port
+->
+Секторный космический порт
+
+Name: Basic Fighter
+->
+Базовый истребитель
+
+Name: Basic Bomber
+->
+Базовый бомбардировщик
+
+Name: Light Interceptor
+->
+Лёгкий перехватчик
+
+Name: Light Bomber
+->
+Лёгкий бомбардировщик
+
+Name: Light Attack Fighter
+->
+Лёгкий ударный истребитель
+
+Name: Tactical Interceptor
+->
+Тактический перехватчик
+
+Name: Medium Bomber
+->
+Средний бомбардировщик
+
+Name: Attack Fighter
+->
+Ударный истребитель
+
+Name: Advanced Interceptor
+->
+Продвинутый перехватчик
+
+Name: Strike Bomber
+->
+Штурмовой бомбардировщик
+
+Name: Strike Fighter
+->
+Штурмовой истребитель
+
+Name: Heavy Bomber
+->
+Тяжелый бомбардировщик
+
+Name: Superiority Fighter
+->
+Истребитель превосходства
+
+Name: Superiority Fighter v2
+->
+Истребитель превосходства v2
+
+Name: Assault Bomber
+->
+Штурмовой бомбардировщик
+
+Name: World Ship
+->
+Мировой корабль
+
+Description: DO NOT ADD TO TECH TREE
+->
+НЕ ДОБАВЛЯТЬ В ДЕРЕВО ТЕХНОЛОГИЙ
+
+Name: Shakturi Planet Destroyer
+->
+Губитель планет Шактури
+
+Name: Small Exploration Ship
+->
+Малый исследовательский корабль
+
+Name: Small Mining Ship
+->
+Малый добывающий корабль
+
+Name: Small Freighter
+->
+Малый грузовой корабль
+
+Name: Small Mining Station
+->
+Малая добывающая станция
+
+Name: Research Station
+->
+Исследовательская станция
+
+Name: Heavy Escort
+->
+Тяжёлый эскорт
+
+Name: Patrol Escort
+->
+Патрульный эскорт
+

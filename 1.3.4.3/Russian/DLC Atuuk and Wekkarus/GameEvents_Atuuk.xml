@@ -139,8 +139,8 @@
 		<PlacementActions>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
-				<MessageTitle>We Found Something!</MessageTitle>
-				<Description>This is a delightful surprise! Here in our system, so close to our own home, we've found ruins. Someone built something on this world a long time ago. There might be interesting things here. We should take a look!</Description>
+				<MessageTitle>Мы что-то нашли!</MessageTitle>
+				<Description>Это приятная неожиданность! В нашей системе, так близко к нашему дому, мы обнаружили руины. Кто-то давно построил что-то на этой планете. Здесь могут быть интересные вещи. Нам стоит взглянуть!</Description>
 				<ActionLocationHint>HomeSystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -2761,7 +2761,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Мы обнаружили вещи</MessageTitle>
+				<MessageTitle>Мы нашли вещи</MessageTitle>
 				<Description>Мы так многому научимся у этих мёртвых Атуук! Очень захватывающе.
 
 Прежде чем корабль был безвозвратно потерян, когда земля обрушилась под нашей командой и несколько храбрых Атуук погибли из-за того, что не соблюдали базовые протоколы безопасности, нам удалось спасти кристалл данных. На нём была карта мира, отмеченного как обладающего особой важностью. Но важно ли туда отправиться или лучше держаться в стороне? Мы скоро узнаем!</Description>
@@ -4510,7 +4510,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
-				<MessageTitle>Много защитных сооружений</MessageTitle>
+				<MessageTitle>Много оборонительных сооружений</MessageTitle>
 				<Description>Укрепления вокруг этой планеты пугающи, но они явно созданы Друзьями из давних времён. Признаков жизни внизу нет, а оборонительные сооружения древние и относятся к эпохе до Катаклизма, поэтому маловероятно, что Друзья из давних времён будут возражать против уничтожения нами их систем безопасности. Напротив, они, вероятно, сами хотели бы этого.
 
 Мы посвятили так много вычислительных мощностей изучению технологий Друзей из давних времён, что, возможно, сможем найти способ дистанционно отключить хотя бы часть оборонительных сооружений. Альтернативно мы могли бы использовать нашу военную мощь и доказать галактике, что Атуук сильны не менее, чем умны.</Description>
@@ -6587,7 +6587,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Другое открытие</MessageTitle>
-				<Description>На планете внизу находится интересная структура. Нам следует провести её дополнительное изучение, чтобы узнать больше.</Description>
+				<Description>На планете внизу находится интересная структура. Нам следует провести её дополнительное исследование, чтобы узнать больше.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>

@@ -1,11 +1,11 @@
 Лог перевода: 1.3.4.3\English\DW2\ShipHulls.xml
 Выходной файл: 1.3.4.3\Russian\DW2\ShipHulls.xml
-Всего переводов: 768
+Всего переводов: 772
 ================================================================================
 
 Name: Escort
 ->
-Escort
+Эскорт
 
 Name: Monitoring Station
 ->
@@ -37,7 +37,7 @@ Name: Research Station
 
 Name: Escort
 ->
-Escort
+Эскорт
 
 Name: Monitoring Station
 ->
@@ -77,7 +77,7 @@ Name: Patrol Escort
 
 Name: Frigate
 ->
-Frigate
+Фрегат
 
 Name: Small Troop Transport
 ->
@@ -129,7 +129,7 @@ Name: Patrol Escort
 
 Name: Frigate
 ->
-Frigate
+Фрегат
 
 Name: Small Troop Transport
 ->
@@ -197,11 +197,11 @@ Name: Fleet Frigate
 
 Name: Destroyer
 ->
-Destroyer
+Эсминец
 
 Name: Destroyer
 ->
-Destroyer
+Эсминец
 
 Name: Medium Troop Transport
 ->
@@ -461,7 +461,7 @@ Name: Small Space Port
 
 Name: Escort
 ->
-Escort
+Эскорт
 
 Name: Monitoring Station
 ->
@@ -505,7 +505,7 @@ Name: Patrol Escort
 
 Name: Frigate
 ->
-Frigate
+Фрегат
 
 Name: Small Troop Transport
 ->
@@ -553,7 +553,7 @@ Name: Fleet Frigate
 
 Name: Destroyer
 ->
-Destroyer
+Эсминец
 
 Name: Medium Troop Transport
 ->
@@ -681,7 +681,7 @@ Name: Attack Fighter
 
 Name: Escort
 ->
-Escort
+Эскорт
 
 Name: Monitoring Station
 ->
@@ -725,7 +725,7 @@ Name: Patrol Escort
 
 Name: Frigate
 ->
-Frigate
+Фрегат
 
 Name: Small Troop Transport
 ->
@@ -773,7 +773,7 @@ Name: Fleet Frigate
 
 Name: Destroyer
 ->
-Destroyer
+Эсминец
 
 Name: Medium Troop Transport
 ->
@@ -901,7 +901,7 @@ Name: Attack Fighter
 
 Name: Escort
 ->
-Escort
+Эскорт
 
 Name: Monitoring Station
 ->
@@ -945,7 +945,7 @@ Name: Patrol Escort
 
 Name: Frigate
 ->
-Frigate
+Фрегат
 
 Name: Small Troop Transport
 ->
@@ -993,7 +993,7 @@ Name: Fleet Frigate
 
 Name: Destroyer
 ->
-Destroyer
+Эсминец
 
 Name: Medium Troop Transport
 ->
@@ -1275,6 +1275,10 @@ Name: Battlecruiser
 ->
 Линейный крейсер
 
+Description: Weapon 9 and 10 not present in hull
+->
+Оружие 9 и 10 отсутствуют в корпусе
+
 Name: Light Carrier
 ->
 Лёгкий авианосец
@@ -1302,6 +1306,10 @@ Name: Massive Troop Transport
 Name: Battleship
 ->
 Линкор
+
+Description: Weapon 9 and 10 not present in hull
+->
+Оружие 9 и 10 отсутствуют в корпусе
 
 Name: Carrier
 ->
@@ -1339,6 +1347,10 @@ Name: Heavy Battleship
 ->
 Тяжёлый линкор
 
+Description: Weapon 9 and 10 not present in hull
+->
+Оружие 9 и 10 отсутствуют в корпусе
+
 Name: Heavy Carrier
 ->
 Тяжёлый авианосец
@@ -1354,6 +1366,10 @@ Name: World Ship
 Name: Dreadnought
 ->
 Линейный крейсер
+
+Description: Weapon 9 and 10 not present in hull
+->
+Оружие 9 и 10 отсутствуют в корпусе
 
 Name: Fleet Carrier
 ->
@@ -1737,15 +1753,15 @@ Name: Assault Bomber
 
 Name: Escort
 ->
-Escort
+Эскорт
 
 Name: Frigate
 ->
-Frigate
+Фрегат
 
 Name: Destroyer
 ->
-Destroyer
+Эсминец
 
 Name: Small Space Port
 ->
@@ -1861,15 +1877,15 @@ Name: Assault Bomber
 
 Name: Escort
 ->
-Escort
+Эскорт
 
 Name: Frigate
 ->
-Frigate
+Фрегат
 
 Name: Destroyer
 ->
-Destroyer
+Эсминец
 
 Name: Small Space Port
 ->
@@ -1985,15 +2001,15 @@ Name: Assault Bomber
 
 Name: Escort
 ->
-Escort
+Эскорт
 
 Name: Frigate
 ->
-Frigate
+Фрегат
 
 Name: Destroyer
 ->
-Destroyer
+Эсминец
 
 Name: Small Space Port
 ->
@@ -2109,15 +2125,15 @@ Name: Assault Bomber
 
 Name: Escort
 ->
-Escort
+Эскорт
 
 Name: Frigate
 ->
-Frigate
+Фрегат
 
 Name: Destroyer
 ->
-Destroyer
+Эсминец
 
 Name: Small Space Port
 ->
@@ -2293,7 +2309,7 @@ Name: Assault Bomber
 
 Name: Escort
 ->
-Escort
+Эскорт
 
 Name: Monitoring Station
 ->
@@ -2337,7 +2353,7 @@ Name: Patrol Escort
 
 Name: Frigate
 ->
-Frigate
+Фрегат
 
 Name: Small Troop Transport
 ->
@@ -2385,7 +2401,7 @@ Name: Fleet Frigate
 
 Name: Destroyer
 ->
-Destroyer
+Эсминец
 
 Name: Medium Troop Transport
 ->
@@ -2633,7 +2649,7 @@ Name: Assault Bomber
 
 Name: Escort
 ->
-Escort
+Эскорт
 
 Name: Monitoring Station
 ->
@@ -2677,7 +2693,7 @@ Name: Patrol Escort
 
 Name: Frigate
 ->
-Frigate
+Фрегат
 
 Name: Small Troop Transport
 ->
@@ -2725,7 +2741,7 @@ Name: Fleet Frigate
 
 Name: Destroyer
 ->
-Destroyer
+Эсминец
 
 Name: Medium Troop Transport
 ->
@@ -2937,7 +2953,7 @@ Name: Medium Freighter
 
 Name: Destroyer
 ->
-Destroyer
+Эсминец
 
 Name: Cruiser
 ->
@@ -2977,11 +2993,11 @@ Name: Small Space Port
 
 Name: Destroyer
 ->
-Destroyer
+Эсминец
 
 Name: Destroyer
 ->
-Destroyer
+Эсминец
 
 Name: Small Space Port
 ->
@@ -3025,11 +3041,11 @@ Name: Research Station
 
 Name: Escort
 ->
-Escort
+Эскорт
 
 Name: Escort
 ->
-Escort
+Эскорт
 
 Name: Cruiser
 ->
@@ -3037,11 +3053,11 @@ Name: Cruiser
 
 Name: Frigate
 ->
-Frigate
+Фрегат
 
 Name: Frigate
 ->
-Frigate
+Фрегат
 
 Name: Planet Destroyer
 ->

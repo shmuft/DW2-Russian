@@ -1867,7 +1867,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Поступающее сообщение</MessageTitle>
+				<MessageTitle>Входящее сообщение</MessageTitle>
 				<Description>Это было лишь вопросом времени до нашей встречи. Наши передовые разведчики предупреждали нас о вашем существовании, однако, если быть честными, многие считали вас несуществующими. Мы — Гармоничная Пустота, те, кто ищет мира и понимания в тихой пустоте космоса. Наши предки когда-то были привязаны к почве и необработанному воздуху, как вы, но мы преодолели такие ограничения.
 
 Ваш примитивный упор на жизнь на планетах не тревожит нас, однако. Мы уважаем жизнь, будь она продвинутой, как у нас, или примитивной, как у вас, при условии её гармонии с окружающей средой.</Description>
@@ -2032,7 +2032,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Поступающее сообщение</MessageTitle>
+				<MessageTitle>Входящее сообщение</MessageTitle>
 				<Description>Мы хотим предупредить вас о негодяях с планеты Дамизи, называющих себя «Дети Избегающие Конфликта». Мы распознаём в них Дхают, которые по своей природе обманчивы, эгоистичны и разрушительны. Во времена до Катаклизма они сражались бок о бок со злыми захватчиками, уничтожая целые миры, включая мир наших предков. Дхают — враги жизни. Мы укажем вам их местоположение, чтобы вы могли избежать их или уничтожить, как сочтёте нужным. Если же вы решите вступить с ними в контакт, мы будем считать вас своими врагами. Иного выбора, который мы считали бы... гармоничным, не существует.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -2115,7 +2115,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Поступающее сообщение</MessageTitle>
+				<MessageTitle>Входящее сообщение</MessageTitle>
 				<Description>Мы получаем ещё одно сообщение от Гармоничной Пустоты.
 
 «Наши разведчики сообщают, что вы столкнулись с чудовищными Дхаятами из Дамази и решили не вмешиваться в их грязные дела. Мы поздравляем вас. Те, кто избегает негармоничных, — наши друзья. Мы надеемся на приятное и дружественное сотрудничество с вами в будущем».</Description>
@@ -2325,7 +2325,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Поступающее сообщение</MessageTitle>
+				<MessageTitle>Входящее сообщение</MessageTitle>
 				<Description>Приветствуем гостей нашей системы. Мы — Гармоничная Пустота. Мы стремимся жить в мире и гармонии со всеми, кто обитает в этой богатой ресурсами системе. Если ваша миссия направлена на исследование и понимание, мы разрешим вам проход. Однако любые попытки установить постоянный плацдарм в нашей родной системе будут восприняты как… негармоничные.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -2742,7 +2742,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
-				<MessageTitle>Поступающее сообщение</MessageTitle>
+				<MessageTitle>Входящее сообщение</MessageTitle>
 				<Description>Мы получаем сообщение от лидера Гармоничной Пустоты.
 
 «{15}, вы победили нас в честном бою. Поскольку мы вели войну и были повержены, мы должны заключить, что наши усилия по поиску гармонии оказались тщетными. Мы просим лишь милосердия к нашим оставшимся в живых мирным жителям. Им может потребоваться некоторое время, чтобы привыкнуть к вашим обычаям, но в конечном итоге они станут продуктивными членами вашего общества. Примете ли вы этих беженцев?»</Description>
@@ -2802,7 +2802,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Поступающее сообщение</MessageTitle>
+				<MessageTitle>Входящее сообщение</MessageTitle>
 				<Description>Спасибо за это предложение убежища. Всё, что у нас осталось, мы дарим в знак благодарности.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -3506,7 +3506,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Выбор исхода</MessageTitle>
-				<Description>Мы доверяем нашим учёным стремиться к технологиям, которые, по их мнению, наилучшим образом послужат нашей цивилизации. Они сообщат нам, когда мы приобретём знания, необходимые для открытия древнего объекта.</Description>
+				<Description>Мы доверяем нашим учёным стремиться к тем технологиям, которые, по их мнению, наилучшим образом послужат нашей цивилизации. Они сообщат нам, когда мы приобретём знания, необходимые для открытия древнего объекта.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -4103,7 +4103,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Выбор исхода</MessageTitle>
-				<Description>Мы доверяем нашим учёным стремиться к технологиям, которые они считают наилучшими для нашей цивилизации. Они сообщат нам, когда мы приобретём знания, необходимые для открытия древнего объекта.</Description>
+				<Description>Мы доверяем нашим учёным стремиться к тем технологиям, которые, по их мнению, наилучшим образом послужат нашей цивилизации. Они сообщат нам, когда мы приобретём знания, необходимые для открытия древнего объекта.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -4883,8 +4883,8 @@
 		<PlacementActions>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
-				<MessageTitle>An Ancient Colony?</MessageTitle>
-				<Description>This damaged world shows signs of having once been inhabited. Initial data suggests the inhabitants were Ikkuro. This warrants further exploration.</Description>
+				<MessageTitle>Древняя колония?</MessageTitle>
+				<Description>Этот поврежденный мир свидетельствует о том, что когда-то он был населен. Первичные данные указывают на то, что его обитателями были Иккуро. Это требует дальнейшего исследования.</Description>
 				<ActionLocationHint>NearbyEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -5655,7 +5655,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Результаты расследования</MessageTitle>
-				<Description>Этот склад поддерживался во время Войны Шактури. В нём находится крупный запас полимера и карбонита. Записи указывают на то, что он был доставлен из источника в этой системе.</Description>
+				<Description>Этот склад поддерживался во время войны с Шактури. В нём находится большой запас полимера и карбонита. Записи указывают, что он был получен из источника в этой системе.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>

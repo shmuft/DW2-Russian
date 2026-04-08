@@ -371,7 +371,11 @@ def check_translated_file(file_path: str) -> int:
 
     print(f"Найдено {len(found)} строк с английскими символами в {file_path}:")
     for path, text in found:
-        print(f"[{path}] {text}")
+        try:
+            print(f"[{path}] {text}")
+        except UnicodeEncodeError:
+            # Если есть проблемы с кодировкой, выводим без текста
+            print(f"[{path}] [Текст содержит неподдерживаемые символы]")
     return 1
 
 
@@ -683,7 +687,7 @@ def build_translation_cache_from_paired_files(english_dir_path: str, russian_dir
     return cache
 
 
-def translate_xml(input_file: str, output_file: str, words_mode=False, translator=None):
+def translate_xml(input_file: str, output_file: str, words_mode=False, translator=None, fix_untranslated=False):
     # Загрузка прогресса ДО парсинга файла
     progress_file = f"{output_file}.progress.pkl"
     start_index = 0
@@ -706,6 +710,53 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
         except Exception as e:
             print(f"Ошибка загрузки прогресса: {e}. Начинаю заново.")
 
+    # В режиме fix_untranslated нужно сопоставлять с английским файлом
+    english_texts = []
+    if fix_untranslated:
+        try:
+            eng_tree = ET.parse(input_file)
+            eng_root = eng_tree.getroot()
+            english_texts = extract_translatable_texts(eng_root)
+        except Exception as e:
+            print(f"Ошибка загрузки английского файла {input_file}: {e}")
+            return
+
+    # В режиме fix_untranslated специальная обработка
+    if fix_untranslated and os.path.exists(output_file):
+        print(f"Режим доперевода: исправляю недопереведённые элементы в {output_file}")
+        
+        # Загружаем оба файла
+        eng_tree = ET.parse(input_file)
+        eng_root = eng_tree.getroot()
+        rus_tree = ET.parse(output_file)
+        rus_root = rus_tree.getroot()
+        
+        # Получаем списки текстов
+        eng_texts = extract_translatable_texts(eng_root)
+        rus_texts = extract_translatable_texts(rus_root)
+        
+        _get_translation_cache() 
+        
+        # Ищем недопереведённые элементы и переводим их
+        log_entries = []
+        fixed_count = 0
+        
+        for i, ((eng_text, eng_tag), (rus_text, rus_tag)) in enumerate(zip(eng_texts, rus_texts)):
+            if eng_tag == rus_tag and eng_text.strip() and rus_text.strip():
+                if rus_text == eng_text:
+                    # Найден недопереведённый элемент, переводим
+                    translated = translate_text(eng_text)
+                    _translation_cache[eng_text] = translated
+
+                    # Теперь нужно найти и заменить соответствующий элемент в русском дереве
+                    # Это сложно реализовать точно, поэтому просто пересохраним файл
+                    print(f"Перевод: {eng_text} -> {translated}")
+                    fixed_count += 1
+                else:
+                    _translation_cache[eng_text] = rus_text
+
+        print(f"Добавлено {fixed_count} переводов в кэш")
+    
     tree = ET.parse(source_file)
     root = tree.getroot()
     log_entries = []
@@ -964,10 +1015,9 @@ def main():
         help='Список адресов пул воркеров, разделённых запятыми или повторным ключом'
     )
     parser.add_argument(
-        '--pool-timeout',
-        type=int,
-        default=DEFAULT_POOL_TIMEOUT,
-        help='Таймаут для запроса к пулу в секундах'
+        '--fix-untranslated',
+        action='store_true',
+        help='Доперевести только недопереведённые элементы (где русский текст равен английскому)'
     )
 
     args = parser.parse_args()
@@ -992,7 +1042,7 @@ def main():
     if pool_addresses:
         translator = RemotePoolTranslator(pool_addresses, timeout=args.pool_timeout)
 
-    translate_xml(args.input, args.output, words_mode=args.words, translator=translator)
+    translate_xml(args.input, args.output, words_mode=args.words, translator=translator, fix_untranslated=args.fix_untranslated)
 
 
 if __name__ == "__main__":

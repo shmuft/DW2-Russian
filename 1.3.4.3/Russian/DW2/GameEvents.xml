@@ -153,8 +153,8 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
-				<MessageTitle>An Anniversary Celebration</MessageTitle>
-				<Description>One of our ships, whose captain has been celebrating 25 years of service in our fleet, has discovered something of potential significance: an incredibly ancient domed complex on this world's surface. Our scientists can't be certain just how old these structures are, but initial scans suggest they were ancient even at the time of the Great Cataclysm. This may be worth investigating further.</Description>
+				<MessageTitle>Юбилейное торжество</MessageTitle>
+				<Description>Один из наших кораблей, капитан которого празднует 25-летие службы в нашем флоте, обнаружил нечто потенциально значимое: невероятно древний купольный комплекс на поверхности этой планеты. Наши учёные не могут точно определить возраст этих сооружений, но первичные сканирования указывают на то, что они были древними уже во время Великого Катаклизма. Это может стоить того, чтобы провести более детальное расследование.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -2165,8 +2165,12 @@
 	</GameEvent>
 	<GameEvent>
 		<Name>SpecialEvent_PreWarpHomeSystem_AbandonedBase_TechOrMaps</Name>
-		<Title>Which Data Should We Download?</Title>
-		<Description>As our team enters the base it automatically initiates a wipe of the central computer core!\n\nWe only have time to download one piece of information: either some star system maps or important research data.\n\nWhich item should we download?</Description>
+		<Title>Какие данные мы должны загрузить?</Title>
+		<Description>По мере того как наша команда входит в базу, автоматически запускается процесс стирания центрального компьютерного ядра!
+
+У нас есть время загрузить лишь один фрагмент информации: либо карты звездных систем, либо важные исследовательские данные.
+
+Какой элемент мы должны загрузить?</Description>
 		<TriggerType>Acquire</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
@@ -3069,8 +3073,8 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Обнаружено поле обломков космического мусора</MessageTitle>
-				<Description>Мы обнаружили поле обломков в нашей родной системе. Оно защищено крупной базой.
+				<MessageTitle>Обнаружено поле обломков</MessageTitle>
+				<Description>Мы обнаружили роле обломков в нашей родной системе. Оно защищено крупной базой.
 
 Вокруг базы разбросаны корабли в различных степенях ветхости. Кроме того, поблизости плавают другие обломки и мусор, некоторые из которых выглядят ценными.
 
@@ -3313,7 +3317,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Обнаружено поле обломков космического мусора</MessageTitle>
+				<MessageTitle>Обнаружено поле обломков</MessageTitle>
 				<Description>Мы обнаружили роле обломков в нашей родной системе. Оно защищено крупной базой.
 
 Вокруг базы разбросаны корабли в различных степенях ветхости. Кроме того, поблизости плавают другие обломки и мусор, некоторые из которых выглядят ценными.
@@ -3458,9 +3462,9 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Найдено древнее Ядро данных</MessageTitle>
-				<Description>Мы обнаружили в космосе плавающее компьютерное ядро данных. Похоже, он в основном цел.
+				<Description>Мы обнаружили в космосе плавающий компьютерный ядро данных. Оно, похоже, в основном целое.
 
-Нам следует провести более тщательное расследование — возможно, удастся извлечь что-то полезное из этого датакора.</Description>
+Нам следует провести более тщательное расследование — возможно, удастся извлечь что-то полезное из этого ядра данных.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -4032,8 +4036,12 @@
 	</GameEvent>
 	<GameEvent>
 		<Name>SpecialEvent_PreWarpHomeSystem_AbandonedBase_RevealIndependentColonyOrGalacticCoordinates</Name>
-		<Title>Which Data Should We Download?</Title>
-		<Description>As our team enters the base it automatically initiates a wipe of the central computer core!\n\nWe only have time to download one piece of information: either the location of a nearby independent colony or a mysterious set of galactic coordinates.\n\nWhich item should we download?</Description>
+		<Title>Какие данные мы должны загрузить?</Title>
+		<Description>По мере того как наша команда входит в базу, автоматически запускается процесс стирания центрального компьютерного ядра!
+
+У нас есть время загрузить лишь один фрагмент информации: либо местоположение близкой независимой колонии, либо загадочный набор галактических координат.
+
+Какой элемент мы должны загрузить?</Description>
 		<TriggerType>Acquire</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
@@ -4463,15 +4471,15 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddSpecialLocationGalaxy</Type>
-				<Description>A highly unusual location inside a spectacular gravitic storm.
+				<Description>Высоко необычное место внутри впечатляющего гравитационного шторма.
 
-The entire system is engulfed in dangerous gravity tears that can inflict heavy damage on ships without sufficient protection.
+Вся система охвачена опасными гравитационными разломами, способными нанести тяжёлый ущерб кораблям без достаточной защиты.
 
-In addition there are swarms of dangerous Gravillex nearby - they seem drawn to the extra-dimensional gravitic energy.
+Кроме того, поблизости роятся опасные Гравиллексы — их, похоже, привлекает энергия гравитации из других измерений.
 
-The extraordinary gravitic effects make this location a highly tempting research target, with enormous research bonuses here.
+Необычайные гравитационные эффекты делают это место крайне привлекательным объектом для исследований, обеспечивая здесь огромные бонусы к исследованиям.
 
-This appears to be the original entry point for the ancient Shakturi when they arrived in our galaxy so long ago. The dangerous gravitic effects certainly match what we know about their destructive Wormhole Drives...</Description>
+Похоже, что это было первоначальное входное отверстие для древних Шактури, когда они прибыли в нашу галактику так давно. Опасные гравитационные эффекты вполне соответствуют тому, что мы знаем об их разрушительных червоточинных двигателях...</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -4646,11 +4654,11 @@ This appears to be the original entry point for the ancient Shakturi when they a
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddSpecialLocationGalaxy</Type>
-				<Description>This location has strange localized gravitic fissures.
+				<Description>В этом месте наблюдаются странные локальные гравитационные разломы.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+Эти энергетические разломы возникают в указанном месте случайным образом. Со временем они медленно затухают, однако вся территория остается пронизанной этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести кораблям без соответствующей брони и ионных щитов серьезный урон.
 
-Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
+Дальнейшие исследования здесь могут пролить свет на причины возникновения этих разломов. Здесь наблюдаются значительные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -4749,7 +4757,7 @@ Further research here might reveal more information about what causes these fiss
 
 Мы также установили, что эти аномалии не имеют естественного происхождения — они, по-видимому, являются остатками какого-то искусственного процесса.
 
-Кто их создал? Как? И зачем?...</Description>
+Кто их создал? Как и зачем?...</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -4868,11 +4876,11 @@ Further research here might reveal more information about what causes these fiss
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddSpecialLocationGalaxy</Type>
-				<Description>This location has strange localized gravitic fissures.
+				<Description>В этом месте наблюдаются странные локальные гравитационные разломы.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+Эти энергетические разломы возникают в указанном месте случайным образом. Со временем они медленно затухают, однако вся территория остается пронизанной этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести кораблям без соответствующей брони и ионных щитов серьезный урон.
 
-Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
+Дальнейшие исследования здесь могут пролить свет на причины возникновения этих разломов. Здесь наблюдаются значительные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -4900,7 +4908,7 @@ Further research here might reveal more information about what causes these fiss
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Обнаружены странные гравитационные разломы</MessageTitle>
-				<Description>Мы обнаружили странные локальные гравитационные разломы в точке {0} в системе {1}.
+				<Description>Мы обнаружили странные локализованные гравитационные разломы в точке {0} в системе {1}.
 
 Эти энергетические разломы появляются случайно вокруг {0}. Со временем они медленно исчезают, однако вся область остается с этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов.
 
@@ -4965,9 +4973,9 @@ Further research here might reveal more information about what causes these fiss
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Гравитационные разломы оказались искусственными</MessageTitle>
-				<Description>Исследования на {0} в системе {1} выявили некоторые интересные подробности о странных гравитационных разломах, расположенных там:
+				<Description>Исследования на {0} в системе {1} выявили некоторые интересные детали о странных гравитационных разломах, расположенных там:
 
-Похоже, что утечки гравитационной энергии из других измерений со временем медленно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
+Похоже, что утечки гравитационной энергии из других измерений со временем постепенно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
 
 Мы также установили, что эти аномалии не имеют естественного происхождения — они, по-видимому, являются остатками какого-то искусственного процесса.
 
@@ -5090,11 +5098,11 @@ Further research here might reveal more information about what causes these fiss
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddSpecialLocationGalaxy</Type>
-				<Description>This location has strange localized gravitic fissures.
+				<Description>В этом месте наблюдаются странные локальные гравитационные разломы.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+Эти энергетические разломы возникают в указанном месте случайным образом. Со временем они медленно затухают, однако вся территория остается пронизанной этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести кораблям без соответствующей брони и ионных щитов серьезный урон.
 
-Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
+Дальнейшие исследования здесь могут пролить свет на причины возникновения этих разломов. Здесь наблюдаются значительные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -5124,9 +5132,9 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Обнаружены странные гравитационные разломы</MessageTitle>
 				<Description>Мы обнаружили странные локализованные гравитационные разломы в точке {0} в системе {1}.
 
-Эти энергетические разломы возникают случайно вокруг {0}. Они медленно исчезают со временем, но вся область сохраняется с этими опасными трещинами. Энергия из них, похоже, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов.
+Эти энергетические разломы появляются случайно вокруг {0}. Со временем они медленно исчезают, однако вся область остается с этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов.
 
-Что вызывает эти разломы? Дальнейшие исследования могут раскрыть больше информации. В точке {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию здесь, чтобы разгадать тайны этого места.</Description>
+Что вызывает эти разломы? Дальнейшие исследования могут пролить на это свет. В точке {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить здесь исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -5193,7 +5201,7 @@ Further research here might reveal more information about what causes these fiss
 
 Мы также установили, что эти аномалии не имеют естественного происхождения — они, по-видимому, являются остатками какого-то искусственного процесса.
 
-Кто их создал? Как? И зачем?...</Description>
+Кто их создал? Как и зачем?...</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -5312,11 +5320,11 @@ Further research here might reveal more information about what causes these fiss
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddSpecialLocationGalaxy</Type>
-				<Description>This location has strange localized gravitic fissures.
+				<Description>В этом месте наблюдаются странные локальные гравитационные разломы.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+Эти энергетические разломы возникают в указанном месте случайным образом. Со временем они медленно затухают, однако вся территория остается пронизанной этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести кораблям без соответствующей брони и ионных щитов серьезный урон.
 
-Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
+Дальнейшие исследования здесь могут пролить свет на причины возникновения этих разломов. Здесь наблюдаются значительные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -5346,7 +5354,7 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Обнаружены странные гравитационные разломы</MessageTitle>
 				<Description>Мы обнаружили странные локализованные гравитационные разломы в точке {0} в системе {1}.
 
-Эти энергетические разломы возникают случайно вокруг {0}. Со временем они медленно исчезают, однако вся область остается с этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов.
+Эти энергетические разломы появляются случайно вокруг {0}. Со временем они медленно исчезают, однако вся область остается с этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов.
 
 Что вызывает эти разломы? Дальнейшие исследования могут пролить на это свет. В точке {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить здесь исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -5409,13 +5417,13 @@ Further research here might reveal more information about what causes these fiss
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Гравитационные разломы оказались искусственными</MessageTitle>
-				<Description>Исследования на {0} в системе {1} выявили некоторые интересные подробности о странных гравитационных разломах, расположенных там:
+				<Description>Исследования на {0} в системе {1} выявили некоторые интересные детали о странных гравитационных разломах, расположенных там:
 
-Похоже, что утечки гравитационной энергии из других измерений со временем медленно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
+Похоже, что утечки гравитационной энергии из других измерений со временем постепенно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
 
 Мы также установили, что эти аномалии не имеют естественного происхождения — они, по-видимому, являются остатками какого-то искусственного процесса.
 
-Кто их создал? Как? И зачем?...</Description>
+Кто их создал? Как и зачем?...</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -5534,11 +5542,11 @@ Further research here might reveal more information about what causes these fiss
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddSpecialLocationGalaxy</Type>
-				<Description>This location has strange localized gravitic fissures.
+				<Description>В этом месте наблюдаются странные локальные гравитационные разломы.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+Эти энергетические разломы возникают в указанном месте случайным образом. Со временем они медленно затухают, однако вся территория остается пронизанной этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести кораблям без соответствующей брони и ионных щитов серьезный урон.
 
-Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
+Дальнейшие исследования здесь могут пролить свет на причины возникновения этих разломов. Здесь наблюдаются значительные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -5631,13 +5639,13 @@ Further research here might reveal more information about what causes these fiss
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Гравитационные разломы оказались искусственными</MessageTitle>
-				<Description>Исследования на {0} в системе {1} выявили некоторые интересные подробности о странных гравитационных разломах, расположенных там:
+				<Description>Исследования на {0} в системе {1} выявили некоторые интересные детали о странных гравитационных разломах, расположенных там:
 
-Похоже, что утечки гравитационной энергии из других измерений со временем медленно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
+Похоже, что утечки гравитационной энергии из других измерений со временем постепенно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
 
 Мы также установили, что эти аномалии не имеют естественного происхождения — они, по-видимому, являются остатками какого-то искусственного процесса.
 
-Кто их создал? Как? И зачем?...</Description>
+Кто их создал? Как и зачем?...</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -5756,11 +5764,11 @@ Further research here might reveal more information about what causes these fiss
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddSpecialLocationGalaxy</Type>
-				<Description>This location has strange localized gravitic fissures.
+				<Description>В этом месте наблюдаются странные локальные гравитационные разломы.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+Эти энергетические разломы возникают в указанном месте случайным образом. Со временем они медленно затухают, однако вся территория остается пронизанной этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести кораблям без соответствующей брони и ионных щитов серьезный урон.
 
-Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
+Дальнейшие исследования здесь могут пролить свет на причины возникновения этих разломов. Здесь наблюдаются значительные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -5859,7 +5867,7 @@ Further research here might reveal more information about what causes these fiss
 
 Мы также установили, что эти аномалии не имеют естественного происхождения — они, по-видимому, являются остатками какого-то искусственного процесса.
 
-Кто их создал? Как? И зачем?...</Description>
+Кто их создал? Как и зачем?...</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -5978,11 +5986,11 @@ Further research here might reveal more information about what causes these fiss
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddSpecialLocationGalaxy</Type>
-				<Description>This location has strange localized gravitic fissures.
+				<Description>В этом месте наблюдаются странные локальные гравитационные разломы.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+Эти энергетические разломы возникают в указанном месте случайным образом. Со временем они медленно затухают, однако вся территория остается пронизанной этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести кораблям без соответствующей брони и ионных щитов серьезный урон.
 
-Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
+Дальнейшие исследования здесь могут пролить свет на причины возникновения этих разломов. Здесь наблюдаются значительные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -6012,9 +6020,9 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Обнаружены странные гравитационные разломы</MessageTitle>
 				<Description>Мы обнаружили странные локализованные гравитационные разломы в точке {0} в системе {1}.
 
-Эти энергетические разломы появляются случайно вокруг {0}. Они медленно распадаются со временем, но вся область сохраняется с этими опасными разрывами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов.
+Эти энергетические разломы появляются случайно вокруг {0}. Со временем они медленно исчезают, однако вся область остается с этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов.
 
-Что вызывает эти разломы? Дальнейшие исследования могут раскрыть больше информации. В точке {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию здесь, чтобы разгадать тайны этого места.</Description>
+Что вызывает эти разломы? Дальнейшие исследования могут пролить на это свет. В точке {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить здесь исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6075,13 +6083,13 @@ Further research here might reveal more information about what causes these fiss
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Гравитационные разломы оказались искусственными</MessageTitle>
-				<Description>Исследования на {0} в системе {1} выявили некоторые интересные подробности о странных гравитационных разломах, расположенных там:
+				<Description>Исследования на {0} в системе {1} выявили некоторые интересные детали о странных гравитационных разломах, расположенных там:
 
-Похоже, что утечки гравитационной энергии из других измерений со временем медленно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
+Похоже, что утечки гравитационной энергии из других измерений со временем постепенно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
 
 Мы также установили, что эти аномалии не имеют естественного происхождения — они, по-видимому, являются остатками какого-то искусственного процесса.
 
-Кто их создал? Как? И зачем?...</Description>
+Кто их создал? Как и зачем?...</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6200,11 +6208,11 @@ Further research here might reveal more information about what causes these fiss
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddSpecialLocationGalaxy</Type>
-				<Description>This location has strange localized gravitic fissures.
+				<Description>В этом месте наблюдаются странные локальные гравитационные разломы.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+Эти энергетические разломы возникают в указанном месте случайным образом. Со временем они медленно затухают, однако вся территория остается пронизанной этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести кораблям без соответствующей брони и ионных щитов серьезный урон.
 
-Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
+Дальнейшие исследования здесь могут пролить свет на причины возникновения этих разломов. Здесь наблюдаются значительные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -6234,9 +6242,9 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Обнаружены странные гравитационные разломы</MessageTitle>
 				<Description>Мы обнаружили странные локализованные гравитационные разломы в точке {0} в системе {1}.
 
-Эти энергетические разломы появляются случайно вокруг {0}. Они медленно распадаются со временем, но вся область сохраняется с этими опасными разрывами. Энергия из них, похоже, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов.
+Эти энергетические разломы появляются случайно вокруг {0}. Со временем они медленно исчезают, однако вся область остается с этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов.
 
-Что вызывает эти разломы? Дальнейшие исследования могут раскрыть больше информации. В точке {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию здесь, чтобы разгадать тайны этого места.</Description>
+Что вызывает эти разломы? Дальнейшие исследования могут пролить на это свет. В точке {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить здесь исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6303,7 +6311,7 @@ Further research here might reveal more information about what causes these fiss
 
 Мы также установили, что эти аномалии не имеют естественного происхождения — они, по-видимому, являются остатками какого-то искусственного процесса.
 
-Кто их создал? Как? И зачем?...</Description>
+Кто их создал? Как и зачем?...</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6422,11 +6430,11 @@ Further research here might reveal more information about what causes these fiss
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddSpecialLocationGalaxy</Type>
-				<Description>This location has strange localized gravitic fissures.
+				<Description>В этом месте наблюдаются странные локальные гравитационные разломы.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+Эти энергетические разломы возникают в указанном месте случайным образом. Со временем они медленно затухают, однако вся территория остается пронизанной этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести кораблям без соответствующей брони и ионных щитов серьезный урон.
 
-Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
+Дальнейшие исследования здесь могут пролить свет на причины возникновения этих разломов. Здесь наблюдаются значительные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -6456,9 +6464,9 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Обнаружены странные гравитационные разломы</MessageTitle>
 				<Description>Мы обнаружили странные локализованные гравитационные разломы в точке {0} в системе {1}.
 
-Эти энергетические разломы появляются случайно вокруг {0}. Они медленно распадаются со временем, но вся область сохраняется с этими опасными разрывами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов.
+Эти энергетические разломы появляются случайно вокруг {0}. Со временем они медленно исчезают, однако вся область остается с этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов.
 
-Что вызывает эти разломы? Дальнейшие исследования могут раскрыть больше информации. В точке {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию здесь, чтобы разгадать тайны этого места.</Description>
+Что вызывает эти разломы? Дальнейшие исследования могут пролить на это свет. В точке {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить здесь исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6519,13 +6527,13 @@ Further research here might reveal more information about what causes these fiss
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Гравитационные разломы оказались искусственными</MessageTitle>
-				<Description>Исследования на {0} в системе {1} выявили некоторые интересные подробности о странных гравитационных разломах, расположенных там:
+				<Description>Исследования на {0} в системе {1} выявили некоторые интересные детали о странных гравитационных разломах, расположенных там:
 
-Похоже, что утечки гравитационной энергии из других измерений со временем медленно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
+Похоже, что утечки гравитационной энергии из других измерений со временем постепенно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
 
 Мы также установили, что эти аномалии не имеют естественного происхождения — они, по-видимому, являются остатками какого-то искусственного процесса.
 
-Кто их создал? Как? И зачем?...</Description>
+Кто их создал? Как и зачем?...</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6644,11 +6652,11 @@ Further research here might reveal more information about what causes these fiss
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddSpecialLocationGalaxy</Type>
-				<Description>This location has strange localized gravitic fissures.
+				<Description>В этом месте наблюдаются странные локальные гравитационные разломы.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+Эти энергетические разломы возникают в указанном месте случайным образом. Со временем они медленно затухают, однако вся территория остается пронизанной этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести кораблям без соответствующей брони и ионных щитов серьезный урон.
 
-Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
+Дальнейшие исследования здесь могут пролить свет на причины возникновения этих разломов. Здесь наблюдаются значительные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -6676,9 +6684,9 @@ Further research here might reveal more information about what causes these fiss
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Обнаружены странные гравитационные разломы</MessageTitle>
-				<Description>Мы обнаружили странные локальные гравитационные разломы в точке {0} в системе {1}.
+				<Description>Мы обнаружили странные локализованные гравитационные разломы в точке {0} в системе {1}.
 
-Эти энергетические разломы возникают случайно вокруг {0}. Со временем они медленно исчезают, однако вся область остается опасной из-за этих разрывов. Энергия, по-видимому, просачивается сюда из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов.
+Эти энергетические разломы появляются случайно вокруг {0}. Со временем они медленно исчезают, однако вся область остается с этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов.
 
 Что вызывает эти разломы? Дальнейшие исследования могут пролить на это свет. В точке {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить здесь исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -6747,7 +6755,7 @@ Further research here might reveal more information about what causes these fiss
 
 Мы также установили, что эти аномалии не имеют естественного происхождения — они, по-видимому, являются остатками какого-то искусственного процесса.
 
-Кто их создал? Как? И зачем?...</Description>
+Кто их создал? Как и зачем?...</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6866,11 +6874,11 @@ Further research here might reveal more information about what causes these fiss
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddSpecialLocationGalaxy</Type>
-				<Description>This location has strange localized gravitic fissures.
+				<Description>В этом месте наблюдаются странные локальные гравитационные разломы.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+Эти энергетические разломы возникают в указанном месте случайным образом. Со временем они медленно затухают, однако вся территория остается пронизанной этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести кораблям без соответствующей брони и ионных щитов серьезный урон.
 
-Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
+Дальнейшие исследования здесь могут пролить свет на причины возникновения этих разломов. Здесь наблюдаются значительные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -6900,9 +6908,9 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Обнаружены странные гравитационные разломы</MessageTitle>
 				<Description>Мы обнаружили странные локализованные гравитационные разломы в точке {0} в системе {1}.
 
-Эти энергетические разломы возникают случайно вокруг {0}. Они медленно исчезают со временем, но вся область сохраняется с этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов.
+Эти энергетические разломы появляются случайно вокруг {0}. Со временем они медленно исчезают, однако вся область остается с этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов.
 
-Что вызывает эти разломы? Дальнейшие исследования могут раскрыть больше информации. В точке {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию здесь, чтобы разгадать тайны этого места.</Description>
+Что вызывает эти разломы? Дальнейшие исследования могут пролить на это свет. В точке {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить здесь исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6963,13 +6971,13 @@ Further research here might reveal more information about what causes these fiss
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Гравитационные разломы оказались искусственными</MessageTitle>
-				<Description>Исследования на {0} в системе {1} выявили некоторые интересные подробности о странных гравитационных разломах, расположенных там:
+				<Description>Исследования на {0} в системе {1} выявили некоторые интересные детали о странных гравитационных разломах, расположенных там:
 
-Похоже, что утечки гравитационной энергии из других измерений со временем медленно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
+Похоже, что утечки гравитационной энергии из других измерений со временем постепенно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
 
 Мы также установили, что эти аномалии не имеют естественного происхождения — они, по-видимому, являются остатками какого-то искусственного процесса.
 
-Кто их создал? Как? И зачем?...</Description>
+Кто их создал? Как и зачем?...</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7088,11 +7096,11 @@ Further research here might reveal more information about what causes these fiss
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddSpecialLocationGalaxy</Type>
-				<Description>This location has strange localized gravitic fissures.
+				<Description>В этом месте наблюдаются странные локальные гравитационные разломы.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+Эти энергетические разломы возникают в указанном месте случайным образом. Со временем они медленно затухают, однако вся территория остается пронизанной этими опасными трещинами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести кораблям без соответствующей брони и ионных щитов серьезный урон.
 
-Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
+Дальнейшие исследования здесь могут пролить свет на причины возникновения этих разломов. Здесь наблюдаются значительные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -7187,11 +7195,11 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Гравитационные разломы оказались искусственными</MessageTitle>
 				<Description>Исследования на {0} в системе {1} выявили некоторые интересные детали о странных гравитационных разломах, расположенных там:
 
-Похоже, что утечки гравитационной энергии из других измерений со временем медленно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
+Похоже, что утечки гравитационной энергии из других измерений со временем постепенно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
 
 Мы также установили, что эти аномалии не имеют естественного происхождения — они, по-видимому, являются остатками какого-то искусственного процесса.
 
-Кто их создал? Как? И зачем?...</Description>
+Кто их создал? Как и зачем?...</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7313,13 +7321,13 @@ Further research here might reveal more information about what causes these fiss
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddSpecialLocationGalaxy</Type>
-				<Description>This is a highly unusual location inside a spectacular gravitic storm.
+				<Description>Это крайне необычное место внутри грандиозного гравитационного шторма.
 
-Huge gravitic energy fissures appear randomly throughout the system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+В пределах системы хаотично возникают гигантские разломы гравитационной энергии. Со временем они медленно угасают, однако вся область пульсирует этими опасными разрывами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести кораблям без достаточной брони и ионных щитов тяжелейший урон.
 
-In addition there are swarms of dangerous Gravillex nearby - they seem drawn to the extra-dimensional gravitic energy.
+Кроме того, неподалеку роятся опасные Гравиллексы — их, похоже, притягивает гравитационная энергия из другого измерения.
 
-Further research at this location might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
+Дальнейшие исследования на этой локации могут пролить свет на природу возникновения этих разломов. Здесь наблюдаются значительные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -7376,11 +7384,11 @@ Further research at this location might reveal more information about what cause
 				<MessageTitle>Обнаружена мощная гравитационная буря</MessageTitle>
 				<Description>Мы обнаружили крайне необычное место внутри грандиозного гравитационного шторма.
 
-Огромные разломы гравитационной энергии хаотично возникают по всей системе {1}. Со временем они медленно исчезают, однако вся область пульсирует этими опасными разрывами. Энергия из них, похоже, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов. Эпицентр интенсивного гравитационного воздействия находится в {0}.
+Огромные разломы гравитационной энергии появляются случайно по всей системе {1}. Они медленно исчезают со временем, но вся область пульсирует этими опасными разрывами. Энергия из них, похоже, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов. Эпицентр интенсивного гравитационного воздействия, по-видимому, находится в {0}.
 
-Кроме того, поблизости роятся опасные Гравиллексы — их, по-видимому, привлекает энергия разломов из другого измерения.
+Кроме того, поблизости роятся опасные Гравиллексы — их, похоже, привлекает энергия разломов из другого измерения.
 
-Что вызывает эти разломы? Дальнейшие исследования могут пролить на это свет. В {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить там исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
+Что вызывает эти разломы? Дальнейшие исследования могут пролить больше света на этот вопрос. В {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить там исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7441,13 +7449,13 @@ Further research at this location might reveal more information about what cause
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Гравитационные разломы оказались искусственными</MessageTitle>
-				<Description>Исследования на {0} в системе {1} выявили некоторые интересные подробности о странных гравитационных разломах, расположенных там:
+				<Description>Исследования на {0} в системе {1} выявили некоторые интересные детали о странных гравитационных разломах, расположенных там:
 
-Похоже, что утечки гравитационной энергии из других измерений со временем медленно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
+Похоже, что утечки гравитационной энергии из других измерений со временем постепенно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
 
 Мы также установили, что эти аномалии не имеют естественного происхождения — они, по-видимому, являются остатками какого-то искусственного процесса.
 
-Кто их создал? Как? И зачем?...</Description>
+Кто их создал? Как и зачем?...</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7686,13 +7694,13 @@ Further research at this location might reveal more information about what cause
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddSpecialLocationGalaxy</Type>
-				<Description>This is a highly unusual location inside a spectacular gravitic storm.
+				<Description>Это крайне необычное место внутри грандиозного гравитационного шторма.
 
-Huge gravitic energy fissures appear randomly throughout the system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+В пределах системы хаотично возникают гигантские разломы гравитационной энергии. Со временем они медленно угасают, однако вся область пульсирует этими опасными разрывами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести кораблям без достаточной брони и ионных щитов тяжелейший урон.
 
-In addition there are swarms of dangerous Gravillex nearby - they seem drawn to the extra-dimensional gravitic energy.
+Кроме того, неподалеку роятся опасные Гравиллексы — их, похоже, притягивает гравитационная энергия из другого измерения.
 
-Further research at this location might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
+Дальнейшие исследования на этой локации могут пролить свет на природу возникновения этих разломов. Здесь наблюдаются значительные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -7749,11 +7757,11 @@ Further research at this location might reveal more information about what cause
 				<MessageTitle>Обнаружена мощная гравитационная буря</MessageTitle>
 				<Description>Мы обнаружили крайне необычное место внутри грандиозного гравитационного шторма.
 
-Огромные разломы гравитационной энергии появляются случайно по всей системе {1}. Со временем они медленно затухают, однако вся область пульсирует этими опасными разрывами. Энергия из них, похоже, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов. Эпицентр интенсивного гравитационного воздействия находится в точке {0}.
+Огромные разломы гравитационной энергии появляются случайно по всей системе {1}. Они медленно исчезают со временем, но вся область пульсирует этими опасными разрывами. Энергия из них, похоже, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов. Эпицентр интенсивного гравитационного воздействия, по-видимому, находится в {0}.
 
-Кроме того, поблизости роятся опасные Гравиллексы — их, по-видимому, привлекает энергия разломов из другого измерения.
+Кроме того, поблизости роятся опасные Гравиллексы — их, похоже, привлекает энергия разломов из другого измерения.
 
-Что вызывает эти разломы? Дальнейшие исследования могут пролить на это свет. В точке {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить там исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
+Что вызывает эти разломы? Дальнейшие исследования могут пролить больше света на этот вопрос. В {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить там исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7814,13 +7822,13 @@ Further research at this location might reveal more information about what cause
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Гравитационные разломы оказались искусственными</MessageTitle>
-				<Description>Исследования на {0} в системе {1} выявили некоторые интересные подробности о странных гравитационных разломах, расположенных там:
+				<Description>Исследования на {0} в системе {1} выявили некоторые интересные детали о странных гравитационных разломах, расположенных там:
 
-Похоже, что утечки гравитационной энергии из других измерений со временем медленно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
+Похоже, что утечки гравитационной энергии из других измерений со временем постепенно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
 
 Мы также установили, что эти аномалии не имеют естественного происхождения — они, по-видимому, являются остатками какого-то искусственного процесса.
 
-Кто их создал? Как? И зачем?...</Description>
+Кто их создал? Как и зачем?...</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7862,7 +7870,7 @@ Further research at this location might reveal more information about what cause
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Обнаружено поле древних обломков</MessageTitle>
-				<Description>Мы обнаружили поле обломков сильно поврежденных древних кораблей в системе {1}. Поле обломков находится внутри огромного гравитационного шторма-туманности.
+				<Description>Мы обнаружили поле обломков сильно поврежденных древних кораблей в системе {1}. Поле обломков находится внутри огромного гравитационного туманного шторма.
 
 Были ли корабли повреждены гравитационным штормом? Или их постигла судьба по иной причине?
 
@@ -8051,13 +8059,13 @@ Further research at this location might reveal more information about what cause
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddSpecialLocationGalaxy</Type>
-				<Description>This is a highly unusual location inside a spectacular gravitic storm.
+				<Description>Это крайне необычное место внутри грандиозного гравитационного шторма.
 
-Huge gravitic energy fissures appear randomly throughout the system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+В пределах системы хаотично возникают гигантские разломы гравитационной энергии. Со временем они медленно угасают, однако вся область пульсирует этими опасными разрывами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести кораблям без достаточной брони и ионных щитов тяжелейший урон.
 
-In addition there are swarms of dangerous Gravillex nearby - they seem drawn to the extra-dimensional gravitic energy.
+Кроме того, неподалеку роятся опасные Гравиллексы — их, похоже, притягивает гравитационная энергия из другого измерения.
 
-Further research at this location might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
+Дальнейшие исследования на этой локации могут пролить свет на природу возникновения этих разломов. Здесь наблюдаются значительные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -8112,13 +8120,13 @@ Further research at this location might reveal more information about what cause
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Обнаружена мощная гравитационная буря</MessageTitle>
-				<Description>Мы обнаружили крайне необычное место внутри впечатляющего гравитационного шторма.
+				<Description>Мы обнаружили крайне необычное место внутри грандиозного гравитационного шторма.
 
 Огромные разломы гравитационной энергии появляются случайно по всей системе {1}. Они медленно исчезают со временем, но вся область пульсирует этими опасными разрывами. Энергия из них, похоже, просачивается из другого измерения. Они могут нанести серьезный ущерб кораблям без достаточной брони и ионных щитов. Эпицентр интенсивного гравитационного воздействия, по-видимому, находится в {0}.
 
 Кроме того, поблизости роятся опасные Гравиллексы — их, похоже, привлекает энергия разломов из другого измерения.
 
-Что вызывает эти разломы? Дальнейшие исследования могут пролить на это свет. В {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить там исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
+Что вызывает эти разломы? Дальнейшие исследования могут пролить больше света на этот вопрос. В {0} действуют крупные бонусы к исследованиям, поэтому нам следует построить там исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -8179,13 +8187,13 @@ Further research at this location might reveal more information about what cause
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Гравитационные разломы оказались искусственными</MessageTitle>
-				<Description>Исследования на {0} в системе {1} выявили некоторые интересные подробности о странных гравитационных разломах, расположенных там:
+				<Description>Исследования на {0} в системе {1} выявили некоторые интересные детали о странных гравитационных разломах, расположенных там:
 
-Похоже, что утечки гравитационной энергии из других измерений со временем медленно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
+Похоже, что утечки гравитационной энергии из других измерений со временем постепенно усиливаются — эти разломы нестабильны. Они могут даже полностью открыться вновь.
 
 Мы также установили, что эти аномалии не имеют естественного происхождения — они, по-видимому, являются остатками какого-то искусственного процесса.
 
-Кто их создал? Как? И зачем?...</Description>
+Кто их создал? Как и зачем?...</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -8227,9 +8235,9 @@ Further research at this location might reveal more information about what cause
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Обнаружено поле древних обломков</MessageTitle>
-				<Description>Мы обнаружили поле обломков сильно поврежденных древних кораблей в системе {1}. Это поле обломков находится внутри огромного гравитационного шторма-туманности.
+				<Description>Мы обнаружили поле обломков сильно поврежденных древних кораблей в системе {1}. Поле обломков находится внутри огромного гравитационного туманного шторма.
 
-Были ли корабли повреждены гравитационным штормом? Или их судьба была решена каким-то иным источником?
+Были ли корабли повреждены гравитационным штормом? Или их постигла судьба по иной причине?
 
 Хотя корабли почти уничтожены, мы, вероятно, сможем восстановить их, если отправим строительный корабль с достаточной броней и ионной защитой для защиты от гравитационного шторма.
 
@@ -8416,13 +8424,13 @@ Further research at this location might reveal more information about what cause
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddSpecialLocationGalaxy</Type>
-				<Description>This is a highly unusual location inside a spectacular gravitic storm.
+				<Description>Это крайне необычное место внутри грандиозного гравитационного шторма.
 
-Huge gravitic energy fissures appear randomly throughout the system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+В пределах системы хаотично возникают гигантские разломы гравитационной энергии. Со временем они медленно угасают, однако вся область пульсирует этими опасными разрывами. Энергия из них, по-видимому, просачивается из другого измерения. Они могут нанести кораблям без достаточной брони и ионных щитов тяжелейший урон.
 
-In addition there are swarms of dangerous Gravillex nearby - they seem drawn to the extra-dimensional gravitic energy.
+Кроме того, неподалеку роятся опасные Гравиллексы — их, похоже, притягивает гравитационная энергия из другого измерения.
 
-Further research at this location might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
+Дальнейшие исследования на этой локации могут пролить свет на природу возникновения этих разломов. Здесь наблюдаются значительные бонусы к исследованиям, поэтому нам следует построить исследовательскую станцию, чтобы раскрыть тайны этого места.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -9057,7 +9065,7 @@ Further research at this location might reveal more information about what cause
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Частичные журналы, восстановленные из древнего флота Акдариан</MessageTitle>
-				<Description>Мы высадились на {0} и взяли его под контроль.\n\nХотя многое было утрачено, нам удалось извлечь небольшую часть журналов из центрального ядра компьютера.\n\nСообщения указывают на то, что этот флот входил в состав империи, называемой Альянс Свободы. Этому флоту была поручена защита близлежащей системы от чего-то под названием Шактури. Похоже, они проиграли битву...</Description>
+				<Description>Мы высадились на {0} и взяли его под контроль.\n\nХотя многое было утеряно, нам удалось извлечь небольшую часть журналов из центрального ядра компьютера.\n\nСообщения указывают на то, что этот флот входил в состав империи под названием Альянс Свободы. Этому флоту была поручена защита близлежащей системы от чего-то под названием Шактури. Похоже, они проиграли битву...</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -9140,7 +9148,7 @@ Further research at this location might reveal more information about what cause
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Частичные журналы, восстановленные из флота древних людей</MessageTitle>
-				<Description>Мы высадились на {0} и взяли его под контроль.\n\nХотя многое было утеряно, нам удалось извлечь небольшую часть журналов из центрального ядра компьютера.\n\nСообщения указывают на то, что этот флот входил в состав империи, называемой Альянс Свободы. Этому флоту была поручена защита близлежащей системы от чего-то под названием Шактури. Похоже, они проиграли битву...</Description>
+				<Description>Мы высадились на {0} и взяли его под контроль.\n\nХотя многое было утеряно, нам удалось извлечь небольшую часть журналов из центрального ядра компьютера.\n\nСообщения указывают на то, что этот флот входил в состав империи под названием Альянс Свободы. Этому флоту была поручена защита близлежащей системы от чего-то под названием Шактури. Похоже, они проиграли битву...</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -9363,11 +9371,11 @@ Further research at this location might reveal more information about what cause
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GenerateSpaceItem</Type>
-				<Description>We have come across a message while salvaging a damaged computer core.
-        
-The message describes a vast attack plan involving dozens of fleets. While in hyperspace jumping towards their final attack target, the ship progressively lost contact with all of their allied fleets.
+				<Description>Мы обнаружили сообщение при спасении поврежденного компьютерного ядра.
 
-The final entry is a panicked description of a colossal wall of energy approaching the ship in hyperspace...</Description>
+Сообщение описывает масштабный план атаки с участием десятков флотов. Во время гиперпрыжка к конечной цели атаки корабль постепенно потерял связь со всеми своими союзными флотами.
+
+Последняя запись представляет собой в панике написанное описание колоссальной стены энергии, приближающейся к кораблю в гиперпространстве...</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
@@ -9402,7 +9410,7 @@ The final entry is a panicked description of a colossal wall of energy approachi
 
 Обломки выглядят крайне чужеродно: некоторые предметы покрыты странными рунами, не соответствующими ни одному известному языку — ни древнему, ни современному.
 
-В этом поле нет целых кораблей, только мелкие обломки; корабли должны были быть полностью разбиты на части чем-то, так что ни один корпус не сохранился в целостности.</Description>
+В этом поле нет целых кораблей, лишь мелкие обломки; очевидно, корабли были полностью разбиты на части чем-то, не оставившим ни единого неповреждённого корпуса.</Description>
 				<MusicFilepath>music/extra/discovery.mp3</MusicFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -9479,11 +9487,11 @@ The final entry is a panicked description of a colossal wall of energy approachi
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GenerateSpaceItem</Type>
-				<Description>We have come across a message while salvaging a damaged computer core.
-        
-The message describes a vast attack plan involving dozens of fleets. While in hyperspace jumping towards their final attack target, the ship progressively lost contact with all of their allied fleets.
+				<Description>Мы обнаружили сообщение при спасении поврежденного компьютерного ядра.
 
-The final entry is a panicked description of a colossal wall of energy approaching the ship in hyperspace...</Description>
+Сообщение описывает масштабный план атаки с участием десятков флотов. Во время гиперпрыжка к конечной цели атаки корабль постепенно потерял связь со всеми своими союзными флотами.
+
+Последняя запись представляет собой в панике написанное описание колоссальной стены энергии, приближающейся к кораблю в гиперпространстве...</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
@@ -9516,9 +9524,9 @@ The final entry is a panicked description of a colossal wall of energy approachi
 				<MessageTitle>Обнаружено неизвестное поле обломков</MessageTitle>
 				<Description>Мы обнаружили обширное поле обломков кораблей в системе {1}.
 
-Обломки выглядят крайне чужеродно: некоторые предметы покрыты странными знаками, не соответствующими ни одному известному языку — ни древнему, ни современному.
+Обломки выглядят крайне чужеродно: некоторые предметы покрыты странными рунами, не соответствующими ни одному известному языку — ни древнему, ни современному.
 
-В этом поле нет целых кораблей, только мелкие обломки; корабли должны были быть полностью разбиты на части чем-то, что не оставило ни единого неповреждённого корпуса.</Description>
+В этом поле нет целых кораблей, лишь мелкие обломки; очевидно, корабли были полностью разбиты на части чем-то, не оставившим ни единого неповреждённого корпуса.</Description>
 				<MusicFilepath>music/extra/discovery.mp3</MusicFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -9595,11 +9603,11 @@ The final entry is a panicked description of a colossal wall of energy approachi
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GenerateSpaceItem</Type>
-				<Description>We have come across a message while salvaging a damaged computer core.
+				<Description>Мы обнаружили сообщение при сборе обломков поврежденного компьютерного ядра.
 
-The message describes a vast attack plan involving dozens of fleets. While in hyperspace jumping towards their final attack target, the ship progressively lost contact with all of their allied fleets.
+Сообщение описывает масштабный план атаки, включающий десятки флотов. Во время гиперпрыжка к конечной цели атаки корабль постепенно потерял связь со всеми своими союзными флотами.
 
-The final entry is a panicked description of a colossal wall of energy approaching the ship in hyperspace...</Description>
+Последняя запись представляет собой в панике написанное описание колоссальной стены энергии, приближающейся к кораблю в гиперпространстве...</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
@@ -14151,7 +14159,7 @@ The final entry is a panicked description of a colossal wall of energy approachi
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Древние послания получены</MessageTitle>
+				<MessageTitle>Древние сообщения получены</MessageTitle>
 				<Description>Наше исследование заброшенной исследовательской станции {0} в системе {1} выявило ряд интересных сообщений между древними фракциями, сражавшимися против ужасающей угрозы, известной как Шактури.
 
 Одно из сообщений представляет собой внутреннюю коммуникацию Хааконишей от центрального командования к удаленной исследовательской станции и гласит следующее:
@@ -14849,7 +14857,7 @@ The final entry is a panicked description of a colossal wall of energy approachi
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Древние послания получены</MessageTitle>
+				<MessageTitle>Древние сообщения получены</MessageTitle>
 				<Description>Наше расследование заброшенной базы {0} в системе {1} выявило несколько интересных сообщений.
 
 Одно из сообщений, похоже, является личным дневником учёного-хаакониша, выжившего после катастрофической аварии; его фрагмент гласит:
@@ -16318,10 +16326,10 @@ The final entry is a panicked description of a colossal wall of energy approachi
 		<PlacementActions>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
-				<MessageTitle>Ruined Mining Outpost</MessageTitle>
-				<Description>We have discovered a ruined mining outpost on this world.
+				<MessageTitle>Разрушенный добывающий аванпост</MessageTitle>
+				<Description>Мы обнаружили разрушенную добывающую аванпост на этой планете.
 
-This pleasingly-designed structure appears to have been destroyed in a massive quake, part of a seismic upheaval that split the surface of the planet, creating a vast network of chasms and canyons. Within, many valuable resources have been exposed.</Description>
+Эта приятно спроектированная структура, по-видимому, была уничтожена в ходе мощного землетрясения — части сейсмического потрясения, расколовшего поверхность планеты и создавшего обширную сеть провалов и каньонов. Внутри были обнажены многие ценные ресурсы.</Description>
 				<ActionLocationHint>NearbyEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -16460,7 +16468,7 @@ This pleasingly-designed structure appears to have been destroyed in a massive q
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Результаты расследования</MessageTitle>
-				<Description>Наше первоначальное обследование показало, что при уничтожении аванпоста в окрестностях было рассеяно огромное количество нестабильных ресурсов.
+				<Description>Наше первоначальное обследование показало, что при уничтожении аванпоста в районе было рассеяно огромное количество нестабильных ресурсов.
 
 Это ставит нас перед выбором. Мы можем действовать осторожно и принять меры для предотвращения взрывов, что обойдется нам в 20 000 кредитов.
 
@@ -18751,11 +18759,11 @@ This pleasingly-designed structure appears to have been destroyed in a massive q
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Бывшая колония</MessageTitle>
-				<Description>Мы обнаружили старую колонию акдариан на {0} — планете, сильно повреждённой как оружием, так и сейсмической активностью.
+				<Description>Мы обнаружили старую колонию акдариан на {0}, планете, сильно поврежденной как оружием, так и сейсмической активностью.
 
-Следует ли нам исследовать все районы, включая зоны, подвергшиеся бомбардировкам и, вероятно, токсичные, или ограничиться лишь теми областями, которые мы считаем безопасными?
+Следует ли нам исследовать все районы, включая зоны, подвергшиеся бомбардировке и, вероятно, токсичные, или ограничиться районами, которые мы считаем безопасными?
 
-Исследование всех районов обойдётся в 100,000cr, тогда как исследование только безопасных зон — в 25,000cr.</Description>
+Исследование всех зон обойдется в 100,000cr, тогда как исследование только безопасных зон — в 25,000cr.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -21344,8 +21352,8 @@ This pleasingly-designed structure appears to have been destroyed in a massive q
 		<PlacementActions>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
-				<MessageTitle>Ancient Bombardment</MessageTitle>
-				<Description>We have discovered a colonizable planet, one that bears the scars of battle! Preliminary surveys show signs of ancient bombardment and massive destruction. Surface ruins appear to be of Mortalen design, which suggest our ancestors fought bravely here. We must investigate and learn more.</Description>
+				<MessageTitle>Древняя бомбардировка</MessageTitle>
+				<Description>Мы обнаружили планету, пригодную для колонизации, покрытую шрамами от битвы! Предварительные исследования выявили следы древней бомбардировки и масштабных разрушений. Поверхностные руины выполнены в стиле Морталенов, что свидетельствует о том, что наши предки храбро сражались здесь. Мы должны провести расследование и узнать больше.</Description>
 				<ActionLocationHint>NearbyEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -21461,8 +21469,8 @@ This pleasingly-designed structure appears to have been destroyed in a massive q
 		<PlacementActions>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
-				<MessageTitle>Alien Troop Transport</MessageTitle>
-				<Description>We have discovered what appears to be a crashed alien troop transport. It would be wise to investigate the planet further for signs of potential enemies.</Description>
+				<MessageTitle>Инопланетный десантный корабль</MessageTitle>
+				<Description>Мы обнаружили, по-видимому, разбившийся инопланетный десантный корабль. Было бы разумно продолжить исследование планеты в поисках признаков потенциальных врагов.</Description>
 				<ImageFilepath>Environment/Events/CrashedShip</ImageFilepath>
 				<ActionLocationHint>NearbyEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>true</ActionLocationShouldBeFuelSource>
@@ -22860,8 +22868,8 @@ This pleasingly-designed structure appears to have been destroyed in a massive q
 		<PlacementActions>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
-				<MessageTitle>A Cloning Facility</MessageTitle>
-				<Description>On this world we have discovered what appear to be the ruins of an ancient Mortalen cloning facility. Should we investigate?</Description>
+				<MessageTitle>Камера клонирования</MessageTitle>
+				<Description>На этом мире мы обнаружили, по-видимому, руины древней морталенской клонирующей установки. Стоит ли провести расследование?</Description>
 				<ActionLocationHint>MediumEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -28390,11 +28398,11 @@ This pleasingly-designed structure appears to have been destroyed in a massive q
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Колония приобретена</MessageTitle>
-				<Description>Сообщение пришло с поверхности: «Вы удивляете нас. Сбиваете с толку. Ваша природа чужда нам, и всё же вы — Боскара. Более того, в ваших словах есть нечто, что отзывается в нас, резонирует подобно шепоту давно забытого голоса сквозь коллективный разум. Вы говорите нам: вы расширились и завоевали. Вы брали и поглощали. Это не наш путь, но это путь, который звучит для нас… не как ошибочный».
+				<Description>Сообщение пришло с поверхности: «Вы удивляете нас. Сбиваете с толку. Ваша природа чужда нам, и всё же вы — Боскара. Более того, в ваших словах есть нечто, что отзывается в нас, резонирует подобно шёпоту давно забытого времени сквозь коллективный разум. Вы говорите нам: вы расширились и завоевали. Вы брали и поглощали. Это не наш путь, но это путь, который звучит для нас… не как ошибка».
 
 Это действительно многообещающее начало интеграции этих изгоев. Наши дипломаты отправляются на поверхность. Наши учёные беседуют с их учёными. Происходит множество встреч, глубокое взаимопонимание. Их прошлое было полным изоляции и лишений. Им пришлось адаптироваться, чтобы выжить, и эта адаптация привела к переменам. Страшным переменам. Теперь они познают свою истинную природу.
 
-Но есть ещё кое-что. Некоторые их записи о прошлом более полны, чем наши собственные. Их рассказы о Шактури повествуют о ужасающих существах — завоевателях, превзошедших даже мощь Боскаранской Супремации. Они говорят о других коллективных разумах, не боскарских, которых Шактури подчинили и контролировали. Неужели наши предки не подчиняли Шактури, а сами были подчинены им? Неужели древние Боскара не использовали Шактури, а стремились быть полезными им, чтобы выжить? Это тревожные откровения. Нам необходимо подумать. Взвесить всё.</Description>
+Но есть ещё кое-что. Некоторые их записи о прошлом более полны, чем наши собственные. Их предания о Шактури повествуют о ужасающих существах — завоевателях, превзошедших даже мощь Боскаранской Супремии. Они говорят и о других коллективных разумах, не Боскара, которых Шактури подчинили и контролировали. Неужели наши предки не подчиняли Шактури, а сами были им подчинены? Неужели древние Боскара не использовали Шактури, а стремились быть полезными им, чтобы выжить? Это тревожные откровения. Нам необходимо подумать. Взвесить всё.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -39847,7 +39855,7 @@ This pleasingly-designed structure appears to have been destroyed in a massive q
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Болезнь</MessageTitle>
-				<Description>Болезненные отступники теперь повержены. По крайней мере, нам удалось спасти часть их технологий, так что из этой неприятной ситуации вышло кое-что полезное.</Description>
+				<Description>Болезненные отступники теперь повержены. По крайней мере, нам удалось спасти часть их технологий, так что из этой неприятной ситуации извлекли некоторую пользу.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -41824,7 +41832,7 @@ This pleasingly-designed structure appears to have been destroyed in a massive q
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Входящее сообщение</MessageTitle>
-				<Description>Чужаки, эта добыча принадлежит Безвоздушным Странникам. Мы не претендуем на почву. Всё пространство — наше. Уважайте наши территории, и у нас с вами не будет проблем, несмотря на то, что вы обитатели земли. Посягните на наш участок, и мы уничтожим вас.</Description>
+				<Description>Чужаки, эта добыча принадлежит Безвоздушным Странникам. Мы не претендуем на почву. Всё пространство — наше. Уважайте наши территории, и у нас с вами не возникнет проблем, несмотря на то, что вы обитатели земли. Посягните на наш участок, и мы уничтожим вас.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -44833,7 +44841,7 @@ This pleasingly-designed structure appears to have been destroyed in a massive q
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Станция повержена</MessageTitle>
-				<Description>Как мы и опасались, компьютерные системы станции сильно повреждены, однако нам удалось установить, что эта станция была посвящена наблюдению за деятельностью Звездной гильдии Хааконишей в период Шактурской войны. Технократия Зеноксов глубоко подозревала Хааконишей, которые отказались присоединиться к Альянсу Свободы в борьбе против Шактури. Более тревожным фактом является то, что им удалось успешно скрыть от других рас местоположение своих ключевых миров. Они полагали, что это позволит им играть на двух фронтах одновременно, избегая при этом самых тяжелых последствий войны. Также имеются упоминания о секретном проекте, который Хаакониши начали реализовывать. Никто не знал, какова была природа этого проекта, однако величайшие умы Технократии Зеноксов были полны решимости узнать всё, что Хаакониши желали скрыть.</Description>
+				<Description>Как мы и опасались, компьютерные системы станции сильно повреждены, однако нам удалось установить, что эта станция была посвящена наблюдению за деятельностью Звездной гильдии Хааконишей в период Шактурской войны. Технократия Зеноксов глубоко подозревала Хааконишей, которые отказались присоединиться к Альянсу Свободы для борьбы с Шактури. Более тревожным фактом является то, что им удалось успешно скрыть от других рас местоположение своих ключевых миров. Они полагали, что это позволит им играть на противоречиях между сторонами, избегая при этом худших последствий войны. Также в записях упоминается секретный проект, который Хаакониши начали реализовывать. Никто не знал, какова была природа этого проекта, однако величайшие умы Технократии Зеноксов были полны решимости узнать всё, что Хаакониши желали скрыть.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -45655,7 +45663,7 @@ This pleasingly-designed structure appears to have been destroyed in a massive q
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Не интересует</MessageTitle>
+				<MessageTitle>Не интересно</MessageTitle>
 				<Description>У нас есть более важные дела для наших денег, чем рыться в прошлом. Нас волнует настоящее и будущее.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -47340,14 +47348,14 @@ This pleasingly-designed structure appears to have been destroyed in a massive q
 	</GameEvent>
 	<GameEvent>
 		<Name>Planet Destroyer Acquire (Mortalen)</Name>
-		<Title>Activate Planet Destroyer</Title>
-		<Description>Our repair of the ancient Planet Destroyer is now complete. All that remains is to activate the main computer.
-        
-Records suggest the ship's computer is sentient, or very nearly so, and we cannot be certain what will happen once it comes online. There is no guarantee we will retain control of this ship. Yet to turn away from this marvelous invention runs contrary to all that is Mortalen.
+		<Title>Активировать губитель планет</Title>
+		<Description>Наш ремонт древнего Губителя планет завершен. Осталось лишь активировать главный компьютер.
 
-Alternatively we could just attempt to activate the other ship systems. Perhaps we can control this great ship without the main computer.
-    
-Do we activate the main computer?</Description>
+Записи свидетельствуют, что бортовой компьютер корабля обладает разумом или почти обладает им, и мы не можем быть уверены в том, что произойдет после его включения. Нет никакой гарантии, что нам удастся сохранить контроль над этим кораблем. Однако отвернуться от этого чудесного изобретения противоречит самой сути Морталенов.
+
+В качестве альтернативы мы могли бы просто попытаться активировать другие системы корабля. Возможно, нам удастся управлять этим величественным судном без главного компьютера.
+
+Активировать ли главный компьютер?</Description>
 		<TriggerType>Acquire</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
@@ -47408,16 +47416,16 @@ Do we activate the main computer?</Description>
 	</GameEvent>
 	<GameEvent>
 		<Name>Planet Destroyer Acquire Passcode (Mortalen)</Name>
-		<Title>Main Computer Activated</Title>
-		<Description>The ship has come to life. After a few seconds it speaks to us:
-    
-"There has been a time of darkness. Time has elapsed. The galaxy has changed. All that was once known is gone, replaced by much that is unfamiliar. So many worlds to destroy. And these beings who inhabit this ship, who seek to use it for their own purposes, are both familiar and stranger.
+		<Title>Главный компьютер активирован</Title>
+		<Description>Корабль ожил. Через несколько секунд он обращается к нам:
 
-You are the Mortalen. But you are not the Mortalen who made this vessel and this intelligence. You must demonstrate that you are to be obeyed. Enter the command code to confirm your authority."
+«Был период тьмы. Время прошло. Галактика изменилась. Всё, что было когда-то известно, исчезло, уступив место множеству незнакомых вещей. Так много миров, которые нужно уничтожить. И эти существа, населяющие этот корабль и стремящиеся использовать его в своих целях, кажутся одновременно знакомыми и чужими.
 
-Our archivists have scrambled to identify the correct command code to gain the loyalty of the Planet Destroyer. They believe it is one of two options, but they cannot be certain which it is. It is now too late to shut down the ship, and we must make a decision.
+Вы — Мортален. Но вы не те Морталены, кто создал это судно и этот интеллект. Вы должны доказать, что вас следует слушаться. Введите кодовую команду, чтобы подтвердить свою власть».
 
-Which is the correct code?</Description>
+Наши архивариусы в смятении пытаются определить правильную командную код, чтобы завоевать лояльность Разрушителя планет. Они полагают, что это один из двух вариантов, но не могут быть уверены, какой именно. Теперь уже слишком поздно отключить корабль, и нам необходимо принять решение.
+
+Какой же код правильный?</Description>
 		<TriggerType>Undefined</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
@@ -47657,7 +47665,7 @@ Which is the correct code?</Description>
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Пожиратель планет обращается против нас</MessageTitle>
+				<MessageTitle>Пожиратель планет повернулся против нас</MessageTitle>
 				<Description>Наступает тишина. Компьютеру, похоже, требуется время для обработки ответа. Затем корабль начинает вибрировать — по нему пробегает поток энергии.
 
 «Вы ввели неверный пароль. Вы не уполномочены командовать этим кораблем. То, что не может командовать, должно быть уничтожено. Мирам суждено погибнуть. Когда один разрушен, должен быть выбран следующий объект. В этом и заключается цель этого корабля. Цель будет достигнута. Вся жизнь — враг».
@@ -47687,12 +47695,12 @@ Which is the correct code?</Description>
 	</GameEvent>
 	<GameEvent>
 		<Name>Planet Destroyer Acquire (Other)</Name>
-		<Title>Activate Planet Destroyer</Title>
-		<Description>Repairs on the ancient ship are almost complete. All that remains is to activate the central computer. The ship cannot run without it, and yet its complexity and sophistication indicate it may be sentient, or nearly so. It is not entirely certain the ship will obey us if we activate it.
+		<Title>Активировать губитель планет</Title>
+		<Description>Ремонт древнего корабля почти завершен. Осталось лишь активировать центральный компьютер. Корабль не может функционировать без него, однако его сложность и совершенство указывают на то, что он может быть разумным или близок к этому. Не вполне ясно, подчинится ли нам корабль, если мы активируем его.
 
-Alternatively we could just attempt to activate the other ship systems. Perhaps we can control this great ship without the main computer.
-    
-Do we activate the main computer?</Description>
+В качестве альтернативы мы могли бы просто попытаться активировать другие системы корабля. Возможно, мы сможем управлять этим величественным судном без главного компьютера.
+
+Активировать ли главный компьютер?</Description>
 		<TriggerType>Acquire</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
@@ -47899,7 +47907,7 @@ Do we activate the main computer?</Description>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Секретные данные Губителя планет раскрыты</MessageTitle>
+				<MessageTitle>Секреты Губителя планет раскрыты</MessageTitle>
 				<Description>Наша победа над Губителем планет позволила нам изучить его технологии.
 
 Теперь мы можем работать над изучением исследовательских проектов «Супер-лучи» и «Губитель планет». Это даст нам возможность создать собственный Губитель планет.</Description>

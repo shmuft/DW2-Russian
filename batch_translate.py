@@ -13,7 +13,7 @@ import os
 from pathlib import Path
 from translate import build_translation_cache_from_paired_files, set_translation_cache
 
-def translate_file(input_path: Path, output_path: Path, words_mode: bool = False, check_mode: bool = False, pool_addresses=None, pool_timeout: int = 120, cache_file: str = None) -> int:
+def translate_file(input_path: Path, output_path: Path, words_mode: bool = False, check_mode: bool = False, pool_addresses=None, pool_timeout: int = 120, cache_file: str = None, fix_untranslated: bool = False) -> int:
     """
     Run translate.py for a single XML file.
 
@@ -29,6 +29,8 @@ def translate_file(input_path: Path, output_path: Path, words_mode: bool = False
         cmd.extend([str(input_path), str(output_path)])
         if words_mode:
             cmd.append('--words')
+        if fix_untranslated:
+            cmd.append('--fix-untranslated')
         if pool_addresses:
             for addr in pool_addresses:
                 cmd.extend(['--pool', addr])
@@ -52,6 +54,53 @@ def translate_file(input_path: Path, output_path: Path, words_mode: bool = False
     except Exception as e:
         print(f"Unexpected error processing {input_path if not check_mode else output_path}: {e}")
         return 2
+
+
+def fix_untranslated_files(xml_files, english_dir, russian_dir, pool_addresses, pool_timeout):
+    """
+    Найти и доперевести недопереведённые элементы в уже переведённых файлах.
+    """
+    from translate import check_translated_file
+    
+    fixed_count = 0
+    total_problems = 0
+    
+    for xml_file in xml_files:
+        rel_path = xml_file.relative_to(english_dir)
+        output_file = russian_dir / rel_path
+        
+        if not output_file.exists():
+            continue
+            
+        # Проверяем файл на непереведённые элементы
+        result = check_translated_file(str(output_file))
+        if result == 1:  # Есть непереведённые элементы
+            print(f"\nНайдены недопереведённые элементы в {output_file}")
+            total_problems += 1
+            
+            # Запускаем доперевод
+            print(f"Доперевод {xml_file} -> {output_file}")
+            result_code = translate_file(
+                xml_file,
+                output_file,
+                words_mode=False,
+                check_mode=False,
+                pool_addresses=pool_addresses,
+                pool_timeout=pool_timeout,
+                cache_file=None,  # Не используем кэш для доперевода
+                fix_untranslated=True
+            )
+            
+            if result_code == 0:
+                fixed_count += 1
+                print(f"Доперевод завершён: {output_file}")
+            else:
+                print(f"Ошибка доперевода: {output_file}")
+    
+    print(f"\nРезультат доперевода:")
+    print(f"Файлов с проблемами: {total_problems}")
+    print(f"Успешно допереведено: {fixed_count}")
+    return 0 if fixed_count == total_problems else 1
 
 
 def main():
@@ -89,11 +138,19 @@ def main():
         default=120,
         help='Таймаут запроса к пулу в секундах'
     )
+    parser.add_argument(
+        '--fix-untranslated',
+        action='store_true',
+        help='Найти и доперевести недопереведённые элементы в уже переведённых файлах'
+    )
 
     args = parser.parse_args()
 
     if args.words and args.check:
         parser.error('--words и --check нельзя использовать одновременно')
+    
+    if args.fix_untranslated and (args.words or args.check or args.force):
+        parser.error('--fix-untranslated нельзя использовать с --words, --check или --force')
 
     pool_addresses = []
     if args.pool:
@@ -111,7 +168,7 @@ def main():
     import pickle
     cache_file = '.translation_cache.pkl'
     
-    if russian_dir.exists() and not args.check and not args.words:
+    if russian_dir.exists() and not args.check and not args.words and not args.fix_untranslated:
         print("\n[INFO] Построение кэша переводов из уже переведённых файлов...")
         print("[INFO] Пропускаем файлы в процессе перевода...")
         
@@ -147,6 +204,10 @@ def main():
     if not xml_files:
         print("No XML files found in the English directory")
         return 0
+
+    if args.fix_untranslated:
+        print(f"Поиск недопереведённых элементов в {len(xml_files)} файлах...")
+        return fix_untranslated_files(xml_files, english_dir, russian_dir, pool_addresses, args.pool_timeout)
 
     print(f"Found {len(xml_files)} XML files to process")
 

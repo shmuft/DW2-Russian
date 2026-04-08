@@ -1,0 +1,53 @@
+Лог перевода: 1.3.4.3\English\DLC Ikkuro and Dhayut\Races_Ikkuro.xml
+Выходной файл: 1.3.4.3\Russian\DLC Ikkuro and Dhayut\Races_Ikkuro.xml
+Всего переводов: 6
+================================================================================
+
+Description: Ikkuro are large, muscular primates with short brown-red fur.
+
+They have very large, widely-spaced ears that enable them to precisely determine the location of sounds. This ability gives them rudimentary sonar skills, allowing them to ‘see’ in the dark.
+
+Ikkuro tend to be intelligent and aggressive, though cautious. Ikkuro are often short-tempered. When provoked or threatened they can quickly become violent. Despite this they are generally gentle and affectionate to those they know well.
+
+They are extremely capable mechanics. Ikkuro can repair nearly any type of machinery. They also confidently reverse-engineer new devices they encounter. In fact they often end up improving the machine when they reassemble it.
+
+This natural mechanical predisposition has also led the Ikkuro to develop the S2F7 RepairBot, an advanced repair robot that can swiftly fix damage to star ships, even while they are in battle.
+
+Ikkuro have a great fascination with trees and plants, and have extensive knowledge of the various types of flora throughout the galaxy. They use this expert understanding to create an array of highly effective herbal medications.
+
+They typically live in tree-dwellings high in the forest canopies on Forest, Continental or Grasslands planets.
+->
+Иккуро — крупные мускулистые приматы с короткой коричнево-красной шерстью.
+
+У них очень большие, широко расставленные уши, позволяющие точно определять местоположение звуков. Эта способность даёт им элементарные навыки эхолокации, позволяя «видеть» в темноте.
+
+Иккуро обычно умны и агрессивны, хотя и осторожны. Они часто вспыльчивы. При провокации или угрозе могут быстро стать жестоки. Несмотря на это, они, как правило, мягки и ласковы с теми, кого хорошо знают.
+
+Они исключительно талантливые механики. Иккуро способны починить практически любую технику. Они также уверенно разбирают новые устройства, с которыми сталкиваются. Более того, при сборке они часто улучшают машину.
+
+Эта естественная склонность к механике привела Иккуро к созданию ремонтного робота S2F7 RepairBot — продвинутого аппарата для быстрой починки повреждений космических кораблей даже в ходе боя.
+
+Иккуро испытывают глубокое пристрастие к деревьям и растениям, обладая обширными знаниями о разнообразных видах флоры во всей галактике. Они используют это экспертное понимание для создания широкого спектра высокоэффективных лекарственных средств на основе трав.
+
+Обычно они живут в жилищах на деревьях, расположенных высоко в кронах лесов на планетах с типами биомов: Лес, Континент или Степь.
+
+string (FeatureExplanations): [HL]Consensus Diplomacy:[/HL] +5 threshold to sign new treaties, +2 Long Term Trust gain (both empires) for all treaties with Ikkuro
+->
+[HL]Дипломатия консенсуса:[/HL] +5 к порогу подписания новых договоров, +2 к росту долгосрочного доверия (обе империи) для всех договоров с Иккуро
+
+string (FeatureExplanations): [HL]Respect for Life:[/HL] -10 Happiness if Bombard or Destroy a world, or choose Extermination as population policy for a colony
+->
+[HL]Уважение к жизни:[/HL] −10 к уровню счастья при бомбардировке или уничтожении мира, либо при выборе политики истребления для колонии
+
+string (FeatureExplanations): [HL]Secrets of Life:[/HL] +10 Happiness and +10% population growth rate to all colonies for one year when first Colonize a new type of world. Also enables new research projects to further improve suitability for the new world type
+->
+[HL]Тайны жизни:[/HL] +10 к уровню счастья и +10% к темпу роста населения во всех колониях в течение одного года при первом заселении нового типа мира. Также открывает новые исследовательские проекты для дальнейшего повышения пригодности этого типа мира.
+
+string (FeatureExplanations): [HL]Protection of Life:[/HL] +5 Happiness to all colonies for one year when sign a new Non-Aggression or Defensive Treaty with another faction
+->
+[HL]Защита жизни:[/HL] +5 к уровню счастья во всех колониях в течение одного года при подписании нового договора о ненападении или оборонительного договора с другой фракцией
+
+string (FeatureExplanations): [HL]Disharmony:[/HL] -10 Happiness for one year when War breaks out between Ikkuro and another faction
+->
+[HL]Дисгармония:[/HL] −10 к уровню счастья на один год при начале войны между Иккуро и другой фракцией
+

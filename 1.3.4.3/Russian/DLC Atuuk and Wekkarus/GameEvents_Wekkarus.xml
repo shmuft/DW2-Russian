@@ -131,7 +131,7 @@
 		<PlacementActions>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
-				<Description>This world contains the ruins of an ancient outpost. Initial scans reveal that it is almost certainly of Wekkarus design, belonging to one of the lost generations. We should survey the planet more thoroughly so we might commune with the Wekkarus whose spirits surely remain in this place.</Description>
+				<Description>На этой планете находятся руины древнего аванпоста. Первичные сканирования показывают, что они почти наверняка созданы в стиле Веккарусов и принадлежат одному из потерянных поколений. Нам следует тщательнее изучить эту планету, чтобы мы могли вступить в контакт с духами Веккарусов, чьи души, несомненно, остаются здесь.</Description>
 				<ActionLocationHint>HomeSystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -969,7 +969,7 @@
 		<PlacementActions>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
-				<Description>This world contains the ruined remnants of a military base of Wekkarus design. We should investigate further.</Description>
+				<Description>Этот мир содержит разрушенные остатки военного объекта конструкции Веккарусов. Нам следует провести дальнейшее расследование.</Description>
 				<ActionLocationHint>NearbyEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -1871,7 +1871,7 @@
 		<PlacementActions>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
-				<Description>We have discovered what appears to be a structure of Wekkarus design on the world below. We should survey further and discover what secrets this place conceals.</Description>
+				<Description>Мы обнаружили на планете ниже сооружение, по-видимому, созданное Веккарусами. Нам следует провести дальнейшее обследование и раскрыть тайны, скрытые в этом месте.</Description>
 				<ActionLocationHint>NearbyEmptySystem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -2127,7 +2127,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Сохранить легенды о Шактури</ChoiceButtonText>
+				<ChoiceButtonText>Сохранить Легенды о Шактури</ChoiceButtonText>
 				<GeneratedItemName>Save Shakturi Legends Choice (Wekkarus)</GeneratedItemName>
 				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -3208,7 +3208,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Древний Враг</MessageTitle>
-				<Description>Мы обнаружили останки шактурского корабля, которому сотни лет. Мы полагаем, что это может быть передовой корабль из первых дней древней Шактурской войны. Мы пытаемся извлечь любые пригодные для восстановления данные из немногих сохранившихся кристаллов данных, которые нам удалось найти.</Description>
+				<Description>Мы обнаружили останки шактурского корабля, которому сотни лет. Мы полагаем, что это может быть передовой корабль из первых дней древней Войны Шактури. Мы пытаемся извлечь все возможные данные из немногих сохранившихся кристаллов данных, которые нам удалось найти.</Description>
 				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -3353,7 +3353,7 @@
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Тревожный выбор</MessageTitle>
-				<Description>Пока что нам предстоит решить, что делать с останками корабля Шактури: просто ли извлечь из него ресурсы или же попытаться реверс-инжинирить его технологии, чтобы приумножить наши собственные знания?</Description>
+				<Description>Пока что нам предстоит решить, что делать с останками корабля Шактури: просто ли извлечь из него ресурсы или же попытаться провести обратную разработку его технологий, чтобы обогатить наши собственные знания?</Description>
 				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -3364,7 +3364,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Изъятие ресурсов</ChoiceButtonText>
+				<ChoiceButtonText>Добыча ресурсов</ChoiceButtonText>
 				<GeneratedItemName>Strip for Resources Choice (Wekkarus)</GeneratedItemName>
 				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -4255,7 +4255,7 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>BuildFacility</Type>
-				<Description>We've discovered a deep ocean world with a Wekkarus facility below. We should investigate further.</Description>
+				<Description>Мы обнаружили мир с глубоким океаном, под которым находится объект Веккарусов. Нам следует провести дальнейшее расследование.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -4309,7 +4309,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Музей Поколений</MessageTitle>
-				<Description>На дне океана этой планеты находится остаток эпохи до Войны с Шактури — Веккарусский музей Поколений. Мы не вполне уверены, что именно этот музей призван сохранять. Наша команда пытается узнать больше.</Description>
+				<Description>На дне океана этой планеты находится остаток Веккарусов эпохи до Войны с Шактури: Музей Поколений. Мы не вполне уверены, что именно этот музей призван сохранять. Наша команда пытается узнать больше.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -4482,8 +4482,8 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
-				<MessageTitle>Предлагается решение</MessageTitle>
-				<Description>Мы полагаем, что могли найти решение. Чтобы продолжать функционировать, музею необходим куратор, который должен будет интегрироваться с системами инопланетных технологий через постоянный интерфейс. Любой, кто возьмёт на себя эту ответственность, должен будет оставаться в музее до конца своей жизни. Если мы готовы посвятить [CHARACTER]одного из наших учёных[/CHARACTER] этой роли, мы сможем получить доступ к большей части информации. В противном случае мы можем просто позволить древнему собранию знаний быть утраченным, хотя, безусловно, сможем изучить письменные записи и надеяться извлечь некоторые выводы.</Description>
+				<MessageTitle>Решение само собой предлагает себя</MessageTitle>
+				<Description>Мы полагаем, что могли найти решение. Чтобы продолжать функционировать, музею необходим куратор, который должен будет интегрироваться с системами инопланетных технологий через постоянный интерфейс. Любой, кто возьмёт на себя эту ответственность, должен будет остаться в музее до конца своей жизни. Если мы готовы посвятить [CHARACTER]одного из наших учёных[/CHARACTER] этой роли, мы сможем получить доступ к большей части информации. В противном случае мы можем просто позволить древнему собранию знаний быть утраченным, хотя, безусловно, сможем изучить письменные записи и надеяться почерпнуть некоторые знания.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -6658,7 +6658,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>«Предки среди нас»</MessageTitle>
+				<MessageTitle>Предки среди нас</MessageTitle>
 				<Description>Интенсивный страт боевых действий в системе {1} укрепил прочную связь с нашими психическими воспоминаниями предков.\n\nЭти воспоминания действительно проявились в нашем измерении, вызвав появление корабля из давних времён! {0} теперь ведёт бой, помогая нам одолеть врагов.\n\nМы не ожидаем, что он пробудет с нами долго, но пока он здесь — будет сражаться плечом к плечу с нами.</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
@@ -6699,7 +6699,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>«Предки среди нас»</MessageTitle>
+				<MessageTitle>Предки среди нас</MessageTitle>
 				<Description>Интенсивный стресс боя в точке {0} в системе {1} укрепил прочную связь с нашими психическими воспоминаниями предков.\n\nЭти воспоминания фактически проявились в нашем измерении, заставив войска из давних времён явиться! Эти войска сейчас участвуют в наземном бою в точке {0}, помогая нам одолеть врагов.\n\nМы не ожидаем, что они останутся с нами надолго, но пока они здесь, они будут сражаться плечом к плечу с нами.</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
@@ -6748,8 +6748,8 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>AddEmpireIncidentFactorGeneral</Type>
-				<MessageTitle>«Предки среди нас»</MessageTitle>
-				<Description>Посол Древних усиливает отношения</Description>
+				<MessageTitle>Предки среди нас</MessageTitle>
+				<Description>Посол Древних повышает отношения</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6775,7 +6775,7 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>«Предки среди нас»</MessageTitle>
+				<MessageTitle>Предки среди нас</MessageTitle>
 				<Description>Наше недавнее подписание [GOOD]Соглашения о свободной торговле[/GOOD] с фракцией [FACTION]{3}[/FACTION] укрепило связь с нашими предковыми психическими воспоминаниями.
 
 Эти воспоминания фактически проявились в нашем измерении, вызвав временное появление [HL]посла Веккаруса[/HL] из давних времён!
@@ -6830,7 +6830,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>AddEmpireIncidentFactorGeneral</Type>
-				<MessageTitle>«Предки среди нас»</MessageTitle>
+				<MessageTitle>Предки среди нас</MessageTitle>
 				<Description>Посол Древних повышает отношения</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -6857,7 +6857,7 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>«Предки среди нас»</MessageTitle>
+				<MessageTitle>Предки среди нас</MessageTitle>
 				<Description>Наше недавнее подписание [GOOD]Соглашения об исследованиях[/GOOD] с фракцией [FACTION]{3}[/FACTION] укрепило связь с нашими предковыми психическими воспоминаниями.
 
 Эти воспоминания фактически проявились в нашем измерении, вызвав временное появление [HL]посланника Веккарус[/HL] из давних времён!
@@ -6912,8 +6912,8 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>AddEmpireIncidentFactorGeneral</Type>
-				<MessageTitle>«Предки среди нас»</MessageTitle>
-				<Description>Посол Древних усиливает отношения</Description>
+				<MessageTitle>Предки среди нас</MessageTitle>
+				<Description>Посол Древних повышает отношения</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6939,7 +6939,7 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>«Предки среди нас»</MessageTitle>
+				<MessageTitle>Предки среди нас</MessageTitle>
 				<Description>Наше недавнее подписание [GOOD]Договора о оборонительном союзе[/GOOD] с [FACTION]{3}[/FACTION] укрепило связь с нашими предковыми психическими воспоминаниями.
 
 Эти воспоминания фактически проявились в нашем измерении, вызвав временное появление [HL]посла Веккаруса[/HL] из давних времён!
@@ -6994,7 +6994,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>AddEmpireIncidentFactorGeneral</Type>
-				<MessageTitle>«Предки среди нас»</MessageTitle>
+				<MessageTitle>Предки среди нас</MessageTitle>
 				<Description>Посол Древних повышает отношения</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -7021,7 +7021,7 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>«Предки среди нас»</MessageTitle>
+				<MessageTitle>Предки среди нас</MessageTitle>
 				<Description>Наше недавнее подписание [GOOD]Соглашения о свободной торговле[/GOOD] с [FACTION]{0}[/FACTION] укрепило связь с нашими предковыми психическими воспоминаниями.
 
 Эти воспоминания фактически проявились в нашем измерении, вызвав временное появление [HL]посланника Веккаруса[/HL] из давних времён!
@@ -7076,7 +7076,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>AddEmpireIncidentFactorGeneral</Type>
-				<MessageTitle>«Предки среди нас»</MessageTitle>
+				<MessageTitle>Предки среди нас</MessageTitle>
 				<Description>Посол Древних повышает отношения</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -7103,7 +7103,7 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>«Предки среди нас»</MessageTitle>
+				<MessageTitle>Предки среди нас</MessageTitle>
 				<Description>Наше недавнее подписание [GOOD]Соглашения об исследованиях[/GOOD] с [FACTION]{0}[/FACTION] укрепило связь с нашими предковыми психическими воспоминаниями.  
 
 Эти воспоминания фактически проявились в нашем измерении, вызвав временное появление [HL]посланника Веккарус[/HL] из давних времён!  
@@ -7158,7 +7158,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>AddEmpireIncidentFactorGeneral</Type>
-				<MessageTitle>«Предки среди нас»</MessageTitle>
+				<MessageTitle>Предки среди нас</MessageTitle>
 				<Description>Посол Древних повышает отношения</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -7185,7 +7185,7 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>«Предки среди нас»</MessageTitle>
+				<MessageTitle>Предки среди нас</MessageTitle>
 				<Description>Наше недавнее подписание [GOOD]Договора о оборонительном союзе[/GOOD] с [FACTION]{0}[/FACTION] укрепило связь с нашими древними психическими воспоминаниями.
 
 Эти воспоминания действительно проявились в нашем измерении, вызвав временное появление [HL]посла Веккарус[/HL] из далёкого прошлого!

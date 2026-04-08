@@ -343,7 +343,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Haakonish/Images/escort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -4539,7 +4539,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Mortalen/Images/escort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -9600,7 +9600,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Haakonish/Images/frigate</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -16269,7 +16269,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Mortalen/Images/frigate</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -25262,7 +25262,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Haakonish/Images/destroyer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -25918,7 +25918,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Mortalen/Images/destroyer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -67607,7 +67607,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Human/Images/human_escort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -73551,7 +73551,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Human/Images/human_frigate</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -79569,7 +79569,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Human/Images/human_destroyer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -96413,7 +96413,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_Escort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -103329,7 +103329,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_Frigate</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -111209,7 +111209,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_Destroyer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -132999,7 +132999,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Ackdarian/Images/Ackdarian_Escort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -137995,7 +137995,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Ackdarian/Images/Ackdarian_Frigate</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -144135,7 +144135,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Ackdarian/Images/Ackdarian_Destroyer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -212869,7 +212869,7 @@
       </ResourceQuantity>
     </ResourcesRequired>
     <Name>Линейный крейсер</Name>
-    <Description>Weapon 9 and 10 not present in hull</Description>
+    <Description>Оружие 9 и 10 отсутствуют в корпусе</Description>
     <ImageFilename>Ships/Human/Images/human_battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -219349,7 +219349,7 @@
       </ResourceQuantity>
     </ResourcesRequired>
     <Name>Линкор</Name>
-    <Description>Weapon 9 and 10 not present in hull</Description>
+    <Description>Оружие 9 и 10 отсутствуют в корпусе</Description>
     <ImageFilename>Ships/Human/Images/human_battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -228467,7 +228467,7 @@
       </ResourceQuantity>
     </ResourcesRequired>
     <Name>Тяжёлый линкор</Name>
-    <Description>Weapon 9 and 10 not present in hull</Description>
+    <Description>Оружие 9 и 10 отсутствуют в корпусе</Description>
     <ImageFilename>Ships/Human/Images/human_battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -232873,7 +232873,7 @@
       </ResourceQuantity>
     </ResourcesRequired>
     <Name>Линейный крейсер</Name>
-    <Description>Weapon 9 and 10 not present in hull</Description>
+    <Description>Оружие 9 и 10 отсутствуют в корпусе</Description>
     <ImageFilename>Ships/Human/Images/human_battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -297695,7 +297695,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -298112,7 +298112,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -298643,7 +298643,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -311156,7 +311156,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -311573,7 +311573,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -312104,7 +312104,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -324617,7 +324617,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -325034,7 +325034,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -325565,7 +325565,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -338078,7 +338078,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -338495,7 +338495,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -339026,7 +339026,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -354797,7 +354797,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Escort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -359720,7 +359720,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Frigate</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -365754,7 +365754,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Destroyer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -407002,7 +407002,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_escort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -411895,7 +411895,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_frigate</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -417865,7 +417865,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_destroyer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -457728,7 +457728,7 @@
         <Amount>120</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Abandoned/Images/Abandoned_Destroyer</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -466833,7 +466833,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Abandoned/Images/abandoned destroyer 2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -467382,7 +467382,7 @@
         <Amount>135</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Destroyer</Name>
+    <Name>Эсминец</Name>
     <ImageFilename>Ships/Abandoned/Images/abandoned destroyer 2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -475208,7 +475208,7 @@
         <Amount>70</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Abandoned/Images/Abandoned_escort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -475526,7 +475526,7 @@
         <Amount>70</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Escort</Name>
+    <Name>Эскорт</Name>
     <ImageFilename>Ships/Abandoned/Images/Abandoned_escort2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -476883,7 +476883,7 @@
         <Amount>82</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Abandoned/Images/abandoned frigate</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -477339,7 +477339,7 @@
         <Amount>99</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Frigate</Name>
+    <Name>Фрегат</Name>
     <ImageFilename>Ships/Abandoned/Images/abandoned frigate2</ImageFilename>
   </ShipHull>
   <ShipHull>

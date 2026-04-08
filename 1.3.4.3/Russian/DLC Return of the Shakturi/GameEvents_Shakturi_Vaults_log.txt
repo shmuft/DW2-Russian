@@ -1,0 +1,1165 @@
+Лог перевода: 1.3.4.3\English\DLC Return of the Shakturi\GameEvents_Shakturi_Vaults.xml
+Выходной файл: 1.3.4.3\Russian\DLC Return of the Shakturi\GameEvents_Shakturi_Vaults.xml
+Всего переводов: 210
+================================================================================
+
+MessageTitle: A Ruined Vault
+->
+Разрушенное Хранилище
+
+Description: A terrible waste! Within this Vault we have discovered the ruined remains of what we believe was a research archive from the ancient galaxy. We will attempt to piece together the fragments of broken data crystals in the hopes of learning something of value.
+->
+Ужасная трата! В этом Хранилище мы обнаружили разрушенные останки того, что, по нашему мнению, было архивом исследований из древней галактики. Мы попытаемся собрать фрагменты разбитых кристаллов данных в надежде узнать что-то ценное.
+
+MessageTitle: A Ruined Vault
+->
+Разрушенное Хранилище
+
+Description: We have found the shattered remains of what was once an Ancient Guardian secret Vault. It appears to have been discovered and destroyed long ago. We cannot know if this happened during the Ancient Shakturi war or if marauders plundered it in the dark ages that followed. Its secrets are lost forever, though we may yet learn something by examining ruins more carefully.
+->
+Мы обнаружили разбитые останки некогда тайного Хранилища Древних Стражей. Похоже, оно было обнаружено и уничтожено очень давно. Мы не можем знать, произошло ли это во время древней войны Шактури или же мародеры разграбили его в тёмные века, наступившие после неё. Его секреты утеряны навсегда, хотя мы всё ещё можем кое-что узнать, внимательнее изучив руины.
+
+Description: We have found the shattered remains of what was once an Ancient Guardian secret Vault. It appears to have been discovered and destroyed long ago. We cannot know if this happened during the Ancient Shakturi war or if marauders plundered it in the dark ages that followed. Its secrets are lost forever, though we may yet learn something by examining ruins more carefully.
+->
+Мы обнаружили разбитые останки некогда тайного Хранилища Древних Стражей. Похоже, оно было обнаружено и уничтожено очень давно. Мы не можем знать, произошло ли это во время древней войны Шактури или же мародеры разграбили его в тёмные века, наступившие после неё. Его секреты утеряны навсегда, хотя мы всё ещё можем кое-что узнать, внимательнее изучив руины.
+
+Description: A terrible waste! Within this Vault we have discovered the ruined remains of what we believe was a research archive from the ancient galaxy. We will attempt to piece together the fragments of broken data crystals in the hopes of learning something of value.
+->
+Ужасная трата! В этом Хранилище мы обнаружили разрушенные останки того, что, по нашему мнению, было архивом исследований из древней галактики. Мы попытаемся собрать фрагменты разбитых кристаллов данных в надежде узнать что-то ценное.
+
+MessageTitle: A Ruined Vault
+->
+Разрушенное Хранилище
+
+Description: A terrible waste! Within this Vault we have discovered the ruined remains of what we believe was a research archive from the ancient galaxy. We will attempt to piece together the fragments of broken data crystals in the hopes of learning something of value.
+->
+Ужасная трата! В этом Хранилище мы обнаружили разрушенные останки того, что, по нашему мнению, было архивом исследований из древней галактики. Мы попытаемся собрать фрагменты разбитых кристаллов данных в надежде узнать что-то ценное.
+
+MessageTitle: A Ruined Vault
+->
+Разрушенное Хранилище
+
+Description: We have found the shattered remains of what was once an Ancient Guardian secret Vault. It appears to have been discovered and destroyed long ago. We cannot know if this happened during the Ancient Shakturi war or if marauders plundered it in the dark ages that followed. Its secrets are lost forever, though we may yet learn something by examining ruins more carefully.
+->
+Мы обнаружили разбитые останки некогда тайного Хранилища Древних Стражей. Похоже, оно было обнаружено и уничтожено очень давно. Мы не можем знать, произошло ли это во время древней войны Шактури или же мародеры разграбили его в тёмные века, наступившие после неё. Его секреты утеряны навсегда, хотя мы всё ещё можем кое-что узнать, внимательнее изучив руины.
+
+Description: We have found the shattered remains of what was once an Ancient Guardian secret Vault. It appears to have been discovered and destroyed long ago. We cannot know if this happened during the Ancient Shakturi war or if marauders plundered it in the dark ages that followed. Its secrets are lost forever, though we may yet learn something by examining ruins more carefully.
+->
+Мы обнаружили разбитые останки некогда тайного Хранилища Древних Стражей. Похоже, оно было обнаружено и уничтожено очень давно. Мы не можем знать, произошло ли это во время древней войны Шактури или же мародеры разграбили его в тёмные века, наступившие после неё. Его секреты утеряны навсегда, хотя мы всё ещё можем кое-что узнать, внимательнее изучив руины.
+
+Description: A terrible waste! Within this Vault we have discovered the ruined remains of what we believe was a research archive from the ancient galaxy. We will attempt to piece together the fragments of broken data crystals in the hopes of learning something of value.
+->
+Ужасная трата! В этом Хранилище мы обнаружили разрушенные останки того, что, по нашему мнению, было архивом исследований из древней галактики. Мы попытаемся собрать фрагменты разбитых кристаллов данных в надежде узнать что-то ценное.
+
+MessageTitle: A Ruined Vault
+->
+Разрушенное Хранилище
+
+Description: A terrible waste! Within this Vault we have discovered the ruined remains of what we believe was a research archive from the ancient galaxy. We will attempt to piece together the fragments of broken data crystals in the hopes of learning something of value.
+->
+Ужасная трата! В этом Хранилище мы обнаружили разрушенные останки того, что, по нашему мнению, было архивом исследований из древней галактики. Мы попытаемся собрать фрагменты разбитых кристаллов данных в надежде узнать что-то ценное.
+
+MessageTitle: A Ruined Vault
+->
+Разрушенное Хранилище
+
+Description: We have found the shattered remains of what was once an Ancient Guardian secret Vault. It appears to have been discovered and destroyed long ago. We cannot know if this happened during the Ancient Shakturi war or if marauders plundered it in the dark ages that followed. Its secrets are lost forever, though we may yet learn something by examining ruins more carefully.
+->
+Мы обнаружили разбитые останки некогда тайного Хранилища Древних Стражей. Похоже, оно было обнаружено и уничтожено очень давно. Мы не можем знать, произошло ли это во время древней войны Шактури или же мародеры разграбили его в тёмные века, наступившие после неё. Его секреты утеряны навсегда, хотя мы всё ещё можем кое-что узнать, внимательнее изучив руины.
+
+Description: We have found the shattered remains of what was once an Ancient Guardian secret Vault. It appears to have been discovered and destroyed long ago. We cannot know if this happened during the Ancient Shakturi war or if marauders plundered it in the dark ages that followed. Its secrets are lost forever, though we may yet learn something by examining ruins more carefully.
+->
+Мы обнаружили разбитые останки некогда тайного Хранилища Древних Стражей. Похоже, оно было обнаружено и уничтожено очень давно. Мы не можем знать, произошло ли это во время древней войны Шактури или же мародеры разграбили его в тёмные века, наступившие после неё. Его секреты утеряны навсегда, хотя мы всё ещё можем кое-что узнать, внимательнее изучив руины.
+
+Description: A terrible waste! Within this Vault we have discovered the ruined remains of what we believe was a research archive from the ancient galaxy. We will attempt to piece together the fragments of broken data crystals in the hopes of learning something of value.
+->
+Ужасная трата! В этом Хранилище мы обнаружили разрушенные останки того, что, по нашему мнению, было архивом исследований из древней галактики. Мы попытаемся собрать фрагменты разбитых кристаллов данных в надежде узнать что-то ценное.
+
+MessageTitle: A Ruined Vault
+->
+Разрушенное Хранилище
+
+Description: A terrible waste! Within this Vault we have discovered the ruined remains of what we believe was a research archive from the ancient galaxy. We will attempt to piece together the fragments of broken data crystals in the hopes of learning something of value.
+->
+Ужасная трата! В этом Хранилище мы обнаружили разрушенные останки того, что, по нашему мнению, было архивом исследований из древней галактики. Мы попытаемся собрать фрагменты разбитых кристаллов данных в надежде узнать что-то ценное.
+
+MessageTitle: A Ruined Vault
+->
+Разрушенное Хранилище
+
+Description: We have found the shattered remains of what was once an Ancient Guardian secret Vault. It appears to have been discovered and destroyed long ago. We cannot know if this happened during the Ancient Shakturi war or if marauders plundered it in the dark ages that followed. Its secrets are lost forever, though we may yet learn something by examining ruins more carefully.
+->
+Мы обнаружили разбитые останки некогда тайного Хранилища Древних Стражей. Похоже, оно было обнаружено и уничтожено очень давно. Мы не можем знать, произошло ли это во время древней войны Шактури или же мародеры разграбили его в тёмные века, наступившие после неё. Его секреты утеряны навсегда, хотя мы всё ещё можем кое-что узнать, внимательнее изучив руины.
+
+Description: We have found the shattered remains of what was once an Ancient Guardian secret Vault. It appears to have been discovered and destroyed long ago. We cannot know if this happened during the Ancient Shakturi war or if marauders plundered it in the dark ages that followed. Its secrets are lost forever, though we may yet learn something by examining ruins more carefully.
+->
+Мы обнаружили разбитые останки некогда тайного Хранилища Древних Стражей. Похоже, оно было обнаружено и уничтожено очень давно. Мы не можем знать, произошло ли это во время древней войны Шактури или же мародеры разграбили его в тёмные века, наступившие после неё. Его секреты утеряны навсегда, хотя мы всё ещё можем кое-что узнать, внимательнее изучив руины.
+
+Description: A terrible waste! Within this Vault we have discovered the ruined remains of what we believe was a research archive from the ancient galaxy. We will attempt to piece together the fragments of broken data crystals in the hopes of learning something of value.
+->
+Ужасная трата! В этом Хранилище мы обнаружили разрушенные останки того, что, по нашему мнению, было архивом исследований из древней галактики. Мы попытаемся собрать фрагменты разбитых кристаллов данных в надежде узнать что-то ценное.
+
+MessageTitle: A Ruined Vault
+->
+Разрушенное Хранилище
+
+Description: A terrible waste! Within this Vault we have discovered the ruined remains of what we believe was a research archive from the ancient galaxy. We will attempt to piece together the fragments of broken data crystals in the hopes of learning something of value.
+->
+Ужасная трата! В этом Хранилище мы обнаружили разрушенные останки того, что, по нашему мнению, было архивом исследований из древней галактики. Мы попытаемся собрать фрагменты разбитых кристаллов данных в надежде узнать что-то ценное.
+
+MessageTitle: A Ruined Vault
+->
+Разрушенное Хранилище
+
+Description: We have found the shattered remains of what was once an Ancient Guardian secret Vault. It appears to have been discovered and destroyed long ago. We cannot know if this happened during the Ancient Shakturi war or if marauders plundered it in the dark ages that followed. Its secrets are lost forever, though we may yet learn something by examining ruins more carefully.
+->
+Мы обнаружили разбитые останки некогда тайного Хранилища Древних Стражей. Похоже, оно было обнаружено и уничтожено очень давно. Мы не можем знать, произошло ли это во время древней войны Шактури или же мародеры разграбили его в тёмные века, наступившие после неё. Его секреты утеряны навсегда, хотя мы всё ещё можем кое-что узнать, внимательнее изучив руины.
+
+Description: We have found the shattered remains of what was once an Ancient Guardian secret Vault. It appears to have been discovered and destroyed long ago. We cannot know if this happened during the Ancient Shakturi war or if marauders plundered it in the dark ages that followed. Its secrets are lost forever, though we may yet learn something by examining ruins more carefully.
+->
+Мы обнаружили разбитые останки некогда тайного Хранилища Древних Стражей. Похоже, оно было обнаружено и уничтожено очень давно. Мы не можем знать, произошло ли это во время древней войны Шактури или же мародеры разграбили его в тёмные века, наступившие после неё. Его секреты утеряны навсегда, хотя мы всё ещё можем кое-что узнать, внимательнее изучив руины.
+
+Description: A terrible waste! Within this Vault we have discovered the ruined remains of what we believe was a research archive from the ancient galaxy. We will attempt to piece together the fragments of broken data crystals in the hopes of learning something of value.
+->
+Ужасная трата! В этом Хранилище мы обнаружили разрушенные останки того, что, по нашему мнению, было архивом исследований из древней галактики. Мы попытаемся собрать фрагменты разбитых кристаллов данных в надежде узнать что-то ценное.
+
+MessageTitle: The Vault of Concealment
+->
+Хранилище маскировки
+
+Description: We have discovered one of the Ancient Guardians' most significant Shakturi Vaults. The Vault of Concealment, as its name suggests, has indeed been well hidden from our enemies and pirates. To open it, we will first have to decipher a complicated lock mechanism. It is a puzzle the Ancient Guardians designed to be difficult for organic beings like ourselves, using a series of codes and mathematical formulations that are meant to be impossible for the Shakturi mind to comprehend.
+->
+Мы обнаружили одно из наиболее значимых хранилищ Шактури, оставленных Древними Стражами — Хранилище маскировки. Как следует из его названия, оно действительно было тщательно скрыто от наших врагов и пиратов. Чтобы открыть его, нам сначала придётся расшифровать сложный механизм замка. Это головоломка, которую Древние Стражи создали настолько трудной для органических существ, подобных нам, что она использует серию кодов и математических формул, не поддающихся пониманию разумом Шактури.
+
+Description: We have discovered one of the Ancient Guardians' most significant Shakturi Vaults. The Vault of Concealment, as its name suggests, has indeed been well hidden from our enemies and pirates. To open it, we will first have to decipher a complicated lock mechanism. It is a puzzle the Ancient Guardians designed to be difficult for organic beings like ourselves, using a series of codes and mathematical formulations that are meant to be impossible for the Shakturi mind to comprehend.
+->
+Мы обнаружили одно из наиболее значимых хранилищ Шактури, оставленных Древними Стражами — Хранилище маскировки. Как следует из его названия, оно действительно было тщательно скрыто от наших врагов и пиратов. Чтобы открыть его, нам сначала придётся расшифровать сложный механизм замка. Это головоломка, которую Древние Стражи создали настолько трудной для органических существ, подобных нам, что она использует серию кодов и математических формул, не поддающихся пониманию разумом Шактури.
+
+MessageTitle: The Vault of Concealment
+->
+Хранилище маскировки
+
+Description: We have decoded the cipher preventing us from entering the Vault of Concealment. We will now venture within.
+->
+Мы расшифровали шифр, препятствующий нашему входу в Хранилище маскировки. Теперь мы войдём внутрь.
+
+Description: We have decoded the cipher preventing us from entering the Vault of Concealment. We will now venture within.
+->
+Мы расшифровали шифр, препятствующий нашему входу в Хранилище маскировки. Теперь мы войдём внутрь.
+
+MessageTitle: The Vault of Concealment
+->
+Хранилище маскировки
+
+Description: The entrance of the Vault of Concealment leads to a narrow rampway that spirals many kilometers under the surface. It leads to another doorway, protected by a cipher similar to the one that protected the main entryway. Fortunately, our research made presenting the correct code a fairly simple process.
+
+This doorway leads to a small and spare chamber. It is difficult for more than three of our team to fit inside. The exterior walls are themselves over a quarter of a kilometer thick. This chamber was meant to withstand the most intense orbital bombardment.
+
+Within is merely a stand with a single data crystal. Our scans revealed no traps or concealments, but when we touched the crystal, the room filled with a thick, oily gas. Our scans revealed that it is harmless to us, but we suspect it may be a genetically engineered toxin designed to target the Shakturi nervous system.
+
+As for the data crystal itself, it contains a treasure trove of useful data on countering Shakturi psychic assaults. We will be able to put this to good use.
+->
+Вход в Хранилище маскировки ведёт к узкому спиральному пандусу, уходящему на многие километры под поверхность. Он приводит к другой двери, защищённой шифром, аналогичным тому, что охранял главный вход. К счастью, наши исследования сделали процесс ввода правильного кода довольно простым делом.
+
+Эта дверь ведёт в небольшую и пустую камеру. В неё с трудом помещается более трёх членов нашей команды. Внешние стены сами по себе имеют толщину более четверти километра. Эта камера была предназначена для выдерживания самых интенсивных орбитальных бомбардировок.
+
+Внутри находится лишь подставка с одним данными-кристаллом. Наши сканирования не выявили ловушек или скрытых угроз, но когда мы коснулись кристалла, комната наполнилась густым маслянистым газом. Наши сканирования показали, что он безвреден для нас, однако мы подозреваем, что это генетически модифицированный токсин, созданный для поражения нервной системы Шактури.
+
+Что касается самого данных-кристалла, он содержит сокровищницу полезных сведений о противодействии психическим атакам Шактури. Мы сможем с пользой применить эти знания.
+
+Description: The entrance of the Vault of Concealment leads to a narrow rampway that spirals many kilometers under the surface. It leads to another doorway, protected by a cipher similar to the one that protected the main entryway. Fortunately, our research made presenting the correct code a fairly simple process.
+
+This doorway leads to a small and spare chamber. It is difficult for more than three of our team to fit inside. The exterior walls are themselves over a quarter of a kilometer thick. This chamber was meant to withstand the most intense orbital bombardment.
+
+Within is merely a stand with a single data crystal. Our scans revealed no traps or concealments, but when we touched the crystal, the room filled with a thick, oily gas. Our scans revealed that it is harmless to us, but we suspect it may be a genetically engineered toxin designed to target the Shakturi nervous system.
+
+As for the data crystal itself, it contains a treasure trove of useful data on countering Shakturi psychic assaults. We will be able to put this to good use.
+->
+Вход в Хранилище маскировки ведёт к узкому спиральному пандусу, уходящему на многие километры под поверхность. Он приводит к другой двери, защищённой шифром, аналогичным тому, что охранял главный вход. К счастью, наши исследования сделали процесс ввода правильного кода довольно простым делом.
+
+Эта дверь ведёт в небольшую и пустую камеру. В неё с трудом помещается более трёх членов нашей команды. Внешние стены сами по себе имеют толщину более четверти километра. Эта камера была предназначена для выдерживания самых интенсивных орбитальных бомбардировок.
+
+Внутри находится лишь подставка с одним данными-кристаллом. Наши сканирования не выявили ловушек или скрытых угроз, но когда мы коснулись кристалла, комната наполнилась густым маслянистым газом. Наши сканирования показали, что он безвреден для нас, однако мы подозреваем, что это генетически модифицированный токсин, созданный для поражения нервной системы Шактури.
+
+Что касается самого данных-кристалла, он содержит сокровищницу полезных сведений о противодействии психическим атакам Шактури. Мы сможем с пользой применить эти знания.
+
+MessageTitle: The Vault of Concealment
+->
+Хранилище маскировки
+
+Description: The Vault also contains a small quantity of carefully preserved Korrabian Spice. The accompanying data informs us that this resource will be vital to the war effort. The more of it the Shakturi possess, the stronger their psychic abilities will grow. The more of it we have, the better we will be able to defend ourselves against these attacks.
+
+Controlling Korrabian Spice and keeping it from enemy hands must be a major priority.
+->
+Хранилище также содержит небольшое количество тщательно сохранённой Кораббианская пряность. Сопровождающие данные сообщают нам, что этот ресурс будет жизненно важен для военных усилий. Чем больше его у Шактури, тем сильнее станут их психические способности. Чем больше его у нас, тем лучше мы сможем защищаться от этих атак.
+
+Контроль над Кораббианской пряностью и недопущение её попадания в руки врага должно стать главным приоритетом.
+
+Description: The Vault also contains a small quantity of carefully preserved Korrabian Spice. The accompanying data informs us that this resource will be vital to the war effort. The more of it the Shakturi possess, the stronger their psychic abilities will grow. The more of it we have, the better we will be able to defend ourselves against these attacks.
+
+Controlling Korrabian Spice and keeping it from enemy hands must be a major priority.
+->
+Хранилище также содержит небольшое количество тщательно сохранённой Кораббианская пряность. Сопровождающие данные сообщают нам, что этот ресурс будет жизненно важен для военных усилий. Чем больше его у Шактури, тем сильнее станут их психические способности. Чем больше его у нас, тем лучше мы сможем защищаться от этих атак.
+
+Контроль над Кораббианской пряностью и недопущение её попадания в руки врага должно стать главным приоритетом.
+
+MessageTitle: The Vault of Creation
+->
+Хранилище созидания
+
+Description: We have discovered one of the Ancient Guardians' most significant Shakturi Vaults. On the surface of this world we found the entrance to an underground chamber. The walls within are covered with mysterious pictograms and symbols each of which roughly suggests one of the massive space creatures found throughout the galaxy. It is as though the Ancient Guardians created an entire hieroglyphic language out of space creature morphology. Is this a game to them, or is this simply how their machine intelligence makes sense of the universe?
+
+We believe they must be interpreted to find the means of progressing further, but even a cursory examination reveals that this is a sophisticated system designed to defy Shakturi logic. We will have to put some of our best minds on this project if we wish to open the vault.
+->
+Мы обнаружили одно из наиболее значимых хранилищ Шактури, оставленных Древними Стражами. На поверхности этой планеты мы нашли вход в подземную камеру. Стены внутри покрыты таинственными пиктограммами и символами, каждый из которых примерно намекает на одного из гигантских космических существ, встречающихся по всей галактике. Кажется, будто Древние Стражи создали целую иероглифическую систему, основанную на морфологии космических существ. Является ли это для них игрой или же так их машинный интеллект осмысливает вселенную?
+
+Мы полагаем, что эти знаки необходимо расшифровать, чтобы найти способ продвинуться дальше, однако даже поверхностное изучение показывает, что это сложная система, созданная для того, чтобы противостоять логике Шактури. Если мы хотим открыть хранилище, нам придется привлечь к этому проекту лучших умов.
+
+Description: We have discovered one of the Ancient Guardians' most significant Shakturi Vaults. On the surface of this world we found the entrance to an underground chamber. The walls within are covered with mysterious pictograms and symbols each of which roughly suggests one of the massive space creatures found throughout the galaxy. It is as though the Ancient Guardians created an entire hieroglyphic language out of space creature morphology. Is this a game to them, or is this simply how their machine intelligence makes sense of the universe?
+
+We believe they must be interpreted to find the means of progressing further, but even a cursory examination reveals that this is a sophisticated system designed to defy Shakturi logic. We will have to put some of our best minds on this project if we wish to open the vault.
+->
+Мы обнаружили одно из наиболее значимых хранилищ Шактури, оставленных Древними Стражами. На поверхности этой планеты мы нашли вход в подземную камеру. Стены внутри покрыты таинственными пиктограммами и символами, каждый из которых примерно намекает на одного из гигантских космических существ, встречающихся по всей галактике. Кажется, будто Древние Стражи создали целую иероглифическую систему, основанную на морфологии космических существ. Является ли это для них игрой или же так их машинный интеллект осмысливает вселенную?
+
+Мы полагаем, что эти знаки необходимо расшифровать, чтобы найти способ продвинуться дальше, однако даже поверхностное изучение показывает, что это сложная система, созданная для того, чтобы противостоять логике Шактури. Если мы хотим открыть хранилище, нам придется привлечь к этому проекту лучших умов.
+
+MessageTitle: The Vault of Creation
+->
+Хранилище созидания
+
+Description: We have decoded the cipher preventing us from entering the Vault of Creation. We will now venture within.
+->
+Мы расшифровали шифр, препятствующий нашему входу в Хранилище Созидания. Теперь мы войдём внутрь.
+
+Description: We have decoded the cipher preventing us from entering the Vault of Creation. We will now venture within.
+->
+Мы расшифровали шифр, препятствующий нашему входу в Хранилище Созидания. Теперь мы войдём внутрь.
+
+MessageTitle: The Vault of Creation
+->
+Хранилище созидания
+
+Description: Within the Vault's antechamber, we found a small platform. Our explorers stepped onto it and were immediately bombarded with flashing lights and curious auditory bursts. We believe this was some sort of biological scan to make certain no Shakturi could proceed.
+
+Once the scan was complete, the platform descended to another small chamber, well below the world's surface. Within we found something like a small biological laboratory. The placement of the equipment appears strange by our standards. Nothing is conveniently accessible to any known sentient species. Perhaps the laboratory is organized along principles that make sense for artificial beings.
+
+Within the lab we found a curious figurine shaped like one of the Shakturi's genetically engineered creatures. Further inspection revealed an embedded data crystal which contains a manual of Shakturi genetic engineering practices. This should prove immensely useful in dealing with the monstrosities the Shakturi have unleashed upon the galaxy.
+->
+В вестибюле Хранилища мы обнаружили небольшую платформу. Наши исследователи ступили на неё и сразу же подверглись воздействию мигающих огней и любопытных звуковых всплесков. Мы полагаем, что это был своего рода биологический сканер, призванный убедиться в том, что ни один Шактури не сможет пройти дальше.
+
+После завершения сканирования платформа опустилась в другую небольшую камеру, расположенную глубоко под поверхностью мира. Внутри мы обнаружили нечто вроде небольшой биологической лаборатории. Расположение оборудования кажется странным с нашей точки зрения. Ничто не находится в удобном доступе для любого известного разумного вида. Возможно, лаборатория организована по принципам, которые имеют смысл для искусственных существ.
+
+Внутри лаборатории мы нашли любопытную фигурку, напоминающую одно из генетически сконструированных существ Шактури. Дальнейший осмотр выявил встроенный кристалл данных, содержащий руководство по практике генной инженерии Шактури. Это должно оказаться чрезвычайно полезным в борьбе с чудовищами, которые Шактури выпустили на галактику.
+
+Description: Within the Vault's antechamber, we found a small platform. Our explorers stepped onto it and were immediately bombarded with flashing lights and curious auditory bursts. We believe this was some sort of biological scan to make certain no Shakturi could proceed.
+
+Once the scan was complete, the platform descended to another small chamber, well below the world's surface. Within we found something like a small biological laboratory. The placement of the equipment appears strange by our standards. Nothing is conveniently accessible to any known sentient species. Perhaps the laboratory is organized along principles that make sense for artificial beings.
+
+Within the lab we found a curious figurine shaped like one of the Shakturi's genetically engineered creatures. Further inspection revealed an embedded data crystal which contains a manual of Shakturi genetic engineering practices. This should prove immensely useful in dealing with the monstrosities the Shakturi have unleashed upon the galaxy.
+->
+В вестибюле Хранилища мы обнаружили небольшую платформу. Наши исследователи ступили на неё и сразу же подверглись воздействию мигающих огней и любопытных звуковых всплесков. Мы полагаем, что это был своего рода биологический сканер, призванный убедиться в том, что ни один Шактури не сможет пройти дальше.
+
+После завершения сканирования платформа опустилась в другую небольшую камеру, расположенную глубоко под поверхностью мира. Внутри мы обнаружили нечто вроде небольшой биологической лаборатории. Расположение оборудования кажется странным с нашей точки зрения. Ничто не находится в удобном доступе для любого известного разумного вида. Возможно, лаборатория организована по принципам, которые имеют смысл для искусственных существ.
+
+Внутри лаборатории мы нашли любопытную фигурку, напоминающую одно из генетически сконструированных существ Шактури. Дальнейший осмотр выявил встроенный кристалл данных, содержащий руководство по практике генной инженерии Шактури. Это должно оказаться чрезвычайно полезным в борьбе с чудовищами, которые Шактури выпустили на галактику.
+
+MessageTitle: The Vault of Creation
+->
+Хранилище созидания
+
+Description: The Vault also contains a small quantity of carefully preserved Zentabia Fluid. The accompanying data informs us that this resource will be vital to the war effort. The more of it the Shakturi possess, the more dangerous their genetic creations will grow. The more of it we have, the better we will be able to defend ourselves against these creatures.
+
+Controlling Zentabia Fluid and keeping it from enemy hands must be a major priority.
+->
+Хранилище также содержит небольшое количество тщательно сохранённого Зентабийского флюида. Сопровождающие данные сообщают нам, что этот ресурс будет жизненно важен для военных усилий. Чем больше его у Шактури, тем опаснее станут их генетические творения. Чем больше его у нас, тем лучше мы сможем защищаться от этих существ.
+
+Контроль над Зентабийским флюидом и недопущение попадания его в руки врага должно стать главным приоритетом.
+
+Description: The Vault also contains a small quantity of carefully preserved Zentabia Fluid. The accompanying data informs us that this resource will be vital to the war effort. The more of it the Shakturi possess, the more dangerous their genetic creations will grow. The more of it we have, the better we will be able to defend ourselves against these creatures.
+
+Controlling Zentabia Fluid and keeping it from enemy hands must be a major priority.
+->
+Хранилище также содержит небольшое количество тщательно сохранённого Зентабийского флюида. Сопровождающие данные сообщают нам, что этот ресурс будет жизненно важен для военных усилий. Чем больше его у Шактури, тем опаснее станут их генетические творения. Чем больше его у нас, тем лучше мы сможем защищаться от этих существ.
+
+Контроль над Зентабийским флюидом и недопущение попадания его в руки врага должно стать главным приоритетом.
+
+MessageTitle: The Vault of Aggression
+->
+Хранилище агрессии
+
+Description: We arrived at what we believed to be the location of an Ancient Guardian Vault, and we found a blasted crater, a site of massive destruction. Fortunately, we continued our analysis and now believe that this destruction was created intentionally to conceal a still intact Ancient Guardian Vault. Believing the Vault is present and locating it are two very different things. If we wish to find our way in, we will have to launch a research project dedicated to discovering this Vault's secrets.
+->
+Мы прибыли в то место, которое считали локацией Хранилища Древних Стражей, и обнаружили обугленный кратер — место масштабного разрушения. К счастью, мы продолжили анализ и теперь полагаем, что это разрушение было намеренно создано для сокрытия всё ещё целого Хранилища Древних Стражей. Полагать наличие Хранилища и найти его — две совершенно разные вещи. Если мы хотим проникнуть внутрь, нам придётся запустить исследовательский проект, посвящённый раскрытию тайн этого Хранилища.
+
+Description: We arrived at what we believed to be the location of an Ancient Guardian Vault, and we found a blasted crater, a site of massive destruction. Fortunately, we continued our analysis and now believe that this destruction was created intentionally to conceal a still intact Ancient Guardian Vault. Believing the Vault is present and locating it are two very different things. If we wish to find our way in, we will have to launch a research project dedicated to discovering this Vault's secrets.
+->
+Мы прибыли в то место, которое считали локацией Хранилища Древних Стражей, и обнаружили обугленный кратер — место масштабного разрушения. К счастью, мы продолжили анализ и теперь полагаем, что это разрушение было намеренно создано для сокрытия всё ещё целого Хранилища Древних Стражей. Полагать наличие Хранилища и найти его — две совершенно разные вещи. Если мы хотим проникнуть внутрь, нам придётся запустить исследовательский проект, посвящённый раскрытию тайн этого Хранилища.
+
+MessageTitle: The Vault of Aggression
+->
+Хранилище агрессии
+
+Description: Our scientists have thoroughly studied the destruction on {0}, and located the entrance to the Ancient Guardian Vault of Aggression. The crater floor contained a series of artificial boulders, in most way indistinguishable from the surrounding landscape. Revealing the entrance required moving many boulders, all of which weigh multiple tons, in a precise pattern which corresponds to a numerical value, perhaps of some significance to the Ancient Guardians.
+
+We are now ready to enter.
+->
+Наши учёные тщательно изучили разрушения на {0} и обнаружили вход в Хранилище агрессии Древних Стражей. На дне кратера находилась серия искусственных валунов, которые по большинству признаков неотличимы от окружающего ландшафта. Чтобы открыть вход, пришлось переместить множество валунов весом в несколько тонн каждый в точном порядке, соответствующем числовому значению, возможно, имеющему значение для Древних Стражей.
+
+Теперь мы готовы войти.
+
+Description: Our scientists have thoroughly studied the destruction on {0}, and located the entrance to the Ancient Guardian Vault of Aggression. The crater floor contained a series of artificial boulders, in most way indistinguishable from the surrounding landscape. Revealing the entrance required moving many boulders, all of which weigh multiple tons, in a precise pattern which corresponds to a numerical value, perhaps of some significance to the Ancient Guardians.
+
+We are now ready to enter.
+->
+Наши учёные тщательно изучили разрушения на {0} и обнаружили вход в Хранилище агрессии Древних Стражей. На дне кратера находилась серия искусственных валунов, которые по большинству признаков неотличимы от окружающего ландшафта. Чтобы открыть вход, пришлось переместить множество валунов весом в несколько тонн каждый в точном порядке, соответствующем числовому значению, возможно, имеющему значение для Древних Стражей.
+
+Теперь мы готовы войти.
+
+MessageTitle: The Vault of Aggression
+->
+Хранилище агрессии
+
+Description: We did not know what to expect from the Vault of Aggression. Some suspected a massive munitions laboratory or a weapons testing range. The truth is far more sedate. The interior of the Vault is warmly lit and contains comfortable furnishings. Soothing music plays softly. In the center of an arrangement of colorful plants stands a platform containing a single data crystal encased in a translucent sphere.
+
+When our explorers touched the sphere, the chambers immediately filled with a dense cloud. Our analysis revealed that this cloud contained a virus designed to target Shakturi biology. It should have no effect on other species.
+
+Did the Ancient Guardians believe that the relaxing mood of the Vault would confuse the Shakturi? We know very little of how the Ancient Guardians think, or how they understand biological cognition. Regardless, we hope the contents of this Vault will provide new tools to use against our great enemy.
+->
+Мы не знали, чего ожидать от Хранилища агрессии. Некоторые подозревали, что там находится массивная лаборатория боеприпасов или полигон для испытаний оружия. Правда оказалась куда более спокойной. Внутри Хранилища тепло освещено и размещена удобная мебель. Мягко играет успокаивающая музыка. В центре композиции из разноцветных растений стоит платформа с единственным данными кристаллом, заключённым в полупрозрачную сферу.
+
+Когда наши исследователи коснулись сферы, камеры мгновенно наполнились густым облаком. Наш анализ показал, что это облако содержит вирус, предназначенный для поражения биологии Шактури. На другие виды он не должен оказывать никакого воздействия.
+
+Полагали ли Древние Стражи, что расслабляющая атмосфера Хранилиша сбилет с толку Шактури? Мы очень мало знаем о том, как мыслят Древние Стражи или как они понимают биологическое познание. В любом случае, мы надеемся, что содержимое этого Хранилища предоставит новые инструменты для борьбы с нашим великим врагом.
+
+Description: We did not know what to expect from the Vault of Aggression. Some suspected a massive munitions laboratory or a weapons testing range. The truth is far more sedate. The interior of the Vault is warmly lit and contains comfortable furnishings. Soothing music plays softly. In the center of an arrangement of colorful plants stands a platform containing a single data crystal encased in a translucent sphere.
+
+When our explorers touched the sphere, the chambers immediately filled with a dense cloud. Our analysis revealed that this cloud contained a virus designed to target Shakturi biology. It should have no effect on other species.
+
+Did the Ancient Guardians believe that the relaxing mood of the Vault would confuse the Shakturi? We know very little of how the Ancient Guardians think, or how they understand biological cognition. Regardless, we hope the contents of this Vault will provide new tools to use against our great enemy.
+->
+Мы не знали, чего ожидать от Хранилища агрессии. Некоторые подозревали, что там находится массивная лаборатория боеприпасов или полигон для испытаний оружия. Правда оказалась куда более спокойной. Внутри Хранилища тепло освещено и размещена удобная мебель. Мягко играет успокаивающая музыка. В центре композиции из разноцветных растений стоит платформа с единственным данными кристаллом, заключённым в полупрозрачную сферу.
+
+Когда наши исследователи коснулись сферы, камеры мгновенно наполнились густым облаком. Наш анализ показал, что это облако содержит вирус, предназначенный для поражения биологии Шактури. На другие виды он не должен оказывать никакого воздействия.
+
+Полагали ли Древние Стражи, что расслабляющая атмосфера Хранилиша сбилет с толку Шактури? Мы очень мало знаем о том, как мыслят Древние Стражи или как они понимают биологическое познание. В любом случае, мы надеемся, что содержимое этого Хранилища предоставит новые инструменты для борьбы с нашим великим врагом.
+
+MessageTitle: The Vault of Aggression
+->
+Хранилище агрессии
+
+Description: The Vault also contains a small quantity of carefully preserved Loros Fruit. The accompanying data informs us that this resource will be vital to the war effort. The Shakturi use it to further their biowarfare efforts. We, in turn, can use it to defend ourselves or even to create our own plagues to use against the enemy.
+
+Controlling Loros Fruit and keeping it from enemy hands must be a major priority.
+->
+Хранилище также содержит небольшое количество тщательно сохранённых плодов лороса. Сопровождающие данные сообщают нам, что этот ресурс будет жизненно важен для военных усилий. Шактури используют его для развития своих биологических войн. Мы же, в свою очередь, можем использовать его для защиты или даже для создания собственных чум, направленных против врага.
+
+Контроль над плодами лороса и недопущение их попадания к врагу должно стать главным приоритетом.
+
+Description: The Vault also contains a small quantity of carefully preserved Loros Fruit. The accompanying data informs us that this resource will be vital to the war effort. The Shakturi use it to further their biowarfare efforts. We, in turn, can use it to defend ourselves or even to create our own plagues to use against the enemy.
+
+Controlling Loros Fruit and keeping it from enemy hands must be a major priority.
+->
+Хранилище также содержит небольшое количество тщательно сохранённых плодов лороса. Сопровождающие данные сообщают нам, что этот ресурс будет жизненно важен для военных усилий. Шактури используют его для развития своих биологических войн. Мы же, в свою очередь, можем использовать его для защиты или даже для создания собственных чум, направленных против врага.
+
+Контроль над плодами лороса и недопущение их попадания к врагу должно стать главным приоритетом.
+
+MessageTitle: Vault of the Shakturi Mind
+->
+Хранилище разума Шактури
+
+Description: We have discovered what we believed to be no ordinary Ancient Guardian Vault. All evidence suggests that this is the primary repository of their most secret Shakturi knowledge. On the surface all we have found, however, is a cylinder composed of an unknown metal. It stands approximately six meters in height and three meters in diameter.
+
+The cylinder is encrusted with curious mineral deposits whose precise composition eludes our analysis. Curiously, we can find no evidence that these deposits have formed anywhere else on this world.
+
+Our scientists suspect that the minerals not only contain the key to unlocking the Vault, but that they must be analyzed in ways that would, perhaps, confound Shakturi intelligence. If we are to gain the secrets within, we will have to begin studying the deposits immediately.
+->
+Мы обнаружили то, что считали не обычным Хранилищем Древних Стражей. Все свидетельства указывают на то, что это главный архив их самых секретных знаний о Шактури. Однако на поверхности мы нашли лишь цилиндр из неизвестного металла. Его высота составляет примерно шесть метров, а диаметр — три метра.
+
+Цилиндр покрыт любопытными минеральными отложениями, точный состав которых ускользает от нашего анализа. Любопытно, что мы не обнаружили никаких свидетельств того, чтобы эти отложения образовались где-либо ещё на этой планете.
+
+Наши учёные полагают, что минералы не только содержат ключ к разблокировке Хранилища, но и должны быть изучены способами, которые, возможно, поставят в тупик интеллект Шактури. Если мы хотим обрести секреты, скрытые внутри, нам необходимо немедленно приступить к исследованию этих отложений.
+
+Description: We have discovered what we believed to be no ordinary Ancient Guardian Vault. All evidence suggests that this is the primary repository of their most secret Shakturi knowledge. On the surface all we have found, however, is a cylinder composed of an unknown metal. It stands approximately six meters in height and three meters in diameter.
+
+The cylinder is encrusted with curious mineral deposits whose precise composition eludes our analysis. Curiously, we can find no evidence that these deposits have formed anywhere else on this world.
+
+Our scientists suspect that the minerals not only contain the key to unlocking the Vault, but that they must be analyzed in ways that would, perhaps, confound Shakturi intelligence. If we are to gain the secrets within, we will have to begin studying the deposits immediately.
+->
+Мы обнаружили то, что считали не обычным Хранилищем Древних Стражей. Все свидетельства указывают на то, что это главный архив их самых секретных знаний о Шактури. Однако на поверхности мы нашли лишь цилиндр из неизвестного металла. Его высота составляет примерно шесть метров, а диаметр — три метра.
+
+Цилиндр покрыт любопытными минеральными отложениями, точный состав которых ускользает от нашего анализа. Любопытно, что мы не обнаружили никаких свидетельств того, чтобы эти отложения образовались где-либо ещё на этой планете.
+
+Наши учёные полагают, что минералы не только содержат ключ к разблокировке Хранилища, но и должны быть изучены способами, которые, возможно, поставят в тупик интеллект Шактури. Если мы хотим обрести секреты, скрытые внутри, нам необходимо немедленно приступить к исследованию этих отложений.
+
+MessageTitle: The Vault of the Shakturi Mind
+->
+Хранилище разума Шактури
+
+Description: Our scientists have completed their analysis of the mineral deposits found at the cylindrical Ancient Guardian Vault. There were instructions carefully embedded within the molecular code of the artificially created mineral deposits. These instructions detailed the means of creating a second chemical compound which must be applied to the exterior of the cylinder, which we now know is called the Vault of the Shakturi mind.
+
+The data within the code also informs us that we must have a qualified scientists on hand to work whatever equipment is in the Vault. We are warned that the process can be a bit… intense. There is a possibility that our scientists could be incapacitated.
+
+Assign a scientist?
+->
+Наши учёные завершили анализ минеральных залежей, обнаруженных в цилиндрическом Хранилище Древних Стражей. В молекулярном коде искусственно созданных минеральных отложений были тщательно внедрены инструкции. Эти инструкции описывали способы создания второго химического соединения, которое необходимо нанести на внешнюю поверхность цилиндра, который мы теперь знаем как Хранилище разума Шактури.
+
+Данные в коде также сообщают нам, что для работы с любым оборудованием внутри Хранилища у нас должен быть квалифицированный учёный. Нас предупреждают, что процесс может быть довольно… интенсивным. Существует вероятность того, что наши учёные могут оказаться неспособными к действию.
+
+Назначить учёного?
+
+ChoiceButtonText: Yes
+->
+Да
+
+ChoiceButtonText: No
+->
+Нет
+
+Description: Our scientists have completed their analysis of the mineral deposits found at the cylindrical Ancient Guardian Vault. There were instructions carefully embedded within the molecular code of the artificially created mineral deposits. These instructions detailed the means of creating a second chemical compound which must be applied to the exterior of the cylinder, which we now know is called the Vault of the Shakturi mind.
+
+The data within the code also informs us that we must have a qualified scientists on hand to work whatever equipment is in the Vault. We are warned that the process can be a bit… intense. There is a possibility that our scientists could be incapacitated.
+
+Assign a scientist?
+->
+Наши учёные завершили анализ минеральных залежей, обнаруженных в цилиндрическом Хранилище Древних Стражей. В молекулярном коде искусственно созданных минеральных отложений были тщательно внедрены инструкции. Эти инструкции описывали способы создания второго химического соединения, которое необходимо нанести на внешнюю поверхность цилиндра, который мы теперь знаем как Хранилище разума Шактури.
+
+Данные в коде также сообщают нам, что для работы с любым оборудованием внутри Хранилища у нас должен быть квалифицированный учёный. Нас предупреждают, что процесс может быть довольно… интенсивным. Существует вероятность того, что наши учёные могут оказаться неспособными к действию.
+
+Назначить учёного?
+
+MessageTitle: The Vault of the Shakturi Mind
+->
+Хранилище разума Шактури
+
+Description: It is not worth the risk to our scientists.
+->
+Это не стоит риска для наших учёных.
+
+Description: It is not worth the risk to our scientists.
+->
+Это не стоит риска для наших учёных.
+
+MessageTitle: The Vault of the Shakturi Mind
+->
+Хранилище разума Шактури
+
+Description: Our team has arrived on {0} and is ready to apply the secondary mineral deposit and open the Vault of the Shakturi Mind.
+
+Inside the Vault, we have discovered a single workstation and a headset designed to adjust to a variety of head shapes. There are some instructional pictograms that make it clear our scientists is supposed to put on the headset. The pictograms also suggest there is a chance our scientist might be killed.
+->
+Наша команда прибыла на {0} и готова применить вторичное месторождение минералов, чтобы открыть Хранилище разума Шактури.
+
+Внутри Хранилища мы обнаружили одиночную рабочую станцию и шлем, конструкция которого позволяет подстраиваться под различные формы головы. Есть несколько инструктивных пиктограмм, которые ясно указывают на то, что нашим учёным следует надеть этот шлем. Пиктограммы также намекают на возможность того, что наш учёный может погибнуть.
+
+Description: Our team has arrived on {0} and is ready to apply the secondary mineral deposit and open the Vault of the Shakturi Mind.
+
+Inside the Vault, we have discovered a single workstation and a headset designed to adjust to a variety of head shapes. There are some instructional pictograms that make it clear our scientists is supposed to put on the headset. The pictograms also suggest there is a chance our scientist might be killed.
+->
+Наша команда прибыла на {0} и готова применить вторичное месторождение минералов, чтобы открыть Хранилище разума Шактури.
+
+Внутри Хранилища мы обнаружили одиночную рабочую станцию и шлем, конструкция которого позволяет подстраиваться под различные формы головы. Есть несколько инструктивных пиктограмм, которые ясно указывают на то, что нашим учёным следует надеть этот шлем. Пиктограммы также намекают на возможность того, что наш учёный может погибнуть.
+
+MessageTitle: The Vault of the Shakturi Mind
+->
+Хранилище разума Шактури
+
+Description: Mere seconds after putting on the headset, our scientist fell to the floor, unconscious. Upon being revived, our scientist described spending weeks on board a Shakturi ship, as a Shakturi, going about the ordinary business of a member of the crew.
+
+These memories are now all fragmentary, however. Our scientist remembers the experience of being on board a massive Shakturi ship, unlike anything our species has ever conceived of. This ship had the power to destroy entire planets. Our scientist recalls watching as a planet inhabited by billions was torn apart, experiencing this horror from a Shakturi perspective and feeling... satisfaction.
+
+Our scientist also recalls the emergence of another memory. It appears that the ancient Shakturi came to this galaxy with a virus already prepared, targeting a specific species. Our scientist did not know which one, but this information suggests there may be some purpose other than pure conquest to the Shakturi presence here.
+->
+Всего через несколько секунд после надевания шлема наш учёный упал на пол без сознания. После приведения в чувство он описал пребывание недели на борту корабля Шактури, находясь там в облике Шактури и занимаясь обычными делами члена экипажа.
+
+Однако теперь все эти воспоминания фрагментарны. Наш учёный помнит ощущение нахождения на огромном корабле Шактури, не похожем ни на что, когда-либо созданное нашим видом. Этот корабль обладал силой уничтожать целые планеты. Учёный вспоминает, как наблюдал, как планета, населённая миллиардами существ, была разорвана в клочья, переживая эту ужасную сцену с точки зрения Шактури и испытывая... удовлетворение.
+
+Учёный также вспоминает возникновение другого воспоминания. Похоже, что древние Шактури прибыли в эту галактику уже с вирусом, предназначенным для уничтожения конкретного вида. Учёный не знал, какого именно, но эта информация указывает на то, что присутствие Шактури здесь может преследовать цель, отличную от простого завоевания.
+
+Description: Mere seconds after putting on the headset, our scientist fell to the floor, unconscious. Upon being revived, our scientist described spending weeks on board a Shakturi ship, as a Shakturi, going about the ordinary business of a member of the crew.
+
+These memories are now all fragmentary, however. Our scientist remembers the experience of being on board a massive Shakturi ship, unlike anything our species has ever conceived of. This ship had the power to destroy entire planets. Our scientist recalls watching as a planet inhabited by billions was torn apart, experiencing this horror from a Shakturi perspective and feeling... satisfaction.
+
+Our scientist also recalls the emergence of another memory. It appears that the ancient Shakturi came to this galaxy with a virus already prepared, targeting a specific species. Our scientist did not know which one, but this information suggests there may be some purpose other than pure conquest to the Shakturi presence here.
+->
+Всего через несколько секунд после надевания шлема наш учёный упал на пол без сознания. После приведения в чувство он описал пребывание недели на борту корабля Шактури, находясь там в облике Шактури и занимаясь обычными делами члена экипажа.
+
+Однако теперь все эти воспоминания фрагментарны. Наш учёный помнит ощущение нахождения на огромном корабле Шактури, не похожем ни на что, когда-либо созданное нашим видом. Этот корабль обладал силой уничтожать целые планеты. Учёный вспоминает, как наблюдал, как планета, населённая миллиардами существ, была разорвана в клочья, переживая эту ужасную сцену с точки зрения Шактури и испытывая... удовлетворение.
+
+Учёный также вспоминает возникновение другого воспоминания. Похоже, что древние Шактури прибыли в эту галактику уже с вирусом, предназначенным для уничтожения конкретного вида. Учёный не знал, какого именно, но эта информация указывает на то, что присутствие Шактури здесь может преследовать цель, отличную от простого завоевания.
+
+MessageTitle: The Vault of the Shakturi Mind
+->
+Хранилище разума Шактури
+
+Description: Our scientist has been killed! There was no struggle or even the appearance of distress. The headset was activated and death followed immediately.
+
+An autopsy suggests that some individuals simply cannot tolerate the headset. There is no way to know who can survive until someone succeeds.
+->
+Наш учёный погиб! Не было ни борьбы, даже признаков страданий. Шлем был активирован, и смерть наступила мгновенно.
+
+Аутопсия показывает, что некоторые особи просто не переносят шлем. Невозможно узнать, кто выживет, пока кто-нибудь не добьётся успеха.
+
+Description: Our scientist has been killed! There was no struggle or even the appearance of distress. The headset was activated and death followed immediately.
+
+An autopsy suggests that some individuals simply cannot tolerate the headset. There is no way to know who can survive until someone succeeds.
+->
+Наш учёный погиб! Не было ни борьбы, даже признаков страданий. Шлем был активирован, и смерть наступила мгновенно.
+
+Аутопсия показывает, что некоторые особи просто не переносят шлем. Невозможно узнать, кто выживет, пока кто-нибудь не добьётся успеха.
+
+MessageTitle: The Vault of the Shakturi Mind
+->
+Хранилище разума Шактури
+
+Description: Is it worth another attempt?
+->
+Стоит ли предпринимать ещё одну попытку?
+
+ChoiceButtonText: Yes
+->
+Да
+
+ChoiceButtonText: No
+->
+Нет
+
+Description: Is it worth another attempt?
+->
+Стоит ли предпринимать ещё одну попытку?
+
+MessageTitle: The Vault of the Shakturi Mind
+->
+Хранилище разума Шактури
+
+Description: Again our scientist has been killed!  Is it worth another attempt?
+->
+Снова наш учёный погиб! Стоит ли предпринимать ещё одну попытку?
+
+ChoiceButtonText: Yes
+->
+Да
+
+ChoiceButtonText: No
+->
+Нет
+
+Description: Again our scientist has been killed!  Is it worth another attempt?
+->
+Снова наш учёный погиб! Стоит ли предпринимать ещё одну попытку?
+
+MessageTitle: The Vault of the Shakturi Mind
+->
+Хранилище разума Шактури
+
+Description: Once the fog of this experience had lifted, the scientist revealed that the technology to counter the Shakturi Planet Destroyers is contained within the headset.
+
+If that is true, and we can extract this knowledge, then today will go down as a major turning point in this war.
+
+The headset also has information on the ancient Xaraktor Virus, a very advanced bio-weapon which was being developed to target the Shakturi. Unfortunately, it will need a great deal of additional research to make it less deadly to other species.
+->
+Когда туман этого опыта рассеялся, учёный сообщил, что технология для противодействия Планетоубийцам Шактури заключена в шлеме.
+
+Если это правда и мы сможем извлечь эти знания, то сегодняшний день войдёт в историю как поворотный момент этой войны.
+
+Шлем также содержит сведения о древнем вирусе «Характор» — чрезвычайно продвинутом биологическом оружии, которое разрабатывалось для поражения Шактури. К сожалению, потребуется значительное количество дополнительных исследований, чтобы сделать его менее смертоносным для других видов.
+
+Description: Once the fog of this experience had lifted, the scientist revealed that the technology to counter the Shakturi Planet Destroyers is contained within the headset.
+
+If that is true, and we can extract this knowledge, then today will go down as a major turning point in this war.
+
+The headset also has information on the ancient Xaraktor Virus, a very advanced bio-weapon which was being developed to target the Shakturi. Unfortunately, it will need a great deal of additional research to make it less deadly to other species.
+->
+Когда туман этого опыта рассеялся, учёный сообщил, что технология для противодействия Планетоубийцам Шактури заключена в шлеме.
+
+Если это правда и мы сможем извлечь эти знания, то сегодняшний день войдёт в историю как поворотный момент этой войны.
+
+Шлем также содержит сведения о древнем вирусе «Характор» — чрезвычайно продвинутом биологическом оружии, которое разрабатывалось для поражения Шактури. К сожалению, потребуется значительное количество дополнительных исследований, чтобы сделать его менее смертоносным для других видов.
+
+MessageTitle: The Biowarfare Archive
+->
+Архив биологического оружия
+
+Description: We've reached the source of the energy signature similar to the galactic rim beacon and discovered a massive structure, which seems to have recently emerged from deep within the world's crust. It must have been hidden there undetected for centuries.
+->
+Мы достигли источника энергетического сигнала, похожего на сигнал маяка у галактического края, и обнаружили массивную структуру, которая, по-видимому, недавно поднялась из глубин земной коры. Долгое время она должна была скрываться там незамеченной.
+
+Description: We've reached the source of the energy signature similar to the galactic rim beacon and discovered a massive structure, which seems to have recently emerged from deep within the world's crust. It must have been hidden there undetected for centuries.
+->
+Мы достигли источника энергетического сигнала, похожего на сигнал маяка у галактического края, и обнаружили массивную структуру, которая, по-видимому, недавно поднялась из глубин земной коры. Долгое время она должна была скрываться там незамеченной.
+
+MessageTitle: The Biowarfare Archive
+->
+Архив биологического оружия
+
+Description: We believe this facility was left by the Shakturi long ago, when they retreated after the great Cataclysm. In all likelihood, the contents were meant to facilitate a second Shakturi invasion.
+
+We know so little about our enemies, but from what we can glean, this structure is likely an archive of some kind. Whatever these vaults contain may be of immense value to us. Perhaps it will be possible to turn our enemies' knowledge against them.
+->
+Мы полагаем, что это сооружение было оставлено Шактури давным-давно, когда они отступили после Великого Катаклизма. С наибольшей долей вероятности его содержимое предназначалось для облегчения второго вторжения Шактури.
+
+Мы знаем о наших врагах так мало, но из того, что нам удалось узнать, следует, что эта структура, вероятно, является своего рода архивом. Всё, что хранится в этих хранилищах, может иметь для нас огромную ценность. Возможно, удастся обратить знания наших врагов против них самих.
+
+Description: We believe this facility was left by the Shakturi long ago, when they retreated after the great Cataclysm. In all likelihood, the contents were meant to facilitate a second Shakturi invasion.
+
+We know so little about our enemies, but from what we can glean, this structure is likely an archive of some kind. Whatever these vaults contain may be of immense value to us. Perhaps it will be possible to turn our enemies' knowledge against them.
+->
+Мы полагаем, что это сооружение было оставлено Шактури давным-давно, когда они отступили после Великого Катаклизма. С наибольшей долей вероятности его содержимое предназначалось для облегчения второго вторжения Шактури.
+
+Мы знаем о наших врагах так мало, но из того, что нам удалось узнать, следует, что эта структура, вероятно, является своего рода архивом. Всё, что хранится в этих хранилищах, может иметь для нас огромную ценность. Возможно, удастся обратить знания наших врагов против них самих.
+
+MessageTitle: The Biowarfare Archive
+->
+Архив биологического оружия
+
+Description: We believe we have discovered another Shakturi Archive. This one seems dedicated to Biowarfare. As appears to be standard with these structures, this massive Archive is well defended, and our forces will face a fierce battle if we approach. We must expect punishing losses, and yet this is too great a prize to leave in Shakturi hands.
+->
+Мы полагаем, что обнаружили ещё одно Хранилище Шактури. Это Хранилище, похоже, посвящено биологическому оружию. Как это обычно бывает с подобными сооружениями, это массивное Хранилище хорошо защищено, и наши силы столкнутся с ожесточённым боем, если мы подойдём к нему. Мы должны ожидать тяжёлых потерь, однако эта награда слишком велика, чтобы оставлять её в руках Шактури.
+
+Description: We believe we have discovered another Shakturi Archive. This one seems dedicated to Biowarfare. As appears to be standard with these structures, this massive Archive is well defended, and our forces will face a fierce battle if we approach. We must expect punishing losses, and yet this is too great a prize to leave in Shakturi hands.
+->
+Мы полагаем, что обнаружили ещё одно Хранилище Шактури. Это Хранилище, похоже, посвящено биологическому оружию. Как это обычно бывает с подобными сооружениями, это массивное Хранилище хорошо защищено, и наши силы столкнутся с ожесточённым боем, если мы подойдём к нему. Мы должны ожидать тяжёлых потерь, однако эта награда слишком велика, чтобы оставлять её в руках Шактури.
+
+MessageTitle: The Biowarfare Archive
+->
+Архив биологического оружия
+
+Description: Doing so will not be easy. The revealed structure is no mere outpost, but a vast, impressive base, overwhelming in size and mysterious in purpose. It is constructed with alien geometry and symmetry, unlike anything built by known sentient species. Preliminary scans suggest it is well defended, and our forces will face a fierce battle if we approach. We must expect punishing losses, and yet this is too great a prize to leave in Shakturi hands.
+->
+Это будет нелегко. Обнаруженная структура — не просто аванпост, а обширная впечатляющая база, подавляющая размерами и загадочная по назначению. Она построена с использованием чужеродной геометрии и симметрии, чего не встречается у известных разумных видов. Предварительные сканирования указывают на то, что она хорошо защищена, и наши силы столкнутся с ожесточённым сопротивлением при приближении. Мы должны ожидать тяжёлых потерь, однако эта награда слишком велика, чтобы оставить её в руках Шактури.
+
+Description: Doing so will not be easy. The revealed structure is no mere outpost, but a vast, impressive base, overwhelming in size and mysterious in purpose. It is constructed with alien geometry and symmetry, unlike anything built by known sentient species. Preliminary scans suggest it is well defended, and our forces will face a fierce battle if we approach. We must expect punishing losses, and yet this is too great a prize to leave in Shakturi hands.
+->
+Это будет нелегко. Обнаруженная структура — не просто аванпост, а обширная впечатляющая база, подавляющая размерами и загадочная по назначению. Она построена с использованием чужеродной геометрии и симметрии, чего не встречается у известных разумных видов. Предварительные сканирования указывают на то, что она хорошо защищена, и наши силы столкнутся с ожесточённым сопротивлением при приближении. Мы должны ожидать тяжёлых потерь, однако эта награда слишком велика, чтобы оставить её в руках Шактури.
+
+MessageTitle: The Biowarfare Archive
+->
+Архив биологического оружия
+
+Description: Our scans of the now accessible Shakturi Archive reveal that despite destroying the facility's deadly defenses, we are not safe to enter. The Archive appears to contain Shakturi knowledge regarding Biowarfare and is protected by a series of complex and confounding security measures. Our scientists believe failure to circumvent them could lead to disastrous results. The Shakturi are masters of advanced technology we do not fully comprehend, and hastily breaching the Archive could have negative consequences not only for our explorers but for our entire population.
+
+It may be possible to open the facility without conducting any further research, but our scientists are adamant that rushing would be foolish and dangerous.
+->
+Наши сканирования теперь доступного Архива Шактури показывают, что, несмотря на уничтожение смертоносных защитных систем комплекса, мы не можем безопасно войти внутрь. Архив, по-видимому, содержит знания Шактури о биологической войне и защищён серией сложных и запутанных мер безопасности. Наши учёные полагают, что неудача в их обходе может привести к катастрофическим последствиям. Шактури — мастера передовых технологий, которые мы не до конца понимаем, и поспешное проникновение в Архив может иметь негативные последствия не только для наших исследователей, но и для всего нашего населения.
+
+Возможно, удастся открыть комплекс без проведения дополнительных исследований, однако наши учёные твёрдо убеждены, что спешка будет глупой и опасной.
+
+ChoiceButtonText: Commit to Research
+->
+Назначить исследование
+
+ChoiceButtonText: Forego Research
+->
+Отказаться от исследований
+
+Description: Our scans of the now accessible Shakturi Archive reveal that despite destroying the facility's deadly defenses, we are not safe to enter. The Archive appears to contain Shakturi knowledge regarding Biowarfare and is protected by a series of complex and confounding security measures. Our scientists believe failure to circumvent them could lead to disastrous results. The Shakturi are masters of advanced technology we do not fully comprehend, and hastily breaching the Archive could have negative consequences not only for our explorers but for our entire population.
+
+It may be possible to open the facility without conducting any further research, but our scientists are adamant that rushing would be foolish and dangerous.
+->
+Наши сканирования теперь доступного Архива Шактури показывают, что, несмотря на уничтожение смертоносных защитных систем комплекса, мы не можем безопасно войти внутрь. Архив, по-видимому, содержит знания Шактури о биологической войне и защищён серией сложных и запутанных мер безопасности. Наши учёные полагают, что неудача в их обходе может привести к катастрофическим последствиям. Шактури — мастера передовых технологий, которые мы не до конца понимаем, и поспешное проникновение в Архив может иметь негативные последствия не только для наших исследователей, но и для всего нашего населения.
+
+Возможно, удастся открыть комплекс без проведения дополнительных исследований, однако наши учёные твёрдо убеждены, что спешка будет глупой и опасной.
+
+MessageTitle: The Biowarfare Archive
+->
+Архив биологического оружия
+
+Description: We have completed our research into accessing the Shakturi Biowarfare Archive, and our scientists believe we can safely proceed with our exploration.
+->
+Мы завершили исследования по доступу к Архиву биологического оружия Шактури, и наши учёные считают, что мы можем безопасно продолжить исследование.
+
+ChoiceButtonText: Commit to Research
+->
+Назначить исследование
+
+Description: We have completed our research into accessing the Shakturi Biowarfare Archive, and our scientists believe we can safely proceed with our exploration.
+->
+Мы завершили исследования по доступу к Архиву биологического оружия Шактури, и наши учёные считают, что мы можем безопасно продолжить исследование.
+
+MessageTitle: The Biowarfare Archive
+->
+Архив биологического оружия
+
+Description: This is war. We don't have time to undertake unnecessary research projects. We'll explore the Archive and take our chances.
+->
+Это война. У нас нет времени на ненужные исследовательские проекты. Мы исследуем Архив и рискнём.
+
+Description: This is war. We don't have time to undertake unnecessary research projects. We'll explore the Archive and take our chances.
+->
+Это война. У нас нет времени на ненужные исследовательские проекты. Мы исследуем Архив и рискнём.
+
+MessageTitle: The Biowarfare Archive
+->
+Архив биологического оружия
+
+Description: Perhaps the dangers of proceeding without conducting research were overblown. Granted, we had to avoid a variety of dangerous traps and some of our scientists believe we were very fortunate to do so, but results are what matter.
+
+We have begun to explore the Shakturi Archive without negative consequences.
+->
+Возможно, опасности продвижения без проведения исследований были преувеличены. Безусловно, нам пришлось избегать множества опасных ловушек, и некоторые из наших учёных считают, что мы очень повезли, избежав их, но важны лишь результаты.
+
+Мы начали исследовать Архив Шактури без негативных последствий.
+
+Description: Perhaps the dangers of proceeding without conducting research were overblown. Granted, we had to avoid a variety of dangerous traps and some of our scientists believe we were very fortunate to do so, but results are what matter.
+
+We have begun to explore the Shakturi Archive without negative consequences.
+->
+Возможно, опасности продвижения без проведения исследований были преувеличены. Безусловно, нам пришлось избегать множества опасных ловушек, и некоторые из наших учёных считают, что мы очень повезли, избежав их, но важны лишь результаты.
+
+Мы начали исследовать Архив Шактури без негативных последствий.
+
+MessageTitle: The Biowarfare Archive
+->
+Архив биологического оружия
+
+Description: We should not have acted in haste. One of our explorers has contracted a plague at the Archive and it has spread to one of our worlds.
+
+The Shakturi have abilities beyond our understanding, and it was foolish to walk into one of their traps.
+->
+Нам не следовало действовать поспешно. Один из наших исследователей подхватил чуму в Архиве, и она перекинулась на один из наших миров.
+
+Шактури обладают способностями, превосходящими наше понимание, и было глупо попасться в одну из их ловушек.
+
+Description: We should not have acted in haste. One of our explorers has contracted a plague at the Archive and it has spread to one of our worlds.
+
+The Shakturi have abilities beyond our understanding, and it was foolish to walk into one of their traps.
+->
+Нам не следовало действовать поспешно. Один из наших исследователей подхватил чуму в Архиве, и она перекинулась на один из наших миров.
+
+Шактури обладают способностями, превосходящими наше понимание, и было глупо попасться в одну из их ловушек.
+
+MessageTitle: The Biowarfare Archive
+->
+Архив биологического оружия
+
+Description: Moreover, we have lost a valued contributor to our war efforts. One of our Scientists has fallen to the plague.
+
+We must now proceed with the proper research and return to the Archive when we have learned how to safely explore it.
+->
+Более того, мы потеряли ценного участника нашей военной кампании. Один из наших учёных погиб от чумы.
+
+Теперь нам необходимо продолжить соответствующие исследования и вернуться в Архив, когда мы узнаем, как безопасно его исследовать.
+
+Description: Moreover, we have lost a valued contributor to our war efforts. One of our Scientists has fallen to the plague.
+
+We must now proceed with the proper research and return to the Archive when we have learned how to safely explore it.
+->
+Более того, мы потеряли ценного участника нашей военной кампании. Один из наших учёных погиб от чумы.
+
+Теперь нам необходимо продолжить соответствующие исследования и вернуться в Архив, когда мы узнаем, как безопасно его исследовать.
+
+MessageTitle: The Biowarfare Archive
+->
+Архив биологического оружия
+
+Description: In the subterranean Archive, we discovered a cache of documents from the Ancient Galaxy concerning Shakturi biological warfare. There are notes here on the various species of our galaxy, denoting strengths and weaknesses. They appear to view intelligent life with clinical detachment, as though all that interests them is how such life can be destroyed.
+
+They are a truly alien species. We dare not lose to them.
+->
+В подземном Архиве мы обнаружили запас документов из Древней Галактики о биологическом оружии Шактури. Здесь есть записи о различных видах нашей галактики, указывающие на их сильные и слабые стороны. Они, по-видимому, рассматривают разумную жизнь с клиническим отстранением, словно всё, что их интересует, — это то, как такую жизнь можно уничтожить.
+
+Они — истинно чуждый вид. Мы не смеем проиграть им.
+
+Description: In the subterranean Archive, we discovered a cache of documents from the Ancient Galaxy concerning Shakturi biological warfare. There are notes here on the various species of our galaxy, denoting strengths and weaknesses. They appear to view intelligent life with clinical detachment, as though all that interests them is how such life can be destroyed.
+
+They are a truly alien species. We dare not lose to them.
+->
+В подземном Архиве мы обнаружили запас документов из Древней Галактики о биологическом оружии Шактури. Здесь есть записи о различных видах нашей галактики, указывающие на их сильные и слабые стороны. Они, по-видимому, рассматривают разумную жизнь с клиническим отстранением, словно всё, что их интересует, — это то, как такую жизнь можно уничтожить.
+
+Они — истинно чуждый вид. Мы не смеем проиграть им.
+
+MessageTitle: The Genetic Engineering Archive
+->
+Архив генной инженерии
+
+Description: We've reached the source of the energy signature similar to the galactic rim beacon and discovered a massive structure, which seems to have recently emerged from deep within the world's crust. It must have been hidden there undetected for centuries.
+->
+Мы достигли источника энергетического сигнала, похожего на сигнал маяка у галактического края, и обнаружили массивную структуру, которая, по-видимому, недавно поднялась из глубин земной коры. Долгое время она должна была скрываться там незамеченной.
+
+Description: We've reached the source of the energy signature similar to the galactic rim beacon and discovered a massive structure, which seems to have recently emerged from deep within the world's crust. It must have been hidden there undetected for centuries.
+->
+Мы достигли источника энергетического сигнала, похожего на сигнал маяка у галактического края, и обнаружили массивную структуру, которая, по-видимому, недавно поднялась из глубин земной коры. Долгое время она должна была скрываться там незамеченной.
+
+MessageTitle: The Genetic Engineering Archive
+->
+Архив генной инженерии
+
+Description: We believe this facility was left by the Shakturi long ago, when they retreated after the great Cataclysm. In all likelihood, the contents were meant to facilitate a second Shakturi invasion.
+
+We know so little about our enemies, but from what we can glean, this structure is likely an archive of some kind. Whatever these vaults contain may be of immense value to us. Perhaps it will be possible to turn our enemies' knowledge against them.
+->
+Мы полагаем, что это сооружение было оставлено Шактури давным-давно, когда они отступили после Великого Катаклизма. С наибольшей долей вероятности его содержимое предназначалось для облегчения второго вторжения Шактури.
+
+Мы знаем о наших врагах так мало, но из того, что нам удалось узнать, следует, что эта структура, вероятно, является своего рода архивом. Всё, что хранится в этих хранилищах, может иметь для нас огромную ценность. Возможно, удастся обратить знания наших врагов против них самих.
+
+Description: We believe this facility was left by the Shakturi long ago, when they retreated after the great Cataclysm. In all likelihood, the contents were meant to facilitate a second Shakturi invasion.
+
+We know so little about our enemies, but from what we can glean, this structure is likely an archive of some kind. Whatever these vaults contain may be of immense value to us. Perhaps it will be possible to turn our enemies' knowledge against them.
+->
+Мы полагаем, что это сооружение было оставлено Шактури давным-давно, когда они отступили после Великого Катаклизма. С наибольшей долей вероятности его содержимое предназначалось для облегчения второго вторжения Шактури.
+
+Мы знаем о наших врагах так мало, но из того, что нам удалось узнать, следует, что эта структура, вероятно, является своего рода архивом. Всё, что хранится в этих хранилищах, может иметь для нас огромную ценность. Возможно, удастся обратить знания наших врагов против них самих.
+
+MessageTitle: The Genetic Engineering Archive
+->
+Архив генной инженерии
+
+Description: We believe we have discovered another Shakturi Archive. This one seems dedicated to Genetic Engineering. As appears to be standard with these structures, this massive Archive is well defended, and our forces will face a fierce battle if we approach. We must expect punishing losses, and yet this is too great a prize to leave in Shakturi hands.
+->
+Мы полагаем, что обнаружили ещё одно Хранилище Шактури. Это Хранилище, похоже, посвящено Генной инженерии. Как это обычно бывает с подобными сооружениями, это массивное Хранилище хорошо защищено, и наши силы столкнутся с ожесточённым боем, если мы подойдём к нему. Мы должны ожидать тяжёлых потерь, однако эта награда слишком велика, чтобы оставлять её в руках Шактури.
+
+Description: We believe we have discovered another Shakturi Archive. This one seems dedicated to Genetic Engineering. As appears to be standard with these structures, this massive Archive is well defended, and our forces will face a fierce battle if we approach. We must expect punishing losses, and yet this is too great a prize to leave in Shakturi hands.
+->
+Мы полагаем, что обнаружили ещё одно Хранилище Шактури. Это Хранилище, похоже, посвящено Генной инженерии. Как это обычно бывает с подобными сооружениями, это массивное Хранилище хорошо защищено, и наши силы столкнутся с ожесточённым боем, если мы подойдём к нему. Мы должны ожидать тяжёлых потерь, однако эта награда слишком велика, чтобы оставлять её в руках Шактури.
+
+MessageTitle: The Genetic Engineering Archive
+->
+Архив генной инженерии
+
+Description: Doing so will not be easy. The revealed structure is no mere outpost, but a vast, impressive base, overwhelming in size and mysterious in purpose. It is constructed with alien geometry and symmetry, unlike anything built by known sentient species. Preliminary scans suggest it is well defended, and our forces will face a fierce battle if we approach. We must expect punishing losses, and yet this is too great a prize to leave in Shakturi hands.
+->
+Это будет нелегко. Обнаруженная структура — не просто аванпост, а обширная впечатляющая база, подавляющая размерами и загадочная по назначению. Она построена с использованием чужеродной геометрии и симметрии, чего не встречается у известных разумных видов. Предварительные сканирования указывают на то, что она хорошо защищена, и наши силы столкнутся с ожесточённым сопротивлением при приближении. Мы должны ожидать тяжёлых потерь, однако эта награда слишком велика, чтобы оставить её в руках Шактури.
+
+Description: Doing so will not be easy. The revealed structure is no mere outpost, but a vast, impressive base, overwhelming in size and mysterious in purpose. It is constructed with alien geometry and symmetry, unlike anything built by known sentient species. Preliminary scans suggest it is well defended, and our forces will face a fierce battle if we approach. We must expect punishing losses, and yet this is too great a prize to leave in Shakturi hands.
+->
+Это будет нелегко. Обнаруженная структура — не просто аванпост, а обширная впечатляющая база, подавляющая размерами и загадочная по назначению. Она построена с использованием чужеродной геометрии и симметрии, чего не встречается у известных разумных видов. Предварительные сканирования указывают на то, что она хорошо защищена, и наши силы столкнутся с ожесточённым сопротивлением при приближении. Мы должны ожидать тяжёлых потерь, однако эта награда слишком велика, чтобы оставить её в руках Шактури.
+
+MessageTitle: The Genetic Engineering Archive
+->
+Архив генной инженерии
+
+Description: Our scans of the now accessible Shakturi Archive reveal that despite destroying the facility's deadly defenses, we are not safe to enter. The Archive appears to contain Shakturi knowledge regarding Genetic Engineering and is protected by a series of complex and confounding security measures. Our scientists believe failure to circumvent them could lead to disastrous results. The Shakturi are masters of advanced technology we do not fully comprehend, and hastily breaching the Archive could have negative consequences not only for our explorers but for our entire population.
+
+It may be possible to open the facility without conducting any further research, but our scientists are adamant that rushing would be foolish and dangerous.
+->
+Наши сканирования теперь доступного Архива Шактури показывают, что, несмотря на уничтожение смертоносных защитных систем комплекса, мы не можем безопасно войти внутрь. Архив, по-видимому, содержит знания Шактури о генной инженерии и защищён рядом сложных и запутанных мер безопасности. Наши учёные полагают, что неудача в их обходе может привести к катастрофическим последствиям. Шактури являются мастерами передовых технологий, которые мы не до конца понимаем, а поспешное проникновение в Архив может иметь негативные последствия не только для наших исследователей, но и для всего нашего населения.
+
+Возможно, удастся открыть комплекс без проведения дополнительных исследований, однако наши учёные твёрдо убеждены, что спешка будет глупой и опасной.
+
+ChoiceButtonText: Commit to Research
+->
+Назначить исследование
+
+ChoiceButtonText: Forego Research
+->
+Отказаться от исследований
+
+Description: Our scans of the now accessible Shakturi Archive reveal that despite destroying the facility's deadly defenses, we are not safe to enter. The Archive appears to contain Shakturi knowledge regarding Genetic Engineering and is protected by a series of complex and confounding security measures. Our scientists believe failure to circumvent them could lead to disastrous results. The Shakturi are masters of advanced technology we do not fully comprehend, and hastily breaching the Archive could have negative consequences not only for our explorers but for our entire population.
+
+It may be possible to open the facility without conducting any further research, but our scientists are adamant that rushing would be foolish and dangerous.
+->
+Наши сканирования теперь доступного Архива Шактури показывают, что, несмотря на уничтожение смертоносных защитных систем комплекса, мы не можем безопасно войти внутрь. Архив, по-видимому, содержит знания Шактури о генной инженерии и защищён рядом сложных и запутанных мер безопасности. Наши учёные полагают, что неудача в их обходе может привести к катастрофическим последствиям. Шактури являются мастерами передовых технологий, которые мы не до конца понимаем, а поспешное проникновение в Архив может иметь негативные последствия не только для наших исследователей, но и для всего нашего населения.
+
+Возможно, удастся открыть комплекс без проведения дополнительных исследований, однако наши учёные твёрдо убеждены, что спешка будет глупой и опасной.
+
+MessageTitle: The Genetic Engineering Archive
+->
+Архив генной инженерии
+
+Description: We have completed our research into accessing the Shakturi Genetic Engineering Archive, and our scientists believe we can safely proceed with our exploration.
+->
+Мы завершили исследования по доступу к Архиву генной инженерии Шактури, и наши учёные считают, что мы можем безопасно продолжить исследование.
+
+ChoiceButtonText: Commit to Research
+->
+Назначить исследование
+
+Description: We have completed our research into accessing the Shakturi Genetic Engineering Archive, and our scientists believe we can safely proceed with our exploration.
+->
+Мы завершили исследования по доступу к Архиву генной инженерии Шактури, и наши учёные считают, что мы можем безопасно продолжить исследование.
+
+MessageTitle: The Genetic Engineering Archive
+->
+Архив генной инженерии
+
+Description: This is war. We don't have time to undertake unnecessary research projects. We'll explore the Archive and take our chances.
+->
+Это война. У нас нет времени на ненужные исследовательские проекты. Мы исследуем Архив и рискнём.
+
+Description: This is war. We don't have time to undertake unnecessary research projects. We'll explore the Archive and take our chances.
+->
+Это война. У нас нет времени на ненужные исследовательские проекты. Мы исследуем Архив и рискнём.
+
+MessageTitle: The Genetic Engineering Archive
+->
+Архив генной инженерии
+
+Description: Perhaps the dangers of proceeding without conducting research were overblown. Granted, we had to avoid a variety of dangerous traps and some of our scientists believe we were very fortunate to do so, but results are what matter.
+
+We have begun to explore the Shakturi Archive without negative consequences.
+->
+Возможно, опасности продвижения без проведения исследований были преувеличены. Безусловно, нам пришлось избегать множества опасных ловушек, и некоторые из наших учёных считают, что мы очень повезли, избежав их, но важны лишь результаты.
+
+Мы начали исследовать Архив Шактури без негативных последствий.
+
+Description: Perhaps the dangers of proceeding without conducting research were overblown. Granted, we had to avoid a variety of dangerous traps and some of our scientists believe we were very fortunate to do so, but results are what matter.
+
+We have begun to explore the Shakturi Archive without negative consequences.
+->
+Возможно, опасности продвижения без проведения исследований были преувеличены. Безусловно, нам пришлось избегать множества опасных ловушек, и некоторые из наших учёных считают, что мы очень повезли, избежав их, но важны лишь результаты.
+
+Мы начали исследовать Архив Шактури без негативных последствий.
+
+MessageTitle: The Genetic Engineering Archive
+->
+Архив генной инженерии
+
+Description: We should not have acted in haste. A massive swarm of Rift Striders have emerged from some kind of underground stasis to defend the Archive. We cannot hope to explore further without first eliminating these creatures.
+
+The Shakturi have abilities beyond our understanding, and it was foolish to walk into one of their traps.
+->
+Нам не следовало действовать поспешно. Массивный рой Скитальцев Разлома пробудился из некоего подобия подземного стазиса, чтобы защитить Архив. Мы не сможем надеяться исследовать дальше, прежде чем не уничтожим этих существ.
+
+Шактури обладают способностями, выходящими за пределы нашего понимания, и было глупо попадаться в одну из их ловушек.
+
+Description: We should not have acted in haste. A massive swarm of Rift Striders have emerged from some kind of underground stasis to defend the Archive. We cannot hope to explore further without first eliminating these creatures.
+
+The Shakturi have abilities beyond our understanding, and it was foolish to walk into one of their traps.
+->
+Нам не следовало действовать поспешно. Массивный рой Скитальцев Разлома пробудился из некоего подобия подземного стазиса, чтобы защитить Архив. Мы не сможем надеяться исследовать дальше, прежде чем не уничтожим этих существ.
+
+Шактури обладают способностями, выходящими за пределы нашего понимания, и было глупо попадаться в одну из их ловушек.
+
+MessageTitle: The Genetic Engineering Archive
+->
+Архив генной инженерии
+
+Description: We have destroyed the alien creatures defending the Archive, but our scientists remain certain that another hasty attempt to gain entry will only produce yet another spawning of Rift Striders. We must now conduct the research we had hoped to avoid.
+->
+Мы уничтожили инопланетных существ, защищавших Архив, но наши учёные по-прежнему уверены: ещё одна поспешная попытка проникнуть внутрь приведёт лишь к новому появлению Скитальцев Разлома. Теперь нам необходимо провести исследование, которое мы надеялись избежать.
+
+Description: We have destroyed the alien creatures defending the Archive, but our scientists remain certain that another hasty attempt to gain entry will only produce yet another spawning of Rift Striders. We must now conduct the research we had hoped to avoid.
+->
+Мы уничтожили инопланетных существ, защищавших Архив, но наши учёные по-прежнему уверены: ещё одна поспешная попытка проникнуть внутрь приведёт лишь к новому появлению Скитальцев Разлома. Теперь нам необходимо провести исследование, которое мы надеялись избежать.
+
+MessageTitle: The Genetic Engineering Archive
+->
+Архив генной инженерии
+
+Description: This Shakturi Genetic Engineering archive dates back to the ancient galaxy and is much decayed. Nevertheless, there is much here that we can discover. This appears to have once been a repository of knowledge on genetic engineering. Moreover, it was also a laboratory, which creatures were developed and iterated upon.
+
+Here we found the remains of portions of several space creatures. Even though we only have a few fragments, we can tell that these are earlier prototypes of the creatures the Shakturi have only recently unleashed into our galaxy. Nevertheless, it is now clear that these creatures were long part of the Shakturi conquest plan. In the time since the ancient war, they appear to have perfected their creations.
+
+Once we analyze the fragmentary data we've found here, we believe it will help us fight the Shakturi and their monstrous creations.
+->
+Архив генной инженерии Шактури восходит к древней галактике и сильно разрушен. Тем не менее, здесь есть многое, что мы можем открыть. Похоже, это когда-то было хранилище знаний о генной инженерии. Кроме того, это также была лаборатория, где создавались и совершенствовались существа.
+
+Здесь мы обнаружили останки частей нескольких космических существ. Даже несмотря на то, что у нас есть лишь несколько фрагментов, можно сказать, что это более ранние прототипы существ, которых Шактури недавно выпустили в нашей галактике. Тем не менее, теперь ясно, что эти существа давно входили в план завоевания Шактури. С тех пор как закончилась древняя война, они, похоже, довели свои творения до совершенства.
+
+После того как мы проанализируем найденные здесь фрагментарные данные, мы считаем, что это поможет нам сражаться против Шактури и их чудовищных созданий.
+
+Description: This Shakturi Genetic Engineering archive dates back to the ancient galaxy and is much decayed. Nevertheless, there is much here that we can discover. This appears to have once been a repository of knowledge on genetic engineering. Moreover, it was also a laboratory, which creatures were developed and iterated upon.
+
+Here we found the remains of portions of several space creatures. Even though we only have a few fragments, we can tell that these are earlier prototypes of the creatures the Shakturi have only recently unleashed into our galaxy. Nevertheless, it is now clear that these creatures were long part of the Shakturi conquest plan. In the time since the ancient war, they appear to have perfected their creations.
+
+Once we analyze the fragmentary data we've found here, we believe it will help us fight the Shakturi and their monstrous creations.
+->
+Архив генной инженерии Шактури восходит к древней галактике и сильно разрушен. Тем не менее, здесь есть многое, что мы можем открыть. Похоже, это когда-то было хранилище знаний о генной инженерии. Кроме того, это также была лаборатория, где создавались и совершенствовались существа.
+
+Здесь мы обнаружили останки частей нескольких космических существ. Даже несмотря на то, что у нас есть лишь несколько фрагментов, можно сказать, что это более ранние прототипы существ, которых Шактури недавно выпустили в нашей галактике. Тем не менее, теперь ясно, что эти существа давно входили в план завоевания Шактури. С тех пор как закончилась древняя война, они, похоже, довели свои творения до совершенства.
+
+После того как мы проанализируем найденные здесь фрагментарные данные, мы считаем, что это поможет нам сражаться против Шактури и их чудовищных созданий.
+
+MessageTitle: The Psychic Archive
+->
+Пси-архив
+
+Description: We've reached the source of the energy signature similar to the galactic rim beacon and discovered a massive structure, which seems to have recently emerged from deep within the world's crust. It must have been hidden there undetected for centuries.
+->
+Мы достигли источника энергетического сигнала, похожего на сигнал маяка у галактического края, и обнаружили массивную структуру, которая, по-видимому, недавно поднялась из глубин земной коры. Долгое время она должна была скрываться там незамеченной.
+
+Description: We've reached the source of the energy signature similar to the galactic rim beacon and discovered a massive structure, which seems to have recently emerged from deep within the world's crust. It must have been hidden there undetected for centuries.
+->
+Мы достигли источника энергетического сигнала, похожего на сигнал маяка у галактического края, и обнаружили массивную структуру, которая, по-видимому, недавно поднялась из глубин земной коры. Долгое время она должна была скрываться там незамеченной.
+
+MessageTitle: The Psychic Archive
+->
+Пси-архив
+
+Description: We believe this facility was left by the Shakturi long ago, when they retreated after the great Cataclysm. In all likelihood, the contents were meant to facilitate a second Shakturi invasion.
+
+We know so little about our enemies, but from what we can glean, this structure is likely an archive of some kind. Whatever these vaults contain may be of immense value to us. Perhaps it will be possible to turn our enemies' knowledge against them.
+->
+Мы полагаем, что это сооружение было оставлено Шактури давным-давно, когда они отступили после Великого Катаклизма. С наибольшей долей вероятности его содержимое предназначалось для облегчения второго вторжения Шактури.
+
+Мы знаем о наших врагах так мало, но из того, что нам удалось узнать, следует, что эта структура, вероятно, является своего рода архивом. Всё, что хранится в этих хранилищах, может иметь для нас огромную ценность. Возможно, удастся обратить знания наших врагов против них самих.
+
+Description: We believe this facility was left by the Shakturi long ago, when they retreated after the great Cataclysm. In all likelihood, the contents were meant to facilitate a second Shakturi invasion.
+
+We know so little about our enemies, but from what we can glean, this structure is likely an archive of some kind. Whatever these vaults contain may be of immense value to us. Perhaps it will be possible to turn our enemies' knowledge against them.
+->
+Мы полагаем, что это сооружение было оставлено Шактури давным-давно, когда они отступили после Великого Катаклизма. С наибольшей долей вероятности его содержимое предназначалось для облегчения второго вторжения Шактури.
+
+Мы знаем о наших врагах так мало, но из того, что нам удалось узнать, следует, что эта структура, вероятно, является своего рода архивом. Всё, что хранится в этих хранилищах, может иметь для нас огромную ценность. Возможно, удастся обратить знания наших врагов против них самих.
+
+MessageTitle: The Psychic Archive
+->
+Пси-архив
+
+Description: We believe we have discovered another Shakturi Archive. This one seems dedicated to Psychic Defense. As appears to be standard with these structures, this massive Archive is well defended, and our forces will face a fierce battle if we approach. We must expect punishing losses, and yet this is too great a prize to leave in Shakturi hands.
+->
+Мы полагаем, что обнаружили ещё одно Хранилище Шактури. Похоже, оно посвящено Пси-защите. Как это обычно бывает с подобными сооружениями, это массивное Хранилище хорошо защищено, и наши силы столкнутся с ожесточённым боем при приближении. Мы должны ожидать тяжёлых потерь, однако эта награда слишком велика, чтобы оставлять её в руках Шактури.
+
+Description: We believe we have discovered another Shakturi Archive. This one seems dedicated to Psychic Defense. As appears to be standard with these structures, this massive Archive is well defended, and our forces will face a fierce battle if we approach. We must expect punishing losses, and yet this is too great a prize to leave in Shakturi hands.
+->
+Мы полагаем, что обнаружили ещё одно Хранилище Шактури. Похоже, оно посвящено Пси-защите. Как это обычно бывает с подобными сооружениями, это массивное Хранилище хорошо защищено, и наши силы столкнутся с ожесточённым боем при приближении. Мы должны ожидать тяжёлых потерь, однако эта награда слишком велика, чтобы оставлять её в руках Шактури.
+
+MessageTitle: The Psychic Archive
+->
+Пси-архив
+
+Description: Doing so will not be easy. The revealed structure is no mere outpost, but a vast, impressive base, overwhelming in size and mysterious in purpose. It is constructed with alien geometry and symmetry, unlike anything built by known sentient species. Preliminary scans suggest it is well defended, and our forces will face a fierce battle if we approach. We must expect punishing losses, and yet this is too great a prize to leave in Shakturi hands.
+->
+Это будет нелегко. Обнаруженная структура — не просто аванпост, а обширная впечатляющая база, подавляющая размерами и загадочная по назначению. Она построена с использованием чужеродной геометрии и симметрии, чего не встречается у известных разумных видов. Предварительные сканирования указывают на то, что она хорошо защищена, и наши силы столкнутся с ожесточённым сопротивлением при приближении. Мы должны ожидать тяжёлых потерь, однако эта награда слишком велика, чтобы оставить её в руках Шактури.
+
+Description: Doing so will not be easy. The revealed structure is no mere outpost, but a vast, impressive base, overwhelming in size and mysterious in purpose. It is constructed with alien geometry and symmetry, unlike anything built by known sentient species. Preliminary scans suggest it is well defended, and our forces will face a fierce battle if we approach. We must expect punishing losses, and yet this is too great a prize to leave in Shakturi hands.
+->
+Это будет нелегко. Обнаруженная структура — не просто аванпост, а обширная впечатляющая база, подавляющая размерами и загадочная по назначению. Она построена с использованием чужеродной геометрии и симметрии, чего не встречается у известных разумных видов. Предварительные сканирования указывают на то, что она хорошо защищена, и наши силы столкнутся с ожесточённым сопротивлением при приближении. Мы должны ожидать тяжёлых потерь, однако эта награда слишком велика, чтобы оставить её в руках Шактури.
+
+MessageTitle: The Psychic Archive
+->
+Пси-архив
+
+Description: Our scans of the now accessible Shakturi Archive reveal that despite destroying the facility's deadly defenses, we are not safe to enter. The Archive appears to contain Shakturi knowledge regarding Psychic Warfare and is protected by a series of complex and confounding security measures. Our scientists believe failure to circumvent them could lead to disastrous results. The Shakturi are masters of advanced technology we do not fully comprehend, and hastily breaching the Archive could have negative consequences not only for our explorers but for our entire population.
+
+It may be possible to open the facility without conducting any further research, but our scientists are adamant that rushing would be foolish and dangerous.
+->
+Наши сканирования теперь доступного Архива Шактури показывают, что, несмотря на уничтожение смертоносных защитных систем объекта, мы не можем безопасно войти внутрь. Архив, по-видимому, содержит знания Шактури о Пси-войне и защищён рядом сложных и запутанных мер безопасности. Наши учёные полагают, что неудача в их обходе может привести к катастрофическим последствиям. Шактури — мастера передовых технологий, которые мы не до конца понимаем, а поспешное проникновение в Архив может иметь негативные последствия не только для наших исследователей, но и для всего нашего населения.
+
+Возможно, удастся открыть объект без проведения дополнительных исследований, однако наши учёные твёрдо убеждены, что спешка будет глупой и опасной.
+
+ChoiceButtonText: Commit to Research
+->
+Назначить исследование
+
+ChoiceButtonText: Forego Research
+->
+Отказаться от исследований
+
+Description: Our scans of the now accessible Shakturi Archive reveal that despite destroying the facility's deadly defenses, we are not safe to enter. The Archive appears to contain Shakturi knowledge regarding Psychic Warfare and is protected by a series of complex and confounding security measures. Our scientists believe failure to circumvent them could lead to disastrous results. The Shakturi are masters of advanced technology we do not fully comprehend, and hastily breaching the Archive could have negative consequences not only for our explorers but for our entire population.
+
+It may be possible to open the facility without conducting any further research, but our scientists are adamant that rushing would be foolish and dangerous.
+->
+Наши сканирования теперь доступного Архива Шактури показывают, что, несмотря на уничтожение смертоносных защитных систем объекта, мы не можем безопасно войти внутрь. Архив, по-видимому, содержит знания Шактури о Пси-войне и защищён рядом сложных и запутанных мер безопасности. Наши учёные полагают, что неудача в их обходе может привести к катастрофическим последствиям. Шактури — мастера передовых технологий, которые мы не до конца понимаем, а поспешное проникновение в Архив может иметь негативные последствия не только для наших исследователей, но и для всего нашего населения.
+
+Возможно, удастся открыть объект без проведения дополнительных исследований, однако наши учёные твёрдо убеждены, что спешка будет глупой и опасной.
+
+MessageTitle: The Psychic Archive
+->
+Пси-архив
+
+Description: We have completed our research into accessing the Shakturi Psychic Defense Archive, and our scientists believe we can safely proceed with our exploration.
+->
+Мы завершили исследования по доступу к Пси-архиву обороны Шактури, и наши учёные считают, что мы можем безопасно продолжить исследование.
+
+ChoiceButtonText: Commit to Research
+->
+Назначить исследование
+
+Description: We have completed our research into accessing the Shakturi Psychic Defense Archive, and our scientists believe we can safely proceed with our exploration.
+->
+Мы завершили исследования по доступу к Пси-архиву обороны Шактури, и наши учёные считают, что мы можем безопасно продолжить исследование.
+
+MessageTitle: The Psychic Archive
+->
+Пси-архив
+
+Description: This is war. We don't have time to undertake unnecessary research projects. We'll explore the Archive and take our chances.
+->
+Это война. У нас нет времени на ненужные исследовательские проекты. Мы исследуем Архив и рискнём.
+
+Description: This is war. We don't have time to undertake unnecessary research projects. We'll explore the Archive and take our chances.
+->
+Это война. У нас нет времени на ненужные исследовательские проекты. Мы исследуем Архив и рискнём.
+
+MessageTitle: The Psychic Archive
+->
+Пси-архив
+
+Description: Perhaps the dangers of proceeding without conducting research were overblown. Granted, we had to avoid a variety of dangerous traps and some of our scientists believe we were very fortunate to do so, but results are what matter.
+
+We have begun to explore the Shakturi Archive without negative consequences.
+->
+Возможно, опасности продвижения без проведения исследований были преувеличены. Безусловно, нам пришлось избегать множества опасных ловушек, и некоторые из наших учёных считают, что мы очень повезли, избежав их, но важны лишь результаты.
+
+Мы начали исследовать Архив Шактури без негативных последствий.
+
+Description: Perhaps the dangers of proceeding without conducting research were overblown. Granted, we had to avoid a variety of dangerous traps and some of our scientists believe we were very fortunate to do so, but results are what matter.
+
+We have begun to explore the Shakturi Archive without negative consequences.
+->
+Возможно, опасности продвижения без проведения исследований были преувеличены. Безусловно, нам пришлось избегать множества опасных ловушек, и некоторые из наших учёных считают, что мы очень повезли, избежав их, но важны лишь результаты.
+
+Мы начали исследовать Архив Шактури без негативных последствий.
+
+MessageTitle: The Psychic Archive
+->
+Пси-архив
+
+Description: We should not have acted in haste. Our attempts to breach the Psychic Defense Archive have set off a hidden psychic trap. One of our scientists has vanished within the archive and our searches have been in vain.  We now hear whispers in their voice echoing through the cavernous halls but can find no other trace.  The rest of our team is having unsettled dreams in which they feel like they are communicating with an alien consciousness.
+
+The Shakturi have abilities beyond our understanding, and it was foolish to walk into one of their traps.
+->
+Нам не следовало действовать поспешно. Наши попытки проникнуть в Пси-архив активировали скрытую психическую ловушку. Один из наших учёных исчез внутри архива, и все наши поиски оказались тщетными. Теперь мы слышим шёпот в его голосе, эхом разносящийся по просторным залам, но не находим никаких других следов. Остальная часть нашей команды мучается тревожными снами, в которых им кажется, что они общаются с инопланетным сознанием.
+
+Шактури обладают способностями, превосходящими наше понимание, и было глупо попадаться в одну из их ловушек.
+
+Description: We should not have acted in haste. Our attempts to breach the Psychic Defense Archive have set off a hidden psychic trap. One of our scientists has vanished within the archive and our searches have been in vain.  We now hear whispers in their voice echoing through the cavernous halls but can find no other trace.  The rest of our team is having unsettled dreams in which they feel like they are communicating with an alien consciousness.
+
+The Shakturi have abilities beyond our understanding, and it was foolish to walk into one of their traps.
+->
+Нам не следовало действовать поспешно. Наши попытки проникнуть в Пси-архив активировали скрытую психическую ловушку. Один из наших учёных исчез внутри архива, и все наши поиски оказались тщетными. Теперь мы слышим шёпот в его голосе, эхом разносящийся по просторным залам, но не находим никаких других следов. Остальная часть нашей команды мучается тревожными снами, в которых им кажется, что они общаются с инопланетным сознанием.
+
+Шактури обладают способностями, превосходящими наше понимание, и было глупо попадаться в одну из их ловушек.
+
+MessageTitle: The Psychic Archive
+->
+Пси-архив
+
+Description: We must now proceed with the proper research and return to the Archive when we have learned how to safely explore it.
+->
+Теперь мы должны приступить к надлежащим исследованиям и вернуться в Архив, когда узнаем, как безопасно его исследовать.
+
+Description: We must now proceed with the proper research and return to the Archive when we have learned how to safely explore it.
+->
+Теперь мы должны приступить к надлежащим исследованиям и вернуться в Архив, когда узнаем, как безопасно его исследовать.
+
+MessageTitle: The Psychic Archive
+->
+Пси-архив
+
+Description: Our explorers have entered the Shakturi Psychic Defense Archive buried under the surface of this world but reported it was entirely empty. It appears it was raided long ago, perhaps by pirates. We have no way of knowing what knowledge has been lost, but appears we came here for nothing.
+->
+Наши исследователи проникли в Пси-архив Шактури, скрытый под поверхностью этой планеты, но сообщили, что он полностью пуст. Похоже, его разграбили давно, возможно, пиратами. Мы не можем знать, какие знания были утеряны, но кажется, мы прибыли сюда впустую.
+
+Description: Our explorers have entered the Shakturi Psychic Defense Archive buried under the surface of this world but reported it was entirely empty. It appears it was raided long ago, perhaps by pirates. We have no way of knowing what knowledge has been lost, but appears we came here for nothing.
+->
+Наши исследователи проникли в Пси-архив Шактури, скрытый под поверхностью этой планеты, но сообщили, что он полностью пуст. Похоже, его разграбили давно, возможно, пиратами. Мы не можем знать, какие знания были утеряны, но кажется, мы прибыли сюда впустую.
+
+MessageTitle: The Psychic Archive
+->
+Пси-архив
+
+Description: Or did we? We were prepared to leave the archive when several members of our crew fell ill and became disoriented and confused, convinced that their quarters or their workstations were entirely empty.
+
+Their delusion seemed too similar to what our explorers found on the surface. We rescanned the world and found a device responsible for the low level of psychic energy we detected earlier.
+
+Once we destroyed the device, we re-examined the archive and found it was not empty after all. The ancient Shakturi clearly set up this device so anyone finding it would overlook their records. Those records are much decayed, but there is still much for our researchers to review. We believe this review will grant us a much greater understanding of Shakturi psychic offensive and defensive capabilities.
+->
+Или всё-таки нет? Мы уже были готовы покинуть архив, когда несколько членов экипажа заболели, потеряли ориентацию и впали в замешательство, будучи убеждёнными, что их каюты или рабочие станции совершенно пусты.
+
+Их бред оказался слишком похож на то, что обнаружили наши исследователи на поверхности. Мы повторно сканировали планету и нашли устройство, ответственное за низкий уровень псионической энергии, который мы ранее зафиксировали.
+
+После уничтожения устройства мы вновь изучили архив и выяснили, что он вовсе не пуст. Древние Шактури явно установили это устройство так, чтобы любой, кто его найдёт, пропустил их записи. Эти записи сильно разрушены, но для наших исследователей всё ещё остаётся много материала для изучения. Мы полагаем, что этот анализ даст нам гораздо более глубокое понимание псионических наступательных и оборонительных возможностей Шактури.
+
+Description: Or did we? We were prepared to leave the archive when several members of our crew fell ill and became disoriented and confused, convinced that their quarters or their workstations were entirely empty.
+
+Their delusion seemed too similar to what our explorers found on the surface. We rescanned the world and found a device responsible for the low level of psychic energy we detected earlier.
+
+Once we destroyed the device, we re-examined the archive and found it was not empty after all. The ancient Shakturi clearly set up this device so anyone finding it would overlook their records. Those records are much decayed, but there is still much for our researchers to review. We believe this review will grant us a much greater understanding of Shakturi psychic offensive and defensive capabilities.
+->
+Или всё-таки нет? Мы уже были готовы покинуть архив, когда несколько членов экипажа заболели, потеряли ориентацию и впали в замешательство, будучи убеждёнными, что их каюты или рабочие станции совершенно пусты.
+
+Их бред оказался слишком похож на то, что обнаружили наши исследователи на поверхности. Мы повторно сканировали планету и нашли устройство, ответственное за низкий уровень псионической энергии, который мы ранее зафиксировали.
+
+После уничтожения устройства мы вновь изучили архив и выяснили, что он вовсе не пуст. Древние Шактури явно установили это устройство так, чтобы любой, кто его найдёт, пропустил их записи. Эти записи сильно разрушены, но для наших исследователей всё ещё остаётся много материала для изучения. Мы полагаем, что этот анализ даст нам гораздо более глубокое понимание псионических наступательных и оборонительных возможностей Шактури.
+

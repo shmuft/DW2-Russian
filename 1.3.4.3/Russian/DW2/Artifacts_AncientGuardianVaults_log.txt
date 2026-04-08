@@ -1,0 +1,193 @@
+Лог перевода: 1.3.4.3\English\DW2\Artifacts_AncientGuardianVaults.xml
+Выходной файл: 1.3.4.3\Russian\DW2\Artifacts_AncientGuardianVaults.xml
+Всего переводов: 20
+================================================================================
+
+Name: Priorities of Governance
+->
+«Приоритеты управления»
+
+Description: By the 9th century, as reckoned by the old Teekan calendar, the vast Teekan Conglomerate began to experience an unprecedented economic decline. Their trade networks remained robust, but high inflation, unemployment, and shrinking incomes created a tenuous political situation for the ruling Board of Directors.
+	
+	A Teekan fringe world called New Market broke away from the Conglomerate under the leadership of Rugural Deknir, who established her Priorities of Governance. While the rest of the Teekan Conglomerate continued to languish, New Market prospered as an independent world, drawing Ancient Guardian attention.
+	
+	Some thirty years after its succession, New Market eventually rejoined the Teekan Conglomerate, this time as its capital world and with Deknir as the new Executive Officer. Her Priorities of Governance became the key to Teekan prosperity for centuries to come until those methods came to be diluted, misrepresented, or distorted by a string of Executive Officers pursuing private agendas. Such is the way with all cultures. Though they disdain the accumulation of wealth for its own sake as a meaningless pursuit, the Ancient Guardians recognize that civilizations do not thrive without strong economies.  Thus they have deemed Deknir's methods worthy of preservation.
+->
+К IX веку, согласно старому тиканскому календарю, огромный Конгломерат Тиканов начал переживать беспрецедентный экономический спад. Их торговые сети оставались стабильными, однако высокая инфляция, безработица и сокращение доходов создали шаткое политическое положение для правящего Совета директоров.
+
+Окраинный мир Тиканов под названием «Новый Рынок» отделился от Конгломерата под руководством Ругурал Декнир, которая установила свои Приоритеты управления. Пока остальная часть Конгломерата Тиканов продолжала угасать, Новый Рынок процветал как независимый мир, привлекая внимание Древних Стражей.
+
+Примерно через тридцать лет после своего восшествия на престол Новый Рынок в конечном итоге вновь присоединился к Конгломерату Тиканов, на этот раз став его столицей, а Декнир — новым Исполнительным директором. Её Приоритеты управления стали ключом к процветанию Тиканов на столетия вперед, пока эти методы не были размыты, искажены или превратно истолкованы целой чередой Исполнительных директоров, преследовавших личные интересы. Такова судьба всех культур. Хотя они презирают накопление богатства ради самого себя как бессмысленное занятие, Древние Стражи признают, что цивилизации не процветают без сильной экономики. Поэтому они сочли методы Декнир достойными сохранения.
+
+Name: Zenox Fertility Treatment
+->
+Зенокское средство повышения фертильности
+
+Description: The Eradication, as the virus later came to be called, spread for years before detection. The disease adapted to the genetic code of all life it encountered, regardless of species. Only as demographers began to notice a galaxy wide population decline – not only in sentient species, but also in animals and some plants -  did the search for a trans-species virus begin.
+
+Once discovered, it soon became clear that the Eradication posed an existential threat not only to civilization but to life itself. Fortunately, the Eradication attacked only reproductive systems, and then only on a percentage basis. The galaxy had years, perhaps centuries, before population declined to the point of civilization collapse. Nevertheless, the sense that all was doomed pervaded most cultures, leading to a period to be known as the Great Decline.
+
+Some seventy years after the virus's discovery, the Zenox Institute for Advanced Medicine announced the development of a vaccine. Its dissemination launched a new era of galactic optimism and cooperation, and the years that followed were the most peaceful in recorded history. Unknown to the rest of the galaxy, the Zenox kept for themselves an additional fertility treatment they discovered as a possible workaround to the virus. This enabled them, and only them, to return to pre-Eradication levels faster than any other civilization.
+
+The Ancient Guardians were able to secure a sample of this remarkable serum in exchange for other secrets.
+->
+«Истребление», как позже стали называть вирус, распространялся годами до обнаружения. Болезнь адаптировалась к генетическому коду всей жизни, с которой сталкивалась, независимо от вида. Только когда демографы начали замечать галактический спад численности населения – не только у разумных видов, но также у животных и некоторых растений – началось поиски трансвидового вируса.
+
+Как только вирус был обнаружен, вскоре стало ясно, что «Истребление» представляет собой экзистенциальную угрозу не только для цивилизации, но и для самой жизни. К счастью, вирус атаковал лишь репродуктивные системы, да и то лишь на процентной основе. У галактики были годы, возможно, столетия до того, как численность населения упадет до уровня коллапса цивилизации. Тем не менее, ощущение неминуемой гибели пронизывало большинство культур, что привело к периоду, известному как «Великий упадок».
+
+Примерно через семьдесят лет после открытия вируса Институт передовой медицины Зеноксов объявил о разработке вакцины. Её распространение положило начало новой эре галактического оптимизма и сотрудничества, а последующие годы стали самыми мирными в записанной истории. Никто в остальной части галактики не знал, что Зеноксы оставили себе дополнительное средство повышения фертильности, которое они обнаружили как возможное обходное решение вируса. Это позволило им, и только им, вернуться к докризисному уровню населения быстрее всех остальных цивилизаций.
+
+Древние Стражи смогли получить образец этой выдающейся сыворотки в обмен на иные секреты.
+
+Name: Kiraditu's Principles of Colonial Defense
+->
+Принципы обороны колоний Кирадиту
+
+Description: The story has the quality of myth, but the ancient Guardians have verified its truth (though myths are often worthy of preservation). Two brothers, who grew up poor and friendless in the slums of Port Greataxe, somehow ingratiated themselves with the local militia and ended up as students in the prestigious Grand Mortalen Academy for Military Advancement.
+
+Never before had the Academy accept any students from an insignificant family, let alone two at once. Both brothers graduated with "violent distinction" and later rose through the ranks during the Second Haakonish Uprising, on the very same day, both were promoted to admiral. There is no definitive account of the cause of their rupture, though most historians believe it emerged from a friendly jest misconstrued as a deliberate and cruel insult of the sort that cannot be forgiven in the Mortalen culture. The brothers became bitter enemies, each recruiting Mortalen worlds to their cause. Perhaps it would have led to little had the Mortalen Interstellar Protectorate not already grown too large in too short a period of time, causing it to begin crumbling under its own administrative weight. As it happened, both brothers came to lead the two principal factions in the emerging civil war.
+
+Kiraditu, the elder brother, emerged as clearly superior in formulating situational tactics, where as Hudnar, the younger brother, was a master of grand strategy. Kiraditu's side was soon on the run, and he and his forces took refuge on the aptly-named backwater world of Desert Crag. Hudnar expected to eliminate his younger brother's forces in a matter of days, but, under the undetected gaze of the Ancient Guardians, the siege of Desert Crag lasted for more than two years as Kiraditu defied odds, expectations, and supply shortages. A program he devised and recorded, designed to maximize and amplify all available defensive measures, delayed the inevitable.
+
+When Kiraditu did fall in the end, Hudnar immediately set out to destroy his brother's Principles of Colonial Defense, which he feared could cause Kiraditu's name to become immortal. It could also make Hudnar's future conquests more difficult if the work fell into the wrong hands. Hudnar could not know that the Ancient Guardians had already preserved his brother's work.
+->
+История обладает качеством мифа, однако Древние Стражи подтвердили её правдивость (хотя мифы часто достойны сохранения). Два брата, выросшие бедными и без друзей в трущобах Порта Громового Топора, каким-то образом сумели втереться в доверие к местному ополчению и в итоге стали студентами престижной Великой военной академии Морталенов для военного совершенствования.
+
+Никогда ранее Академия не принимала студентов из ничтожных семей, не говоря уже о двух сразу. Оба брата окончили её с «блестящими результатами» и впоследствии поднялись по карьерной лестнице во время Второго восстания Хааконишей; в один и тот же день оба были произведены в адмиралы. Не существует окончательного отчета о причине их разрыва, хотя большинство историков полагают, что она возникла из дружеской шутки, истолкованной как намеренное и жестокое оскорбление — того рода, которое не может быть прощено в морталенской культуре. Братья стали заклятыми врагами, каждый из которых вербовал морталенские миры на свою сторону. Возможно, это привело бы лишь к малым последствиям, если бы Межзвездный Протекторат Морталенов не вырос слишком быстро и стал уже слишком велик за столь короткий срок, что привело его к разрушению под собственным административным весом. Как оказалось, оба брата возглавили две основные фракции в зарождающейся гражданской войне.
+
+Кирадиту, старший брат, оказался явно более искусен в разработке ситуативной тактики, тогда как Худнар, младший брат, был мастером глобальной стратегии. Сторона Кирадиту вскоре оказалась в бегах, и он со своими силами укрылся на заслуженно названном захолустном мире Пустынный Утёс. Худнар ожидал уничтожить силы своего младшего брата за считанные дни, но под незаметным взором Древних Стражей осада Пустынного Утёса длилась более двух лет, пока Кирадиту вопреки всему, ожиданиям и нехватке снабжения выдерживал натиск. Разработанная им и записанная программа, призванная максимизировать и усилить все доступные оборонительные меры, отсрочила неизбежное.
+
+Когда Кирадиту в итоге пал, Худнар немедленно распорядился уничтожить «Принципы обороны колоний» своего брата, опасаясь, что это может сделать имя Кирадиту бессмертным. Это также могло бы осложнить будущие завоевания Худнара, если бы труд попал не в те руки. Худнар не мог знать, что Древние Стражи уже сохранили работу его брата.
+
+Name: Laughter and Leadership
+->
+Смех и лидерство
+
+Description: Many species employ various types of humor, some of which can even translate between cultures. Of all known species, humans are among the few who have turned the production of humor into full employment (though there has been some debate as to whether certain types of Dhayut public executioners serve a similar role).
+
+Such human humor laborers are known as comedians, and while their work was generally ignored by other species, the comedian known as Trang Pham rose to galactic prominence when she found herself trapped on an isolated colony during an unexpected crisis. The details remain unclear, but there were elements of disease and famine, and a massive war against the Boskarans meant no ships could be spared to rescue the inhabitants of Bandar IV.
+
+Though foreign to the world, and possessing no leadership experience, Pham used her interstellar fame as a humorist to galvanize the citizens of Bandar IV, helping them not only survive until they could receive aid, but to survive with a positive attitude and a good laugh. Pham later wrote of her experiences in a memoir entitled Laughter and Leadership. Even non-human leaders claim to have learned much from it.
+
+Despite extensive analysis, the Ancient Guardians have been unable to quantify the success of Pham's humor or, at times, to even detect when lines of text are meant to be humorous or serious. Nevertheless, several biological species have demonstrated an ability to glean much of value from the text.
+->
+Многие виды используют различные формы юмора, некоторые из которых способны переводиться между культурами. Из всех известных видов люди входят в число немногих, кто превратил создание юмора в полноценную профессию (хотя ведутся споры о том, выполняют ли подобную роль некоторые публичные палачи Дхаютов).
+
+Таких работников-гумористов называют комиками. Хотя их труд обычно игнорировался другими видами, комик по имени Транг Фам обрела галактическую известность, когда оказалась запертой на изолированной колонии во время неожиданного кризиса. Детали остаются неясными, но в ситуации присутствовали элементы болезни и голода, а масштабная война с Боскарой означала, что ни одного корабля нельзя было выделить для спасения жителей Бандер IV.
+
+Хотя она была чужой этому миру и не имела опыта руководства, Фам использовала свою межзвездную славу юмориста, чтобы сплотить граждан Бандер IV, помогая им не только выжить до прибытия помощи, но и выжить с позитивным настроем и добрым смехом. Позже Фам описала свой опыт в мемуарах под названием «Смех и лидерство». Даже нечеловеческие лидеры утверждают, что многому научились из неё.
+
+Несмотря на обширный анализ, Древние Стражи так и не смогли количественно оценить успех юмора Фам или даже определить в некоторых случаях, когда строки текста задуманы как шутка, а когда — как серьёзное высказывание. Тем не менее несколько биологических видов продемонстрировали способность извлекать из этого текста много ценного.
+
+Name: Thoughtful Retreat Archives
+->
+Архивы Обители раздумий
+
+Description: The Zenox world of Thoughtful Retreat was originally established as a research base, meant to house no more than a few thousand scientists along with their families and whatever secondary workers were required to maintain the outpost. Over the course of a century, it developed into the primary center of Zenox experimental scientific research, including many lines of inquiry the Ancient Guardians found both interesting and alarming.
+
+Among its most top-secret projects was experimentation with wormhole tech for the purposes of visiting other galaxies. The viability of this kind of technology was always dubious, but it nevertheless inevitably led to developments and innovations in only tangentially related fields. For example, research into alternating shield frequency to produce a single-ship wormhole generator failed miserably, but did lead to a new method for increasing shield recharge rates.
+
+There was some debate among the Ancient Guardians as to whether the Thoughtful Retreat Archives were worthy of preservation, or even if they were too dangerous to be preserved because of [CONTENT REDACTED]. At the Battle of Dactilla VII during the Shakturi War, when the fate of all life in the galaxy hung in the balance (even if the participants did not understand this was a turning point), it was the Zenox shield recharge rates that allowed the Freedom Alliance forces to survive. For that reason, a carefully edited version of the Thoughtful Retreat Archives was selected for Vault inclusion.
+->
+Мир Зеноксов «Обитель раздумий» изначально был создан как исследовательская база, предназначенная для размещения не более нескольких тысяч учёных вместе с их семьями и всех вспомогательных работников, необходимых для обслуживания аванпоста. В течение столетия он превратился в главный центр экспериментальных научных исследований Зеноксов, включая множество направлений исследований, которые Древние Стражи сочли как интересными, так и тревожными.
+
+Одним из самых засекреченных проектов были эксперименты с технологией червоточин для посещения других галактик. Жизнеспособность такого рода технологий всегда была сомнительной, но тем не менее она неизбежно привела к разработкам и инновациям в лишь косвенно связанных областях. Например, исследования по чередованию частоты щита с целью создания генератора червоточин для одного корабля потерпели крах, однако они привели к новому методу повышения скорости перезарядки щитов.
+
+Среди Древних Стражей существовали разногласия относительно того, достойны ли Архивы «Обители раздумий» сохранения или же их следует считать слишком опасными для этого из-за [ДАННЫЕ УДАЛЕНЫ]. Во время Битвы при Дактилле VII в ходе Шактурской войны, когда судьба всей жизни в галактике висела на волоске (даже если участники не осознавали, что это был переломный момент), именно скорость перезарядки щитов Зеноксов позволила силам Альянса Свободы выжить. По этой причине для включения в Хранилище была отобрана тщательно отредактированная версия Архивов «Обители раздумий».
+
+Name: The Maditor Method
+->
+Метод Мадитора
+
+Description: The Teekans were celebrated throughout the galaxy for their mining prowess, an ability other cultures wished to emulate. Their cultural reputation as mining engineers was warranted, but it was also highly exaggerated to the point that some assumed all Teekans were gifted mining engineers.
+
+The Ancient Guardians have observed that biological life forms are subject to generalizations. Because of these generalizations, the Teekan Birtum Maditor, a simple trader in ship parts, was abducted by pirates and sold to an independent Boskaran world that had been struggling to extract resources from its mines. The Boskarans sent Maditor to a penal mining colony with only thirty days' worth of food. Unless the mine's output increased during that period, the entire penal colony would be made to starve to death.
+
+Though he protested that he knew nothing of mining, the authorities would not listen to him. Legend states that Maditor drew upon his Teekan genetic knowledge to improve the colony's output, but this is false. In fact, he made use of a Boskaran prisoner who actually was a skilled engineer. Following their advice, Maditor was able to lead the mine to meet its quotas. Maditor was released and placed in charge of all mining operations across the Boskaran world. He protested, saying he still knew nothing of mining and begged the authorities to release the prisoner who had helped him, but the Boskarans would not believe him.
+
+When he failed to meet all future quotas, he was executed. Years later. The Boskaran prisoner escaped from the mining colony, sought out other Teekans and published their mining techniques under the assumed name of Birtum Maditor. This may have been to honor the Teekan, though we suspect this is a form of Boskaran irony we do not entirely understand. Regardless, the Ancient Guardians regard the Maditor Method too valuable to be lost.
+->
+Тиканы были прославлены во всей галактике за своё мастерство в добыче полезных ископаемых — способность, которую другие культуры желали перенять. Их культурная репутация как горных инженеров была оправдана, но также сильно преувеличена до такой степени, что некоторые полагали: все тиканы — одарённые горные инженеры.
+
+Древние Стражи наблюдали, что биологические формы жизни подвержены обобщениям. Из-за этих обобщений тикан Биртум Мадитор, простой торговец запчастями для кораблей, был похищен пиратами и продан на независимом мире Боскара, который с трудом добывал ресурсы из своих шахт. Боскара отправили Мадитора в штрафную горнодобывающую колонию с запасом еды всего на тридцать дней. Если бы добыча в шахте не возросла за этот период, вся колония была обречена на голодную смерть.
+
+Хотя он протестовал, заявляя, что ничего не знает о добыче полезных ископаемых, власти его не слушали. Легенда гласит, что Мадитор использовал свои тиканские генетические знания для увеличения добычи колонии, но это ложь. На самом деле он воспользовался услугами боскаранского заключённого, который на самом деле был искусным инженером. Следуя его советам, Мадитору удалось вывести шахту на выполнение установленных норм. Мадитор был освобождён и назначен ответственным за все горнодобывающие операции на всём мире Боскара. Он протестовал, заявляя, что всё ещё ничего не знает о добыче полезных ископаемых, и умолял власти освободить заключённого, который помог ему, но боскараны ему не поверили.
+
+Когда он не смог выполнить все последующие нормы, его казнили. Спустя годы боскаранский заключённый сбежал из горнодобывающей колонии, нашёл других тиканов и опубликовал их методы добычи под вымышленным именем Биртум Мадитор. Возможно, это было сделано в честь тикана, хотя мы подозреваем, что это форма боскаранской иронии, которую мы не до конца понимаем. В любом случае Древние Стражи считают метод Мадитора слишком ценным, чтобы быть утерянным.
+
+Name: Diplomacy and Other Means
+->
+Дипломатия и иные средства
+
+Description: In the old galaxy, humans were often regarded as the most gifted diplomats. The Human Diplomatic Corps sent its representatives to major galactic conflicts where they believed peaceful resolutions were possible. It was widely suspected (and Ancient Guardian research bears out these suspicions) that the Human Diplomatic Corps was also motivated to deploy its services in ways that best furthered Human interests.
+
+Humans are particularly skilled at pursuing simultaneous, sometimes contradictory, goals. The case of the Great Boskara-Haakonish Confrontation makes for an illustrative example. The Boskara and Haakonish had been skirmishing along their borders for decades when full blown war broke out. It threatened to plunge the entire sector into chaos. The fact that there were several major Human Caslon mining facilities in that sector made the war of great importance to Human interests. Neither side was interested in working with the Humans or in a ceasefire. For both sides, it had become a grudge match.
+
+In order to protect their interests, as well as to burnish their reputations as skilled diplomats, the Humans were determined to bring the two warring parties to the negotiating table. When they succeeded, it earned them the admiration of much of the galaxy. It also attracted the attention of the Ancient Guardians, who did not quite believe the Boskarans and Haakonish could be so easily convinced to set aside their differences. Further investigation revealed that Human espionage was almost as impressive as Human diplomacy. Agents infiltrated both sides of the conflict, directed to spread the message that their adversaries were prepared to make common cause with the Humans.
+
+The Boskarans and Haakonish felt they had no choice but to attend the negotiations. At first glance, this story may seem to suggest that the humans were better tricksters than diplomats, but it is worth noting that once Boskarans and Haakonish attended the negotiations, the Humans were able, after many months, to secure a ceasefire. Their diplomatic principles, once they had created the conditions in which they could exercise them, were judged to be sound and worth recording.
+->
+В старой галактике люди часто считались самыми одаренными дипломатами. Дипломатический корпус людей направлял своих представителей на крупные межгалактические конфликты, где они полагали, что возможны мирные решения. Широко распространено было мнение (и исследования Древних Стражей подтверждают эти подозрения), что Дипломатический корпус людей также стремился применять свои услуги таким образом, чтобы наилучшим образом продвигать интересы человечества.
+
+Люди особенно искусны в достижении одновременных, порой противоречивых целей. Ярким примером служит Великое противостояние Боскара и Хааконишей. Боскара и Хаакониши десятилетиями вели стычки на своих границах, пока не разразилась полномасштабная война. Она угрожала погрузить весь сектор в хаос. Тот факт, что в этом секторе располагалось несколько крупных человеческих шахт по добыче каслона, делал эту войну крайне важной для интересов людей. Ни одна из сторон не была заинтересована ни в сотрудничестве с людьми, ни в прекращении огня. Для обеих сторон это превратилось в войну на почве кровной мести.
+
+Чтобы защитить свои интересы и укрепить свою репутацию искусных дипломатов, люди были полны решимости усадить две воюющие стороны за стол переговоров. Когда им это удалось, они заслужили восхищение значительной части галактики. Это также привлекло внимание Древних Стражей, которые не совсем верили, что боскара и хаакониши могут быть так легко убеждены отложить свои разногласия в сторону. Дальнейшее расследование показало, что человеческий шпионаж был почти столь же впечатляющим, как и дипломатия. Агенты внедрились в обе стороны конфликта с целью распространять дезинформацию о том, что их противники готовы объединиться с людьми.
+
+Боскара и Хаакониши чувствовали, что у них нет иного выбора, кроме как явиться на переговоры. На первый взгляд эта история может показаться доказательством того, что люди были скорее ловкими трюкачами, чем дипломатами, однако стоит отметить: как только боскара и хаакониши прибыли на переговоры, людям удалось спустя многие месяцы добиться прекращения огня. Их дипломатические принципы, после того как они создали условия для их применения, были признаны здравыми и достойными сохранения.
+
+Name: Hattir's Training Manual
+->
+Учебное пособие Хаттира
+
+Description: Within the span of a half century, three different Mortalen worlds came under siege by vastly superior invading armies. Outnumbered and overwhelmed, in each case the Mortalen worlds survived against nearly impossible odds. Consequently, the Mortalen gained a reputation not only as fierce warriors, but as unmatched defenders.
+
+In all three cases, the Mortalen survived because of a series of unique circumstances and fortunate random occurrences. In other words, there was no strategy or replicable process which Mortalen defenders could use to achieve the same results in similar circumstances. Nevertheless, when Hattir, Emperor of the Mortalen Grand Domain, foresaw the near imminent economic collapse of his empire, he recognized an opportunity to capitalize on his people's reputation, despite it being unearned. Hattir began to sell his armies services as defenders to worlds under siege. This eased some of Hattir's immediate financial stress, but it created new problems.
+
+With each world the Mortalen Grand Domain defended, it gained a new enemy. Soon a confederation of more than eight united enemies besieged Hattir's throne world, determined to destroy the myth of the great Mortalen defenders. Most of his armies were off world, selling their services to the highest bidder, and so Hattir faced not only death and the loss of him empire, but also the shame of being exposed as a fraud.
+
+Rather than admit weakness, Hattir began to forge a strategy based on the teachings of some brilliant but forgotten military thinkers from Mortalen history. If he could not survive the siege, Hattir was determined to at least mount a heroic defense that would preserve his reputation. The Ancient Guardians traveled to the Mortalen Grand Domain to observe the battle, in which Hattir maximized his planet's defensive capacity and held out long enough for his mercenary fleets to return home and drive off the invaders. Though he depended on ideas not his own, Hattir combined these strategies in unique and often ingenious ways, making his methods worthy of Ancient Guardian preservation.
+->
+В течение полувека три различных мира морталенов подверглись осаде со стороны значительно превосходящих сил захватчиков. Численно уступая и будучи подавленными, в каждом случае миры морталенов выстояли вопреки почти невозможным обстоятельствам. В результате морталены приобрели репутацию не только свирепых воинов, но и непревзойденных защитников.
+
+Во всех трех случаях морталены выжили благодаря ряду уникальных обстоятельств и счастливых случайностей. Иными словами, не существовало никакой стратегии или воспроизводимого процесса, который защитники-морталены могли бы использовать для достижения тех же результатов в подобных условиях. Тем не менее, когда Хаттир, император Великого Домена Морталенов, предвидел неминуемый экономический крах своей империи, он увидел возможность нажиться на репутации своего народа, хотя она и была незаслуженной. Хаттир начал продавать услуги своих армий в качестве защитников мирам, находящимся под осадой. Это облегчило часть непосредственных финансовых проблем Хаттира, но породило новые проблемы.
+
+С каждым миром, который защищал Великий Домен Морталенов, он обретал нового врага. Вскоре конфедерация из более чем восьми объединившихся врагов осадила столичный мир Хаттира, решив уничтожить миф о великих защитниках-морталенах. Большая часть его армий находилась за пределами планеты, продавая свои услуги самому щедрому плательщику, и поэтому Хаттир столкнулся не только со смертью и потерей своей империи, но и с позором разоблачения как мошенника.
+
+Вместо того чтобы признать слабость, Хаттир начал выковывать стратегию на основе учений некоторых блестящих, но забытых военных мыслителей из истории морталенов. Если он не сможет пережить осаду, Хаттир был решен хотя бы организовать героическую оборону, которая сохранит его репутацию. Древние Стражи прибыли в Великий Домен Морталенов, чтобы наблюдать за битвой, в ходе которой Хаттир максимально использовал оборонительный потенциал своей планеты и продержался достаточно долго, чтобы его наемные флоты успели вернуться домой и отогнать захватчиков. Хотя он опирался на чужие идеи, Хаттир объединил эти стратегии уникальными и зачастую гениальными способами, сделав свои методы достойными сохранения Древними Стражами.
+
+Name: The Itimai Method
+->
+Метод Итимая
+
+Description: "They're with Hadi Itimai." It's an old Ackdarian expression meaning that someone is lost and will never be found. But who was Hadi Itimai?
+
+In the years prior to the Shakturi War, Hadi Itimai emerged as the most brilliant ship designer in a culture known for its brilliant ship designs. A household name among Ackdarians, Hadi Itimai's fame soon spread across the galaxy as others wished to learn from the great master. Itimai refused all invitations to lecture and meet an adoring public, instead focusing on a project meant to improve Ackdarian ship speeds beyond what was currently believed possible. Then Itimai vanished.
+
+This disappearance became something of a cultural phenomenon. Rumors, conspiracy theories, and false sightings abounded. Fictional holovids purporting to explain Itimai's disappearance became popular among many species. When the Shakturi War began, the Freedom Alliance had cause to lament that it did not have Itimai's knowledge upon which to draw. It was only after the war that the Ancient Guardians were able to learn that Hadi Itimai was abducted by the Shakturi and forced to improve the Shakturi fleet. A terrible fate for a brilliant mind, but Itimai's insights remain fascinating and useful.
+->
+«Они с Хади Итимай». Это старое акдарианское выражение, означающее, что кто-то потерян и никогда не будет найден. Но кем же был Хади Итимай?
+
+В годы, предшествовавшие Войне Шактури, Хади Итимай стал самым блестящим конструктором кораблей в культуре, известной своими гениальными проектами. Будучи широко известным именем среди Акдариан, слава Хади Итимая вскоре распространилась по всей галактике, поскольку другие желали учиться у великого мастера. Итимай отказался от всех приглашений читать лекции и встречаться с поклонниками, сосредоточившись вместо этого на проекте, призванном увеличить скорость кораблей за пределы возможного, как считалось в то время. Затем Итимай исчез.
+
+Это исчезновение стало своего рода культурным феноменом. Сплетни, теории заговора и ложные свидетельства были повсюду. Художественные головидео, претендующие на объяснение исчезновения Итимая, стали популярны среди многих видов. Когда началась Война Шактури, Альянс Свободы имел основания сожалеть о том, что у него не было знаний Итимая, к которым можно было бы прибегнуть. Лишь после войны Древние Стражи смогли узнать, что Хади Итимай был похищен Шактури и принужден совершенствовать флот Шактури. Это ужасная судьба для блестящего ума, но идеи Итимая остаются захватывающими и полезными.
+
+Name: The Jhahtu Reforms
+->
+Реформы Джату
+
+Description: Once the Shakturi War had begun, and the full power of the invaders began to make itself known, a massive push began to increase the size of the Freedom Alliance fleets. Even those governments that had believed their defensives to be ample to the point of excessive now realized they were woefully unprepared for the threat of extinction they now faced.
+
+In the push to increase ship production, the Freedom Alliance received assistance from an unlikely source, a Dhayut engineer and defector named Jhahtu. This curious thinker, through the power of his will, had severed himself from his people's hive mind at an early age.
+
+Similarly, he rejected the values of his people and sought asylum on the Ikkuro homeworld, where he pursued a career in ship building. There he married and, because of Ikkuro-Dhayut genetic incompatibility, mourned that he was unable to have children. Instead, he dedicated himself to his work.
+
+At the time, there were rumors that Jhahtu's un-Dhayut nature was the result of some secret genetic engineering experiments, but this allegation has never been proved. Ancient Guardians possess the answer, but consider it irrelevant. To the Ancient Guardians, all that matters is that Jhahtu initiated several shipbuilding reforms that allowed the Freedom Alliance to hold out for as long as they did.
+->
+Как только началась Шактурская война и вся мощь захватчиков начала проявлять себя, начался мощный рывок по увеличению численности флотов Альянса Свободы. Даже те правительства, которые считали свою оборону достаточной и даже избыточной, теперь осознали, что прискорбно неподготовлены к угрозе вымирания, с которой они столкнулись.
+
+В ходе рывка по увеличению производства кораблей Альянс Свободы получил помощь от неожиданного источника — инженера-дхаюта и дезертира по имени Джату. Этот любопытный мыслитель благодаря силе своей воли в раннем возрасте отсек себя от коллективного разума своего народа.
+
+Аналогично, он отверг ценности своего народа и попросил убежища на родной планете Иккуро, где построил карьеру в кораблестроении. Там он женился, но из-за генетической несовместимости между Иккуро и Дхаютами оплакивал свою неспособность иметь детей. Вместо этого он посвятил себя своей работе.
+
+В то время ходили слухи, что недхаютская природа Джату является результатом неких секретных экспериментов по генной инженерии, однако это обвинение так и не было доказано. Древние Стражи обладают ответом, но считают его несущественным. Для Древних Стражей важно лишь то, что Джату инициировал ряд реформ в кораблестроении, которые позволили Альянсу Свободы продержаться так долго, как он смог.
+

@@ -1,0 +1,57 @@
+Лог перевода: 1.3.4.3\English\DLC Ikkuro and Dhayut\Races_Dhayut.xml
+Выходной файл: 1.3.4.3\Russian\DLC Ikkuro and Dhayut\Races_Dhayut.xml
+Всего переводов: 7
+================================================================================
+
+Description: Dhayuts are a large, powerful arachnid race. Dhayuts have a massive distended head with prominent red splotches and large orange-yellow eyes.
+
+Dhayuts are very aggressive and highly unfriendly. They can also prove to be treacherous partners, betraying their allies whenever expedient.
+
+They reproduce at a low rate, and thus their populations can take some time to grow.
+
+When they are angered Dhayuts can become frenzied and temporarily insane, acting instinctively wild. At these times they are extremely dangerous, becoming totally fearless when attacking.
+
+Dhayuts are also famous for their ruthlessness. They generally have no qualms about stealing, cheating or murdering if it furthers their interests. For this reason it is wise to use extreme caution when dealing with them.
+
+The Dhayuts natural fascination with hyperspace technology has led them to develop the VelocityDrive ST3, an extremely fast and efficient hyperdrive.
+
+The natural habitats of Dhayuts are rocky retreats on Desert Savanna, Rocky Desert or Sandy Desert planets.
+->
+Дхаюты — крупная и мощная раса паукообразных. У Дхаютов массивная выпуклая голова с заметными красными пятнами и большие оранжево-жёлтые глаза.
+
+Дхаюты крайне агрессивны и крайне недружелюбны. Они также могут оказаться предательскими партнёрами, предавая своих союзников всякий раз, когда это выгодно.
+
+Они размножаются медленно, поэтому их популяциям требуется некоторое время для роста.
+
+Когда Дхаютов приводят в ярость, они впадают в бешенство и временно теряют рассудок, действуя инстинктивно дико. В такие моменты они крайне опасны, становясь совершенно бесстрашными при атаке.
+
+Дхаюты также известны своей безжалостностью. Они обычно не испытывают угрызений совести, совершая кражи, обман или убийства, если это служит их интересам. По этой причине следует проявлять крайнюю осторожность при взаимодействии с ними.
+
+Естественная тяга Дхаютов к технологиям гиперпространства привела их к созданию VelocityDrive ST3 — чрезвычайно быстрого и эффективного гипердвигателя.
+
+Естественные места обитания Дхаютов — скалистые убежища на планетах типа Пустынной саванны, Скалистой пустыни или Песчаной пустыни.
+
+string (FeatureExplanations): [HL]Disinformation:[/HL] Deep Cover mission success against another faction also provides the ability to create disinformation at all levels, making the target faction view the Dhayut more positively
+->
+[HL]Дезинформация:[/HL] Успешное выполнение секретной миссии глубокого прикрытия против другой фракции также даёт возможность создавать дезинформацию на всех уровнях, заставляя целевую фракцию воспринимать Дхаютов более позитивно
+
+string (FeatureExplanations): [HL]Inspired Conniving:[/HL] whenever a difficult intelligence mission succeeds, provides a boost to All espionage missions against that faction for the next year
+->
+[HL]Вдохновлённая коварность:[/HL] при успешном завершении сложной разведывательной миссии обеспечивает бонус ко всем шпионским миссиям против этой фракции на следующий год.
+
+string (FeatureExplanations): [HL]Unique Leader trait - Slaver:[/HL] +10% income from Slavery policy
+->
+[HL]Уникальная черта лидера — Рабовладелец:[/HL] +10% дохода от политики «Рабство»
+
+string (FeatureExplanations): [HL]Unique Leader trait - Divide and Rule:[/HL] +5% Happiness
+->
+[HL]Уникальная черта лидера — Разделяй и властвуй:[/HL] +5% к счастью
+
+string (FeatureExplanations): [HL]Unique Spy trait - Careful Weaver:[/HL] +10% Counter-espionage
+->
+[HL]Уникальная шпионская черта — Осторожный Ткач:[/HL] +10% контршпионаж
+
+string (FeatureExplanations): [HL]Unique Spy trait - Strikes from Shadow:[/HL] +10% Assassination
+->
+[HL]Уникальная шпионская черта — Удары из тени:[/HL] +10% к убийствам
+

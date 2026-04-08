@@ -19,7 +19,7 @@
 		</BonusesToOwner>
 		<QualityBoost>0</QualityBoost>
 		<RaceId>9</RaceId>
-		<Name>Гимн Солдат</Name>
+		<Name>Песнь воинов</Name>
 		<Description>Это устройство воспроизведения аудио содержит единственную запись с исключительной точностью звука. Многие виды не смогут расшифровать текст песни, но все, кто её услышит, наполнятся мужеством и будут вдохновлены на новые высоты воинского мастерства.</Description>
 		<ImageFilename>Artifacts/the soldiers anthem</ImageFilename>
 	</Artifact>

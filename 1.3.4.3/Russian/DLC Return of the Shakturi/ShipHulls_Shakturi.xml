@@ -23688,7 +23688,7 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Космическая крепость</Name>
+		<Name>Космический бастион</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Station_Small</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -66212,7 +66212,7 @@
 				<Amount>43</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Тяжёлый бомбардировщик</Name>
+		<Name>Тяжелый бомбардировщик</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -66915,7 +66915,7 @@
 				<Amount>50</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Штурмовик-бомбардировщик</Name>
+		<Name>Штурмовой бомбардировщик</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -67670,7 +67670,7 @@
 			</RunningLight>
 		</RunningLights>
 		<Name>Мировой корабль</Name>
-		<Description>DO NOT ADD TO TECH TREE</Description>
+		<Description>НЕ ДОБАВЛЯТЬ В ДЕРЕВО ТЕХНОЛОГИЙ</Description>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Ship_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>

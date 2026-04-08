@@ -1,0 +1,637 @@
+Лог перевода: 1.3.4.3\English\DW2\Resources.xml
+Выходной файл: 1.3.4.3\Russian\DW2\Resources.xml
+Всего переводов: 158
+================================================================================
+
+Name: Emeros Crystal
+->
+Кристалл эмерос
+
+Description: Emeros Crystal is a brilliant green gemstone. It is typically used in weapons components. Emeros crystal is found on Volcanic worlds and occasionally at Carbonaceous worlds.
+->
+Кристалл эмерос — это ослепительно зеленый драгоценный камень. Обычно он используется в компонентах оружия. Кристаллы эмерос встречаются на вулканических мирах и иногда на углеродистых мирах.
+
+Name: Nekros Stone
+->
+Некрос-камень
+
+Description: Nekros Stone is a deep red gemstone used in weapons components. Nekros stone is found on Volcanic worlds and occasionally at Rocky Desert worlds.
+->
+Некрос-камень — это глубокий красный драгоценный камень, используемый в компонентах оружия. Некрос-камни встречаются на вулканических мирах и иногда на каменистых пустынных мирах.
+
+Name: Osalia
+->
+Озалия
+
+Description: Osalia is a purple gemstone used in weapons components. Osalia stones are found at Volcanic, Desert and Continental worlds.
+->
+Озалия — это фиолетовый драгоценный камень, используемый в компонентах оружия. Камни озалии встречаются на вулканических, пустынных и континентальных мирах.
+
+Name: Kaasian Crystal
+->
+Каасийский кристалл
+
+Description: Kaasian Crystal is a rare aqua-blue gemstone. It is typically used in high-end weapons components. Kaasian Crystal is found on Ocean worlds.
+->
+Кристалл Каасия — редкий аква-голубой драгоценный камень. Обычно он используется в компонентах высококлассного оружия. Кристалл Каасия встречается на океанических мирах.
+
+Name: Argon
+->
+Аргон
+
+Description: Argon is an inert yellow gas. It is typically used in weapons, shielding and reactor components. Argon is found at Gas Giant and Frozen Gas Giant worlds.
+->
+Аргон — инертный желтый газ. Обычно используется в оружии, щитах и компонентах реакторов. Аргон встречается на планетах Газовые гиганты и Замерзшие газовые гиганты.
+
+Name: Krypton
+->
+Криптон
+
+Description: Krypton is an inert green gas. It is typically used in weapons, shielding and reactor components. Trace quantities are found at Gas Giant and Frozen Gas Giant worlds.
+->
+Криптон — инертный зеленый газ. Обычно он используется в оружии, щитах и компонентах реакторов. Следовые количества встречаются на планетах Газовых гигантов и Замерзших газовых гигантов.
+
+Name: Tyderios
+->
+Тидериос
+
+Description: Tyderios is a rare inert gas used in weapons, shielding and reactor components. Tyderios gas has a pinkish tinge. It is heavier than air and will sink to ground-level unless buoyed by other surrounding gases. It is found in trace quantities at Ice and Frozen Gas Giant worlds.
+->
+Тидериос — редкий инертный газ, используемый в оружии, щитах и компонентах реакторов. Газ тидериос имеет розоватый оттенок. Он тяжелее воздуха и оседает на уровне земли, если его не удерживают другие окружающие газы. Встречается в следовых количествах на ледяных мирах и мирах с замерзшими газовыми гигантами.
+
+Name: Silicon
+->
+Кремний
+
+Description: Silicon is used in electronic components and energy collectors. It is found at Rocky Silicon and Desert worlds.
+->
+Кремний используется в электронных компонентах и энергетических коллекторах. Он встречается на каменисто-кремниевых мирах и пустынных мирах.
+
+Name: Steel
+->
+Сталь
+
+Description: Steel is a very common construction material smelted from iron ore. Large amounts of steel are required to build most ships and bases. Iron ore is usually found at Rocky Metallic and Continental worlds, or asteroids.
+->
+Сталь — очень распространенный строительный материал, получаемый выплавкой из железной руды. Для постройки большинства кораблей и баз требуются большие объемы стали. Железная руда обычно встречается на каменисто-металлических и континентальных мирах или астероидах.
+
+Name: Mebnar
+->
+Мебнар
+
+Description: Mebnar is a very dense metal smelted from Mebnar ore. It has a dull dark grey, almost black appearance. It is particularly useful as heavy shielding in Reactor components. Mebnar is often found at Rocky Metallic worlds and asteroids
+->
+Мебнар — очень плотный металл, выплавленный из руды мебнара. Он имеет тусклый темно-серый, почти черный вид. Особенно полезен в качестве тяжелой брони для компонентов реакторов. Мебнар часто встречается на каменисто-металлических мирах и астероидах.
+
+Name: Aculon
+->
+Акулон
+
+Description: Aculon is a very strong, heat-resistant blue metal smelted from Aculon ore. It is typically used in components that are exposed to extreme temperatures. Aculon ore is found at Volcanic and Rocky Metallic worlds and at asteroids.
+->
+Акулон — очень прочный, жаростойкий синий металл, выплавленный из руды акулон. Обычно он используется в компонентах, подвергающихся экстремальным температурам. Руда акулон встречается на вулканических и каменисто-металлических мирах, а также на астероидах.
+
+Name: Cuprica
+->
+Куприка
+
+Description: Cuprica is a shiny metal smelted from Cuprica ore. It is extremely strong and light-weight and has a shiny red-brown appearance. Cuprica is commonly used in beam and torpedo weapons. It is found at some Rocky Metallic planets and at asteroids.
+->
+Куприка — блестящий металл, выплавленный из руды куприки. Она исключительно прочна и легка, обладает блестящим красно-коричневым оттенком. Куприка широко применяется в лучевом и торпедном оружии. Её можно найти на некоторых каменисто-металлических планетах и астероидах.
+
+Name: Polymer
+->
+Полимер
+
+Description: Polymers are various types of plastics, usually produced from petroleum. It is typically used in electronic components. Polymer is found at Ocean, Marshy Swamp and Continental worlds.
+->
+Полимеры — это различные виды пластмасс, обычно производимые из нефти. Они обычно используются в электронных компонентах. Полимеры встречаются на мирах с океаном, болотистыми топями и континентальным биомом.
+
+Name: Carbonite
+->
+Карбонит
+
+Description: Carbonite is a super-strong carbon compound. It is typically used in components that require great strength and resistance to high temperatures. Carbonite is found at Marshy Swamp, Mangrove Forest, Continental and Carbonaceous worlds.
+->
+Карбонит — это сверхпрочное углеродистое соединение. Обычно он используется в компонентах, требующих высокой прочности и устойчивости к экстремальным температурам. Карбонит встречается на мирах с болотистыми топями, мангровыми лесами, континентальными ландшафтами и углеродистой поверхностью.
+
+Name: Caslon
+->
+Каслон
+
+Description: Caslon is a common gas that is a universal reactor fuel. It is found at Gas Giant worlds.
+->
+Каслон — это распространенный газ, являющийся универсальным реакторным топливом. Он встречается на планетах газовых гигантов.
+
+Name: Loros Fruit
+->
+Плод лороса
+
+Description: Loros Fruit is an extremely rare, sweet pink fruit of the Loros tree. It is prized for its amazing restorative properties, as well as its rich flavor and velvety texture. Loros fruit dramatically increases lifespan. The natural aging process is slowed radically, allowing a being to live much longer than normal. Any colony supplied with Loros fruit thus receives a large development bonus, over and above any other bonus. Once discovered, every effort should be made to control the trade of this highly valuable resource. Loros fruit grows only on Marshy Swamp worlds.
+->
+Плод лороса — крайне редкий сладкий розовый плод дерева лорос. Он высоко ценится за свои удивительные восстановительные свойства, а также за насыщенный вкус и бархатистую текстуру. Плоды лороса значительно увеличивают продолжительность жизни: естественный процесс старения радикально замедляется, позволяя существу жить гораздо дольше обычного. Любая колония, снабжаемая плодами лороса, получает крупный бонус к развитию, сверх любых других бонусов. Как только этот ресурс будет обнаружен, следует приложить все усилия для контроля его торговли. Плоды лороса растут исключительно на мирах с болотистыми топями.
+
+Name: Megallos Nut
+->
+Орех мегаллос
+
+Description: Megallos Nut is the tangy yellow nut of the Megallos tree. These trees have a gnarled, twisted appearance. They grow very slowly, usually taking 2,000 years to reach a mature height of 5 meters. Their vast root system can spread for up to 30 meters in every direction. They grow deep within dense forests on Continental worlds.
+->
+Орех мегаллос — это терпкий желтый орех с дерева мегаллос. Эти деревья имеют узловатый, искривленный вид. Они растут очень медленно, обычно требуя 2000 лет, чтобы достичь зрелой высоты в 5 метров. Их обширная корневая система может распространяться до 30 метров во всех направлениях. Они произрастают глубоко внутри густых лесов на континентальных мирах.
+
+Name: Falajian Spice
+->
+Фалажианская пряность
+
+Description: Falajian Spice is a powdery brown spice harvested from the Falajian bush. It is highly valued for its distinctive rich flavor. Falajian spice is used extensively in exotic cuisine. Falajian spice is made from the leaves of the Falajian bush by slowly drying them and then grinding them to a fine powder. Falajian bushes grow in swampy ponds on Marshy Swamp worlds.
+->
+Фалажианская пряность — это порошкообразная коричневая специя, собираемая с кустов фалажана. Она высоко ценится за свой уникальный насыщенный вкус. Фалажианскую пряность широко используют в экзотической кухне. Её получают из листьев куста фалажана: их медленно сушат, а затем перемалывают в тонкий порошок. Кусты фалажана произрастают на болотистых прудах миров с болотистой топью.
+
+Name: Korabbian Spice
+->
+Кораббианская пряность
+
+Description: Korabbian Spice is an extremely rare crystallized white spice. It is valued for its unique medicinal properties. Under special circumstances deposits of Korabbian spice will spontaneously accumulate on the walls of rocky canyons. The exact process that forms Korabbian spice has never been precisely identified. But it is theorized that the spice is created by a chemical reaction between certain types of rocks and the harsh, hot winds that sometimes gust through the canyons. It dramatically increases mental sharpness, allowing a being to perform incredible intellectual feats. Any colony supplied with Korabbian spice thus receives a large development bonus, over and above any other bonus. Once discovered, every effort should be made to control the trade of this highly valuable resource. Korabbian spice is found exclusively on Desert worlds.
+->
+Кораббианская пряность — это чрезвычайно редкая кристаллизованная белая специя. Она ценится за свои уникальные лечебные свойства. В особых условиях залежи кораббианской пряности могут спонтанно накапливаться на стенах скалистых каньонов. Точный процесс образования кораббианской пряности никогда не был точно установлен. Однако существует теория, согласно которой специя образуется в результате химической реакции между определенными типами горных пород и суровыми горячими ветрами, которые иногда срываются через каньоны. Она драматически повышает остроту ума, позволяя существу совершать невероятные интеллектуальные подвиги. Любая колония, снабжаемая кораббианской пряностью, получает значительный бонус к развитию, сверх любых других бонусов. Как только она будет обнаружена, следует приложить все усилия для контроля торговли этим высокоценным ресурсом. Кораббианская пряность встречается исключительно на мирах-пустынях.
+
+Name: Ekarus Meat
+->
+Мясо экаруса
+
+Description: Ekarus Meat is the tender meat of the Ekarus beast. The Ekarus is a fierce predator that inhabits watery bogs on Marshy Swamp worlds. It can remain submerged underwater for hours at a time, only surfacing when it locates suitable prey swimming above.
+->
+Мясо экаруса — нежное мясо зверя экаруса. Экарус — свирепый хищник, обитающий в водных болотах на мирах с болотистыми топями. Он может находиться под водой часами, всплывая лишь тогда, когда обнаруживает подходящую добычу, плывущую над поверхностью.
+
+Name: Nepthys Wine
+->
+Нефтидское вино
+
+Description: Nepthys Wine is a fine wine made from Nepthys seaweed. Enormous forests of the seaweed grow deep beneath the oceans. Stands of the seaweed can reach heights of 40 meters or more. Nepthys seaweed is unique to Ocean worlds.
+->
+Вино «Нефтид» — изысканное вино, изготовленное из нефтидской водоросли. Огромные леса этой водоросли произрастают глубоко под океанами. Отдельные заросли могут достигать высоты 40 метров и более. Нефтидская водоросль уникальна для миров-океанов.
+
+Name: Rephidium Ale
+->
+Репхидиевый Эль
+
+Description: Rephidium Ale is a delicious, super-dry beer. Several different variations of Rephidium ale are produced. Some of these blends use secret ingredients. However the primary common ingredient is the leaves and stalks of the Repha bush. Rephidium Ale is produced on Forest worlds.
+->
+Репхидиевый Эль — это вкусное, сверхсухое пиво. Производится несколько различных сортов репхидиевого эля. Некоторые из этих смесей используют секретные ингредиенты. Однако основным общим ингредиентом являются листья и стебли куста рефа. Репхидиевый Эль производится на лесных мирах.
+
+Name: Wiconium
+->
+Виконий
+
+Description: Wiconium is an incredibly sweet type of alcohol made from the rare Wiconius plant. This plant is a cactus-like succulent. It has thick spongy leaves that contain the rich Wiconium juice. The Wiconius plant is found only on Desert Savanna worlds.
+->
+Виконий — невероятно сладкий вид алкоголя, изготовленный из редкого растения викониус. Это растение представляет собой суккулент кактусообразной формы. Оно обладает толстыми губчатыми листьями, содержащими богатый сок викониуса. Растение викониус встречается исключительно на мирах пустынной саванны.
+
+Name: Vodkol
+->
+Водкол
+
+Description: Vodkol is a powerful alcoholic beverage made from the roots of the Vodia plant. This hardy plant grows in the tundra wastelands of Ice worlds. Above ground the Vodia plant appears as a scraggly shrub with broad, pale yellow leaves. Below ground it has bulbous, white roots.
+->
+Водкол — мощный алкогольный напиток, изготовленный из корней растения Водия. Это выносливое растение произрастает в тундровых пустошах ледяных миров. Над землёй растение Водия выглядит как чахлый кустарник с широкими бледно-жёлтыми листьями. Под землёй у него клубневидные белые корни.
+
+Name: Questurian Skin
+->
+Квестурианская кожа
+
+Description: Questurian Skin is the soft, scaly skin of the Questurian, an enormous aquatic reptile. Questurians are deadly predators that can grow to lengths of 100 meters or more. They inhabit dark undersea tunnels and caves in the depths of vast oceans. They are found exclusively on Ocean worlds.
+->
+Мех квестуриана — это мягкая чешуйчатая кожа квестуриана, огромного водного рептилия. Квестуриане — смертоносные хищники, способные достигать длины 100 метров и более. Они обитают в темных подводных туннелях и пещерах на глубине обширных океанов. Их можно встретить исключительно на мирах с океанами.
+
+Name: Bifurian Silk
+->
+Бифурианский шелк
+
+Description: Bifurian Silk is an extremely fine shimmering blue silk, spun by the Bifuria worm. Bifuria worms live deep in dark underground caves on Grasslands and Continental worlds. They attach themselves to the ceiling and walls of damp grottos and spin vast webs of ultra-fine gossamer fibers. These fibers can be collected and woven into Bifurian silk.
+->
+Бифурианский шелк — это чрезвычайно тонкая, мерцающая синяя ткань, которую прядет червь Бифурии. Черви Бифурии обитают глубоко в темных подземных пещерах на мирах с луговыми и континентальными биомами. Они прикрепляются к потолку и стенам влажных гротов и прядут огромные сети из сверхтонких волокон шелка-сырца. Эти волокна можно собирать и переплетать в бифурианский шелк.
+
+Name: Caguar Fur
+->
+Мех Кагуара
+
+Description: Caguar Fur is the luxuriant fur of the striped Caguar. The Caguar is a huge sabre-cat that prowls the wild rainforests of Forest and Marshy Swamp worlds. The adult length of a Caguar from nose to tail is approximately 4 meters. They have razor-sharp claws that they use to capture their prey.
+->
+Мех Кагуара — это роскошный мех полосатого кагуара. Кагуар — огромный саблезубый кот, обитающий в диких тропических лесах миров с лесным и болотистым биомами. Длина взрослого кагуара от носа до хвоста составляет примерно 4 метра. У них есть острые как бритва когти, которыми они ловят свою добычу.
+
+Name: Terallion Down
+->
+Тераллионийский пух
+
+Description: Terallion Down is the soft white down of the Terallion beast. Terallions are four-legged birds that inhabit the tundra wastelands of Frozen Ice worlds. They have a vast wingspan that can reach 6 meters. Terallions hunt small rodents, or even sentient species like Jintus or Ugnari.
+->
+Пух тераллиона — это мягкий белый пух зверя тераллиона. Тераллионы — четырёхногие птицы, населяющие тундровые пустоши ледяных миров. Их размах крыльев может достигать 6 метров. Тераллионы охотятся на мелких грызунов или даже разумные виды, такие как динты или угнари.
+
+Name: Dantha Fur
+->
+Мех данты
+
+Description: Dantha Fur is the shaggy brown-white fur of the Dantha. Danthas are large animals that live on the vast desert plains of Desert worlds. They live in herds ranging in size from 30 to 200. Danthas migrate across the desert in search of food. Their preferred diet are the Lopid fungii that grow about half a meter beneath the desert sands. Danthas have a highly-developed sense of smell that allows them to locate these water-bearing fungal growths and dig them out.
+->
+Мех данты — это длинная, волнистая шерсть коричнево-белого цвета у животных данта. Данты — крупные существа, обитающие на бескрайних пустынных равнинах миров с пустынным климатом. Они живут в стадах численностью от 30 до 200 особей. Данты мигрируют по пустыне в поисках пищи. Их основной рацион составляют грибы лопид, произрастающие примерно на полуметре под поверхностью песков. У дантов прекрасно развито обоняние, позволяющее им обнаруживать эти влагоносные грибковые образования и выкапывать их из песка.
+
+Name: Aquasian Incense
+->
+Аквазианские благовония
+
+Description: Aquasian Incense is an intense blue-colored perfume. It is made from a combination of various unique ingredients found on Ocean worlds. The primary ingredient is poisonous spines from Dakhul deep sea anemones. Another constituent is brilliant blue Orkton coral, crushed to a fine powder.
+->
+Аквазианские благовония — это интенсивные синие духи. Они созданы из смеси уникальных ингредиентов, найденных на океанических мирах. Основной компонент — ядовитые шипы глубоководных актиний даркхулов. Другой ингредиент — ярко-синий коралл орктонов, перемолотый в тонкий порошок.
+
+Name: Natarran Incense
+->
+Натарранские благовония
+
+Description: Natarran Incense is a beautiful but subtle perfume made from the Natarril plant. Natarril is a small shrub with tiny blue-green leaves and dazzling multi-color flowers. It is typically found clinging to rocky cliff-faces on Rocky Desert worlds.
+->
+Аромат вофулы — прекрасный, но тонкий парфюм, созданный из растения натаррил. Натаррил — небольшой кустарник с крошечными голубовато-зелеными листьями и ослепительными разноцветными цветами. Обычно он произрастает на скалистых обрывах миров песчаных пустынь.
+
+Name: Zentabia Fluid
+->
+Зентабийский флюид
+
+Description: Zentabia Fluid is a potent healing fluid made from the rare Zentabia flower. These flowers occasionally grow in sheltered crevices on Volcanic worlds. Their petals are colored a brilliant green. They thrive in very hot environments. Zentabia fluid can heal nearly any wound or disease. It can even repair damaged limbs or organs. Any colony supplied with Zentabia fluid thus receives a large development bonus, over and above any other bonus. Once discovered, every effort should be made to control the trade of this highly valuable resource.
+->
+Жидкость Зентабии — мощное целебное средство, изготовленное из редкого цветка зентабии. Эти цветы иногда произрастают в защищённых расщелинах на вулканических мирах. Их лепестки окрашены в ослепительно-зелёный цвет. Они процветают в крайне жарких условиях. Жидкость Зентабии способна исцелить практически любую рану или болезнь. Она может даже восстановить повреждённые конечности и органы. Любая колония, снабжённая жидкостью Зентабии, получает значительный бонус к развитию, сверх любых других бонусов. Как только этот высокоценный ресурс будет обнаружен, следует приложить все усилия для контроля его торговли.
+
+Name: Ilosian Jade
+->
+Илозианский нефрит
+
+Description: Ilosian Jade is a beautiful translucent green stone. It is mined in great slabs from riverbed rocks. Ilosian jade is found exclusively on Marshy Swamp worlds.
+->
+Илозианский нефрит — красивый полупрозрачный зеленый камень. Его добывают в виде огромных плит из речных пород. Илозианский нефрит встречается исключительно на мирах с болотистыми топями.
+
+Name: Otandium Opal
+->
+Отандиевый опал
+
+Description: Otandium Opal is a brilliant, sparkling, multi-colored stone. Otandium opals are found on the shores of lava lakes on Volcanic worlds. They are produced when certain types of lava cools very quickly.
+->
+Опал отандия — это блестящий, сверкающий многоцветный камень. Опалы отандия встречаются на берегах лавовых озер вулканических миров. Они образуются при быстром остывании определенных типов лавы.
+
+Name: Jakanta Ivory
+->
+Джакантская кость
+
+Description: Jakanta Ivory comes from the ivory tusks of the Jakanta ice-beast. Jakantas are reclusive creatures that inhabit the mountains of Ice planets. They are large, six-legged bear-like animals with thick shaggy white fur. Their tusks can grow to lengths exceeding 3 meters.
+->
+Меч Джаканты добывается из бивней ледяных зверей Джаканта. Джаканты — скрытные существа, обитающие в горах ледяных планет. Это крупные шестилегие животные, похожие на медведей, с густой белой шерстью. Их бивни могут достигать длины более 3 метров.
+
+Name: Ucantium Pearl
+->
+Укантиевая жемчужина
+
+Description: Ucantium Pearls are enormous pink and blue pearls that grow in the Ucantium clam, a shell-fish found deep in the seas of Ocean worlds. The Ucantium clam can live for thousands of years and can reach diameters of 5 meters or more. A single clam can produce hundreds of pearls.
+->
+Жемчужины укантия — это огромные розовые и синие жемчужины, которые образуются в устрице укантии, моллюске, обитающем на глубине морей миров океанического типа. Устрица укантия может жить тысячи лет и достигать диаметра 5 метров и более. Одна особь способна производить сотни жемчужин.
+
+Name: Yarras Marble
+->
+Яррасский мрамор
+
+Description: Yarras Marble is a magnificently textured blue marble. Yarras marble is formed when carbonate rocks are infused with millions of tiny blue Agea crystals. This is usually caused by underground streams flowing through the rocky formations for thousands of years. Yarras marble is found on Continental worlds.
+->
+Мрамор Ярраса — это великолепно текстурированный синий мрамор. Мрамор Ярраса образуется, когда карбонатные породы насыщаются миллионами крошечных синих кристаллов Агеи. Обычно это происходит из-за подземных потоков, протекающих сквозь скальные образования на протяжении тысячелетий. Мрамор Ярраса встречается на континентальных мирах.
+
+Name: Podanthia Root
+->
+Корень поданфии
+
+Description: Podanthia Root is a medicinal herb that helps cure many diseases. It’s fine, fibrous stems are packed with powerful nutrients that reinforce the immune system. It is found at Sulphur Volcanic worlds.
+->
+Корень поданфии — лекарственное растение, помогающее исцелять множество болезней. Его тонкие волокнистые стебли насыщены мощными питательными веществами, укрепляющими иммунную систему. Он встречается на мирах с серно-вулканическим биомом.
+
+Name: Vofula Scent
+->
+Аромат вофулы
+
+Description: Vofula Scent is an intoxicating perfume that comes from the brilliant green flowers of the Vofula plant. The Vofula plant is a small bush that grows next to the hydrocarbon lakes on Carbonaceous worlds.
+->
+Аромат вофулы — это опьяняющий парфюм, получаемый из ярко-зеленых цветов растения вофула. Растение вофула представляет собой небольшой кустарник, произрастающий рядом с углеводородными озерами на углеродистых мирах.
+
+Name: Suculos Wood
+->
+Древесина сукулоса
+
+Description: Suculos is a rare exotic timber from the Suculos tree. The very hard wood of this tree has a deep red color with a beautiful grain and texture. Suculos trees grow to enormous heights of 400 meters or more. They are found on the vast bushlands of Desert Savanna worlds.
+->
+Сукулос — редкая экзотическая древесина из дерева сукулос. Очень твердая древесина этого дерева имеет глубокий красный цвет с красивой текстурой и рисунком волокон. Деревья сукулос вырастают до огромной высоты в 400 метров и более. Они произрастают на обширных кустарниковых равнинах миров пустынной саванны.
+
+Name: Copandil
+->
+Копандил
+
+Description: Copandil is a very strong liquor that is fermented from the bulbs of the Copandil bush. The concentrated yellow fluid has an intense fiery flavour. It is found on Grasslands worlds.
+->
+Копандил — очень крепкий ликер, получаемый путем брожения клубней кустарника копандил. Концентрированная желтая жидкость обладает интенсивным огненным вкусом. Его можно найти на мирах с луговым биомом.
+
+Name: Norjak Eggs
+->
+Яйца норджака
+
+Description: These eggs are laid by the Norjak - an enormous otter-like creature found on Ice planets. Norjak eggs are typically 30-40 cm in size and have a light blue color. They are valued for their delicate flavour and are highly nutritious.
+->
+Эти яйца откладывает Норкак — огромное существо, напоминающее выдру, обитающее на ледяных планетах. Яйца Норкака обычно имеют размер 30–40 см и светло-голубой цвет. Они ценятся за свой нежный вкус и высокую питательную ценность.
+
+Name: Breqiian Berries
+->
+Брекианские ягоды
+
+Description: Breqiian berries are the tiny purple fruit of the Breqiian vine. These vines grow high in the tree canopy of the vast jungles of Forest worlds. The Breqiian vine draws nutrients from its host tree, thus giving each vine and its berries a slightly different flavour.
+->
+Ягоды брекии — это крошечные фиолетовые плоды лозы брекии. Эти лозы произрастают высоко в кроне деревьев обширных джунглей лесных миров. Лоза брекии извлекает питательные вещества из дерева-хозяина, благодаря чему каждая лоза и её ягоды приобретают слегка различный вкус.
+
+Name: Kasotti
+->
+Касотти
+
+Description: Kasotti is a creamy alcoholic drink that comes from the thick, juicy leaves of the Kasot plant, a ground-covering herb that grows in the lowland coastal plains of Ice Tundra worlds.
+->
+Касотти — это кремовый алкогольный напиток, получаемый из сочных листьев растения касот, почвопокровной травы, произрастающей на низменных прибрежных равнинах ледяных тундровых миров.
+
+Name: Oksunum Steak
+->
+Стейк из оксунума
+
+Description: Oksunum are sure-footed goat-like creatures that inhabit the secluded canyons of Rocky Desert worlds. They feed on many delicate mosses and lichens that grow in the shady side ravines. This gives their tender meat a delicious flavour.
+->
+Оксунумы — уверенно шагающие существа, похожие на коз, обитающие в уединённых каньонах миров с каменистыми пустынями. Они питаются множеством нежных мхов и лишайников, растущих в тенистых ущельях. Это придаёт их нежному мясу восхитительный вкус.
+
+Name: Attarion Fur
+->
+Мех аттариона
+
+Description: Attarions are predatory cats that live high in the mountains of Frozen Ice worlds. They grow to 2 meters in length, and have beautiful grey-white fur. The fur is extremely soft and light. It is prized for its warmth and durability when used in clothing.
+->
+Аттарионы — хищные кошки, обитающие высоко в горах ледяных миров. Они вырастают до 2 метров в длину и обладают прекрасной серо-белой шерстью. Шерсть чрезвычайно мягкая и легкая. Она ценится за теплоизоляционные свойства и долговечность при использовании в одежде.
+
+Name: Muurion Wine
+->
+Мурионское вино
+
+Description: Muurion plants are tall bamboo-like shoots that can reach 15 meters in height. They grow on the vast plains of Grassland worlds. Muurion plants have many small fragrant flowers. The yellow petals of these flowers are used to make Muurion wine.
+->
+Растения муурион — высокие бамбукоподобные побеги, достигающие 15 метров в высоту. Они произрастают на бескрайних равнинах миров с луговым биомом. Растения муурион имеют множество мелких ароматных цветов. Желтые лепестки этих цветов используются для приготовления вина из мууриона.
+
+Name: Inkasdia Fruit
+->
+Плод инкасдии
+
+Description: Inkasdia Fruit grows on small bushes in the swamps of Mangrove Forest worlds. The fruit has a tough purple exterior with fuzzy spikes. But inside is a soft, rich, juicy flesh prized for its delightful flavour and texture.
+->
+Плод инкасдии растёт на небольших кустах в болотах миров с мангровыми лесами. У плода твёрдая фиолетовая кожура с пушистыми шипами, но внутри находится нежная, сочная мякоть, высоко ценимая за свой восхитительный вкус и текстуру.
+
+Name: Feraxian Firestone
+->
+Фераксианский огненный камень
+
+Description: Feraxian Firestones are sometimes found on Sulphur Volcanic worlds. They form when part of the planetary core is forced upwards by active sulphur volcanoes. The cooling core often contains firestones, named not only for their origin but because they seemingly glow from within when caught by rays of light. They are usually a brilliant yellow-gold color, but there is also a rare but naturally occurring luminous blue firestone.
+->
+Огненные камни Феракса иногда встречаются на серно-вулканических мирах. Они образуются, когда часть планетарного ядра выталкивается вверх активными серными вулканами. Остывающее ядро часто содержит огненные камни, названные так не только из-за их происхождения, но и потому, что они, кажется, светятся изнутри, когда на них попадают лучи света. Обычно они имеют ярко-желто-золотистый цвет, однако существует также редкий, но естественно возникающий luminous blue firestone — огненный камень светло-голубого свечения.
+
+Name: Vakala Crystal
+->
+Кристалл вакалы
+
+Description: Vakala Crystals can produce a dazzling display of colors when light shines through them. They have the unique ability to also convert non-visible light into the visible spectrum, thus allowing visibility of infra-red and ultra-violet rays. Vakala Crystals are found near the shoreline of hydrocarbon lakes on Carbonaceous worlds.
+->
+Кристаллы Вакалы способны создавать ослепительное переливание цветов при прохождении сквозь них света. Они обладают уникальной способностью преобразовывать невидимый свет в видимый спектр, что позволяет наблюдать инфракрасные и ультрафиолетовые лучи. Кристаллы Вакалы встречаются у берегов углеводородных озер на углеродистых мирах.
+
+Name: Decarion Ale
+->
+Декарионский эль
+
+Description: Decarion Ale is a strong, bright-red colored alcohol that is made on Ice Tundra worlds. This alcohol comes from a small shrub called Decaria, which has yellow-red leaves. The alcohol is made from the roots of the plant, which reach deep into the ground. It is harvested in summer before being replanted in autumn.
+->
+Эль Декарион — крепкий напиток ярко-красного цвета, производимый на мирах ледяной тундры. Этот эль получают из небольшого куста под названием декария, имеющего желто-красные листья. Напиток изготавливают из корней растения, уходящих глубоко в землю. Сбор урожая проводят летом перед тем, как снова посадить кусты осенью.
+
+Name: Obrudan Amber
+->
+Обруданский янтарь
+
+Description: Obrudan Amber is the iridescent red-orange resin from the Obrudan tree. These trees grow in small clumps on Marshy Swamp worlds. The bark of the tree is very fragile and when damaged the resin slowly leaks out and hardens on the trunk, creating the amber. It is often used in jewellery because of its eye-catching appearance.
+->
+Янтарь Обрудана — это иридисцентная красно-оранжевая смола с дерева обруда. Эти деревья растут небольшими группами на мирах болотистых топей. Кора этого дерева очень хрупка, и при повреждении смола медленно вытекает наружу и затвердевает на стволе, образуя янтарь. Из-за своей притягательной внешности его часто используют в ювелирных изделиях.
+
+Name: Yapara Leaf
+->
+Лист япары
+
+Description: Yapara Leaf is a low-lying shrub that grows deep in the arid wastelands of Desert Savanna worlds. The leaves are a yellowish-green color. Yapara Leaf can withstand intense heat and can survive without water for almost 10 years. The leaves of this plant are packed full of powerful phytonutrients that are very effective at protecting against toxins and pathogens.
+->
+Лист япары — это низкорослый кустарник, произрастающий в глубине засушливых пустошей миров с пустынной саванной. Листья имеют желтовато-зеленый оттенок. Лист япары способен выдерживать экстремальную жару и обходиться без воды почти 10 лет. Листья этого растения насыщены мощными фитонутриентами, которые крайне эффективны в защите от токсинов и патогенов.
+
+Name: Giraxian Nectar
+->
+Гираксианский нектар
+
+Description: Giraxian nectar is a potent medicine that is found on Continental worlds. The nectar is produced in large tubes of the flowers of the Giraxian tree. The nectar has a radiant pink color. It is refined and combined with other ingredients to create a medicine that helps to break fevers.
+->
+Нектар гираксиан — мощное лекарство, встречающееся на континентальных мирах. Нектар производится в крупных трубках цветов дерева гираксиан. Он имеет ярко-розовый цвет. Его очищают и смешивают с другими ингредиентами, чтобы создать средство, помогающее сбивать жар.
+
+Name: Hapek Obsidian
+->
+Хапекский обсидиан
+
+Description: This rare type of obsidian is found on the surface of some Forest worlds. It is a dazzling blue or teal colour. Hapek Obsidian is especially valued when crafted into knives, as obsidian blade can have a cutting edge many times sharper than metal knives. It’s beautiful colour means it is also prized as a gemstone in jewellery as well as made into tools and ornaments.
+->
+Этот редкий вид обсидиана встречается на поверхности некоторых лесных миров. Он обладает ослепительным сине-бирюзовым цветом. Хапекский обсидиан особенно ценится при изготовлении ножей, так как лезвие из обсидиана может иметь режущую кромку во много раз более острую, чем у металлических ножей. Его прекрасный цвет делает его также желанным самоцветом для ювелирных изделий, а также материалом для создания инструментов и украшений.
+
+Name: Lukaarin Fungus
+->
+Грибок лукаарин
+
+Description: Lukaarin Fungus is a rare delicacy that grows in the shallow waters around the roots of mangrove trees. Hundreds of these small brown nodules grow together in large masses. They are very sweet and have an intense aroma. They are found exclusively on Mangrove Forest worlds.
+->
+Грибок лукаарин — редкий деликатес, растущий в мелководных водах вокруг корней мангровых деревьев. Сотни этих небольших коричневых узелков растут вместе, образуя крупные скопления. Они очень сладкие и обладают интенсивным ароматом. Их можно найти исключительно на мирах с лесами мангровых зарослей.
+
+Name: Rhylig
+->
+Райлиг
+
+Description: Rhylig is a crystal that naturally projects 3D holograms when light falls on it. Rhylig is created by pure molten lava interacting with obsidian rock. It has a dark orange color and is typically found on the shores of molten lava rivers on Volcanic worlds.
+->
+Райлиг — это кристалл, который при попадании на него света естественным образом проецирует 3D-голограммы. Райлиг образуется в результате взаимодействия чистой расплавленной лавы с обсидиановой породой. Он имеет тёмно-оранжевый цвет и обычно встречается на берегах рек из расплавленной лавы на вулканических мирах.
+
+Name: Shudasta Scales
+->
+Чешуя шудасты
+
+Description: Shudasta Scales are the super-tough scaly skins of the giant Shudasta lizards. These lizards live mostly solitary lives on Rocky Desert worlds and can grow very large, some of the largest being 11 or 12 metres in length. They can be hard to capture and kill, but their skin is very valuable, used in clothing and chair coverings. The scales are a silvery grey color.
+->
+Чешуя шудасты — это сверхпрочные чешуйчатые покровы гигантских ящеров шудасты. Эти ящеры ведут преимущественно одиночный образ жизни на каменистых пустынных мирах и могут достигать огромных размеров; некоторые из них вырастают до 11–12 метров в длину. Их трудно поймать и убить, однако их кожа обладает высокой ценностью и используется для пошива одежды и обивки стульев. Чешуя имеет серебристо-серый цвет.
+
+Name: Tebraakian Granite
+->
+Тебраакианский гранит
+
+Description: Tebraakian Granite is found only on Volcanic worlds. It is formed by magma mixing with basalt and being forced deeper underground. As the magma cools it forms crystals that have a radiant red glow. Tebraakian Granite comes in a mixture of colours such as red, white, grey and black. It is a very hard granite that is used to decorate and construct buildings.
+->
+Дириллиевый кварц встречается только на вулканических мирах. Он образуется при смешивании магмы с базальтом и её последующем погружении глубже под землю. При остывании магма образует кристаллы, излучающие radiant красный свет. Дириллиевый кварц представлен в смеси цветов: красного, белого, серого и черного. Это очень твердый гранит, используемый для украшения и строительства зданий.
+
+Name: Xukantar
+->
+Ксукантар
+
+Description: Xukantar is a potent perfume distilled partly from an exotic type of Deep Ocean seaweed. The seaweed is purple in colour and has flat, crinkly leaves. When squeezed the leaves excrete a deep purple liquid with a beautiful scent. The liquid is occasionally used to dye fabrics, but more commonly it is used as a perfume. The reason for the rarity of this perfume is the very small amount of liquid produced from large amounts of seaweed, and thus it is always in demand.
+->
+Ксукантар — это мощный парфюм, частично изготовленный из экзотического вида морских водорослей глубокого океана. Водоросли имеют фиолетовый цвет и плоские, сморщенные листья. При сжатии листья выделяют глубокую фиолетовую жидкость с прекрасным ароматом. Эту жидкость иногда используют для окрашивания тканей, но чаще — в качестве парфюма. Причина редкости этого парфюма заключается в том, что из большого количества водорослей получается очень малое количество жидкости, поэтому он всегда пользуется спросом.
+
+Name: Korduva Grain
+->
+Зерно кордувы
+
+Description: Korduva Grain is grown on Grassland worlds. This grain grows on very tall stalks of 3-4 meters in height. Each stalk can have millions of grain heads, thus producing colossal harvests. The grain is a beige color and is valued for its high nutrition and pleasant flavour.
+->
+Зерно кордувы выращивается на луговых мирах. Это зерно растет на очень высоких стеблях высотой 3–4 метра. Каждый стебель может иметь миллионы колосьев, что обеспечивает колоссальные урожаи. Зерно имеет бежевый цвет и ценится за высокую питательность и приятный вкус.
+
+Name: Losarn Syrup
+->
+Сироп лозарна
+
+Description: Losarn Syrup is the thick sweet sap of the Losarn tree. Large forests of Losarn trees are farmed on Continental worlds. Losarn Syrup has a rich golden color and it is universally appreciated for its delicious flavour.
+->
+Сироп лозарна — это густой сладкий сок дерева лозарн. На континентальных мирах выращиваются обширные леса деревьев лозарн. Сироп лозарна имеет насыщенный золотистый цвет и повсеместно ценится за свой восхитительный вкус.
+
+Name: Akrasan Amber
+->
+Акрасанский янтарь
+
+Description: Akrasan Amber is the sap of the Akrasan tree, which grows in areas of dense mist on Mangrove Forest planets. Akrasan trees have large hollow cavities. These cavities inside the tree act as insulated ovens, where the sap gets boiling hot. Weak sections of the tree trunk often explode from the pressure of the hot sap. The sap oozes out and bugs are attracted to it. They become stuck in the sap. The cool mist sets the sap hard, forming the beautiful golden amber.
+->
+Акра́санский янтарь — это смола дерева акрасан, произрастающего в туманных районах планет с мангровыми лесами. У деревьев акрасан имеются крупные полые полости внутри ствола. Эти полости действуют как изолированные печи, где смола нагревается до кипения. Слабые участки ствола часто взрываются от давления горячей смолы. Смола вытекает наружу и привлекает насекомых. Они застревают в смоле. Охлаждающий туман затвердевает её, образуя красивый золотистый янтарь.
+
+Name: Doakan Tea
+->
+Доаканский чай
+
+Description: Doakan Tea is made from the leaves of Doakan bamboo. It grows in shady areas in the mountainous regions of Desert Savanna planets. It does not require much water to survive, making the leaves crinkly and scratchy. Tea made from the leaves has lots of flavour.
+->
+Чай Доакан изготавливается из листьев доаканского бамбука. Он произрастает в тенистых местах горных регионов планет пустынной саванны. Для выживания ему требуется немного воды, что делает листья сморщенными и колючими. Чай из этих листьев обладает насыщенным вкусом.
+
+Name: Yotapian Onyx
+->
+Йотапианский оникс
+
+Description: Yotapian Onyx is a deep purple-black gemstone that is found in shallow underground caves on Rocky Desert planets. It is highly esteemed for its interaction with other gemstones, intensifying and deepening their colors. For this reason it is often used in jewellery.
+->
+Йотапианский оникс — это глубокий фиолетово-черный драгоценный камень, который встречается в неглубоких подземных пещерах на каменистых пустынных планетах. Он высоко ценится за свое взаимодействие с другими драгоценными камнями, усиливая и углубляя их цвета. По этой причине его часто используют в ювелирных изделиях.
+
+Name: Hyutil Resin
+->
+Смола хьютила
+
+Description: Hyutil Resin comes from bulbous plants on the deep ocean floor. These plants secrete the resin, especially when exposed to ultraviolet light. Hyutil Resin is most often a dark translucent red or purple, but blue and brown Hyutil Resin have also been found. The resin is extremely strong and must be exposed to high temperatures to be shaped into delicate utensils and ornaments, in which form it is most highly prized. It is found exclusively on Deep Ocean worlds.
+->
+Смола хьютила добывается из клубневидных растений на дне глубокого океана. Эти растения выделяют смолу, особенно под воздействием ультрафиолетового света. Смола хьютила чаще всего имеет тёмно-прозрачный красный или фиолетовый цвет, однако также были найдены образцы синего и коричневого цвета. Эта смола обладает исключительной прочностью; чтобы придать ей форму тонких utensils и украшений, в которых она ценится выше всего, её необходимо подвергнуть воздействию высоких температур. Она встречается исключительно на мирах с глубоким океаном.
+
+Name: Darkhul Tentacles
+->
+Щупальца даркхула
+
+Description: Darkhuls are formidable sea monsters that inhabit the bottomless undersea tunnels of Deep Ocean worlds. Darkhuls can grow to lengths of 100 meters or more. They are apex predators that fear nothing. Hunting these terrifying creatures is thus a perilous task, fraught with danger. Darkhul tentacles are a rare delicacy used as food and medicine across the galaxy.
+->
+Даркхулы — грозные морские чудовища, населяющие бездонные подводные туннели миров с глубоким океаном. Даркхулы могут достигать длины 100 метров и более. Они являются вершиной пищевой цепи и не знают страха. Охота на этих ужасающих существ — опасное дело, полное угроз. Щупальца даркхулов представляют собой редкое лакомство, используемое в пищу и в качестве лекарства по всей галактике.
+
+Name: Sokalian Brandy
+->
+Сокалианское бренди
+
+Description: Sokalian Brandy is distilled from Sokalian plum wine. The wine is made from rare Sokalian plums, which are a deep pink in colour. Sokalian plum trees grow only in the highland regions of Sandy Desert worlds. Sokalian Brandy is widely renowned for its caramel flavor and beautiful pink color. It is usually aged for more than 50 years to enrich its flavour.
+->
+Сокалианский бренди изготавливается из сокалианского сливового вина. Вино производится из редких сокалианских слив, имеющих глубокий розовый цвет. Сокалианские сливовые деревья растут исключительно в высокогорных районах миров с песчаными пустынями. Сокалианский бренди широко известен своим карамельным вкусом и красивым розовым цветом. Обычно его выдерживают более 50 лет, чтобы обогатить вкус.
+
+Name: Bartak Wood
+->
+Древесина бартака
+
+Description: Bartak Wood is the very dense timber of the Bartak tree, found mainly on Forest worlds. It has a beautiful dark brown grain and a very fine, smooth finish when sawn. It can be carved into furniture or used for building. Bartak trees can reach mammoth sizes, taking many centuries to reach heights of up to 300 meters.
+->
+Древесина бартака — это чрезвычайно плотный лес дерева бартак, встречающийся преимущественно на лесных мирах. Она обладает красивой тёмно-коричневой текстурой и очень тонкой, гладкой поверхностью после распиловки. Из неё можно изготавливать мебель или использовать в строительстве. Деревья бартак могут достигать гигантских размеров, требуя многих столетий для достижения высоты до 300 метров.
+
+Name: Wruzos Anemone
+->
+Врузосская анемона
+
+Description: Wruzos Anemone floats in small clusters on the ocean’s surface, and is harvested for food. An interesting characteristic of this rare anemone is that it relaxes and expands in sunlight but contracts when exposed to stormy weather. It is considered a great delicacy, and usually marinated in various sauces or spices before being eaten. It is usually cream or pale pink in colour. Wruzos Anemones are found exclusively on Ocean worlds.
+->
+Анемона врузоса плавает небольшими группами на поверхности океана и используется в пищу. Интересной особенностью этой редкой анемоны является то, что она расслабляется и расширяется под солнечным светом, но сжимается при воздействии штормовой погоды. Она считается большим деликатесом и обычно маринованная в различных соусах или специях перед употреблением. Обычно имеет кремовый или бледно-розовый цвет. Анемона врузоса встречается исключительно на океанических мирах.
+
+Name: Tassont Moth Fiber
+->
+Волокно тассонтской моли
+
+Description: The gigantic Tassont Moths are the largest of their species. They live deep in vast caves on Sandy Desert worlds, where the climate is most comfortable for them. The ingenious fiber of their wings can bear enormous loads though it is only a few microns thick. It is much in demand for use in garment making and tailoring ceremonial costumes. But it is also used in structural and safety work, such as rock climbing.
+->
+Гигантские моли тассонт являются крупнейшими представителями своего вида. Они обитают глубоко в обширных пещерах на мирах песчаных пустынь, где климат наиболее комфортен для них. Изобретательное волокно их крыльев способно выдерживать огромные нагрузки, хотя его толщина составляет всего несколько микрон. Оно крайне востребовано при изготовлении одежды и пошиве церемониальных костюмов. Однако оно также используется в строительных и спасательных работах, таких как скалолазание.
+
+Name: Ordulos Shell
+->
+Панцирь ордулоса
+
+Description: The rare Ordulos Shell is found on some Ocean worlds. The shells are small and roughly oval in shape, and very uniform in size. The outside is coated in an iridescent substance that provides a shimmering display of colours, much like an imperfect natural prism. The shells were once widely used as a form of currency on some worlds but are now primarily used as ornaments and in decorating clothes.
+->
+Редкая панцирь ордулоса встречается на некоторых океанических мирах. Панцири небольшие, имеют примерно овальную форму и очень однородны по размеру. Внешняя сторона покрыта переливающимся веществом, создающим мерцающую игру цветов, подобно несовершенному природному призмe. Когда-то панцири широко использовались в качестве валюты на некоторых мирах, но теперь они применяются преимущественно как украшения и для декорирования одежды.
+
+Name: Tebrullian Moss
+->
+Тебруллианский мох
+
+Description: Tebrullian Moss grows on a rare species of tree that grows horizontally off the ice cliffs of some Ice worlds. The moss is a pale grey color, and grows in strands draping from the tree trunks. It is used in many cuisines as a herb or garnish for certain dishes, and is considered a rare delicacy.
+->
+Мох Тебруллиан произрастает на редком виде деревьев, растущих горизонтально у ледяных обрывов некоторых ледяных миров. Мох имеет бледно-серый цвет и растет в виде нитей, свисающих с древесных стволов. Его используют во многих кухнях как траву или украшение для определенных блюд, считая редким деликатесом.
+
+Name: Sarrobia Coral
+->
+Сарробийский коралл
+
+Description: Sarrobia Coral is very hard and sharp. It grows underwater in shallow coastal areas on Ocean planets. It comes in various colors such as turquoise, jade, and violet. The sunlight from some star types can make the coral sparkly and beautiful.
+->
+Коралл Сарробия очень тверд и остр. Он растет под водой в мелководных прибрежных зонах на океанических планетах. Он бывает различных цветов, таких как бирюзовый, нефритовый и фиолетовый. Солнечный свет от некоторых типов звезд может сделать коралл сверкающим и прекрасным.
+
+Name: Korhuga Beans
+->
+Бобы корхуга
+
+Description: Korhuga Beans grow on a small thorny tree found on Sandy Desert worlds. The tree takes many decades to grow to maturity. Once it finally matures it produces small bean pods that are collected and dried. Korhuga Beans are a tasty but very spicy foodstuff used as an ingredient in the dishes of many desert cultures. It is also used by many chefs throughout the galaxy.
+->
+Бобы корхуга растут на небольшом колючем дереве, встречающемся на мирах песчаных пустынь. Дереву требуются многие десятилетия, чтобы достичь зрелости. Когда оно наконец созревает, оно дает небольшие стручки с бобами, которые собирают и сушат. Бобы корхуга — вкусная, но очень острая приправа, используемая как ингредиент в блюдах многих пустынных культур. Также её применяют многие повара по всей галактике.
+
+Name: Ardilus Tentacles
+->
+Щупальца ардилуса
+
+Description: Ardiluses are large, deep-space monsters that typically lurk near Gas Giant planets. Hunting them yields the prized Ardilus tentacles. These tentacles have many uses: some parts can be eaten, other parts produce dye. The spiny protrusions are popular in decorative construction.
+->
+Ардилусы — это крупные монстры глубокого космоса, которые обычно скрываются вблизи планет-газовых гигантов. Охота на них приносит ценные щупальца ардилуса. Эти щупальца имеют множество применений: некоторые части можно употреблять в пищу, другие используются для получения красителя. Колючие выросты популярны в декоративном строительстве.
+
+Name: Gravillex Crystal
+->
+Кристалл гравилекса
+
+Description: Gravillex are crystalline space monsters that typically live near the coronas of exotic star types. Hunting these Gravillex yields their unique crystal structures. The crystals can have a range of dazzling colors. They have special holographic properties that make them highly sought after as jewelry and decorations.
+->
+Гравиллексы — это кристаллические космические чудовища, обычно обитающие вблизи корон экзотических типов звёзд. Охота на этих гравилексов позволяет добыть их уникальные кристаллические структуры. Кристаллы могут обладать широким спектром ослепительных цветов. Они обладают особыми голографическими свойствами, что делает их крайне востребованными в качестве украшений и предметов декора.
+
+Name: Dyrillium Quartz
+->
+Дириллиевый кварц
+
+Description: Dyrillium Quartz is used in high-end electronic components and energy collectors. It is found at Sulphur Volcanic worlds.
+->
+Дириллиевый кварц используется в высококлассных электронных компонентах и энергетических коллекторах. Он встречается на мирах с серно-вулканическим биомом.
+
+Name: Hexodorium
+->
+Гексодориум
+
+Description: Hexodorium is a unique type of polymer. It is very strong and damage resistant. It has many uses in various high-end components. Hexodorium is usually found at Frozen Ice worlds, although other Ice planets may also have small deposits.
+->
+Гексодориум — это уникальный вид полимера. Он обладает высокой прочностью и устойчивостью к повреждениям. Гексодориум широко применяется в различных высокотехнологичных компонентах. Обычно его можно найти на мирах с промёрзшим ледяным биомом, хотя небольшие месторождения могут встречаться и на других ледяных планетах.
+
