@@ -736,7 +736,7 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
         rus_texts = extract_translatable_texts(rus_root)
         
         _get_translation_cache() 
-        
+
         # Ищем недопереведённые элементы и переводим их
         log_entries = []
         fixed_count = 0
@@ -945,6 +945,8 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
                 f.write(word + "\n")
         print(f"Список слов для словаря сохранён: {words_file}")
         return
+    
+    _get_translation_cache()
 
     # Process translations one by one to show logs in real time
     for i in range(start_index, len(tasks)):
@@ -955,6 +957,9 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
             translated = translate_text(original)
         else:
             translated = translator.translate_many([original])[0]
+
+        if original.strip() and _translation_cache.get(original, '') == '':
+            _translation_cache[original] = translated
         
         elem.text = translated
         log_msg = f"{tag}: {original}\n->\n{translated}\n"
