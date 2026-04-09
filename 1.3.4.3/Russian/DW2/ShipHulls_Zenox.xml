@@ -410,7 +410,7 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort</Name>
+		<Name>эскорт</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -2178,7 +2178,7 @@
 				<Amount>125</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космопорт</Name>
+		<Name>Малый космический порт</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -2662,7 +2662,7 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Small Construction Ship</Name>
+		<Name>Малый строительный корабль</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -3115,7 +3115,7 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Small Exploration Ship</Name>
+		<Name>Малый исследовательский корабль</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -4539,7 +4539,7 @@
 				<Amount>112</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Small Mining Station</Name>
+		<Name>Малая добывающая станция</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Mining_Station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -5589,7 +5589,7 @@
 				<Amount>70</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Heavy Escort</Name>
+		<Name>Тяжёлый эскорт</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -6522,7 +6522,7 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate</Name>
+		<Name>фрегат</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -8283,7 +8283,7 @@
 				<Amount>188</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космопорт v2</Name>
+		<Name>Малый космический порт v2</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -13836,7 +13836,7 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer</Name>
+		<Name>эсминец</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -15816,7 +15816,7 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космопорт v3</Name>
+		<Name>Малый космический порт v3</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -21963,7 +21963,7 @@
 				<Amount>360</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Средний космопорт</Name>
+		<Name>Средний космический порт</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Medium_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -28581,7 +28581,7 @@
 				<Amount>525</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Средний космопорт v2</Name>
+		<Name>Средний космический порт v2</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Medium_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -29885,7 +29885,7 @@
 				<Amount>330</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Космический бастион v2</Name>
+		<Name>Космическая крепость v2</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -36989,7 +36989,7 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Командный крейсер</Name>
+		<Name>Крейсер командования</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -38768,7 +38768,7 @@
 				<Amount>490</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Сверхкрупный десантный корабль</Name>
+		<Name>Массивный десантный корабль</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -42303,7 +42303,7 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Исследовательский крейсер</Name>
+		<Name>Разведывательный крейсер</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -46226,7 +46226,7 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Экспедиционный транспорт</Name>
+		<Name>Экспедиционный транспортный корабль</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -52549,7 +52549,7 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Десантный корабль</Name>
+		<Name>Транспортный корабль армии</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -54728,7 +54728,7 @@
 				<Amount>1080</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Линейный корабль</Name>
+		<Name>Линейный крейсер</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -57901,7 +57901,7 @@
 				<Amount>3600</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Секторный космопорт</Name>
+		<Name>Секторный космический порт</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Large_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -59728,7 +59728,7 @@
 				<Amount>28</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Улучшенные перехватчики</Name>
+		<Name>Продвинутый перехватчик</Name>
 		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>

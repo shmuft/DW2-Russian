@@ -197,7 +197,7 @@
 				<Amount>11</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Skip Fighter</Name>
+		<Name>Прыжковый истребитель</Name>
 		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -429,7 +429,7 @@
 				<Amount>14</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Wave Bomber</Name>
+		<Name>Волновой бомбардировщик</Name>
 		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>

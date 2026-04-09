@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <ArrayOfShipHull>
 	<ShipHull>
-		<ShipHullId>464</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>433</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>Escort</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>125</Size>
 		<MaximumSize>375</MaximumSize>
 		<DisplaySize>200</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Escort_Ship_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Escort_Ship</ModelName>
 		<BaseCost>1400</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
@@ -354,19 +354,19 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship_2</ImageFilename>
+		<Name>Эскорт</Name>
+		<ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>465</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>434</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>Frigate</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>150</Size>
 		<MaximumSize>450</MaximumSize>
 		<DisplaySize>250</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Frigate_Ship_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Frigate_Ship</ModelName>
 		<BaseCost>2500</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
@@ -766,19 +766,19 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_2</ImageFilename>
+		<Name>Фрегат</Name>
+		<ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>466</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>435</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>Destroyer</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>200</Size>
 		<MaximumSize>600</MaximumSize>
 		<DisplaySize>325</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Destroyer_Ship_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Destroyer_Ship</ModelName>
 		<BaseCost>5000</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
@@ -1294,19 +1294,19 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_2</ImageFilename>
+		<Name>Эсминец</Name>
+		<ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>467</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>436</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>SpaceportSmall</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>250</Size>
 		<MaximumSize>900</MaximumSize>
 		<DisplaySize>2200</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_SpaceStaion_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_SpaceStaion</ModelName>
 		<BaseCost>7000</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
@@ -2349,19 +2349,19 @@
 				<Amount>125</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космопорт</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_2</ImageFilename>
+		<Name>Малый космический порт</Name>
+		<ImageFilename>Ships/Pirates/images/Pirates_SpaceStation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>468</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>437</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>Escort</Role>
 		<Level>2</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>140</Size>
 		<MaximumSize>415</MaximumSize>
 		<DisplaySize>208</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Escort_Ship_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Escort_Ship</ModelName>
 		<BaseCost>1500</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
@@ -2714,19 +2714,19 @@
 				<Amount>70</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Heavy Escort</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship_2</ImageFilename>
+		<Name>Тяжёлый эскорт</Name>
+		<ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>469</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>438</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>Frigate</Role>
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>165</Size>
 		<MaximumSize>490</MaximumSize>
 		<DisplaySize>267</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Frigate_Ship_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Frigate_Ship</ModelName>
 		<BaseCost>3000</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
@@ -3168,18 +3168,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Тяжёлый фрегат</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>470</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>439</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>Destroyer</Role>
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>225</Size>
 		<MaximumSize>675</MaximumSize>
 		<DisplaySize>340</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Destroyer_Ship_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Destroyer_Ship</ModelName>
 		<BaseCost>5500</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
@@ -3728,18 +3728,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Тяжёлый эсминец</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>471</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>440</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>SpaceportSmall</Role>
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>375</Size>
 		<MaximumSize>1300</MaximumSize>
 		<DisplaySize>2350</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_SpaceStaion_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_SpaceStaion</ModelName>
 		<BaseCost>7700</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
@@ -4786,19 +4786,19 @@
 				<Amount>188</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космопорт v2</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_2</ImageFilename>
+		<Name>Малый космический порт v2</Name>
+		<ImageFilename>Ships/Pirates/images/Pirates_SpaceStation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>472</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>441</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>Escort</Role>
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>140</Size>
 		<MaximumSize>415</MaximumSize>
 		<DisplaySize>208</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Escort_Ship_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Escort_Ship</ModelName>
 		<BaseCost>1500</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
@@ -5148,18 +5148,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Патрульный эскорт</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Escort_Ship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>473</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>442</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>Frigate</Role>
 		<Level>2</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>165</Size>
 		<MaximumSize>490</MaximumSize>
 		<DisplaySize>267</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Frigate_Ship_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Frigate_Ship</ModelName>
 		<BaseCost>3000</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
@@ -5613,18 +5613,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Быстрый фрегат</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>474</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>443</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>Destroyer</Role>
 		<Level>2</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>225</Size>
 		<MaximumSize>675</MaximumSize>
 		<DisplaySize>340</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Destroyer_Ship_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Destroyer_Ship</ModelName>
 		<BaseCost>5500</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
@@ -6178,18 +6178,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Быстрый эсминец</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>475</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>444</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>SpaceportSmall</Role>
 		<Level>2</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>450</Size>
 		<MaximumSize>1600</MaximumSize>
 		<DisplaySize>2383</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_SpaceStaion_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_SpaceStaion</ModelName>
 		<BaseCost>8400</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
@@ -7370,19 +7370,19 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космопорт v3</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_2</ImageFilename>
+		<Name>Малый космический порт v3</Name>
+		<ImageFilename>Ships/Pirates/images/Pirates_SpaceStation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>476</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>445</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>Destroyer</Role>
 		<Level>3</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>225</Size>
 		<MaximumSize>675</MaximumSize>
 		<DisplaySize>340</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Destroyer_Ship_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Destroyer_Ship</ModelName>
 		<BaseCost>5500</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
@@ -7915,18 +7915,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Флотский Эсминец</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Destroyer_Ship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>477</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>446</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>DefensiveBase</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>450</Size>
 		<MaximumSize>1350</MaximumSize>
 		<DisplaySize>2500</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_SpaceStaion_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_SpaceStaion</ModelName>
 		<BaseCost>4000</BaseCost>
 		<ArmorReactiveRating>6</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
@@ -8915,18 +8915,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Космический бастион</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_SpaceStation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>478</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>447</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>DefensiveBase</Role>
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>550</Size>
 		<MaximumSize>1650</MaximumSize>
 		<DisplaySize>2567</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_SpaceStaion_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_SpaceStaion</ModelName>
 		<BaseCost>5000</BaseCost>
 		<ArmorReactiveRating>7</ArmorReactiveRating>
 		<IonDefense>5</IonDefense>
@@ -9914,19 +9914,19 @@
 				<Amount>330</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Космический бастион v2</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_2</ImageFilename>
+		<Name>Космическая крепость v2</Name>
+		<ImageFilename>Ships/Pirates/images/Pirates_SpaceStation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>479</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>448</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>Frigate</Role>
 		<Level>3</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>165</Size>
 		<MaximumSize>490</MaximumSize>
 		<DisplaySize>267</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Frigate_Ship_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Frigate_Ship</ModelName>
 		<BaseCost>3000</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
@@ -10397,18 +10397,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Флотский фрегат</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Frigate_Ship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>480</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>449</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>FighterInterceptor</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>15</Size>
 		<MaximumSize>56</MaximumSize>
 		<DisplaySize>12</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor</ModelName>
 		<BaseCost>50</BaseCost>
 		<ArmorReactiveRating>1</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
@@ -10574,18 +10574,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Базовый истребитель</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>481</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>450</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>FighterInterceptor</Role>
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>16</Size>
 		<MaximumSize>62</MaximumSize>
 		<DisplaySize>14</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor</ModelName>
 		<BaseCost>100</BaseCost>
 		<ArmorReactiveRating>1</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
@@ -10772,18 +10772,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Лёгкий перехватчик</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>482</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>451</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>FighterInterceptor</Role>
 		<Level>3</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>18</Size>
 		<MaximumSize>69</MaximumSize>
 		<DisplaySize>15</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor</ModelName>
 		<BaseCost>100</BaseCost>
 		<ArmorReactiveRating>1</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
@@ -10970,18 +10970,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Лёгкий ударный истребитель</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>483</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>452</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>FighterInterceptor</Role>
 		<Level>4</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>18</Size>
 		<MaximumSize>64</MaximumSize>
 		<DisplaySize>14</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor</ModelName>
 		<BaseCost>150</BaseCost>
 		<ArmorReactiveRating>1</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
@@ -11168,18 +11168,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Тактический перехватчик</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>484</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>453</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>FighterInterceptor</Role>
 		<Level>5</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>20</Size>
 		<MaximumSize>77</MaximumSize>
 		<DisplaySize>17</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor</ModelName>
 		<BaseCost>150</BaseCost>
 		<ArmorReactiveRating>1</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
@@ -11382,18 +11382,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Ударный истребитель</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>485</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>454</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>FighterInterceptor</Role>
 		<Level>9</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>20</Size>
 		<MaximumSize>66</MaximumSize>
 		<DisplaySize>14</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor</ModelName>
 		<BaseCost>250</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
@@ -11583,19 +11583,19 @@
 				<Amount>28</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Улучшенные перехватчики</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
+		<Name>Продвинутый перехватчик</Name>
+		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>486</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>455</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>FighterInterceptor</Role>
 		<Level>10</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>24</Size>
 		<MaximumSize>81</MaximumSize>
 		<DisplaySize>17</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor</ModelName>
 		<BaseCost>250</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
@@ -11802,18 +11802,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Штурмовой истребитель</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>487</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>456</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>FighterInterceptor</Role>
 		<Level>14</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>25</Size>
 		<MaximumSize>88</MaximumSize>
 		<DisplaySize>19</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor</ModelName>
 		<BaseCost>350</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>3</IonDefense>
@@ -12020,18 +12020,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Истребитель превосходства</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>488</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>457</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>FighterInterceptor</Role>
 		<Level>16</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>26</Size>
 		<MaximumSize>89</MaximumSize>
 		<DisplaySize>19</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Fighter_Interceptor</ModelName>
 		<BaseCost>400</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
@@ -12238,18 +12238,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Истребитель превосходства v2</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>489</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>458</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>FighterBomber</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>20</Size>
 		<MaximumSize>76</MaximumSize>
 		<DisplaySize>17</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Fighter_Bomber_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Fighter_Bomber</ModelName>
 		<BaseCost>50</BaseCost>
 		<ArmorReactiveRating>1</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
@@ -12432,18 +12432,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Базовый бомбардировщик</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>490</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>459</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>FighterBomber</Role>
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>21</Size>
 		<MaximumSize>83</MaximumSize>
 		<DisplaySize>19</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Fighter_Bomber_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Fighter_Bomber</ModelName>
 		<BaseCost>100</BaseCost>
 		<ArmorReactiveRating>1</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
@@ -12646,18 +12646,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Лёгкий бомбардировщик</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>491</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>460</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>FighterBomber</Role>
 		<Level>2</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>24</Size>
 		<MaximumSize>86</MaximumSize>
 		<DisplaySize>19</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Fighter_Bomber_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Fighter_Bomber</ModelName>
 		<BaseCost>150</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
@@ -12860,18 +12860,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Средний бомбардировщик</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>492</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>461</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>FighterBomber</Role>
 		<Level>4</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>25</Size>
 		<MaximumSize>93</MaximumSize>
 		<DisplaySize>20</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Fighter_Bomber_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Fighter_Bomber</ModelName>
 		<BaseCost>250</BaseCost>
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>3</IonDefense>
@@ -13094,18 +13094,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Штурмовой бомбардировщик</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>493</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>462</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>FighterBomber</Role>
 		<Level>5</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>27</Size>
 		<MaximumSize>101</MaximumSize>
 		<DisplaySize>22</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Fighter_Bomber_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Fighter_Bomber</ModelName>
 		<BaseCost>300</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
@@ -13344,18 +13344,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Тяжелый бомбардировщик</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>494</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>463</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>FighterBomber</Role>
 		<Level>6</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>28</Size>
 		<MaximumSize>107</MaximumSize>
 		<DisplaySize>24</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Fighter_Bomber_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Fighter_Bomber</ModelName>
 		<BaseCost>400</BaseCost>
 		<ArmorReactiveRating>5</ArmorReactiveRating>
 		<IonDefense>5</IonDefense>
@@ -13611,18 +13611,18 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Штурмовой бомбардировщик</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
-		<ShipHullId>1206</ShipHullId> 
-		<RaceId>253</RaceId> 
+		<ShipHullId>1205</ShipHullId> 
+		<RaceId>252</RaceId> 
 		<Role>Cruiser</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>250</Size>
 		<MaximumSize>750</MaximumSize>
 		<DisplaySize>410</DisplaySize>
-		<ModelName>Ships/Pirates/Pirates_Cruiser_Ship_2</ModelName>
+		<ModelName>Ships/Pirates/Pirates_Cruiser_Ship</ModelName>
 		<BaseCost>10000</BaseCost>
 		<ArmorReactiveRating>5</ArmorReactiveRating>
 		<IonDefense>3</IonDefense>
@@ -14518,6 +14518,6 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Name>Крейсер</Name>
-		<ImageFilename>Ships/Pirates/images/Pirates_Cruiser_Ship2</ImageFilename>
+		<ImageFilename>Ships/Pirates/images/Pirates_Cruiser_Ship</ImageFilename>
 	</ShipHull>
 </ArrayOfShipHull>
