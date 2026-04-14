@@ -9,6 +9,7 @@ from system_prompt import SYSTEM_PROMPT
 import pickle
 import os
 from pathlib import Path
+from openai import OpenAI
 
 try:
     import keyboard
@@ -106,6 +107,67 @@ def _translate_from_cache(text: str) -> str:
 
 
 def translate_text(text: str) -> str:
+    """
+    Перевод текста через LM Studio (локальный LLM) используя lmstudio-python SDK.
+    Проверяет в порядке приоритета:
+    1. Словарь из SYSTEM_PROMPT 
+    2. Кэш из уже переведённых файлов
+    3. LLM (Qwen)
+    """
+    
+    # Сначала проверяем системный словарь
+    glossary_translation = _translate_from_glossary(text)
+    if glossary_translation:
+        print(f"[GLOSSARY] {text} -> {glossary_translation}")
+        return glossary_translation
+
+    # Затем проверяем кэш переводов из уже переведённых файлов
+    cache_translation = _translate_from_cache(text)
+    if cache_translation:
+        print(f"[CACHE] {text} -> {cache_translation}")
+        return cache_translation
+
+    client = OpenAI(
+    # If the environment variable is not set, replace it with your Model Studio API key: api_key="sk-xxx"
+        api_key="sk-aba922246dba449691bbc15435335158",
+        base_url="https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+    )
+
+    messages = [
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": f"Text: {text}"}
+        ]
+
+    completion = client.chat.completions.create(
+        model="qwen3.5-plus",  # You can replace this with another deep thinking models
+        messages=messages,
+        extra_body={"enable_thinking": False},
+        stream=False,
+        temperature=0.0,
+        enable_thinking=False
+    )
+
+    # # Получаем модель
+    # model = lms.llm(DEFAULT_MODEL)
+    
+    # # Создаём чат с системным промптом
+    # chat = lms.Chat(SYSTEM_PROMPT)
+    # chat.add_user_message(f"Text: {text}")
+    
+    # # Получаем ответ
+    # result = model.respond(
+    #     chat,
+    #     config={
+    #         "temperature": 0.1,
+    #         "maxTokens": 1024*10,
+    #     }
+    # )
+    
+    translated = result.content.strip()
+    translated = translated.replace('‑', '-')
+    return translated
+
+def translate_text_lm_studio(text: str) -> str:
     """
     Перевод текста через LM Studio (локальный LLM) используя lmstudio-python SDK.
     Проверяет в порядке приоритета:
@@ -377,6 +439,202 @@ def check_translated_file(file_path: str) -> int:
             # Если есть проблемы с кодировкой, выводим без текста
             print(f"[{path}] [Текст содержит неподдерживаемые символы]")
     return 1
+
+
+def check_translated_txt_file(file_path: str) -> int:
+    """
+    Проверяет текстовый файл на наличие английских слов.
+    """
+    english_re = re.compile(r'[A-Za-z]')
+    found = []
+
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        
+        for i, line in enumerate(lines, 1):
+            line = line.strip()
+            if line and english_re.search(line):
+                # Проверяем, не является ли это технической строкой
+                if not _is_technical_string(line):
+                    found.append((i, line))
+    except Exception as e:
+        print(f"Ошибка чтения файла {file_path}: {e}")
+        return 2
+
+    if not found:
+        print(f"Проверка пройдена: английских слов в {file_path} не найдено.")
+        return 0
+
+    print(f"Найдено {len(found)} строк с английскими символами в {file_path}:")
+    for line_num, text in found:
+        try:
+            print(f"[Line {line_num}] {text}")
+        except UnicodeEncodeError:
+            print(f"[Line {line_num}] [Текст содержит неподдерживаемые символы]")
+    return 1
+
+
+def translate_txt_file(input_file: str, output_file: str, words_mode=False, translator=None):
+    """
+    Переводит текстовый файл построчно.
+    Определяет формат: если строка содержит ';', переводит только часть после ';',
+    иначе переводит всю строку.
+    Поддерживает паузу и продолжение.
+    """
+    # Загрузка прогресса
+    progress_file = f"{output_file}.progress.pkl"
+    start_index = 0
+    
+    if os.path.exists(progress_file):
+        try:
+            with open(progress_file, 'rb') as f:
+                progress = pickle.load(f)
+            if progress.get('file') == output_file:
+                start_index = progress.get('task_index', 0)
+                print(f"Найден сохранённый прогресс. Продолжаю с задачи {start_index + 1}")
+            else:
+                print("Прогресс для другого файла, начинаю заново.")
+        except Exception as e:
+            print(f"Ошибка загрузки прогресса: {e}. Начинаю заново.")
+
+    try:
+        with open(input_file, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+    except Exception as e:
+        print(f"Ошибка чтения файла {input_file}: {e}")
+        return
+
+    translated_lines = []
+    log_entries = []
+    words_set = set()
+
+    # Если продолжаем, загружаем уже переведённые строки из output_file
+    if start_index > 0 and os.path.exists(output_file):
+        try:
+            with open(output_file, 'r', encoding='utf-8') as f:
+                existing_lines = f.readlines()
+            translated_lines = existing_lines
+        except Exception as e:
+            print(f"Ошибка чтения существующего файла {output_file}: {e}")
+            translated_lines = []
+
+    # Если уже всё переведено, завершить
+    if start_index >= len(lines):
+        print(f"Перевод уже завершён для {output_file}")
+        if os.path.exists(progress_file):
+            os.remove(progress_file)
+        return
+
+    for i in range(start_index, len(lines)):
+        if paused:
+            break
+        line = lines[i]
+        original = line.strip()
+        if not original:
+            translated_lines.append(line)  # Пустые строки оставляем как есть
+            continue
+
+        # Определяем, нужно ли переводить всю строку или только часть после ';'
+        if ';' in original:
+            # Формат: ключ ; текст
+            parts = original.split(';', 1)
+            key_part = parts[0]
+            text_to_translate = parts[1].strip()
+            if not text_to_translate:
+                translated_lines.append(line)
+                continue
+            # Переводим только текст после ';'
+            if words_mode:
+                words_set.add(text_to_translate)
+            else:
+                if translator is None:
+                    translated = translate_text(text_to_translate)
+                else:
+                    translated = translator.translate_many([text_to_translate])[0]
+                _translation_cache[text_to_translate] = translated
+                new_line = f"{key_part};{translated}\n"
+                translated_lines.append(new_line)
+                log_msg = f"Line {i+1}: {text_to_translate}\n->\n{translated}\n"
+                print(log_msg)
+                log_entries.append(log_msg)
+        else:
+            # Переводим всю строку (как в Hints.txt)
+            if words_mode:
+                words_set.add(original)
+            else:
+                if translator is None:
+                    translated = translate_text(original)
+                else:
+                    translated = translator.translate_many([original])[0]
+                _translation_cache[text_to_translate] = translated
+                translated_lines.append(translated + '\n')
+                log_msg = f"Line {i+1}: {original}\n->\n{translated}\n"
+                print(log_msg)
+                log_entries.append(log_msg)
+
+        # Сохранение прогресса
+        progress = {
+            'file': output_file,
+            'task_index': i + 1
+        }
+        with open(progress_file, 'wb') as f:
+            pickle.dump(progress, f)
+
+    if words_mode:
+        words_file = output_file.replace('.txt', '_words.txt')
+        with open(words_file, 'w', encoding='utf-8') as f:
+            for word in sorted(words_set):
+                f.write(word + "\n")
+        print(f"Список слов для словаря сохранён: {words_file}")
+        return
+
+    if not paused:
+        try:
+            with open(output_file, 'w', encoding='utf-8') as f:
+                f.writelines(translated_lines)
+            print(f"\nФайл сохранён: {output_file}")
+            
+            # Save log file
+            log_file = output_file.replace('.txt', '_log.txt')
+            with open(log_file, 'w', encoding='utf-8') as f:
+                f.write(f"Лог перевода: {input_file}\n")
+                f.write(f"Выходной файл: {output_file}\n")
+                f.write(f"Всего переводов: {len(log_entries)}\n")
+                f.write("="*80 + "\n\n")
+                for entry in log_entries:
+                    f.write(entry + "\n")
+            print(f"Лог сохранён: {log_file}")
+
+            # Удаление файла прогресса
+            if os.path.exists(progress_file):
+                os.remove(progress_file)
+        except Exception as e:
+            print(f"Ошибка сохранения файла {output_file}: {e}")
+    else:
+        # При паузе сохраняем текущее состояние
+        try:
+            with open(output_file, 'w', encoding='utf-8') as f:
+                f.writelines(translated_lines)
+            print(f"Прогресс сохранён в {progress_file}. Запустите скрипт снова для продолжения.")
+        except Exception as e:
+            print(f"Ошибка сохранения прогресса: {e}")
+
+
+def translate_file(input_file: str, output_file: str, file_type: str, words_mode=False, translator=None, fix_untranslated=False):
+    """
+    Универсальная функция для перевода файла в зависимости от типа.
+    """
+    if file_type == 'xml':
+        translate_xml(input_file, output_file, words_mode, translator, fix_untranslated)
+    elif file_type == 'txt':
+        if fix_untranslated:
+            print("Режим fix_untranslated не поддерживается для TXT файлов")
+            return
+        translate_txt_file(input_file, output_file, words_mode, translator)
+    else:
+        print(f"Неподдерживаемый тип файла: {file_type}")
+        return
 
 
 def translate_tags(element, tags, log_entries=None, words_set=None, words_mode=False):
@@ -999,11 +1257,17 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
 
 def main():
     parser = argparse.ArgumentParser(
-        description="CLI‑утилита для перевода XML‑файла на основе типа корневого элемента."
+        description="CLI‑утилита для перевода XML или TXT файла."
     )
 
-    parser.add_argument("input", help="Путь к исходному XML‑файлу")
-    parser.add_argument("output", nargs='?', help="Путь к выходному XML‑файлу (необязательно для --check)")
+    parser.add_argument(
+        '--type',
+        choices=['xml', 'txt'],
+        default='xml',
+        help='Тип файла для перевода (xml или txt)'
+    )
+    parser.add_argument("input", help="Путь к исходному файлу")
+    parser.add_argument("output", nargs='?', help="Путь к выходному файлу (необязательно для --check)")
     parser.add_argument(
         '--words',
         action='store_true',
@@ -1030,7 +1294,12 @@ def main():
     if args.check:
         if args.words:
             parser.error('--check и --words нельзя использовать одновременно')
-        return check_translated_file(args.input)
+        if args.type == 'xml':
+            return check_translated_file(args.input)
+        elif args.type == 'txt':
+            return check_translated_txt_file(args.input)
+        else:
+            parser.error(f'Неподдерживаемый тип файла для проверки: {args.type}')
 
     if args.output is None:
         parser.error('output обязателен, если не задан --check')
@@ -1047,7 +1316,7 @@ def main():
     if pool_addresses:
         translator = RemotePoolTranslator(pool_addresses, timeout=args.pool_timeout)
 
-    translate_xml(args.input, args.output, words_mode=args.words, translator=translator, fix_untranslated=args.fix_untranslated)
+    translate_file(args.input, args.output, args.type, words_mode=args.words, translator=translator, fix_untranslated=args.fix_untranslated if args.type == 'xml' else False)
 
 
 if __name__ == "__main__":

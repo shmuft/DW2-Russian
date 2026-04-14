@@ -1,0 +1,2834 @@
+SYSTEM Asteroid Field		;{0} Поле астероидов
+Cloned		;Клонированный
+Independent		;Независимые
+Standard Infantry		;Стандартная пехота
+Standard Militia		;Стандартное ополчение
+Standard Raider		;Стандартный рейдер
+Raider		;Рейдер
+Hive Raider		;Рейдер улья
+
+None		;Нет
+Escort		;Эскорт
+Frigate		;Фрегат
+Destroyer	;Эсминец
+Cruiser		;Крейсер
+Capital Ship		;Линкор
+Planet Destroyer		;Разрушитель планет
+Carrier		;Авианосец
+Troop Transport		;Десантный корабль
+Freighter		;Грузовой корабль
+Small Freighter		;Малый грузовой корабль
+Medium Freighter		;Средний грузовой корабль
+Large Freighter		;Большой грузовой корабль
+Mining Ship		;Добывающий корабль
+Fuel Tanker		;Топливный заправщик
+Construction Ship		;Строительный корабль
+Exploration Ship		;Исследовательский корабль
+Passenger Ship		;Пассажирский корабль
+Colony Ship		;Колонизационный корабль
+Spaceport		;Космопорт
+Small Spaceport		;Малый космопорт
+Medium Spaceport		;Средний космопорт
+Large Spaceport		;Большой космопорт
+Mining Station		;Добывающая станция
+Defensive Base		;Оборонительная база
+Research Station		;Исследовательская станция
+Monitoring Station		;Станция наблюдения
+Resort Base		;Развлекательная база
+Interceptor		;Перехватчик
+Bomber		;Бомбардировщик
+
+ShipMission Description Undefined		;Нет миссии
+ShipMission Description Attack		;Атаковать {0}
+ShipMission Description Attack Prepare		;Подготовиться и атаковать {0}
+ShipMission Description Attack Prepare Waypoint		;Атака {0} (этап на {1})
+ShipMission Description Attack Prepare Refuel		;Атаковать {0} (заправиться на {1})
+ShipMission Description Invade		;Вторгнуться в {0}
+ShipMission Description Invade Prepare		;Подготовиться и вторгнуться в {0}
+ShipMission Description Invade Prepare Waypoint		;Вторгнуться в {0} (подготовка на {1})
+ShipMission Description Invade Prepare Refuel		;Вторгнуться в {0} (заправиться на {1})
+ShipMission Description Blockade		;Блокада {0}
+ShipMission Description Bombard		;Обстрелять {0}
+ShipMission Description Bombard Prepare		;Подготовиться и обстрелять {0}
+ShipMission Description Bombard Prepare Waypoint		;Обстрелять {0} (этап на {1})
+ShipMission Description Bombard Prepare Refuel		;Обстрелять {0} (заправиться в {1})
+ShipMission Description Build		;Построить {0} ({2}) в {1}
+ShipMission Description BuildRepair		;Построить {0}
+ShipMission Description BuildRepair Detailed		;Завершить строительство {0} в системе {1}
+ShipMission Description Build Coordinates		;Построить {0} ({1}) по этим координатам
+ShipMission Description Capture		;Захватить {0}
+ShipMission Description Capture Prepare		;Подготовиться и захватить {0}
+ShipMission Description Capture Prepare Waypoint		;Захватить {0} (этап на {1})
+ShipMission Description Capture Prepare Refuel		;Захватить {0} (заправиться на {1})
+ShipMission Description Colonize		;Колонизировать {0}
+ShipMission Description Establish Outpost		;Установить аванпост в {0}
+ShipMission Description Escape Target		;Побег из {0}
+ShipMission Description Escape Destination		;Спасение в {0}
+ShipMission Description Escape		;Побег
+ShipMission Description Escort		;Эскорт {0}
+ShipMission Description Explore		;Исследовать {0}
+ShipMission Description ExploreSystem		;Исследовать систему {0} ({1})
+ShipMission Description ExploreLocation		;Исследовать локацию {0} ({1})
+ShipMission Description ExploreSurvey		;Исследовать {0}
+ShipMission Description FighterBoardCarrier		;Десантный носитель {0}
+ShipMission Description Guard		;Охранять {0}
+ShipMission Description LoadTroops		;Загрузить войска в {0}
+ShipMission Description LoadTroops Unavailable		;Загрузить войска
+ShipMission Description LoadPopulation		;Загрузить колонистов в {0}
+ShipMission Description LoadPopulation RACE		;Загрузить колонистов в {0} ({1})
+ShipMission Description LoadCargo		;Заправить топливо в {0}
+ShipMission Description LoadCargo Resources		;Купить {1} за {0}
+ShipMission Description TransferFuel		;Передать топливо в {0}
+ShipMission Description Mine		;Добыть {0}, разгрузить в {1}
+ShipMission Description MineLoad		;Добывать топливо на {0}
+ShipMission Description MineLoad NonFuel		;Добывать ресурсы в {0}
+ShipMission Description Move		;Переместиться в {0}
+ShipMission Description Move Coordinates		;Переместиться в {0}, {1}
+ShipMission Description Patrol		;Патруль {0}
+ShipMission Description Pickup		;Подобрать {0}
+ShipMission Description Raid		;Напасть на {0}
+ShipMission Description Raid Prepare		;Подготовиться и совершить набег на {0}
+ShipMission Description Raid Prepare Waypoint		;Нападение на {0} (этап в {1})
+ShipMission Description Raid Prepare Refuel		;Набег на {0} (заправка в {1})
+ShipMission Description Refuel		;Заправиться на {0}
+ShipMission Description Repair		;Ремонт в {0}
+ShipMission Description Retire Target		;Выйти на пенсию в {0}
+ShipMission Description Retire		;В отставку
+ShipMission Description Retrofit		;Модернизация в {0}
+ShipMission Description Retrofit With Design		;Модернизация в {0} для {1}
+ShipMission Description Scout		;Разведка {0}
+ShipMission Description Scrap		;Утилизировать в {0}
+ShipMission Description Transport		;Перевезти груз из {0} в {1}
+ShipMission Description Transport Passengers		;Перевезти пассажиров из {0} в {1}
+ShipMission Description Transport Migrants		;Переместить мигрантов из {0} в {1}
+ShipMission Description Transport Tourists		;Перевезти туристов из {0} в {1}
+ShipMission Description UnloadTroops		;Высадить войска в {0}
+ShipMission Description UnloadPassengers		;Высадить пассажиров в {0}
+ShipMission Description UnloadCargo		;Выгрузить груз в {0}
+ShipMission Description UnloadCargo Resources		;Продать {1} за {0}
+ShipMission Description ExitYard		;Покинуть верфь
+ShipMission Description Dock		;Причалить у {0}
+ShipMission Description Undock		;Отстыковаться от {0}
+
+ShipMission Description With Distance RamDestroyPlanet		;Врезаться и уничтожить {0} (в {1})
+ShipMission Description RamDestroyPlanet		;Врезаться и уничтожить {0}
+
+ShipMission Description With Distance Attack		;Атаковать {0} (в {1})
+ShipMission Description With Distance Attack Prepare		;Подготовиться и атаковать {0} (в {1})
+ShipMission Description With Distance Attack Prepare Waypoint		;Атаковать {0} (на расстоянии {2}, промежуточная точка в {1}, на расстоянии {3})
+ShipMission Description With Distance Attack Prepare Refuel		;Атаковать {0} (на расстоянии {2}, дозаправиться в {1}, на расстоянии {3})
+
+ShipMission Description With Distance Invade		;Вторгнуться в {0} (на расстоянии {1})
+ShipMission Description With Distance Invade Prepare		;Подготовиться и вторгнуться в {0} (на расстоянии {1})
+ShipMission Description With Distance Invade Prepare Waypoint		;Вторгнуться в {0} (на расстоянии {2}, промежуточная точка в {1}, на расстоянии {3})
+ShipMission Description With Distance Invade Prepare Refuel		;Вторгнуться в {0} (на расстоянии {2}, дозаправиться на {1}, на расстоянии {3})
+
+ShipMission Description With Distance Blockade		;Блокада {0} (в {1})
+ShipMission Description With Distance Bombard		;Обстрелять {0} (на расстоянии {1})
+ShipMission Description With Distance Bombard Prepare		;Подготовиться и обстрелять {0} (на расстоянии {1})
+ShipMission Description With Distance Bombard Prepare Waypoint		;Обстрелять {0} (на расстоянии {2}, промежуточная точка в {1}, на расстоянии {3})
+ShipMission Description With Distance Bombard Prepare Refuel		;Обстрелять {0} (в {2}, дозаправка в {1}, {3})
+ShipMission Description With Distance Build		;Построить {0} ({2}) в {1} (в {3} отсюда)
+ShipMission Description With Distance BuildRepair		;Построить {0} (в {1})
+ShipMission Description With Distance BuildRepair Detailed		;Завершение строительства {0} в системе {1} (в {3} отсюда)
+ShipMission Description With Distance Build Coordinates		;Построить {0} ({1}) по этим координатам
+ShipMission Description With Distance Capture		;Захватить {0} (в {1})
+ShipMission Description With Distance Capture Prepare		;Подготовиться и захватить {0} (в {1})
+ShipMission Description With Distance Capture Prepare Waypoint		;Захватить {0} (на расстоянии {2}, промежуточная точка в {1}, на расстоянии {3})
+ShipMission Description With Distance Capture Prepare Refuel		;Захватить {0} (на расстоянии {2}, дозаправиться в {1}, на расстоянии {3})
+ShipMission Description With Distance Colonize		;Колонизировать {0} (в {1})
+ShipMission Description With Distance Establish Outpost		;Установить аванпост в {0} (в {1})
+ShipMission Description With Distance Escape Target		;Побег из {0} (в {1})
+ShipMission Description With Distance Escape Destination		;Переместиться в {0} (на расстоянии {1})
+ShipMission Description With Distance Escort		;Эскорт {0} (в {1})
+ShipMission Description With Distance Explore		;Исследовать {0} (в {1})
+ShipMission Description With Distance ExploreSystem		;Исследовать систему {0} ({1}, {2} вдали)
+ShipMission Description With Distance ExploreLocation		;Исследовать локацию {0} ({1}, {2} вдали)
+ShipMission Description With Distance ExploreSurvey		;Исследовать {0} (на расстоянии {1})
+ShipMission Description With Distance FighterBoardCarrier		;Борт-перевозчик {0} (в {1})
+ShipMission Description With Distance Guard		;Охранять {0} (в {1})
+ShipMission Description With Distance LoadTroops		;Загрузить войска в {0} (в {1})
+ShipMission Description With Distance LoadPopulation		;Загрузить колонистов в {0} (в {1})
+ShipMission Description With Distance LoadPopulation RACE		;Посадить колонистов в {0} ({1}, {2} вдали)
+ShipMission Description With Distance LoadCargo		;Загрузить топливо в {0} (в {1})
+ShipMission Description With Distance LoadCargo Resources		;Купить {1} за {0} (в {2})
+ShipMission Description With Distance TransferFuel		;Передать топливо в {0} (на расстоянии {1})
+ShipMission Description With Distance Mine		;Добыть {0} ({2} вдали), разгрузить на {1} ({3} вдали)
+ShipMission Description With Distance MineLoad		;Добывать топливо на {0} (в {1})
+ShipMission Description With Distance MineLoad NonFuel		;Добывать ресурсы в {0} (в {1})
+ShipMission Description With Distance Move		;Переместиться в {0} (на расстоянии {1})
+ShipMission Description With Distance Move Coordinates		;Переместиться в {0}, {1} (в {2})
+ShipMission Description With Distance Patrol		;Патруль {0} (в {1})
+ShipMission Description With Distance Pickup		;Подобрать {0} (в {1})
+ShipMission Description With Distance Raid		;Напасть на {0} (в {1})
+ShipMission Description With Distance Raid Prepare		;Подготовиться и совершить набег на {0} (в {1})
+ShipMission Description With Distance Raid Prepare Waypoint		;Напасть на {0} (в {2}, веховая точка в {1}, в {3})
+ShipMission Description With Distance Raid Prepare Refuel		;Напасть на {0} (на расстоянии {2}, дозаправиться в {1}, на расстоянии {3})
+ShipMission Description With Distance Refuel		;Заправиться на {0} (в {1})
+ShipMission Description With Distance Repair		;Ремонт в {0} (в {1})
+ShipMission Description With Distance Retire Target		;Выйти на пенсию в {0} (в {1})
+ShipMission Description With Distance Retrofit		;Модернизация в {0} (в {1})
+ShipMission Description With Distance Retrofit With Design		;Модернизация в {0} ({2} в пути)
+ShipMission Description With Distance Scout		;Разведка {0} (в {1})
+ShipMission Description With Distance Scrap		;Утилизировать в {0} (в {1})
+ShipMission Description With Distance Transport		;Перевезти груз из {0} (на расстоянии {2}) в {1} (на расстоянии {3})
+ShipMission Description With Distance Transport Passengers		;Перевезти пассажиров из {0} (на расстоянии {2}) в {1} (на расстоянии {3})
+ShipMission Description With Distance Transport Migrants		;Переместить мигрантов из {0} ({2} вдали) в {1} ({3} вдали)
+ShipMission Description With Distance Transport Tourists		;Перевезти туристов из {0} (на расстоянии {2}) в {1} (на расстоянии {3})
+ShipMission Description With Distance UnloadTroops		;Высадить войска в {0} (в {1})
+ShipMission Description With Distance UnloadPassengers		;Высадить пассажиров в {0} (в {1})
+ShipMission Description With Distance UnloadCargo		;Выгрузить груз в {0} (в {1})
+ShipMission Description With Distance UnloadCargo Resources		;Продать {1} за {0} (на расстоянии {2})
+ShipMission Description With Distance Dock		;Причалить у {0} (на расстоянии {1})
+ShipMission Description With Distance Undock		;Отстыковаться от {0} (на расстоянии {1})
+
+SYSTEMNAME system		;Система {0}
+Quality		;Качество
+
+We have raided TARGET of the EMPIRE but failed to obtain any loot		;Мы совершили набег на [LOCATION]{0}[/LOCATION] у [FACTION]{1}[/FACTION], но не смогли добыть никакой добычи
+The EMPIRE have raided our base TARGET but failed to obtain any loot		;[FACTION]{0}[/FACTION] совершили налёт на нашу базу [LOCATION]{1}[/LOCATION], но не смогли захватить никакого трофея
+The EMPIRE have raided our colony TARGET but failed to obtain any loot		;[FACTION]{0}[/FACTION] совершили набег на нашу колонию [LOCATION]{1}[/LOCATION], но не смогли захватить добычу
+X credits		;{0} кредитов
+Research breakthrough in PROJECT		;Прорыв в исследованиях в области {0}
+Improved our understanding of PROJECT		;Улучшено наше понимание {0}
+We have raided base TARGET of the EMPIRE and pillaged the following FAIL		;Мы совершили набег на базу [LOCATION]{0}[/LOCATION] фракции [FACTION]{1}[/FACTION]! Отчаянное сопротивление заставило нас отступить, но до этого нам удалось захватить следующее добытое имущество: {2}
+We have raided base TARGET of the EMPIRE and pillaged the following		;Мы совершили набег на базу [LOCATION]{0}[/LOCATION] фракции [FACTION]{1}[/FACTION]! В ходе успешного рейда мы захватили следующее добытое имущество: {2}
+We have raided colony TARGET of the EMPIRE and pillaged the following		;Мы совершили набег на колонию [LOCATION]{0}[/LOCATION] фракции [FACTION]{1}[/FACTION]! В ходе успешного рейда мы захватили следующее имущество: {2}.\n\nНаш набег также усилил наш контроль над этой колонией, что дополнительно увеличило наши доходы.
+We have raided colony TARGET of the EMPIRE and pillaged the following FAIL		;Мы совершили набег на колонию [LOCATION]{0}[/LOCATION] фракции [FACTION]{1}[/FACTION]! Отчаянное сопротивление заставило нас отступить, но до этого нам удалось захватить следующее добытое: {2}
+The EMPIRE have raided our base TARGET and stolen the following		;[ФАКЦИЯ]{1}[/ФАКЦИЯ] совершила налёт на нашу базу [ЛОКАЦИЯ]{0}[/ЛОКАЦИЯ]! В ходе рейда они похитили следующее: {2}
+The EMPIRE have raided our colony TARGET and stolen the following		;[ФАКЦИЯ]{1}[/ФАКЦИЯ] совершила налёт на нашу колонию [ЛОКАЦИЯ]{0}[/ЛОКАЦИЯ]! В ходе налёта они похитили следующее: {2}
+The EMPIRE have raided our base TARGET causing widespread death and destruction		;[FACTION]{1}[/FACTION] совершил набег на нашу базу [LOCATION]{0}[/LOCATION], поглотив всё, что смог найти. В результате они стали сильнее и могущественнее.
+The EMPIRE have raided our colony TARGET causing widespread death and destruction		;[FACTION]{1}[/FACTION] совершил набег на нашу колонию [LOCATION]{0}[/LOCATION], повлекший массовые жертвы и разрушения, поглотив всё на своем пути. В результате они стали сильнее и могущественнее.
+Our ship X has been boarded and captured		;Наш {0} [LOCATION]'{1}'[/LOCATION] был захвачен и взят на абордаж фракцией [FACTION]{2}[/FACTION]!
+BASE has been boarded and captured		;[LOCATION]{0}[/LOCATION] был захвачен и взят на абордаж [FACTION]{1}[/FACTION]!
+We have boarded and captured the ship X		;Мы захватили корабль [LOCATION]'{0}'[/LOCATION] фракции [FACTION]{1}[/FACTION]!
+We have boarded and captured BASE		;Мы захватили и взяли на абордаж [LOCATION]{0}[/LOCATION] фракции [FACTION]{1}[/FACTION]!
+Captured Base Scrapped		;Захваченная база утилизирована
+Captured Ship Scrapped		;Корабль захвачен и утилизирован
+Captured Base Scrapped Description		;В соответствии с политикой нашей империи мы немедленно утилизировали захваченную базу [LOCATION]{0}[/LOCATION] на месте, получив бонус в размере {1} кредитов.
+Captured Ship Scrapped Description		;В соответствии с политикой нашей империи мы немедленно утилизировали захваченный корабль [LOCATION]{0}[/LOCATION] на месте в обмен на денежный бонус в размере {1} кредитов
+
+During our recent conquest of COLONY we acquired the following		;Во время нашего недавнего завоевания [LOCATION]{0}[/LOCATION] у [FACTION]{1}[/FACTION] мы получили следующее: {2}
+During the recent conquest of COLONY EMPIRE acquired the following		;Во время недавнего захвата нашей колонии [LOCATION]{0}[/LOCATION] силами [FACTION]{1}[/FACTION] они сумели завладеть следующим у нас: {2}
+Tech Acquired in Conquest		;Технология, полученная в ходе завоевания
+Tech Stolen in Conquest		;Технологии, похищенные в ходе завоевания
+
+Ancient Ruins		;Древние руины
+Recruiting TROOPNAME		;Набор {0}
+Garrisoned		;Охраняемый гарнизон
+complete		;Завершено
+Under Construction		;В строительстве
+Size		;Размер
+Click for details		;Нажмите для получения подробностей
+Click to select		;Нажмите, чтобы выбрать
+Click to select mission target		;Нажмите, чтобы выбрать цель миссии
+Double-click to select		;Двойной щелчок для выбора
+Double-click for options		;Двойной щелчок для параметров
+Double-click for details		;Двойной щелчок для получения подробностей
+
+Abandoned		;Забытый
+Abandoned Ship		;Покинутый корабль
+Abandoned Base		;Покинутая база
+Design		;Проектирование
+Fuel		;Топливо
+Energy		;Энергия
+Shields		;Щиты
+Speed		;Скорость
+Weapons		;Оружие
+Health		;Здоровье
+Max DPS		;Макс. урон в секунду
+Range		;Дальность
+Avg DPS		;Средний урон в секунду
+Min DPS		;Мин. урон в секунду
+Fighters		;Истребители
+Building		;Строительство
+waiting		;ожидание
+Docked		;Пристыкован
+Awaiting Construction		;Ожидание строительства
+Onboard		;На борту
+Components		;Компоненты
+destroyed		;разрушенный
+disabled		;отключено
+All components normal		;Все компоненты в норме
+Fleet		;Флот
+
+Star		;Звезда
+Planet		;Планета
+Moon		;Луна
+Asteroid		;Астероид
+
+Population		;Население
+Others		;Другие
+Total		;Тотальность
+Resources		;Ресурсы
+Development		;Развитие
+Approval		;Утверждение
+Revenue		;Доход
+Base Revenue		;Базовая выручка
+Support Costs		;Стоимость содержания
+Corruption		;Коррупция
+Corruption Losses		;Потери от коррупции
+Diameter		;Диаметр
+X% of empire		;{0} империи
+Tax		;Налог
+Facilities		;Сооружения
+Support Costs Explanation		;Колонии требуют средств на содержание. По мере роста их налоговые поступления превышают расходы на поддержку, обеспечивая финансирование вашей империи. Однако пока колонии малы и неразвиты, они создают чистую нагрузку на экономику.
+
+Следующие факторы увеличивают затраты на содержание колоний:
+- численность населения менее 100 миллионов;
+- пригодность для жизни менее 20;
+- неассимилированное население;
+- численность населения превышает 50% от максимума.
+
+The inhabitants of COLONY are FEELING with you		;Жители {0} — это {1}
+happy		;счастливый
+satisfied		;удовлетворён
+unhappy		;недовольный
+angry		;гневный
+
+Our colony has a very high level of development		;Наша колония имеет очень высокий уровень развития
+Our colony has a high level of development		;Наша колония имеет высокий уровень развития
+Our colony has a reasonable level of development		;Наша колония имеет разумный уровень развития
+Our colony is developing		;Наша колония развивается
+Our colony is mostly undeveloped		;Наша колония в основном неразвита
+We approve of the current tax rate		;Мы одобряем текущую налоговую ставку
+The current tax rate is too high!		;Текущая налоговая ставка слишком высока!
+We are happy that our empire is at peace		;Мы рады, что наша империя находится в мире
+We tire of our empire's wars		;Мы устали от войн нашей империи
+We have no cultural distress		;У нас нет культурного дистресса
+We are in awe of nearby colonies of other empires		;Мы в трепете перед соседними колониями других империй
+We are proud of our empire's good reputation		;Мы гордимся хорошей репутацией нашей империи
+We are concerned about our empire's poor reputation		;Мы обеспокоены плохой репутацией нашей империи
+We have no racial unhappiness		;У нас нет расового недовольства
+RACE are unhappy being part of our RACE empire		;{0} недовольны тем, что являются частью нашей империи {1}
+You are not at war with empires of our race		;Вы не ведете войну с империями нашего рода
+RACE are upset that we are at war with their species		;{0} недовольны тем, что мы ведем войну с их видом
+We enjoy our colony's high quality environment		;Мы наслаждаемся высококачественной средой нашей колонии
+We are unhappy with our colony's low quality environment		;Мы недовольны низким качеством окружающей среды нашей колонии
+We are angry at the recent conquest of our colony		;Мы гневаемся на недавний захват нашей колонии
+Raid Unhappiness Description		;Нас пугают недавние пиратские набеги на нашу колонию
+Unrest Description		;Диссиденты подняли бунт в нашей колонии, вызвав массовые беспорядки и хаос
+We have some unassimilated population		;У нас есть неассимилированное население
+Our colony's environment has been ravaged by destruction		;Среда нашей колонии была опустошена разрушениями
+We enjoy living at our empire's capital		;Мы любим жить в столице нашей империи
+Ongoing events have reduced our happiness		;Текущие события снизили наш уровень счастья
+Ongoing events have improved our happiness		;Продолжающиеся события повысили наш уровень счастья
+Recreation facilities increase our happiness		;Объекты отдыха повышают наш уровень счастья
+Medical facilities increase our happiness		;Медицинские учреждения повышают наш уровень счастья
+
+Ship Automation Description		;Текущее: {0}, Следующее: {1}
+Ship Automation Manual		;Ручное управление
+Ship Automation AutoGuard		;Авто-страж
+Ship Automation AutoPatrol		;Авто-патруль
+Ship Automation AutoEscort		;Авто-эскорт
+Ship Automation AutoRaid		;Авто-набег
+Ship Automation AutoExplore		;Авто-разведка
+Ship Automation AutoScout		;Системы автоматического поиска
+Ship Automation AutoSpy		;Авто-шпионаж за врагами
+Ship Automation AutoMigration		;Авто-миграция
+Ship Automation AutoTourism		;Авто-туризм
+Ship Automation AutoBuildMiningStations		;Авто-строительство добывающих станций
+Ship Automation AutoBuildResearchStations		;Автоматическое строительство исследовательских станций
+Ship Automation AutoBuildMonitoringStations		;Автоматическое строительство станций наблюдения
+Ship Automation AutoBuildResortBases		;Автоматическое строительство развлекательных баз
+Ship Automation AutoSalvageShips		;Авто-сбор обломков
+Ship Automation FullyAutomate		;Полная автоматизация
+
+GameTaskType AssignCharacterMission		;
+GameTaskType QueueBase		;Построить {0} ({1}) в {2} за {3} кредитов
+GameTaskType QueueBase Constructor		;Отправить {4} для постройки {0} ({1}) в точке {2} за {3} кредитов
+GameTaskType QueueRepairInvestigate		;Ремонт и исследование {0} ({1})
+GameTaskType QueueColonize		;Построить колонизационный корабль и колонизировать {0}
+GameTaskType QueueEstablishOutpost		;Построить колонизационный корабль и создать аванпост в {0}
+GameTaskType QueuePirateInfluence		;Очередь влияния пиратов в {0}
+GameTaskType CancelQueueBase		;Отменить строительство {0} в {1}
+GameTaskType CancelQueueRepairInvestigate		;Отменить ремонт и исследование {0} ({1})
+GameTaskType CancelQueueColonize		;Отменить колонизацию {0}
+GameTaskType CancelQueueEstablishOutpost		;Отменить создание аванпоста в {0}
+GameTaskType CancelQueuePirateInfluence		;Отменить пиратское влияние в {0}
+GameTaskType QueueAttackTarget		;Очередь атаки на {0}
+
+GameTaskType QueueAttackTarget Attack		;Очередь атаки на {0}
+GameTaskType QueueAttackTarget Attack Clear Colony Defenses		;Очистить очереди обороны в {0}
+GameTaskType QueueAttackTarget Invade		;Очередь: Вторжение на {0}
+GameTaskType QueueAttackTarget Bombard		;Очередь на бомбардировку {0}
+GameTaskType QueueAttackTarget Capture		;Очередь захвата {0}
+GameTaskType QueueAttackTarget Raid		;Очередь на рейд {0}
+GameTaskType QueueAttackTarget Blockade		;Очередь блокады {0}
+
+GameTaskType CancelQueueAttackTarget Attack		;Отменить атаку на {0}
+GameTaskType CancelQueueAttackTarget Attack Clear Colony Defenses		;Отменить очистку защитных систем в {0}
+GameTaskType CancelQueueAttackTarget Invade		;Отменить вторжение на {0}
+GameTaskType CancelQueueAttackTarget Bombard		;Отменить бомбардировку {0}
+GameTaskType CancelQueueAttackTarget Capture		;Отменить захват {0}
+GameTaskType CancelQueueAttackTarget Raid		;Отменить рейд на {0}
+GameTaskType CancelQueueAttackTarget Blockade		;Отменить блокаду {0}
+
+GameTaskType CancelQueueAttackTarget		;Отменить атаку на {0}
+
+GameTaskType AssignQuest		;Принять военную задачу: {0}
+GameTaskType AssignQuest Contract		;Принять контракт: {0}
+GameTaskType AcceptQuest		;Принять контракт: {0}
+
+GameTaskType QueueClearDangerousLocation		;Очередь на расследование и устранение угрозы в {0}
+GameTaskType CancelQueueClearDangerousLocation		;Отменить расследование угрозы и проверку на {0}
+GameTaskType BuildPlanetaryFacility		;Построить {0} в {1} за {2} кредитов
+GameTaskType StartColonyEvent		;Начать {0} в {1} за {2} кредитов
+GameTaskType StartColonyEvent No Cost		;Начать {0} в {1}
+GameTaskType BuildShips		;Построить корабли в {0} за {1} кредитов
+GameTaskType BuildShips List		;Построить корабли в {0} за {1} кредитов:\n{2}
+GameTaskType BuildShips Single		;Построить {0} ({1}) в {2} за {3} кредитов
+GameTaskType BuildShips Single Anywhere		;Построить {0} ({1}) за {2} кредитов
+GameTaskType BuildShips Single Short		;Построить {0} за {1} кредитов
+GameTaskType BuildShips Single Short ROLE		;Построить {0} ({2}) за {1} кредитов
+GameTaskType BuildShips Anywhere		;Построить корабли за {0} кредитов
+GameTaskType BuildShips Anywhere List		;Построить корабли за {0} кредитов:\n{1}
+GameTaskType BuildShips Single Multiple Designs		;Построить {0} по выбранному проекту
+
+GameTaskType BuildShips Multiple Designs		;Доступно несколько вариантов дизайна {0} — нажмите, чтобы выбрать
+GameTaskType TransferTroopToShip Multiple		;Переместить {0} на ближайший транспорт — нажмите, чтобы выбрать
+
+X x ROLE (DESIGN)		;{0} × {1} ({2})
+GameTaskType ColonyTaxUp		;Увеличить налоговую ставку в {0} до {1}%
+GameTaskType ColonyTaxDown		;Снизить налоговую ставку в {0} до {1}%
+GameTaskType CreateNewFleet		;Создать новый флот из этих кораблей
+GameTaskType DiplomaticCancelTreaty		;Отменить {0} с помощью {1}
+GameTaskType DiplomaticDeclareWar		;Объявить войну {0}
+GameTaskType DiplomaticGift		;Выдать {0} кредитов {1}
+GameTaskType DiplomaticTreatyOffer		;Предложить {0} для {1}
+GameTaskType DiplomaticTreatyOffer ResourceSupply		;Предложить контракт на поставку {0} в {1}
+GameTaskType AllianceVote		;{0} голосов за {1} {2}
+GameTaskType AllianceJoin		;{0} приглашает {1} присоединиться
+GameTaskType AllianceEndWar		;{0} предлагает прекратить войну с {1}
+GameTaskType EndWarWithAlliance		;{0} предлагает прекратить войну с {1}
+GameTaskType DisbandFleet		;Распустить флот ({0})
+GameTaskType DisbandTroop		;Расформировать отряд войск ({0})
+GameTaskType DisbandTroop Multiple		;Распустить войска
+GameTaskType ScrapShip		;Разрушить {0}
+GameTaskType ScrapShips		;Корабли-скаттеры
+GameTaskType FighterBuildFighter		;Построить {0} ({1})
+GameTaskType FighterLaunchFighters		;Запустить все {0} из {1}
+GameTaskType FighterRetrieveFighters		;Получить все {0} для {1}
+GameTaskType FighterUpgradeAll		;Обновить все истребители до новейших моделей ({0})
+GameTaskType GenerateCharacter		;
+GameTaskType GiveShip		;Подарить {0} для {1}
+GameTaskType CancelShipConstruction		;Отменить строительство {0} в {1}
+GameTaskType InfluenceForeignColony		;
+GameTaskType InitateContract		;
+GameTaskType InitiateCrashResearch		;Форсировать исследование в {0}
+GameTaskType InvestigateRuins		;Исследовать {0}
+GameTaskType InvestigateShip		;Исследовать {0}
+GameTaskType ChangeArtifactLocation		;Немедленно переместите {0} в {1}
+GameTaskType TransferArtifact		;Переместить {0} в {1}
+GameTaskType TransferTroopToShip		;Переместить {0} в {1}
+GameTaskType JoinFleet		;Присоединить корабль {0} к флоту ({1})
+GameTaskType JoinFleet None		;Присоединить корабль {0} к флоту
+GameTaskType JoinFleetMultiple		;Присоединить корабли к флоту
+GameTaskType JoinFleetMultiple Specific		;Присоединить корабли к флоту ({0})
+GameTaskType LeaveFleet		;Оставить флот ({0})
+GameTaskType OrderResource		;
+GameTaskType PerformExpense		;
+GameTaskType PerformIncome		;
+GameTaskType EliminatePirateInfluence		;Устранить пиратское влияние в {0}
+GameTaskType RecruitTroops Maintenance		;Нанять {0} ({1}) в {2} за {3} (Содержание: {4} кредитов)
+GameTaskType RecruitTroops Maintenance Cloned		;Создать клон {0} ({1}) в точке {2} за {3} (Обслуживание: {4} кредитов)
+GameTaskType RecruitTroops		;Набрать {0} ({1}) в {2} за {3}
+GameTaskType RecruitTroops Cloned		;Создать клон {0} ({1}) в {2} за {3}
+GameTaskType RefuelAndRepair		;Заправка и ремонт
+GameTaskType RefuelAndRepair Location		;Заправка и ремонт в {0}
+GameTaskType RemoveCharacter		;
+GameTaskType RemoveDesign		;
+GameTaskType RetrofitShip No Design		;Модернизация до новейшего проекта
+GameTaskType RetrofitShip		;Модернизация до последней версии дизайна ({0} ({1})) за {2} кредитов
+GameTaskType RetrofitShip Short		;Модернизация до {0} ({1}) за {2} кредитов
+GameTaskType RetrofitShip Location		;Модернизация до последней версии дизайна ({0} ({1})) на {2} за {3} кредитов
+GameTaskType RetrofitShip Multiple Designs		;Модернизация до выбранного проекта
+GameTaskType RetrofitMultipleShips		;Модернизировать корабли по последним проектам
+GameTaskType RetrofitMultipleShips Location		;Модернизировать корабли по последним проектам на {0}
+GameTaskType RetrofitFleet		;Модернизировать флот по последним проектам
+GameTaskType RetrofitFleet Location		;Модернизировать флот по последним проектам в {0}
+GameTaskType RetireMultipleShips		;Вывести корабли на пенсию
+GameTaskType TopupFleet		;Пополнить флот кораблями
+GameTaskType TopupFleet NAME		;Пополнить {0}
+GameTaskType HonorDefenseTreaty		;Договор о почетной обороне
+GameTaskType DishonorDefenseTreaty		;Нарушение договора о защите
+GameTaskType ScrapPlanetaryFacility		;Утилизировать {0} в {1}
+GameTaskType SetAsFleetLeadShip		;Назначить корабль {0} ведущим для флота ({1})
+GameTaskType SetEmpireFlagShip		;Установить {0} как флагманский корабль империи
+GameTaskType SetAttackRangeWeaker		;Атака против более слабых целей: {0}
+GameTaskType SetAttackRangeStronger		;Атака против более сильных целей: {0}
+GameTaskType SetFleetStance		;Атака: {0}
+GameTaskType SetFleetTemplate		;Шаблон флота: {0}
+GameTaskType SetArmyTemplate		;Шаблон армии: {0}
+GameTaskType SetFleetFormationCoherence		;Формирование: {0}
+GameTaskType SetFleetAllowShipRoleReassignment			;Переназначение позиции корабля флота: {0}
+GameTaskType SetFleetOverrideShipTacticsWithFleet		;Тактика — использовать флот или корабль: {0}
+GameTaskType SetFleetAllowShipRoleUpgrade			;Роль корабля повышена/понижена: {0}
+GameTaskType SetFleetAllowTrimmingExcessShips			;Удалить лишние корабли: {0}
+GameTaskType SetFleetAllowAutoUpgradingSpecificDesigns			;Автоматическое обновление устаревших конкретных проектов: {0}
+GameTaskType SetCapital		;Установить {0} в качестве новой столицы империи
+GameTaskType TransitionToRefugeeFleet		;Отказаться от {0} и стать Флотом беженцев. Вы потеряете все свои существующие корабли, базы и войска. Вместо этого вы будете командовать небольшим Флотом беженцев в поисках нового дома. Ваш новый одинокий Колонизационный корабль будет иметь на борту всё население {0}, готовое основать новую колонию
+GameTaskType AbandonColony		;Отказаться от {0}, позволив ему стать независимым
+GameTaskType AbandonColony Outpost		;Отменить {0}. Отмена аванпоста полностью удалит его. Он не станет независимой колонией.
+GameTaskType UpgradeOutpostToColony		;Улучшить {0}, превратив его из аванпоста в полноценную колонию, за {1} кредитов
+GameTaskType SetColonyPopulationPolicy		;
+GameTaskType SetDiplomaticStrategy		;
+GameTaskType SetEngagementRange		;Дальность боя: {0}
+GameTaskType SetEngagementRange Fleet		;Дальность флотского сражения: {0}
+GameTaskType SetAttackTargetStagingPoint		;Установить точку сбора для {0} в {1}
+GameTaskType ClearAttackTargetStagingPoint		;Точка высадки для {0} (текущая: {1})
+GameTaskType ClearFleetAttackPoint		;Четкая точка атаки для {0} (текущая: {1})
+GameTaskType SetFleetAttackPoint		;Установить точку атаки для {0} на {1}
+GameTaskType SetFleetHomeBase		;Установить базу для {0} в {1}
+GameTaskType SetFleetRetreatOverwhelmed		;Флот должен отступать, когда: {0}
+GameTaskType SetFleetRetreatStrength		;Флот должен отступать, когда: {0}
+GameTaskType SetFleetRole		;Роль флота: {0}
+GameTaskType SetInvasionTactics		;Вторгнуться в колонии: {0}
+GameTaskType SetResearchQueue		;
+GameTaskType SetShipAutomation		;Автоматизация корабля: {0}
+GameTaskType SetShipRetreatOptions		;Отступать, когда: {0}
+GameTaskType SetShipRoleInFleet		;Позиция во флоте: {0}
+GameTaskType SetStockLevel		;
+GameTaskType SetTargetStickinessFactor		;
+GameTaskType SetTroopGarrison		;Десантный отряд {0}
+GameTaskType SetTroopUngarrison		;Размещение войск в гарнизоне {0}
+GameTaskType SetTroopGarrison Multiple		;Десантный гарнизон
+GameTaskType SetTroopUngarrison Multiple		;Снять войска с гарнизона
+GameTaskType TradeItems		;
+GameTaskType TransferCharacter		;
+GameTaskType UI_ChangeZoom		;
+GameTaskType UI_ColonyBuildFacility		;Построить объекты или запустить события в {0}
+GameTaskType UI_GotoLocation		;
+GameTaskType UI_MoveView		;
+GameTaskType UI_ReturnToTop		;Вернуться наверх
+GameTaskType UI_ShowBuildOptions		;Построить новый корабль или базу
+GameTaskType UI_ShowFighterOptions		;Управлять истребителями
+GameTaskType UI_NextTasks		;Далее
+GameTaskType UI_PreviousTasks		;Предыдущий
+GameTaskType UI_ShowCharacterMissionOptions		;Характерные миссии
+GameTaskType UI_ShowTacticsOptions		;Установить тактику
+GameTaskType UI_QuestContractScreen		;Создать новый контракт для этой локации
+GameTaskType UI_ShowColonyAutomationOptions		;Настроить автоматизацию колонии
+GameTaskType UI_ColonyDetailScreen		;Показать экран деталей колонии
+GameTaskType UI_ShowTroopOptions		;Управление войсками
+GameTaskType UpdateShipDesign		;
+GameTaskType UpgradePlanetaryFacility		;Улучшить {0} до {1} за {2} кредитов
+
+GameTaskType Short AssignCharacterMission		;Назначить миссию
+GameTaskType Short FleetSignalFuelTankers		;Заправиться от топливных заправщиков
+GameTaskType Short AssignFleetMission		;Назначить миссию
+GameTaskType Short AssignShipMission		;Назначить миссию
+GameTaskType Short ClearShipMission		;Остановить и очистить все запланированные миссии
+GameTaskType Extended ClearShipMission		;В качестве альтернативы вы можете удерживать клавишу [B]Shift[/B], чтобы сохранить все запланированные миссии и просто отменить текущую, то есть немедленно перейти к следующей в очереди миссии.
+GameTaskType Short ClearQueuedMissions		;Очистить очередь заданий
+GameTaskType Short QueueBase		;Построить базу
+GameTaskType Short QueueRepairInvestigate		;Ремонт и исследование корабля или базы
+GameTaskType Short QueueColonize		;Колонизировать {0}
+GameTaskType Short QueueEstablishOutpost		;Установить аванпост в {0}
+GameTaskType Short CancelQueueBase		;Отменить строительство базы
+GameTaskType Short CancelQueueRepairInvestigate		;Отменить ремонт и провести расследование
+GameTaskType Short CancelQueueColonize		;Отменить колонизацию
+GameTaskType Short CancelQueueEstablishOutpost		;Отменить создание аванпоста
+GameTaskType Short QueuePirateInfluence		;Очередь влияния пиратов в {0}
+GameTaskType Short CancelQueuePirateInfluence		;Отменить пиратское влияние
+
+GameTaskType Short QueueAttackTarget		;Очередь атаки
+GameTaskType Short QueueAttackTarget Attack		;Очередь атаки
+GameTaskType Short QueueAttackTarget Invade		;Очередь вторжения
+GameTaskType Short QueueAttackTarget Bombard		;Очередь бомбардировки
+GameTaskType Short QueueAttackTarget Capture		;Очередь захвата
+GameTaskType Short QueueAttackTarget Raid		;Очередь рейда
+GameTaskType Short QueueAttackTarget Blockade		;Очередь блокады
+GameTaskType Short QueueAttackTarget GatherPoint		;Установить точку сбора для атаки
+GameTaskType Short CancelQueueAttackTarget		;Отменить атаку
+GameTaskType Short AssignQuest		;Принять военную задачу: {0}
+GameTaskType Short AssignQuest Contract		;Принять контракт: {0}
+GameTaskType Short CancelContract		;Отменить контракт
+GameTaskType Short BidOnContract		;Предложить ставку в {0} кредитов
+GameTaskType Short BidOnContract Opening		;Предложить начальную ставку в {0} кредитов
+GameTaskType Short AcceptQuest		;Принять контракт
+GameTaskType Short QueueClearDangerousLocation		;Очистить очередь Опасная локация
+GameTaskType Short CancelQueueClearDangerousLocation		;Отменить Очистить Опасная локация
+GameTaskType Short BuildPlanetaryFacility		;Построить {0}
+GameTaskType Short BuildShips		;Построить корабли
+GameTaskType Short BuildShips Single		;Построить корабль
+GameTaskType Short BuildShips Base		;Построить базу
+GameTaskType Short BuildShips Anywhere		;Построить корабли
+GameTaskType Short ColonyTaxUp		;Увеличить налоговую ставку колонии
+GameTaskType Short ColonyTaxDown		;Снизить налоговую ставку колонии
+GameTaskType Short CreateNewFleet		;Создать новый флот
+GameTaskType Short DiplomaticCancelTreaty		;Отменить договор
+GameTaskType Short DiplomaticDeclareWar		;Объявить войну
+GameTaskType Short DiplomaticGift		;Принять подарок
+GameTaskType Short DiplomaticGift Offer		;Предложить подарок
+GameTaskType Short DiplomaticTreatyOffer		;Принять договор
+GameTaskType Short DiplomaticTreatyOffer Offer		;Предложить договор
+GameTaskType Short DiplomaticTreatyOffer ResourceSupply		;Предложить контракт на поставку
+GameTaskType Short AllianceVote		;Голосование Альянса
+GameTaskType Short AllianceJoin		;Присоединиться к Альянсу
+GameTaskType Short AllianceEndWar		;Завершить войну альянса
+GameTaskType Short EndWarWithAlliance		;Завершить войну с Альянсом
+GameTaskType Short DisbandFleet		;Распустить флот
+GameTaskType Short DisbandTroop		;Расформировать войска
+GameTaskType Short DisbandTroop Multiple		;Расформировать войска
+GameTaskType Short ScrapShip		;Корабль-скаттер
+GameTaskType Short ScrapShips		;Корабли-скаттеры
+GameTaskType Short FighterBuildFighter		;Построить истребитель
+GameTaskType Short FighterLaunchFighters		;Запустить все истребители
+GameTaskType Short FighterRetrieveFighters		;Собрать все истребители
+GameTaskType Short FighterUpgradeAll		;Улучшить все истребители
+GameTaskType Short GenerateCharacter		;Создать персонажа
+GameTaskType Short GiveShip		;Подарочный корабль
+GameTaskType Short CancelShipConstruction		;Отменить строительство
+GameTaskType Short InfluenceForeignColony		;Влияние на колонию
+GameTaskType Short InitateContract		;Начать контракт
+GameTaskType Short InitiateCrashResearch		;Форсировать исследование
+GameTaskType Short InvestigateRuins		;Исследовать {0}
+GameTaskType Short InvestigateShip		;Исследовать {0}
+GameTaskType Short InvestigateShip Board		;Назначить совет {0}
+GameTaskType Short TransferArtifact		;Переместить {0} в {1}
+GameTaskType Short ChangeArtifactLocation		;Немедленно переместите {0} в {1}
+GameTaskType Short TransferTroopToShip		;Переместить {0} в {1}
+GameTaskType Short JoinFleet		;Присоединиться к флоту
+GameTaskType Short JoinFleet None		;Присоединиться к флоту
+GameTaskType Short LeaveFleet		;Покинуть флот
+GameTaskType Short OrderResource		;Заказать ресурс
+GameTaskType Short PerformExpense		;Расходы
+GameTaskType Short PerformIncome		;Доход
+GameTaskType Short RecruitTroops		;Набрать войска
+GameTaskType Short EliminatePirateInfluence		;Устранить пиратское влияние
+GameTaskType Short RefuelAndRepair		;Заправка и ремонт
+GameTaskType Short RefuelAndRepair Location		;Заправка и ремонт
+GameTaskType Short RemoveCharacter		;Удалить персонажа
+GameTaskType Short RemoveDesign		;Удалить дизайн
+GameTaskType Short RetrofitShip No Design		;Модернизация
+GameTaskType Short RetrofitShip		;Модернизация
+GameTaskType Short RetrofitShip Location		;Модернизация
+GameTaskType Short RetrofitMultipleShips		;Модернизация кораблей
+GameTaskType Short RetrofitMultipleShips Location		;Модернизация кораблей
+GameTaskType Short RetrofitFleet		;Модернизированный флот
+GameTaskType Short RetrofitFleet Location		;Модернизированный флот
+GameTaskType Short RetireMultipleShips		;Вывести корабли на пенсию
+GameTaskType Short TopupFleet		;Пополнить флот
+GameTaskType Short HonorDefenseTreaty		;Договор о почетной обороне
+GameTaskType Short DishonorDefenseTreaty		;Нарушение договора о защите
+GameTaskType Short ScrapPlanetaryFacility		;Утилизировать {0} в {1}
+GameTaskType Short SetAsFleetLeadShip		;Установить ведущий корабль
+GameTaskType Short SetEmpireFlagShip		;Установить флагманский корабль империи
+GameTaskType Short SetAttackRangeWeaker		;Установить боевую стойку
+GameTaskType Short SetAttackRangeStronger		;Установить боевую стойку
+GameTaskType Short SetFleetStance		;Установить боевую стойку
+GameTaskType Short SetFleetTemplate		;Установить шаблон флота
+GameTaskType Short SetArmyTemplate		;Настроить шаблон армии
+GameTaskType Short SetFleetFormationCoherence		;Установить строй флота
+GameTaskType Short SetCapital		;Установить столицу
+GameTaskType Short TransitionToRefugeeFleet		;Отказаться от последней колонии и стать Флотом беженцев
+GameTaskType Short AbandonColony		;Отказаться от колонии
+GameTaskType Short UpgradeOutpostToColony		;Перейти к колонии
+GameTaskType Short StartColonyEvent		;Начать событие {0}
+GameTaskType Short SetColonyPopulationPolicy		;Установить демографическую политику
+GameTaskType Short SetDiplomaticStrategy		;Установить дипломатическую стратегию
+GameTaskType Short SetEngagementRange		;Установить дальность вступления в бой
+GameTaskType Short SetAttackTargetStagingPoint		;Установить точку сбора
+GameTaskType Short ClearAttackTargetStagingPoint		;Очистить точку высадки
+GameTaskType Short SetFleetAttackPoint		;Установить точку атаки
+GameTaskType Short ClearFleetAttackPoint		;Очистить точку атаки
+GameTaskType Short SetFleetHomeBase		;Установить домашнюю базу
+GameTaskType Short SetFleetRetreatOverwhelmed		;Установить отступление, когда
+GameTaskType Short SetFleetRetreatStrength		;Установить силу отступления
+GameTaskType Short SetFleetRole		;Установить роль флота
+GameTaskType Short SetInvasionTactics		;Установить тактику вторжения
+GameTaskType Short SetResearchQueue		;Очередь исследования проекта
+GameTaskType Short SetShipAutomation		;Автоматизация корабля
+GameTaskType Short SetShipRetreatOptions		;Установить отступление, когда
+GameTaskType Short SetShipRoleInFleet		;Установить позицию во флоте
+GameTaskType Short SetStockLevel		;Установить уровень запасов
+GameTaskType Short SetTargetStickinessFactor		;Установить целевой фактор
+GameTaskType Short SetTroopGarrison		;Десантный гарнизон
+GameTaskType Short SetTroopUngarrison		;Размещенный гарнизон войско
+GameTaskType Short SetTroopGarrison Multiple		;Десантный гарнизон
+GameTaskType Short SetTroopUngarrison Multiple		;Расквартировать войска
+GameTaskType Short TradeItems		;Принять торговлю
+GameTaskType Short TradeItems Offer		;Предложить торговлю
+GameTaskType Short TransferCharacter		;Переместить персонажа
+GameTaskType Short UpdateShipDesign		;Обновить дизайн
+GameTaskType Short UpgradePlanetaryFacility		;Улучшить {0}
+
+GameTaskType Short UI_LockViewOnSelected		;Зафиксировать вид на выбранном объекте
+GameTaskType Short UI_WeaponRangeDisplay		;Показать дальность стрельбы оружия для выбранного корабля
+GameTaskType Short UI_LocationShipSymbol		;Отображать символы кораблей и баз на уровне локаций
+GameTaskType Short UI_QuestContractScreen		;Создать новый контракт для этой локации
+GameTaskType Short UI_CycleCameraMode_Default		;Вид камеры: Стандартный
+GameTaskType Short UI_CycleCameraMode_TopDown		;Вид камеры: Сверху
+GameTaskType Short UI_CycleCameraMode_HighAngle		;Вид камеры: Сверху
+GameTaskType Short UI_CycleCameraMode_LowAngle		;Вид камеры: Низкий ракурс
+GameTaskType Short UI_CycleCameraMode_Trailing		;Вид камеры: Следящий
+GameTaskType Short UI_CycleCameraMode_Bridge		;Вид камеры: Мостик
+GameTaskType Short UI_CycleCameraMode_FreeForm		;Вид камеры: Свободный
+GameTaskType Short UI_CycleUILevel		;Уровень отображения пользовательского интерфейса цикла
+GameTaskType Short UI_ZoomItem		;Приблизить к выбранному
+GameTaskType Short UI_ZoomIn		;Приблизить
+GameTaskType Short UI_ZoomOut		;Отдалить
+GameTaskType Short UI_ZoomLocation		;Перейти к уровню локации
+GameTaskType Short UI_ZoomSystem		;Перейти к уровню системы
+GameTaskType Short UI_ZoomRegion		;Перейти к уровню региона
+GameTaskType Short UI_ZoomGalaxy		;Масштабирование до уровня галактики
+GameTaskType Short UI_MoveViewLeft		;Переместить вид влево
+GameTaskType Short UI_MoveViewRight		;Переместить вид вправо
+GameTaskType Short UI_MoveViewForward		;Переместить вид вперед
+GameTaskType Short UI_MoveViewBackward		;Переместить вид назад
+GameTaskType Short UI_CycleSelectionNext		;История следующего выбора
+GameTaskType Short UI_CycleSelectionPrevious		;История предыдущих выборов
+GameTaskType Short UI_CycleColonies		;Цикл: Следующая колония
+GameTaskType Short UI_CycleColoniesBack		;Предыдущая колония цикла
+GameTaskType Short UI_CycleConstructionYards		;Цикл: Следующая строительная верфь
+GameTaskType Short UI_CycleConstructionYardsBack		;Предыдущая строительная верфь цикла
+GameTaskType Short UI_CycleConstructionShips		;Цикл: Следующий строительный корабль
+GameTaskType Short UI_CycleConstructionShipsBack		;Цикл Предыдущий строительный корабль
+GameTaskType Short UI_CycleMilitaryShips		;Цикл: Следующий военный корабль
+GameTaskType Short UI_CycleMilitaryShipsBack		;Предыдущий военный корабль цикла
+GameTaskType Short UI_CycleExplorationShips		;Следующий исследовательский корабль цикла
+GameTaskType Short UI_CycleExplorationShipsBack		;Предыдущий исследовательский корабль цикла
+GameTaskType Short UI_CycleFleets		;Цикл следующего флота
+GameTaskType Short UI_CycleFleetsBack		;Предыдущий флот цикла
+
+GameTaskType Short UI_CycleIdleConstructionShips		;Цикл: Следующий корабль строительства в простое
+GameTaskType Short UI_CycleIdleConstructionShipsBack		;Цикл Предыдущий Корабль Строительства В Простое
+GameTaskType Short UI_CycleIdleMilitaryShips		;Цикл: Следующий простой военный корабль
+GameTaskType Short UI_CycleIdleMilitaryShipsBack		;Цикл Предыдущий Неактивный Военный Корабль
+GameTaskType Short UI_CycleIdleExplorationShips		;Цикл: Следующий корабль для простоя и исследования
+GameTaskType Short UI_CycleIdleExplorationShipsBack		;Цикл Предыдущий Корабль Исследования В Простое
+GameTaskType Short UI_CycleIdleFleets		;Цикл: Следующий флот в простое
+GameTaskType Short UI_CycleIdleFleetsBack		;Цикл Предыдущий Неактивный Флот
+
+GameTaskType Short UI_PauseResume		;Пауза / Возобновить
+GameTaskType Short UI_IncreaseGameSpeed		;Увеличить скорость игры
+GameTaskType Short UI_DecreaseGameSpeed		;Уменьшить скорость игры
+
+GameTaskType Short UI_RotateViewLeft		;Повернуть вид влево на ближайший угол в 45 градусов
+GameTaskType Short UI_RotateViewRight		;Повернуть вид вправо до ближайших 45 градусов
+GameTaskType Short UI_RotateViewLeftSmooth		;Повернуть вид влево
+GameTaskType Short UI_RotateViewRightSmooth		;Повернуть вид вправо
+
+Approve		;Утвердить
+Decline		;Упадок
+Show		;Показать
+Leave the Ruins Alone		;Оставить руины в покое
+Leave the Base Alone		;Оставить базу в покое
+Leave the Ship Alone		;Оставить корабль в покое
+Show Me		;Показать мне
+Dismiss		;Отменить
+
+
+EmpireRelationType FirstContact		;Первый контакт
+EmpireRelationType Defense		;Договор о взаимной обороне
+EmpireRelationType RestrictedTrade		;Ограничительное торговое соглашение
+EmpireRelationType LimitedTrade		;Ограниченное торговое соглашение
+EmpireRelationType FreeTrade		;Соглашение о свободной торговле
+EmpireRelationType IntelligenceSharing		;Обмен разведданными
+EmpireRelationType Exploration		;Исследование территории
+EmpireRelationType TerritoryMapSharing		;Обмен картами территорий
+EmpireRelationType GalaxyMapSharing		;Обмен картой галактики
+EmpireRelationType Migration		;Миграционный договор
+EmpireRelationType MilitaryRefuelling		;Военная дозаправка
+EmpireRelationType MiningRights		;Права на добычу
+EmpireRelationType PirateProtection		;Соглашение о защите
+EmpireRelationType PirateNeutral		;Нейтральный
+EmpireRelationType PirateHostile		;Враждебный
+EmpireRelationType NonAggression		;Договор о ненападении
+EmpireRelationType OperationsMapSharing		;Обмен картой операций
+EmpireRelationType Research		;Соглашение об исследованиях
+EmpireRelationType ResourceSupply		;Договор о поставке ресурсов
+EmpireRelationType Subjugation		;Покоренный вассал
+EmpireRelationType Subjugation Detailed		;Предложить стать подвластным вассалом
+EmpireRelationType War		;Война
+EmpireRelationType Peace		;Мир
+
+EmpireRelationType Short FirstContact		;Контакт
+EmpireRelationType Short Defense		;Оборона
+EmpireRelationType Short RestrictedTrade		;RTA
+EmpireRelationType Short LimitedTrade		;LTA
+EmpireRelationType Short FreeTrade		;FTА
+EmpireRelationType Short IntelligenceSharing		;Разведка
+EmpireRelationType Short Exploration		;Исследовать
+EmpireRelationType Short TerritoryMapSharing		;Карта территории
+EmpireRelationType Short GalaxyMapSharing		;Карта галактики
+EmpireRelationType Short Migration		;Миграция
+EmpireRelationType Short MilitaryRefuelling		;Военный реф
+EmpireRelationType Short MiningRights		;Добыча
+EmpireRelationType Short PirateProtection		;Защитить
+EmpireRelationType Short PirateNeutral		;Нейтральный
+EmpireRelationType Short PirateHostile		;Враждебный
+EmpireRelationType Short NonAggression		;Неагрессия
+EmpireRelationType Short OperationsMapSharing		;Карта операций
+EmpireRelationType Short Research		;Исследования
+EmpireRelationType Short ResourceSupply		;Ресурс
+EmpireRelationType Short Subjugation		;Вассал
+EmpireRelationType Short War		;Война
+EmpireRelationType Short Peace		;Мир
+
+TroopType Infantry		;Пехота
+TroopType Armored		;Бронированный
+TroopType Titan		;Титан
+TroopType PlanetaryDefense		;Планетарная оборона
+TroopType SpecialForces		;Силы специальных операций
+TroopType Raider		;Рейдер
+TroopType Militia		;Ополчение
+
+TacticsEngagementType DoNotEngage		;Не вступать в бой
+TacticsEngagementType EngageWhenAttacked		;Вступать в бой при атаке
+TacticsEngagementType FuelRange33		;30% дальности топлива
+TacticsEngagementType FuelRange50		;40% дальности топлива
+TacticsEngagementType Location		;То же место
+TacticsEngagementType Nearby		;Рядом (радиус 5000)
+TacticsEngagementType SectorRange		;Дальность 100 млн
+TacticsEngagementType Range50M		;Дальность 50 млн
+TacticsEngagementType Range200M		;Дальность 200 млн
+TacticsEngagementType Range300M		;Дальность 300 млн
+TacticsEngagementType System		;Та же система
+
+FleetRetreatOverwhelmed EnemyStrength100		;Превосходство врага
+FleetRetreatOverwhelmed EnemyStrength150		;Сила врага на 50% больше
+FleetRetreatOverwhelmed EnemyStrength200		;Сила врага на 100% больше
+FleetRetreatOverwhelmed EnemyStrength300		;Сила врага на 200% больше
+FleetRetreatOverwhelmed Never		;Никогда
+
+FleetRetreatStrength LessThan75		;Сила ниже 75%
+FleetRetreatStrength LessThan66		;Прочность ниже 66%
+FleetRetreatStrength LessThan50		;Сила ниже 50%
+FleetRetreatStrength LessThan33		;Прочность ниже 33%
+FleetRetreatStrength LessThan25		;Прочность ниже 25%
+FleetRetreatStrength Never		;Никогда
+
+FleetRole Attack		;Атака
+FleetRole Defend		;Защитить
+FleetRole Raid		;Рейд
+FleetRole Invade		;Вторжение
+FleetRole Manual		;Руководство
+
+TacticsInvasion InvadeImmediately		;Немедленно
+TacticsInvasion InvadeWhenClear		;Когда чисто
+TacticsInvasion NeverInvade		;Никогда
+
+TacticsRetreatType EnemyNearby		;Враг поблизости
+TacticsRetreatType EnemySightedLocation		;Враг в том же месте
+TacticsRetreatType EnemySightedSystem		;Враг в той же системе
+TacticsRetreatType Never		;Никогда
+TacticsRetreatType Shields20OrArmor50		;Щиты ниже 20% или броня ниже 50%
+TacticsRetreatType Shields50OrArmor99		;Щиты ниже 50% или любой урон броне
+TacticsRetreatType NonDefenseComponentDestroyedOrDamaged1		;Любой не-оборонительный компонент поврежден
+TacticsRetreatType NonDefenseComponentDestroyedOrDamaged20		;Повреждено 20% не связанных с обороной компонентов
+TacticsRetreatType NonDefenseComponentDestroyedOrDamaged50		;Повреждено 50% не связанных с обороной компонентов
+TacticsRetreatType WhenAttacked		;При нападении
+
+TacticsRoleWithinFleet Attack		;Ядро
+TacticsRoleWithinFleet CloseEscort		;Тяжёлый эскорт
+TacticsRoleWithinFleet Picket		;Пикет
+
+No buildable facilities		;Нет доступных для постройки сооружений
+No buildable facilities or events		;Нет доступных для постройки сооружений или событий
+
+Another empire has already built a base here		;Другая империя уже построила здесь базу
+Already have a base of this type here		;Уже есть база такого типа здесь
+Location is in another empires territory		;Локация находится в территории другой империи
+No scenery bonus here		;Здесь нет бонуса за живописность
+No research bonuses here		;Здесь нет бонусов к исследованиям
+Construction Ship already building here		;Корабль строительства '{0}' уже строит здесь {1}
+Colony Ship already colonizing here		;Колонизационный корабль '{0}' уже колонизирует здесь
+Already have a facility of this type here		;Уже есть объект такого типа здесь
+Planetary Facility Family Exclusive Explanation		;Можно построить только ОДНО из следующих сооружений на колонии: {0}. Постройка любого из них сделает невозможным строительство остальных.
+Can only build X of these facilities in your empire		;Можно построить только {0} таких сооружений в вашей империи
+Can only build X of these facilities in the galaxy		;Можно построить только {0} таких сооружений в галактике
+Cannot build this facility at this planet type		;Нельзя построить это сооружение на планете данного типа
+We have the wrong government to build this facility		;У нас нет подходящей формы правления для строительства этого объекта
+Cannot afford the cost to build this facility		;Не хватает средств на строительство этого сооружения
+Already retrofitting		;Уже проводится модернизация
+Already using latest design		;Уже используется новейший дизайн
+All Ships already using latest design		;Все корабли уже используют новейший проект
+No construction yard available		;Строительная верфь недоступна
+No construction yard available with sufficient resources		;Нет доступной верфи с достаточными ресурсами
+Cannot retrofit until current construction finished		;Нельзя провести модернизацию, пока не завершено текущее строительство
+No ships need retrofitting		;Корабли не требуют модернизации
+No fleets to join		;Нет флотов для присоединения
+Cannot afford recruitment cost for this troop		;Недостаточно средств для набора этого отряда
+Already lead ship for fleet		;Уже ведущий корабль флота
+No X available for launch		;Нет доступных для запуска {0}
+No X available for returning		;Нет доступных {0} для возвращения
+No refuel location available		;Нет доступных мест для дозаправки
+No repair location available		;Нет доступного места для ремонта
+Cannot afford to build		;Не хватает средств для постройки
+Missing resources X		;Отсутствующие ресурсы: {0}
+Tax rate already zero		;Ставка налога уже равна нулю
+Tax rate already at maximum		;Ставка налога уже максимальна
+Suitability With Race		;Колонизировать с помощью {0}, Пригодность: {1}
+Suitability		;Пригодность
+Suitability X		;Пригодность {0}
+Colonization Suitability		;Пригодность для колонизации
+No race can colonize		;Ни одна раса не может колонизировать
+Can colonize with SHIP containing RACE		;Можно колонизировать с помощью Колонизационного корабля «{0}», содержащего {1}s
+Unknown		;Неизвестно
+Unknown X		;Неизвестный {0}
+Unknown mission		;Неизвестная миссия
+Click for options		;Нажмите для выбора опций
+Troops must be at a colony to be garrisoned		;Войска должны находиться на колонии, чтобы быть размещенными в гарнизоне.
+Click for detailed approval breakdown		;Нажмите для детального разбора утверждения
+
+Queued for colonization		;Очередь на колонизацию
+Queued for colonization or outpost		;Очередь на колонизацию или аванпост
+Queued for outpost		;Очередь на аванпост
+BASEROLE queued to build here		;{0} поставлено в очередь на постройку здесь
+SHIP colonizing here		;{0} колонизирует здесь
+SHIP establishing outpost here		;{0} основывает аванпост здесь
+SHIP building BASEROLE here		;{0} строит {1} здесь
+Already at start		;Уже в начале
+Already at end		;Уже в конце
+Move SHIP up construction wait queue		;Переместить {0} в начало очереди строительства
+Move SHIP down construction wait queue		;Переместить {0} вниз очереди строительства
+Move SHIP to top of construction wait queue		;Переместить {0} в начало очереди на строительство
+Move ITEM up queue		;Переместить {0} выше в очереди
+Move ITEM down queue		;Переместить {0} ниже в очереди
+Move ITEM to top of queue		;Переместить {0} в начало очереди
+
+AreaShieldRechargeAmount		;Максимальная величина подзарядки
+AreaShieldRechargeEnergyUsedPerUnitCharged		;Требуемая энергия
+AreaShieldRechargeRange		;Дальность подзарядки щитов
+ArmorBlastRating		;Рейтинг
+ArmorReactiveRating		;Реактивный рейтинг
+AssaultDefense		;Штурмовая оборона
+AssaultPodBoardingRange		;Дальность абордажа
+AssaultPodEnergyPerLaunch		;Энергия штурмовой капсулы использована
+AssaultPodLaunchRateInvasion		;Скорость запуска — Вторжения
+AssaultPodLaunchRateRaid		;Скорость абордажа
+AssaultPodMovementSpeed		;Скорость штурмовых капсул
+AssaultPodShieldPenetration		;Проникновение щитов
+AssaultPodStrength		;Штурмовая мощь
+CargoCapacity		;Грузовместимость
+ColonizationPopulationAmount		;Количество населения
+CommandMaintenanceSavings		;Экономия на содержании
+CommerceTradeBonus		;Бонус к торговле
+ComponentCountermeasuresBonus		;Средства противодействия оружию
+ComponentIonDefense		;Ионная точечная оборона
+ComponentTargetingBonus		;Наведение оружия
+ConstructionBuildSpeed		;Скорость строительства
+ConstructionRepairSpeed		;Скорость ремонта
+ConstructionYardCount		;Строительные верфи
+CountermeasuresBonus		;Средства противодействия
+PsychicCountermeasuresBonus		;Пси-контрмеры
+CountermeasuresFleetBonus		;Флотские средства противодействия
+CrewCapacity		;Вместимость экипажа
+CrewRequirement		;Требования к экипажу
+DamageReduction		;Снижение урона
+DamageRepair		;Ремонт повреждений
+DestroyedRepair		;Шанс на ремонт разрушен
+HullRepair		;Ремонт корпуса
+CreatureWeaponReduction		;Снижение силы существ
+Creatures Affected		;Поражённые существа
+DockingBayShipCount		;Стыковочные отсеки
+DockingBayThroughput		;Пропускная способность
+EnergyCollectionRate		;Скорость сбора энергии
+EnergyFuelProductionRate		;Скорость производства топлива
+EngineMainCruiseThrust		;Крейсерская тяга
+EngineMainCruiseThrustEnergyUsage		;Расход энергии на крейсерский ход
+EngineMainMaximumThrust		;Максимальная тяга
+EngineMainMaximumThrustEnergyUsage		;Максимальное энергопотребление
+EngineVectoringEnergyUsage		;Векторное энергопотребление
+EngineVectoringThrust		;Векторная тяга
+ExtractionRate		;Скорость добычи
+ExtractionRangeAsteroid		;Дальность добычи для астероидов
+RemoteFuelTransferRate		;Скорость передачи топлива
+RemoteFuelTransferRange		;Дальность передачи топлива
+FighterBayBuildRate		;Скорость постройки истребителей
+FighterBayCapacity		;Ёмкость истребителей
+FighterBayRepairRate		;Скорость ремонта истребителей
+FuelStorageCapacity		;Топливная емкость
+HyperDenyEnergyUsage		;Энергопотребление гипер-запретителя
+HyperDenyRange		;Дальность гипер-запретителя
+HyperDenyStrength		;Прочность гипер-запретителя
+HyperDriveBlockingInsulation		;Гиперблокирующая изоляция
+HyperDriveEnergyUsage		;Энергопотребление гипердвигателя
+HyperDriveJumpInitiationTime		;Время инициации прыжка
+HyperDriveJumpRange		;Дальность прыжка
+HyperDriveJumpAccuracy		;Точность гиперпрыжка
+HyperDriveRechargeTime		;Время перезарядки гипердвигателя
+HyperDriveSpeed		;Скорость гипердвигателя
+HyperStopRange		;Дальнобойность гиперпрыжка
+HyperStopStrength		;Сила гиперостановки
+IonDamageDefense		;Защита от ионного урона
+MedicalRating		;Медицинский рейтинг
+PassengerCapacity		;Пассажирская вместимость
+ReactorEnergyOutputPerSecond		;Улучшенная энергоотдача реактора
+ReactorEnergyStorageCapacity		;Улучшенная емкость накопителей реактора
+ReactorFuelResourceId		;Топливо реактора
+ReactorFuelUnitsForFullCharge		;Топливо для полной зарядки
+ReactorFuelEnergyRatio		;Соотношение энергии к топливу
+RecreationRating		;Рейтинг отдыха
+ResearchLabOutput		;Выход исследований
+ScannerEmpireMaskingPower		;Мощность маскировки империи
+ScannerExplorationPower		;Мощь исследования
+ScannerExplorationSurveyAmount		;Объем обследования
+ScannerExplorationSurveyMaximumLevel		;Исследование максимального уровня
+ScannerExplorationSurveyTime		;Время исследования
+ScannerExplorationTime		;Время исследований
+ScannerExplorationRange		;Дальность исследования
+ScannerJammingPower		;Подавление сканеров
+ScannerJumpTrackingChance		;Сопровождение прыжков
+ScannerLongRange		;Дальность сканирования
+ScannerLongRangePower		;Мощность сканера
+ScannerRoleMaskingPower		;Мощь маскировки роли
+ScannerTracePower		;Мощность сканирования следа
+ScannerTraceRange		;Дальность сканирования следа
+ShieldPenetrationChance		;Шанс пробития щита
+ShieldPenetrationRatio		;Коэффициент пробития щита
+ShieldRechargeRate		;Скорость подзарядки щитов
+ShieldRechargeEnergyUsage		;Энергопотребление подзарядки щитов
+ShieldResistance		;Сопротивление щитам
+ShieldStrength		;Прочность щитов
+StaticEnergyUsed		;Использованная статическая энергия
+StealthRating		;Показатель скрытности
+TargetingBonus		;Наведение
+PsychicTargetingBonus		;Пси-наведение
+TargetingFleetBonus		;Флотское наведение
+TargetingBonusPerFleetShip		;Дополнительное наведение для каждого корабля флота
+TractorBeamDwellTime		;Притягивающий луч dwell
+TractorBeamEnergyPerShot		;Энергия тяговых лучей использована
+TractorBeamFireRate		;Скорострельность тяговых лучей
+TractorBeamPower		;Мощность тяговых лучей
+TractorBeamPowerFalloff		;Падение мощности тягового луча
+TractorBeamRange		;Дальность притягивающих лучей
+TroopCapacity		;Вместимость войск
+TroopRecruitmentRate		;Скорость производства войск
+Troops Produced		;Произведены войска
+WeaponAreaEffectRange		;Дальность взрыва по области
+WeaponAreaBlastWaveSpeed		;Скорость взрыва по области
+WeaponArmorBypass		;Проникновение брони
+WeaponBombardDamageInfrastructure		;Бомбардировочная инфраструктура
+WeaponBombardDamageInfrastructureRate		;Скорость строительства бомбардировочной инфраструктуры
+WeaponBombardDamageMilitary		;Бомбардировочные военные силы
+WeaponBombardDamageMilitaryRate		;Скорость военной бомбардировки
+WeaponBombardDamagePopulation		;Бомбардировка населения
+WeaponBombardDamagePopulationRate		;Скорость бомбардировки населения
+WeaponBombardDamageQuality		;Качество бомбардировки
+WeaponBombardDamageQualityRate		;Скорость качества бомбардировки
+WeaponDamageAtRange		;Урон на максимальной дальности
+WeaponDamageAtRangeRate		;Скорость нанесения урона на максимальной дальности
+WeaponDamageFalloffRatio		;Коэффициент падения урона
+WeaponDamageRate		;Скорость нанесения урона
+WeaponDamageType		;Тип урона
+WeaponDwellTime		;Обитать
+WeaponEnergyPerShot		;Энергия на выстрел
+WeaponFireRate		;Скорострельность
+WeaponFireType		;Огненный тип
+WeaponInterceptComponentTargetingBonus		;Наведение перехватчиков
+WeaponInterceptDamageDirectFire		;Перехват прямого огня
+WeaponInterceptDamageDirectFireRate		;Скорость снижения урона от прямого огня
+WeaponInterceptDamageFighter		;Перехватчик-истребитель
+WeaponInterceptDamageFighterRate		;Скорость урона перехватчиков
+WeaponInterceptDamageFullLengthBeam		;Прерывание длинного луча
+WeaponInterceptDamageFullLengthBeamRate		;Скорость урона от полного луча перехватчика
+WeaponInterceptDamageSeeking		;Перехват самонаводящихся ракет
+WeaponInterceptDamageSeekingRate		;Скорость урона от перехватывающих самонаводящихся ракет
+WeaponInterceptEnergyPerShot		;Прерывание энергии за выстрел
+WeaponInterceptFireRate		;Скорострельность перехватчиков
+WeaponInterceptRange		;Дальность перехвата
+WeaponIonEngineDamage		;Ионный двигатель урона
+WeaponIonEngineDamageRate		;Двигатель ионного урона
+WeaponIonHyperDriveDamage		;Ионный урон гипердвигатель
+WeaponIonHyperDriveDamageRate		;Скорость ионного урона гипердвигатель
+WeaponIonSensorDamage		;Сенсор ионного урона
+WeaponIonSensorDamageRate		;Сенсор скорости ионного урона
+WeaponIonShieldDamage		;Ионные щиты
+WeaponIonShieldDamageRate		;Скорость поглощения ионного урона щитами
+WeaponIonWeaponDamage		;Ионные оружие урона
+WeaponIonWeaponDamageRate		;Ионные уронные орудия
+WeaponIonGeneralDamage		;Электромагнитный урон другим
+WeaponIonGeneralDamageRate		;Скорость урона ионами Другое
+WeaponRange		;Дальность
+WeaponRawDamage		;Урон
+WeaponShieldBypass		;Обход щитов
+WeaponSpeed		;Скорость
+WeaponVolleyAmount		;Выстрелов в залпе
+WeaponVolleyFireRate		;Скорострельность залпового огня
+PsychicDamage		;Пси-урон
+PsychicControl		;Пси-контроль
+PsychicEnergyPerShot		;Пси-энергия на выстрел
+PsychicDefense		;Пси-защита
+PsychicStrength		;Пси-сила
+PsychicDamageRate		;Скорость психического урона
+PsychicDamageAtRange		;Пси-урон на максимальной дальности
+PsychicDamageAtRangeRate		;Скорость психического урона на максимальной дальности
+TerraformingDamageRepairRateComponent		;Планетарный ремонт
+TerraformingQualityImprovementRateComponent		;Улучшение качества планеты
+TerraformingQualityMaximumComponent		;Максимальное качество планеты
+
+X/sec		;{0}/сек
+X secs		;{0} сек
+X/year		;{0}/год
+WeaponDamageWithRate		;{0} ({1}/сек)
+WeaponDamageFalloffRatioUnits		;{0} за {1}
+ReactorFuelEnergyRatioValues		;{0}/{1}
+
+WeaponDamageType Impact		;Стандартный удар
+WeaponDamageType AreaEffect		;Импульсно-волновой взрыв по площади
+
+WeaponFireType DirectFire		;Прямой огонь
+WeaponFireType Seeking		;Ищущий
+WeaponFireType FullLengthBeam		;Длиннолучевое оружие
+
+BonusType Assassination		;Убийство
+BonusType ShipMaintenanceCivilian		;Экономия на содержании гражданских кораблей
+BonusType ShipMaintenanceMilitary		;Экономия на содержании военных кораблей
+BonusType ShipMaintenanceBases		;Снижение расходов на базовое обслуживание
+BonusType ShipMaintenanceAll		;Экономия на содержании кораблей
+BonusType ConstructionSpeedAllShips		;Скорость строительства кораблей
+BonusType ConstructionSpeedCivilian		;Скорость строительства гражданских кораблей
+BonusType ConstructionSpeedMilitary		;Скорость строительства военных кораблей
+BonusType ConstructionSpeedColonyShip		;Скорость строительства колонизационных кораблей
+BonusType ConstructionSpeedFacility		;Скорость строительства сооружений
+BonusType ColonyCorruptionReduction		;Снижение коррупции в колониях
+BonusType ColonyHappiness		;Счастье колонии
+BonusType ColonyIncome		;Доход колонии
+BonusType Concealment		;Маскировка
+BonusType CounterEspionage		;Контршпионаж
+BonusType Countermeasures		;Средства противодействия
+BonusType DamageControl		;Борьба за живучесть
+BonusType Diplomacy		;Дипломатия
+BonusType Espionage		;Шпионаж
+BonusType HyperjumpSpeed		;Скорость гиперпрыжка
+BonusType ShipSpeed		;Скорость корабля
+BonusType ArmorStrength		;Прочность брони
+BonusType MiningRate		;Скорость добычи
+BonusType ColonyPopulationGrowthRate		;Рост населения
+BonusType PsyOps		;Пси-операции
+BonusType RepairRate		;Скорость ремонта
+
+BonusType ResearchAll		;Все исследования
+BonusType ResearchArmor		;Исследования брони
+BonusType ResearchTroops		;Исследования войск
+BonusType ResearchConstruction		;Исследования строительства
+BonusType ResearchEngines		;Исследования двигателей
+BonusType ResearchHyperDrive		;Исследования гипердвигателей
+BonusType ResearchReactor		;Исследования реакторов
+BonusType ResearchSensors		;Исследования сенсоров
+BonusType ResearchShields		;Исследования щитов
+BonusType ResearchWeapons		;Исследования оружия
+BonusType ResearchHighTech		;Высокотехнологичные исследования
+BonusType ResearchIndustrial		;Промышленные исследования
+
+BonusType ResearchThresholdAll		;Порог исследований — все области
+BonusType ResearchThresholdArmor		;Порог исследований — Броня
+BonusType ResearchThresholdConstruction		;Порог исследований — Строительство
+BonusType ResearchThresholdEngines		;Порог исследований — Двигатели
+BonusType ResearchThresholdHyperDrive		;Порог исследований — Гипердвигатели
+BonusType ResearchThresholdReactor		;Порог исследований — Реакторы
+BonusType ResearchThresholdSensors		;Порог исследований — Сенсоры
+BonusType ResearchThresholdShields		;Порог исследований — Щиты
+BonusType ResearchThresholdWeapons		;Порог исследований — Оружие
+BonusType ResearchThresholdHighTech		;Порог исследований — Высокие технологии
+BonusType ResearchThresholdIndustrial		;Порог исследований — Промышленность
+
+BonusType ResearchAncientKnowledge		;Древние знания
+
+BonusType ResearchPsychic		;Пси-исследования
+BonusType ResearchGenetic		;Генетические исследования
+BonusType ResearchBioWarfare		;Исследования биологической войны
+
+BonusType Sabotage		;Диверсия
+BonusType ShieldRechargeRate		;Скорость подзарядки щитов
+BonusType ShipEnergyUsage		;Экономия энергии корабля
+BonusType ShipManeuvering		;Маневрирование корабля
+BonusType Targeting		;Наведение
+BonusType TourismIncome		;Доходы от туризма
+BonusType TradeIncome		;Доход от торговли
+BonusType TroopExperienceGain		;Получение опыта войсками
+BonusType TroopGroundAttack		;Штурмовая мощь
+BonusType TroopGroundDefense		;Наземная сила обороны
+BonusType TroopMaintenance		;Экономия на содержании войск
+BonusType TroopRecoveryRate		;Скорость восстановления войск
+BonusType TroopRecruitment		;Скорость набора войск
+BonusType WarWearinessReduction		;Снижение усталости от войны
+BonusType WeaponsDamage		;Увеличение урона оружия
+BonusType BombardmentDamage		;Увеличение урона от бомбардировки
+BonusType WeaponsRange		;Увеличение дальности оружия
+BonusType BoardingAssault		;Штурмовая мощь абордажа
+BonusType BoardingDefense		;Прочность абордажной обороны
+BonusType CharacterAppearanceAmbassador		;Шанс появления послов
+BonusType CharacterAppearanceColonyGovernor		;Шанс появления губернаторов
+BonusType CharacterAppearanceFleetAdmiral		;Шанс появления адмиралов
+BonusType CharacterAppearanceIntelligenceAgent		;Шанс появления шпионов
+BonusType CharacterAppearanceScientist		;Шанс появления учёных
+BonusType CharacterAppearanceShipCaptain		;Шанс появления капитаны
+BonusType CharacterAppearanceTroopGeneral		;Шанс появления генералов
+BonusType CharacterQualityLeader		;Качество лидера
+BonusType CharacterQualityPirate		;Качество пиратского лидера
+BonusType CharacterQualityAmbassador		;Качество посла
+BonusType CharacterQualityColonyGovernor		;Качество губернатора
+BonusType CharacterQualityFleetAdmiral		;Качество адмирала
+BonusType CharacterQualityIntelligenceAgent		;Качество шпиона
+BonusType CharacterQualityScientist		;Качество учёного
+BonusType CharacterQualityShipCaptain		;Качество капитана
+BonusType CharacterQualityTroopGeneral		;Общее качество
+BonusType RecruitedTroopStrength All		;Сила набранных войск
+BonusType RecruitedTroopStrength Infantry		;Сила набранной пехоты
+BonusType RecruitedTroopStrength Armor		;Набранная бронетанковая мощь
+BonusType RecruitedTroopStrength Titan		;Набранная сила титанов
+BonusType RecruitedTroopStrength SpecialForces		;Сила набранных спецназовцев
+BonusType RecruitedTroopStrength PlanetaryDefense		;Набранная сила планетарной обороны
+BonusType ColonyDevelopment		;Развитие колонии
+BonusType ColonyDefense		;Оборона колонии
+BonusType Scenery		;Пейзаж
+BonusType RaidIncome		;Доход от рейдов
+BonusType ScanEvasion		;Сканирование уклонения
+BonusType ScanFocusing		;Фокусировка сканирования
+BonusType PlanetaryFacilityMaintenance		;Экономия на обслуживании сооружений
+BonusType PlagueCuring		;Лечение патогенов
+BonusType PlagueContainment		;Сдерживание патогенов
+
+BonusType PsychicTargeting		;Пси-наведение
+BonusType PsychicDefense		;Пси-защита
+BonusType PsychicEnergyGenerationRate		;Скорость генерации психической энергии
+BonusType PsychicCountermeasures		;Пси-контрмеры
+BonusType PsychicSabotage		;Пси-саботаж
+BonusType PsychicEspionage		;Пси-шпионаж
+BonusType PsychicCounterEspionage		;Пси-контршпионаж
+BonusType PsychicDiplomacy		;Пси-дипломатия
+BonusType PsychicCounterDiplomacy		;Пси-контр-дипломатия
+BonusType ScannerRange		;Дальность сенсоров
+BonusType ScanExplorationTimeReduction		;Снижение времени исследования
+BonusType ScanSurveyTimeReduction		;Снижение времени исследования
+BonusType HyperDriveJumpAccuracy		;Точность гиперпрыжков
+BonusType BombardmentResistance		;Сопротивление бомбардировке
+BonusType GroundCombatResistance		;Сопротивление наземному бою
+BonusType ColonyInfluenceRate		;Скорость влияния колонии
+BonusType ColonyInfluenceIncome		;Доход колонии от влияния
+
+ComponentCategory AreaShieldRecharge		;Подзарядка щитов области
+ComponentCategory Armor		;Броня
+ComponentCategory AssaultPod		;Штурмовая капсула
+ComponentCategory CargoBay		;Грузовой отсек
+ComponentCategory Colonization		;Колонизация
+ComponentCategory CommandCenter		;Командный центр
+ComponentCategory CommerceCenter		;Торговый центр
+ComponentCategory Construction		;Строительство
+ComponentCategory Countermeasures		;Средства противодействия
+ComponentCategory CountermeasuresFleet		;Флотские средства противодействия
+ComponentCategory CrewQuarters		;Каюты экипажа
+ComponentCategory DamageControl		;Борьба за живучесть
+ComponentCategory DockingBay		;Стыковочный отсек
+ComponentCategory EnergyCollector		;Коллектор энергии
+ComponentCategory EnergyToFuel		;Преобразование энергии в топливо
+ComponentCategory Engine		;Двигатель
+ComponentCategory EngineVectoring		;Векторный двигатель
+ComponentCategory Extractor		;Экстрактор
+ComponentCategory RemoteFuelTransfer		;Модуль дистанционной передачи топлива
+ComponentCategory FighterBay		;Ангар истребителей
+ComponentCategory FuelStorage		;Хранилище топлива
+ComponentCategory HyperBlock		;Гиперблок
+ComponentCategory HyperDeny		;Гипер-запретитель
+ComponentCategory HyperDrive		;Гипердвигатель
+ComponentCategory IonDefense		;Ионная оборона
+ComponentCategory MedicalCenter		;Медицинский центр
+ComponentCategory PassengerCompartment		;Пассажирский отсек
+ComponentCategory Reactor		;Реактор
+ComponentCategory RecreationCenter		;Центр отдыха
+ComponentCategory ResearchLab		;Исследовательская лаборатория
+ComponentCategory ScannerEmpireMasking		;Маскировочный подавитель империи
+ComponentCategory ScannerExploration		;Исследовательский сканер
+ComponentCategory ScannerExplorationSurvey		;Исследовательский сканер
+ComponentCategory ScannerJammer		;Подавление сканеров
+ComponentCategory ScannerJumpTracking		;Сканер сопровождения гиперпрыжков
+ComponentCategory ScannerLongRange		;Дальнобойный сканер
+ComponentCategory ScannerShortRange		;Сенсор ближнего радиуса
+ComponentCategory ScannerRoleMasking		;Маскировочный подавитель ролей
+ComponentCategory ScannerTrace		;Сканер следа
+ComponentCategory Shields		;Щиты
+ComponentCategory ShieldEnhancement		;Усиление щитов
+ComponentCategory Stealth		;Скрытность
+ComponentCategory TargetingComputer		;Компьютер наведения
+ComponentCategory TargetingComputerFleet		;Компьютер флотского наведения
+ComponentCategory TractorBeam		;Притягивающий луч
+ComponentCategory TroopCompartment		;Десантный отсек
+ComponentCategory WeaponArea		;Оружие массового поражения
+ComponentCategory WeaponBombard		;Бомбардировочное оружие
+ComponentCategory WeaponCloseIn		;Ближнего действия оружие
+ComponentCategory WeaponIntercept		;Перехватывающее оружие
+ComponentCategory WeaponIon		;Ионное оружие
+ComponentCategory WeaponStandoff		;Оружие дистанционного боя
+
+ComponentCategory Terraforming		;Терраформирование
+ComponentCategory WeaponPsychic		;Пси-оружие
+ComponentCategory PsychicDefense		;Пси-защита
+ComponentCategory GeneticEngineering		;Генная инженерия
+ComponentCategory BioWarfare		;Биологическая война
+
+Possess Artifacts		;Обладать артефактами
+Government must be X		;Правление должно быть {0}
+Built Facilities		;Построенные сооружения
+X% Y bonuses from Research locations		;{0} {1} бонусов от исследовательских локаций
+X% Y bonuses		;{0} {1} бонусы
+X% Y bonuses from all sources		;{0} {1} бонусов от всех источников
+Initiation Cost		;Стоимость инициации
+Extra Requirements		;Дополнительные требования
+Improved COMPONENT		;Улучшенный {0}
+COMPONENT LEVEL		;{0} (v{1})
+RACE only		;{0} только
+Not RACE		;Не {0}
+
+Maintenance		;Обслуживание
+COST per year		;{0}/год
+Build Cost		;Стоимость постройки
+Can only build X per empire		;Можно строить только {0} в вашей империи
+Can only build X per galaxy		;Можно построить только {0} в галактике
+Can only build at PLANETTYPES		;Можно строить только в колониях {0}
+Can only build with GOVERNMENTS		;Можно строить только с правительствами типа {0}
+
+ColonyCorruptionReductionProjectionRange		;Дальность снижения коррупции
+ColonyIncomeDrainRatio		;Отток доходов колонии
+ColonyInfluenceLevelToBuild		;Необходимое влияние для постройки
+
+ColonyInfluenceFloor		;Порог влияния
+ColonyInfluenceIncrease		;Ежегодная скорость прироста влияния
+ColonyInfluenceIncreaseLimit		;Лимит увеличения влияния
+ColonyInfluenceCap		;Лимит влияния
+ColonyInfluenceIncreaseRateModifier		;Снижение скорости влияния
+ColonyInfluenceDefendingTroopStrength		;Укрепление сил защитных войск
+
+FighterBuildRate		;Скорость постройки истребителей
+FighterCapacity		;Ёмкость истребителей
+FighterRepairRate		;Скорость ремонта истребителей
+PlanetaryShieldMaximumDamageAbsorbed		;Поглощение урона щитами
+PlanetaryShieldPenetrationChance		;Шанс пробития щита
+
+BombardmentResistance		;Сопротивление бомбардировке
+GroundCombatResistance		;Сопротивление наземным атакам
+
+TerraformingDamageRepairRate		;Скорость ремонта повреждений
+TerraformingQualityImprovementRate		;Скорость улучшения качества
+TerraformingQualityMaximum		;Количество улучшений качества
+EmpireBonusSharingRate		;Бонус к обмену в империи
+QualityBoost		;Модификатор качества
+SlaveryIncomeFactor		;Доход от рабства
+SlaveryUnhappinessFactor		;Несчастье от рабства
+WeaponCount		;Количество оружия
+Allows Troop Recruitment		;Позволяет набирать войска
+Allows Cloning Best Infantry Units		;Позволяет клонировать лучших пехотных юнитов
+Empire Bonuses		;Бонусы империи
+Colony Bonuses		;Бонусы колоний
+Location Bonuses		;Бонусы локации
+Shared Bonuses from other empires		;Общие бонусы от других империй (договоры о свободной торговле и исследованиях)
+LeaderExtraPositiveTraitCount		;Дополнительная положительная черта лидера
+ScientistExtraPositiveTraitCount		;Дополнительная положительная черта учёного
+PreventPeriodicLeadershipChanges		;Предотвращает периодические смены руководства
+
+ComponentBayType Defense		;Оборона
+ComponentBayType Engine		;Двигатель
+ComponentBayType General		;Общий
+ComponentBayType Hangar		;Ангар
+ComponentBayType Sensor		;Сенсор
+ComponentBayType Weapon		;Оружие
+
+ComponentBayType Abbreviation Defense		;Защита
+ComponentBayType Abbreviation Engine		;Английский
+ComponentBayType Abbreviation General		;Ген
+ComponentBayType Abbreviation Hangar		;Hgr
+ComponentBayType Abbreviation Sensor		;Сен
+ComponentBayType Abbreviation Weapon		;Оружие
+
+ComponentBayCount STANDARD/LARGE		;{0} Стандартный, {1} Большой
+Level		;Уровень
+Maximum Size		;Максимальный размер
+Cost		;Стоимость
+Type		;Тип
+Defense		;Оборона
+Attack		;Атака
+Intercept		;Перехват
+Sabotage		;Диверсия
+EvasionInfantry		;Уклонение пехоты
+EvasionArmor		;Уклонение от брони
+EvasionTitan		;Уклонение титанов
+EvasionPlanetaryDefense		;Уклонение от планетарной обороны
+EvasionSpecialForces		;Силы специальных операций уклоняются
+Recruitment Cost		;Стоимость найма
+
+All Troops		;Все войска
+TroopImprovement Defend		;{0} Сила обороны
+TroopImprovement Attack		;{0} Штурмовая мощь
+TroopImprovement Intercept		;{0} Уровень силы перехвата
+TroopImprovement Sabotage		;{0} Сила диверсий
+TroopImprovement PsychicStrength		;{0} Сила психической атаки
+TroopImprovement PsychicDefense		;{0} Сила пси-защиты
+TroopImprovement Recovery		;Скорость восстановления {0}
+TroopImprovement Maintenance		;Экономия на содержании {0}
+
+TroopImprovement PsychicStrengthMinimum		;Минимальная сила психической атаки: {0}
+TroopImprovement PsychicDefenseMinimum		;Минимальная сила пси-защиты: {0}
+
+ColonizationMinimumLevel		;Порог качества колонизации {0}
+ColonizationSuitabilityModifier		;Модификатор пригодности колонизации для {0}
+
+Click to queue research		;Нажмите, чтобы поставить исследование в очередь
+Completed		;Завершено
+Right-click to cancel		;Правый клик для отмены
+Click to initiate Crash Program		;Нажмите, чтобы запустить форсированную программу за {0} кредитов из наличных средств в размере {1} кредита
+CRASH PROGRAM (X speed)		;Форсированная программа ({0}x скорость)
+X% Complete		;{0} завершено
+Must first research PROJECTS		;Сначала необходимо исследовать {0}
+We have X		;У нас есть {0}
+Unbuilt Facilities		;Непостроенные сооружения
+Missing Artifacts		;Отсутствующие артефакты
+Not enough money		;Недостаточно денег
+Missing Resources		;Нехватка ресурсов
+Project is disabled		;Проект отключен
+Cannot Research		;Исследование невозможно
+
+Money		;Деньги
+Private Money		;Частные деньги
+The PROJECTNAME project has the following costs		;Проект "{0}" имеет следующие затраты
+Are you sure you want to pay these costs to begin researching this project		;Вы уверены, что хотите оплатить эти расходы для начала исследования этого проекта?
+This project cannot be cancelled after these costs have been paid		;Этот проект нельзя отменить после оплаты указанных затрат.
+Pay Project Costs		;Оплатить стоимость проекта
+Pay Costs		;Оплатить расходы
+Ok		;Ок
+Cancel		;Отменить
+Cancel Project and Lose Costs		;Отменить проект и потерять затраты
+You paid the following to initiate the PROJECTNAME project		;Вы заплатили следующее за начало проекта {0}
+These costs will be lost if you cancel this project		;Эти затраты будут потеряны, если вы отмените этот проект
+Are you sure you want to cancel this project and lose these costs		;Вы уверены, что хотите отменить этот проект и потерять эти затраты?
+Continue Researching		;Продолжить исследование
+Initiating crash research for the PROJECTNAME project costs CREDITS		;Форсирование исследования проекта {0} обойдется в {1} кредитов
+Are you sure you want to pay these costs to initiate crash research for this project		;Вы уверены, что хотите оплатить эти расходы для форсирования исследования этого проекта?
+Initiate Crash Research		;Форсировать исследование
+Click to explore the Research Tree		;Нажмите, чтобы исследовать дерево технологий
+
+ComponentCategory AreaShieldRecharge Short		;SRC
+ComponentCategory Armor Short		;БРОНЯ
+ComponentCategory AssaultPod Short		;Асп
+ComponentCategory CargoBay Short		;КРГ
+ComponentCategory Colonization Short		;КЛН
+ComponentCategory CommandCenter Short		;КМД
+ComponentCategory CommerceCenter Short		;КМК
+ComponentCategory Construction Short		;CST
+ComponentCategory Countermeasures Short		;CMS
+ComponentCategory CountermeasuresFleet Short		;КМФ
+ComponentCategory CrewQuarters Short		;CRW
+ComponentCategory DamageControl Short		;Урон
+ComponentCategory DockingBay Short		;DCK
+ComponentCategory EnergyCollector Short		;ECL
+ComponentCategory EnergyToFuel Short		;E2F
+ComponentCategory Engine Short		;РУС
+ComponentCategory EngineVectoring Short		;VCT
+ComponentCategory Extractor Short		;Добывающий корабль
+ComponentCategory RemoteFuelTransfer Short		;RFT
+ComponentCategory FighterBay Short		;FTR
+ComponentCategory FuelStorage Short		;Топливный заправщик
+ComponentCategory HyperBlock Short		;ГИБ
+ComponentCategory HyperDeny Short		;ГИД
+ComponentCategory HyperDrive Short		;HDV
+ComponentCategory IonDefense Short		;Ион
+ComponentCategory MedicalCenter Short		;MED
+ComponentCategory PassengerCompartment Short		;ПАС
+ComponentCategory Reactor Short		;RCT
+ComponentCategory RecreationCenter Short		;РЕК
+ComponentCategory ResearchLab Short		;RSR
+ComponentCategory ScannerEmpireMasking Short		;ЭМ-излучение
+ComponentCategory ScannerExploration Short		;Опыт
+ComponentCategory ScannerExplorationSurvey Short		;SRV
+ComponentCategory ScannerJammer Short		;SJM
+ComponentCategory ScannerJumpTracking Short		;JMP
+ComponentCategory ScannerLongRange Short		;Дальнобойный
+ComponentCategory ScannerShortRange Short		;SRS
+ComponentCategory ScannerRoleMasking Short		;RMK
+ComponentCategory ScannerTrace Short		;ТРС
+ComponentCategory Shields Short		;Щиты
+ComponentCategory ShieldEnhancement Short		;ОНА
+ComponentCategory Stealth Short		;STL
+ComponentCategory TargetingComputer Short		;ТРГ
+ComponentCategory TargetingComputerFleet Short		;ТФК
+ComponentCategory TractorBeam Short		;TRC
+ComponentCategory TroopCompartment Short		;ТРП
+ComponentCategory WeaponArea Short		;ВОЙНА
+ComponentCategory WeaponBombard Short		;WBB
+ComponentCategory WeaponCloseIn Short		;ВКЛ
+ComponentCategory WeaponIntercept Short		;ПОБЕДА
+ComponentCategory WeaponIon Short		;WIO
+ComponentCategory WeaponStandoff Short		;WST
+
+ComponentCategory Terraforming Short		;ТФК
+ComponentCategory WeaponPsychic Short		;WSY
+ComponentCategory PsychicDefense Short		;СИД
+ComponentCategory GeneticEngineering Short		;ГЕН
+ComponentCategory BioWarfare Short		;БИО
+
+Filter		;Фильтр
+Sorting		;Сортировка
+Sort		;Сортировать
+All Components		;Все компоненты
+Latest Components		;Последние компоненты
+Latest Per Category		;Последнее по категориям
+Latest Per Category, Family		;Последнее по категориям, семья
+General		;Общий
+Engines		;Двигатели
+Defenses		;Оборона
+Hangars		;Ангары
+Sensors		;Сенсоры
+General - Hyperdrives		;Гипердвигатели
+General - Reactors and Energy		;Реакторы и энергия
+General - Command and Crew		;Командование и экипаж
+
+Name		;Имя
+Category		;Категория
+Ascending		;Возвышение
+Descending		;Спуск
+Bay Type		;Тип ангарного отсека
+Empty		;Пусто
+VersusAbbreviation		;vs
+Bay Type, Name		;Тип ангара, Название
+Bay Type, Category		;Тип ангара, Категория
+Bay Type, Category, Family, Size		;Тип отсека, Категория, Семейство, Размер
+
+Crew		;Экипаж
+Highest Tech Level		;Наивысший уровень технологий
+Lowest Tech Level		;Самый низкий уровень технологий
+damaged		;поврежденный
+Peak Weapons Energy Usage		;Пиковое энергопотребление оружия
+Maximum Engine Energy Usage		;Максимальное энергопотребление двигателей
+Standard		;Стандартный
+Ion		;Ионный
+Point Defense		;Точечная оборона
+Bombard		;Бомбардировка
+Boarding		;Абордаж кораблей
+Standard Damage		;Стандартный урон
+Ion Damage		;Ионный урон
+Point Defense Damage		;Урон по точечной обороне
+Bombard Damage		;Урон от бомбардировки
+Damage Rate Range Description		;Макс. урон в секунду {1}, Дальность {0}, Мин. урон в секунду {2}
+Damage Rate Explanation		;Урон в секунду (с учетом доступной энергии и точности наведения)
+Boarding Description		;Сила {0}, Дальность {1}, Пробитие щита {2}
+Boarding Explanation		;Общая сила атаки штурмовых капсул
+Tractor Beam Description		;Мощность {0}, Дальность {1}
+Tractor Beam Explanation		;Прочность притягивающих лучей
+HyperDeny Description		;Мощность {0}, Дальность {1}
+HyperBlock Description		;Мощность {0}, Дальность {1}
+Attackers Boarding		;Абордаж атакующими
+Attackers Raiding		;Рейдеры-атакующие
+
+WeaponDamageCategory Standard		;Стандартный
+WeaponDamageCategory IonEngine		;Двигатель
+WeaponDamageCategory IonHyperDrive		;Гипердвигатель
+WeaponDamageCategory IonSensor		;Сенсор
+WeaponDamageCategory IonShield		;Щит
+WeaponDamageCategory IonWeapon		;Оружие
+WeaponDamageCategory IonGeneral		;Другое
+WeaponDamageCategory InterceptFighter		;Истребитель-противник
+WeaponDamageCategory InterceptSeeking		;Неведомые цели
+WeaponDamageCategory InterceptDirectFire		;Анти-прямой огонь
+WeaponDamageCategory InterceptFullLengthBeam		;Луч полной длины
+WeaponDamageCategory BombardInfrastructure		;Инфраструктура
+WeaponDamageCategory BombardMilitary		;Военный
+WeaponDamageCategory BombardPopulation		;Население
+WeaponDamageCategory BombardQuality		;Качество планеты
+WeaponDamageCategory BoardingAssault		;Абордаж кораблей
+WeaponDamageCategory PsychicDamage		;Пси-урон
+WeaponDamageCategory PsychicControl		;Пси-контроль
+
+Maximum Weapons Energy use per second		;Максимальная энергия оружия в секунду
+Maximum Range DPS		;Максимальная дальность урона в секунду
+Point Blank DPS		;Ближний бой DPS
+Peak Damage Rate		;Пиковая скорость нанесения урона
+Sustained Damage Rate		;Скорость нанесения урона
+Peak		;Пик
+Sustained		;Продолжительный
+Peak DPS		;Пиковый урон в секунду
+Sustained DPS		;Постоянный урон в секунду
+Point Blank		;Ближний бой
+Maximum Range		;Максимальная дальность
+Max Energy		;Максимальная энергия
+VALUE per second		;{0} в секунду
+
+Point Blank Accuracy		;Точность в упор
+Max Range Accuracy		;Точность максимальной дальности
+
+Excess Energy Output		;Избыточная энергоотдача
+Hull Size		;Размер корпуса
+Crew Description		;{0}/{1}
+Movement		;Перемещение
+Slow		;Медленно
+Cruise		;Крейсер
+Sprint		;Спринт
+Hyper		;Гипер
+Energy Curve		;Энергия
+Кривая
+X sectors		;{0} секторов
+X by Y sectors		;{0} на {1} секторах
+Turn Rate		;Скорость разворота
+Acceleration		;Ускорение
+Degree Abbreviation		;дегенерат
+X seconds		;{0} секунд
+Fuel Range		;Топливная дальность
+Shield Penetration Description		;{0}% шанс проникновения {1}
+Shield Penetration		;Проникновение щитов
+
+AreaShieldRecharge Range		;Дальность подзарядки щитов области
+AreaShieldRecharge Amount		;Объем подзарядки щитов области
+Armor Rating		;Броня
+Reactive Armor Rating		;Рейтинг реактивной брони
+Reactive Armor Description		;{0} (Корпус = {1})
+Distance		;Расстояние
+Static		;Статика
+Static Energy Usage		;Статическое энергопотребление
+Energy Usage		;Энергопотребление
+Energy Usage - General		;Энергопотребление — общее
+Energy Usage - Hyperjump		;Энергопотребление гиперпрыжка
+Cruise Speed Energy Usage		;Энергопотребление крейсерской скорости
+Top Speed Energy Usage		;Расход энергии максимальной скорости
+Engines (Sprint)		;Двигатели (Спринт)
+Engines (Cruise)		;Двигатели (Крейсерские)
+Weapons Energy Usage		;Энергопотребление оружия
+Hyperdrive Energy Usage		;Энергопотребление гипердвигателя
+Energy Overuse		;Перерасход энергии
+Overuse		;Чрезмерное использование
+Hull		;Корпус
+Hull + Armor		;Корпус + Броня
+Hull Reactive Rating		;Улучшенный реактивный рейтинг
+Boarding Defense		;Оборона от абордажа
+Crew Strength		;Сила экипажа
+Targeting & Countermeasures		;Наведение и противодействие
+Industry		;Промышленность
+
+Load Designs		;Загрузить проекты
+Load Designs Explanation		;Выберите файл проекта для загрузки из списка ниже.
+
+Load Designs Explanation Long		;Обратите внимание: загрузятся только проекты, соответствующие вашим текущим технологиям, то есть вы должны исследовать как корпус, так и все компоненты для данного проекта.\n\nВы можете загружать проекты в любой момент игры, а не только в её начале. Таким образом, когда вы достигнете достаточного уровня технологий, вы сможете повторно загрузить проекты из того же файла, чтобы добавить любые проекты, которые ранее не были загружены из-за нераскрытых технологий.\n\nЛюбые проекты, идентичные уже существующим (тот же корпус, компоненты и название), будут пропущены. Если проект в файле имеет то же название, что и существующий проект (но не является ему идентичным), он будет загружен с добавлением к его названию '(NEW)'.
+Save Designs		;Сохранить проекты
+Save Designs Explanation		;Введите или выберите имя файла для сохранения проектов.
+Load		;Загрузить
+Save		;Сохранить
+Save and Exit		;Сохранить и выйти
+
+Date Modified		;Дата изменения
+Automatic		;Автоматический
+Manual		;Руководство
+Obsolete		;Устаревший
+Active		;Активно
+Image		;Изображение
+Role		;Роль
+Date Created		;Дата создания
+Amount		;Количество
+Auto Design		;Улучшение корпуса
+Status		;Статус
+Edit		;Редактировать
+
+All Designs		;Все проекты
+All Types		;Все типы
+Latest Designs		;Последние разработки
+Latest Buildable Designs		;Последние доступные для постройки проекты
+Active Designs		;Активные проекты
+Inactive Designs		;Неактивные проекты
+Active Buildable Designs		;Активные проектируемые конструкции
+
+Latest Designs Per Role		;Последние разработки по назначению
+Latest Buildable Designs Per Role		;Последние доступные для постройки проекты по каждой роли
+Latest Designs Per Hull		;Последние проекты для каждого типа корпуса
+Latest Buildable Designs Per Hull		;Последние доступные для постройки проекты по типу корпуса
+
+
+
+State Ships		;Корабли государства
+State Bases		;Государственные базы
+Civilian Ships		;Гражданские корабли
+Civilian Bases		;Гражданские базы
+Designs		;Проектирование
+Designs Explanation		;Выберите проект для редактирования или добавьте новый проект.
+Component Bays		;Компонентные отсеки
+Select		;Выбрать
+Select Ship Hull		;Выбрать корпус корабля
+Select Ship Hull Explanation		;Выберите корпус корабля, на основе которого вы создадите новый проект. Корпуса определяют набор отсеков, в которые можно добавить компоненты, такие как двигатели, оружие, щиты и так далее.
+Add New		;Добавить новый
+Copy As New		;Копировать как новый
+Max Size		;Максимальный размер
+New ROLE		;Новый {0}
+Select Ship Hull and create new Design		;Выберите корпус корабля и создайте новый проект
+Delete Selected		;Удалить выбранные
+Bonuses		;Бонусы
+Delete Game File		;Удалить файл игры
+Are you sure that you want to delete this savegame		;Вы уверены, что хотите удалить этот сохраненный файл игры: {0}?
+Delete		;Удалить
+
+TacticsStance Neutral		;Нейтральный
+TacticsStance Evade		;Уклониться
+TacticsStance Aggressive		;Агрессивный
+TacticsStance Cautious		;Осторожный
+
+X Fleet		;Флот {0}
+X Strike Force		;{0} Ударная сила
+X Defense Force		;Силы обороны {0}
+X Invasion Fleet		;{0} Флот вторжения
+
+Retrofit		;Модернизация
+Tech Level X		;Технический уровень {0}
+Regenerate Tech Tree - Visible		;Восстановить дерево технологий — видимо
+Regenerate Tech Tree - Blind		;Восстановить дерево технологий — Слепота
+
+Home Base		;Домашняя база
+ACTION TARGET, then targets RANGE		;{0} {1}, затем цель — {2}
+ACTION targets RANGE		;{0} атакует {1}
+ENGAGEMENT when attacked		;при атаке
+ENGAGEMENT nearby		;рядом (радиус 5000 единиц)
+ENGAGEMENT nearby X		;рядом с {0} (радиус 5000 единиц)
+ENGAGEMENT at same location		;в том же месте
+ENGAGEMENT at same location as X		;на том же месте, что и {0}
+ENGAGEMENT in same system		;в той же системе
+ENGAGEMENT in same system as X		;в той же системе, что и {0}
+ENGAGEMENT within sector range		;в пределах 100 млн
+ENGAGEMENT within sector range of X		;в пределах 100 млн от {0}
+
+ENGAGEMENT within 50M range		;в пределах 50 млн
+ENGAGEMENT within 50M range of X		;в пределах 50 млн от {0}
+ENGAGEMENT within 200M range		;в пределах 200 миллионов
+ENGAGEMENT within 200M range of X		;в пределах 200 млн от {0}
+ENGAGEMENT within 300M range		;в пределах 300 млн
+ENGAGEMENT within 300M range of X		;в пределах 300 млн от {0}
+
+ENGAGEMENT within 33% fuel range		;в пределах 30% запаса топлива
+ENGAGEMENT within 33% fuel range of X		;в пределах 30% запаса топлива от {0}
+ENGAGEMENT within 50% fuel range		;в пределах 40% запаса топлива
+ENGAGEMENT within 50% fuel range of X		;в пределах 40% запаса топлива от {0}
+Manually controlled		;Управление вручную
+Posture		;Поза
+Fleet Summary Short		;{0} кораблей
+Fleet Summary		;{0} ({1} кораблей, {2} истребителей)
+
+Troop Type Summary		;{0} пехоты, {1} бронетанковых войск, {2} планетарной обороны, {3} спецназа
+Troop Type Summary with Titans		;{0} пехоты, {1} бронетанковых войск, {2} планетарной обороны, {3} спецназа, {4} титанов
+Summary		;Сводка
+Troops		;Наземные войска
+Strength		;Сила
+
+No colony with troops available		;Нет колонии с незагарионированными войсками в наличии
+No colony with troops required by Army		;Нет колонии с незагарионированными войсками, требуемыми шаблоном армии
+No troop space available		;Нет свободного места для войск
+No Troop Capacity		;Нет вместимости для войск
+
+FleetFormationCoherence VeryTight		;Очень тесно
+FleetFormationCoherence Tight		;Плотный
+FleetFormationCoherence Normal		;Нормальный
+FleetFormationCoherence Loose		;Свободный
+FleetFormationCoherence VeryLoose		;Очень свободный
+
+here	;здесь
+Right-click to X		;Правый клик, чтобы {0}
+
+Cargo		;Груз
+Resource		;Ресурс
+Stock		;Запасы
+Resources Below Stock		;Ресурсы ниже уровня запасов
+Resource Shortages		;Нехватка ресурсов
+Reserved		;Забронировано
+Other Empires		;Другие империи
+Reserved Abbreviation		;Забронировано
+Other		;Другое
+On Hand		;В наличии
+Maintain		;Поддерживать
+Construction		;Строительство
+Sources		;Источники
+On Hand Explanation		;Количество этого ресурса, доступного в данной локации. Не включает зарезервированные ресурсы.
+Maintain Explanation		;Уровень запасов этого ресурса, который необходимо поддерживать в данной локации. Грузовые корабли будут автоматически транспортировать ресурсы сюда для поддержания данного уровня запасов.
+Reserved Explanation		;Количество этого ресурса, зарезервированное для строительства или иных целей в данной локации.
+Other Empires Explanation		;Количество этого ресурса, зарезервированное для выгрузки другими империями, то есть они приобрели эти ресурсы, и вскоре грузовой корабль заберет их для транспортировки.
+Sources Explanation		;Количество эксплуатируемых источников этого ресурса в нашей империи, то есть количество различных добывающих станций и колоний, производящих данный ресурс. Также отображается число известных источников данного ресурса.\n\nВ это число также входят любые иностранные источники по соглашениям о свободной торговле или договорам о поставке ресурсов.\n\nЕсли количество источников равно нулю, то единственный способ получить этот ресурс — с помощью наших мобильных добывающих кораблей или путем торговли с независимыми колониями.
+Resource Stock Levels		;Уровни запасов ресурсов
+
+Fuel Resources		;Топливо
+Construction Resources		;Ресурсы строительства
+Luxury Resources		;Ресурсы роскоши
+Resources & Stock Levels		;Ресурсы и уровни запасов
+Show All Resources		;Показать все ресурсы
+Hide Unused Resources		;Скрыть неиспользуемые ресурсы
+Amount Below Stock Level		;Количество ниже уровня запасов
+Amount Below Stock Level Explanation		;Количество данного ресурса на данный момент ниже уровня запасов
+Mined Here		;Добыто здесь
+Mined Here Explanation		;Этот ресурс добывается здесь
+At Capacity Limit		;На пределе вместимости
+At Capacity Limit Explanation		;Этот ресурс находится на пределе грузоподъемности для данной локации.
+Resource Own Sources		;Источники {0}
+Resource Foreign Sources		;{0} чужеродных
+Resource No Sources		;{0} нет
+X sources		;Источники {0}
+X source		;Источник {0}
+X/Y sources		;{0} из {1} источников
+X/Y		;{0} из {1}
+X production rate		;Скорость производства {0}
+X stockpile		;Запасы {0}
+Known Locations		;Известные локации
+Mined Locations		;Добытые локации
+Known Locations Explanation		;Обратите внимание, что известные локации могут включать источники на чужой территории, которые вы не можете добывать самостоятельно.
+
+Mining Stations		;Добывающие станции
+Availability		;Доступность
+Local		;Локальный
+Foreign		;Инопланетный
+No Source		;Нет источника
+Luxury		;Роскошь
+Production		;Производство
+Stockpile		;Запасы
+
+Distance from Spaceport		;Расстояние от космопорта
+Distance from Selected Item or Capital		;Расстояние от выбранного объекта или столицы
+Priority		;Приоритет
+All Resources		;Все ресурсы
+Production Rate		;Скорость производства
+Mining Rate		;Скорость добычи
+
+Price		;Цена
+Lowest First		;Самые низкие первыми
+Highest First		;Наивысший первый
+Rate	;Рейтинг
+Lowest		;Низший
+Highest		;Высший
+Mining		;Добыча
+
+Mining Ships		;Добывающие корабли
+Fuel Tankers		;Топливные заправщики
+New Mining Locations		;Новые места добычи
+Mining Locations		;Места добычи
+
+Supply		;Поставки
+Adequate		;Достаточный
+Abundant		;Обильный
+Low		;Низкий
+Critical		;Критический
+Number of resources where production is higher than demand		;Количество ресурсов, где производство превышает спрос
+Number of resources where demand is higher than production		;Количество ресурсов, где спрос превышает предложение
+Number of resources with no production		;Количество ресурсов без производства
+
+Number of resources with more than one years supply		;Количество ресурсов с запасом более одного года
+Number of resources with less than one years supply		;Количество ресурсов с запасом менее одного года
+Number of resources with less than X months supply		;Количество ресурсов с запасом менее чем на {0} месяцев
+
+Required Rate		;Требуемая скорость
+Current		;Текущий
+Required		;Требуется
+Fuel and Construction Resources In Use		;Используемые ресурсы топлива и строительства
+Resources In Use		;Используемые ресурсы
+Demand		;Требовать
+Production Shortage		;Нехватка производства
+Idle Ships		;Бездействующие корабли
+All Ships		;Все корабли
+Estimated Demand		;Оценочный спрос
+Less than one years supply		;Менее одного года запасов
+Less than X months supply		;Менее {0} месяцев запаса
+No stock		;Нет в наличии
+Economy		;Экономика
+Cash		;Деньги
+Cashflow		;Денежный поток
+Bonus Income		;Бонусный доход
+Colony Approval		;Утверждение колонии
+War Weariness		;Военная усталость
+
+Private Cash		;Частный кэш
+Private Cashflow		;Частный денежный поток
+Cash Explanation		;Наличные средства на руках
+Private Cash Explanation		;Получить прибыль от частного сектора вашей империи
+Cash Explanation Detailed		;Наличные средства. Их можно потратить на новые юниты, покупку ресурсов, финансирование роста колоний, финансирование исследований или множество других целей. Количество наличных увеличивается при условии положительного денежного потока, то есть когда ваши расходы меньше доходов.
+Cashflow Explanation		;Денежный поток, остающийся после вычета всех регулярных расходов, финансирования роста колоний и финансирования исследований
+Private Cashflow Explanation		;Частный денежный поток, остающийся после вычета всех регулярных частных расходов
+Bonus Income Explanation		;Бонусный доход этого года от нерегулярных источников (например, торговля ресурсами, туризм и т.д.)
+Approval Rate Explanation		;Средний уровень одобрения колоний во всей вашей империи
+War Weariness Explanation		;Война с {0} другими империями
+
+IncomeType ColonyTax		;Колонияльный налог
+IncomeType ResourceTrading		;Торговля ресурсами
+IncomeType Fuel		;Продажа топлива
+IncomeType Information		;Информация
+IncomeType Tribute		;Трибуут получен
+IncomeType Tribute Pirate		;Соглашения о защите
+IncomeType Raiding		;Рейд
+IncomeType Missions		;Договоры
+IncomeType ColonyCrime		;Колониальное преступление
+IncomeType Tourism		;Туризм
+IncomeType ShipBuilding		;Кораблестроение
+IncomeType Discoveries		;Открытия
+IncomeType TradeBonuses		;Бонусы к торговле
+IncomeType TradeIncome		;Доход от торговли
+IncomeType PrivateColonyRevenue		;Частный доход колонии
+
+IncomeType ColonyTax Explanation		;Ставки налогов устанавливаются для каждой колонии отдельно. Налоговые поступления собираются с частного дохода колонии по установленной ставке. Высокие налоги снижают уровень счастья и замедляют рост колонии. Низкие налоги повышают уровень счастья и способствуют росту.
+IncomeType ResourceTrading Explanation		;Ваша империя будет автоматически продавать излишки ресурсов другим империям при наличии с ними Соглашения о Ограниченной, Ограниченной или Свободной Торговле. Независимые колонии и торговцы также будут покупать у вас излишки ресурсов.
+IncomeType Fuel Explanation		;Ваша империя будет продавать топливо другим империям, когда их корабли будут швартоваться у ваших баз или колоний.
+IncomeType Information Explanation		;Информацию можно продавать другим империям с экрана дипломатии. Сюда входят карты, технологии, секретные локации и другая информация.
+IncomeType Tribute Explanation		;Дань, которую другие империи выплачивают вам в рамках дипломатического соглашения. Дань обычно навязывается победителем войны поверженному врагу.
+IncomeType Tribute Explanation Pirate		;Защита, которую другие империи выплачивают вам в рамках дипломатического соглашения. Договор о защите гарантирует мир между вашими фракциями за определенную плату.
+IncomeType Raiding Explanation		;Деньги, полученные в результате рейдов на колонии или базы других империй
+IncomeType Missions Explanation		;Деньги, заработанные за выполненные контракты
+IncomeType ColonyCrime Explanation		;Богатство отсасывается из колоний через преступную деятельность. Чем выше ваш уровень влияния в колонии, тем больше денег похищается.\n\nПовышайте уровень влияния в колониях, оставляя свои пиратские корабли на орбите над ними, совершая набеги на колонии и строя там пиратские сооружения.
+IncomeType Tourism Explanation		;Деньги, полученные от туристов, остановившихся на ваших Развлекательных станциях
+IncomeType ShipBuilding Explanation		;Строительство кораблей для других империй, включая независимые колонии
+IncomeType Discoveries Explanation		;Деньги, обнаруженные в древних руинах и заброшенных кораблях и базах
+IncomeType TradeBonuses Explanation		;Бонусный доход от общего объема торговли с другими империями
+IncomeType TradeIncome Explanation		;Дополнительный доход от торговых договоров с другими империями. Этот доход доступен только для некоторых типов правления. Он обеспечивает фиксированную сумму ежегодного дохода за каждый торговый договор (Свободная торговля, Ограниченная торговля, Лимитированная торговля).
+IncomeType PrivateColonyRevenue Explanation		;Частный доход ваших колоний. Этот частный колониальный доход облагается налогом, формируя доход от колониального налога для вашей империи.
+
+ExpenseType ColonyGrowthFunding		;Рост колонии
+ExpenseType Research		;Исследования
+ExpenseType ShipMaintenance		;Обслуживание кораблей и баз
+ExpenseType ShipMaintenance Short		;Техническое обслуживание кораблей
+ExpenseType TroopMaintenance		;Содержание войск
+ExpenseType FacilityMaintenance		;Техническое обслуживание
+ExpenseType ShipBuilding		;Кораблестроение
+ExpenseType TroopRecruitment		;Набор войск
+ExpenseType FacilityBuilding		;Строительство объекта
+ExpenseType ResourceTrading		;Торговля ресурсами
+ExpenseType Fuel		;Стоимость топлива
+ExpenseType Information		;Информация
+ExpenseType Tribute		;Данная дань выплачена
+ExpenseType Missions		;Миссии
+ExpenseType EnemyRaids		;Вражеские набеги
+ExpenseType PrivateGeneralExpenditure		;Общие расходы
+ExpenseType PrivateColonyTax		;Колониальные налоги
+ExpenseType PrivateShipMaintenance		;Частное обслуживание кораблей
+ExpenseType PrivateTourism		;Частный туризм
+ExpenseType PrivateShipBuilding		;Частные верфи
+ExpenseType PrivateFuel		;Частный топливный заправщик
+
+ExpenseType ColonyGrowthFunding Explanation		;Колонии обычно растут медленно, но вы можете ускорить их рост, выделив финансирование.
+ExpenseType Research Explanation		;Скорость исследований значительно увеличивается при выделении средств на исследования
+ExpenseType ShipMaintenance Explanation		;Стоимость содержания государственных кораблей и баз
+ExpenseType ShipMaintenance Explanation Pirate		;Стоимость содержания всех ваших кораблей и баз
+ExpenseType TroopMaintenance Explanation		;Стоимость содержания отрядов войск
+ExpenseType FacilityMaintenance Explanation		;Стоимость обслуживания планетарных сооружений
+ExpenseType ShipBuilding Explanation		;Стоимость покупки новых государственных кораблей и баз
+ExpenseType TroopRecruitment Explanation		;Стоимость найма новых отрядов войск
+ExpenseType FacilityBuilding Explanation		;Стоимость строительства новых планетарных сооружений
+ExpenseType ResourceTrading Explanation		;Стоимость покупки ресурсов у других империй. Другие империи будут продавать вам излишки своих ресурсов, если у вас с ними заключено Соглашение о свободной торговле или Договор о поставке ресурсов. Независимые колонии также продают свои излишки ресурсов любой империи.
+ExpenseType Fuel Explanation		;Ваша империя будет закупать топливо у других империй, когда ваши корабли будут швартоваться на их базах или колониях.
+ExpenseType Information Explanation		;Информацию можно приобрести у других империй на экране дипломатии. Сюда входят карты, технологии, секретные локации и другая информация.
+ExpenseType Tribute Explanation		;Трибуция, которую вы выплачиваете другим империям. Обычно это происходит в рамках соглашений о защите с пиратскими фракциями или в виде денежных подарков другим империям.
+ExpenseType Missions Explanation		;Деньги, потраченные на тайные миссии
+ExpenseType EnemyRaids Explanation		;Потеря денег при набегах пиратов или других империй на колонии или базы вашей империи
+ExpenseType PrivateGeneralExpenditure Explanation		;Общие расходы в частном секторе вашей империи
+ExpenseType PrivateColonyTax Explanation		;Налоги с колоний, выплачиваемые частным сектором вашей империи
+ExpenseType PrivateShipMaintenance Explanation		;Стоимость обслуживания частных кораблей и баз
+ExpenseType PrivateTourism Explanation		;Деньги, потраченные на туризм частными лицами в вашей империи
+ExpenseType PrivateShipBuilding Explanation		;Стоимость покупки новых частных кораблей и баз
+ExpenseType PrivateFuel Explanation		;Стоимость топлива для частных кораблей в вашей империи
+
+Previous		;Предыдущая
+Projected		;Проецируемый
+Projected For Current Year		;Спроецировано на текущий год
+Projected Explanation		;Прогнозируемый годовой доход и расходы на основе текущей ситуации вашей империи
+Current Year		;Текущий год
+Current Year Explanation		;Фактические доходы и расходы за текущий год
+Previous Year		;Предыдущий год
+Previous Year Explanation		;Фактические доходы и расходы за предыдущий год
+Income		;Доход
+Expenses		;Расходы
+Private Economy		;Частная экономика
+State Economy		;Государственная экономика
+Military		;Военный
+Other State		;Другое государство
+Private		;Частный
+Excess		;Излишки
+Unused Excess		;Неиспользуемый излишек
+
+Select Government to compare		;Выбрать форму правления для сравнения
+Government		;Правительство
+Comparing with X		;Сравнение с {0}
+Have Revolution and switch government		;Совершить революцию и сменить правительство
+Have Revolution and switch government to X		;Совершить революцию и сменить правление на {0}
+Total population at all of your colonies X		;Общая численность населения всех ваших колоний: {0}
+billion		;миллиард
+
+from		;из
+Bonus Source Description		;{0} из {1}
+X race		;раса {0}
+X government		;Правительство {0}
+Leader		;Лидер
+Cabinet		;Кабинет
+FACILITY at PLANET		;{0} в {1}
+
+Policy Settings		;Настройки политики
+Colonies		;Колонии
+New Colonies		;Новые колонии
+Colony Ships		;Колонизационные корабли
+Planetary Facilities		;Планетарные сооружения
+Artifacts		;Артефакты
+All		;Все
+
+Approval Description Happy		;Счастье
+Approval Description Neutral		;Довольный
+Approval Description Unhappy		;Недовольство
+Approval Description Angry		;Разгневанный
+Approval Description Rebelling		;Восстание
+
+Angry Colonies		;Восставшие колонии
+Rebelling Colonies		;Восставшие колонии
+War progress with EMPIRE		;Ход войны с {0}
+
+Annual Revenue		;Ежегодный доход
+Importance		;Важность
+Colonies Summary		;{0} колоний в {1} системах, всего население {2}
+Research Stations		;Исследовательские станции
+New Research Locations		;Новые локации для исследований
+Research Screen		;Экран исследований
+All Research Bonuses		;Бонусы ко всем исследованиям
+Research		;Исследование
+Maximum Potential Research		;Максимальный потенциал исследований
+Actual Research Output		;Фактический объем исследований
+Maximum Potential Research Explanation		;Максимальный потенциал исследовательских очков вашей империи, получаемый от населения в ваших колониях и лабораторий на ваших Исследовательских станциях. Это включает все бонусы к исследованиям от локаций исследований.
+
+Обратите внимание: для некоторых проектов исследований это значение может быть выше, если применяются более специфические бонусы к исследованиям.
+Actual Research Output Explanation		;Фактические очки исследований вашей империи, доступные для исследовательских проектов. Это максимальный потенциал исследований, скорректированный уровнем финансирования науки вашей империи. Увеличение финансирования науки позволит использовать большую часть вашего максимального потенциала.
+
+Обратите внимание: финансирование требуется только для исследовательских станций. Вывод исследований из ваших колоний бесплатен.
+
+Если у вас есть научные договоры с другими фракциями, то совместный вывод от них также будет отображен здесь.
+Potential Research Sources		;{0} от населения колонии\n{1} от исследовательских станций
+Actual Research Sources		;{0} от населения колонии\n{1} от исследовательских станций (уровень финансирования {2} = доступно {3} кредитов, максимальное финансирование может использовать = {4} кредита)
+Research Treaty Bonus		;{0} от партнеров по договору о исследованиях
+Research Bonuses		;Бонусы к исследованиям
+Research Thresholds		;Пороги исследований
+Research Threshold		;Порог исследований
+
+No Research Projects		;Нет исследовательских проектов
+Click to add		;Нажмите, чтобы добавить
+X colonies		;{0} колонии
+X systems		;{0} систем
+X population		;население {0}
+PLUS others		;+ другие
+Tax Rate		;Налоговая ставка
+Tax Revenue		;Налоговые поступления
+Research Output		;Выход исследований
+Research Bonus Amounts		;Суммы бонусов к исследованиям
+
+Civilian		;Гражданский
+All Civilian Ships		;Все гражданские корабли
+Freighters		;Грузовые корабли
+Resort Bases		;Развлекательные базы
+New Resort Locations		;Новые места для курортных станций
+Passenger Ships		;Пассажирские корабли
+
+Fleets		;Флоты
+Defensive Bases		;Оборонительные базы
+Monitoring Stations		;Станции слежения
+New Monitoring Locations		;Новые места наблюдения
+Enemy Targets		;Вражеские цели
+Dangerous Locations		;Опасные локации
+X Ships		;{0} Корабли
+X Troops		;{0} Войска
+X Attack Strength		;{0} Штурмовая мощь
+Troop Location Description Ship		;На борту {0}
+Troop Location Description Planet		;В {0}
+Attack Strength		;Штурмовая мощь
+Attack Strength with Readiness		;Штурмовая мощь с готовностью
+Defend Strength		;Штурмовая мощь
+Defend Strength with Readiness		;Сила защиты с готовностью
+Intercept Strength		;Сила перехвата
+Sabotage Strength		;Штурмовая мощь саботажа
+Readiness		;Готовность
+Recruiting		;Набор войск
+Available		;Доступно
+Ships		;Корабли
+Troop Attack Strength		;Штурмовая мощь войск
+Military Ships		;Военные корабли
+Ships not in a Fleet		;Корабли вне флота
+Ships in a Fleet		;Корабли во флоте
+Damaged Ships		;Поврежденные корабли
+All Fleets		;Все флоты
+Fleets without a Mission		;Флоты без миссии
+Damaged		;Поврежденный
+Ungarrisoned		;Негарнизонированный
+Scan Range		;Дальность сканирования
+Maintenance Cost		;Стоимость обслуживания
+Military Ship Strength		;Военная сила кораблей
+Military Ship Strength Explanation		;Общая военная сила кораблей, включая все истребители. Обратите внимание, что базы сюда не входят.
+Fleets Explanation		;Количество флотов в вашей империи
+Troop Attack Strength Explanation		;Общая сила атаки всех войск в вашей империи. Обратите внимание, что сюда не включены войска, которые еще набираются.
+Cargo In Transit		;Груз в пути
+Cargo In Transit Explanation		;Общее количество грузовых единиц, находящихся в пути на всех грузовых кораблях вашей империи
+Tourists in Transit		;Туристы в пути
+Tourists in Transit Explanation		;Общее число туристов, находящихся в пути на всех пассажирских кораблях вашей империи
+Migrants in Transit		;Мигранты в пути
+Migrants in Transit Explanation		;Общее число мигрантов, находящихся в пути на всех пассажирских кораблях вашей империи
+Passengers		;Пассажиры
+Sort X		;Сортировка: {0}
+Filter X		;Фильтр: {0}
+
+Ship Construction		;Строительство кораблей
+Construction Yards		;Строительные верфи
+New Construction Yard Locations		;Новые места для верфи
+Construction Ships		;Строительные корабли
+Build Order		;Порядок строительства
+Construction Wait Time		;Время ожидания строительства
+BASENAME already built here		;{0} уже построен здесь
+SHIPROLE already under construction here		;{0} уже строится здесь
+Ship Designs		;Конструкции кораблей
+Unbuilt		;Непостроенный
+Normal		;Нормальный
+Destroyed		;Уничтожен
+Disabled		;Отключено
+Enabled		;Включено
+Automated		;Автоматизированный
+Manually Controlled		;Ручное управление
+Disabled at X stars		;Отключено в звёздах {0}
+
+Unfriendly Territory		;Враждебная территория
+Friendly Territory		;Дружественная территория
+Total Size		;Общий размер
+State		;Состояние
+Ships Under Construction		;Корабли в постройке
+Idle Spaceport Yards		;Неиспользуемые верфи космопортов
+State Ships Under Construction		;Корабли, находящиеся в постройке
+Civilian Ships Under Construction		;Гражданские корабли в постройке
+Spaceports		;Космопорты
+Wait Time		;Время ожидания
+Build Speed		;Скорость строительства
+Repair Speed		;Скорость ремонта
+Bases		;Базы
+Target already part of our empire		;Цель уже является частью нашей империи
+Target destroyed		;Цель уничтожена
+Troop Defend Strength		;Сила обороны войск
+Exploration		;Исследование
+Exploration Ships		;Исследовательские корабли
+Known Ruins		;Известные руины
+
+Special Locations		;Особые локации
+Debris Field		;Поле обломков
+X Debris Field		;{0} Поле обломков
+Secret Construction Project		;Секретный строительный проект
+X Construction Project		;Строительный проект {0}
+Special Location Discovered		;{0} Обнаружено
+Debris Field Encounter		;Мы обнаружили [DISCOVERY]огромное поле космического мусора[/DISCOVERY] в системе [LOCATION]{0}[/LOCATION]. Похоже, это останки эпической битвы.\n\nОбломки включают множество мощных военных кораблей, пригодных для утилизации. Нам следует немедленно отправить строительные корабли в эту точку, чтобы отремонтировать и восстановить как можно больше этих ценных судов.\n\nРемонт передовых технологий на этих кораблях, несомненно, принесет нашей империи бонусы к исследованиям.\n\nОбратите внимание: некоторые из этих кораблей выглядят сильно поврежденными и, следовательно, [B]могут быть невосстановимыми вовсе[/B]. Однако мы все равно можем обыскать обломки (команда «Подобрать») и, возможно, найти что-то ценное.\n\nТакже разумно отправить вооруженный эскорт — мы хотим отпугнуть всех остальных от претензий на эти корабли. Давайте сохраним это открытие при себе...
+Debris Field Encounter Small		;Мы обнаружили [DISCOVERY]поле космического мусора[/DISCOVERY] в системе [LOCATION]{0}[/LOCATION]. Похоже, это останки битвы.\n\nОбломки включают мощные военные корабли, которые выглядят пригодными для спасения. Нам следует немедленно отправить к этому месту строительные корабли, чтобы отремонтировать и вернуть как можно больше этих ценных судов.\n\nРемонт передовых технологий на этих кораблях, несомненно, принесет нашей империи бонусы к исследованиям.\n\nОбратите внимание: некоторые из этих кораблей выглядят сильно поврежденными и, следовательно, [B]могут быть невосстановимыми вовсе[/B]. Однако мы все равно можем обыскать обломки (команда «Подобрать») и, возможно, найти что-то ценное.\n\nТакже разумно отправить вооруженный эскорт — нам нужно отпугнуть всех, кто попытается завладеть этими кораблями. Давайте оставим это открытие при себе...
+Secret Construction Project Encounter		;Мы обнаружили [DISCOVERY]огромный незавершенный строительный проект[/DISCOVERY] в системе [LOCATION]{0}[/LOCATION]. В процессе строительства находится колоссальная мобильная военная база, оснащенная супероружием для уничтожения целой планеты! База, названная {1}, по-видимому, была заброшена на полпути к завершению.
+
+Как только эта база будет достроена, её обладатель сможет доминировать над галактикой. Кроме того, изучение передовых технологий этого проекта, несомненно, предоставит нашей империи значительные бонусы к исследованиям.
+
+Нам следует поспешить с завершением строительства этого огромного оружия!
+
+Fully Explored Systems		;Полностью исследованные системы
+Partially Explored Systems		;Частично исследованные системы
+Unknown Systems		;Неизвестные системы
+Fully Explored Systems Explanation		;Количество звездных систем, где все планеты, луны и астероиды исследованы хотя бы на базовом уровне
+Partially Explored Systems Explanation		;Известно количество посещённых звёздных систем и состав планет и спутников, однако не все небесные тела исследованы.
+Unknown Systems Explanation		;Количество звездных систем, которые не были посещены и поэтому полностью неизвестны
+
+Current Amount		;Текущее количество
+Suggested Amount		;Предлагаемая сумма
+Build Amount		;Количество строительства
+Build Order Current Amount Explanation		;Количество кораблей для этой роли, находящихся в нашей империи на данный момент. Включая корабли, находящиеся в стадии строительства.
+Build Order Suggested Amount Explanation		;Предлагаемое количество кораблей для этой роли
+Build Order Build Amount Explanation		;Количество новых кораблей, которые нам следует построить для этой роли
+Build Order Cost Explanation		;Общая стоимость покупки всех новых кораблей для этой роли
+Build Order Maintenance Explanation		;Общая ежегодная стоимость содержания всех новых кораблей для этой роли
+TOTAL Purchase and Maintenance Costs		;Общие затраты на покупку и содержание
+Available Money and Cashflow		;Доступные деньги и денежный поток
+Purchase		;Купить
+Clear		;Очистить
+Suggest		;Предложить
+Build	;Построить
+Total Purchase Costs		;Общая стоимость покупки
+Total Maintenance Costs		;Общие расходы на содержание
+Available Money		;Доступные деньги
+Available Cashflow		;Доступный денежный поток
+No construction yards can currently build this design		;На верфях в данный момент невозможно построить этот проект
+Purchase Cost		;Стоимость покупки
+Suggested Build Amount		;Предлагаемое количество строительства
+X ROLES Queued		;{0} {1}s в очереди
+Left-click to queue new ROLE		;Левый клик для добавления нового {0} в очередь
+Right-click to remove ROLE		;Правый клик для удаления {0}
+Cannot Build DESIGN here		;Невозможно построить {0} здесь
+Cannot afford Purchase Cost		;Недостаточно средств для покупки
+Build Order Design Button Explanation		;Нажмите, чтобы выбрать проект для этой роли
+Build Order Role Explanation		;Нажмите, чтобы выбрать эту роль. Затем в галактическом виде можно нажимать на системы, чтобы поставить корабли в очередь на постройку.
+Off		;Выключено
+On		;На
+Overlay Off		;Слой выключен
+All Races		;Все расы
+Selected Ship Only		;Выбран только корабль
+Ship Travel Vectors		;Векторы движения корабля
+Long Range Scanners		;Дальнобойные сканеры
+Location Badges		;Значки локаций
+Tourism Flow		;Поток туристов
+Migration Flow		;Поток миграции
+Resource Flow		;Поток ресурсов
+Resources Required to Build		;Ресурсы, необходимые для постройки
+Funding Levels		;Уровни финансирования
+Amount for FUNDING based on current cashflow		;Сумма для {0} на основе текущего денежного потока
+Amount for FUNDING based on current income		;Сумма для {0} на основе текущего дохода
+Amount currently used for FUNDING		;Количество, используемое в настоящее время для {0}
+Amount Used is more than Available		;Использовано больше, чем доступно
+Potential maximum is more than Available		;Потенциальный максимум превышает доступный
+Maximum for FUNDING vs AVAILABLE		;Максимальное количество {0}, доступное для использования, равно {1}, тогда как имеющееся количество составляет {2}.
+Empire Funding Reserved		;Забронировано
+Empire Funding Reserved Explanation		;Процент от вашего дохода, который остается неистраченным, тем самым формируя денежный запас для покупок и других расходов.
+Funding Area		;Финансирование области
+% of Cashflow		;% от денежного потока
+Available from Cashflow		;Доступно из Кэшфлоу
+% of Income		;% от дохода
+Available from Income		;Доступно из дохода
+Amount Used		;Использовано
+Unallocated Income		;Нераспределенный доход
+Unallocated Income Explanation		;Часть доходов вашей империи не распределена. Вам следует увеличить уровень финансирования в предпочитаемых вами областях, пока распределение доходов не достигнет 100%. Нераспределенные доходы останутся неиспользованными.
+Empire Funding Levels		;Уровни финансирования империи
+Amount Available		;Доступно количество
+Total regular state income from all sources		;Общий регулярный государственный доход со всех источников
+Income Available for Maintenance Expenses		;Доход, доступный для расходов на содержание
+Total income available for maintenance expenses		;Общий доход, доступный для расходов на содержание. Он равен вашему доходу за вычетом зарезервированной суммы. Вы должны стремиться удерживать фактические расходы на содержание ниже этого выделенного лимита.
+Income Used for Maintenance Expenses		;Доходы, используемые на содержание и другие расходы
+Total amount actually used for maintenance in all areas		;Общая сумма, фактически затраченная на содержание во всех сферах, плюс любые другие регулярные государственные расходы (например, защита от пиратов). Разница между использованными и доступными средствами составляет ваш избыточный объем, который затем используется для финансирования роста колоний и исследований.
+Excess Income		;Избыточный доход
+This amount is the remainder of income less actual maintenance expenses		;Эта сумма представляет собой остаток дохода за вычетом фактических расходов на содержание из приведенных выше данных. Излишки доходов направляются на финансирование роста колоний и исследований в соответствии с распределением ниже.
+Unused Excess Income		;Неиспользуемый излишек доходов
+Unused excess income is what remains after paying for maintenance expenses		;Неиспользованный излишек дохода — это то, что остается после оплаты расходов на содержание и финансирования роста колоний и исследований. Когда финансирование роста колоний и исследований не поглощает весь ваш излишек дохода, остаток объединяется с резервным доходом, образуя ваш денежный поток.
+Colony Growth is funded from your excess income after paying maintenance expenses		;Рост колоний финансируется за счет вашего избыточного дохода после уплаты расходов на содержание. Если избыточного дохода нет (то есть расходы на содержание плюс резервная сумма поглощают весь ваш доход), то рост колоний не финансируется.
+Research is funded from your excess income after paying maintenance expenses		;Исследования финансируются за счет избыточного дохода после оплаты расходов на содержание. Если избыточного дохода нет (то есть расходы на содержание + резервная сумма поглощают весь ваш доход), то исследования не финансируются. В этом случае используется только научный потенциал населения — научная отдача от лабораторий приостанавливается до момента финансирования.
+State Income		;Доход государства
+State Expenses		;Государственные расходы
+Total regular state maintenance expenses		;Общие регулярные расходы на содержание государства
+This value is your cashflow - comprised of		;Это значение — ваш денежный поток. Он складывается из зарезервированной части вашего дохода ({0} = {1}) плюс всего, что остаётся от остальной части вашего дохода (Неиспользованный излишек = {2}) после оплаты всех регулярных расходов (содержание государства, а также финансирование роста колоний и исследований).
+Total Expenses		;Общие расходы
+Other Expenses		;Прочие расходы
+Other Expenses Explanation		;Все остальные регулярные государственные расходы, например, защита от пиратов
+
+Must have Reactors		;Обязательно наличие реакторов
+Must have Fuel Storage		;Необходимо хранилище топлива
+Should have Energy Collectors		;Рассмотрите возможность добавления энергетических коллекторов
+Must have Docking Bays		;Обязательно наличие стыковочных отсеков
+Must NOT have Engines		;Не должно быть двигателей
+Must NOT have Hyperdrives		;Не должны иметь гипердвигателей
+Must have Cargo Storage		;Необходимо наличие грузового хранилища
+Must have Mining capability		;Обязательно наличие способности к добыче ресурсов
+Must have Remote Fuel Transfer capability		;Обязательно наличие возможности дистанционной передачи топлива
+Must have Long Range Scanners		;Необходимы дальнобойные сенсоры
+Should have Long Range Scanners		;Рассмотрите возможность добавления дальнобойных сканеров
+Must have Research Labs		;Обязательно наличие исследовательских лабораторий
+Should have Research Labs		;Рассмотреть возможность добавления исследовательских лабораторий
+Must have Recreation capability		;Обязательно наличие возможностей для отдыха
+Should have Recreation capability		;Должна иметь возможности для отдыха
+Should have Medical capability		;Должна иметь медицинскую способность
+Must have Passenger capacity		;Должна иметь вместимость для пассажиров
+Should have Commerce Center		;Рассмотрите возможность добавления Торгового центра
+Must have Engines		;Обязательно наличие двигателей
+Must have a Hyperdrive		;Необходим гипердвигатель
+Must have Fighter Bays with build and repair capability		;Обязательно наличие истребительных ангаров с возможностью строительства и ремонта
+Must have Construction Yards with build and repair capability		;Необходимы верфи с возможностью строительства и ремонта
+Must have Colonization Module		;Обязательно наличие колонизационного модуля
+Must have Exploration scanning or survey capability		;Необходимо наличие сканирования для исследований или возможности обследования
+Must have Troop capacity		;Обязательная вместимость для войск
+Must have Assault Pods to launch invasion troops		;Необходимы штурмовые капсулы для высадки десантных войск
+Should have adequate number of Assault Pods to launch invasion troops. At a minimum, should have as many Assault Pods as Troop Compartments		;Должно быть достаточное количество штурмовых капсул для высадки десантных войск. Как минимум, должно быть столько же штурмовых капсул, сколько и десантных отсеков.
+Reactor energy output is too low		;Энергоотдача реактора слишком низкая
+Hyperdrive energy requirements combined with static energy requirements are higher than Reactor energy output		;Энергопотребление гипердвигателя в сочетании со статическим энергопотреблением превышает выходную мощность реактора. Скорость гипердвигателя будет снижена.
+Energy collection rate is lower than static energy requirements		;Скорость сбора энергии ниже статических энергопотребностей
+Total size is greater than hull allows		;Общий размер превышает возможности корпуса
+Empire has no supply of resources X		;В нашей империи нет запасов ресурсов: {0}
+Maneuvering turn rate is lower than average for non-military ships X		;Скорость разворота при маневрировании ниже средней для невоенных кораблей (средняя по империи составляет {0} град/сек).
+Maneuvering turn rate is lower than average for military ships X		;Скорость разворота при маневрировании ниже средней для военных кораблей (средняя по империи составляет {0} град/сек).
+Maneuvering turn rate is lower than average for fighters X		;Скорость разворота при маневрировании ниже средней для истребителей (средняя по империи составляет {0} град/сек).
+Top Speed is lower than average for non-military ships X		;Максимальная скорость ниже средней для невоенных кораблей (средняя по империи составляет {0}).
+Top Speed is lower than average for military ships X		;Максимальная скорость ниже средней для военных кораблей (средняя по империи составляет {0}).
+Top Speed is lower than average for fighters X		;Максимальная скорость ниже средней для истребителей (средняя по империи составляет {0}).
+This design has no problems		;В этом проекте нет проблем
+X Recommendations		;{0} Рекомендации
+X Defects		;{0} Дефекты
+Defensive bases must have weapons or fighters		;Оборонительные базы должны иметь оружие или истребители
+Military ships must have weapons or fighters		;Военные корабли должны иметь оружие или истребители
+Need more crew		;Нужно больше экипажа
+Reactor power output inadequate to supply static energy requirements		;Выходная мощность реактора недостаточна для обеспечения статических энергопотребностей
+Design must have a name		;Дизайн должен иметь название
+Your empire already has a design with this name		;Ваша империя уже имеет проект с таким названием
+External component bays should be completely filled before using internal component bays		;Внешние отсеки для компонентов должны быть полностью заполнены перед использованием внутренних отсеков для компонентов.
+Consider moving components from internal to external bays		;Рассмотрите возможность перемещения компонентов из внутренних отсеков во внешние
+External Bay		;Внешний отсек
+Only one Hyperdrive component is required		;Требуется только один компонент гипердвигателя
+
+Tactical Settings: ROLE should have retreat set to 'Never'		;Тактические настройки: для {0} следует установить режим отступления на «Никогда»
+Tactical Settings: ROLE should not have engagement set to 'Do Not Engage'		;Тактические настройки: у {0} не должно быть установлено значение «Не вступать в бой»
+Tactical Settings: ROLE with troop capacity should not have invasion set to 'Never Invade'		;Тактические настройки: {0} с вместимостью для войск не должны иметь параметр вторжения, установленный в «Никогда не вторгаться»
+Tactical Settings: ROLE should have engagement set to 'Do Not Engage'		;Тактические настройки: у {0} должно быть установлено условие вступления в бой «Не вступать в бой»
+Fighters must have weapons		;У истребителей должно быть оружие
+
+Engine Limit		;Лимит двигателя
+You have reached the maximum limit of X engines for this Ship Hull		;Вы достигли максимального предела в {0} двигателей для этого типа корпуса корабля
+
+Light Transport		;Лёгкий транспортный корабль
+Light Trader		;Лёгкий торговый корабль
+Light Hauler		;Лёгкий грузовой корабль
+Light Freighter		;Лёгкий грузовой корабль
+Cargo Shuttle		;Транспортный шаттл
+Merchant Freighter		;Торговый грузовой корабль
+Medium Transport		;Средний транспортный корабль
+Cargo Freighter		;Малый грузовой корабль
+Cargo Hauler		;Грузовой корабль
+Cargo Ferry		;Грузовой фрегат
+Freight Hauler		;Грузовой тягач
+Super Hauler		;Сверхкрупный грузовой корабль
+Cargo Carrier		;Грузовой корабль
+Heavy Freighter		;Большой грузовой корабль
+Cargo Barge		;Грузовой барж
+Bulk Freighter		;Средний грузовой корабль
+Heavy Lifter		;Тяжелый грузовой корабль
+Bulk Transport		;Тяжелый транспортный корабль
+Ore Prospector		;Добывающий корабль
+Ore Hauler		;Добывающий корабль
+Miner		;Добывающий корабль
+Mineral Miner		;Добывающий корабль
+Supply Tanker		;Топливный заправщик
+Fuel Transport		;Топливный заправщик
+Fuel Barge		;Топливная баржа
+Constructor		;Конструктор
+Ship Yard		;Верфь
+Space Dock		;Космический док
+Space Liner		;Космический лайнер
+Commuter		;Пассажирский корабль
+Tourist		;Турист
+Migrant		;Мигрант
+Scout		;Разведчик
+Surveyor		;Разведчик
+Pathfinder		;Путеводитель
+Explorer		;Исследователь
+Traveller		;Путешественник
+Navigator		;Навигатор
+Colonizer		;Колонизатор
+Settler		;Колонист
+World Founder		;Основатель мира
+
+Manually create new Design using this Ship Hull		;Вручную создать новый дизайн с использованием этого корпуса корабля
+Auto-generate new Design using this Ship Hull		;Автоматически создать новый дизайн на основе этого корпуса корабля
+
+Unknown Ship		;Неизвестный корабль
+Unknown Empire		;Неизвестная Империя
+Unknown resource		;Неизвестный ресурс
+Unknown Ruins		;Неизвестные руины
+Unknown Bonus		;Неизвестный бонус
+Unknown Creature		;Неизвестное существо
+Unknown Ships		;Неизвестные корабли
+Unknown Military Ships		;Неизвестные военные корабли
+
+X and moons		;{0} и спутники
+Asteroids		;Астероиды
+
+ASTEROIDTYPE Field		;{0} Поле
+
+Galaxy Shape		;Форма галактики
+
+Galaxy Shape Classic		;Классика
+Galaxy Shape Spiral		;Спираль
+Galaxy Shape Elliptical		;Эллиптический
+Galaxy Shape Ring No Center		;Кольцо без центра
+Galaxy Shape Ring Dense Center		;Кольцо плотного центра
+Galaxy Shape Dual Ring No Center		;Двойное кольцо без центра
+Galaxy Shape Dual Ring Dense Center		;Двухкольцевой плотный центр
+Galaxy Shape Irregular		;Нерегулярный
+Galaxy Shape Even Clusters		;Даже Кластеры
+Galaxy Shape Varied Clusters		;Разнообразные кластеры
+
+Galaxy Shape Explanation Classic		;Классические галактики имеют спиральную форму с двумя крупными рукавами из туманных облаков, расходящимися от центра галактики.
+
+Галактическое ядро плотно заполнено звездами. По мере продвижения к краю галактики звездные скопления становятся реже и менее плотными.
+
+Однако на окраине звезды вновь сгущаются, образуя четкий внешний ободок, окружающий галактику.
+Galaxy Shape Explanation Spiral		;Спиральные галактики имеют характерную форму с двумя крупными рукавами из туманных облаков, расходящимися от центра галактики.
+
+Галактическое ядро плотно заполнено звездами, образующими двухрукавную спиральную структуру.
+
+При движении к краю галактики звездные скопления становятся менее плотными и постепенно сходят на нет.
+Galaxy Shape Explanation Elliptical		;Эллиптические галактики имеют случайное рассеивание облачных образований туманностей.
+
+Галактическое ядро плотно заполнено звездами. При движении к краю галактики звездные образования сужаются и становятся менее плотными.
+Galaxy Shape Explanation Ring No Center		;Кольцевые галактики содержат большую часть своих звёзд в большом плотном кольце, охватывающем периметр галактики.
+
+В центре галактики доминирует плотное облако туманности.
+
+Некоторые рассеянные звезды можно обнаружить в середине галактики.
+Galaxy Shape Explanation Ring Dense Center		;Кольцевые галактики содержат большую часть своих звёзд в большом плотном кольце, охватывающем периметр галактики.
+
+Ещё одна плотная группа звёзд обнаруживается в центре галактики.
+Galaxy Shape Explanation Dual Ring No Center		;Две большие звезды́нные кольца охватывают галактику — внутреннее кольцо ближе к центру и внешнее кольцо на краю галактики.
+
+Плотное облако туманности доминирует в центре галактики.
+Galaxy Shape Explanation Dual Ring Dense Center		;Две большие звезды́нные кольца охватывают галактику — внутреннее кольцо ближе к центру и внешнее кольцо на краю галактики.
+
+Ещё одна плотная группа звёзд обнаружена в центре галактики.
+Galaxy Shape Explanation Irregular		;Иррегулярные галактики не имеют фиксированной формы или структуры.
+
+Звезды и туманные облака равномерно распределены по всей галактике.
+Galaxy Shape Explanation Even Clusters		;Кластеры галактик представляют собой группы звезд, сгруппированные в созвездия.
+
+Между кластерами находится крайне мало звезд, поэтому каждый кластер подобен «острову» в галактике, отделённому от следующего кластера морем пустоты.
+
+Слово «примерно» означает, что каждый кластер имеет приблизительно одинаковый размер.
+Galaxy Shape Explanation Varied Clusters		;Кластерные галактики представляют собой группы звезд, сгруппированные в созвездия.
+
+Между кластерами находится крайне мало звезд, поэтому каждый кластер подобен «острову» в галактике, отделённому от следующего кластера морем пустоты.
+
+Разнообразие кластеров означает, что их размеры различны: некоторые малы, тогда как другие велики.
+
+Your Empire Start Location Random		;Случайно
+Your Empire Start Location Deep Core		;Глубинное ядро
+Your Empire Start Location Outer Core		;Внешнее ядро
+Your Empire Start Location Inner Rim		;Внутреннее кольцо
+Your Empire Start Location Outer Rim		;Внешние окраины
+Your Empire Start Location Ring		;Кольцо
+Your Empire Start Location Center		;Центр
+Your Empire Start Location Void		;Пустота
+Your Empire Start Location Inner Ring		;Внутреннее кольцо
+Your Empire Start Location Outer Ring		;Внешнее кольцо
+Your Empire Start Location Edge		;Край
+Your Empire Start Location Far Regions		;Отдалённые регионы
+
+Stars		;Звёзды
+Galaxy Size		;Размер галактики
+Random Seed		;Случайный генератор
+Very Sparse		;Очень редкие
+Sparse		;Редкий
+Dense		;Плотный
+Nebula Density		;Плотность туманности
+
+Next		;Далее
+Start a New Game		;Начать новую игру
+Load Game		;Загрузить игру
+Credits		;Кредиты
+Close Credits		;Закрыть титры
+Exit		;Выход
+StartNewGame_GalaxyShapeSize		;Форма и размер галактики
+StartNewGame_GalaxySettings		;Настройки галактики
+StartNewGame_Threats		;Угрозы
+StartNewGame_Colonization		;Колонизация
+StartNewGame_YourRace		;Ваша раса
+StartNewGame_YourEmpire		;Ваша Империя и Правительство
+StartNewGame_YourStartingSituation		;Ваша стартовая ситуация
+StartNewGame_OtherEmpires		;Другие империи
+StartNewGame_VictoryConditions		;Условия победы
+StartNewGame_StartGame		;Начать игру
+
+StartNewGame_PlayMode		;Режим игры
+StartNewGame_PirateFactionSettings		;Пиратская фракция
+StartNewGame_PiratePlaystyle		;Пиратский стиль игры
+StartNewGame_LonePirate		;Одиночный пиратский стартовый корабль
+
+Galaxy Expansion Random		;Случайно
+Galaxy Expansion PreWarp		;Предварп
+Galaxy Expansion Starting		;Начало
+Galaxy Expansion Young		;Молодой
+Galaxy Expansion Expanding		;Расширение
+Galaxy Expansion Mature		;Зрелый
+Galaxy Expansion Old		;Древний
+
+Galaxy Expansion Explanation Random		;Случайный начальный размер — от одной колонии до могущественной гигантской империи, охватывающей множество секторов.
+Galaxy Expansion Explanation PreWarp		;Империи начинаются с одной маленькой колонии и минимальных технологий. Гиперпространственные перелеты еще не открыты.\n\nИмперии начинают свое развитие с медленного расширения в пределах своей родной звездной системы.
+Galaxy Expansion Explanation Starting		;Империи начинаются с одной маленькой колонии и без кораблей или баз.
+
+Постройте космопорт, затем начните расширяться в окружающие звездные системы.
+Galaxy Expansion Explanation Young		;Империи имеют от 2 до 4 колоний и исследовали близлежащие системы
+Galaxy Expansion Explanation Expanding		;Империи расширились до 7–8 колоний и исследовали окружающие сектора
+Galaxy Expansion Explanation Mature		;Империи расширились до 12–15 колоний и исследовали большую часть галактики
+Galaxy Expansion Explanation Old		;Империи прочно устоялись, имеют множество колоний и высокую численность населения. Большая часть галактики уже исследована.
+
+Galaxy Expansion		;Расширение галактики
+Galaxy Aggression		;Галактическая агрессия
+
+Galaxy Aggression Peaceful		;Мирный
+Galaxy Aggression Normal		;Нормальный
+Galaxy Aggression Restless		;Беспокойный
+Galaxy Aggression Unstable		;Нестабильный
+Galaxy Aggression Chaos		;Хаос
+
+Galaxy Difficulty Easy		;Легко
+Galaxy Difficulty Normal		;Нормальный
+Galaxy Difficulty Hard		;Тяжёлый
+Galaxy Difficulty Very Hard		;Очень сложно
+Galaxy Difficulty Extreme		;Экстремальный
+
+Galaxy NearbyHostileRaces Normal		;Нормальный
+Galaxy NearbyHostileRaces Some		;Некоторые
+Galaxy NearbyHostileRaces Hard		;Ещё немного
+Galaxy NearbyHostileRaces Very Hard		;Многие
+Galaxy NearbyHostileRaces Extreme		;Экстремальный
+
+Hostile Races Near Player		;Враждебные расы рядом с игроком
+NearbyHostileRaces Explanation		;Сколько враждебных рас соседствуют с игроком при автоматической генерации других империй? Близость враждебных рас является важным фактором, определяющим сложность игры.\n\nОбратите внимание: даже на настройке «Нормально» враждебные расы могут случайно появиться рядом с игроком.
+
+Galaxy Research Speed Extremely Slow		;Чрезвычайно медленно
+Galaxy Research Speed Very Slow		;Очень медленно
+Galaxy Research Speed Slow		;Медленно
+Galaxy Research Speed Normal		;Нормальный
+Galaxy Research Speed Fast		;Быстрый
+Galaxy Research Speed Very Fast		;Очень быстро
+
+Galaxy Research Is Blind		;Видны только следующие проекты
+Galaxy Research Is Visible		;Все проекты видны
+
+Galaxy Research Is Blind Explanation		;В дереве технологий видны только следующие нераскрытые проекты.
+
+Это означает, что вы фактически ведете исследования «вслепую», не имея возможности видеть последующие проекты и пути в дереве технологий.
+
+В сочетании со случайными проектами и путями это делает каждое прохождение уникальным исследовательским опытом.
+Galaxy Research Is Visible Explanation		;Просмотреть все проекты на технологическом древе в начале игры, включая все пути между проектами.
+
+Обратите внимание: случайный выбор исследований всё ещё может привести к уникальному опыту изучения технологий.
+
+Galaxy Research Is Randomized		;Случайные пути исследований
+Galaxy Research Is Static		;Исправленные пути исследований
+
+Galaxy Research Is Randomized Explanation		;Пути между исследовательскими проектами выбираются случайно.
+
+Это означает, что в каждой игре существуют различные способы открытия новых технологий.
+
+В сочетании с «слепым» исследованием это делает каждый игровой опыт уникальным.
+Galaxy Research Is Static Explanation		;Пути между исследовательскими проектами фиксированы и остаются неизменными в течение нескольких игр.
+
+Это обеспечивает более предсказуемый процесс исследований.
+
+Expansion		;Расширение
+Aggression		;Агрессия
+Caution		;Осторожно
+Dependability		;Надежность
+Difficulty		;Сложность
+Research Speed		;Скорость исследований
+Research Visibility		;Видимость исследований
+Research Pathing		;Исследовательское прокладывание пути
+
+Pirates		;Пираты
+Very Few		;Очень мало
+Few		;Мало
+Many		;Многие
+Very Many		;Очень много
+
+Pirate Strength		;Сила пиратов
+Very Weak		;Очень слабая
+Weak		;Слабый
+Strong		;Мощный
+Very Strong		;Очень сильный
+
+Pirate Proximity		;Пиратская близость
+Nearby		;Неподалеку
+Average		;Средний
+Distant		;Далекий
+Very Distant		;Очень далеко
+
+Pirates Respawn		;Пираты возрождаются
+Pirates Respawn Yes		;Возрождение
+Pirates Respawn No		;Останься мертвым!
+Pirates Respawn Yes Explanation		;Разрушенные пиратские фракции возрождаются в новом месте
+Pirates Respawn No Explanation		;Пиратские фракции, полностью уничтоженные, не возрождают замену. Это облегчает очистку пиратов из области галактики.
+
+Space Creatures		;Космические существа
+
+Colony Prevalence		;Распространённость колоний
+Independent Colonies		;Независимые колонии
+Very Abundant		;Очень обильно
+Very Rare		;Очень редкий
+Rare		;Редкий
+
+Colony Influence Range		;Дальность влияния колонии
+Colonization Range Limit		;Ограничение дальности колонизации
+
+Random		;Случайно
+Random Race Explanation		;Случайно выбранная раса
+
+Random Seed Explanation		;Введите число здесь для установки случайного числа (seed) игры.
+
+При использовании одного и того же случайного числа вместе с теми же настройками начала игры будет генерироваться одна и та же галактика. Это позволяет вам заново создавать карты любимых галактик из предыдущих игр.
+Galaxy Shape Explanation		;Расположение и распределение звезд и туманностей в галактике.
+Star Amount Explanation		;Сколько звёзд в галактике.
+
+Меньшее количество следует выбирать только для галактик небольшого размера; иначе кораблям может быть трудно совершать прыжки между удалёнными звёздными системами или находить пути сквозь туманности.
+Nebula Density Explanation		;Количество туманных облаков в галактике.
+
+Низкая плотность туманностей облегчает навигацию, тогда как высокая плотность затрудняет поиск путей сквозь них и добавляет галактике больше «географии».
+Galaxy Size Explanation		;Физические размеры галактики.
+
+Большие размеры также должны содержать большее количество звездных систем, чтобы корабли могли находить пути между туманностями.
+Expansion Explanation		;Насколько стар и развито всё галактика в целом.
+
+Данная настройка влияет на следующие параметры: размер и уровень развития автоматически генерируемых империй, а также размер независимых инопланетных популяций.
+
+Если параметр «Расширение» превышает значение «Старт», то Уровень технологий должен быть не ниже 1-го уровня.
+Your Empire Expansion Explanation		;Сколько у вас колоний и насколько прочно стоит ваша империя.
+
+Это включает следующие факторы: количество колоний, уровень населения в ваших колониях, степень исследованности вами галактики, а также число кораблей и баз вашей империи.
+
+Когда показатель «Расширение» превышает значение «Стартовый», уровень технологий должен быть не ниже первого уровня.
+Aggression Explanation		;Насколько агрессивны компьютерные игроки в игре.
+
+Существуют и другие факторы, специфичные для каждой империи, которые также определяют уровень агрессии, однако данный параметр является общегалактическим значением, влияющим на все империи.
+Difficulty Explanation		;Сложность игрового процесса. Изменяет показатели вашей империи по различным внутриигровым факторам относительно игрока.\n\nНа затронутые факторы влияют: доход колоний, коррупция, скорость исследований, темпы добычи ресурсов, рост населения, усталость от войны, точность наведения оружия и средства противодействия.
+Research Speed Explanation		;Скорость проведения исследований в галактике, а значит и скорость появления новых компонентов для использования на кораблях и базах.\n\nЕсть и другие факторы, специфичные для каждой империи, которые также определяют скорость исследований, но данный параметр является общегалактическим значением, влияющим на все империи.
+Research Visibility Explanation		;Когда исследовательские проекты становятся видимыми: либо в начале игры, либо после исследования родительских проектов.
+Research Pathing Explanation		;Независимо от того, фиксированы ли пути между исследовательскими проектами или они случайны.
+Pirates Explanation		;Сколько пиратов присутствует в галактике.
+
+Пираты могут быть настоящей проблемой, но у них есть и свои плюсы...
+Pirates Explanation Turn Off		;Обратите внимание, что для полного отключения пиратов необходимо также отключить следующие настройки на шаге «Условия победы»:\n[ULI]Сюжетные события, специфичные для расы (некоторые из этих событий порождают связанные со сюжетом фракции пиратов)[/ULI]\n[ULI]Общие сюжетные события > Домашняя система до выхода в гиперпространство (некоторые из этих событий иногда порождают спящие фракции пиратов)[/ULI]
+Pirate Strength Explanation		;Насколько сильны пираты и как быстро они растут.
+Pirate Proximity Explanation		;Насколько близко пиратские фракции начинают колонизировать системы империй.
+Pirates Respawn Explanation		;Возобновляют ли пиратские фракции существование после уничтожения?
+Space Creatures Explanation		;Сколько космических существ обитает в галактике.
+
+Многие космические существа опасны и могут представлять угрозу для ваших кораблей и баз.
+
+Однако они также могут предоставлять ресурсы, которые вы можете использовать.
+Colony Prevalence Explanation		;Влияет на общее качество планет и лун в галактике, определяя тем самым количество потенциальных колоний.
+
+Планеты более высокого качества поддерживают большее население и приносят больше доходов после колонизации.
+Independent Colonies Explanation		;Независимые инопланетные популяции распределены по всей галактике в начале игры.
+
+Данная настройка определяет количество таких популяций в галактике и размер каждой из них.
+Colony Influence Range Explanation		;Размер кругов влияния, проецируемых из колоний.
+
+Влияние колонии определяет территорию вашей империи, то есть какие звездные системы принадлежат вашей империи.
+Colonization Range Limit Explanation		;Применяются ли ограничения дальности колонизации.
+
+Если включено, новые колонии должны находиться в пределах указанного расстояния от одной из ваших существующих колоний.
+Race Explanation		;Доминирующая раса в родной колонии вашей империи.
+
+При колонизации дополнительных планет вы сможете ассимилировать другие инопланетные популяции, включая иные расы в состав своей империи.
+
+Colonization Modifiers		;Модификаторы колонизации
+Colonization Minimum Quality		;Минимальное качество колонизации
+Colony Growth Resources		;Ресурсы роста колонии
+Reproduction Rate		;Скорость размножения
+Migration Tendency		;Склонность к миграции
+Migration Factor Unmoving		;Неподвижный
+Migration Factor Settled		;Освоено
+Migration Factor Neutral		;Нейтральный
+Migration Factor Adventurers		;Искатели приключений
+Migration Factor Nomadic Roamers		;Кочевые странники
+Reproduction Rate Low		;Низкий
+Reproduction Rate Moderate		;Умеренный
+Reproduction Rate Increased		;Увеличенная
+Reproduction Rate Rapid		;Быстрый
+Reproduction Rate Prolific		;Плодовитый
+Assimilation Rate		;Скорость ассимиляции
+Assimilation Rate Independent		;Бунтовщики
+Assimilation Rate Resistant		;Стойкий
+Assimilation Rate Adaptable		;Адаптивный
+Assimilation Rate Compliant		;Подчинение
+Assimilation Rate Deferential		;Уважительный
+
+Feelings towards other Races		;Чувства по отношению к другим расам
+Governments		;Правительства
+Default Infantry		;Стандартная пехота
+Empire Name		;Название империи
+Empire Name Explanation		;Введите название вашей империи
+Primary Color		;Основной цвет
+Secondary Color		;Вторичный цвет
+Primary Color Explanation		;Основной цвет вашей империи. Этот цвет используется для отображения звездных систем и территории вашей империи в галактике.
+Secondary Color Explanation		;Второстепенный цвет вашей империи.
+Empire Flag		;Флаг Империи
+Empire Flag Explanation		;Флаг, используемый для обозначения вашей империи
+Preferred Governments		;Предпочтительные формы правления
+Allowed Governments		;Доступные правительства
+
+Your Empire Home System Harsh		;Суровый
+Your Empire Home System Trying		;Пытаюсь
+Your Empire Home System Normal		;Нормальный
+Your Empire Home System Agreeable		;Приятный
+Your Empire Home System Excellent		;Отлично
+
+Home System		;Родная система
+Home System Explanation		;Уровень благосклонности вашей родной системы.
+
+Это включает такие факторы, как: обилие ресурсов, численность населения вашей домашней колонии и наличие других благоприятных планет в системе.
+Your Empire Tech Level PreWarp		;Предварп
+Your Empire Tech Level X		;Уровень {0}
+Tech Level		;Уровень технологий
+Your Empire Tech Level Explanation		;Насколько продвинуты ваши исследования.
+
+Это определяет, какие корпуса кораблей и компоненты доступны для строительства кораблей и баз.
+
+PreWarp означает отсутствие изученных технологий.
+
+Когда «Расширение» больше значения «Стартовое», уровень технологий должен быть не ниже 1-го уровня.
+Galaxy Tech Level Explanation		;Насколько продвинуты исследования для всех империй в галактике.
+
+Это определяет, какие корпуса кораблей и компоненты доступны для строительства кораблей и баз.
+
+PreWarp означает отсутствие изученных технологий.
+
+Когда параметр «Расширение» превышает значение «Стартовый», уровень технологий должен быть не ниже 1-го уровня.
+Starting Location		;Стартовая локация
+Starting Location Explanation		;Примерное начальное расположение вашей империи в галактике.\n\nЭто не точная настройка. Она лишь определяет регион галактики, где находится ваша родная система.\n\nЭта область обозначена синей заштриховкой на приведенном ниже предпросмотре галактики.
+Starting Location Description		;{1} стартовая позиция в галактике {0}
+
+Abundance		;Изобилие
+Load Game Explanation		;Выберите игру для загрузки из списка ниже.
+Save Game		;Сохранить игру
+Save Game Explanation		;Введите или выберите имя файла для сохранения игры.
+Paused		;Приостановлено
+
+Model Issue Ship Without Engines		;Модель корабля {0} не имеет сеток двигателей
+Model Issue Base Without Hangars		;Базовая модель {0} не имеет сеток ангаров
+Model Issue Military Ship Without Weapons		;Модель военного корабля {0} не имеет сеток оружия
+Model Issue Unrecognized Meshes		;Модель {0} содержит следующие неизвестные сетки (возможно, они названы неверно):
+Model Issue No Image File Set		;Модель {0} имеет пустой путь к файлу изображения
+Model Issue Missing Image File		;Модель {0} не может найти указанный файл изображения {1}
+Model Issue Engines Not Facing Backwards		;Некоторые сетки двигателей направлены не назад — направления сеток двигателей должны находиться в заднем полушарии модели, то есть быть в пределах 90 градусов от вектора «назад» (т. е. XYZ = 0,0,1). Проверьте следующие сетки двигателей: {0}
+Model Issue Hangars Facing Same Direction		;Все сетки ангаров направлены в одну сторону — проверьте, является ли это намеренным.
+Model Issue Weapons Facing Same Direction		;Все модели оружия направлены в одну сторону — проверьте, является ли это намеренным.
+Model Issue Weapon Meshes In Same Bay Facing Different Directions		;Некоторые модели оружия в одном и том же отсеке компонентов направлены в РАЗНЫЕ стороны. Все модели оружия в одном отсеке должны быть направлены в ОДНУ сторону (например, ВертикальныеПусковыеУстановки, СтвольныеБашни, КороткиеБашни, стандартного и крупного размера). Проверьте следующие модели оружия: {0}
+Model Issue ShipHull Missing Meshes		;В модели отсутствуют некоторые сетки, ожидаемые в корпусе корабля: {0}
+Model Issues for model XXX		;Обнаружены проблемы с моделью {0}, связанной с ID корпуса корабля {1} в точке {2}.
+Model Issues Explanation		;При проверке модели были обнаружены следующие проблемы. Обратите внимание, что это не исчерпывающий список всех возможных проблем. Вместо этого эти проблемы представляют собой лишь наиболее очевидные недостатки модели.
+
+No Buildable Designs		;Нет доступных для постройки проектов
+No Buildable Designs for ROLE		;Нет доступных для постройки проектов для {0}
+No Buildable Designs Explanation		;Сначала необходимо исследовать корпус корабля для этой роли, а затем создать проект, использующий этот корпус.
+
+Cannot cancel crash programs		;Нельзя отменить форсированные программы
+Under Attack		;Под атакой
+X is under attack from ATTACKER		;[LOCATION]{0}[/LOCATION] подвергается нападению со стороны {1}!
+X Y is under attack from ATTACKER		;[LOCATION]{0} {1}[/LOCATION] подвергается нападению со стороны {2}!
+X is under attack from ATTACKER EMPIRE LOCATION SYSTEM		;[LOCATION]{0}[/LOCATION] подвергается нападению со стороны {1} из [FACTION]{2}[/FACTION] в точке {3} в системе {4}!
+X Y is under attack from ATTACKER EMPIRE LOCATION SYSTEM		;[LOCATION]{0} {1}[/LOCATION] подвергается нападению со стороны {2} из [FACTION]{3}[/FACTION] в точке {4} в системе {5}!
+X is under attack from CREATURE LOCATION SYSTEM		;[LOCATION]{0}[/LOCATION] атакован {1} в точке {2} в системе {3}!
+X Y is under attack from CREATURE LOCATION SYSTEM		;[LOCATION]{0} {1}[/LOCATION] атакован {2} в точке {3} в системе {4}!
+Colony Bombardment		;Орбитальная бомбардировка в {0}
+Colony Bombardment Description		;Злые {0} из [FACTION]{1}[/FACTION] обстреливают нашу колонию [LOCATION]{2}[/LOCATION], убивая наших граждан! Они должны заплатить за эту зверство!
+Colony Invasion		;Колониальное вторжение в {0}
+Colony Invasion Description		;Наземные войска [FACTION]{0}[/FACTION] вторгаются в нашу колонию [LOCATION]{1}[/LOCATION]!
+Colony Attack at X		;Атака на колонию в {0}
+Colony Attack Description		;Наша колония [LOCATION]{0}[/LOCATION] подвергается нападению со стороны [FACTION]{1}[/FACTION]!
+SHIPROLE being Boarded		;{0} подвергается абордажу
+X is being boarded by EMPIRE		;[LOCATION]{0}[/LOCATION] подвергается абордажу со стороны [FACTION]{1}[/FACTION]!
+X Y is being boarded by EMPIRE		;[LOCATION]{0} {1}[/LOCATION] захвачен кораблями [FACTION]{2}[/FACTION]!
+X is being boarded by EMPIRE LOCATION SYSTEM		;[LOCATION]{0}[/LOCATION] захвачен кораблями [FACTION]{1}[/FACTION] в точке {2} системы {3}!
+X Y is being boarded by EMPIRE LOCATION SYSTEM		;[LOCATION]{0} {1}[/LOCATION] захвачен на абордаж [FACTION]{2}[/FACTION] в точке {3} в системе {4}!
+Our forces are invading COLONY of EMPIRE		;Наши силы вторгаются в колонию [LOCATION]{0}[/LOCATION] фракции [FACTION]{1}[/FACTION]
+Our forces are invading the independent colony COLONY		;Наши силы вторгаются в независимую колонию [LOCATION]{0}[/LOCATION]
+Our forces are bombarding COLONY of EMPIRE		;Наши силы обстреливают колонию [LOCATION]{0}[/LOCATION] фракции [FACTION]{1}[/FACTION].
+Our forces are bombarding the independent colony COLONY		;Наши силы обстреливают независимую колонию [LOCATION]{0}[/LOCATION]
+Invading Enemy Colony		;Вторжение на вражескую колонию {0}
+Bombarding Enemy Colony		;Обстрел вражеской колонии {0}
+
+Colony Invasion By EMPIRE		;Вторжение со стороны {0}
+Colony Rebellion		;Восстание
+Colony Raid		;Набег со стороны {0}
+Colony EliminateInfluence		;Устранить пиратское влияние
+
+Armored Breakthrough		;Бронированный прорыв
+Fortified Line		;Укрепленная линия
+Overwhelming Odds		;Непреодолимое превосходство противника
+Defense Grid		;Оборонительная сеть
+Special Operations		;Специальные операции
+Invulnerable		;Неуязвимый
+Unstoppable		;Неостановимый
+Space Control		;Космическое господство
+Native Planet Type		;Родной тип планеты
+Hostile Planet Type		;Враждебный тип планеты
+Attacking General Bonus		;Бонус к атаке генерала
+Defending General Bonus		;Бонус к защите генерала
+Defensive Facilities and other bonuses		;Оборонительные сооружения и другие бонусы
+
+CharacterRole Leader		;Лидер
+CharacterRole Ambassador		;Посол
+CharacterRole ColonyGovernor		;Губернатор
+CharacterRole FleetAdmiral		;Адмирал
+CharacterRole ShipCaptain		;Капитан
+CharacterRole TroopGeneral		;Общий
+CharacterRole Spy		;Шпион
+CharacterRole Scientist		;Учёный
+CharacterRole Pirate		;Пиратский лидер
+
+Advisor Suggestion		;Предложение советника
+Message		;Сообщение
+GalaxyNews		;Новости Галактики
+UnderAttack		;Под атакой!
+Message from X		;Сообщение от {0}
+Discovery		;Открытие
+Filter Options		;Параметры фильтрации
+Message Log		;Журнал сообщений
+
+MessageType Characters		;Персонажи
+MessageType Colonies		;Колонии
+MessageType Construction State		;Государственное строительство
+MessageType Construction Civilian		;Гражданское строительство
+MessageType Retrofit State		;Модернизация государств
+MessageType Retrofit Civilian		;Гражданские модернизации
+MessageType Diplomacy		;Дипломатия
+MessageType Economy		;Экономика
+MessageType Exploration		;Исследование
+MessageType GalaxyNews		;Новости Галактики
+MessageType Military		;Военный
+MessageType Research		;Исследование
+MessageType Resources		;Ресурсы
+MessageType Story		;История
+MessageType UnderAttack		;Под атакой
+
+Showing All Messages		;Показать все сообщения
+Filtered to X		;Отфильтровано по {0}
+X Message Types		;{0} типов сообщений
+X Empires		;{0} империй
+
+Raiders Withdraw		;Рейдеры отступают
+Raiders Withdraw Description		;Наши колонии [LOCATION]{1}[/LOCATION] отбили нападение рейдеров из [FACTION]{0}[/FACTION], и они отступили!
+Raid Fails		;Рейд не удался
+Raiders Steal Despite Defeat		;Несмотря на нашу победу над этими рейдерами, им удалось украсть следующее
+Raid Fails Description		;Наш рейд против [LOCATION]{0}[/LOCATION] из [FACTION]{1}[/FACTION] прошел неудачно. Наши силы отступили.
+Invaders Repulsed		;Отбито вторжение!
+Invaders Repulsed Description		;Мы разгромили захватчиков из [FACTION]{0}[/FACTION] в нашей колонии [LOCATION]{1}[/LOCATION]!
+Invasion Fails		;Вторжение провалилось!
+Invasion Fails Description		;Наше вторжение в [LOCATION]{0}[/LOCATION] империи [FACTION]{1}[/FACTION] было отбито! Наши силы уничтожены.
+Colony Invaded		;Колония захвачена!
+Colony Invaded Description		;Наша колония [LOCATION]{0}[/LOCATION] подверглась нападению сил из [FACTION]{1}[/FACTION]! За контроль над колонией идет наземное сражение.
+Colony Raiding Description		;Нашу колонию [LOCATION]{0}[/LOCATION] атакуют силы [FACTION]{1}[/FACTION]! В колонии идет наземное сражение.
+Colony Lost		;Колония потеряна!
+Colony Lost Description		;Наша колония [LOCATION]{0}[/LOCATION] была захвачена и взята под контроль фракцией [FACTION]{1}[/FACTION]! Наши оборонительные силы были полностью уничтожены.
+Colony Rebelling		;Восстание колонии!
+Colony Rebelling Description		;Недовольные жители нашей колонии [LOCATION]{0}[/LOCATION] восстают против нашего правления! Они отказываются платить любые налоги и подняли силы, чтобы свергнуть нас!
+Rebellion Crushed		;Восстание подавлено
+Rebellion Crushed Description		;Мы подавили восстание в нашей колонии [LOCATION]{0}[/LOCATION]
+Colony Gained		;Колония получена!
+Colony Conquered		;Колония завоевана!
+Colony Conquered Description		;Мы вторглись и захватили колонию [LOCATION]{0}[/LOCATION] фракции [FACTION]{1}[/FACTION]! Наши победоносные силы полностью разгромили врага.
+Colony Conquered Description Independent		;Мы вторглись и захватили независимую колонию [LOCATION]{0}[/LOCATION]! Наши победоносные силы полностью разгромили врага.
+Colony Conquered News		;{0} Завоёван
+Colony Conquered Description News		;[FACTION]{0}[/FACTION] вторгся и захватил колонию {1} [LOCATION]{2}[/LOCATION] в системе {3}. Эта колония ранее входила в состав [FACTION]{4}[/FACTION].
+Colony Conquered Description News Independent		;[FACTION]{0}[/FACTION] вторгся и захватил колонию {1} [LOCATION]{2}[/LOCATION] в системе {3}. Эта колония ранее была независимой.
+Colony Overthrown		;Колония свергнута!
+Colony Overthrown Description		;Жители [LOCATION]{0}[/LOCATION] устали от нашего угнетающего правления и провозгласили независимость!
+Colony Overthrown Description Other Empire		;Жители [LOCATION]{0}[/LOCATION] устали от нашего угнетающего правления и перешли на сторону [FACTION]{1}[/FACTION]!
+Colony Joins Us		;Колония присоединяется к нам!
+Colony Joins Us Description		;Подавленные жители [LOCATION]{0}[/LOCATION] перешли от [FACTION]{1}[/FACTION] к нам!
+Colony Raided		;Колония подверглась налёту!
+Base Raided		;База разграблена!
+Colony Raided EMPIRE		;Колония подверглась налёту со стороны {0}!
+Base Raided EMPIRE		;База подверглась налёту со стороны {0}!
+Colony Raided Description		;Наша колония [LOCATION]{0}[/LOCATION] подверглась нападению со стороны сил [FACTION]{1}[/FACTION]! Эти воры-бандиты похитили добычу из нашей колонии.
+Colony Raid Succeeds		;Набег на колонию удался!
+Colony Raid Succeeds Description		;Наш рейд против [LOCATION]{0}[/LOCATION] из [FACTION]{1}[/FACTION] увенчался успехом! Мы похитили добычу с их колонии.
+Colony Raid Unsuccessful		;Нападение на колонию не увенчалось успехом
+Base Raid Unsuccessful		;Набег на базу не удался
+Base Raid Succeeds		;Набег на базу удался!
+
+Colony Raid Partially Successful		;Неудачный рейд принес добычу
+Base Raid Partially Successful		;Неудачный рейд принес добычу
+
+
+Facility Destroyed during Invasion		;{0} Уничтожено во время вторжения
+Facility Destroyed during Invasion Description		;[ФАЦИЛИТИ]{0}[/ФАЦИЛИТИ] в нашей колонии [ЛОКАЦИЯ]{1}[/ЛОКАЦИЯ] была атакована и уничтожена вражескими силами во время наземного сражения.
+Character Killed during Invasion		;{0} Погиб во время вторжения
+Character Killed during Invasion Description		;Наш [CHARACTER]{0} {1}[/CHARACTER] погиб в ходе наземного сражения на [LOCATION]{2}[/LOCATION] под ударами вражеских сил.
+New Ship Completed		;Новое исследование {0} завершено
+New Ship Completed Description		;Завершено строительство нового {0} в [LOCATION]{1}[/LOCATION].
+Retrofit Ship Completed		;Модернизация {0} завершена
+Retrofit Ship Completed Description		;Модернизация {0} завершена в [LOCATION]{1}[/LOCATION].
+Tech Bonus From Scrapping Ship		;Технический прорыв благодаря утилизации {0}
+Tech Bonus From Scrapping Ship Description		;Мы совершили прорыв в исследованиях [RESEARCH]{0}[/RESEARCH], изучая передовые технологии при разборке [LOCATION]{1} {2}[/LOCATION].
+Tech Bonus From Repairing Ship		;Прорыв в исследованиях благодаря ремонту {0}
+Tech Bonus From Repairing Ship Description		;Мы совершили прорыв в исследовании [RESEARCH]{0}[/RESEARCH], изучая передовые технологии при ремонте [LOCATION]{1} {2}[/LOCATION]
+X Research Completed		;{0} Исследование завершено
+X Research Completed Description		;Мы завершили исследование в области [RESEARCH]{0}[/RESEARCH].\n\nЭтот проект обеспечивает следующие достижения:\n[RESEARCH]{1}[/RESEARCH]
+Planets		;Планеты
+Character Killed by Bombardment		;{0} Уничтожен бомбардировкой
+Character Killed by Bombardment Description		;Наш [CHARACTER]{0} {1}[/CHARACTER] погиб в результате бомбардировки колонии [LOCATION]{2}[/LOCATION].
+Facility Destroyed by Bombardment		;{0} Уничтожен бомбардировкой
+Facility Destroyed by Bombardment Description		;[ЛОКАЦИЯ]{1}[/ЛОКАЦИЯ] в нашей колонии была уничтожена вражескими силами во время орбитальной бомбардировки, а также [ОБЪЕКТ]{0}[/ОБЪЕКТ].
+Artifact Destroyed by Bombardment		;{0} Уничтожен бомбардировкой
+Artifact Destroyed by Bombardment Description		;[ARTIFACT]{0}[/ARTIFACT] в нашей колонии [LOCATION]{1}[/LOCATION] был уничтожен вражескими силами во время орбитальной бомбардировки.
+
+SHIP Boarded and Captured		;{0} Захвачен и взят на абордаж!
+SHIP Taken Over		;{0} Захвачено!
+Captured Base Destroy		;Захваченная база разграблена и уничтожена
+Captured Base Looted and Destroyed		;База ограблена и уничтожена
+Boarded Base Self Destructs Capture Loot		;Мы ограбили {0} в [LOCATION]{1}[/LOCATION], затем уничтожили базу, так как она находилась на вражеской колонии.

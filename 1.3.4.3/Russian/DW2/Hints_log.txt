@@ -1,0 +1,73 @@
+Лог перевода: 1.3.4.3\English\DW2\Hints.txt
+Выходной файл: 1.3.4.3\Russian\DW2\Hints.txt
+Всего переводов: 17
+================================================================================
+
+Line 1: Assign any selected item to the Hotkeys 0-9. Use Ctrl-(Number) to assign the currently selected item to the hotkey. Press the hotkey once to select the item, press again to move the view to the item
+->
+Назначьте любой выбранный элемент горячим клавишам от 0 до 9. Используйте Ctrl+(Цифра), чтобы назначить текущий выбранный элемент горячей клавише. Нажмите на горячую клавишу один раз, чтобы выбрать элемент, нажмите еще раз, чтобы переместить обзор к этому элементу.
+
+Line 2: Cycle through all of your Colonies in the Selection Panel using the C key. Cycle backwards using Shift-C
+->
+Перебирайте все ваши колонии в панели выбора с помощью клавиши C. Для перебора в обратном порядке используйте Shift+C.
+
+Line 3: Cycle through all of your Fleets in the Selection Panel using the F key. Cycle backwards using Shift-F
+->
+Перебирайте все ваши флоты в панели выбора с помощью клавиши F. Перебор назад выполняется комбинацией Shift+F.
+
+Line 4: Cycle through all of your Construction Yards in the Selection Panel using the Y key. Cycle backwards using Shift-Y
+->
+Перебирайте все ваши Верфи в панели выбора с помощью клавиши Y. Перебор назад осуществляется с помощью Shift+Y.
+
+Line 5: Cycle through all of your Construction ships in the Selection Panel using the U key. Cycle backwards using Shift-U
+->
+Перебирайте все ваши строительные корабли в панели выбора с помощью клавиши U. Перебор назад выполняется комбинацией Shift+U.
+
+Line 6: Cycle through all of your Exploration ships in the Selection Panel using the X key. Cycle backwards using Shift-X
+->
+Перебирайте все ваши исследовательские корабли в панели выбора с помощью клавиши X. Перебор назад выполняется комбинацией Shift+X.
+
+Line 7: Cycle through all of your Military ships in the Selection Panel using the M key. Cycle backwards using Shift-M
+->
+Перебирайте все военные корабли в панели выбора с помощью клавиши M. Для перебора в обратном направлении используйте Shift+M.
+
+Line 8: You can change how mouse click-drag works in the Game Settings screen (/ key). Choose from either moving the view (default) or selecting ships
+->
+Вы можете изменить поведение перетаскивания мышью на экране настроек игры (клавиша /). Выберите либо перемещение обзора (по умолчанию), либо выделение кораблей.
+
+Line 9: You can change how mouse camera rotation works in the Game Settings screen (/ key). Choose from either the middle mouse button (default) or the right mouse button
+->
+Вы можете изменить поведение вращения камеры мышью на экране настроек игры (клавиша /). Выберите либо среднюю кнопку мыши (по умолчанию), либо правую кнопку мыши.
+
+Line 10: You can enable or disable screen edge panning in the Game Settings screen (/ key)
+->
+Вы можете включить или отключить прокрутку экрана по краям на экране настроек игры (клавиша /).
+
+Line 11: To multi-select ships hold down the Ctrl key while clicking them or drag-selecting them. You can also multi-select ships from any list using Ctrl- and Shift-select (e.g. Military Ships list)
+->
+Для множественного выбора кораблей удерживайте клавишу Ctrl при клике на них или выделите их перетаскиванием. Вы также можете выбрать несколько кораблей из любого списка, используя комбинации Ctrl и Shift (например, список «Военные корабли»).
+
+Line 12: Quickly zoom to any explored star system from the galaxy view by double-clicking on the star
+->
+Быстро переместитесь к любой исследованной звездной системе из галактического вида, дважды щелкнув по звезде.
+
+Line 13: With a ship or fleet selected, hold down the right mouse button for a full list of available missions at the mouse location
+->
+При выбранном корабле или флоте удерживайте правую кнопку мыши для получения полного списка доступных миссий в месте расположения курсора.
+
+Line 14: To quickly zoom to the selected item, double-click on the header area of the Selection Panel, or press the Backspace key
+->
+Чтобы быстро перейти к выбранному элементу, дважды щелкните по области заголовка панели выбора или нажмите клавишу Backspace.
+
+Line 15: You can cycle the automation settings for the selected ship using the = key
+->
+Вы можете переключать настройки автоматизации для выбранного корабля с помощью клавиши =
+
+Line 16: Navigate backward and forward in the Selection Panel history using the left and right arrow keys
+->
+Перемещайтесь назад и вперед по истории панели выбора с помощью стрелок влево и вправо.
+
+Line 17: If you want Fuel Tankers to automatically refuel your fleet, you should automate the Fuel Tankers, even if the fleet is manually controlled
+->
+Если вы хотите, чтобы топливные заправщики автоматически заправляли ваш флот, вам следует автоматизировать топливные заправщики, даже если флот управляется вручную.
+

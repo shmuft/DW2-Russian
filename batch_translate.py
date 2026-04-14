@@ -11,25 +11,26 @@ import subprocess
 import sys
 import os
 from pathlib import Path
-from translate import build_translation_cache_from_paired_files, set_translation_cache
+from translate import build_translation_cache_from_paired_files, set_translation_cache, translate_text
 
 def translate_file(input_path: Path, output_path: Path, words_mode: bool = False, check_mode: bool = False, pool_addresses=None, pool_timeout: int = 120, cache_file: str = None, fix_untranslated: bool = False) -> int:
     """
-    Run translate.py for a single XML file.
+    Run translate.py for a single XML or TXT file.
 
     Returns:
         0 if successful,
         1 if untranslated English words were found in check mode,
         2 if another error occurred.
     """
-    cmd = [sys.executable, 'translate.py']
+    file_type = 'txt' if input_path.suffix.lower() == '.txt' else 'xml'
+    cmd = [sys.executable, 'translate.py', '--type', file_type]
     if check_mode:
         cmd.extend([str(output_path), '--check'])
     else:
         cmd.extend([str(input_path), str(output_path)])
         if words_mode:
             cmd.append('--words')
-        if fix_untranslated:
+        if fix_untranslated and file_type == 'xml':
             cmd.append('--fix-untranslated')
         if pool_addresses:
             for addr in pool_addresses:
@@ -58,7 +59,8 @@ def translate_file(input_path: Path, output_path: Path, words_mode: bool = False
 
 def fix_untranslated_files(xml_files, english_dir, russian_dir, pool_addresses, pool_timeout):
     """
-    Найти и доперевести недопереведённые элементы в уже переведённых файлах.
+    Найти и доперевести недопереведённые элементы в уже переведённых XML файлах.
+    TXT файлы пропускаются.
     """
     from translate import check_translated_file
     
@@ -66,6 +68,8 @@ def fix_untranslated_files(xml_files, english_dir, russian_dir, pool_addresses, 
     total_problems = 0
     
     for xml_file in xml_files:
+        if xml_file.suffix.lower() != '.xml':
+            continue  # Пропускаем не XML файлы
         rel_path = xml_file.relative_to(english_dir)
         output_file = russian_dir / rel_path
         
@@ -198,32 +202,44 @@ def main():
     else:
         cache_file = None
 
-    # Find all XML files recursively
+    # Find all XML and TXT files recursively
     xml_files = list(english_dir.rglob('*.xml'))
-
-    if not xml_files:
-        print("No XML files found in the English directory")
-        return 0
+    txt_files = list(english_dir.rglob('*.txt'))
+    all_files = xml_files + txt_files
 
     if args.fix_untranslated:
-        print(f"Поиск недопереведённых элементов в {len(xml_files)} файлах...")
-        return fix_untranslated_files(xml_files, english_dir, russian_dir, pool_addresses, args.pool_timeout)
+        print(f"Поиск недопереведённых элементов в {len(all_files)} файлах...")
+        return fix_untranslated_files(all_files, english_dir, russian_dir, pool_addresses, args.pool_timeout)
 
-    print(f"Found {len(xml_files)} XML files to process")
+    print(f"Found {len(xml_files)} XML files and {len(txt_files)} TXT files to process")
 
     success_count = 0
     skip_count = 0
 
     # If not --all, translate only one eligible file and exit.
-    for xml_file in xml_files:
+    for file_path in all_files:
         untranslated_found = False
         # Compute relative path from English directory
-        rel_path = xml_file.relative_to(english_dir)
+        rel_path = file_path.relative_to(english_dir)
+        
+        # Special handling for Galactopedia: translate filenames
+        if 'Galactopedia' in str(rel_path):
+            # Translate the filename (stem only)
+            original_stem = rel_path.stem
+            translated_stem = translate_text(original_stem)
+            new_filename = translated_stem + rel_path.suffix
+            rel_path = rel_path.with_name(new_filename)
+        
         output_file = russian_dir / rel_path
 
         if args.check:
-            if not output_file.exists():
-                print(f"Skipping проверку {xml_file}: отсутствует файл перевода {output_file}")
+            check_file = output_file
+            if 'Galactopedia' in str(rel_path) and not output_file.exists():
+                # Try with original filename for check
+                original_rel_path = file_path.relative_to(english_dir)
+                check_file = russian_dir / original_rel_path
+            if not check_file.exists():
+                print(f"Skipping проверку {file_path}: отсутствует файл перевода {check_file}")
                 skip_count += 1
                 continue
         else:
@@ -233,22 +249,22 @@ def main():
             
             # Пропускаем только если файл ПОЛНОСТЬЮ перевёден и это не на паузе
             if output_file.exists() and not args.force and not is_paused:
-                print(f"Skipping {xml_file} (output exists: {output_file})")
+                print(f"Skipping {file_path} (output exists: {output_file})")
                 skip_count += 1
                 continue
             
             # Если файл на паузе, продолжаем перевод (не пропускаем)
             if is_paused:
-                print(f"Resuming paused translation: {xml_file}")
+                print(f"Resuming paused translation: {file_path}")
 
             # Ensure output directory exists
             output_file.parent.mkdir(parents=True, exist_ok=True)
 
         action = 'Проверка' if args.check else 'Translating'
-        print(f"{action} {xml_file} -> {output_file}")
+        print(f"{action} {file_path} -> {output_file}")
 
         result_code = translate_file(
-        xml_file,
+        file_path,
         output_file,
         words_mode=args.words,
         check_mode=args.check,

@@ -2733,7 +2733,15 @@ TERMINOLOGY RULES:
   - "War Swarm"→"Военный рой"
   - "WarBot Brigade"→"Бригада боевых ботов"
   - "Feudalism Militia"→"Феодальное ополчение"
-
+23.114 "Move to {0}"→"Переместиться в {0}"
+  - "[FACTION]{1}[/FACTION]"→"[FACTION]{1}[/FACTION]"
+  - "[LOCATION]{0}[/LOCATION]"→"[LOCATION]{0}[/LOCATION]"
+  - "You are not at war with empires of our race"→"Вы не ведете войну с империями нашей расы"
+  - "Your empire will automatically sell excess resources to other empires when you have a Restricted, Limited or Free Trade Agreement with them. Independent colonies and traders will also buy excess resources from you"→"Ваша империя будет автоматически продавать излишки ресурсов другим империям, если у вас с ними заключено соглашение об ограниченной, лимитированной или свободной торговле. Независимые колонии и торговцы также будут покупать у вас излишки ресурсов"
+  - "Restricted Trade Agreement"→"Соглашение об ограниченной торговле"
+  - "Limited Trade Agreement"→"Соглашение о лимитированной торговле"
+  - "Free Trade Agreement"→"Соглашение о свободной торговле"
+  - "Angry Colonies"→"Разгневанные колонии"
 SPECIES RULES:
 24. Species names are alien ethnonyms, not personal names.
 
