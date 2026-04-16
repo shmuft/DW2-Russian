@@ -106,7 +106,7 @@ def _translate_from_cache(text: str) -> str:
     return cache.get(text.strip())
 
 
-def translate_text(text: str) -> str:
+def translate_text_alibaba(text: str) -> str:
     """
     Перевод текста через LM Studio (локальный LLM) используя lmstudio-python SDK.
     Проверяет в порядке приоритета:
@@ -129,7 +129,7 @@ def translate_text(text: str) -> str:
 
     client = OpenAI(
     # If the environment variable is not set, replace it with your Model Studio API key: api_key="sk-xxx"
-        api_key="sk-aba922246dba449691bbc15435335158",
+        api_key="apikey",
         base_url="https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
     )
 
@@ -147,27 +147,12 @@ def translate_text(text: str) -> str:
         enable_thinking=False
     )
 
-    # # Получаем модель
-    # model = lms.llm(DEFAULT_MODEL)
-    
-    # # Создаём чат с системным промптом
-    # chat = lms.Chat(SYSTEM_PROMPT)
-    # chat.add_user_message(f"Text: {text}")
-    
-    # # Получаем ответ
-    # result = model.respond(
-    #     chat,
-    #     config={
-    #         "temperature": 0.1,
-    #         "maxTokens": 1024*10,
-    #     }
-    # )
     
     translated = result.content.strip()
     translated = translated.replace('‑', '-')
     return translated
 
-def translate_text_lm_studio(text: str) -> str:
+def translate_text(text: str) -> str:
     """
     Перевод текста через LM Studio (локальный LLM) используя lmstudio-python SDK.
     Проверяет в порядке приоритета:
@@ -525,7 +510,7 @@ def translate_txt_file(input_file: str, output_file: str, words_mode=False, tran
         if os.path.exists(progress_file):
             os.remove(progress_file)
         return
-
+    _get_translation_cache() 
     for i in range(start_index, len(lines)):
         if paused:
             break
