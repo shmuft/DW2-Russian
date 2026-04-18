@@ -2742,6 +2742,7 @@ TERMINOLOGY RULES:
   - "Limited Trade Agreement"→"Соглашение о лимитированной торговле"
   - "Free Trade Agreement"→"Соглашение о свободной торговле"
   - "Angry Colonies"→"Разгневанные колонии"
+  - "Retire Ships"→"Утилизировать корабли"
 SPECIES RULES:
 24. Species names are alien ethnonyms, not personal names.
 
