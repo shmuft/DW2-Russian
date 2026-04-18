@@ -17,7 +17,7 @@ except ImportError:
     print("Библиотека 'keyboard' не установлена. Установите её командой: pip install keyboard")
     sys.exit(1)
 
-DEFAULT_MODEL = "qwen/qwen3.5-35b-a3b"
+DEFAULT_MODEL = "qwen/qwen3.6-35b-a3b"
 # DEFAULT_MODEL = "google/gemma-4-26b-a4b"
 DEFAULT_POOL_TIMEOUT = 120  # timeout in seconds (was 120000ms)
 
@@ -134,7 +134,7 @@ def translate_text_alibaba(text: str) -> str:
     )
 
     messages = [
-        {"role": "system", "content": SYSTEM_PROMPT},
+        # {"role": "system", "content": SYSTEM_PROMPT},
         {"role": "user", "content": f"Text: {text}"}
         ]
 

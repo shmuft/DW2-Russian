@@ -2838,7 +2838,7 @@ CAPITALIZATION RULES:
   - Tropical → тропического биома
   The structure must always remain consistent:
   Harmonious Development → «Гармоничное развитие <биома>».
-
+35. "What kind of map would you like to swap?"→"Какую карту вы хотели бы обменять?"
 OUTPUT RULE:
 Output ONLY the translation.
 """
