@@ -125,9 +125,9 @@ TERMINOLOGY RULES:
     - "Super Freighter"→"Сверхкрупный грузовой корабль"
 23.13 Ship class translations for troop transports:
     - "Troop Transport"→"Десантный корабль"
-    - "Medium Troop Transport” → "Средний десантный корабль"
-    - "Large Troop Transport” → "Большой десантный корабль"
-    - "Super Troop Transport” → "Сверхкрупный десантный корабль"
+    - "Medium Troop Transport”→"Средний десантный корабль"
+    - "Large Troop Transport”→"Большой десантный корабль"
+    - "Super Troop Transport”→"Сверхкрупный десантный корабль"
 23.14 Ship class translations for combat ship types (Escorts, Frigates, Destroyers, Cruisers, troop transports, etc.):
     All constructions of the form "<Adjective> + Escort/Frigate/Destroyer/Cruiser/…>” must be translated:
     - literally,
@@ -137,19 +137,19 @@ TERMINOLOGY RULES:
     Examples:
     - "Escort"→"Эскорт"
     - "Frigate”→"Фрегат"
-    - "Heavy Escort” → "Тяжёлый эскорт"
-    - "Patrol Escort” → "Патрульный эскорт"
-    - "Fast Frigate” → "Быстрый фрегат"
-    - "Armored Destroyer” → "Бронированный эсминец"
-    - "Strike Cruiser” → "Ударный крейсер"
-    - "Long-Range Cruiser” → "Дальнобойный крейсер"
+    - "Heavy Escort”→"Тяжёлый эскорт"
+    - "Patrol Escort”→"Патрульный эскорт"
+    - "Fast Frigate”→"Быстрый фрегат"
+    - "Armored Destroyer”→"Бронированный эсминец"
+    - "Strike Cruiser”→"Ударный крейсер"
+    - "Long-Range Cruiser”→"Дальнобойный крейсер"
     This rule applies to all combat ship classes with adjectives.
 23.15 "Resort Station” must always be translated as "Развлекательная станция"
 23.16 Ship class translations for colony ships:
-    - "Small Colony Ship” → "Малый колонизационный корабль"
-    - "Medium Colony Ship” → "Средний колонизационный корабль"
-    - "Large Colony Ship” → "Большой колонизационный корабль"
-    - "Super Colony Ship” → "Сверхкрупный колонизационный корабль"
+    - "Small Colony Ship”→"Малый колонизационный корабль"
+    - "Medium Colony Ship”→"Средний колонизационный корабль"
+    - "Large Colony Ship”→"Большой колонизационный корабль"
+    - "Super Colony Ship”→"Сверхкрупный колонизационный корабль"
     This rule applies to all combat ship classes with adjectives.
 23.17 "Fuel Tanker"→"Топливный заправщик".
     Any construction of the form "<Size> Fuel Tanker" must be translated as:
@@ -259,14 +259,14 @@ TERMINOLOGY RULES:
   - "Swarm Targeting"→"Система целеуказания роя"
   - "Small Hive Hangar"→"Малый ангар-улей"
 23.68 "Bubble Shields"→"Пузырьковые щиты"
-  - "Novacore Reactor" → 'Реактор "Новакор"'
+  - "Novacore Reactor"→'Реактор "Новакор"'
 23.69 "Attack Fleet"→"Ударный флот"
   - "Defense Fleet"→"Оборонительный флот"
   - "Invasion Fleet"→"Флот вторжения"
   - "Raiding Force"→"Рейдовое соединение" 
 23.70 "Warm-blooded aliens"→"Теплокровные пришельцы"
   - "Devoured"→"пожирать" or "поглощать" 
-  - '"The Scouring"' → '"Искоренение"' 
+  - '"The Scouring"'→'"Искоренение"' 
   - "mandibles"→"Жвалы"
 23.71 "Ancient Homesystem"→"Древняя родная система" 
   - "The ship has collapsed, killing all aboard"→"Корабль разрушился, все находившиеся на борту погибли" 
@@ -343,7 +343,7 @@ TERMINOLOGY RULES:
   - "Exo Defense Swarm"→"Экзо-защитный рой"
   - "Infiltration Swarm"→"Диверсионный рой"
   - "Swarm Carrier"→"Носитель роя"
-23.81 "Behemoth Armored Force" → 'Бронетанковое соединение "Бегемот"'
+23.81 "Behemoth Armored Force"→'Бронетанковое соединение "Бегемот"'
   - "Demolition Force"→"Штурмовое соединение"
   - "Hunter Company"→"Егерская рота"
   - "Hunter Force"→"Силы преследования"
@@ -356,11 +356,11 @@ TERMINOLOGY RULES:
 23.83 "Advanced Psionic Virus"→"Улучшенный псионический вирус"
   - "Beacon Impacting Research"→"Маяк, влияющий на исследования"
   - "Beacon Heavily Impacting Research"→"Маяк, сильно подавляющий исследования"
-  - "Experimental Xaraktor Virus" → 'Экспериментальный вирус "Характор"'
+  - "Experimental Xaraktor Virus"→'Экспериментальный вирус "Характор"'
   - "Investment in Bribery"→"Инвестиции в подкуп"
   - "Shakturi Infiltration Stopped"→"Проникновение Шактури остановлено"
   - "Ultimate Psionic Virus"→"Совершенный псионический вирус"
-  - "Xaraktor Virus" → 'Вирус "Характор"'
+  - "Xaraktor Virus"→'Вирус "Характор"'
   - "Inferno Torpedo"→"Торпеда «Инферно»"
   - "Psychic Shield"→"Пси-щит"
   - "Refugee Colonization Module"→"Колонизационный модуль для беженцев"
@@ -1293,9 +1293,9 @@ TERMINOLOGY RULES:
   - "Command Center"→"Командный центр"
   - "Medical Center"→"Медицинский центр"
   - "Recreation Center"→"Центр отдыха"
-  - "Aegis Missile Battery" → 'Ракетная батарея "Эгида"'
-  - "Annihilator Shock Mines" → 'Шоковые мины "Аннигилятор"'
-  - "Ardilus Lightning Arc" → 'Молниевая дуга "Ардилус"'
+  - "Aegis Missile Battery"→'Ракетная батарея "Эгида"'
+  - "Annihilator Shock Mines"→'Шоковые мины "Аннигилятор"'
+  - "Ardilus Lightning Arc"→'Молниевая дуга "Ардилус"'
   - "Area Shield Recharge"→"Подзарядка щитов области"
   - "Assault Pod"→"Штурмовая капсула"
   - "Atomic Devastator"→"Атомный опустошитель"
@@ -2839,6 +2839,49 @@ CAPITALIZATION RULES:
   The structure must always remain consistent:
   Harmonious Development → «Гармоничное развитие <биома>».
 35. "What kind of map would you like to swap?"→"Какую карту вы хотели бы обменять?"
+36. Filenames of files:
+"Alliances.txt"→"Альянсы.txt"
+"Ancient Ruins.txt"→"Древние руины.txt"
+"Characters.txt"→"Персонажи.txt"
+"Colonization.txt"→"Колонизация.txt"
+"Colony Approval and Growth.txt"→"Колония Одобрение и рост.txt"
+"Colony Corruption.txt"→"Колония Коррупция.txt"
+"Colony Population Policies.txt"→"Колония Политика населения.txt"
+"Colony Support Costs.txt"→"Колония Затраты на поддержание.txt"
+"Colony Taxes.txt"→"Колония Налоги.txt"
+"Combat - Ground Battles.txt"→"Бой - Наземные сражения.txt"
+"Combat - Invasions.txt"→"Бой - Вторжения.txt"
+"Combat - Space Battles.txt"→"Бой - Космические сражения.txt"
+"Construction.txt"→"Строительство.txt"
+"Designs.txt"→"Дизайны.txt"
+"Diplomacy - Relation Factors.txt"→"Дипломатия - Факторы отношений.txt"
+"Diplomacy - Treaty Types.txt"→"Дипломатия - Типы договоров.txt"
+"Economy Tips.txt"→"Советы по экономике.txt"
+"Economy.txt"→"Экономика.txt"
+"Empire Reputation.txt"→"Репутация империи.txt"
+"Exploration.txt"→"Исследование.txt"
+"Fighters.txt"→"Истребители.txt"
+"Fleets.txt"→"Флоты.txt"
+"Fuel.txt"→"Топливо.txt"
+"Getting Started.txt"→"Начало игры.txt"
+"Governments.txt"→"Формы правления.txt"
+"Independent Colonies and Traders.txt"→"Независимые колонии и торговцы.txt"
+"Intelligence Missions.txt"→"Разведывательные миссии.txt"
+"Migration.txt"→"Миграция.txt"
+"Mining.txt"→"Добыча ресурсов.txt"
+"Nebula Clouds.txt"→"Туманности.txt"
+"Outposts.txt"→"Аванпосты.txt"
+"Pirates.txt"→"Пираты.txt"
+"Planetary Facilities.txt"→"Планетарные сооружения.txt"
+"Research.txt"→"Исследования.txt"
+"Ship and Base Types.txt"→"Типы кораблей и баз.txt"
+"Ship Costs.txt"→"Стоимость кораблей.txt"
+"Ship Types.txt"→"Типы кораблей.txt"
+"Tactical Settings.txt"→"Тактические настройки.txt"
+"Tourism.txt"→"Туризм.txt"
+"Troops.txt"→"Войска.txt"
+"Wonders.txt"→"Чудеса.txt"
+
 OUTPUT RULE:
 Output ONLY the translation.
 """
