@@ -185,6 +185,13 @@ def main():
             if os.path.exists(progress_file):
                 files_in_progress.add(str(output_file))
                 print(f"[INFO] Пропускаю файл на паузе: {output_file}")
+        for txt_file in english_dir.rglob('*.txt'):
+            rel_path = txt_file.relative_to(english_dir)
+            output_file = russian_dir / rel_path
+            progress_file = f"{output_file}.progress.pkl"
+            if os.path.exists(progress_file):
+                files_in_progress.add(str(output_file))
+                print(f"[INFO] Пропускаю файл на паузе: {output_file}")
         
         cache = build_translation_cache_from_paired_files(str(english_dir), str(russian_dir), exclude_files=files_in_progress)
         

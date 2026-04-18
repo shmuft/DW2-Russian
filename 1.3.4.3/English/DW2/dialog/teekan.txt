@@ -6,7 +6,7 @@ GREETING_ANGRY    ;Not happy to see you, ok.\n\nSo make it quick
 OFFER_DEAL    ;You take the trade?
 OFFER_DEAL_RESPONSE  ;Ah! A deal! What kind of deal you asking?
 
-PIRATEPROTECTION_DEAL    ;Lots of scary things and crazy aliens in space... Don’t want any of your ships or bases to turn into nice broken junk...\n\nFor little monthly costs of {0} credits we can make sure crazy ship captains don’t any damage to your stuff.\n\nGood deal, ok? Stop any accidents...
+PIRATEPROTECTION_DEAL    ;Lots of scary things and crazy aliens in space... Donâ€™t want any of your ships or bases to turn into nice broken junk...\n\nFor little monthly costs of {0} credits we can make sure crazy ship captains donâ€™t any damage to your stuff.\n\nGood deal, ok? Stop any accidents...
 
 DEAL_BEGIN    ;What you come to ask?
 DEAL_ACCEPT    ;We agree your proposal

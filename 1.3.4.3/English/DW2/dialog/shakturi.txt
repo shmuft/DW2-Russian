@@ -1,4 +1,4 @@
-﻿
+
 GREETING_INTRODUCTION		;We are the {0}.\n\nWe are peaceful wanderers who seek harmony and goodwill with all.
 GREETING_FRIENDLY			;What evil scheme have you come to share with us, friend?
 GREETING_NEUTRAL			;Explain your presence before us

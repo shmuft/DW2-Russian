@@ -105,53 +105,6 @@ def _translate_from_cache(text: str) -> str:
     cache = _get_translation_cache()
     return cache.get(text.strip())
 
-
-def translate_text_alibaba(text: str) -> str:
-    """
-    Перевод текста через LM Studio (локальный LLM) используя lmstudio-python SDK.
-    Проверяет в порядке приоритета:
-    1. Словарь из SYSTEM_PROMPT 
-    2. Кэш из уже переведённых файлов
-    3. LLM (Qwen)
-    """
-    
-    # Сначала проверяем системный словарь
-    glossary_translation = _translate_from_glossary(text)
-    if glossary_translation:
-        print(f"[GLOSSARY] {text} -> {glossary_translation}")
-        return glossary_translation
-
-    # Затем проверяем кэш переводов из уже переведённых файлов
-    cache_translation = _translate_from_cache(text)
-    if cache_translation:
-        print(f"[CACHE] {text} -> {cache_translation}")
-        return cache_translation
-
-    client = OpenAI(
-    # If the environment variable is not set, replace it with your Model Studio API key: api_key="sk-xxx"
-        api_key="apikey",
-        base_url="https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
-    )
-
-    messages = [
-        # {"role": "system", "content": SYSTEM_PROMPT},
-        {"role": "user", "content": f"Text: {text}"}
-        ]
-
-    completion = client.chat.completions.create(
-        model="qwen3.5-plus",  # You can replace this with another deep thinking models
-        messages=messages,
-        extra_body={"enable_thinking": False},
-        stream=False,
-        temperature=0.0,
-        enable_thinking=False
-    )
-
-    
-    translated = result.content.strip()
-    translated = translated.replace('‑', '-')
-    return translated
-
 def translate_text(text: str) -> str:
     """
     Перевод текста через LM Studio (локальный LLM) используя lmstudio-python SDK.
@@ -191,6 +144,9 @@ def translate_text(text: str) -> str:
     
     translated = result.content.strip()
     translated = translated.replace('‑', '-')
+    translated = translated.replace('—', '-')
+    translated = translated.replace('\n', '\\n')
+
     return translated
 
 
@@ -277,6 +233,10 @@ class RemotePoolTranslator:
         )
         
         translated = result.content.strip()
+        translated = translated.replace('‑', '-')
+        translated = translated.replace('—', '-')
+        translated = translated.replace('\n', '\\n')
+
         return translated
 
 
@@ -552,7 +512,7 @@ def translate_txt_file(input_file: str, output_file: str, words_mode=False, tran
                     translated = translate_text(original)
                 else:
                     translated = translator.translate_many([original])[0]
-                _translation_cache[text_to_translate] = translated
+                _translation_cache[original] = translated
                 translated_lines.append(translated + '\n')
                 log_msg = f"Line {i+1}: {original}\n->\n{translated}\n"
                 print(log_msg)
@@ -860,7 +820,7 @@ def build_translation_cache_from_paired_files(english_dir_path: str, russian_dir
     
     # Найдём все XML файлы в английской папке
     xml_files = list(english_dir.rglob('*.xml'))
-    print(f"[INFO] Сканирование {len(xml_files)} файлов для построения кэша переводов...")
+    print(f"[INFO] Сканирование xml {len(xml_files)} файлов для построения кэша переводов...")
     
     files_processed = 0
     problems_found = []
@@ -914,6 +874,113 @@ def build_translation_cache_from_paired_files(english_dir_path: str, russian_dir
             print(f"[WARNING] Ошибка обработки пары файлов {eng_file} / {rus_file}: {e}")
             continue
     
+    txt_files = list(english_dir.rglob('*.txt'))
+    print(f"[INFO] Сканирование txt {len(txt_files)} файлов для построения кэша переводов...")
+    for eng_file in txt_files:
+        # Вычислим соответствующий русский файл
+        rel_path = eng_file.relative_to(english_dir)
+        rus_file = russian_dir / rel_path
+        
+        # Пропускаем файлы в процессе перевода
+        if str(rus_file) in exclude_files:
+            continue
+        
+        if not rus_file.exists():
+            continue
+        
+        try:
+            # Парсим оба файла
+            try:
+                with open(eng_file, 'r', encoding='utf-8') as f:
+                    eng_lines = f.readlines()
+            except Exception as e:
+                print(f"Ошибка чтения файла {eng_file}: {e}")
+                return
+            
+            try:
+                with open(rus_file, 'r', encoding='utf-8') as f:
+                    rus_lines = f.readlines()
+            except Exception as e:
+                print(f"Ошибка чтения файла {rus_file}: {e}")
+                return
+
+            for i in range(0, len(eng_lines)):
+                if paused:
+                    break
+                eng_line = eng_lines[i]
+                rus_line = rus_lines[i]
+                
+                eng_original = eng_line.strip()
+                if not eng_original:
+                    continue
+
+                rus_original = rus_line.strip()
+                if not rus_original:
+                    continue
+
+                # Определяем, нужно ли переводить всю строку или только часть после ';'
+                if ';' in eng_original:
+                    # Формат: ключ ; текст
+                    eng_parts = eng_original.split(';', 1)
+                    eng_text = eng_parts[1].strip()
+                    
+                    rus_parts = rus_original.split(';', 1)
+                    rus_text = rus_parts[1].strip()
+                    
+                else:
+                    # Смотрим всю строку (как в Hints.txt)
+                    eng_text = eng_original
+                    rus_text = rus_original
+                    
+                
+                # Если русский текст равен английскому - это недопереведённый элемент
+                if rus_text == eng_text:
+                    problem_msg = f"[PROBLEM] Недопереводённый элемент в {rus_file}: {eng_text}"
+                    print(problem_msg)
+                    problems_found.append(problem_msg)
+                    # Не добавляем в кэш!
+                else:
+                    # Добавляем только правильно переведённые элементы
+                    cache[eng_text] = rus_text
+            
+            files_processed += 1
+            if files_processed % 10 == 0:
+                print(f"  Обработано {files_processed} файлов, кэш: {len(cache)} записей")
+
+            eng_tree = ET.parse(eng_file)
+            eng_root = eng_tree.getroot()
+            rus_tree = ET.parse(rus_file)
+            rus_root = rus_tree.getroot()
+            
+            # Извлекаем переводимые тексты из обоих файлов
+            eng_texts = extract_translatable_texts(eng_root)
+            rus_texts = extract_translatable_texts(rus_root)
+            
+            # Сопоставляем тексты по порядку
+            for (eng_text, tag_desc), (rus_text, _) in zip(eng_texts, rus_texts):
+                # Пропускаем технические строки
+                if _is_technical_string(eng_text):
+                    technical_strings_skipped += 1
+                    continue
+                
+                # Если русский текст равен английскому - это недопереведённый элемент
+                if rus_text == eng_text:
+                    problem_msg = f"[PROBLEM] Недопереводённый элемент в {rus_file}: <{tag_desc.split('/')[-1]}>{eng_text}</{tag_desc.split('/')[-1]}>"
+                    print(problem_msg)
+                    problems_found.append(problem_msg)
+                    # Не добавляем в кэш!
+                else:
+                    # Добавляем только правильно переведённые элементы
+                    cache[eng_text] = rus_text
+            
+            files_processed += 1
+            if files_processed % 10 == 0:
+                print(f"  Обработано {files_processed} файлов, кэш: {len(cache)} записей")
+        
+        except Exception as e:
+            print(f"[WARNING] Ошибка обработки пары файлов {eng_file} / {rus_file}: {e}")
+            continue
+
     # Выводим итоги проблем
     if problems_found:
         print(f"\n[ERROR] Найдено {len(problems_found)} недопереведённых элементов:")
