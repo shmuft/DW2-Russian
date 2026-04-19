@@ -80,7 +80,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Великое Направление — Умнее</Name>
+		<Name>Великое Направление - Умнее</Name>
 		<ImageFilename>Environment/Events/great direction - smarter</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -106,7 +106,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Великое Направление — Дружелюбнее</Name>
+		<Name>Великое Направление - Дружелюбнее</Name>
 		<ImageFilename>Environment/Events/great direction - friendlier</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -147,7 +147,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Великое Направление — Сильнее</Name>
+		<Name>Великое Направление - Сильнее</Name>
 		<ImageFilename>Environment/Events/great direction - stronger</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -178,7 +178,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Великое Направление — Богаче</Name>
+		<Name>Великое Направление - Богаче</Name>
 		<ImageFilename>Environment/Events/great direction - richer</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -214,7 +214,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Великое Направление — Быстрее</Name>
+		<Name>Великое Направление - Быстрее</Name>
 		<ImageFilename>Environment/Events/great direction - faster</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -240,7 +240,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Великое Направление — Скрытнее</Name>
+		<Name>Великое Направление - Скрытнее</Name>
 		<ImageFilename>Environment/Events/great direction - sneakier</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -256,7 +256,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Великое Направление — Умножить</Name>
+		<Name>Великое Направление - Умножить</Name>
 		<ImageFilename>Environment/Events/great direction - multiply</ImageFilename>
 	</ColonyEventDefinition>
 
@@ -332,7 +332,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Что делает эта кнопка — Бонус к исследованиям сенсоров</Name>
+		<Name>Что делает эта кнопка - Бонус к исследованиям сенсоров</Name>
 		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -349,7 +349,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Что делает эта кнопка — Бонус к исследованиям оружия</Name>
+		<Name>Что делает эта кнопка - Бонус к исследованиям оружия</Name>
 		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -366,7 +366,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Что делает эта кнопка — Бонус к исследованиям гипердвигателя</Name>
+		<Name>Что делает эта кнопка - Бонус к исследованиям гипердвигателя</Name>
 		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -383,7 +383,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Что делает эта кнопка? — Бонус к исследованиям реактора</Name>
+		<Name>Что делает эта кнопка? - Бонус к исследованиям реактора</Name>
 		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -400,7 +400,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Что делает эта кнопка — Бонус к исследованиям щитов</Name>
+		<Name>Что делает эта кнопка - Бонус к исследованиям щитов</Name>
 		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -417,7 +417,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Что делает эта кнопка — Бонус к исследованиям двигателя</Name>
+		<Name>Что делает эта кнопка - Бонус к исследованиям двигателя</Name>
 		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -434,7 +434,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Что делает эта кнопка — Бонус к исследованиям брони</Name>
+		<Name>Что делает эта кнопка - Бонус к исследованиям брони</Name>
 		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -451,7 +451,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Что делает эта кнопка? — Бонус к исследованиям строительства</Name>
+		<Name>Что делает эта кнопка? - Бонус к исследованиям строительства</Name>
 		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -468,7 +468,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Что делает эта кнопка? — Бонус к исследованиям высоких технологий</Name>
+		<Name>Что делает эта кнопка? - Бонус к исследованиям высоких технологий</Name>
 		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -485,7 +485,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Что делает эта кнопка — Бонус к промышленным исследованиям</Name>
+		<Name>Что делает эта кнопка - Бонус к промышленным исследованиям</Name>
 		<ImageFilename>Environment/Events/what does this button do</ImageFilename>
 	</ColonyEventDefinition>
 

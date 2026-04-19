@@ -7,7 +7,7 @@
 		<DurationMaximum>1</DurationMaximum>
 		<EmpireHappiness>10</EmpireHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Чудеса прошлого — Счастье</Name>
+		<Name>Чудеса прошлого - Счастье</Name>
 		<Description>Наши недавние раскопки на руинах повысили уровень счастья во всей нашей империи</Description>
 		<ImageFilename>Environment/Events/Zenox Wonders of the Past</ImageFilename>
 	</ColonyEventDefinition>
@@ -25,7 +25,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Чудеса прошлого — Исследование</Name>
+		<Name>Чудеса прошлого - Исследование</Name>
 		<Description>Наши недавние раскопки древних руин повысили эффективность исследований</Description>
 		<ImageFilename>Environment/Events/Zenox Wonders of the Past</ImageFilename>
 	</ColonyEventDefinition>
@@ -60,7 +60,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Поиск в архивах — Бонус к исследованиям</Name>
+		<Name>Поиск в архивах - Бонус к исследованиям</Name>
 		<Description>Наше исследование архивов выявило утраченные научные знания, ускоряющие наши исследовательские усилия.</Description>
 		<ImageFilename>Environment/Events/Zenox Search the Archives</ImageFilename>
 	</ColonyEventDefinition>
@@ -71,7 +71,7 @@
 		<DurationMaximum>2</DurationMaximum>
 		<ColonyHappiness>10</ColonyHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Поиск в архивах — Бонус к счастью</Name>
+		<Name>Поиск в архивах - Бонус к счастью</Name>
 		<Description>Наше исследование архивов выявило больше подробностей о древних Зеноксах, очаровав народ нашей империи.</Description>
 		<ImageFilename>Environment/Events/Zenox Search the Archives</ImageFilename>
 	</ColonyEventDefinition>

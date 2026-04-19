@@ -177,6 +177,6 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Порочные Дхают — наши рабы</Name>
+		<Name>Порочные Дхают - наши рабы</Name>
 	</ColonyEventDefinition>
 </ArrayOfColonyEventDefinition>

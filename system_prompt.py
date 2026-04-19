@@ -261,9 +261,9 @@ TERMINOLOGY RULES:
 23.68 "Bubble Shields"→"Пузырьковые щиты"
   - "Novacore Reactor"→'Реактор "Новакор"'
 23.69 "Attack Fleet"→"Ударный флот"
-  - "Defense Fleet"→"Оборонительный флот"
+  - "Defense Fleet"→"Флот обороны"
   - "Invasion Fleet"→"Флот вторжения"
-  - "Raiding Force"→"Рейдовое соединение" 
+  - "Raiding Force"→"Рейд звено" 
 23.70 "Warm-blooded aliens"→"Теплокровные пришельцы"
   - "Devoured"→"пожирать" or "поглощать" 
   - '"The Scouring"'→'"Искоренение"' 

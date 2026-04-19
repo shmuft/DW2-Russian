@@ -16,7 +16,7 @@
   <ArmyTemplate>
     <ArmyTemplateId>1</ArmyTemplateId>
     <Type>DefenseMinor</Type>
-    <Name>Стандартная армия обороны колонии</Name>
+    <Name>Станд. армия обороны</Name>
     <RaceId>-1</RaceId>
     <IsActive>true</IsActive>
     <IsBaseline>true</IsBaseline>
@@ -29,7 +29,7 @@
   <ArmyTemplate>
     <ArmyTemplateId>2</ArmyTemplateId>
     <Type>DefenseMajor</Type>
-    <Name>Армия обороны ключевых колоний</Name>
+    <Name>Оборона ключевых колоний</Name>
     <RaceId>-1</RaceId>
     <IsActive>true</IsActive>
     <IsBaseline>true</IsBaseline>
@@ -42,7 +42,7 @@
   <ArmyTemplate>
     <ArmyTemplateId>3</ArmyTemplateId>
     <Type>DefenseBorder</Type>
-    <Name>Армия обороны приграничных колоний</Name>
+    <Name>Оборона пригран. колоний</Name>
     <RaceId>-1</RaceId>
     <IsActive>true</IsActive>
     <IsBaseline>true</IsBaseline>

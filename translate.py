@@ -144,7 +144,7 @@ def translate_text(text: str) -> str:
     
     translated = result.content.strip()
     translated = translated.replace('‑', '-')
-    translated = translated.replace('—', '-')
+    translated = translated.replace('-', '-')
     translated = translated.replace('\n', '\\n')
 
     return translated
@@ -234,7 +234,7 @@ class RemotePoolTranslator:
         
         translated = result.content.strip()
         translated = translated.replace('‑', '-')
-        translated = translated.replace('—', '-')
+        translated = translated.replace('-', '-')
         translated = translated.replace('\n', '\\n')
 
         return translated

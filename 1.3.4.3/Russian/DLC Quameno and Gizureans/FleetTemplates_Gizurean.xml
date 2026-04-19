@@ -4,7 +4,7 @@
 		<FleetTemplateId>7</FleetTemplateId>
 		<RaceId>11</RaceId>
 		<Role>Attack</Role>
-		<Name>Ударный флот — Эскорт</Name>
+		<Name>Ударный флот - Эскорт</Name>
 		<DefaultEngagementRange>FuelRange40</DefaultEngagementRange>
 		<DefaultRetreatStrength>LessThan50</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength150</DefaultRetreatOverwhelmed>
@@ -92,7 +92,7 @@
 		<FleetTemplateId>9</FleetTemplateId>
 		<RaceId>11</RaceId>
 		<Role>Raid</Role>
-		<Name>Рейдовое соединение — Эскорт</Name>
+		<Name>Рейд звено - Эскорт</Name>
 		<DefaultEngagementRange>FuelRange40</DefaultEngagementRange>
 		<DefaultRetreatStrength>LessThan50</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength100</DefaultRetreatOverwhelmed>
@@ -118,7 +118,7 @@
 		<FleetTemplateId>10</FleetTemplateId>
 		<RaceId>11</RaceId>
 		<Role>Raid</Role>
-		<Name>Рейдовое соединение</Name>
+		<Name>Рейд звено</Name>
 		<DefaultEngagementRange>FuelRange40</DefaultEngagementRange>
 		<DefaultRetreatStrength>LessThan50</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength100</DefaultRetreatOverwhelmed>
@@ -156,7 +156,7 @@
 		<FleetTemplateId>11</FleetTemplateId>
 		<RaceId>11</RaceId>
 		<Role>Defend</Role>
-		<Name>Оборонительный флот — Эскорт</Name>
+		<Name>Флот обороны - Эскорт</Name>
 		<DefaultEngagementRange>SectorRange</DefaultEngagementRange>
 		<DefaultRetreatStrength>LessThan50</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength200</DefaultRetreatOverwhelmed>
@@ -182,7 +182,7 @@
 		<FleetTemplateId>12</FleetTemplateId>
 		<RaceId>11</RaceId>
 		<Role>Defend</Role>
-		<Name>Оборонительный флот</Name>
+		<Name>Флот обороны</Name>
 		<DefaultEngagementRange>SectorRange</DefaultEngagementRange>
 		<DefaultRetreatStrength>LessThan50</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength200</DefaultRetreatOverwhelmed>

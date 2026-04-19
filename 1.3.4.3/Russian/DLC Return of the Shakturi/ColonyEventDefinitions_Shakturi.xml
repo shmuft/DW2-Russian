@@ -81,7 +81,7 @@
 		</PlagueModifiersPerRaceAmount>
 		<PlagueCuringFactor>3</PlagueCuringFactor>
 		<Name>Экспериментальный вирус "Характор"</Name>
-		<Description>Вирус «Характор» — особенно смертоносная синтетическая чума, направленная преимущественно против Шактури. [HL]Эта вариация в 1,5 раза более смертельна для Шактури, чем для других видов.[/HL]</Description>
+		<Description>Вирус «Характор» - особенно смертоносная синтетическая чума, направленная преимущественно против Шактури. [HL]Эта вариация в 1,5 раза более смертельна для Шактури, чем для других видов.[/HL]</Description>
 		<ImageFilename>Environment/Events/Xaraktor Virus</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -103,7 +103,7 @@
 		</PlagueModifiersPerRaceAmount>
 		<PlagueCuringFactor>4</PlagueCuringFactor>
 		<Name>Улучшенный вирус «Характор»</Name>
-		<Description>Вирус «Характор» — особенно смертоносная искусственная чума. Он нацелен преимущественно на Шактури. [HL]Эта вариация в 2,25 раза более смертельна для Шактури, чем для других видов.[/HL]</Description>
+		<Description>Вирус «Характор» - особенно смертоносная искусственная чума. Он нацелен преимущественно на Шактури. [HL]Эта вариация в 2,25 раза более смертельна для Шактури, чем для других видов.[/HL]</Description>
 		<ImageFilename>Environment/Events/Xaraktor Virus</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -125,7 +125,7 @@
 		</PlagueModifiersPerRaceAmount>
 		<PlagueCuringFactor>5</PlagueCuringFactor>
 		<Name>Вирус "Характор"</Name>
-		<Description>Вирус «Характор» — особенно смертоносная синтетическая чума. Он нацелен преимущественно на Шактури. [HL]Эта вариация в 4 раза более смертельна для Шактури, чем для других видов.[/HL]</Description>
+		<Description>Вирус «Характор» - особенно смертоносная синтетическая чума. Он нацелен преимущественно на Шактури. [HL]Эта вариация в 4 раза более смертельна для Шактури, чем для других видов.[/HL]</Description>
 		<ImageFilename>Environment/Events/Xaraktor Virus</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>

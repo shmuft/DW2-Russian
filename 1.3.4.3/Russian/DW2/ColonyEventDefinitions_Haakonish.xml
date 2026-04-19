@@ -25,7 +25,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Экономический подъем — Доход</Name>
+		<Name>Экономический подъем - Доход</Name>
 		<Description>Наши хитроумные финансовые волшебники нашли способ временно стимулировать экономический рост с помощью творческого учета!
 
 Вся наша империя получит бонус к доходу в размере +10% на 5 лет.</Description>
@@ -45,8 +45,8 @@
 		</Bonuses>
 		<ValuesDecayGradually>true</ValuesDecayGradually>
 		<ValuesDecayUpwardsFromZero>true</ValuesDecayUpwardsFromZero>
-		<Name>Экономический подъем — Коррупция</Name>
-		<Description>Творческий учет наших якобы хитроумных финансовых волшебников привел к нежелательному побочному эффекту — росту коррупции во всей нашей империи! И эта коррупция, похоже, продолжает расти со временем!
+		<Name>Экономический подъем - Коррупция</Name>
+		<Description>Творческий учет наших якобы хитроумных финансовых волшебников привел к нежелательному побочному эффекту - росту коррупции во всей нашей империи! И эта коррупция, похоже, продолжает расти со временем!
 
 В течение 5 лет вся наша империя будет страдать от растущего уровня коррупции.</Description>
 		<ImageFilename>Environment/Events/Economic Boost</ImageFilename>
@@ -58,7 +58,7 @@
 		<DurationMinimum>5</DurationMinimum>
 		<DurationMaximum>5</DurationMaximum>
 		<ColonyHappiness>10</ColonyHappiness>
-		<Name>Межрасовые беспорядки — Счастье</Name>
+		<Name>Межрасовые беспорядки - Счастье</Name>
 		<ImageFilename>Environment/Events/Haakonish Xenophobia</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>

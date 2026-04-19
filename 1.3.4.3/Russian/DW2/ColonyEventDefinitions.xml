@@ -173,7 +173,7 @@
 		<RandomInitiationChance>0.007</RandomInitiationChance>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Лихорадка Хекретос</Name>
-		<Description>Лихорадка Хекретос — смертельная инфекция, поражающая внутренние органы и вызывающая быструю дегенерацию и смерть. Вспышка лихорадки Хекретос обычно длится около 1–2 лет.</Description>
+		<Description>Лихорадка Хекретос - смертельная инфекция, поражающая внутренние органы и вызывающая быструю дегенерацию и смерть. Вспышка лихорадки Хекретос обычно длится около 1–2 лет.</Description>
 		<ImageFilename>Environment/Events/HekretosFever</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -190,7 +190,7 @@
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<PlagueCuringFactor>1.1</PlagueCuringFactor>
 		<Name>Вирус Декара</Name>
-		<Description>Вирус Декара — очень болезненное заболевание, которое медленно парализует центральную нервную систему любого заражённого существа, в конечном итоге приводя к смерти. Вспышка вируса Декара обычно длится около 1–3 лет.</Description>
+		<Description>Вирус Декара - очень болезненное заболевание, которое медленно парализует центральную нервную систему любого заражённого существа, в конечном итоге приводя к смерти. Вспышка вируса Декара обычно длится около 1–3 лет.</Description>
 		<ImageFilename>Environment/Events/DekaraVirus</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -224,7 +224,7 @@
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<PlagueCuringFactor>1.4</PlagueCuringFactor>
 		<Name>Мертуровская чума</Name>
-		<Description>Мертуровская чума — самая смертоносная болезнь в известной галактике. Она стремительно пожирает мозг заражённого существа, постепенно вызывая безумие, обездвиживание и, в конечном итоге, смерть. Мертуровская чума представляет собой крайне стойкий вирус, передающийся воздушно-капельным путём, поэтому она обладает высокой заразностью. Вспышка Мертуровской чумы обычно длится от 1 до 2 лет.</Description>
+		<Description>Мертуровская чума - самая смертоносная болезнь в известной галактике. Она стремительно пожирает мозг заражённого существа, постепенно вызывая безумие, обездвиживание и, в конечном итоге, смерть. Мертуровская чума представляет собой крайне стойкий вирус, передающийся воздушно-капельным путём, поэтому она обладает высокой заразностью. Вспышка Мертуровской чумы обычно длится от 1 до 2 лет.</Description>
 		<ImageFilename>Environment/Events/MerturovPlague</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -245,7 +245,7 @@
 			<float>0</float>
 		</PlagueModifiersPerRaceAmount>
 		<PlagueCuringFactor>1.5</PlagueCuringFactor>
-		<Name>Псионический вирус Шактури — Вариант К7</Name>
+		<Name>Псионический вирус Шактури - Вариант К7</Name>
 		<Description>Псионический вирус Шактури делает видимость более уязвимой для псионических сил Шактури.
 
 Хотя он не особенно смертоносен, его летальность коррелирует с тем, насколько устойчив вид к психическим атакам.

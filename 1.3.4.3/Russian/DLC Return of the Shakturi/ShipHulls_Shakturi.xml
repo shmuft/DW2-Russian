@@ -70529,7 +70529,7 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый исследовательский корабль</Name>
+		<Name>Малый исслед-й корабль</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Ship_Exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>

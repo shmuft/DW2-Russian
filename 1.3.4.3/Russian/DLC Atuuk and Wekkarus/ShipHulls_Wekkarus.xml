@@ -3731,7 +3731,7 @@
 				<Amount>50</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый исследовательский корабль</Name>
+		<Name>Малый исслед-й корабль</Name>
 		<ImageFilename>Ships/Wekkarus/Images/Wekkarus_Exploration_Ship</ImageFilename>
 	</ShipHull>
 	<ShipHull>

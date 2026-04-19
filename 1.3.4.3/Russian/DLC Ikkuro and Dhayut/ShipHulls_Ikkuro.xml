@@ -4822,7 +4822,7 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый исследовательский корабль</Name>
+		<Name>Малый исслед-й корабль</Name>
 		<ImageFilename>Ships/Ikkuro/Images/Ikkuro Exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>

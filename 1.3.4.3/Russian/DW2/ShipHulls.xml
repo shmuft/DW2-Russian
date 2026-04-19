@@ -1896,7 +1896,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый исследовательский корабль</Name>
+    <Name>Малый исслед-й корабль</Name>
     <ImageFilename>Ships/Haakonish/Images/exploration</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -6092,7 +6092,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый исследовательский корабль</Name>
+    <Name>Малый исслед-й корабль</Name>
     <ImageFilename>Ships/Mortalen/Images/exploration</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -70156,7 +70156,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый исследовательский корабль</Name>
+    <Name>Малый исслед-й корабль</Name>
     <ImageFilename>Ships/Human/Images/human_exploration</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -99575,7 +99575,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый исследовательский корабль</Name>
+    <Name>Малый исслед-й корабль</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_Exploration</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -135202,7 +135202,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый исследовательский корабль</Name>
+    <Name>Малый исслед-й корабль</Name>
     <ImageFilename>Ships/Ackdarian/Images/Ackdarian_Exploration</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -357000,7 +357000,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый исследовательский корабль</Name>
+    <Name>Малый исслед-й корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Exploration</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -409205,7 +409205,7 @@
         <Amount>62</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый исследовательский корабль</Name>
+    <Name>Малый исслед-й корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_explorer</ImageFilename>
   </ShipHull>
   <ShipHull>

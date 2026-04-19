@@ -2978,7 +2978,7 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый исследовательский корабль</Name>
+		<Name>Малый исслед-й корабль</Name>
 		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
