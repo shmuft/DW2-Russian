@@ -886,8 +886,8 @@ Move ITEM to top of queue		;Переместить {0} в начало очер�
 AreaShieldRechargeAmount		;Макс. объем подзарядки
 AreaShieldRechargeEnergyUsedPerUnitCharged		;Треб-я энергия
 AreaShieldRechargeRange		;Дальность подзарядки
-ArmorBlastRating		;Защита от взрыва
-ArmorReactiveRating		;Рейтинг реактивности
+ArmorBlastRating		;Рейтинг
+ArmorReactiveRating		;Рейтинг реактивн.
 AssaultDefense		;Штурмовая оборона
 AssaultPodBoardingRange		;Дальность абордажа
 AssaultPodEnergyPerLaunch		;Расход энергии штурмкапсулы
@@ -957,7 +957,7 @@ ReactorFuelUnitsForFullCharge		;Топл. до полного бака
 ReactorFuelEnergyRatio		;Коэф. топл. в энер
 RecreationRating		;Показатель развлечений
 ResearchLabOutput		;Научная выработка
-ScannerEmpireMaskingPower		;Мощность маскир. империи
+ScannerEmpireMaskingPower		;Мощн. маскир. империи
 ScannerExplorationPower		;Сила разведки
 ScannerExplorationSurveyAmount		;Объём обследования
 ScannerExplorationSurveyMaximumLevel		;Макс. уровень обслед
@@ -992,8 +992,8 @@ TractorBeamRange		;Дальность притяг луча
 TroopCapacity		;Вместимость войск
 TroopRecruitmentRate		;Скор. произв. войск
 Troops Produced		;Подготовлено войск
-WeaponAreaEffectRange		;Дальн. взрыва по области
-WeaponAreaBlastWaveSpeed		;Скор. взрыва по области
+WeaponAreaEffectRange		;Дальн. взрыва по обл.
+WeaponAreaBlastWaveSpeed		;Скор. взрыва по обл.
 WeaponArmorBypass		;Проникновение брони
 WeaponBombardDamageInfrastructure		;Обстрел инфраст-ы
 WeaponBombardDamageInfrastructureRate		;Скор. разруш. инфраст
@@ -1003,7 +1003,7 @@ WeaponBombardDamagePopulation		;Урон населению
 WeaponBombardDamagePopulationRate		;Скор. сокр. насел. бобард.
 WeaponBombardDamageQuality		;Урон планете при бомб.
 WeaponBombardDamageQualityRate		;Качество планеты бомб.
-WeaponDamageAtRange		;Урон на макс. дальности
+WeaponDamageAtRange		;Урон на макс. дальн
 WeaponDamageAtRangeRate		;Скор. нанес. урона на макс. дальн.
 WeaponDamageFalloffRatio		;Коэф. падения урона
 WeaponDamageRate		;Скорость нанесения урона
@@ -1018,11 +1018,11 @@ WeaponInterceptDamageDirectFireRate		;Перехват: Коэф. урона п�
 WeaponInterceptDamageFighter		;Перехват: Истребитель
 WeaponInterceptDamageFighterRate		;Перехват: Cкор. урона истребителям
 WeaponInterceptDamageFullLengthBeam		;Перехват: Урон лучевым оружием
-WeaponInterceptDamageFullLengthBeamRate		;Перехват: Скор. урона лучевым ор.
+WeaponInterceptDamageFullLengthBeamRate		;Перехват: Скор. урона лучевым ор
 WeaponInterceptDamageSeeking		;Перехват: Cамонаводки
-WeaponInterceptDamageSeekingRate		;Перехват: Скор. урона по самонав.
+WeaponInterceptDamageSeekingRate		;Перехват: Скор. урона по самонав
 WeaponInterceptEnergyPerShot		;Перехват: Энер.выстр
-WeaponInterceptFireRate		;Перехват: Скоростр.
+WeaponInterceptFireRate		;Перехват: Скоростр
 WeaponInterceptRange		;Перехват: Дальность
 WeaponIonEngineDamage		;Ион. повр. двигателей
 WeaponIonEngineDamageRate		;Скор. ион. поврежд. двиг
@@ -1048,7 +1048,7 @@ PsychicEnergyPerShot		;Пси-энергия на выстрел
 PsychicDefense		;Пси-защита
 PsychicStrength		;Пси-сила
 PsychicDamageRate		;Скор. психич. урона
-PsychicDamageAtRange		;Пси-урон на макс. дальности
+PsychicDamageAtRange		;Пси-урон на макс. дальн
 PsychicDamageAtRangeRate		;Скор. псих. урона на макс. дальности
 TerraformingDamageRepairRateComponent		;Планетарный ремонт
 TerraformingQualityImprovementRateComponent		;Улучшение качества планеты
@@ -1078,12 +1078,12 @@ BonusType ConstructionSpeedCivilian		;Скорость строит. гражд.
 BonusType ConstructionSpeedMilitary		;Скорость строит. воен. кораблей
 BonusType ConstructionSpeedColonyShip		;Скорость строит. колон. кораблей
 BonusType ConstructionSpeedFacility		;Скорость строит. сооружений
-BonusType ColonyCorruptionReduction		;Снижение коррупции в колониях
+BonusType ColonyCorruptionReduction		;Снижение коррупции колоний
 BonusType ColonyHappiness		;Счастье колонии
 BonusType ColonyIncome		;Доход колонии
 BonusType Concealment		;Маскировка
 BonusType CounterEspionage		;Контршпионаж
-BonusType Countermeasures		;Средства противодействия
+BonusType Countermeasures		;Контрмеры
 BonusType DamageControl		;Борьба за живучесть
 BonusType Diplomacy		;Дипломатия
 BonusType Espionage		;Шпионаж
@@ -1127,9 +1127,9 @@ BonusType ResearchGenetic		;Генетические исследования
 BonusType ResearchBioWarfare		;Исследования биооружия
 
 BonusType Sabotage		;Диверсия
-BonusType ShieldRechargeRate		;Скорость подзарядки щитов
-BonusType ShipEnergyUsage		;Экономия энергии корабля
-BonusType ShipManeuvering		;Маневрирование корабля
+BonusType ShieldRechargeRate		;Скор. подзар. щитов
+BonusType ShipEnergyUsage		;Экон. энергии корабля
+BonusType ShipManeuvering		;Маневрир. корабля
 BonusType Targeting		;Наведение
 BonusType TourismIncome		;Доходы от туризма
 BonusType TradeIncome		;Доход от торговли
@@ -1137,14 +1137,14 @@ BonusType TroopExperienceGain		;Получение опыта войсками
 BonusType TroopGroundAttack		;Штурмовая мощь
 BonusType TroopGroundDefense		;Сила наземной обороны
 BonusType TroopMaintenance		;Экономия содерж. войск
-BonusType TroopRecoveryRate		;Скорость восстановл. войск
-BonusType TroopRecruitment		;Скорость набора войск
+BonusType TroopRecoveryRate		;Скор. восстановл. войск
+BonusType TroopRecruitment		;Скор. набора войск
 BonusType WarWearinessReduction		;Сниж. усталости от войны
-BonusType WeaponsDamage		;Увеличение урона оружия
-BonusType BombardmentDamage		;Увеличение урона от бомбардировки
-BonusType WeaponsRange		;Увеличение дальности оружия
-BonusType BoardingAssault		;Штурмовая мощь абордажа
-BonusType BoardingDefense		;Прочность аборд. обороны
+BonusType WeaponsDamage		;Увел. урона оружия
+BonusType BombardmentDamage		;Увел. урона бомбард.
+BonusType WeaponsRange		;Увел. дальн. оружия
+BonusType BoardingAssault		;Штурм. мощь абордажа
+BonusType BoardingDefense		;Прочн. аборд. обороны
 BonusType CharacterAppearanceAmbassador		;Шанс появления послов
 BonusType CharacterAppearanceColonyGovernor		;Шанс появления губернаторов
 BonusType CharacterAppearanceFleetAdmiral		;Шанс появления адмиралов
@@ -1203,13 +1203,13 @@ ComponentCategory Colonization		;Колонизация
 ComponentCategory CommandCenter		;Командный центр
 ComponentCategory CommerceCenter		;Торговый центр
 ComponentCategory Construction		;Строительство
-ComponentCategory Countermeasures		;Средства противодействия
-ComponentCategory CountermeasuresFleet		;Флотские средства противодействия
+ComponentCategory Countermeasures		;Контрмеры
+ComponentCategory CountermeasuresFleet		;Флотские контрмеры
 ComponentCategory CrewQuarters		;Каюты экипажа
 ComponentCategory DamageControl		;Борьба за живучесть
 ComponentCategory DockingBay		;Стыковочный отсек
 ComponentCategory EnergyCollector		;Коллектор энергии
-ComponentCategory EnergyToFuel		;Преобразование энергии в топливо
+ComponentCategory EnergyToFuel		;Преобр. энер. в топл.
 ComponentCategory Engine		;Двиг.1
 ComponentCategory EngineVectoring		;Векторный двигатель
 ComponentCategory Extractor		;Экстрактор
@@ -1219,7 +1219,7 @@ ComponentCategory FuelStorage		;Хранилище топлива
 ComponentCategory HyperBlock		;Гиперблок
 ComponentCategory HyperDeny		;Гипер-запретитель
 ComponentCategory HyperDrive		;Гипердвигатель
-ComponentCategory IonDefense		;Ионная оборона
+ComponentCategory IonDefense		;Ионная защита
 ComponentCategory MedicalCenter		;Медицинский центр
 ComponentCategory PassengerCompartment		;Пассажирский отсек
 ComponentCategory Reactor		;Реактор
@@ -1241,10 +1241,10 @@ ComponentCategory TargetingComputer		;Компьютер наведения
 ComponentCategory TargetingComputerFleet		;Компьютер флотского наведения
 ComponentCategory TractorBeam		;Притягивающий луч
 ComponentCategory TroopCompartment		;Десантный отсек
-ComponentCategory WeaponArea		;Оружие массового поражения
-ComponentCategory WeaponBombard		;Бомбардировочное оружие
-ComponentCategory WeaponCloseIn		;Оружие ближнего боя 
-ComponentCategory WeaponIntercept		;Перехватывающее оружие
+ComponentCategory WeaponArea		;Оружие по площади
+ComponentCategory WeaponBombard		;Бомбард. оружие
+ComponentCategory WeaponCloseIn		;Оружие ближн. боя 
+ComponentCategory WeaponIntercept		;Оружие перехвата
 ComponentCategory WeaponIon		;Ионное оружие
 ComponentCategory WeaponStandoff		;Оружие дист. боя
 
@@ -1275,7 +1275,7 @@ Can only build X per galaxy		;Можно построить только {0} в 
 Can only build at PLANETTYPES		;Можно построить только в колониях {0}
 Can only build with GOVERNMENTS		;Можно построить только с правительствами типа {0}
 
-ColonyCorruptionReductionProjectionRange		;Дальность снижения коррупции
+ColonyCorruptionReductionProjectionRange		;Дальн. сниж. коррупции
 ColonyIncomeDrainRatio		;Отток доходов колонии
 ColonyInfluenceLevelToBuild		;Необходимое влияние для постройки
 
@@ -1286,18 +1286,18 @@ ColonyInfluenceCap		;Лимит влияния
 ColonyInfluenceIncreaseRateModifier		;Снижение скорости влияния
 ColonyInfluenceDefendingTroopStrength		;Влияние на силу обороняющихся войск
 
-FighterBuildRate		;Скорость постройки истребителей
+FighterBuildRate		;Скор. постр. истреб
 FighterCapacity		;Ёмкость истребителей
-FighterRepairRate		;Скорость ремонта истребителей
+FighterRepairRate		;Скор. рем. истреб
 PlanetaryShieldMaximumDamageAbsorbed		;Поглощение урона щитами
 PlanetaryShieldPenetrationChance		;Шанс пробития щита
 
-BombardmentResistance		;Сопротивление бомбардировке
-GroundCombatResistance		;Сопротивление наземным атакам
+BombardmentResistance		;Сопрот. бомбард.
+GroundCombatResistance		;Сопрот. назем. атакам
 
-TerraformingDamageRepairRate		;Скорость ремонта повреждений
-TerraformingQualityImprovementRate		;Скорость улучшения качества
-TerraformingQualityMaximum		;Величина улучшения качества
+TerraformingDamageRepairRate		;Скор. рем. повреждений
+TerraformingQualityImprovementRate		;Скор. улучш. качества
+TerraformingQualityMaximum		;Велич. улучш. качества
 EmpireBonusSharingRate		;Бонус к обмену в империи
 QualityBoost		;Модификатор качества
 SlaveryIncomeFactor		;Доход от рабства
@@ -1305,16 +1305,16 @@ SlaveryUnhappinessFactor		;Несчастье от рабства
 WeaponCount		;Количество оружия
 Allows Troop Recruitment		;Позволяет набирать войска
 Allows Cloning Best Infantry Units		;Позволяет клонировать лучших пехотных юнитов
-Empire Bonuses		;Бонусов империи
-Colony Bonuses		;Бонусов колонии
-Location Bonuses		;Бонусов локации
+Empire Bonuses		;Бонус империи
+Colony Bonuses		;Бонус колонии
+Location Bonuses		;Бонус локации
 Shared Bonuses from other empires		;Общие бонусы от других империй (договоры о свободной торговле и исследованиях)
 LeaderExtraPositiveTraitCount		;Дополнительная положительная черта лидера
 ScientistExtraPositiveTraitCount		;Дополнительная положительная черта учёного
 PreventPeriodicLeadershipChanges		;Предотвращает периодические смены руководства
 
 ComponentBayType Defense		;Оборона
-ComponentBayType Engine		;Двиг.2
+ComponentBayType Engine		;Двигатель
 ComponentBayType General		;Общий
 ComponentBayType Hangar		;Ангар
 ComponentBayType Sensor		;Сенсор
@@ -1329,18 +1329,18 @@ ComponentBayType Abbreviation Weapon		;Орж
 
 ComponentBayCount STANDARD/LARGE		;{0} Стандартный, {1} Большой
 Level		;Уровень
-Maximum Size		;Максимальный размер
+Maximum Size		;Макс. размер
 Cost		;Стоимость
 Type		;Тип
 Defense		;Оборона
 Attack		;Атака
 Intercept		;Перехват
 Sabotage		;Диверсия
-EvasionInfantry		;Уклон. пехоты
-EvasionArmor		;Уклон. бронетехники
-EvasionTitan		;Уклон. титанов
-EvasionPlanetaryDefense		;Уклон. планетарной обороны
-EvasionSpecialForces		;Уклон. сил спец. операций
+EvasionInfantry		;Уклон. от пехоты
+EvasionArmor		;Уклон. от брони
+EvasionTitan		;Уклон. от титанов
+EvasionPlanetaryDefense		;Укл от планет. обор
+EvasionSpecialForces		;Укл от сил спец.опер
 Recruitment Cost		;Стоимость найма
 
 All Troops		;Все войска
@@ -1357,7 +1357,7 @@ TroopImprovement PsychicStrengthMinimum		;Минимальная сила пси
 TroopImprovement PsychicDefenseMinimum		;Минимальная сила пси-защиты: {0}
 
 ColonizationMinimumLevel		;{0} Порог качества колонизации
-ColonizationSuitabilityModifier		;{0} Модификатор пригодности колонизации
+ColonizationSuitabilityModifier		;{0} Модифик. пригодн. колонизации
 
 Click to queue research		;Нажмите, чтобы поставить исследование в очередь
 Completed		;Завершено
@@ -1472,11 +1472,11 @@ Name		;Имя
 Category		;Категория
 Ascending		;Возр.
 Descending		;Убыв.
-Bay Type		;Тип ангарного отсека
+Bay Type		;Тип отсека
 Empty		;Пусто
 VersusAbbreviation		;vs
-Bay Type, Name		;Тип ангара, Название
-Bay Type, Category		;Тип ангара, Категория
+Bay Type, Name		;Тип отсека, Название
+Bay Type, Category		;Тип отсека, Категория
 Bay Type, Category, Family, Size		;Тип отсека, Категория, Семейство, Размер
 
 Crew		;Экипаж
@@ -1485,7 +1485,7 @@ Lowest Tech Level		;Наинизший уровень технологий
 damaged		;поврежд.
 Peak Weapons Energy Usage		;Пиковое энергопотребление оружия
 Maximum Engine Energy Usage		;Максимальное энергопотребление двигателей
-Standard		;Стандарт
+Standard		;Обычный
 Ion		;Ионный
 Point Defense		;Точ. обор.
 Bombard		;Бомбард.
@@ -4315,8 +4315,8 @@ Research Time Suffix		;иссл. до {0} проектов одновр.
 No Projects Queued		;Нет проектов в очереди
 X days		;{0} дней
 X years		;{0} лет
-Applies Empire-wide		;Применяется ко всей империи
-Applies only to Location		;Применяется только к Локации
+Applies Empire-wide		;Примен. ко всей империи
+Applies only to Location		;Примен. только к Локации
 
 No buildable Colony Ship designs		;Нет доступных для постройки проектов колонизационных кораблей
 
