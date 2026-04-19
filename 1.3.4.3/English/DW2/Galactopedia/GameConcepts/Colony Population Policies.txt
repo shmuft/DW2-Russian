@@ -18,7 +18,7 @@ Do not allow migration of this race to the colony. This will prevent passenger s
 Actively migrate this race away from the colony to other colonies that will accept them. Passenger ships will pick up this race from the colony.
 
 [H3]Enslave[/H3]
-Enslaves this race, forcing them into hard labor. When a race is enslaved at a colony it’s growth rate will be zero.
+Enslaves this race, forcing them into hard labor. When a race is enslaved at a colony itâ€™s growth rate will be zero.
 
 For each race that you enslave, the corresponding empires of those races will take offense at your actions. The amount of offense is directly related to the population amount that you enslave.
 
@@ -27,10 +27,10 @@ Enslavement also provides a bonus to the colony's economy. The amount of the bon
 Note that when a race is enslaved it will never be used to establish a new colony, even if it is the most suitable race in your empire for the planet.
 
 [H3]Exterminate[/H3]
-Steadily eliminates this race at the colony, reducing their population until it reaches zero. When a race is being exterminated at a colony it’s growth rate will be zero.
+Steadily eliminates this race at the colony, reducing their population until it reaches zero. When a race is being exterminated at a colony itâ€™s growth rate will be zero.
 
 For each race that you are exterminating, the corresponding empires of those races will take deep offense at your actions. The amount of offense is directly related to the population amount that you exterminate.
 
-Exterminating races will also negatively impact your empire's reputation – all other empire’s will be offended by your harsh actions.
+Exterminating races will also negatively impact your empire's reputation â€“ all other empireâ€™s will be offended by your harsh actions.
 
 Note that when a race is being exterminated it will never be used to establish a new colony, even if it is the most suitable race in your empire for the planet.

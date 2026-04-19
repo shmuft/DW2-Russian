@@ -1,6 +1,6 @@
 Fighters and bombers are small one-person spacecraft that are carried aboard a larger military ship. They are fast and nimble and can attack a target while the carrier maintains a safe distance.
 
-Fighters do not cost any money or resources to build or maintain. They also do not have hyperdrives – they can only travel at sub-light speeds. Thus they must be carried onboard another ship or base.
+Fighters do not cost any money or resources to build or maintain. They also do not have hyperdrives â€“ they can only travel at sub-light speeds. Thus they must be carried onboard another ship or base.
 
 There are two types of fighters:
 [ULI]interceptors which mostly attack other star fighters[/ULI]
@@ -13,7 +13,7 @@ To build fighters you must have a ship or base with Fighter Bay components. Sele
 
 Fighter Bays are where fighters are manufactured, transported and repaired. Fighter Bays are researchable components that can be built into any military ship or base. Each Fighter Bay carries a specific number of fighters, typically anywhere from 4 to 24.
 
-Fighters cannot be transferred between carriers – they are permanently assigned to the carrier where they were built. If that carrier is destroyed, its fighters are also destroyed.
+Fighters cannot be transferred between carriers â€“ they are permanently assigned to the carrier where they were built. If that carrier is destroyed, its fighters are also destroyed.
 
 [H3]Planetary Fighter Bases[/H3]
 You can also build fighter base facilities at your colonies. This allows you to host a large number of fighters directly at the colony, without any base or carrier.

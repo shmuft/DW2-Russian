@@ -232,9 +232,17 @@ def main():
         # Special handling for Galactopedia: translate filenames
         if 'Galactopedia' in str(rel_path):
             # Translate the filename (stem only)
-            original_stem = rel_path.stem
+            env = os.environ.copy()
+            if cache_file:
+                print(f"transl cache {cache_file}")
+                env['DW2_TRANSLATION_CACHE'] = cache_file
+            original_stem = rel_path.stem + rel_path.suffix
+            print(f"original_stem={original_stem}")
+            print(f"rel_path={rel_path}")
+            print("1")
             translated_stem = translate_text(original_stem)
-            new_filename = translated_stem + rel_path.suffix
+            print("2")
+            new_filename = translated_stem
             rel_path = rel_path.with_name(new_filename)
         
         output_file = russian_dir / rel_path

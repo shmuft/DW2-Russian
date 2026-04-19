@@ -2,9 +2,9 @@ Characters are the people in the galaxy that rule empires, conduct diplomacy, co
 
 Each character has skills and traits that determine their strengths and weaknesses. Through their experiences and actions characters can acquire new skills and traits (both positive and negative), and also increase the level of their skills.
 
-Some characters initially have their traits and skill levels hidden. These will not be revealed until they are actually given a mission or other responsibility that uses those skills. These characters are considered ìUntestedî.
+Some characters initially have their traits and skill levels hidden. These will not be revealed until they are actually given a mission or other responsibility that uses those skills. These characters are considered ‚ÄúUntested‚Äù.
 
-Character skills provide bonuses specific to the characterís role. Some examples:
+Character skills provide bonuses specific to the character‚Äôs role. Some examples:
 [ULI]Your empire Leader provides bonuses to your entire empire[/ULI]
 [ULI]Ambassadors provide bonuses to diplomatic relations with the foreign empire where they serve as ambassador[/ULI]
 [ULI]Fleet Admirals provide bonuses to all the ships in their fleet[/ULI]
@@ -51,7 +51,7 @@ These characters have a variety of special missions. By default, they are assign
 [H3]Character Survival[/H3]
 Characters can retire or perish due to a variety of causes. Keep your most valuable characters safe by making sure that they and the locations where they are assigned are protected from harm.
 
-Characters may also be dismissed by using the Dismiss button on the Character Screen, but it may be some time before another character of the same type is generated. In most cases, itís worth trying to develop the characters rather than dismissing them and hoping a more exceptional character comes along.
+Characters may also be dismissed by using the Dismiss button on the Character Screen, but it may be some time before another character of the same type is generated. In most cases, it‚Äôs worth trying to develop the characters rather than dismissing them and hoping a more exceptional character comes along.
 
 [H3]New Character Generation[/H3]
 The player's actions influence what kind of new characters are most likely to be generated. Embarking on a major expansion of military ships is likely to generate a new Admiral. Similarly, convincing alien factions to sign new treaties may generate an Ambassador and a critical Research breakthrough may reveal a new Scientist.

@@ -10,12 +10,12 @@ In practice many other factors also come in to play:
 [ULI]the speed and agility of your opponent may make it impossible to maneuver into the ideal firing position[/ULI]
 [ULI]your opponent may have heavy shielding and armor that requires an attack at point blank range[/ULI]
 
-For example this could mean that heavily armed ships may be better to close to point-blank range and shower their opponents with withering broadsides of fire, even if this temporarily exposes them to their opponent’s weapons.
+For example this could mean that heavily armed ships may be better to close to point-blank range and shower their opponents with withering broadsides of fire, even if this temporarily exposes them to their opponentâ€™s weapons.
 
 [H3]Initiating an attack[/H3]
 To initiate an attack on an enemy ship, first select one of your military ships and then right-click the enemy ship. Holding down the right mouse button will display a popup menu with any other mission types valid for this attacker and target.
 
-You have little direct control over your ships when they are engaged in combat – they simply follow the battle tactics you have selected for the ships design. In the heat of battle it is up to the ship’s captain to apply these tactics as best they can.
+You have little direct control over your ships when they are engaged in combat â€“ they simply follow the battle tactics you have selected for the ships design. In the heat of battle it is up to the shipâ€™s captain to apply these tactics as best they can.
 
 Various types of weapons and other components can be fitted to your ships to improve their performance in combat. These can include the following:
 

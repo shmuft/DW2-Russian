@@ -319,8 +319,9 @@ def check_translated_file(file_path: str) -> int:
                 for child in elem.iter(tag):
                     check_text(child, f"{elem_tag}/{tag}")
         elif elem_tag == 'Race':
-            for child in elem.iter('Description'):
-                check_text(child, f"{elem_tag}/Description")
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    check_text(child, f"{elem_tag}/{tag}")
             for string_elem in elem.findall('.//FeatureExplanations/string'):
                 check_text(string_elem, f"{elem_tag}/FeatureExplanations/string")
         elif elem_tag == 'ResearchProjectDefinition':

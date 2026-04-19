@@ -12,7 +12,7 @@ The current movement range of the selected ship is shown by a dashed yellow rang
 
 The current jump range range of the selected ship is shown by a dashed orange range circle that can be seen when zoomed out to the galaxy level. This helps you to visually gauge how far a ship can travel in a single jump before it needs to exit hyperspace and initiate a new jump on the path to its destination.
 
-When a ship runs out of fuel it will automatically switch to using it’s emergency fuel supply. When using the emergency fuel supply the ship will move at one third of normal speed. The emergency fuel supply will last indefinitely, but you should refuel the ship to regain normal movement speeds.
+When a ship runs out of fuel it will automatically switch to using itâ€™s emergency fuel supply. When using the emergency fuel supply the ship will move at one third of normal speed. The emergency fuel supply will last indefinitely, but you should refuel the ship to regain normal movement speeds.
 
 [H3]Energy Collectors[/H3]
 Bases can typically supply most of their energy needs by using energy collector components. Energy collectors generate energy from the radiation of a nearby star, reducing the need for fuel.

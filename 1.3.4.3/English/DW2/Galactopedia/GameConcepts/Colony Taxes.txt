@@ -24,7 +24,7 @@ You can opt to have your colony tax rates controlled automatically (the default 
 You can also decide whether to automate control of taxes on a per-colony basis by using the Colony Automation settings. To do this, select one of your colonies and click the 'Set Colony Automation' button under the Selection Panel. Then click the 'Automate Tax Rates' button to toggle how tax rates are handled for that colony.
 
 [H3]Taxes and Colony Growth[/H3]
-When a colony is first established the tax rate is usually very low. This makes the colony’s population happier and encourages faster growth.
+When a colony is first established the tax rate is usually very low. This makes the colonyâ€™s population happier and encourages faster growth.
 
 As a colony grows in size and development, the tax rate can be increased and you can start earning decent tax income from the colony.
 

@@ -13,7 +13,7 @@ The population itself will also add a small amount of strength to defend the col
 When a ground battle is in progress each side may have bonuses or penalties to their defend or attack strength. These bonuses or penalties relate to the composition of their forces, the type of planet and other factors.
 
 [H3]Strategy[/H3]
-For an invasion to succeed, the invading troops should significantly outnumber the defenders. Prolonged battles can weaken invading troops ñ even if they eventually win the invasion it will take some time to recuperate their readiness. Quickly overwhelming the defenders with irresistible force is the best strategy.
+For an invasion to succeed, the invading troops should significantly outnumber the defenders. Prolonged battles can weaken invading troops ‚Äì even if they eventually win the invasion it will take some time to recuperate their readiness. Quickly overwhelming the defenders with irresistible force is the best strategy.
 
 Some troop types are better attackers than others. Armor and Titan troop units have the strongest attack strength. Landing a combined group of various troop types brings additional bonuses.
 
@@ -26,11 +26,11 @@ If the troops of the defending empire have been wiped out then the invading empi
 
 If the troops of the invader are wiped out then the defending empire keeps its colony, though some of its troops may have been lost, some of its population killed in the fighting, and possibly the planet itself may even have suffered some damage.
 
-In either case ñ whether the invader or defender wins ñ the development level of the colony will be temporarily set back by the disruption.
+In either case ‚Äì whether the invader or defender wins ‚Äì the development level of the colony will be temporarily set back by the disruption.
 
-Victorious troops (of either invader or defender) also receive a promotion ñ their strength will increase, making them more effective in future battles.
+Victorious troops (of either invader or defender) also receive a promotion ‚Äì their strength will increase, making them more effective in future battles.
 
 [H3]Monitoring a ground invasion[/H3]
-You can monitor the progress of a ground invasion by selecting the colony. The colony information will be displayed in the Selection Panel at the bottom-left of the main view. Defending troops will appear here in the ìTroopsî section. Invading troops will also appear here ñ they will have a red background.
+You can monitor the progress of a ground invasion by selecting the colony. The colony information will be displayed in the Selection Panel at the bottom-left of the main view. Defending troops will appear here in the ‚ÄúTroops‚Äù section. Invading troops will also appear here ‚Äì they will have a red background.
 
 You can also display a detailed animated view of ground battles by opening the Ground Report screen. To open this screen first select the colony in the Selection Panel, then click the Troops area in the Selection Panel.

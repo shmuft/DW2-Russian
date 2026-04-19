@@ -21,7 +21,7 @@ Colonies and bases will automatically explore their location, progressively reve
 [H3]System Visibility[/H3]
 Before your empire first visits a star system, it is unexplored. You cannot see any planets or moons in the system.
 
-When you visit the system for the first time it then becomes explored – you can then have knowledge of the planets and moons in the system, and thus can always see them along with their basic information.
+When you visit the system for the first time it then becomes explored â€“ you can then have knowledge of the planets and moons in the system, and thus can always see them along with their basic information.
 
 When your empire has a ship, base or colony present in a system, then more items in the system are visible to you. This can include the ships and bases of other empires, as well as space creatures.
 

@@ -1,12 +1,12 @@
 Migration generally involves people migrating from large colonies to new, smaller colonies. Migration helps quickly boost the population of new colonies, enabling them to become productive faster.
 
-Migrants are transported to their destination by privately-owned passenger ships. Migration occurs entirely in the private sector of your empire – you have no direct control over the movement of citizens between your colonies.
+Migrants are transported to their destination by privately-owned passenger ships. Migration occurs entirely in the private sector of your empire â€“ you have no direct control over the movement of citizens between your colonies.
 
 [H3]Migration Factors[/H3]
 Factors that attract new migrants to a colony include:
 [ULI]low tax rates[/ULI]
 [ULI]general desirability: high planet quality, high development levels[/ULI]
-[ULI]how close the new colony is to the migrant’s current home colony[/ULI]
+[ULI]how close the new colony is to the migrantâ€™s current home colony[/ULI]
 
 Factors that promote emigration away from a colony include:
 [ULI]happiness level at colony: unhappiness promotes emigration[/ULI]
@@ -14,7 +14,7 @@ Factors that promote emigration away from a colony include:
 [ULI]nearby colonies desirable for emigration[/ULI]
 
 [H3]Inter-empire Migration[/H3]
-People are more likely to migrate within their own empire, simply because it's easier - there’s less bureacracy to overcome.
+People are more likely to migrate within their own empire, simply because it's easier - thereâ€™s less bureacracy to overcome.
 
 However if you have a Migration treaty with another empire then inter-empire migration can also occur.
 

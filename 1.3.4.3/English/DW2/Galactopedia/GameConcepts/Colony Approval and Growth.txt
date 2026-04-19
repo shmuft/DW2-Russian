@@ -13,16 +13,16 @@ There may be special circumstances which lower the approval rating for particula
 [ULI]Recently Conquered planets are unhappy[/ULI]
 [ULI]Colonies with poorly assimilated populations are less happy[/ULI]
 [ULI]Recent pirate raids against a colony increase unhappiness[/ULI]
-[ULI]War with an empire of the same race as a colony – if you are at war with an empire, and some of your colonies have the same dominant race as that empire, then this will lower your approval rating at those colonies[/ULI]
+[ULI]War with an empire of the same race as a colony â€“ if you are at war with an empire, and some of your colonies have the same dominant race as that empire, then this will lower your approval rating at those colonies[/ULI]
 [ULI]Low planet quality - if the planet or moon has low quality (either naturally or due to enemy bombardment) then the citizens of the colony will be unhappy[/ULI]
 
 Other factors have an impact on all the colonies in your empire:
-[ULI]War weariness - if you are involved in wars against other empires – especially for an extended period – then your approval rating will drop with all citizens throughout your empire[/ULI]
+[ULI]War weariness - if you are involved in wars against other empires â€“ especially for an extended period â€“ then your approval rating will drop with all citizens throughout your empire[/ULI]
 [ULI]Poor reputation - some alien races can become quite concerned if your empire has a poor reputation, lowering your approval rating[/ULI]
 
 Strive to maintain a high approval rating by ensuring your colonies have high development levels. This is achieved by securing the trade routes to and from your colonies so that luxury resources can safely reach them.
 
-Also, be careful not to raise taxes too high – it’s usually a good idea to allow colony taxes to be automatically controlled (default setting in Game Options).
+Also, be careful not to raise taxes too high â€“ itâ€™s usually a good idea to allow colony taxes to be automatically controlled (default setting in Game Options).
 
 [H3]Maximum Population[/H3]
 Colony populations eventually reach a natural limit, at which point no further population growth will occur. This limit is determined by two factors:
@@ -84,7 +84,7 @@ When a colony has a population of 5 billion, it's population development reaches
 [H3]Development from Luxury Resources[/H3]
 Luxury resources are the high-end goods that your population consumes. They come in various forms: food, beverages, textiles, exotic minerals and timbers, and many others. They directly increase development, because each of these resources has a Colony Development bonus of a specific amount.
 
-Luxury resources are consumed by colonies. Having access to many luxury resources raises a colony’s luxury development level, producing more income. Each luxury resource raises the development level by a specific amount (typically 3-6%, but each resource differs), thus when a colony has consistent access to many luxury resources its luxury development level will slowly rise.
+Luxury resources are consumed by colonies. Having access to many luxury resources raises a colonyâ€™s luxury development level, producing more income. Each luxury resource raises the development level by a specific amount (typically 3-6%, but each resource differs), thus when a colony has consistent access to many luxury resources its luxury development level will slowly rise.
 
 So a key consideration when growing your colonies is to maintain and expand a steady supply of luxury resources.
 
