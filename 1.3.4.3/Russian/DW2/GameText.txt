@@ -6936,11 +6936,11 @@ EmpireMessageCategory Full Combat		;Сообщения о боях
 EmpireMessageCategory Full AdvisorSuggestions		;Сообщения советников
 EmpireMessageCategory Full GalaxyNews		;Сообщения галактических новостей
 
-EmpireMessageCategory Undefined		;Все сообщения
+EmpireMessageCategory Undefined		;Все сообщ
 EmpireMessageCategory General		;Общие
 EmpireMessageCategory Combat		;Боевые
 EmpireMessageCategory AdvisorSuggestions		;Советники
-EmpireMessageCategory GalaxyNews		;Новости Галактики
+EmpireMessageCategory GalaxyNews		;Галактофон
 X of Y filters		;{0} из {1} фильтров
 Show Log		;Показать журнал
 Hide Log		;Скрыть журнал

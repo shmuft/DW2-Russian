@@ -419,7 +419,7 @@
 				<VictoryObjectiveAmount>0.14</VictoryObjectiveAmount>
 			</EmpireDirection>
 			<EmpireDirection>
-				<Name>Умножить</Name>
+				<Name>Приумножить</Name>
 				<DescriptionBonuses>[HL]Bonuses:[/HL]\n[ULI]+25% Population Growth Rate[/ULI]</DescriptionBonuses>
 				<DescriptionObjective>[HL]Victory Objective:[/HL] Achieve empire population of 100 billion</DescriptionObjective>
 				<ColonyEventDefinitionId>113</ColonyEventDefinitionId> 

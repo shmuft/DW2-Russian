@@ -308,7 +308,7 @@ def check_translated_file(file_path: str) -> int:
                     for child in action.iter(tag):
                         check_text(child, f"{elem_tag}/TriggerActions/GameEventAction/{tag}")
             for action in elem.findall('.//PlacementActions/GameEventAction'):
-                for tag in ['MessageTitle', 'Description']:
+                for tag in ['GeneratedItemName', 'MessageTitle', 'Description']:
                     for child in action.iter(tag):
                         check_text(child, f"{elem_tag}/PlacementActions/GameEventAction/{tag}")
             for tag in ['Title', 'Description']:
@@ -319,7 +319,7 @@ def check_translated_file(file_path: str) -> int:
                 for child in elem.iter(tag):
                     check_text(child, f"{elem_tag}/{tag}")
         elif elem_tag == 'Race':
-            for tag in ['Name', 'Description']:
+            for tag in ['DescriptionBonuses', 'DescriptionObjective', 'Name', 'Description']:
                 for child in elem.iter(tag):
                     check_text(child, f"{elem_tag}/{tag}")
             for string_elem in elem.findall('.//FeatureExplanations/string'):
@@ -353,7 +353,7 @@ def check_translated_file(file_path: str) -> int:
                 for child in elem.iter(tag):
                     check_text(child, f"{elem_tag}/{tag}")
         elif elem_tag == 'Government':
-            for tag in ['Name', 'Description', 'string']:
+            for tag in ['LeaderTitle','Name', 'Description', 'string']:
                 for child in elem.iter(tag):
                     check_text(child, f"{elem_tag}/{tag}")
         elif elem_tag == 'OrbType':
@@ -713,7 +713,7 @@ def extract_translatable_texts(root):
                     if text:
                         texts.append((text, f"{elem_tag}/{tag}"))
         elif elem_tag == 'Race':
-            for tag in ['Name', 'Description']:
+            for tag in ['DescriptionBonuses', 'DescriptionObjective', 'Name', 'Description']:
                 for child in elem.iter(tag):
                     text = child.text.strip() if child.text else ''
                     if text:
@@ -765,7 +765,7 @@ def extract_translatable_texts(root):
                     if text:
                         texts.append((text, f"{elem_tag}/{tag}"))
         elif elem_tag == 'Government':
-            for tag in ['Name', 'Description', 'string']:
+            for tag in ['LeaderTitle', 'Name', 'Description', 'string']:
                 for child in elem.iter(tag):
                     text = child.text.strip() if child.text else ''
                     if text:
@@ -1126,7 +1126,7 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
                         else:
                             add_task(child, tag, original)
         elif elem_tag == 'Race':
-            for tag in ['Name', 'Description']:
+            for tag in ['DescriptionBonuses', 'DescriptionObjective', 'Name', 'Description']:
                 for child in elem.iter(tag):
                     original = child.text.strip() if child.text else ''
                     if original:
@@ -1205,7 +1205,7 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
                         else:
                             add_task(child, tag, original)
         elif elem_tag == 'Government':
-            for tag in ['Name', 'Description', 'string']:
+            for tag in ['LeaderTitle', 'Name', 'Description', 'string']:
                 for child in elem.iter(tag):
                     original = child.text.strip() if child.text else ''
                     if original:
