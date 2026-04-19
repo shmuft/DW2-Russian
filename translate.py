@@ -713,10 +713,11 @@ def extract_translatable_texts(root):
                     if text:
                         texts.append((text, f"{elem_tag}/{tag}"))
         elif elem_tag == 'Race':
-            for child in elem.iter('Description'):
-                text = child.text.strip() if child.text else ''
-                if text:
-                    texts.append((text, f"{elem_tag}/Description"))
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    text = child.text.strip() if child.text else ''
+                    if text:
+                        texts.append((text, f"{elem_tag}/{tag}"))
             for string_elem in elem.findall('.//FeatureExplanations/string'):
                 text = string_elem.text.strip() if string_elem.text else ''
                 if text:
@@ -1125,13 +1126,14 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
                         else:
                             add_task(child, tag, original)
         elif elem_tag == 'Race':
-            for child in elem.iter('Description'):
-                original = child.text.strip() if child.text else ''
-                if original:
-                    if words_mode:
-                        words_set.add(original)
-                    else:
-                        add_task(child, 'Description', original)
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    original = child.text.strip() if child.text else ''
+                    if original:
+                        if words_mode:
+                            words_set.add(original)
+                        else:
+                            add_task(child, tag, original)
             for string_elem in elem.findall('.//FeatureExplanations/string'):
                 original = string_elem.text.strip() if string_elem.text else ''
                 if original:
