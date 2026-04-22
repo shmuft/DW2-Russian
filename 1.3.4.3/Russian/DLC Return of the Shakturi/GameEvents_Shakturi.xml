@@ -5132,7 +5132,7 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>AddEmpireIncidentFactorGeneral</Type>
-				<Description>Мы видим, как другие пытаются подорвать ваше величие, но мы верою сопротивляемся им.</Description>
+				<Description>Мы видим, как другие пытаются подорвать ваше величие, однако мы верою сопротивляемся им.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -5415,7 +5415,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Беспорядки во флоте</MessageTitle>
+				<MessageTitle>Проблемы во флоте</MessageTitle>
 				<Description>Один из наших кораблей вышел из строя. Мы пытаемся установить связь, но с трудом пробиваемся к нему.
 
 Нам удалось выйти на связь с кораблем, вышедшим из строя, однако ситуация на борту остается неясной. Офицер, с которым мы говорили, звучал растерянно и бессвязно. На фоне слышались крики и выстрелы из стрелкового оружия. Члены экипажа можно было услышать, кричащих на странном инопланетном языке.
@@ -8591,7 +8591,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Расследовать беспорядки</ChoiceButtonText>
+				<ChoiceButtonText>Расследовать беспорядок</ChoiceButtonText>
 				<GeneratedItemName>A Shakturi Infiltrator Investigate Unrest Choice</GeneratedItemName>
 				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -8750,7 +8750,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Расследовать беспорядки</ChoiceButtonText>
+				<ChoiceButtonText>Расследовать беспорядок</ChoiceButtonText>
 				<GeneratedItemName>A Shakturi Infiltrator Investigate Unrest Choice</GeneratedItemName>
 				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>

@@ -2,7 +2,7 @@
 <ArrayOfGovernment>
 	<Government>
 		<GovernmentId>13</GovernmentId> 
-		<LeaderTitle>Enlightened Master</LeaderTitle>
+		<LeaderTitle>Просветлённый мастер</LeaderTitle>
 		<LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
 		<LeaderReplacementDisruption>7</LeaderReplacementDisruption>
 		<LeaderReplacementBoost>0</LeaderReplacementBoost>

@@ -256,7 +256,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Великое Направление - Умножить</Name>
+		<Name>Великое Направление - Приумножить</Name>
 		<ImageFilename>Environment/Events/great direction - multiply</ImageFilename>
 	</ColonyEventDefinition>
 

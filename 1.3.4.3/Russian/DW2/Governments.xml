@@ -2,7 +2,7 @@
 <ArrayOfGovernment>
 	<Government>
 		<GovernmentId>0</GovernmentId> 
-		<LeaderTitle>President</LeaderTitle>
+		<LeaderTitle>Президент</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float> 
@@ -250,7 +250,7 @@
 	</Government>
 	<Government>
 		<GovernmentId>1</GovernmentId> 
-		<LeaderTitle>Grand Merchant</LeaderTitle>
+		<LeaderTitle>Великий торговец</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float> 
@@ -469,7 +469,7 @@
 	</Government>
 	<Government>
 		<GovernmentId>2</GovernmentId> 
-		<LeaderTitle>Prime Minister</LeaderTitle>
+		<LeaderTitle>Премьер-министр</LeaderTitle>
 		<CabinetTitle>Cabinet</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
@@ -699,7 +699,7 @@
 	</Government>
 	<Government>
 		<GovernmentId>3</GovernmentId> 
-		<LeaderTitle>First Lord</LeaderTitle>
+		<LeaderTitle>Первый лорд</LeaderTitle>
 		<CabinetTitle>Noble Council</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
@@ -966,7 +966,7 @@
 	</Government>
 	<Government>
 		<GovernmentId>4</GovernmentId> 
-		<LeaderTitle>Emperor</LeaderTitle>
+		<LeaderTitle>Император</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float> 
@@ -1194,7 +1194,7 @@
 	</Government>
 	<Government>
 		<GovernmentId>5</GovernmentId> 
-		<LeaderTitle>Warlord</LeaderTitle>
+		<LeaderTitle>Вождь</LeaderTitle>
 		<CabinetTitle>War Council</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
@@ -1258,7 +1258,7 @@
 		<EmpireNameAdjectives>
 			<string>Имперский</string>
 			<string>Великий</string>
-			<string>Великий</string>
+			<string>Верховный</string>
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
 			<string>Империя</string>
@@ -1452,7 +1452,7 @@
 	</Government>
 	<Government>
 		<GovernmentId>6</GovernmentId> 
-		<LeaderTitle>Administrator</LeaderTitle>
+		<LeaderTitle>Администратор</LeaderTitle>
 		<CabinetTitle>Panel of Experts</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
@@ -1706,7 +1706,7 @@
 	</Government>
 	<Government>
 		<GovernmentId>7</GovernmentId> 
-		<LeaderTitle>Great Overseer</LeaderTitle>
+		<LeaderTitle>Великий Надзиратель</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float> 
@@ -1950,7 +1950,7 @@
 	</Government>
 	<Government>
 		<GovernmentId>8</GovernmentId> 
-		<LeaderTitle>Dark Lord</LeaderTitle>
+		<LeaderTitle>Тёмный лорд</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float> 
@@ -2165,7 +2165,7 @@
 	</Government>
 	<Government>
 		<GovernmentId>9</GovernmentId> 
-		<LeaderTitle>Supreme Leader</LeaderTitle>
+		<LeaderTitle>Верховный лидер</LeaderTitle>
 		<CabinetTitle>Cabinet</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
@@ -2375,7 +2375,7 @@
 	</Government>
 	<Government>
 		<GovernmentId>10</GovernmentId> 
-		<LeaderTitle>Supreme Leader</LeaderTitle>
+		<LeaderTitle>Верховный лидер</LeaderTitle>
 		<CabinetTitle>Cabinet</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>

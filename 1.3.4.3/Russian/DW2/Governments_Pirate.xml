@@ -2,7 +2,7 @@
 <ArrayOfGovernment>
 	<Government>
 		<GovernmentId>32750</GovernmentId> 
-		<LeaderTitle>Chief Raider</LeaderTitle>
+		<LeaderTitle>Главный рейдер</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float>
@@ -110,7 +110,7 @@
 			<string>Одержимый</string>
 			<string>Угрожающий</string>
 			<string>Кровь</string>
-			<string>Сжигание</string>
+			<string>Огненный шторм</string>
 			<string>Скрыто</string>
 			<string>Огонь</string>
 			<string>Потерян</string>
@@ -207,7 +207,7 @@
 	<Government>
 		<GovernmentId>32751</GovernmentId>
 		
-		<LeaderTitle>Chief Trader</LeaderTitle>
+		<LeaderTitle>Главный торговец</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float>
@@ -300,7 +300,7 @@
 			<string>Мрачный</string>
 			<string>Одержимый</string>
 			<string>Кровь</string>
-			<string>Сжигание</string>
+			<string>Огненный шторм</string>
 			<string>Скрыто</string>
 			<string>Огонь</string>
 			<string>Потерян</string>
@@ -398,7 +398,7 @@
 	<Government>
 		<GovernmentId>32752</GovernmentId>
 		
-		<LeaderTitle>Chief Raider</LeaderTitle>
+		<LeaderTitle>Главный рейдер</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float>
@@ -506,7 +506,7 @@
 			<string>Одержимый</string>
 			<string>Угрожающий</string>
 			<string>Кровь</string>
-			<string>Сжигание</string>
+			<string>Огненный шторм</string>
 			<string>Скрыто</string>
 			<string>Огонь</string>
 			<string>Потеряно</string>
@@ -594,13 +594,13 @@
 		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
 		<SpecialMode>Undefined</SpecialMode>
 		<Name>Рейдеры</Name>
-		<Description>Набеговые отряды пытаются установить контроль над колониями, как независимыми, так и принадлежащими обычным империям. Они обогащаются, откачивая богатства из этих контролируемых колоний.\n\nЧтобы укрепить свой контроль, они отражают нападения конкурирующих пиратских группировок и пытаются построить пиратские базы и крепости в своих колониях.</Description>
+		<Description>Рейдеры пытаются установить контроль над колониями, как независимыми, так и принадлежащими обычным империям. Они обогащаются, откачивая богатства из этих контролируемых колоний.\n\nЧтобы укрепить свой контроль, они отражают нападения конкурирующих пиратских группировок и пытаются построить пиратские базы и крепости в своих колониях.</Description>
 	</Government>
 
 	<Government>
 		<GovernmentId>32753</GovernmentId>
 		
-		<LeaderTitle>Bounty Hunter</LeaderTitle>
+		<LeaderTitle>Охотник за головами</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float>

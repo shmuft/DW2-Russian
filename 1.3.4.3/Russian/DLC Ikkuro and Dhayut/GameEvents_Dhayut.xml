@@ -3769,7 +3769,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Силовое поле отключено</MessageTitle>
-				<Description>Мы успешно отключили силовое поле. Теперь мы можем продолжить исследование планеты.</Description>
+				<Description>Мы успешно отключили силовое поле. Теперь мы можем приступить к исследованию планеты.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -5803,7 +5803,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Древний мир Дхают</MessageTitle>
-				<Description>Эта планета, опустошённая сейсмическими разрушениями, когда-то была населена бесчисленными Дхают. Возможно, здесь сохранились остатки древней культуры Дхают, и, может быть, мы сможем кое-чему у них научиться.</Description>
+				<Description>Эта планета, опустошённая сейсмическими разрушениями, некогда была населена бесчисленными Дхают. Возможно, здесь сохранились остатки древней культуры Дхают, и, может быть, мы сможем кое-чему у них научиться.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -5912,7 +5912,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Изучите оборудование и дайте спящим умереть</ChoiceButtonText>
+				<ChoiceButtonText>Изучите оборудование и позвольте спящим умереть</ChoiceButtonText>
 				<GeneratedItemName>Let Sleepers Die Choice (Ikkuro)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>

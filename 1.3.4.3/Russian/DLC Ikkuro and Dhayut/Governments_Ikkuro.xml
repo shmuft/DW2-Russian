@@ -2,7 +2,7 @@
 <ArrayOfGovernment>
 	<Government>
 		<GovernmentId>11</GovernmentId> 
-		<LeaderTitle>Guardian of Life</LeaderTitle>
+		<LeaderTitle>Страж Жизни</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float> 
@@ -64,7 +64,7 @@
 			<string>Гармоничный</string>
 			<string>Объединённые</string>
 			<string>Доброжелательный</string>
-			<string>Великий</string>
+			<string>Верховный</string>
 			<string>Идиллический</string>
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>

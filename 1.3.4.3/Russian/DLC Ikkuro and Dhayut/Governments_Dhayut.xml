@@ -2,7 +2,7 @@
 <ArrayOfGovernment>
 	<Government>
 		<GovernmentId>12</GovernmentId> 
-		<LeaderTitle>Supreme Inquisitor</LeaderTitle>
+		<LeaderTitle>Верховный инквизитор</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float> 
@@ -65,7 +65,7 @@
 			<string>Наблюдательный</string>
 			<string>Хитрый</string>
 			<string>Осторожный</string>
-			<string>Великий</string>
+			<string>Верховный</string>
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
 			<string>Автократия</string>
@@ -208,7 +208,7 @@
 		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
 		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
 		<SpecialMode>Undefined</SpecialMode>
-		<Name>Олигархия наблюдения</Name>
+		<Name>Надзорная олигархия</Name>
 		<Description>Правительства Олигархии наблюдения превосходно манипулируют другими как внутри своих границ, так и за их пределами.
 
 Обычно они представляют собой структуру власти, в которой небольшая группа осуществляет контроль над массовым населением посредством обширного и навязчивого мониторинга их деятельности и данных. Это может делаться в корыстных или эгоистичных целях, таких как сохранение богатства и влияния, либо подавление инакомыслия и оппозиции.

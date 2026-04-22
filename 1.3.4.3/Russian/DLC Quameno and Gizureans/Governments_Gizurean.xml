@@ -2,7 +2,7 @@
 <ArrayOfGovernment>
 	<Government>
 		<GovernmentId>14</GovernmentId> 
-		<LeaderTitle>Overlord</LeaderTitle>
+		<LeaderTitle>Повелитель</LeaderTitle>
 		<LeaderReplacementTypicalPeriod>30</LeaderReplacementTypicalPeriod>
 		<LeaderReplacementDisruption>5</LeaderReplacementDisruption>
 		<LeaderReplacementBoost>0</LeaderReplacementBoost>

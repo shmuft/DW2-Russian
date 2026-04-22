@@ -2,7 +2,7 @@
 <ArrayOfGovernment>
 	<Government>
 		<GovernmentId>32759</GovernmentId> 
-		<LeaderTitle>President</LeaderTitle>
+		<LeaderTitle>Президент</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float> 
@@ -99,7 +99,7 @@
 	</Government>
 	<Government>
 		<GovernmentId>32760</GovernmentId> 
-		<LeaderTitle>Dark Lord</LeaderTitle>
+		<LeaderTitle>Тёмный лорд</LeaderTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float> 

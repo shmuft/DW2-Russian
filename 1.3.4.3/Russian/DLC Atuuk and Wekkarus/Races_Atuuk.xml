@@ -366,8 +366,8 @@
 		<EmpireDirections>
 			<EmpireDirection>
 				<Name>Умнее</Name>
-				<DescriptionBonuses>[HL]Bonuses:[/HL]\n[ULI]+30% All Research[/ULI][ULI]+30% Plague Curing[/ULI][ULI]+30% Plague Containment[/ULI]</DescriptionBonuses>
-				<DescriptionObjective>[HL]Victory Objective:[/HL] Complete research in a project of tech level 6 or higher</DescriptionObjective>
+				<DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+30% ко всем исследованиям[/ULI][ULI]+30% к лечению патогенов[/ULI][ULI]+30% к сдерживанию патогенов[/ULI]</DescriptionBonuses>
+				<DescriptionObjective>[HL]Цель победы:[/HL] Завершить исследование проекта технологического уровня 6 или выше</DescriptionObjective>
 				<ColonyEventDefinitionId>107</ColonyEventDefinitionId> 
 				<ObjectiveGameEventName>Great Direction - Smarter Objective (Atuuk)</ObjectiveGameEventName>
 				<VictoryObjectiveName>Great Direction: Smarter</VictoryObjectiveName>
@@ -375,8 +375,8 @@
 			</EmpireDirection>
 			<EmpireDirection>
 				<Name>Дружелюбнее</Name>
-				<DescriptionBonuses>[HL]Bonuses:[/HL]\n[ULI]+40% Diplomacy[/ULI][ULI]+40% Psy Ops[/ULI][ULI]+10% Colony Happiness[/ULI]</DescriptionBonuses>
-				<DescriptionObjective>[HL]Objective:[/HL] Sign a new Defense treaty</DescriptionObjective>
+				<DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+40% к дипломатии[/ULI][ULI]+40% к пси-операциям[/ULI][ULI]+10% к счастью колоний[/ULI]</DescriptionBonuses>
+				<DescriptionObjective>[HL]Задача:[/HL] Подписать оборонительный договор</DescriptionObjective>
 				<ColonyEventDefinitionId>108</ColonyEventDefinitionId> 
 				<ObjectiveGameEventName>Great Direction - Friendlier Objective (Atuuk)</ObjectiveGameEventName>
 				<VictoryObjectiveName>Great Direction: Friendlier</VictoryObjectiveName>
@@ -384,8 +384,8 @@
 			</EmpireDirection>
 			<EmpireDirection>
 				<Name>Сильнее</Name>
-				<DescriptionBonuses>[HL]Bonuses:[/HL]\n[ULI]+40% War Weariness Reduction[/ULI][ULI]+20% Ground Attack Strength[/ULI][ULI]+40% Troop Recovery Rate[/ULI][ULI]+20% Weapons Damage[/ULI][ULI]+40% Ship Construction Speed[/ULI][ULI]+40% Ship Repair Rate[/ULI]</DescriptionBonuses>
-				<DescriptionObjective>[HL]Victory Objective:[/HL] Destroy an enemy Battleship or Carrier</DescriptionObjective>
+				<DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+40% к снижению усталости от войны[/ULI][ULI]+20% к штурмовой мощи[/ULI][ULI]+40% к скорости восстановления войск[/ULI][ULI]+20% к урону оружия[/ULI][ULI]+40% к скорости строительства кораблей[/ULI][ULI]+40% к скорости ремонта кораблей[/ULI]</DescriptionBonuses>
+				<DescriptionObjective>[HL]Цель победы:[/HL] Уничтожить вражеский линкор или авианосец</DescriptionObjective>
 				<ColonyEventDefinitionId>109</ColonyEventDefinitionId> 
 				<ObjectiveGameEventName>Great Direction - Stronger Objective (Atuuk)</ObjectiveGameEventName>
 				<VictoryObjectiveName>Great Direction: Stronger</VictoryObjectiveName>
@@ -393,8 +393,8 @@
 			</EmpireDirection>
 			<EmpireDirection>
 				<Name>Богаче</Name>
-				<DescriptionBonuses>[HL]Bonuses:[/HL]\n[ULI]+10% Colony Income[/ULI][ULI]+5% Colony Corruption Reduction[/ULI][ULI]+25% Trade Income[/ULI][ULI]+25% Tourism Income[/ULI]</DescriptionBonuses>
-				<DescriptionObjective>[HL]Victory Objective:[/HL] Achieve empire cashflow of +50K or greater</DescriptionObjective>
+				<DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+10% к доходу колонии[/ULI][ULI]+5% к снижению коррупции в колониях[/ULI][ULI]+25% к доходу от торговли[/ULI][ULI]+25% к доходу от туризма[/ULI]</DescriptionBonuses>
+				<DescriptionObjective>[HL]Цель победы:[/HL] Обеспечить положительный денежный поток империи на уровне +50 000 или выше</DescriptionObjective>
 				<ColonyEventDefinitionId>110</ColonyEventDefinitionId> 
 				<ObjectiveGameEventName>Great Direction - Richer Objective (Atuuk)</ObjectiveGameEventName>
 				<VictoryObjectiveName>Great Direction: Richer</VictoryObjectiveName>
@@ -402,8 +402,8 @@
 			</EmpireDirection>
 			<EmpireDirection>
 				<Name>Быстрее</Name>
-				<DescriptionBonuses>[HL]Bonuses:[/HL]\n[ULI]+40% Engine Research[/ULI][ULI]+40% Hyperdrive Research[/ULI][ULI]+25% Hyperjump Speed[/ULI][ULI]+25% Ship Speed[/ULI][ULI]+25% Ship Maneuvering[/ULI]</DescriptionBonuses>
-				<DescriptionObjective>[HL]Victory Objective:[/HL] Complete research in the Advanced Engines project</DescriptionObjective>
+				<DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+40% к исследованиям двигателей[/ULI][ULI]+40% к исследованиям гипердвигателей[/ULI][ULI]+25% к скорости гиперпрыжка[/ULI][ULI]+25% к скорости корабля[/ULI][ULI]+25% к маневренности корабля[/ULI]</DescriptionBonuses>
+				<DescriptionObjective>[HL]Цель победы:[/HL] Завершить исследование проекта «Улучшенные двигатели»</DescriptionObjective>
 				<ColonyEventDefinitionId>111</ColonyEventDefinitionId> 
 				<ObjectiveGameEventName>Great Direction - Faster Objective (Atuuk)</ObjectiveGameEventName>
 				<VictoryObjectiveName>Great Direction: Faster</VictoryObjectiveName>
@@ -411,8 +411,8 @@
 			</EmpireDirection>
 			<EmpireDirection>
 				<Name>Скрытнее</Name>
-				<DescriptionBonuses>[HL]Bonuses:[/HL]\n[ULI]+40% Espionage[/ULI][ULI]+40% Counter Espionage[/ULI][ULI]+40% Sabotage[/ULI]</DescriptionBonuses>
-				<DescriptionObjective>[HL]Victory Objective:[/HL] Steal a research project of tech level 6 or higher</DescriptionObjective>
+				<DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+40% к шпионажу[/ULI][ULI]+40% к контршпионажу[/ULI][ULI]+40% к диверсиям[/ULI]</DescriptionBonuses>
+				<DescriptionObjective>[HL]Цель победы:[/HL] Украсть проект исследования технологического уровня 6 или выше</DescriptionObjective>
 				<ColonyEventDefinitionId>112</ColonyEventDefinitionId> 
 				<ObjectiveGameEventName>Great Direction - Sneakier Objective (Atuuk)</ObjectiveGameEventName>
 				<VictoryObjectiveName>Great Direction: Sneakier</VictoryObjectiveName>
@@ -420,8 +420,8 @@
 			</EmpireDirection>
 			<EmpireDirection>
 				<Name>Приумножить</Name>
-				<DescriptionBonuses>[HL]Bonuses:[/HL]\n[ULI]+25% Population Growth Rate[/ULI]</DescriptionBonuses>
-				<DescriptionObjective>[HL]Victory Objective:[/HL] Achieve empire population of 100 billion</DescriptionObjective>
+				<DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+25% к скорости роста населения[/ULI]</DescriptionBonuses>
+				<DescriptionObjective>[HL]Цель победы:[/HL] Достичь численности населения империи в 100 миллиардов</DescriptionObjective>
 				<ColonyEventDefinitionId>113</ColonyEventDefinitionId> 
 				<ObjectiveGameEventName>Great Direction - Multiply Objective (Atuuk)</ObjectiveGameEventName>
 				<VictoryObjectiveName>Great Direction: Multiply</VictoryObjectiveName>

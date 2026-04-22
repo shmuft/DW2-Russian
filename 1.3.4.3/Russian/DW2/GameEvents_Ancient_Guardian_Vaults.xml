@@ -812,7 +812,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Правильный выбор</MessageTitle>
-				<Description>Мы успешно завершили правильное исследование и открыли Хранилище. Теперь мы должны углубиться внутрь.</Description>
+				<Description>Мы успешно завершили необходимые исследования и открыли Хранилище. Теперь нам предстоит углубиться внутрь.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -1601,7 +1601,7 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Неправильный выбор</MessageTitle>
+				<MessageTitle>Неверный выбор</MessageTitle>
 				<Description>К сожалению, исследования «Медицинской практики Древних Стражей» оказалось недостаточно для открытия Хранилища. Чтобы раскрыть тайны Хранилища, нам придется исследовать «Этику Древних Стражей».</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -1651,7 +1651,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Правильный выбор</MessageTitle>
-				<Description>Мы успешно завершили правильное исследование и открыли Хранилище. Теперь мы должны углубиться внутрь.</Description>
+				<Description>Мы успешно завершили необходимые исследования и открыли Хранилище. Теперь нам предстоит углубиться внутрь.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -2244,7 +2244,7 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Неправильный выбор</MessageTitle>
+				<MessageTitle>Неверный выбор</MessageTitle>
 				<Description>К сожалению, исследования тактики Древних Стражей оказалось недостаточно для открытия Хранилища. Чтобы раскрыть его тайны, нам придется изучить стратегию Древних Стражей.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -2372,7 +2372,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Правильный выбор</MessageTitle>
-				<Description>Мы успешно завершили правильное исследование и открыли Хранилище. Теперь мы должны углубиться внутрь.</Description>
+				<Description>Мы успешно завершили необходимые исследования и открыли Хранилище. Теперь нам предстоит углубиться внутрь.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -2468,7 +2468,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Содержимое хранилища</MessageTitle>
+				<MessageTitle>Содержимое Хранилища</MessageTitle>
 				<Description>Внутри Хранилища Древних Стражей мы обнаружили информацию, которая продвинет наши исследования, а также артефакт, который мы передали на нашу родную колонию.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -2963,7 +2963,7 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Неправильный выбор</MessageTitle>
+				<MessageTitle>Неверный выбор</MessageTitle>
 				<Description>К сожалению, исследования «Теории лидерства Древних Стражей» оказалось недостаточно для открытия Хранилища. Чтобы раскрыть тайны Хранилища, нам придется провести исследования «Наблюдений за лидерством Древних Стражей».</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -3091,7 +3091,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Правильный выбор</MessageTitle>
-				<Description>Мы успешно завершили правильное исследование и открыли Хранилище. Теперь мы должны углубиться внутрь.</Description>
+				<Description>Мы успешно завершили необходимые исследования и открыли Хранилище. Теперь нам предстоит углубиться внутрь.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -3910,7 +3910,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Содержимое хранилища</MessageTitle>
+				<MessageTitle>Содержимое Хранилища</MessageTitle>
 				<Description>Внутри Хранилища Древних Стражей мы обнаружили информацию, которая продвинет наши исследования, а также артефакт, который мы передали на нашу родную колонию.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -4631,7 +4631,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Содержимое хранилища</MessageTitle>
+				<MessageTitle>Содержимое Хранилища</MessageTitle>
 				<Description>Внутри Хранилища Древних Стражей мы обнаружили информацию, которая продвинет наши исследования, а также артефакт, который мы передали на нашу родную колонию.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -5208,7 +5208,7 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Неправильный выбор</MessageTitle>
+				<MessageTitle>Неверный выбор</MessageTitle>
 				<Description>К сожалению, исследования «Дипломатической теории Древних Стражей» оказалось недостаточно для открытия Хранилища. Чтобы раскрыть тайны Хранилища, нам придется изучить «Историю дипломатии Древних Стражей».</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -5354,7 +5354,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Содержимое хранилища</MessageTitle>
+				<MessageTitle>Содержимое Хранилища</MessageTitle>
 				<Description>Внутри Хранилища Древних Стражей мы обнаружили информацию, которая продвинет наши исследования, а также артефакт, который мы передали на нашу родную колонию.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6079,7 +6079,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Содержимое хранилища</MessageTitle>
+				<MessageTitle>Содержимое Хранилища</MessageTitle>
 				<Description>Внутри Хранилища Древних Стражей мы обнаружили информацию, которая продвинет наши исследования, а также артефакт, который мы передали на нашу родную колонию.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7298,7 +7298,7 @@
 			</GameEventAction>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Неправильный выбор</MessageTitle>
+				<MessageTitle>Неверный выбор</MessageTitle>
 				<Description>К сожалению, исследования «Проектирования кораблей Древних Стражей» оказалось недостаточно для открытия Хранилища. Чтобы раскрыть тайны Хранилища, нам придется провести исследования «Проектирования двигателей Древних Стражей».</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
