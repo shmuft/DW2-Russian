@@ -2050,8 +2050,8 @@ SHIPROLE already under construction here		;{0} уже строится здес�
 Ship Designs		;Дизайны кораблей
 Unbuilt		;Непостр.
 Normal		;Норм.
-Destroyed		;Уничтожен
-Disabled		;Отключено
+Destroyed		;Уничт.
+Disabled		;Откл.
 Enabled		;Включено
 Automated		;Автоматизирован
 Manually Controlled		;Ручное управление

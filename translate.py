@@ -696,7 +696,7 @@ def extract_translatable_texts(root):
                         if text:
                             texts.append((text, f"{elem_tag}/TriggerActions/GameEventAction/{tag}"))
             for action in elem.findall('.//PlacementActions/GameEventAction'):
-                for tag in ['MessageTitle', 'Description']:
+                for tag in ['GeneratedItemName', 'MessageTitle', 'Description']:
                     for child in action.iter(tag):
                         text = child.text.strip() if child.text else ''
                         if text:
@@ -1100,7 +1100,7 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
                             else:
                                 add_task(child, tag, original)
             for action in elem.findall('.//PlacementActions/GameEventAction'):
-                for tag in ['MessageTitle', 'Description']:
+                for tag in ['GeneratedItemName', 'MessageTitle', 'Description']:
                     for child in action.iter(tag):
                         original = child.text.strip() if child.text else ''
                         if original:
