@@ -198,42 +198,42 @@
 			</RaceFactor>
 		</Biases>
 		<DesignNames>
-			<string>Dessau</string>
-			<string>Munich</string>
-			<string>Dresden</string>
-			<string>Kiel</string>
-			<string>Kassel</string>
-			<string>Graz</string>
-			<string>Linz</string>
-			<string>Montreux</string>
-			<string>Westfalen</string>
-			<string>Osnabruck</string>
-			<string>Brandenburg</string>
-			<string>Ingolstadt</string>
-			<string>Dortmund</string>
-			<string>Stuttgart</string>
-			<string>Teuton</string>
-			<string>Eindhoven</string>
-			<string>Koblenz</string>
-			<string>Heidelberg</string>
-			<string>Hannover</string>
-			<string>Lubeck</string>
-			<string>Berlin</string>
-			<string>Munich</string>
-			<string>Hamburg</string>
-			<string>Frankfurt</string>
-			<string>Innsbruck</string>
-			<string>Zurich</string>
-			<string>Dachau</string>
-			<string>Baden</string>
-			<string>Kufstein</string>
-			<string>Klagenfurt</string>
-			<string>Stralsund</string>
-			<string>Wismar</string>
-			<string>Dusseldorf</string>
-			<string>Hagen</string>
-			<string>Lindau</string>
-			<string>Bremen</string>
+			<string>Дессау</string>
+			<string>Мюнхен</string>
+			<string>Дрезден</string>
+			<string>Киэль</string>
+			<string>Кассель</string>
+			<string>Граз</string>
+			<string>Линц</string>
+			<string>Монтрё</string>
+			<string>Вестфалия</string>
+			<string>Оснабрюк</string>
+			<string>Бранденбург</string>
+			<string>Ингольштадт</string>
+			<string>Дортмунд</string>
+			<string>Штутгарт</string>
+			<string>Тевтон</string>
+			<string>Эйндховен</string>
+			<string>Кобленц</string>
+			<string>Гейдельберг</string>
+			<string>Ганновер</string>
+			<string>Любек</string>
+			<string>Берлин</string>
+			<string>Мюнхен</string>
+			<string>Гамбург</string>
+			<string>Франкфурт</string>
+			<string>Инсбрук</string>
+			<string>Цюрих</string>
+			<string>Дахау</string>
+			<string>Баден</string>
+			<string>Куфштайн</string>
+			<string>Клагенфурт</string>
+			<string>Стральсунд</string>
+			<string>Висмар</string>
+			<string>Дюссельдорф</string>
+			<string>Хейген</string>
+			<string>Линдау</string>
+			<string>Бремен</string>
 		</DesignNames>
 		<VictoryConditions>
 			<VictoryCondition>
@@ -274,48 +274,48 @@
 			</VictoryCondition>
 		</VictoryConditions>
 		<CharacterFirstNames>
-			<string>Equia</string>
-			<string>Senaris</string>
-			<string>Udy</string>
-			<string>Okkuroo</string>
-			<string>Tenshik</string>
-			<string>Gorzandu</string>
-			<string>Jekaru</string>
-			<string>Dagranta</string>
-			<string>Kensek</string>
-			<string>Wooshik</string>
-			<string>Atsugok</string>
-			<string>Bektul</string>
-			<string>Redarik</string>
-			<string>Ikkutus</string>
-			<string>Volkta</string>
-			<string>Zuuro</string>
-			<string>Larix</string>
-			<string>Oseon</string>
-			<string>Pinzi</string>
-			<string>Ati</string>
+			<string>Эквиа</string>
+			<string>Сенарис</string>
+			<string>Уди</string>
+			<string>Иккуро</string>
+			<string>Тэншик</string>
+			<string>Горзанду</string>
+			<string>Кетаров</string>
+			<string>Дагранта</string>
+			<string>Кенсек</string>
+			<string>Вуушик</string>
+			<string>Ацугок</string>
+			<string>Бектул</string>
+			<string>Редарик</string>
+			<string>Иккут</string>
+			<string>Волкта</string>
+			<string>Зууро</string>
+			<string>Ларикс</string>
+			<string>Осеон</string>
+			<string>Пинзи</string>
+			<string>Ати</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Wassoga</string>
-			<string>Qendo</string>
-			<string>Lapuri</string>
-			<string>Nakshil</string>
-			<string>Lokhar</string>
-			<string>Zupol</string>
-			<string>Rektu</string>
-			<string>Danshik</string>
-			<string>Vudugar</string>
-			<string>Maggula</string>
-			<string>Odorio</string>
-			<string>Sukantu</string>
-			<string>Jitula</string>
-			<string>Wogaras</string>
-			<string>Addibu</string>
-			<string>Bogari</string>
-			<string>Yektus</string>
-			<string>Kandusa</string>
-			<string>Piyyaru</string>
-			<string>Hutan</string>
+			<string>Вассога</string>
+			<string>Кендо</string>
+			<string>Лапури</string>
+			<string>Наксил</string>
+			<string>Лохар</string>
+			<string>Зупол</string>
+			<string>Ректу</string>
+			<string>Даншик</string>
+			<string>Вудугар</string>
+			<string>Маггула</string>
+			<string>Одорио</string>
+			<string>Суканту</string>
+			<string>Джитула</string>
+			<string>Вогарас</string>
+			<string>Аддибу</string>
+			<string>Богари</string>
+			<string>Йектус</string>
+			<string>Кандуса</string>
+			<string>Пиьяру</string>
+			<string>Хутан</string>
 		</CharacterLastNames>
 		<StartingArtifactIds>
 			<int>2</int> 

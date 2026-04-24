@@ -29,7 +29,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Ancient Dhayut Facility</GeneratedItemName>
+				<GeneratedItemName>Древнее сооружение Дхаютов</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -847,7 +847,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Crashed Ikkuro Ship</GeneratedItemName>
+				<GeneratedItemName>Разбившийся корабль Иккуро</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -1105,7 +1105,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Ikkuro Science Ship</GeneratedItemName>
+				<GeneratedItemName>Научный корабль Иккуро</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -1158,7 +1158,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Технология щитов</ChoiceButtonText>
+				<ChoiceButtonText>Техника щитов</ChoiceButtonText>
 				<GeneratedItemName>Shield Tech Choice (Dhayut)</GeneratedItemName>
 				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1417,7 +1417,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Технология щитов</ChoiceButtonText>
+				<ChoiceButtonText>Техника щитов</ChoiceButtonText>
 				<GeneratedItemName>Shield Tech Choice (Ikkuro)</GeneratedItemName>
 				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -1907,7 +1907,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Devlin</GeneratedItemName>
+				<GeneratedItemName>Девлин</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -2505,7 +2505,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Sosthenes</GeneratedItemName>
+				<GeneratedItemName>Состен</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -2527,7 +2527,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Sosthenes</GeneratedItemName>
+				<GeneratedItemName>Состен</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>10</DelaySecondsMinimum>
@@ -3418,7 +3418,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Ingo</GeneratedItemName>
+				<GeneratedItemName>Инго</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -5058,7 +5058,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Ancient Research Lab</GeneratedItemName>
+				<GeneratedItemName>Древняя исследовательская лаборатория</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -5217,7 +5217,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
-				<MessageTitle>Выжившие Древние Дхаюты</MessageTitle>
+				<MessageTitle>Выжившие древние Дхаюты</MessageTitle>
 				<Description>В руинах исследовательского центра мы обнаружили несколько десятков Дхают в криокамерах. К счастью, их энергоснабжение остаётся стабильным, и наши учёные полагают, что мы можем вернуть к жизни выживших, если того пожелаете.  
 
 Но стоит ли? Невозможно знать, какие заразы старой галактики могут нести эти выжившие. И далеко не все заразы имеют физическую природу. Мы знаем, что некоторые древние Дхают были трусами, искажёнными в своей природе зловещим применением науки, сделавшими их покорными и подчинёнными более слабым видам. Не являются ли эти Дхают такими же? И если да, не может ли их природа заразить нашу чистую культуру Дхают? Возможно, лучше позволить спящим умереть и разобрать это оборудование, чтобы извлечь из него всё возможное.  
@@ -6436,7 +6436,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Apate</GeneratedItemName>
+				<GeneratedItemName>Апате</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>

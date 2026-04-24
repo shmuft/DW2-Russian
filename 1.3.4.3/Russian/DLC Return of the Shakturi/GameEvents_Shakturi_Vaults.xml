@@ -28,7 +28,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Crumbling Harbor</GeneratedItemName>
+				<GeneratedItemName>Разрушающаяся гавань</GeneratedItemName>
 				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -96,7 +96,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Desolate Station</GeneratedItemName>
+				<GeneratedItemName>Запустелая станция</GeneratedItemName>
 				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -164,7 +164,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Moray Abyss</GeneratedItemName>
+				<GeneratedItemName>Бездна Мора</GeneratedItemName>
 				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -232,7 +232,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Deteriorating Tomb</GeneratedItemName>
+				<GeneratedItemName>Разрушающаяся гробница</GeneratedItemName>
 				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -300,7 +300,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Decaying Catacomb</GeneratedItemName>
+				<GeneratedItemName>Гниющий катакомб</GeneratedItemName>
 				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>

@@ -171,42 +171,42 @@
 			</RaceFactor>
 		</Biases>
 		<DesignNames>
-			<string>Excelsior</string>
-			<string>Titan</string>
-			<string>Colossia</string>
-			<string>Striker</string>
-			<string>Thunder</string>
-			<string>Royale</string>
-			<string>Centurion</string>
-			<string>Consul</string>
-			<string>Senator</string>
-			<string>Praetor</string>
-			<string>Quaestor</string>
-			<string>Imperator</string>
-			<string>Maximus</string>
-			<string>Praefectus</string>
-			<string>Tetrarch</string>
-			<string>Decimator</string>
-			<string>Argossia</string>
-			<string>Apulon</string>
-			<string>Battleaxe</string>
-			<string>Javelin</string>
-			<string>Trident</string>
-			<string>Shadow</string>
-			<string>Cossack</string>
-			<string>Minotaur</string>
-			<string>Medusa</string>
-			<string>Victory</string>
-			<string>Vengeance</string>
-			<string>Eclipse</string>
-			<string>Enforcer</string>
-			<string>Sovereign</string>
-			<string>Executor</string>
-			<string>Venator</string>
-			<string>Dominator</string>
-			<string>Allegiance</string>
-			<string>Decurion</string>
-			<string>Sabre</string>
+			<string>Эксельсиор</string>
+			<string>Титан</string>
+			<string>Колоссия</string>
+			<string>Штурмовой истребитель</string>
+			<string>Гром</string>
+			<string>Королевский</string>
+			<string>Центурион</string>
+			<string>Консул</string>
+			<string>Сенатор</string>
+			<string>Претор</string>
+			<string>Квестор</string>
+			<string>Император</string>
+			<string>Максимус</string>
+			<string>Префект</string>
+			<string>Тетрарх</string>
+			<string>Разрушитель</string>
+			<string>Аргоссия</string>
+			<string>Апулон</string>
+			<string>Боевой топор</string>
+			<string>«Дракон»</string>
+			<string>Трезубец</string>
+			<string>Тень</string>
+			<string>Казак</string>
+			<string>Минотавр</string>
+			<string>Медуза</string>
+			<string>Победа</string>
+			<string>Месть</string>
+			<string>Затмение</string>
+			<string>Исполнитель</string>
+			<string>Суверенитет</string>
+			<string>Исполнитель</string>
+			<string>Венатор</string>
+			<string>Доминатор</string>
+			<string>Приверженность</string>
+			<string>Декурион</string>
+			<string>Сабля</string>
 		</DesignNames>
 		<VictoryConditions>
 			<VictoryCondition>
@@ -247,65 +247,65 @@
 			</VictoryCondition>
 		</VictoryConditions>
 		<CharacterFirstNames>
-			<string>Donato</string>
-			<string>Gudan</string>
-			<string>Juran</string>
-			<string>Lorien</string>
-			<string>Matthia</string>
-			<string>Paedri</string>
-			<string>Than</string>
-			<string>Yuri</string>
-			<string>Kevian</string>
-			<string>Laurus</string>
-			<string>Caran</string>
-			<string>Keryn</string>
-			<string>Thassun</string>
-			<string>Kasto</string>
-			<string>Derras</string>
-			<string>Loras</string>
-			<string>Mishku</string>
-			<string>Obidar</string>
-			<string>Indo</string>
-			<string>Gerrin</string>
-			<string>Luc</string>
-			<string>San</string>
-			<string>Dak</string>
-			<string>Kor</string>
-			<string>Tiko</string>
-			<string>Cobi</string>
-			<string>Peet</string>
-			<string>Yan</string>
-			<string>Basant</string>
-			<string>Hugo</string>
-			<string>Esari</string>
+			<string>Донато</string>
+			<string>Гудан</string>
+			<string>Юран</string>
+			<string>Лориен</string>
+			<string>Маттия</string>
+			<string>Пеадри</string>
+			<string>Тан</string>
+			<string>Юрий</string>
+			<string>Кевии</string>
+			<string>Лаурус</string>
+			<string>Каран</string>
+			<string>Керин</string>
+			<string>Тассун</string>
+			<string>Касто</string>
+			<string>Деррас</string>
+			<string>Лорас</string>
+			<string>Мишку</string>
+			<string>Обидар</string>
+			<string>Индое</string>
+			<string>Геррин</string>
+			<string>Люк</string>
+			<string>Сан</string>
+			<string>Дак</string>
+			<string>Кор</string>
+			<string>Тико</string>
+			<string>Коби</string>
+			<string>Пит</string>
+			<string>Ян</string>
+			<string>Басант</string>
+			<string>Гуго</string>
+			<string>Эсари</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Ikkuros</string>
-			<string>Nothris</string>
-			<string>Hassari</string>
-			<string>Walkin</string>
-			<string>Mankara</string>
-			<string>Jaksun</string>
-			<string>Undulian</string>
-			<string>Dobachi</string>
-			<string>Trebulo</string>
-			<string>Tarfan</string>
-			<string>Callosk</string>
-			<string>Lukadi</string>
-			<string>Bendu</string>
-			<string>Kesky</string>
-			<string>Berallia</string>
-			<string>Obarria</string>
-			<string>Nesalio</string>
-			<string>Xanaria</string>
-			<string>Allaria</string>
-			<string>Dokari</string>
-			<string>Marteri</string>
-			<string>Okkoros</string>
-			<string>Zoberia</string>
-			<string>Zotri</string>
-			<string>Kalan</string>
-			<string>Redan</string>
+			<string>Иккуро</string>
+			<string>Нотрис</string>
+			<string>Хассари</string>
+			<string>Шагающий</string>
+			<string>Манкара</string>
+			<string>Джаксун</string>
+			<string>Ундулиан</string>
+			<string>Добахи</string>
+			<string>Требубло</string>
+			<string>Тарфан</string>
+			<string>Каллоск</string>
+			<string>Лукади</string>
+			<string>Бенду</string>
+			<string>Кески</string>
+			<string>Бераллия</string>
+			<string>Обаррия</string>
+			<string>Несалио</string>
+			<string>Занария</string>
+			<string>Аллария</string>
+			<string>Докари</string>
+			<string>Мартери</string>
+			<string>Оккорос</string>
+			<string>Зоберия</string>
+			<string>Зотри</string>
+			<string>Калан</string>
+			<string>Редан</string>
 		</CharacterLastNames>
 		<SpaceportAmbientSoundEffectFilenames>
 			<string>Sounds/Ambient/chatter1</string>
@@ -593,42 +593,42 @@
 			</RaceFactor>
 		</Biases>
 		<DesignNames>
-			<string>Deliverance</string>
-			<string>Axos</string>
-			<string>Arcadia</string>
-			<string>Atlantis</string>
-			<string>Equinox</string>
-			<string>Epsilon</string>
-			<string>Meridian</string>
-			<string>Nimitz</string>
-			<string>Phoenix</string>
-			<string>Raptor</string>
-			<string>Rekallios</string>
-			<string>Sentinel</string>
-			<string>Tarassian</string>
-			<string>Vortex</string>
-			<string>Verossus</string>
-			<string>Xeros</string>
-			<string>Corellos</string>
-			<string>Cantras</string>
-			<string>Challenger</string>
-			<string>Discovery</string>
-			<string>Enterprise</string>
-			<string>Falcon</string>
-			<string>Giraxon</string>
-			<string>Hercules</string>
-			<string>Lapricus</string>
-			<string>Portia</string>
-			<string>Eagle</string>
-			<string>Osprey</string>
-			<string>Pegasus</string>
-			<string>Sentry</string>
-			<string>Viper</string>
-			<string>Liberty</string>
-			<string>Archaea</string>
-			<string>Condor</string>
-			<string>Iridos</string>
-			<string>Independence</string>
+			<string>Избавление</string>
+			<string>Аксос</string>
+			<string>Аркадия</string>
+			<string>Атлантида</string>
+			<string>Эквинокс</string>
+			<string>Эпсилон</string>
+			<string>Меридиан</string>
+			<string>Нимиц</string>
+			<string>Феникс</string>
+			<string>Раптор</string>
+			<string>Рекаллиос</string>
+			<string>Часовой</string>
+			<string>Тарассиан</string>
+			<string>Вихрь</string>
+			<string>Вероссус</string>
+			<string>Ксерос</string>
+			<string>Кореллос</string>
+			<string>Кантрас</string>
+			<string>Испытатель</string>
+			<string>Открытие</string>
+			<string>Предприятие</string>
+			<string>Сокол</string>
+			<string>Гираксон</string>
+			<string>Геркулес</string>
+			<string>Лаприкус</string>
+			<string>Порция</string>
+			<string>Орел</string>
+			<string>Осипри</string>
+			<string>Пегас</string>
+			<string>Часовой</string>
+			<string>Змея</string>
+			<string>Свобода</string>
+			<string>Археи</string>
+			<string>Кондор</string>
+			<string>Иридос</string>
+			<string>Независимость</string>
 		</DesignNames>
 		<VictoryConditions>
 			<VictoryCondition>
@@ -657,53 +657,53 @@
 			</VictoryCondition>
 		</VictoryConditions>
 		<CharacterFirstNames>
-			<string>Equia</string>
-			<string>Senaris</string>
-			<string>Udy</string>
-			<string>Olbar</string>
-			<string>Cudas</string>
-			<string>Chozul</string>
-			<string>Wesda</string>
-			<string>Nachis</string>
-			<string>Secho</string>
-			<string>Sorrit</string>
-			<string>Uki</string>
-			<string>Raqi</string>
-			<string>Ebo</string>
-			<string>Yorpa</string>
-			<string>Jukri</string>
-			<string>Ossan</string>
-			<string>Gyut</string>
-			<string>Lutar</string>
-			<string>Xu</string>
-			<string>Aki</string>
-			<string>Vos</string>
-			<string>Xo</string>
-			<string>Xa</string>
-			<string>Osu</string>
-			<string>Wod</string>
+			<string>Эквиа</string>
+			<string>Сенарис</string>
+			<string>Уди</string>
+			<string>Ольбар</string>
+			<string>Кудас</string>
+			<string>Чозул</string>
+			<string>Весда</string>
+			<string>Нахис</string>
+			<string>Сечо</string>
+			<string>Соррит</string>
+			<string>Уки</string>
+			<string>Раки</string>
+			<string>Эбо</string>
+			<string>Йорпа</string>
+			<string>Юкри</string>
+			<string>Оссан</string>
+			<string>Гют</string>
+			<string>Лутар</string>
+			<string>Сю</string>
+			<string>Аки</string>
+			<string>Вос</string>
+			<string>Хо</string>
+			<string>Ха</string>
+			<string>Осу</string>
+			<string>Вод</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Wassoga</string>
-			<string>Qendo</string>
-			<string>Lapuri</string>
-			<string>Serafu</string>
-			<string>Paklidu</string>
-			<string>Unkaro</string>
-			<string>Opanko</string>
-			<string>Corras</string>
-			<string>Zabros</string>
-			<string>Ebuta</string>
-			<string>Wodos</string>
-			<string>Gokaal</string>
-			<string>Thanda</string>
-			<string>Matado</string>
-			<string>Edari</string>
-			<string>Nobriy</string>
-			<string>Possari</string>
-			<string>Haksur</string>
-			<string>Assari</string>
-			<string>Banasa</string>
+			<string>Вассога</string>
+			<string>Кендо</string>
+			<string>Лапури</string>
+			<string>Серафу</string>
+			<string>Паклиду</string>
+			<string>Ункаро</string>
+			<string>Опанко</string>
+			<string>Коррас</string>
+			<string>Заброс</string>
+			<string>Эбута</string>
+			<string>Водос</string>
+			<string>Гокаал</string>
+			<string>Танда</string>
+			<string>Матадор</string>
+			<string>Эдари</string>
+			<string>Нобрий</string>
+			<string>Посари</string>
+			<string>Хаксур</string>
+			<string>Ассари</string>
+			<string>Банаса</string>
 		</CharacterLastNames>
 		<SpaceportAmbientSoundEffectFilenames>
 			<string>Sounds/Ambient/chatter1</string>
@@ -1208,42 +1208,42 @@
 			</RaceFactor>
 		</Biases>
 		<DesignNames>
-			<string>Lusaka</string>
-			<string>Bindura</string>
-			<string>Sofala</string>
-			<string>Lobito</string>
-			<string>Zanzibar</string>
-			<string>Mombasa</string>
-			<string>Mahajanga</string>
-			<string>Comoros</string>
-			<string>Kinshasa</string>
-			<string>Cabinda</string>
-			<string>Nairobi</string>
-			<string>Axum</string>
-			<string>Senanga</string>
-			<string>Ubundu</string>
-			<string>Aketi</string>
-			<string>Turkana</string>
-			<string>Nyasa</string>
-			<string>Asmera</string>
-			<string>Atbara</string>
-			<string>Calabar</string>
-			<string>Sokoto</string>
-			<string>Takoradi</string>
-			<string>Abidjan</string>
-			<string>Monrovia</string>
-			<string>Bamako</string>
-			<string>Dakar</string>
-			<string>Ibadan</string>
-			<string>Tripoli</string>
-			<string>Aswan</string>
-			<string>Cairo</string>
-			<string>Giza</string>
-			<string>Suez</string>
-			<string>Casablanca</string>
-			<string>Tangiers</string>
-			<string>Agadir</string>
-			<string>Kaduna</string>
+			<string>Лузака</string>
+			<string>Биндура</string>
+			<string>Софала</string>
+			<string>Лобито</string>
+			<string>Занзибар</string>
+			<string>Момбаса</string>
+			<string>Махаджанга</string>
+			<string>Коморос</string>
+			<string>Киншаса</string>
+			<string>Кабинда</string>
+			<string>Найроби</string>
+			<string>Аксум</string>
+			<string>Сенанга</string>
+			<string>Убунду</string>
+			<string>Акетии</string>
+			<string>Туркана</string>
+			<string>Ньяса</string>
+			<string>Асмера</string>
+			<string>Атбара</string>
+			<string>Калабар</string>
+			<string>Сокоото</string>
+			<string>Такоради</string>
+			<string>Абиджан</string>
+			<string>Монровия</string>
+			<string>Бамако</string>
+			<string>Дакар</string>
+			<string>Ибадан</string>
+			<string>Триполи</string>
+			<string>Асуан</string>
+			<string>Каир</string>
+			<string>Гиза</string>
+			<string>Суэц</string>
+			<string>Касабланка</string>
+			<string>Танжер</string>
+			<string>Агадир</string>
+			<string>Кадунна</string>
 		</DesignNames>
 		<VictoryConditions>
 			<VictoryCondition>
@@ -1278,72 +1278,72 @@
 			</VictoryCondition>
 		</VictoryConditions>
 		<CharacterFirstNames>
-			<string>Darrat</string>
-			<string>Kibul</string>
-			<string>Ruty</string>
-			<string>Zephry</string>
-			<string>Kweeki</string>
-			<string>Chorpi</string>
-			<string>Jindak</string>
-			<string>Repta</string>
-			<string>Wunta</string>
-			<string>Zacha</string>
-			<string>Dekshi</string>
-			<string>Sawa</string>
-			<string>Sunja</string>
-			<string>Wudri</string>
-			<string>Tek</string>
-			<string>Wia</string>
-			<string>Lerz</string>
-			<string>Faz</string>
-			<string>Rek</string>
-			<string>Iko</string>
-			<string>Yaka</string>
-			<string>Asan</string>
-			<string>Wozi</string>
-			<string>Dex</string>
-			<string>Karg</string>
-			<string>Asunka</string>
-			<string>Jundo</string>
-			<string>Randul</string>
-			<string>Edi</string>
-			<string>Arl</string>
-			<string>Wek</string>
-			<string>Oro</string>
-			<string>Lashar</string>
-			<string>Nashan</string>
+			<string>Даррат</string>
+			<string>Кибул</string>
+			<string>Руты</string>
+			<string>Зэфир</string>
+			<string>Квекки</string>
+			<string>Чорпи</string>
+			<string>Джиндак</string>
+			<string>Репта</string>
+			<string>Вунта</string>
+			<string>Заха</string>
+			<string>Декши</string>
+			<string>Сава</string>
+			<string>Сунджа</string>
+			<string>Вудри</string>
+			<string>Тек</string>
+			<string>Виа</string>
+			<string>Лерз</string>
+			<string>Фаз</string>
+			<string>Рек</string>
+			<string>Иккуро</string>
+			<string>Яка</string>
+			<string>Асан</string>
+			<string>Вози</string>
+			<string>Декс</string>
+			<string>Карг</string>
+			<string>Асунка</string>
+			<string>Джундо</string>
+			<string>Рандул</string>
+			<string>Эди</string>
+			<string>Арл</string>
+			<string>Веккарус</string>
+			<string>Оро</string>
+			<string>Лашар</string>
+			<string>Нашан</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Uktab</string>
-			<string>Woppit</string>
-			<string>Owak</string>
-			<string>Ebarrik</string>
-			<string>Okel</string>
-			<string>Okari</string>
-			<string>Odechy</string>
-			<string>Gachuz</string>
-			<string>Qytian</string>
-			<string>Larrant</string>
-			<string>Noskri</string>
-			<string>Raktan</string>
-			<string>Hanari</string>
-			<string>Diitak</string>
-			<string>Oseri</string>
-			<string>Machka</string>
-			<string>Fossit</string>
-			<string>Shokia</string>
-			<string>Varqi</string>
-			<string>Losit</string>
-			<string>Xetry</string>
-			<string>Tasran</string>
-			<string>Ixito</string>
-			<string>Echigo</string>
-			<string>Poldan</string>
-			<string>Wradu</string>
-			<string>Sartora</string>
-			<string>Nassiki</string>
-			<string>Yablik</string>
-			<string>Urtion</string>
+			<string>Уктаб</string>
+			<string>Воппит</string>
+			<string>Оуак</string>
+			<string>Эбаррик</string>
+			<string>Окель</string>
+			<string>Окари</string>
+			<string>Броня</string>
+			<string>Гачуз</string>
+			<string>Квитиан</string>
+			<string>Ларрант</string>
+			<string>Носкри</string>
+			<string>Рактан</string>
+			<string>Ханари</string>
+			<string>Дитак</string>
+			<string>Осери</string>
+			<string>Мачка</string>
+			<string>Фоссит</string>
+			<string>Шокия</string>
+			<string>Варки</string>
+			<string>Лосит</string>
+			<string>Ксетри</string>
+			<string>Тасран</string>
+			<string>Иксито</string>
+			<string>Этиго</string>
+			<string>Полдан</string>
+			<string>Враду</string>
+			<string>Саторра</string>
+			<string>Нассики</string>
+			<string>Яблик</string>
+			<string>Уртион</string>
 		</CharacterLastNames>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
@@ -1645,42 +1645,42 @@
 			</RaceFactor>
 		</Biases>
 		<DesignNames>
-			<string>Medan</string>
-			<string>Pattani</string>
-			<string>Malacca</string>
-			<string>Letong</string>
-			<string>Tenasserim</string>
-			<string>Tavoy</string>
-			<string>Henzada</string>
-			<string>Chon Buri</string>
-			<string>Vung Tau</string>
-			<string>Chiang Mai</string>
-			<string>Mandalay</string>
-			<string>Haiphong</string>
-			<string>Saigon</string>
-			<string>Bangkok</string>
-			<string>Kelang</string>
-			<string>Singapore</string>
-			<string>Lumpur</string>
-			<string>Jakarta</string>
-			<string>Sarawak</string>
-			<string>Andaman</string>
-			<string>Surabaya</string>
-			<string>Bandar Seri</string>
-			<string>Semarang</string>
-			<string>Kalimanta</string>
-			<string>Surakarta</string>
-			<string>Sumbawa</string>
-			<string>Telok</string>
-			<string>Saravane</string>
-			<string>Samarinda</string>
-			<string>Kandangan</string>
-			<string>Phan Thiet</string>
-			<string>Mekong</string>
-			<string>Sumatra</string>
-			<string>Hanoi</string>
-			<string>Kuantan</string>
-			<string>Sanggau</string>
+			<string>Медан</string>
+			<string>Паттани</string>
+			<string>Малакка</string>
+			<string>Летонг</string>
+			<string>Тенассерим</string>
+			<string>Тавой</string>
+			<string>Хензада</string>
+			<string>Чонбури</string>
+			<string>Вунгтау</string>
+			<string>Чианг Май</string>
+			<string>Мандалай</string>
+			<string>Хайфон</string>
+			<string>Сайгон</string>
+			<string>Бангкок</string>
+			<string>Келанг</string>
+			<string>Сингапур</string>
+			<string>Грязь</string>
+			<string>Джакарта</string>
+			<string>Саравак</string>
+			<string>Андаман</string>
+			<string>Сурабая</string>
+			<string>Бандар-Сери</string>
+			<string>Семаранг</string>
+			<string>Калиманта</string>
+			<string>Суракарта</string>
+			<string>Сумбава</string>
+			<string>Тело</string>
+			<string>Сараване</string>
+			<string>Самаринда</string>
+			<string>Кандан</string>
+			<string>Фантьет</string>
+			<string>Меконг</string>
+			<string>Суматра</string>
+			<string>Ханой</string>
+			<string>Квантан</string>
+			<string>Сангау</string>
 		</DesignNames>
 		<VictoryConditions>
 			<VictoryCondition>
@@ -1697,53 +1697,53 @@
 			</VictoryCondition>
 		</VictoryConditions>
 		<CharacterFirstNames>
-			<string>Equia</string>
-			<string>Senaris</string>
-			<string>Udy</string>
-			<string>Olbar</string>
-			<string>Cudas</string>
-			<string>Chozul</string>
-			<string>Wesda</string>
-			<string>Nachis</string>
-			<string>Secho</string>
-			<string>Sorrit</string>
-			<string>Uki</string>
-			<string>Raqi</string>
-			<string>Ebo</string>
-			<string>Yorpa</string>
-			<string>Jukri</string>
-			<string>Ossan</string>
-			<string>Gyut</string>
-			<string>Lutar</string>
-			<string>Xu</string>
-			<string>Aki</string>
-			<string>Vos</string>
-			<string>Xo</string>
-			<string>Xa</string>
-			<string>Osu</string>
-			<string>Wod</string>
+			<string>Эквиа</string>
+			<string>Сенарис</string>
+			<string>Уди</string>
+			<string>Ольбар</string>
+			<string>Кудас</string>
+			<string>Чозул</string>
+			<string>Весда</string>
+			<string>Нахис</string>
+			<string>Сечо</string>
+			<string>Соррит</string>
+			<string>Уки</string>
+			<string>Раки</string>
+			<string>Эбо</string>
+			<string>Йорпа</string>
+			<string>Юкри</string>
+			<string>Оссан</string>
+			<string>Гют</string>
+			<string>Сражаться</string>
+			<string>Сю</string>
+			<string>Аки</string>
+			<string>Вос</string>
+			<string>Хо</string>
+			<string>Ха</string>
+			<string>Осу</string>
+			<string>Вод</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Wassoga</string>
-			<string>Qendo</string>
-			<string>Lapuri</string>
-			<string>Serafu</string>
-			<string>Paklidu</string>
-			<string>Unkaro</string>
-			<string>Opanko</string>
-			<string>Corras</string>
-			<string>Zabros</string>
-			<string>Ebuta</string>
-			<string>Wodos</string>
-			<string>Gokaal</string>
-			<string>Thanda</string>
-			<string>Matado</string>
-			<string>Edari</string>
-			<string>Nobriy</string>
-			<string>Possari</string>
-			<string>Haksur</string>
-			<string>Assari</string>
-			<string>Banasa</string>
+			<string>Вассога</string>
+			<string>Кендо</string>
+			<string>Лапури</string>
+			<string>Серафу</string>
+			<string>Паклиду</string>
+			<string>Ункаро</string>
+			<string>Опанко</string>
+			<string>Коррас</string>
+			<string>Заброс</string>
+			<string>Эбута</string>
+			<string>Водос</string>
+			<string>Гокаал</string>
+			<string>Танда</string>
+			<string>Матадор</string>
+			<string>Эдари</string>
+			<string>Нобрий</string>
+			<string>Посари</string>
+			<string>Хаксур</string>
+			<string>Ассари</string>
+			<string>Банаса</string>
 		</CharacterLastNames>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
@@ -2019,42 +2019,42 @@
 			</RaceFactor>
 		</Biases>
 		<DesignNames>
-			<string>Isfahan</string>
-			<string>Shiraz</string>
-			<string>Bushehr</string>
-			<string>Tabriz</string>
-			<string>Mashhad</string>
-			<string>Ashkhabad</string>
-			<string>Hamadan</string>
-			<string>Yerevan</string>
-			<string>Ahvaz</string>
-			<string>Sanandaj</string>
-			<string>Kashan</string>
-			<string>Ankara</string>
-			<string>Trabzon</string>
-			<string>Istanbul</string>
-			<string>Tarsus</string>
-			<string>Adana</string>
-			<string>Mersin</string>
-			<string>Izmir</string>
-			<string>Iskenderun</string>
-			<string>Sarikamis</string>
-			<string>Hakkari</string>
-			<string>Ordu</string>
-			<string>Mosul</string>
-			<string>Nasiriyah</string>
-			<string>Aleppo</string>
-			<string>Malatya</string>
-			<string>Baku</string>
-			<string>Baqubah</string>
-			<string>Abadan</string>
-			<string>Rutbah</string>
-			<string>Ramadi</string>
-			<string>Bubiyan</string>
-			<string>Astara</string>
-			<string>Latakia</string>
-			<string>Zagros</string>
-			<string>Arak</string>
+			<string>Исфахан</string>
+			<string>Шираз</string>
+			<string>Бушир</string>
+			<string>Табриз</string>
+			<string>Мешхед</string>
+			<string>Ашхабад</string>
+			<string>Хамадан</string>
+			<string>Ереван</string>
+			<string>Ахваз</string>
+			<string>Санандеж</string>
+			<string>Кашан</string>
+			<string>Анкара</string>
+			<string>Трабзон</string>
+			<string>Стамбул</string>
+			<string>Тарс</string>
+			<string>Адана</string>
+			<string>Мерсин</string>
+			<string>Измир</string>
+			<string>Искендерун</string>
+			<string>Сарикамис</string>
+			<string>Хаккари</string>
+			<string>Орда</string>
+			<string>Мосул</string>
+			<string>Насирия</string>
+			<string>Алеппо</string>
+			<string>Малатья</string>
+			<string>Баку</string>
+			<string>Бакуба</string>
+			<string>Абадан</string>
+			<string>Рутба</string>
+			<string>Рамади</string>
+			<string>Бубиян</string>
+			<string>Астара</string>
+			<string>Латакия</string>
+			<string>Загрос</string>
+			<string>Арак</string>
 		</DesignNames>
 		<VictoryConditions>
 			<VictoryCondition>
@@ -2089,74 +2089,74 @@
 			</VictoryCondition>
 		</VictoryConditions>
 		<CharacterFirstNames>
-			<string>Balluk</string>
-			<string>Doktan</string>
-			<string>Kutar</string>
-			<string>Yurkan</string>
-			<string>Yentor</string>
-			<string>Maztar</string>
-			<string>Danpo</string>
-			<string>Jattub</string>
-			<string>Cwedo</string>
-			<string>Sarriq</string>
-			<string>Bakra</string>
-			<string>Xadry</string>
-			<string>Gartra</string>
-			<string>Zekan</string>
-			<string>Zhatar</string>
-			<string>Wokor</string>
-			<string>Haki</string>
-			<string>Gar</string>
-			<string>Kuut</string>
-			<string>Mok</string>
-			<string>Uza</string>
-			<string>Vok</string>
-			<string>Yaz</string>
-			<string>Raak</string>
-			<string>Zeek</string>
-			<string>Dekshi</string>
-			<string>Bherat</string>
-			<string>Ghoran</string>
-			<string>Wunta</string>
-			<string>Zacha</string>
-			<string>Sabri</string>
-			<string>Ebari</string>
-			<string>Suntaj</string>
-			<string>Fhasha</string>
-			<string>Yepta</string>
-			<string>Yudar</string>
-			<string>Gobar</string>
+			<string>Баллук</string>
+			<string>Доктан</string>
+			<string>Кутар</string>
+			<string>Юркан</string>
+			<string>Йентор</string>
+			<string>Мазтар</string>
+			<string>Данпо</string>
+			<string>Джатуб</string>
+			<string>Кведо</string>
+			<string>Саррик</string>
+			<string>Бакра</string>
+			<string>Ксадри</string>
+			<string>Гартра</string>
+			<string>Зекан</string>
+			<string>Жатар</string>
+			<string>Вокор</string>
+			<string>Хаки</string>
+			<string>Гар</string>
+			<string>Куут</string>
+			<string>Мок</string>
+			<string>Уза</string>
+			<string>Вок</string>
+			<string>Яз</string>
+			<string>Раак</string>
+			<string>Зик</string>
+			<string>Декши</string>
+			<string>Берат</string>
+			<string>Горан</string>
+			<string>Вунта</string>
+			<string>Заха</string>
+			<string>Сабри</string>
+			<string>Эбари</string>
+			<string>Сунтай</string>
+			<string>Фаша</string>
+			<string>Йепта</string>
+			<string>Юдар</string>
+			<string>Гобар</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Bhulkadin</string>
-			<string>Zhukziban</string>
-			<string>Rustov</string>
-			<string>Jandirrosk</string>
-			<string>Makarius</string>
-			<string>Daghrun</string>
-			<string>Takruan</string>
-			<string>Halskut</string>
-			<string>Gepkiy</string>
-			<string>Hakhra</string>
-			<string>Jukelos</string>
-			<string>Yemodo</string>
-			<string>Yskllor</string>
-			<string>Kazzdi</string>
-			<string>Erakto</string>
-			<string>Makkatar</string>
-			<string>Akshat</string>
-			<string>Ghazzik</string>
-			<string>Argria</string>
-			<string>Tzarak</string>
-			<string>Hudall</string>
-			<string>Fushti</string>
-			<string>Taghran</string>
-			<string>Ruuntul</string>
-			<string>Kawass</string>
-			<string>Pazdaris</string>
-			<string>Frokaal</string>
-			<string>Shiddai</string>
-			<string>Cutsan</string>
+			<string>Бхулкадин</string>
+			<string>Жукзибан</string>
+			<string>Рустов</string>
+			<string>Яндривроск</string>
+			<string>Макарий</string>
+			<string>Дагхрун</string>
+			<string>Такруан</string>
+			<string>Халскут</string>
+			<string>Гепкий</string>
+			<string>Хахра</string>
+			<string>Юкелос</string>
+			<string>Емодо</string>
+			<string>Исклор</string>
+			<string>Каззди</string>
+			<string>Эракто</string>
+			<string>Маккатар</string>
+			<string>Акшат</string>
+			<string>Газзик</string>
+			<string>Аргрия</string>
+			<string>Тзара</string>
+			<string>Худалл</string>
+			<string>Фушти</string>
+			<string>Тагран</string>
+			<string>Руунтул</string>
+			<string>Кавасс</string>
+			<string>Паздарис</string>
+			<string>Фрокаал</string>
+			<string>Шиддай</string>
+			<string>Кутсан</string>
 		</CharacterLastNames>
 		<WarStartedByUsGameEventName>Warrior Wave Trigger (Mortalen)</WarStartedByUsGameEventName>
 		<WarStartedByOtherGameEventName>Patriotic Wave Trigger (Mortalen)</WarStartedByOtherGameEventName>
@@ -2671,42 +2671,42 @@
 			</RaceFactor>
 		</Biases>
 		<DesignNames>
-			<string>Jaipur</string>
-			<string>Kathmandu</string>
-			<string>Varanasi</string>
-			<string>Guntur</string>
-			<string>Agra</string>
-			<string>Kochi</string>
-			<string>Dhaka</string>
-			<string>Karachi</string>
-			<string>Kashmir</string>
-			<string>Delhi</string>
-			<string>Orissa</string>
-			<string>Pradesh</string>
-			<string>Dehra Dun</string>
-			<string>Bhopal</string>
-			<string>Jamnagar</string>
-			<string>Bhavnagar</string>
-			<string>Kanpur</string>
-			<string>Bihar</string>
-			<string>Bhatpara</string>
-			<string>Akola</string>
-			<string>Hyderabad</string>
-			<string>Bangalore</string>
-			<string>Tenali</string>
-			<string>Proddatur</string>
-			<string>Sira</string>
-			<string>Bhatkal</string>
-			<string>Badagara</string>
-			<string>Imphal</string>
-			<string>Alwar</string>
-			<string>Gurkha</string>
-			<string>Simikot</string>
-			<string>Bengal</string>
-			<string>Ratlam</string>
-			<string>Sikar</string>
-			<string>Ranchi</string>
-			<string>Srinagar</string>
+			<string>Джайпур</string>
+			<string>Катманду</string>
+			<string>Варанаси</string>
+			<string>Гунтур</string>
+			<string>Агра</string>
+			<string>Кочи</string>
+			<string>Дакка</string>
+			<string>Карачи</string>
+			<string>Кашмир</string>
+			<string>Дели</string>
+			<string>Орисса</string>
+			<string>Продеш</string>
+			<string>Дехра-Дун</string>
+			<string>Бхопал</string>
+			<string>Джамнагар</string>
+			<string>Бхавнагар</string>
+			<string>Канпур</string>
+			<string>Бихар</string>
+			<string>Бхатпара</string>
+			<string>Акола</string>
+			<string>Хайдарабад</string>
+			<string>Бангалор</string>
+			<string>Тенали</string>
+			<string>Проддатур</string>
+			<string>Сира</string>
+			<string>Бхаткал</string>
+			<string>Бадагара</string>
+			<string>Импхал</string>
+			<string>Алвар</string>
+			<string>Гуркха</string>
+			<string>Симикот</string>
+			<string>Бенгалия</string>
+			<string>Ратлам</string>
+			<string>Сикар</string>
+			<string>Ранчи</string>
+			<string>Сринагар</string>
 		</DesignNames>
 		<VictoryConditions>
 			<VictoryCondition>
@@ -2735,73 +2735,73 @@
 			</VictoryCondition>
 		</VictoryConditions>
 		<CharacterFirstNames>
-			<string>Qarg</string>
-			<string>Cwedo</string>
-			<string>Rardi</string>
-			<string>Falok</string>
-			<string>Jedok</string>
-			<string>Mavoq</string>
-			<string>Buzdi</string>
-			<string>Tubek</string>
-			<string>Vallu</string>
-			<string>Bhalod</string>
-			<string>Gwudo</string>
-			<string>Jovuk</string>
-			<string>Vakuz</string>
-			<string>Terak</string>
-			<string>Wokku</string>
-			<string>Bakra</string>
-			<string>Bhenta</string>
-			<string>Suutan</string>
-			<string>Xadry</string>
-			<string>Ishmat</string>
-			<string>Gex</string>
-			<string>Kaz</string>
-			<string>Zok</string>
-			<string>Yorg</string>
-			<string>Krebo</string>
-			<string>Udriul</string>
-			<string>Xha</string>
-			<string>Pok</string>
-			<string>Jaka</string>
-			<string>Erut</string>
-			<string>Mek</string>
-			<string>Azdun</string>
-			<string>Dyr</string>
-			<string>Nerg</string>
-			<string>Seg</string>
+			<string>Карг</string>
+			<string>Кведо</string>
+			<string>Рарди</string>
+			<string>Фалок</string>
+			<string>Джодок</string>
+			<string>Мавок</string>
+			<string>Будзи</string>
+			<string>Тубек</string>
+			<string>Валлу</string>
+			<string>Бхалод</string>
+			<string>Гвудо</string>
+			<string>Джовук</string>
+			<string>Вакуз</string>
+			<string>Терак</string>
+			<string>Вокку</string>
+			<string>Бакра</string>
+			<string>Бента</string>
+			<string>Суутан</string>
+			<string>Ксадри</string>
+			<string>Ишмат</string>
+			<string>Гекс</string>
+			<string>Каз</string>
+			<string>Зок</string>
+			<string>Йорг</string>
+			<string>Кребо</string>
+			<string>Удриул</string>
+			<string>Ксха</string>
+			<string>Пок</string>
+			<string>Яка</string>
+			<string>Эрут</string>
+			<string>Мех</string>
+			<string>Аздун</string>
+			<string>Дири</string>
+			<string>Нерг</string>
+			<string>Сег</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Boshak</string>
-			<string>Teklor</string>
-			<string>Zaddaty</string>
-			<string>Rakkarid</string>
-			<string>Rokaas</string>
-			<string>Kuutsian</string>
-			<string>Mokkodis</string>
-			<string>Narrit</string>
-			<string>Menkar</string>
-			<string>Exotun</string>
-			<string>Summorak</string>
-			<string>Puksha</string>
-			<string>Tobbat</string>
-			<string>Hezzok</string>
-			<string>Hektor</string>
-			<string>Vretok</string>
-			<string>Roxilli</string>
-			<string>Varkiy</string>
-			<string>Jattub</string>
-			<string>Sarriq</string>
-			<string>Pruggu</string>
-			<string>Prokari</string>
-			<string>Callax</string>
-			<string>Fimto</string>
-			<string>Tannax</string>
-			<string>Yurkan</string>
-			<string>Koomiel</string>
-			<string>Yhekhri</string>
-			<string>Dhziry</string>
-			<string>Mhegrhi</string>
+			<string>Босак</string>
+			<string>Теклор</string>
+			<string>Заддаты</string>
+			<string>Раккарид</string>
+			<string>Рокаас</string>
+			<string>Кууциан</string>
+			<string>Моккоди</string>
+			<string>Наррит</string>
+			<string>Менкар</string>
+			<string>Эксутун</string>
+			<string>Сумморак</string>
+			<string>Пукша</string>
+			<string>Тоббат</string>
+			<string>Хеззок</string>
+			<string>Хектор</string>
+			<string>Вреток</string>
+			<string>Роксилли</string>
+			<string>Варкий</string>
+			<string>Джатуб</string>
+			<string>Саррик</string>
+			<string>Пруггу</string>
+			<string>Прокари</string>
+			<string>Каллакс</string>
+			<string>Фимто</string>
+			<string>Таннакс</string>
+			<string>Юркан</string>
+			<string>Комиэль</string>
+			<string>Йехкри</string>
+			<string>Джири</string>
+			<string>Мегрхи</string>
 		</CharacterLastNames>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
@@ -3087,42 +3087,42 @@
 			</RaceFactor>
 		</Biases>
 		<DesignNames>
-			<string>Constantia</string>
-			<string>Stara Zagora</string>
-			<string>Oradea</string>
-			<string>Foscani</string>
-			<string>Satu Mare</string>
-			<string>Napoca</string>
-			<string>Zalau</string>
-			<string>Rimnicu</string>
-			<string>Varna</string>
-			<string>Negru Voda</string>
-			<string>Medias</string>
-			<string>Venezia</string>
-			<string>Rovigo</string>
-			<string>Rimini</string>
-			<string>Brindisi</string>
-			<string>Cosenza</string>
-			<string>Capri</string>
-			<string>Livorno</string>
-			<string>Alassio</string>
-			<string>Macerata</string>
-			<string>Taranto</string>
-			<string>Salerno</string>
-			<string>Bergamo</string>
-			<string>Imperia</string>
-			<string>Barcelona</string>
-			<string>Valencia</string>
-			<string>Cartagena</string>
-			<string>Zaragoza</string>
-			<string>Lerida</string>
-			<string>Montblanc</string>
-			<string>Toledo</string>
-			<string>Portalegre</string>
-			<string>Sintra</string>
-			<string>Segovia</string>
-			<string>Legrono</string>
-			<string>Agricento</string>
+			<string>Констанция</string>
+			<string>Стара-Загора</string>
+			<string>Орадеа</string>
+			<string>Фоскани</string>
+			<string>Сату-Маре</string>
+			<string>Напока</string>
+			<string>Залау</string>
+			<string>Римнику</string>
+			<string>Варна</string>
+			<string>Негру Вода</string>
+			<string>Медиа</string>
+			<string>Венеция</string>
+			<string>Ровиго</string>
+			<string>Римини</string>
+			<string>Бриндизи</string>
+			<string>Козенца</string>
+			<string>Капри</string>
+			<string>Ливорно</string>
+			<string>Алассио</string>
+			<string>Мацерата</string>
+			<string>Таранто</string>
+			<string>Салерно</string>
+			<string>Бергамо</string>
+			<string>Империя</string>
+			<string>Барселона</string>
+			<string>Валенсия</string>
+			<string>Картахена</string>
+			<string>Сарагоса</string>
+			<string>Лерида</string>
+			<string>Монблан</string>
+			<string>Толедо</string>
+			<string>Порталегре</string>
+			<string>Синтра</string>
+			<string>Сеговия</string>
+			<string>Легроно</string>
+			<string>Агриценто</string>
 		</DesignNames>
 
 		<RuinsExploredGameEventNames>
@@ -3194,70 +3194,70 @@
 			</VictoryCondition>
 		</VictoryConditions>
 		<CharacterFirstNames>
-			<string>Lebon</string>
-			<string>Arridan</string>
-			<string>Essaf</string>
-			<string>Jundo</string>
-			<string>Randul</string>
-			<string>Kupi</string>
-			<string>Gordas</string>
-			<string>Kodias</string>
-			<string>Yuros</string>
-			<string>Ubi</string>
-			<string>Yusan</string>
-			<string>Gudan</string>
-			<string>Thassun</string>
-			<string>Derras</string>
-			<string>Mishku</string>
-			<string>Gerrin</string>
-			<string>Jarus</string>
-			<string>Bam</string>
-			<string>Ko</string>
-			<string>Yok</string>
-			<string>Bant</string>
-			<string>Garuk</string>
-			<string>Koti</string>
-			<string>Coz</string>
-			<string>Mak</string>
-			<string>Arramy</string>
-			<string>Klopis</string>
-			<string>Col</string>
-			<string>Usu</string>
-			<string>Eda</string>
-			<string>Het</string>
-			<string>Yuros</string>
-			<string>Copian</string>
-			<string>Kupi</string>
+			<string>Лебон</string>
+			<string>Аридан</string>
+			<string>Эссаф</string>
+			<string>Джундо</string>
+			<string>Рандул</string>
+			<string>Купи</string>
+			<string>Гордас</string>
+			<string>Кодиас</string>
+			<string>Юрос</string>
+			<string>Уби</string>
+			<string>Юсан</string>
+			<string>Гудан</string>
+			<string>Тассун</string>
+			<string>Деррас</string>
+			<string>Мишку</string>
+			<string>Геррин</string>
+			<string>Ярус</string>
+			<string>Бам</string>
+			<string>Ко</string>
+			<string>Йок</string>
+			<string>Бант</string>
+			<string>Гарук</string>
+			<string>Коти</string>
+			<string>Коз</string>
+			<string>Мак</string>
+			<string>Аррами</string>
+			<string>Клопис</string>
+			<string>Кол</string>
+			<string>Пользователь</string>
+			<string>Эда</string>
+			<string>Хет</string>
+			<string>Юрос</string>
+			<string>Копиан</string>
+			<string>Купи</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Atthanchi</string>
-			<string>Kodansta</string>
-			<string>Saxxul</string>
-			<string>Vuulior</string>
-			<string>Xatara</string>
-			<string>Napulon</string>
-			<string>Orridan</string>
-			<string>Mekorta</string>
-			<string>Icarri</string>
-			<string>Jaxsta</string>
-			<string>Halan</string>
-			<string>Bechido</string>
-			<string>Dokari</string>
-			<string>Ulari</string>
-			<string>Haachut</string>
-			<string>Nissuri</string>
-			<string>Assari</string>
-			<string>Metrii</string>
-			<string>Eksari</string>
-			<string>Atsios</string>
-			<string>Suppari</string>
-			<string>Serraby</string>
-			<string>Arridan</string>
-			<string>Idantia</string>
-			<string>Glapir</string>
-			<string>Lobas</string>
-			<string>Profarian</string>
-			<string>Lincarz</string>
+			<string>Аттанчи</string>
+			<string>Коданста</string>
+			<string>Саксул</string>
+			<string>Вулиор</string>
+			<string>Хатара</string>
+			<string>Напулон</string>
+			<string>Орридан</string>
+			<string>Мекорта</string>
+			<string>Икари</string>
+			<string>Джакста</string>
+			<string>Халан</string>
+			<string>Бехидо</string>
+			<string>Докари</string>
+			<string>Улари</string>
+			<string>Хаачут</string>
+			<string>Ниссури</string>
+			<string>Ассари</string>
+			<string>Метрии</string>
+			<string>Эксари</string>
+			<string>Атсиос</string>
+			<string>Суппарри</string>
+			<string>Серраби</string>
+			<string>Аридан</string>
+			<string>Идантия</string>
+			<string>Глапир</string>
+			<string>Лобас</string>
+			<string>Профариан</string>
+			<string>Линкарц</string>
 		</CharacterLastNames>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
@@ -4284,14 +4284,14 @@
 			</RaceFactor>
 		</Biases>
 		<CharacterFirstNames>
-			<string>Lebon</string>
-			<string>Arridan</string>
-			<string>Essaf</string>
+			<string>Лебон</string>
+			<string>Аридан</string>
+			<string>Эссаф</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Atthanchi</string>
-			<string>Kodansta</string>
-			<string>Saxxul</string>
+			<string>Аттанчи</string>
+			<string>Коданста</string>
+			<string>Саксул</string>
 		</CharacterLastNames>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
@@ -4451,14 +4451,14 @@
 			</RaceFactor>
 		</Biases>
 		<CharacterFirstNames>
-			<string>Donato</string>
-			<string>Gudan</string>
-			<string>Juran</string>
+			<string>Донато</string>
+			<string>Гудан</string>
+			<string>Юран</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Ikkuros</string>
-			<string>Nothris</string>
-			<string>Hassari</string>
+			<string>Иккуро</string>
+			<string>Нотрис</string>
+			<string>Хассари</string>
 		</CharacterLastNames>
 		<StartingArtifactIds>
 			<int>3</int> 
@@ -4646,14 +4646,14 @@
 			</RaceFactor>
 		</Biases>
 		<CharacterFirstNames>
-			<string>Balluk</string>
-			<string>Doktan</string>
-			<string>Kutar</string>
+			<string>Баллук</string>
+			<string>Доктан</string>
+			<string>Кутар</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Bhulkadin</string>
-			<string>Zhukziban</string>
-			<string>Rustov</string>
+			<string>Бхулкадин</string>
+			<string>Жукзибан</string>
+			<string>Рустов</string>
 		</CharacterLastNames>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
@@ -5004,14 +5004,14 @@
 			</RaceFactor>
 		</Biases>
 		<CharacterFirstNames>
-			<string>Donato</string>
-			<string>Gudan</string>
-			<string>Juran</string>
+			<string>Донато</string>
+			<string>Гудан</string>
+			<string>Юран</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Ikkuros</string>
-			<string>Nothris</string>
-			<string>Hassari</string>
+			<string>Иккуро</string>
+			<string>Нотрис</string>
+			<string>Хассари</string>
 		</CharacterLastNames>
 		<StartingArtifactIds>
 			<int>4</int> 
@@ -5161,14 +5161,14 @@
 			</RaceFactor>
 		</Biases>
 		<CharacterFirstNames>
-			<string>Balluk</string>
-			<string>Doktan</string>
-			<string>Kutar</string>
+			<string>Баллук</string>
+			<string>Доктан</string>
+			<string>Кутар</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Bhulkadin</string>
-			<string>Zhukziban</string>
-			<string>Rustov</string>
+			<string>Бхулкадин</string>
+			<string>Жукзибан</string>
+			<string>Рустов</string>
 		</CharacterLastNames>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
@@ -5335,14 +5335,14 @@
 			</RaceFactor>
 		</Biases>
 		<CharacterFirstNames>
-			<string>Qarg</string>
-			<string>Cwedo</string>
-			<string>Rardi</string>
+			<string>Карг</string>
+			<string>Кведо</string>
+			<string>Рарди</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Boshak</string>
-			<string>Teklor</string>
-			<string>Zaddaty</string>
+			<string>Босак</string>
+			<string>Теклор</string>
+			<string>Заддаты</string>
 		</CharacterLastNames>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
@@ -5525,14 +5525,14 @@
 			</RaceFactor>
 		</Biases>
 		<CharacterFirstNames>
-			<string>Darrat</string>
-			<string>Kibul</string>
-			<string>Ruty</string>
+			<string>Даррат</string>
+			<string>Кибул</string>
+			<string>Руты</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Uktab</string>
-			<string>Woppit</string>
-			<string>Owak</string>
+			<string>Уктаб</string>
+			<string>Воппит</string>
+			<string>Оуак</string>
 		</CharacterLastNames>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
@@ -5842,9 +5842,9 @@
 			</RaceFactor>
 		</Biases>
 		<CharacterFirstNames>
-			<string>BK</string>
-			<string>ZG</string>
-			<string>MX</string>
+			<string>ВК</string>
+			<string>ЗГ</string>
+			<string>МХ</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
 			<string>497</string>
@@ -5918,14 +5918,14 @@
 			</RaceFactor>
 		</Biases>
 		<CharacterFirstNames>
-			<string>Qarg</string>
-			<string>Cwedo</string>
-			<string>Rardi</string>
+			<string>Карг</string>
+			<string>Кведо</string>
+			<string>Рарди</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Boshak</string>
-			<string>Teklor</string>
-			<string>Zaddaty</string>
+			<string>Босак</string>
+			<string>Теклор</string>
+			<string>Заддаты</string>
 		</CharacterLastNames>
 		<DefaultInfantryId>32764</DefaultInfantryId> 
 		<Name>Безумные ульевые насекомые</Name>

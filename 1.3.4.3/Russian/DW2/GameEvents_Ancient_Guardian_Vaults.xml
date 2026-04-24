@@ -298,7 +298,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Priorities of Governance Vault</GeneratedItemName>
+				<GeneratedItemName>Хранилище «Приоритеты управления»</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
@@ -1017,7 +1017,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Zenox Fertility Treatment Vault</GeneratedItemName>
+				<GeneratedItemName>Хранилище Зенокского средства повышения фертильности</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
@@ -1856,7 +1856,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Kiraditu's Principles of Colonial Defense Vault</GeneratedItemName>
+				<GeneratedItemName>Хранилище «Принципы обороны колоний Кирадиту»</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
@@ -2577,7 +2577,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Laughter and Leadership Vault</GeneratedItemName>
+				<GeneratedItemName>Хранилище «Смех и лидерство»</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
@@ -3296,7 +3296,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Thoughtful Retreat Archives Vault</GeneratedItemName>
+				<GeneratedItemName>Хранилище архивов «Обители раздумий»</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
@@ -4019,7 +4019,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>The Maditor Method Vault</GeneratedItemName>
+				<GeneratedItemName>Хранилище Метода Мадитора</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
@@ -4740,7 +4740,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Diplomacy and Other Means Vault</GeneratedItemName>
+				<GeneratedItemName>Хранилище «Дипломатия и иные средства»</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
@@ -5463,7 +5463,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>Hattir's Training Manual Vault</GeneratedItemName>
+				<GeneratedItemName>Хранилище учебного пособия Хаттира</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
@@ -6188,7 +6188,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>The Itimai Method Vault</GeneratedItemName>
+				<GeneratedItemName>Хранилище Метода Итимая</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>
@@ -6909,7 +6909,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<GeneratedItemName>The Jhahtu Reforms Vault</GeneratedItemName>
+				<GeneratedItemName>Хранилище Реформ Джату</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<Conditions>
 					<GameEventCondition>

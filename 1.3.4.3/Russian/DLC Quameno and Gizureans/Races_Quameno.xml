@@ -199,42 +199,42 @@
 			</RaceFactor>
 		</Biases>
 		<DesignNames>
-			<string>Quartos</string>
-			<string>Dunavia</string>
-			<string>Heruso</string>
-			<string>Yiqqus</string>
-			<string>Qasar</string>
-			<string>Rubandi</string>
-			<string>Urto</string>
-			<string>Wereshta</string>
-			<string>Shupoq</string>
-			<string>Liriso</string>
-			<string>Astara</string>
-			<string>Azuros</string>
-			<string>Orotu</string>
-			<string>Basula</string>
-			<string>Xertu</string>
-			<string>Juura</string>
-			<string>Rurek</string>
-			<string>Klasur</string>
-			<string>Sutak</string>
-			<string>Faruutin</string>
-			<string>Excosu</string>
-			<string>Naculon</string>
-			<string>Torsandu</string>
-			<string>Gendu</string>
-			<string>Zorshasta</string>
-			<string>Varisek</string>
-			<string>Mendachu</string>
-			<string>Corasol</string>
-			<string>Perrandu</string>
-			<string>Isaren</string>
-			<string>Lankaros</string>
-			<string>Dursto</string>
-			<string>Rankon</string>
-			<string>Kurestian</string>
-			<string>Judasian</string>
-			<string>Cwasten</string>
+			<string>Квартос</string>
+			<string>Дунавия</string>
+			<string>Герусо</string>
+			<string>Йиккус</string>
+			<string>Касар</string>
+			<string>Рубанди</string>
+			<string>Урто</string>
+			<string>Верешта</string>
+			<string>Шупок</string>
+			<string>Лирисо</string>
+			<string>Астара</string>
+			<string>Азурос</string>
+			<string>Ороту</string>
+			<string>Басула</string>
+			<string>Ксерту</string>
+			<string>Юура</string>
+			<string>Рурек</string>
+			<string>Класур</string>
+			<string>Сутак</string>
+			<string>Фаруутин</string>
+			<string>Эксосу</string>
+			<string>Накулон</string>
+			<string>Торсанду</string>
+			<string>Генду</string>
+			<string>Зорхаста</string>
+			<string>Варисек</string>
+			<string>Мендачу</string>
+			<string>Корасол</string>
+			<string>Перранду</string>
+			<string>Исарен</string>
+			<string>Ланкарос</string>
+			<string>Дурсто</string>
+			<string>Ранкон</string>
+			<string>Курестиан</string>
+			<string>Юдазиан</string>
+			<string>Квастен</string>
 		</DesignNames>
 		<VictoryConditions>
 			<VictoryCondition>
@@ -263,48 +263,48 @@
 			</VictoryCondition>
 		</VictoryConditions>
 		<CharacterFirstNames>
-			<string>Equia</string>
-			<string>Senaris</string>
-			<string>Udy</string>
-			<string>Tala</string>
-			<string>Kara</string>
-			<string>Setu</string>
-			<string>Cwegu</string>
-			<string>Cos</string>
-			<string>Tesa</string>
-			<string>Pok</string>
-			<string>Yadu</string>
-			<string>Deria</string>
-			<string>Aki</string>
-			<string>Shardu</string>
-			<string>Inar</string>
-			<string>Wendos</string>
-			<string>Jokal</string>
-			<string>Seru</string>
-			<string>Vuntal</string>
-			<string>Netu</string>
+			<string>Эквиа</string>
+			<string>Сенарис</string>
+			<string>Уди</string>
+			<string>Тала</string>
+			<string>Кара</string>
+			<string>Сету</string>
+			<string>Цвегу</string>
+			<string>Кос</string>
+			<string>Теса</string>
+			<string>Пок</string>
+			<string>Яду</string>
+			<string>Дерия</string>
+			<string>Аки</string>
+			<string>Шандар</string>
+			<string>Инар</string>
+			<string>Вендо</string>
+			<string>Джокал</string>
+			<string>Серу</string>
+			<string>Вунтал</string>
+			<string>Нету</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Wassoga</string>
-			<string>Qendo</string>
-			<string>Lapuri</string>
-			<string>Se</string>
-			<string>Mokuri</string>
-			<string>Zo</string>
-			<string>Tan</string>
-			<string>Mudo</string>
-			<string>Brosi</string>
-			<string>Neres</string>
-			<string>Yudos</string>
-			<string>Ukan</string>
-			<string>Opadu</string>
-			<string>Kassaru</string>
-			<string>Nerasi</string>
-			<string>Dando</string>
-			<string>Passun</string>
-			<string>Tafus</string>
-			<string>Zu</string>
-			<string>Nerendu</string>
+			<string>Вассога</string>
+			<string>Кендо</string>
+			<string>Лапури</string>
+			<string>Море</string>
+			<string>Мокури</string>
+			<string>Зо</string>
+			<string>Тан</string>
+			<string>Мудо</string>
+			<string>Броси</string>
+			<string>Нерес</string>
+			<string>Юдос</string>
+			<string>Укан</string>
+			<string>Опаду</string>
+			<string>Кассару</string>
+			<string>Нерази</string>
+			<string>Дандо</string>
+			<string>Пассун</string>
+			<string>Тафус</string>
+			<string>Зу</string>
+			<string>Неренду</string>
 		</CharacterLastNames>
 		<StartingArtifactIds>
 			<int>0</int> 

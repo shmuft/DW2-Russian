@@ -183,42 +183,42 @@
 			</RaceFactor>
 		</Biases>
 		<DesignNames>
-			<string>Bordeaux</string>
-			<string>Bayeux</string>
-			<string>Nazaire</string>
-			<string>Lyon</string>
-			<string>Monaco</string>
-			<string>Montpellier</string>
-			<string>Avignon</string>
-			<string>Strasbourg</string>
-			<string>Douai</string>
-			<string>Besancon</string>
-			<string>Montauban</string>
-			<string>Bayonne</string>
-			<string>Carcassonne</string>
-			<string>Narbonne</string>
-			<string>Bergerac</string>
-			<string>Chateauroux</string>
-			<string>Vendome</string>
-			<string>Valence</string>
-			<string>Cavaillon</string>
-			<string>Carpentras</string>
-			<string>Dijon</string>
-			<string>Beauvais</string>
-			<string>Calais</string>
-			<string>Versailles</string>
-			<string>Chartres</string>
-			<string>Chaumont</string>
-			<string>Massif</string>
-			<string>Anjou</string>
-			<string>Artois</string>
-			<string>Picardie</string>
-			<string>Rochefort</string>
-			<string>Auxerre</string>
-			<string>Montargis</string>
-			<string>Cherbourg</string>
-			<string>Verdun</string>
-			<string>Dunkerque</string>
+			<string>Бордо</string>
+			<string>Беви</string>
+			<string>Назар</string>
+			<string>Лион</string>
+			<string>Монако</string>
+			<string>Монпелье</string>
+			<string>Авиньон</string>
+			<string>Страсбург</string>
+			<string>Дуэ</string>
+			<string>Безансон</string>
+			<string>Монтобан</string>
+			<string>Байонна</string>
+			<string>Каркассон</string>
+			<string>Нарбонна</string>
+			<string>Бержерак</string>
+			<string>Шатору</string>
+			<string>Вандом</string>
+			<string>Валентность</string>
+			<string>Кавейон</string>
+			<string>Карпантра</string>
+			<string>Дижон</string>
+			<string>Бове</string>
+			<string>Кале</string>
+			<string>Версаль</string>
+			<string>Шартр</string>
+			<string>Шомон</string>
+			<string>Массив</string>
+			<string>Анжу</string>
+			<string>Артуа</string>
+			<string>Пикардия</string>
+			<string>Рошфор</string>
+			<string>Осер</string>
+			<string>Монтаржи</string>
+			<string>Шербур</string>
+			<string>Вердун</string>
+			<string>Дюнкерк</string>
 		</DesignNames>
 		<VictoryConditions>
 			<VictoryCondition>
@@ -253,44 +253,44 @@
 			</VictoryCondition>
 		</VictoryConditions>
 		<CharacterFirstNames>
-			<string>Gokut</string>
-			<string>Chandoor</string>
-			<string>Tokros</string>
-			<string>Wosant</string>
-			<string>Meegor</string>
-			<string>Kolisant</string>
-			<string>Esati</string>
-			<string>Quakku</string>
-			<string>Jundal</string>
-			<string>Putor</string>
-			<string>Borros</string>
-			<string>Dunal</string>
-			<string>Harrik</string>
-			<string>Lasdun</string>
-			<string>Astagar</string>
-			<string>Chupol</string>
-			<string>Okkian</string>
-			<string>Sando</string>
+			<string>Гокут</string>
+			<string>Чандор</string>
+			<string>Токрос</string>
+			<string>Восант</string>
+			<string>Мигор</string>
+			<string>Колизант</string>
+			<string>Эсати</string>
+			<string>Куакку</string>
+			<string>Джундал</string>
+			<string>Путер</string>
+			<string>Боррос</string>
+			<string>Дунал</string>
+			<string>Харрик</string>
+			<string>Ласдун</string>
+			<string>Астагар</string>
+			<string>Чупол</string>
+			<string>Оккиан</string>
+			<string>Сандо</string>
 		</CharacterFirstNames>
 		<CharacterLastNames>
-			<string>Baccasta</string>
-			<string>Yerod</string>
-			<string>Hodol</string>
-			<string>Ikkul</string>
-			<string>Hadar</string>
-			<string>Kurin</string>
-			<string>Lopeer</string>
-			<string>Zunod</string>
-			<string>Yafoos</string>
-			<string>Mechu</string>
-			<string>Rookil</string>
-			<string>Neesilon</string>
-			<string>Vutan</string>
-			<string>Durian</string>
-			<string>Wookos</string>
-			<string>Pakul</string>
-			<string>Caradas</string>
-			<string>Gokub</string>
+			<string>Бакаста</string>
+			<string>Йерод</string>
+			<string>Ходол</string>
+			<string>Иккулы</string>
+			<string>Хадар</string>
+			<string>Курина</string>
+			<string>Лоупир</string>
+			<string>Зунод</string>
+			<string>Яфоос</string>
+			<string>Мехо</string>
+			<string>Руккиль</string>
+			<string>Несилион</string>
+			<string>Вутан</string>
+			<string>Дуриан</string>
+			<string>Вукоос</string>
+			<string>Пакул</string>
+			<string>Карадас</string>
+			<string>Гокуб</string>
 		</CharacterLastNames>
 		<TreatyLevelModifier>5</TreatyLevelModifier>
 		<TreatyLongTermTrustModifierThis>2</TreatyLongTermTrustModifierThis>
