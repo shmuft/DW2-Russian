@@ -903,9 +903,7 @@
 		<OrbTypeId>5</OrbTypeId>
 		<Category>Star</Category>
 		<Name>Нейтронная звезда</Name>
-		<Description>Нейтронные звезды иногда могут иметь систему из одной или двух планет.
-
-Они испускают интенсивное радиоизлучение, достойное пристального изучения. По этой причине исследовательские станции, построенные рядом с нейтронной звездой, часто получают бонус к исследованиям.</Description>
+		<Description>Нейтронные звезды иногда могут иметь систему из одной или двух планет.\n\nОни испускают интенсивное радиоизлучение, достойное пристального изучения. По этой причине исследовательские станции, построенные рядом с нейтронной звездой, часто получают бонус к исследованиям.</Description>
 		<ImageFilename>Environment/OrbTypes/Neutron</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Neutron</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Neutron</FullsizeImageFilename>
@@ -2345,11 +2343,7 @@
 		<OrbTypeId>13</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Каменисто-кремниевые планеты</Name>
-		<Description>Планеты каменисто-кремниевых типов не имеют пригодной для дыхания атмосферы. Они часто богаты залежами кремния.
-
-Суровые, мрачные горы возвышаются над пыльными равнинами, озарёнными звёздами. Глубокие каньоны и трещины скрывают тёмные пещеры и тоннели.
-
-Планеты каменисто-кремниевых типов крайне непригодны для жизни и никогда не подходят для колонизации.</Description>
+		<Description>Планеты каменисто-кремниевых типов не имеют пригодной для дыхания атмосферы. Они часто богаты залежами кремния.\n\nСуровые, мрачные горы возвышаются над пыльными равнинами, озарёнными звёздами. Глубокие каньоны и трещины скрывают тёмные пещеры и тоннели.\n\nПланеты каменисто-кремниевых типов крайне непригодны для жизни и никогда не подходят для колонизации.</Description>
 		<ImageFilename>Environment/OrbTypes/RockySilicon</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/BarrenRock</LargeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/RockySilicon</LandscapeImageFilename>
@@ -3309,9 +3303,7 @@
 		<OrbTypeId>19</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Каменистая пустыня</Name>
-		<Description>Планеты каменистых пустынь представляют собой сухие скалистые равнины, а также обширные горные ландшафты с крутыми склонами.
-
-Высокие плато возвышаются над засушливыми скалистыми пустошами. Опустошительные горные хребты чередуются с глубокими извилистыми каньонами. Широкие системы пещер и туннелей встречаются повсеместно.</Description>
+		<Description>Планеты каменистых пустынь представляют собой сухие скалистые равнины, а также обширные горные ландшафты с крутыми склонами.\n\nВысокие плато возвышаются над засушливыми скалистыми пустошами. Опустошительные горные хребты чередуются с глубокими извилистыми каньонами. Широкие системы пещер и туннелей встречаются повсеместно.</Description>
 		<ImageFilename>Environment/OrbTypes/RockyDesert</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/RockyDesert</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/RockyDesert</FullsizeImageFilename>
@@ -3521,9 +3513,7 @@
 		<OrbTypeId>20</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Пустынная саванна</Name>
-		<Description>Планеты пустынной саванны представляют собой сухие и пыльные равнины, перемежающиеся короткой травой и чахлыми кустарниками.
-
-Здесь часто встречаются крупные пресноводные озера, окруженные редкими группами низкорослых деревьев.</Description>
+		<Description>Планеты пустынной саванны представляют собой сухие и пыльные равнины, перемежающиеся короткой травой и чахлыми кустарниками.\n\nЗдесь часто встречаются крупные пресноводные озера, окруженные редкими группами низкорослых деревьев.</Description>
 		<ImageFilename>Environment/OrbTypes/DesertSavanna</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/SavannaDesert</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/SavannaDesert</FullsizeImageFilename>
@@ -3677,9 +3667,7 @@
 		<OrbTypeId>21</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Ледяная тундра</Name>
-		<Description>Планеты ледяной тундры характеризуются обширными территориями замерзших ледяных пустошей. Скалистые возвышенности содержат гигантские ледники.
-
-Вдоль низменной береговой линии лёд и снег перемешаны с альпийскими лесами, образуя более гостеприимный регион.</Description>
+		<Description>Планеты ледяной тундры характеризуются обширными территориями замерзших ледяных пустошей. Скалистые возвышенности содержат гигантские ледники.\n\nВдоль низменной береговой линии лёд и снег перемешаны с альпийскими лесами, образуя более гостеприимный регион.</Description>
 		<ImageFilename>Environment/OrbTypes/IceTundra</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/IceTundra</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/IceTundra</FullsizeImageFilename>
@@ -3834,11 +3822,7 @@
 		<OrbTypeId>22</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Замерзший ледяной биом</Name>
-		<Description>Планеты с замерзшим ледяным биомом покрыты глубокими слоями льда и снега.
-
-Холодные ветры снежной бури непрерывно дуют над бесконечными замерзшими равнинами. Скалистые возвышенности покрыты колоссальными ледниками шириной в сотни километров.
-
-Временами теплые геотермальные источники проплавляют сложные туннельные системы сквозь сверхплотный лед.</Description>
+		<Description>Планеты с замерзшим ледяным биомом покрыты глубокими слоями льда и снега.\n\nХолодные ветры снежной бури непрерывно дуют над бесконечными замерзшими равнинами. Скалистые возвышенности покрыты колоссальными ледниками шириной в сотни километров.\n\nВременами теплые геотермальные источники проплавляют сложные туннельные системы сквозь сверхплотный лед.</Description>
 		<ImageFilename>Environment/OrbTypes/FrozenIce</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/FrozenIce</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/FrozenIce</FullsizeImageFilename>
@@ -4399,11 +4383,7 @@
 		<OrbTypeId>25</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Каменисто-металлический</Name>
-		<Description>Планеты каменисто-металлического типа не имеют пригодной для дыхания атмосферы. Они часто богаты месторождениями металлических руд.
-
-Суровые, тенистые горы возвышаются над пыльными равнинами, озарёнными звёздами. Глубокие каньоны и трещины скрывают тёмные пещеры и тоннели.
-
-Планеты каменисто-металлического типа крайне непригодны для жизни и никогда не подходят для колонизации.</Description>
+		<Description>Планеты каменисто-металлического типа не имеют пригодной для дыхания атмосферы. Они часто богаты месторождениями металлических руд.\n\nСуровые, тенистые горы возвышаются над пыльными равнинами, озарёнными звёздами. Глубокие каньоны и трещины скрывают тёмные пещеры и тоннели.\n\nПланеты каменисто-металлического типа крайне непригодны для жизни и никогда не подходят для колонизации.</Description>
 		<ImageFilename>Environment/OrbTypes/RockyMetallic</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/MetallicRock</LargeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/RockyMetallic</LandscapeImageFilename>
@@ -4558,11 +4538,7 @@
 		<OrbTypeId>26</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Каменисто-ледяной</Name>
-		<Description>Планеты каменисто-ледяного типа не имеют пригодной для дыхания атмосферы. Иногда на них встречаются залежи замороженного газа тидериоса.
-
-Бескрайние равнины льда и снега перемежаются полями пыли и камней.
-
-Планеты каменисто-ледяного типа крайне непригодны для жизни и никогда не подходят для колонизации.</Description>
+		<Description>Планеты каменисто-ледяного типа не имеют пригодной для дыхания атмосферы. Иногда на них встречаются залежи замороженного газа тидериоса.\n\nБескрайние равнины льда и снега перемежаются полями пыли и камней.\n\nПланеты каменисто-ледяного типа крайне непригодны для жизни и никогда не подходят для колонизации.</Description>
 		<ImageFilename>Environment/OrbTypes/RockyIce</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/RockyIce</LargeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/RockyIce</LandscapeImageFilename>
@@ -5080,9 +5056,7 @@
 		<OrbTypeId>29</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Углеродистый</Name>
-		<Description>Углеродистые планеты имеют тлеющие вулканы и обширную геотермальную активность.
-
-Воздух здесь обычно густо насыщен дымом и пеплом. На них часто встречаются крупные озера метана и других углеводородов.</Description>
+		<Description>Углеродистые планеты имеют тлеющие вулканы и обширную геотермальную активность.\n\nВоздух здесь обычно густо насыщен дымом и пеплом. На них часто встречаются крупные озера метана и других углеводородов.</Description>
 		<ImageFilename>Environment/OrbTypes/Carbonaceous</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Carbonaceous</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Carbonaceous</FullsizeImageFilename>

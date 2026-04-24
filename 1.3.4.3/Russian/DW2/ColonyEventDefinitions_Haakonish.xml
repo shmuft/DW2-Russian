@@ -26,9 +26,7 @@
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Экономический подъем - Доход</Name>
-		<Description>Наши хитроумные финансовые волшебники нашли способ временно стимулировать экономический рост с помощью творческого учета!
-
-Вся наша империя получит бонус к доходу в размере +10% на 5 лет.</Description>
+		<Description>Наши хитроумные финансовые волшебники нашли способ временно стимулировать экономический рост с помощью творческого учета!\n\nВся наша империя получит бонус к доходу в размере +10% на 5 лет.</Description>
 		<ImageFilename>Environment/Events/Economic Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -46,9 +44,7 @@
 		<ValuesDecayGradually>true</ValuesDecayGradually>
 		<ValuesDecayUpwardsFromZero>true</ValuesDecayUpwardsFromZero>
 		<Name>Экономический подъем - Коррупция</Name>
-		<Description>Творческий учет наших якобы хитроумных финансовых волшебников привел к нежелательному побочному эффекту - росту коррупции во всей нашей империи! И эта коррупция, похоже, продолжает расти со временем!
-
-В течение 5 лет вся наша империя будет страдать от растущего уровня коррупции.</Description>
+		<Description>Творческий учет наших якобы хитроумных финансовых волшебников привел к нежелательному побочному эффекту - росту коррупции во всей нашей империи! И эта коррупция, похоже, продолжает расти со временем!\n\nВ течение 5 лет вся наша империя будет страдать от растущего уровня коррупции.</Description>
 		<ImageFilename>Environment/Events/Economic Boost</ImageFilename>
 	</ColonyEventDefinition>
 

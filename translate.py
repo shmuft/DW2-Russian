@@ -154,6 +154,12 @@ class LocalTranslator:
     def translate_many(self, texts):
         return [translate_text(text) for text in texts]
 
+class FixNewLinesTranslator:
+    def translate_many(self, texts):
+        return [self._replace_new_lines(text) for text in texts]
+
+    def _replace_new_lines(self, text):
+        return text.replace('\n', '\\n')
 
 class RemotePoolTranslator:
     def __init__(self, addresses, model=DEFAULT_MODEL, timeout=DEFAULT_POOL_TIMEOUT):
@@ -578,15 +584,18 @@ def translate_txt_file(input_file: str, output_file: str, words_mode=False, tran
             print(f"Ошибка сохранения прогресса: {e}")
 
 
-def translate_file(input_file: str, output_file: str, file_type: str, words_mode=False, translator=None, fix_untranslated=False):
+def translate_file(input_file: str, output_file: str, file_type: str, words_mode=False, translator=None, fix_untranslated=False, fix_newlines=False):
     """
     Универсальная функция для перевода файла в зависимости от типа.
     """
     if file_type == 'xml':
-        translate_xml(input_file, output_file, words_mode, translator, fix_untranslated)
+        translate_xml(input_file, output_file, words_mode, translator, fix_untranslated, fix_newlines)
     elif file_type == 'txt':
         if fix_untranslated:
             print("Режим fix_untranslated не поддерживается для TXT файлов")
+            return
+        if fix_newlines:
+            print("Режим fix_newlines не поддерживается для TXT файлов")
             return
         translate_txt_file(input_file, output_file, words_mode, translator)
     else:
@@ -1026,8 +1035,7 @@ def build_translation_cache_from_paired_files(english_dir_path: str, russian_dir
     print(f"[INFO] Построено {len(cache)} переводов в кэше из {files_processed} файлов")
     return cache
 
-
-def translate_xml(input_file: str, output_file: str, words_mode=False, translator=None, fix_untranslated=False):
+def translate_xml(input_file: str, output_file: str, words_mode=False, translator=None, fix_untranslated=False, fix_newlines=False):
     # Загрузка прогресса ДО парсинга файла
     progress_file = f"{output_file}.progress.pkl"
     start_index = 0
@@ -1097,7 +1105,10 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
 
         print(f"Добавлено {fixed_count} переводов в кэш")
     
-    tree = ET.parse(source_file)
+    if (fix_newlines):
+        tree = ET.parse(output_file)
+    else:
+        tree = ET.parse(source_file)
     root = tree.getroot()
     log_entries = []
     words_set = set()
@@ -1400,6 +1411,11 @@ def main():
         action='store_true',
         help='Доперевести только недопереведённые элементы (где русский текст равен английскому)'
     )
+    parser.add_argument(
+        '--fix-newlines',
+        action='store_true',
+        help='Постобработка: заменить переносы строк на \\n в переведённых XML файлах (для директории вместо input/output)'
+    )
 
     args = parser.parse_args()
 
@@ -1413,6 +1429,13 @@ def main():
         else:
             parser.error(f'Неподдерживаемый тип файла для проверки: {args.type}')
 
+    # if args.fix_newlines:
+    #     if args.type != 'xml':
+    #         parser.error('--fix-newlines работает только с XML файлами')
+    #     print(f"Постобработка переносов в директории: {args.input}")
+    #     fix_newlines_in_directory(args.input)
+    #     return 0
+
     if args.output is None:
         parser.error('output обязателен, если не задан --check')
 
@@ -1425,11 +1448,13 @@ def main():
             pool_addresses.extend([addr.strip() for addr in chunk.split(',') if addr.strip()])
 
     translator = None
-    if pool_addresses:
+    if pool_addresses and not args.fix_newlines:
         translator = RemotePoolTranslator(pool_addresses, timeout=args.pool_timeout)
 
-    translate_file(args.input, args.output, args.type, words_mode=args.words, translator=translator, fix_untranslated=args.fix_untranslated if args.type == 'xml' else False)
+    if args.fix_newlines:
+        translator = FixNewLinesTranslator()
 
+    translate_file(args.input, args.output, args.type, words_mode=args.words, translator=translator, fix_untranslated=args.fix_untranslated if args.type == 'xml' else False, fix_newlines=args.fix_newlines)
 
 if __name__ == "__main__":
     sys.exit(main())

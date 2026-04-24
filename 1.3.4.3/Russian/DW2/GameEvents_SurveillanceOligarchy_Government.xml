@@ -54,10 +54,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Надзорная олигархия</MessageTitle>
-				<Description>Благодаря выбранной нами форме правления мы обрели понимание в области:
-
-[ULI][RESEARCH]Проникающие сканеры[/RESEARCH][/ULI]
-[ULI][RESEARCH]Улучшенные сенсоры[/RESEARCH][/ULI]</Description>
+				<Description>Благодаря выбранной нами форме правления мы обрели понимание в области:\n\n[ULI][RESEARCH]Проникающие сканеры[/RESEARCH][/ULI]\n[ULI][RESEARCH]Улучшенные сенсоры[/RESEARCH][/ULI]</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>

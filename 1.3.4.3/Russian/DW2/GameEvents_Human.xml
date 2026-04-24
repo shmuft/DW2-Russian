@@ -52,11 +52,7 @@
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Герой часа</MessageTitle>
-				<Description>Недавнее объявление войны против нас пробудило в наших военных рядах глубокие чувства героизма и мужества.
-
-В результате ряд перспективных офицеров демонстрирует выдающийся боевой дух. Нам следует повысить одного из них до звания флотского адмирала или генерала.
-
-Кого же нам выбрать? [CHARACTER]Адмирала[/CHARACTER] или [CHARACTER]Генерала[/CHARACTER]?</Description>
+				<Description>Недавнее объявление войны против нас пробудило в наших военных рядах глубокие чувства героизма и мужества.\n\nВ результате ряд перспективных офицеров демонстрирует выдающийся боевой дух. Нам следует повысить одного из них до звания флотского адмирала или генерала.\n\nКого же нам выбрать? [CHARACTER]Адмирала[/CHARACTER] или [CHARACTER]Генерала[/CHARACTER]?</Description>
 				<ImageFilepath>Environment/Events/Hero of the Hour</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -115,9 +111,7 @@
 			<GameEventAction>
 				<Type>GenerateCharacter</Type>
 				<MessageTitle>Герой часа</MessageTitle>
-				<Description>Новый герой вышел вперёд!
-
-[CHARACTER]Адмирал {1}[/CHARACTER] появился на {2}.</Description>
+				<Description>Новый герой вышел вперёд!\n\n[CHARACTER]Адмирал {1}[/CHARACTER] появился на {2}.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -237,9 +231,7 @@
 			<GameEventAction>
 				<Type>GenerateCharacter</Type>
 				<MessageTitle>Герой часа</MessageTitle>
-				<Description>Новый герой вышел вперёд!
-
-[CHARACTER]Генерал {1}[/CHARACTER] появился на {2}.</Description>
+				<Description>Новый герой вышел вперёд!\n\n[CHARACTER]Генерал {1}[/CHARACTER] появился на {2}.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -394,9 +386,7 @@
 			<GameEventAction>
 				<Type>GenerateCharacter</Type>
 				<MessageTitle>Внутренние споры</MessageTitle>
-				<Description>Подписание нами оборонительного договора вызвало обеспокоенность среди населения, спровоцировав споры «за» и «против». Это [BAD]снизило уровень счастья во всей нашей империи на 2 года[/BAD].
-
-Однако новый оборонительный договор также привел к появлению [CHARACTER]нового посла {1}[/CHARACTER] в точке {2}.</Description>
+				<Description>Подписание нами оборонительного договора вызвало обеспокоенность среди населения, спровоцировав споры «за» и «против». Это [BAD]снизило уровень счастья во всей нашей империи на 2 года[/BAD].\n\nОднако новый оборонительный договор также привел к появлению [CHARACTER]нового посла {1}[/CHARACTER] в точке {2}.</Description>
 				<ImageFilepath>Environment/Events/Internal Debates</ImageFilepath>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -553,13 +543,7 @@
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Усиленные меры безопасности</MessageTitle>
-				<Description>Недавний успех иностранной разведывательной миссии против нас вызывает обеспокоенность.
-
-Чтобы противостоять этим усилиям, мы можем [CHARACTER]потратить случайно выбранного шпиона[/CHARACTER], чтобы получить [BONUS]+20% бонус к контршпионажу на 2 года[/BONUS]. Шпион будет безвозвратно потерян.
-
-Однако это также приведет к тому, что [BAD]уровень счастья в нашей империи снизится на -5% на 2 года[/BAD].
-
-Стоит ли нам потратить шпиона ради получения этих временных бонусов к контршпионажу?</Description>
+				<Description>Недавний успех иностранной разведывательной миссии против нас вызывает обеспокоенность.\n\nЧтобы противостоять этим усилиям, мы можем [CHARACTER]потратить случайно выбранного шпиона[/CHARACTER], чтобы получить [BONUS]+20% бонус к контршпионажу на 2 года[/BONUS]. Шпион будет безвозвратно потерян.\n\nОднако это также приведет к тому, что [BAD]уровень счастья в нашей империи снизится на -5% на 2 года[/BAD].\n\nСтоит ли нам потратить шпиона ради получения этих временных бонусов к контршпионажу?</Description>
 				<ImageFilepath>Environment/Events/Heightened Security</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -674,9 +658,7 @@
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<Description>Наше недавнее завоевание континентальной планеты углубило наше понимание того, как колонизировать новые миры.
-
-В результате мы достигли научного прорыва в новой технологии колонизации.</Description>
+				<Description>Наше недавнее завоевание континентальной планеты углубило наше понимание того, как колонизировать новые миры.\n\nВ результате мы достигли научного прорыва в новой технологии колонизации.</Description>
 				<ImageFilepath>Environment/Events/New Worlds</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -737,9 +719,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Новые миры</MessageTitle>
-				<Description>Наша недавняя колонизация континентальной планеты углубила наше понимание того, как заселять новые миры.
-
-В результате мы достигли научного прорыва в новой технологии колонизации.</Description>
+				<Description>Наша недавняя колонизация континентальной планеты углубила наше понимание того, как заселять новые миры.\n\nВ результате мы достигли научного прорыва в новой технологии колонизации.</Description>
 				<ImageFilepath>Environment/Events/New Worlds</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -830,11 +810,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Великая художественная выставка</MessageTitle>
-				<Description>Недавнее строительство новой Развлекательной базы в {0} вызвало всплеск энтузиазма среди нашего населения, побудив некоторых наших деловых лидеров и местных чиновников организовать [GOOD]Великую художественную выставку[/GOOD] на нашей колонии [LOCATION]{6}[/LOCATION]. Эта выставка демонстрирует вершину искусства и культуры из окрестных систем.
-
-В результате наша империя в течение следующих 2 лет получит [BONUS]+10% к доходам от торговли и туризма[/BONUS].
-
-[LOCATION]{6}[/LOCATION] также получит [BONUS]+10% к доходу колонии и +10% бонус за живописность[/BONUS] в этот период.</Description>
+				<Description>Недавнее строительство новой Развлекательной базы в {0} вызвало всплеск энтузиазма среди нашего населения, побудив некоторых наших деловых лидеров и местных чиновников организовать [GOOD]Великую художественную выставку[/GOOD] на нашей колонии [LOCATION]{6}[/LOCATION]. Эта выставка демонстрирует вершину искусства и культуры из окрестных систем.\n\nВ результате наша империя в течение следующих 2 лет получит [BONUS]+10% к доходам от торговли и туризма[/BONUS].\n\n[LOCATION]{6}[/LOCATION] также получит [BONUS]+10% к доходу колонии и +10% бонус за живописность[/BONUS] в этот период.</Description>
 				<ImageFilepath>Environment/Events/Great Art Exposition</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -905,11 +881,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Великая художественная выставка</MessageTitle>
-				<Description>Недавнее подписание соглашения о свободной торговле вызвало всплеск энтузиазма во всём нашем населении, побудив некоторых наших деловых лидеров и местных чиновников организовать [GOOD]Великую художественную выставку[/GOOD] в нашей колонии [LOCATION]{6}[/LOCATION]. На этой выставке представлены вершина искусства и культуры из окрестных систем.
-
-В результате наша империя на следующие 2 года получит [BONUS]+10% к доходам от торговли и туризма[/BONUS].
-
-[LOCATION]{6}[/LOCATION] также в этот период получит [BONUS]+10% к доходу колонии и +10% бонус за живописность[/BONUS].</Description>
+				<Description>Недавнее подписание соглашения о свободной торговле вызвало всплеск энтузиазма во всём нашем населении, побудив некоторых наших деловых лидеров и местных чиновников организовать [GOOD]Великую художественную выставку[/GOOD] в нашей колонии [LOCATION]{6}[/LOCATION]. На этой выставке представлены вершина искусства и культуры из окрестных систем.\n\nВ результате наша империя на следующие 2 года получит [BONUS]+10% к доходам от торговли и туризма[/BONUS].\n\n[LOCATION]{6}[/LOCATION] также в этот период получит [BONUS]+10% к доходу колонии и +10% бонус за живописность[/BONUS].</Description>
 				<ImageFilepath>Environment/Events/Great Art Exposition</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>

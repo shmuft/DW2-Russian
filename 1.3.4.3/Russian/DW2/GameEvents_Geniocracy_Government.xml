@@ -52,13 +52,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Гениократия</MessageTitle>
-				<Description>Благодаря выбранной форме правления мы получили доступ к следующим исследованиям:
-
-[ULI][RESEARCH]Исследовательские лаборатории[/RESEARCH][/ULI]
-[ULI][RESEARCH]Улучшенные сенсоры[/RESEARCH][/ULI]
-[ULI][RESEARCH]Координированное управление[/RESEARCH][/ULI]
-
-На нашем родном мире также доступен [CHARACTER]учёный[/CHARACTER].</Description>
+				<Description>Благодаря выбранной форме правления мы получили доступ к следующим исследованиям:\n\n[ULI][RESEARCH]Исследовательские лаборатории[/RESEARCH][/ULI]\n[ULI][RESEARCH]Улучшенные сенсоры[/RESEARCH][/ULI]\n[ULI][RESEARCH]Координированное управление[/RESEARCH][/ULI]\n\nНа нашем родном мире также доступен [CHARACTER]учёный[/CHARACTER].</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>

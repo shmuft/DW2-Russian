@@ -13,7 +13,7 @@ import os
 from pathlib import Path
 from translate import build_translation_cache_from_paired_files, set_translation_cache, translate_text
 
-def translate_file(input_path: Path, output_path: Path, words_mode: bool = False, check_mode: bool = False, pool_addresses=None, pool_timeout: int = 120, cache_file: str = None, fix_untranslated: bool = False) -> int:
+def translate_file(input_path: Path, output_path: Path, words_mode: bool = False, check_mode: bool = False, pool_addresses=None, pool_timeout: int = 120, cache_file: str = None, fix_untranslated: bool = False, fix_newlines: bool = False) -> int:
     """
     Run translate.py for a single XML or TXT file.
 
@@ -32,6 +32,8 @@ def translate_file(input_path: Path, output_path: Path, words_mode: bool = False
             cmd.append('--words')
         if fix_untranslated and file_type == 'xml':
             cmd.append('--fix-untranslated')
+        if fix_newlines and file_type == 'xml':
+            cmd.append('--fix-newlines')
         if pool_addresses:
             for addr in pool_addresses:
                 cmd.extend(['--pool', addr])
@@ -106,6 +108,49 @@ def fix_untranslated_files(xml_files, english_dir, russian_dir, pool_addresses, 
     print(f"Успешно допереведено: {fixed_count}")
     return 0 if fixed_count == total_problems else 1
 
+def fix_newlines_files(xml_files, english_dir, russian_dir):
+    """
+    Найти и доперевести недопереведённые элементы в уже переведённых XML файлах.
+    TXT файлы пропускаются.
+    """
+    fixed_count = 0
+    total_problems = 0
+    
+    for xml_file in xml_files:
+        if xml_file.suffix.lower() != '.xml':
+            continue  # Пропускаем не XML файлы
+        rel_path = xml_file.relative_to(english_dir)
+        output_file = russian_dir / rel_path
+        
+        if not output_file.exists():
+            continue
+            
+        # Проверяем файл на непереведённые элементы
+        # Запускаем доперевод
+        print(f"Доперенос {xml_file} -> {output_file}")
+        result_code = translate_file(
+            xml_file,
+            output_file,
+            words_mode=False,
+            check_mode=False,
+            pool_addresses=None,
+            pool_timeout=0,
+            cache_file=None,  # Не используем кэш для доперевода
+            fix_untranslated=False,
+            fix_newlines=True
+        )
+            
+        if result_code == 0:
+            fixed_count += 1
+            print(f"Перенос строки завершён: {output_file}")
+        else:
+            print(f"Ошибка переноса строки: {output_file}")
+    
+    print(f"\nРезультат переносов:")
+    print(f"Файлов с проблемами: {total_problems}")
+    print(f"Успешно перенесено: {fixed_count}")
+    return 0 if fixed_count == total_problems else 1
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -147,6 +192,11 @@ def main():
         action='store_true',
         help='Найти и доперевести недопереведённые элементы в уже переведённых файлах'
     )
+    parser.add_argument(
+        '--fix-newlines',
+        action='store_true',
+        help='Постобработка: заменить переносы строк на \\n во всех переведённых XML файлах в русской директории'
+    )
 
     args = parser.parse_args()
 
@@ -155,6 +205,9 @@ def main():
     
     if args.fix_untranslated and (args.words or args.check or args.force):
         parser.error('--fix-untranslated нельзя использовать с --words, --check или --force')
+    
+    if args.fix_newlines and (args.words or args.check or args.force or args.fix_untranslated):
+        parser.error('--fix-newlines нельзя использовать с другими опциями')
 
     pool_addresses = []
     if args.pool:
@@ -172,7 +225,7 @@ def main():
     import pickle
     cache_file = '.translation_cache.pkl'
     
-    if russian_dir.exists() and not args.check and not args.words and not args.fix_untranslated:
+    if russian_dir.exists() and not args.check and not args.words and not args.fix_untranslated and not args.fix_newlines:
         print("\n[INFO] Построение кэша переводов из уже переведённых файлов...")
         print("[INFO] Пропускаем файлы в процессе перевода...")
         
@@ -218,6 +271,10 @@ def main():
         print(f"Поиск недопереведённых элементов в {len(all_files)} файлах...")
         return fix_untranslated_files(all_files, english_dir, russian_dir, pool_addresses, args.pool_timeout)
 
+    if args.fix_newlines:
+        print(f"\n[INFO] Постобработка переносов строк в русской директории...")
+        return fix_newlines_files(xml_files, english_dir, russian_dir)
+        
     print(f"Found {len(xml_files)} XML files and {len(txt_files)} TXT files to process")
 
     success_count = 0

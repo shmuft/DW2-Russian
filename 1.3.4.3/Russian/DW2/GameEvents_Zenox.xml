@@ -52,11 +52,7 @@
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Чудеса прошлого</MessageTitle>
-				<Description>Наше недавнее исследование руин вызвало у нашего народа всплеск интереса к галактической истории.
-
-Мы можем направить этот интерес одним из двух способов:
-[ULI]+10 к счастью империи на один год[/ULI][ULI]+10% ко всем исследованиям на один год[/ULI]
-Как нам использовать этот энтузиазм?</Description>
+				<Description>Наше недавнее исследование руин вызвало у нашего народа всплеск интереса к галактической истории.\n\nМы можем направить этот интерес одним из двух способов:\n[ULI]+10 к счастью империи на один год[/ULI][ULI]+10% ко всем исследованиям на один год[/ULI]\nКак нам использовать этот энтузиазм?</Description>
 				<ImageFilepath>Environment/Events/Zenox Wonders of the Past</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -229,11 +225,7 @@
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Предсказательная история</MessageTitle>
-				<Description>Наши недавние раскопки дают нам возможность применить здесь наши открытия для улучшения дипломатических и разведывательных миссий нашей империи, но ценой замедления исследований.
-
-Если мы воспользуемся этой возможностью, то в течение следующих двух лет получим следующие бонусы и штрафы:[ULI][BAD]-5% ко всем исследованиям[/BAD][/ULI][ULI][GOOD]+10% к дипломатии[/GOOD][/ULI][ULI][GOOD]+10% к контршпионажу[/GOOD][/ULI][ULI][GOOD]+10% к шпионажу[/GOOD][/ULI][ULI][GOOD]+10% к Пси-операциям[/GOOD][/ULI]
-
-Следует ли нам применить эти открытия таким образом или нет?</Description>
+				<Description>Наши недавние раскопки дают нам возможность применить здесь наши открытия для улучшения дипломатических и разведывательных миссий нашей империи, но ценой замедления исследований.\n\nЕсли мы воспользуемся этой возможностью, то в течение следующих двух лет получим следующие бонусы и штрафы:[ULI][BAD]-5% ко всем исследованиям[/BAD][/ULI][ULI][GOOD]+10% к дипломатии[/GOOD][/ULI][ULI][GOOD]+10% к контршпионажу[/GOOD][/ULI][ULI][GOOD]+10% к шпионажу[/GOOD][/ULI][ULI][GOOD]+10% к Пси-операциям[/GOOD][/ULI]\n\nСледует ли нам применить эти открытия таким образом или нет?</Description>
 				<ImageFilepath>Environment/Events/Predictive History</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -549,9 +541,7 @@
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<MessageTitle>Поиск в архивах</MessageTitle>
-				<Description>Наше исследование архивов открыло утраченные научные знания, ускоряющие наши исследовательские усилия!
-
-В течение следующих двух лет наша империя получит бонус [BONUS]+5% ко всем исследованиям[/BONUS].</Description>
+				<Description>Наше исследование архивов открыло утраченные научные знания, ускоряющие наши исследовательские усилия!\n\nВ течение следующих двух лет наша империя получит бонус [BONUS]+5% ко всем исследованиям[/BONUS].</Description>
 				<MessageViewMode>Dialog</MessageViewMode>
 				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
 				<Id1>130</Id1>
@@ -591,9 +581,7 @@
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<MessageTitle>Поиск в архивах</MessageTitle>
-				<Description>Наше исследование архивов раскрыло новые подробности о древних Зеноксах, очаровав народ нашей империи!
-
-В течение следующих двух лет наша колония получит бонус к счастью [+10].</Description>
+				<Description>Наше исследование архивов раскрыло новые подробности о древних Зеноксах, очаровав народ нашей империи!\n\nВ течение следующих двух лет наша колония получит бонус к счастью [+10].</Description>
 				<MessageViewMode>Dialog</MessageViewMode>
 				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
 				<Id1>131</Id1>
@@ -633,11 +621,7 @@
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<MessageTitle>Поиск в архивах</MessageTitle>
-				<Description>Наше исследование архивов выявило особое место в галактике.
-
-Сведений об этом месте крайне мало. Мы смогли лишь приблизительно определить его местоположение по случайным упоминаниям в архивах. Поэтому мы не знаем о нём ничего, кроме того, что оно обладает определённой важностью. Вероятно, нам следует исследовать это место.
-
-На нашу карту галактики добавлен [HL]навигационный маяк[/HL]. Это место также можно найти в списке особых локаций в разделе «Исследование».</Description>
+				<Description>Наше исследование архивов выявило особое место в галактике.\n\nСведений об этом месте крайне мало. Мы смогли лишь приблизительно определить его местоположение по случайным упоминаниям в архивах. Поэтому мы не знаем о нём ничего, кроме того, что оно обладает определённой важностью. Вероятно, нам следует исследовать это место.\n\nНа нашу карту галактики добавлен [HL]навигационный маяк[/HL]. Это место также можно найти в списке особых локаций в разделе «Исследование».</Description>
 				<MessageViewMode>Dialog</MessageViewMode>
 				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
 				<Id2>1</Id2>

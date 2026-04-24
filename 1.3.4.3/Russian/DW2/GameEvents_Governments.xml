@@ -52,11 +52,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Республика</MessageTitle>
-				<Description>Благодаря выбранной нами форме правления мы получили знания о:
-
-[ULI][RESEARCH]Планетарное управление[/RESEARCH][/ULI]
-
-Наше первое такое сооружение уже построено на нашей родной планете.</Description>
+				<Description>Благодаря выбранной нами форме правления мы получили знания о:\n\n[ULI][RESEARCH]Планетарное управление[/RESEARCH][/ULI]\n\nНаше первое такое сооружение уже построено на нашей родной планете.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -175,10 +171,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Демократия</MessageTitle>
-				<Description>Благодаря выбранной нами форме правления мы получили знания о:
-
-[ULI][RESEARCH]Космическое строительство[/RESEARCH][/ULI]
-[ULI][RESEARCH]Расширенные космические станции[/RESEARCH][/ULI]</Description>
+				<Description>Благодаря выбранной нами форме правления мы получили знания о:\n\n[ULI][RESEARCH]Космическое строительство[/RESEARCH][/ULI]\n[ULI][RESEARCH]Расширенные космические станции[/RESEARCH][/ULI]</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -293,13 +286,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Феодализм</MessageTitle>
-				<Description>Благодаря выбранной нами форме правления мы получили знания о:
-
-[ULI][RESEARCH]Звездные истребители[/RESEARCH][/ULI]
-[ULI][RESEARCH]Бой в невесомости[/RESEARCH][/ULI]
-[ULI][RESEARCH]Абордаж кораблей[/RESEARCH][/ULI]
-
-На нашем родном мире также доступна пехотное соединение.</Description>
+				<Description>Благодаря выбранной нами форме правления мы получили знания о:\n\n[ULI][RESEARCH]Звездные истребители[/RESEARCH][/ULI]\n[ULI][RESEARCH]Бой в невесомости[/RESEARCH][/ULI]\n[ULI][RESEARCH]Абордаж кораблей[/RESEARCH][/ULI]\n\nНа нашем родном мире также доступна пехотное соединение.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -688,10 +675,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Торговая гильдия</MessageTitle>
-				<Description>Благодаря выбранной нами форме правления мы получили знания о:
-
-[ULI][RESEARCH]Расширенный гражданский флот[/RESEARCH][/ULI]
-[ULI][RESEARCH]Расширенные космические станции[/RESEARCH][/ULI]</Description>
+				<Description>Благодаря выбранной нами форме правления мы получили знания о:\n\n[ULI][RESEARCH]Расширенный гражданский флот[/RESEARCH][/ULI]\n[ULI][RESEARCH]Расширенные космические станции[/RESEARCH][/ULI]</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -806,13 +790,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Военная диктатура</MessageTitle>
-				<Description>Благодаря выбранной нами форме правления мы получили знания о:
-
-[ULI][RESEARCH]Улучшенные эскорты[/RESEARCH][/ULI]
-[ULI][RESEARCH]Звездные корабли системного патруля[/RESEARCH][/ULI]
-[ULI][RESEARCH]Ударные войска[/RESEARCH][/ULI]
-
-На нашем родном мире также доступно бронетанковое соединение.</Description>
+				<Description>Благодаря выбранной нами форме правления мы получили знания о:\n\n[ULI][RESEARCH]Улучшенные эскорты[/RESEARCH][/ULI]\n[ULI][RESEARCH]Звездные корабли системного патруля[/RESEARCH][/ULI]\n[ULI][RESEARCH]Ударные войска[/RESEARCH][/ULI]\n\nНа нашем родном мире также доступно бронетанковое соединение.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -1199,13 +1177,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Монархия</MessageTitle>
-				<Description>Благодаря выбранной нами форме правления мы получили доступ к следующим исследованиям:
-
-[ULI][RESEARCH]Координированное управление[/RESEARCH][/ULI]
-[ULI][RESEARCH]Системы жизнеобеспечения экипажа[/RESEARCH][/ULI]
-[ULI][RESEARCH]Планетарный дворец[/RESEARCH][/ULI]
-
-На нашей родной планете также доступны наш дворец и пехотное подразделение.</Description>
+				<Description>Благодаря выбранной нами форме правления мы получили доступ к следующим исследованиям:\n\n[ULI][RESEARCH]Координированное управление[/RESEARCH][/ULI]\n[ULI][RESEARCH]Системы жизнеобеспечения экипажа[/RESEARCH][/ULI]\n[ULI][RESEARCH]Планетарный дворец[/RESEARCH][/ULI]\n\nНа нашей родной планете также доступны наш дворец и пехотное подразделение.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -1614,12 +1586,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Технократия</MessageTitle>
-				<Description>Благодаря выбранной форме правления мы получили знания о:
-
-[ULI][RESEARCH]Исследовательские сканеры[/RESEARCH][/ULI]
-[ULI][RESEARCH]Исследование планет[/RESEARCH][/ULI]
-
-На нашей родной планете также доступен [CHARACTER]учёный[/CHARACTER].</Description>
+				<Description>Благодаря выбранной форме правления мы получили знания о:\n\n[ULI][RESEARCH]Исследовательские сканеры[/RESEARCH][/ULI]\n[ULI][RESEARCH]Исследование планет[/RESEARCH][/ULI]\n\nНа нашей родной планете также доступен [CHARACTER]учёный[/CHARACTER].</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -1753,12 +1720,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Коллективный разум</MessageTitle>
-				<Description>Благодаря выбранной форме правления мы получили знания о:
-
-[ULI][RESEARCH]Улучшенная логистика[/RESEARCH][/ULI]
-[ULI][RESEARCH]Дальнобойные сенсоры[/RESEARCH][/ULI]
-
-На нашем родном мире также доступна пехотное подразделение.</Description>
+				<Description>Благодаря выбранной форме правления мы получили знания о:\n\n[ULI][RESEARCH]Улучшенная логистика[/RESEARCH][/ULI]\n[ULI][RESEARCH]Дальнобойные сенсоры[/RESEARCH][/ULI]\n\nНа нашем родном мире также доступна пехотное подразделение.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
