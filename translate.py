@@ -308,7 +308,11 @@ def check_translated_file(file_path: str) -> int:
                     for child in action.iter(tag):
                         check_text(child, f"{elem_tag}/TriggerActions/GameEventAction/{tag}")
             for action in elem.findall('.//PlacementActions/GameEventAction'):
-                for tag in ['GeneratedItemName', 'MessageTitle', 'Description']:
+                if action.find('Type').text in ['BuildFacility', 'GeneratePlanetarySystem', 'GenerateIndependentColony','GenerateAbandonedShipBase']:
+                    for child in action.iter('GeneratedItemName'):
+                        print(f"child is {child}")
+                        check_text(child, f"{elem_tag}/PlacementActions/GameEventAction/GeneratedItemName")
+                for tag in ['MessageTitle', 'Description']:
                     for child in action.iter(tag):
                         check_text(child, f"{elem_tag}/PlacementActions/GameEventAction/{tag}")
             for tag in ['Title', 'Description']:
@@ -324,6 +328,13 @@ def check_translated_file(file_path: str) -> int:
                     check_text(child, f"{elem_tag}/{tag}")
             for string_elem in elem.findall('.//FeatureExplanations/string'):
                 check_text(string_elem, f"{elem_tag}/FeatureExplanations/string")
+            for string_elem in elem.findall('.//DesignNames/string'):
+                check_text(string_elem, f"{elem_tag}/DesignNames/string")
+            for string_elem in elem.findall('.//CharacterFirstNames/string'):
+                check_text(string_elem, f"{elem_tag}/CharacterFirstNames/string")
+            for string_elem in elem.findall('.//CharacterLastNames/string'):
+                check_text(string_elem, f"{elem_tag}/CharacterLastNames/string")
+
         elif elem_tag == 'ResearchProjectDefinition':
             for tag in ['Name', 'Description']:
                 for child in elem.iter(tag):
@@ -696,7 +707,12 @@ def extract_translatable_texts(root):
                         if text:
                             texts.append((text, f"{elem_tag}/TriggerActions/GameEventAction/{tag}"))
             for action in elem.findall('.//PlacementActions/GameEventAction'):
-                for tag in ['GeneratedItemName', 'MessageTitle', 'Description']:
+                if action.find('Type').text in ['BuildFacility', 'GeneratePlanetarySystem', 'GenerateIndependentColony','GenerateAbandonedShipBase']:
+                    for child in action.iter('GeneratedItemName'):
+                        text = child.text.strip() if child.text else ''
+                        if text:
+                            texts.append((text, f"{elem_tag}/PlacementActions/GameEventAction/GeneratedItemName"))
+                for tag in ['MessageTitle', 'Description']:
                     for child in action.iter(tag):
                         text = child.text.strip() if child.text else ''
                         if text:
@@ -722,6 +738,18 @@ def extract_translatable_texts(root):
                 text = string_elem.text.strip() if string_elem.text else ''
                 if text:
                     texts.append((text, f"{elem_tag}/FeatureExplanations/string"))
+            for string_elem in elem.findall('.//DesignNames/string'):
+                text = string_elem.text.strip() if string_elem.text else ''
+                if text:
+                    texts.append((text, f"{elem_tag}/DesignNames/string"))
+            for string_elem in elem.findall('.//CharacterFirstNames/string'):
+                text = string_elem.text.strip() if string_elem.text else ''
+                if text:
+                    texts.append((text, f"{elem_tag}/CharacterFirstNames/string"))
+            for string_elem in elem.findall('.//CharacterLastNames/string'):
+                text = string_elem.text.strip() if string_elem.text else ''
+                if text:
+                    texts.append((text, f"{elem_tag}/CharacterLastNames/string"))
         elif elem_tag == 'ResearchProjectDefinition':
             for tag in ['Name', 'Description']:
                 for child in elem.iter(tag):
@@ -1100,7 +1128,15 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
                             else:
                                 add_task(child, tag, original)
             for action in elem.findall('.//PlacementActions/GameEventAction'):
-                for tag in ['GeneratedItemName', 'MessageTitle', 'Description']:
+                if action.find('Type').text in ['BuildFacility', 'GeneratePlanetarySystem', 'GenerateIndependentColony','GenerateAbandonedShipBase']:
+                    for child in action.iter('GeneratedItemName'):
+                        original = child.text.strip() if child.text else ''
+                        if original:
+                            if words_mode:
+                                words_set.add(original)
+                            else:
+                                add_task(child, tag, original)
+                for tag in ['MessageTitle', 'Description']:
                     for child in action.iter(tag):
                         original = child.text.strip() if child.text else ''
                         if original:
@@ -1141,6 +1177,27 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
                         words_set.add(original)
                     else:
                         add_task(string_elem, 'string (FeatureExplanations)', original)
+            for string_elem in elem.findall('.//DesignNames/string'):
+                original = string_elem.text.strip() if string_elem.text else ''
+                if original:
+                    if words_mode:
+                        words_set.add(original)
+                    else:
+                        add_task(string_elem, 'string (DesignNames)', original)
+            for string_elem in elem.findall('.//CharacterFirstNames/string'):
+                original = string_elem.text.strip() if string_elem.text else ''
+                if original:
+                    if words_mode:
+                        words_set.add(original)
+                    else:
+                        add_task(string_elem, 'string (CharacterFirstNames)', original)
+            for string_elem in elem.findall('.//CharacterLastNames/string'):
+                original = string_elem.text.strip() if string_elem.text else ''
+                if original:
+                    if words_mode:
+                        words_set.add(original)
+                    else:
+                        add_task(string_elem, 'string (CharacterLastNames)', original)
         elif elem_tag == 'ResearchProjectDefinition':
             for tag in ['Name', 'Description']:
                 for child in elem.iter(tag):

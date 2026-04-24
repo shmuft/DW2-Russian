@@ -2309,7 +2309,7 @@
 		<IsRuins>true</IsRuins>
 		<BombardmentResistance>1</BombardmentResistance>
 		<GroundCombatResistance>1</GroundCombatResistance>
-		<Name>Погребенный древний линкор</Name>
+		<Name>Погребённый древний линкор</Name>
 		<ImageFilename>Environment/Events/CrashedShip</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
