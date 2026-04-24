@@ -2,7 +2,7 @@
 <ArrayOfResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>828</ResearchProjectId>
-		<Name>Исцелить деградировавших гизурианов</Name>
+		<Name>Лечение деградировавших гизуриан</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>1760</Size>
 		<EnabledByDefault>false</EnabledByDefault>
@@ -902,7 +902,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>844</ResearchProjectId>
-		<Name>Большие базы истребителей улья</Name>
+		<Name>Массивные базы истребителей улья</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>47520</Size>
 		<InitiationCost>
@@ -976,7 +976,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>847</ResearchProjectId>
-		<Name>Изучение деградировавших Гизурианов</Name>
+		<Name>Изучение деградировавших гизуринов</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2640</Size>
 		<EnabledByDefault>false</EnabledByDefault>

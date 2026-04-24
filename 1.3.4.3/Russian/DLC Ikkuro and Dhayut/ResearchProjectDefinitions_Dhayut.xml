@@ -2,7 +2,7 @@
 <ArrayOfResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>789</ResearchProjectId>
-		<Name>Усиленное порабощение</Name>
+		<Name>Улучшенное порабощение</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>880</Size>
 		<InitiationCost>
@@ -80,7 +80,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>796</ResearchProjectId>
-		<Name>Теория импульсного прыжка</Name>
+		<Name>Теория импульсных прыжков</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>1320</Size>
 		<InitiationCost>
@@ -138,7 +138,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>797</ResearchProjectId>
-		<Name>Продвинутые импульсные прыжковые двигатели</Name>
+		<Name>Совершенные импульсные прыжковые двигатели</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2640</Size>
 		<InitiationCost>
@@ -262,7 +262,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>799</ResearchProjectId>
-		<Name>Объединённая теория импульсных прыжков</Name>
+		<Name>Единая теория импульсных прыжков</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>71280</Size>
 		<InitiationCost>

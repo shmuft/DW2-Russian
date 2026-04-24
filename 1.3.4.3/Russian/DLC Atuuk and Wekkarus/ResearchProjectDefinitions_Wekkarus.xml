@@ -2,7 +2,7 @@
 <ArrayOfResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>7</ResearchProjectId>
-		<Name>Импульсно‑волновое оружие</Name>
+		<Name>Импульсно-волновое оружие</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>187.5</Size>
 		<InitiationCost>
@@ -56,7 +56,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>48</ResearchProjectId>
-		<Name>Улучшенные волновые орудия</Name>
+		<Name>Улучшенное волновое оружие</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2000</Size>
 		<InitiationCost>
@@ -110,7 +110,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>106</ResearchProjectId>
-		<Name>Передовые волновые вооружения</Name>
+		<Name>Продвинутое волновое оружие</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>6000</Size>
 		<InitiationCost>
@@ -168,7 +168,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>161</ResearchProjectId>
-		<Name>Превосходные волновые орудия</Name>
+		<Name>Превосходное волновое оружие</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>54000</Size>
 		<InitiationCost>
@@ -265,7 +265,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1008</ResearchProjectId>
-		<Name>Жидкостное энергетическое хранилище</Name>
+		<Name>Хранение жидкой энергии</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>880</Size>
 		<InitiationCost>
@@ -323,7 +323,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1009</ResearchProjectId>
-		<Name>Хранение энергии под высоким давлением</Name>
+		<Name>Высокоплотные накопители энергии</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2640</Size>
 		<InitiationCost>

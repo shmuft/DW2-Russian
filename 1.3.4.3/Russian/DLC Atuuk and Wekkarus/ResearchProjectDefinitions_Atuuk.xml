@@ -40,7 +40,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>923</ResearchProjectId>
-		<Name>Великие Дела Выставляют</Name>
+		<Name>Великая выставка достижений</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>1760</Size>
 		<InitiationCost>
@@ -85,7 +85,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>924</ResearchProjectId>
-		<Name>Приветствие новых Друзей</Name>
+		<Name>Приём новых друзей</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>880</Size>
 		<InitiationCost>

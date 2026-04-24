@@ -219,7 +219,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>486</ResearchProjectId>
-		<Name>Продвинутые термоядерные орудия</Name>
+		<Name>Продвинутое термоядерное оружие</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>18000</Size>
 		<InitiationCost>
@@ -493,7 +493,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>774</ResearchProjectId>
-		<Name>Улучшенные термоядерные орудия</Name>
+		<Name>Улучшенное термоядерное оружие</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>3000</Size>
 		<InitiationCost>
@@ -559,7 +559,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>791</ResearchProjectId>
-		<Name>Улучшенная колонизация</Name>
+		<Name>Улучш. колонизация</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>1760</Size>
 		<InitiationCost>
@@ -636,7 +636,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>792</ResearchProjectId>
-		<Name>Усиленная колонизация</Name>
+		<Name>Усил. колонизация</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>10560</Size>
 		<InitiationCost>
@@ -721,7 +721,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>793</ResearchProjectId>
-		<Name>Улучшенная обитаемость</Name>
+		<Name>Улучш. обитаемость</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>31680</Size>
 		<InitiationCost>
@@ -768,7 +768,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>794</ResearchProjectId>
-		<Name>Продвинутая обитаемость</Name>
+		<Name>Продв. обитаемость</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>95040</Size>
 		<InitiationCost>
@@ -815,7 +815,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>795</ResearchProjectId>
-		<Name>Совершенная обитаемость</Name>
+		<Name>Превосх. обитаемость</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>380160</Size>
 		<InitiationCost>
@@ -1972,7 +1972,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>815</ResearchProjectId>
-		<Name>Гармоничное развитие серно-вулканического биома</Name>
+		<Name>Гармоничное развитие серно‑вулканического биома</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>5280</Size>
 		<InitiationCost>

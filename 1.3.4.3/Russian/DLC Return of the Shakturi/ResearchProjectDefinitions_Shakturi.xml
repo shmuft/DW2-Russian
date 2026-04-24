@@ -1366,7 +1366,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>908</ResearchProjectId>
-		<Name>Продвинутое изучение Гравиллексов</Name>
+		<Name>Продвинутое изучение Гравиллекcов</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>47520</Size>
 		<InitiationCost>
@@ -1413,7 +1413,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>909</ResearchProjectId>
-		<Name>Мастерство управления Гравиллексами</Name>
+		<Name>Мастерство управления Гравиллекcами</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>95040</Size>
 		<InitiationCost>
@@ -5312,7 +5312,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1007</ResearchProjectId>
-		<Name>Сверхмаскировка Зеноксов</Name>
+		<Name>Супер-стелс Зеноксов</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>380160</Size>
 		<InitiationCost>
