@@ -1774,7 +1774,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Тревожные культурные сдвиги</MessageTitle>
-				<Description>Мы завершили исследования культуры Дхают. Теперь мы лучше понимаем этих… интересных существ. Мы надеемся, что сможем использовать это понимание для построения будущего мирного сосуществования.</Description>
+				<Description>Мы завершили исследования культуры Дхают. Теперь мы лучше понимаем этих... интересных существ. Мы надеемся, что сможем использовать это понимание для построения будущего мирного сосуществования.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -2326,7 +2326,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Входящее сообщение</MessageTitle>
-				<Description>Приветствуем гостей нашей системы. Мы - Гармоничная Пустота. Мы стремимся жить в мире и гармонии со всеми, кто обитает в этой богатой ресурсами системе. Если ваша миссия направлена на исследование и понимание, мы разрешим вам проход. Однако любые попытки установить постоянный плацдарм в нашей родной системе будут восприняты как… негармоничные.</Description>
+				<Description>Приветствуем гостей нашей системы. Мы - Гармоничная Пустота. Мы стремимся жить в мире и гармонии со всеми, кто обитает в этой богатой ресурсами системе. Если ваша миссия направлена на исследование и понимание, мы разрешим вам проход. Однако любые попытки установить постоянный плацдарм в нашей родной системе будут восприняты как... негармоничные.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>

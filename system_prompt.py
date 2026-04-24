@@ -74,7 +74,7 @@ LINGUISTIC RULES:
     - "Our Friends Were Here!"→"Наши Друзья были здесь!"
 
 20. Logical comparative constructions must be translated naturally:
-    - "rather than"→"скорее … чем …".
+    - "rather than"→"скорее ... чем ...".
 
 21. When "Generation" refers to a group of people, translate as "Поколение":
     - "Home Ruin Generation"→"Поколение, разрушившее дом".
@@ -129,7 +129,7 @@ TERMINOLOGY RULES:
     - "Large Troop Transport”→"Большой десантный корабль"
     - "Super Troop Transport”→"Сверхкрупный десантный корабль"
 23.14 Ship class translations for combat ship types (Escorts, Frigates, Destroyers, Cruisers, troop transports, etc.):
-    All constructions of the form "<Adjective> + Escort/Frigate/Destroyer/Cruiser/…>” must be translated:
+    All constructions of the form "<Adjective> + Escort/Frigate/Destroyer/Cruiser/...>” must be translated:
     - literally,
     - without changing the word order,
     - without restructuring the phrase,
