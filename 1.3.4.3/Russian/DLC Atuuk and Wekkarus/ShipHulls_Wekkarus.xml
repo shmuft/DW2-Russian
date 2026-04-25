@@ -2580,7 +2580,7 @@
 				<Amount>100</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт</Name>
+		<Name>Малый космопорт</Name>
 		<ImageFilename>Ships/Wekkarus/Images/Wekkarus_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -9916,7 +9916,7 @@
 				<Amount>150</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт v2</Name>
+		<Name>Малый космопорт v2</Name>
 		<ImageFilename>Ships/Wekkarus/Images/Wekkarus_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -18855,7 +18855,7 @@
 				<Amount>216</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт v3</Name>
+		<Name>Малый космопорт v3</Name>
 		<ImageFilename>Ships/Wekkarus/Images/Wekkarus_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -26496,7 +26496,7 @@
 				<Amount>288</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Средний космический порт</Name>
+		<Name>Средний космопорт</Name>
 		<ImageFilename>Ships/Wekkarus/Images/Wekkarus_Medium_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -27768,7 +27768,7 @@
 				<Amount>216</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Космическая крепость</Name>
+		<Name>Космический бастион</Name>
 		<ImageFilename>Ships/Wekkarus/Images/Wekkarus_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -33978,7 +33978,7 @@
 				<Amount>420</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Средний космический порт v2</Name>
+		<Name>Средний космопорт v2</Name>
 		<ImageFilename>Ships/Wekkarus/Images/Wekkarus_Medium_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -35382,7 +35382,7 @@
 				<Amount>264</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Космическая крепость v2</Name>
+		<Name>Космический бастион v2</Name>
 		<ImageFilename>Ships/Wekkarus/Images/Wekkarus_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -43055,7 +43055,7 @@
 				<Amount>314</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Командный крейсер</Name>
+		<Name>Крейсер командования</Name>
 		<ImageFilename>Ships/Wekkarus/Images/Wekkarus_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -46341,7 +46341,7 @@
 				<Amount>544</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Линейный корабль</Name>
+		<Name>Линкор</Name>
 		<ImageFilename>Ships/Wekkarus/Images/Wekkarus_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -48653,7 +48653,7 @@
 				<Amount>384</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Разведывательный крейсер</Name>
+		<Name>Исследовательский крейсер</Name>
 		<ImageFilename>Ships/Wekkarus/Images/Wekkarus_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -52761,7 +52761,7 @@
 				<Amount>544</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Экспедиционный транспортный корабль</Name>
+		<Name>Экспедиционный транспорт</Name>
 		<ImageFilename>Ships/Wekkarus/Images/Wekkarus_Troop_Transport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -54605,7 +54605,7 @@
 				<Amount>1280</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Большой космический порт</Name>
+		<Name>Большой космопорт</Name>
 		<ImageFilename>Ships/Wekkarus/Images/Wekkarus_Large_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -55463,7 +55463,7 @@
 				<Amount>544</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Большой колонизационный корабль</Name>
+		<Name>Массивный колонизационный корабль</Name>
 		<ImageFilename>Ships/Wekkarus/Images/Wekkarus_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -59437,7 +59437,7 @@
 				<Amount>640</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Транспортный корабль армии</Name>
+		<Name>Десантный корабль</Name>
 		<ImageFilename>Ships/Wekkarus/Images/Wekkarus_Troop_Transport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -65059,7 +65059,7 @@
 				<Amount>2880</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Секторный космический порт</Name>
+		<Name>Космопорт сектора</Name>
 		<ImageFilename>Ships/Wekkarus/Images/Wekkarus_Large_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -68273,7 +68273,7 @@
 				<Amount>40</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Штурмовик-бомбардировщик</Name>
+		<Name>Штурм. бомбард.</Name>
 		<ImageFilename>Ships/Wekkarus/Images/drone_bomber</ImageFilename>
 	</ShipHull>
 </ArrayOfShipHull>

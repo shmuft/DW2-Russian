@@ -3702,7 +3702,7 @@
 				<Amount>125</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт</Name>
+		<Name>Малый космопорт</Name>
 		<ImageFilename>Ships/Quameno/Images/Quameno Spaceport Small</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -14186,7 +14186,7 @@
 				<Amount>188</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт v2</Name>
+		<Name>Малый космопорт v2</Name>
 		<ImageFilename>Ships/Quameno/Images/Quameno Spaceport Small</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -26830,7 +26830,7 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт v3</Name>
+		<Name>Малый космопорт v3</Name>
 		<ImageFilename>Ships/Quameno/Images/Quameno Spaceport Small</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -35918,7 +35918,7 @@
 				<Amount>360</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Средний космический порт</Name>
+		<Name>Средний космопорт</Name>
 		<ImageFilename>Ships/Quameno/Images/Quameno Spaceport Medium</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -37498,7 +37498,7 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Космическая крепость</Name>
+		<Name>Космический бастион</Name>
 		<ImageFilename>Ships/Quameno/Images/Quameno Spaceport Small</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -45839,7 +45839,7 @@
 				<Amount>525</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Средний космический порт v2</Name>
+		<Name>Средний космопорт v2</Name>
 		<ImageFilename>Ships/Quameno/Images/Quameno Spaceport Medium</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -47549,7 +47549,7 @@
 				<Amount>330</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Космическая крепость v2</Name>
+		<Name>Космический бастион v2</Name>
 		<ImageFilename>Ships/Quameno/Images/Quameno Spaceport Small</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -57359,7 +57359,7 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Командный крейсер</Name>
+		<Name>Крейсер командования</Name>
 		<ImageFilename>Ships/Quameno/Images/Quameno Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -60104,7 +60104,7 @@
 				<Amount>490</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Массивный десантный корабль</Name>
+		<Name>Сверхкрупный десантный корабль</Name>
 		<ImageFilename>Ships/Quameno/Images/Quameno Troop Transport Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -64723,7 +64723,7 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Разведывательный крейсер</Name>
+		<Name>Исследовательский крейсер</Name>
 		<ImageFilename>Ships/Quameno/Images/Quameno Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -70528,7 +70528,7 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Экспедиционный транспортный корабль</Name>
+		<Name>Экспедиционный транспорт</Name>
 		<ImageFilename>Ships/Quameno/Images/Quameno Troop Transport Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -72712,7 +72712,7 @@
 				<Amount>1600</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Большой космический порт</Name>
+		<Name>Большой космопорт</Name>
 		<ImageFilename>Ships/Quameno/Images/Quameno Spaceport Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -73876,7 +73876,7 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Сверхкрупный колонизационный корабль</Name>
+		<Name>Массивный колонизационный корабль</Name>
 		<ImageFilename>Ships/Quameno/Images/Quameno Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -78865,7 +78865,7 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Транспортный корабль армии</Name>
+		<Name>Десантный корабль</Name>
 		<ImageFilename>Ships/Quameno/Images/Quameno Troop Transport Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -85723,7 +85723,7 @@
 				<Amount>3600</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Секторный космический порт</Name>
+		<Name>Космопорт сектора</Name>
 		<ImageFilename>Ships/Quameno/Images/Quameno Spaceport Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -88937,7 +88937,7 @@
 				<Amount>50</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Штурмовик-бомбардировщик</Name>
+		<Name>Штурм. бомбард.</Name>
 		<ImageFilename>Ships/Quameno/Images/Quameno Drone Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>

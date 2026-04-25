@@ -1979,7 +1979,7 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Колонизационный корабль</Name>
+		<Name>Колонизатор</Name>
 		<ImageFilename>Ships/Abandoned/Images/Abandoned_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -3100,7 +3100,7 @@
 				<Amount>225</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт</Name>
+		<Name>Малый космопорт</Name>
 		<ImageFilename>Ships/Abandoned/Images/AbandonedStation1</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -4225,7 +4225,7 @@
 				<Amount>225</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт</Name>
+		<Name>Малый космопорт</Name>
 		<ImageFilename>Ships/Abandoned/Images/AbandonedStation1Dead</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -5354,7 +5354,7 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт</Name>
+		<Name>Малый космопорт</Name>
 		<ImageFilename>Ships/Abandoned/Images/AbandonedStation2</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -6469,7 +6469,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 		</ComponentBays>
-		<Name>Малый космический порт</Name>
+		<Name>Малый космопорт</Name>
 		<ImageFilename>Ships/Abandoned/Images/AbandonedStation2Dead</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -8681,7 +8681,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 		</ComponentBays>
-		<Name>Малый космический порт</Name>
+		<Name>Малый космопорт</Name>
 		<ImageFilename>Ships/Abandoned/Images/AbandonedStation3</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -9796,7 +9796,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 		</ComponentBays>
-		<Name>Малый космический порт</Name>
+		<Name>Малый космопорт</Name>
 		<ImageFilename>Ships/Abandoned/Images/AbandonedStation3Dead</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -10911,7 +10911,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 		</ComponentBays>
-		<Name>Малый космический порт</Name>
+		<Name>Малый космопорт</Name>
 		<ImageFilename>Ships/Abandoned/Images/AbandonedStation4</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -12026,7 +12026,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 		</ComponentBays>
-		<Name>Малый космический порт</Name>
+		<Name>Малый космопорт</Name>
 		<ImageFilename>Ships/Abandoned/Images/AbandonedStation4Dead</ImageFilename>
 	</ShipHull>
 	<ShipHull>

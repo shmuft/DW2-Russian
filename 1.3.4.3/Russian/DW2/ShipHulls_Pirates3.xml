@@ -2349,7 +2349,7 @@
 				<Amount>125</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт</Name>
+		<Name>Малый космопорт</Name>
 		<ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_3</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -4786,7 +4786,7 @@
 				<Amount>188</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт v2</Name>
+		<Name>Малый космопорт v2</Name>
 		<ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_3</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -7370,7 +7370,7 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт v3</Name>
+		<Name>Малый космопорт v3</Name>
 		<ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_3</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -9914,7 +9914,7 @@
 				<Amount>330</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Космическая крепость v2</Name>
+		<Name>Космический бастион v2</Name>
 		<ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_3</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -13343,7 +13343,7 @@
 				<Amount>43</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Тяжелый бомбардировщик</Name>
+		<Name>Тяжёлый бомбардировщик</Name>
 		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_3</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -13610,7 +13610,7 @@
 				<Amount>50</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Штурмовой бомбардировщик</Name>
+		<Name>Штурм. бомбард.</Name>
 		<ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_3</ImageFilename>
 	</ShipHull>
 	<ShipHull>

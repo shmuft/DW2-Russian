@@ -2423,7 +2423,7 @@
 				<Amount>125</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт</Name>
+		<Name>Малый космопорт</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Station_Small</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -5700,7 +5700,7 @@
 				<Amount>188</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт v2</Name>
+		<Name>Малый космопорт v2</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Station_Small</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -14602,7 +14602,7 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт v3</Name>
+		<Name>Малый космопорт v3</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Station_Small</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -22499,7 +22499,7 @@
 				<Amount>360</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Средний космический порт</Name>
+		<Name>Средний космопорт</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Station_Medium</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -29877,7 +29877,7 @@
 				<Amount>525</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Средний космический порт v2</Name>
+		<Name>Средний космопорт v2</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Station_Medium</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -31196,7 +31196,7 @@
 				<Amount>330</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Космическая крепость v2</Name>
+		<Name>Космический бастион v2</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Station_Small</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -41911,7 +41911,7 @@
 				<Amount>490</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Массивный десантный корабль</Name>
+		<Name>Сверхкрупный десантный корабль</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Ship_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -46134,7 +46134,7 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Разведывательный крейсер</Name>
+		<Name>Исследовательский крейсер</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -50850,7 +50850,7 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Экспедиционный транспортный корабль</Name>
+		<Name>Экспедиционный транспорт</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Ship_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -52643,7 +52643,7 @@
 				<Amount>1600</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Большой космический порт</Name>
+		<Name>Большой космопорт</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Station_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -57811,7 +57811,7 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Транспортный корабль армии</Name>
+		<Name>Десантный корабль</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Ship_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -60335,7 +60335,7 @@
 				<Amount>1080</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Линейный крейсер</Name>
+		<Name>Дредноут</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Ship_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -63701,7 +63701,7 @@
 				<Amount>3600</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Секторный космический порт</Name>
+		<Name>Космопорт сектора</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Station_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -66212,7 +66212,7 @@
 				<Amount>43</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Тяжелый бомбардировщик</Name>
+		<Name>Тяжёлый бомбардировщик</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -66915,7 +66915,7 @@
 				<Amount>50</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Штурмовой бомбардировщик</Name>
+		<Name>Штурм. бомбард.</Name>
 		<ImageFilename>Ships/Shakturi/Images/SM_Shakturi_Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>

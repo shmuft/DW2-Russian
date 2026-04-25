@@ -11147,7 +11147,7 @@
         <Amount>188</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Haakonish/Images/small_spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -17816,7 +17816,7 @@
         <Amount>188</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -28354,7 +28354,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Haakonish/Images/small_spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -29897,7 +29897,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -41507,7 +41507,7 @@
         <Amount>360</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Средний космический порт</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Haakonish/Images/mSpacePort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -43867,7 +43867,7 @@
         <Amount>360</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Средний космический порт</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Mortalen/Images/mediumspaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -57359,7 +57359,7 @@
         <Amount>525</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Средний космический порт</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Haakonish/Images/mSpacePort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -59753,7 +59753,7 @@
         <Amount>525</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Средний космический порт</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Mortalen/Images/mediumspaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -66409,7 +66409,7 @@
         <Amount>125</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Haakonish/Images/small_spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -67277,7 +67277,7 @@
         <Amount>125</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -69078,7 +69078,7 @@
         <Amount>125</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Human/Images/human_spaceportS</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -75026,7 +75026,7 @@
         <Amount>188</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Human/Images/human_spaceportS</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -81245,7 +81245,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Human/Images/human_spaceportS</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -86353,7 +86353,7 @@
         <Amount>360</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Средний космический порт</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Human/Images/human_spaceportM</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -91855,7 +91855,7 @@
         <Amount>525</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Средний космический порт</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Human/Images/human_spaceportM</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -98590,7 +98590,7 @@
         <Amount>125</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_Small_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -105385,7 +105385,7 @@
         <Amount>188</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_Small_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -113354,7 +113354,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_Small_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -119875,7 +119875,7 @@
         <Amount>360</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Средний космический порт</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_Medium_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -127540,7 +127540,7 @@
         <Amount>525</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Средний космический порт</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_Medium_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -134458,7 +134458,7 @@
         <Amount>125</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Ackdarian/Images/Ackdarian_SmallSpacePort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -139484,7 +139484,7 @@
         <Amount>188</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Ackdarian/Images/Ackdarian_SmallSpacePort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -145811,7 +145811,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Ackdarian/Images/Ackdarian_SmallSpacePort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -150825,7 +150825,7 @@
         <Amount>360</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Средний космический порт</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Ackdarian/Images/Ackdarian_MediumSpacePort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -156787,7 +156787,7 @@
         <Amount>525</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Средний космический порт</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Ackdarian/Images/Ackdarian_MediumSpacePort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -166629,7 +166629,7 @@
         <Amount>490</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Массивный десантный корабль</Name>
+    <Name>Сверхкрупный десантный корабль</Name>
     <ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -170433,7 +170433,7 @@
         <Amount>480</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Разведывательный крейсер</Name>
+    <Name>Исследовательский крейсер</Name>
     <ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -174154,7 +174154,7 @@
         <Amount>680</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Экспедиционный транспортный корабль</Name>
+    <Name>Экспедиционный транспорт</Name>
     <ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -175707,7 +175707,7 @@
         <Amount>1600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Большой космический порт</Name>
+    <Name>Большой космопорт</Name>
     <ImageFilename>Ships/Haakonish/Images/lSpacePort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -180847,7 +180847,7 @@
         <Amount>800</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Транспортный корабль армии</Name>
+    <Name>Десантный корабль</Name>
     <ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -183175,7 +183175,7 @@
         <Amount>1080</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Линейный крейсер</Name>
+    <Name>Дредноут</Name>
     <ImageFilename>Ships/Haakonish/Images/battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -186361,7 +186361,7 @@
         <Amount>3600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Секторный космический порт</Name>
+    <Name>Космопорт сектора</Name>
     <ImageFilename>Ships/Haakonish/Images/lSpacePort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -192371,7 +192371,7 @@
         <Amount>490</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Массивный десантный корабль</Name>
+    <Name>Сверхкрупный десантный корабль</Name>
     <ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -195425,7 +195425,7 @@
         <Amount>480</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Разведывательный крейсер</Name>
+    <Name>Исследовательский крейсер</Name>
     <ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -198787,7 +198787,7 @@
         <Amount>680</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Экспедиционный транспортный корабль</Name>
+    <Name>Экспедиционный транспорт</Name>
     <ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -201651,7 +201651,7 @@
         <Amount>1600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Большой космический порт</Name>
+    <Name>Большой космопорт</Name>
     <ImageFilename>Ships/Mortalen/Images/Mortalen_Large_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -205575,7 +205575,7 @@
         <Amount>800</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Транспортный корабль армии</Name>
+    <Name>Десантный корабль</Name>
     <ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -207449,7 +207449,7 @@
         <Amount>1080</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Линейный крейсер</Name>
+    <Name>Дредноут</Name>
     <ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -211558,7 +211558,7 @@
         <Amount>3600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Секторный космический порт</Name>
+    <Name>Космопорт сектора</Name>
     <ImageFilename>Ships/Mortalen/Images/Mortalen_Large_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -212869,7 +212869,7 @@
       </ResourceQuantity>
     </ResourcesRequired>
     <Name>Линейный крейсер</Name>
-    <Description>Оружие 9 и 10 отсутствуют в корпусе</Description>
+    <Description>Оружие 9 и 10 отсутствует в корпусе</Description>
     <ImageFilename>Ships/Human/Images/human_battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -217939,7 +217939,7 @@
         <Amount>490</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Массивный десантный корабль</Name>
+    <Name>Сверхкрупный десантный корабль</Name>
     <ImageFilename>Ships/Human/Images/human_troop_large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -219349,7 +219349,7 @@
       </ResourceQuantity>
     </ResourcesRequired>
     <Name>Линкор</Name>
-    <Description>Оружие 9 и 10 отсутствуют в корпусе</Description>
+    <Description>Оружие 9 и 10 отсутствует в корпусе</Description>
     <ImageFilename>Ships/Human/Images/human_battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -221426,7 +221426,7 @@
         <Amount>480</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Разведывательный крейсер</Name>
+    <Name>Исследовательский крейсер</Name>
     <ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -224792,7 +224792,7 @@
         <Amount>680</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Экспедиционный транспортный корабль</Name>
+    <Name>Экспедиционный транспорт</Name>
     <ImageFilename>Ships/Human/Images/human_troop_large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -226328,7 +226328,7 @@
         <Amount>1600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Большой космический порт</Name>
+    <Name>Большой космопорт</Name>
     <ImageFilename>Ships/Human/Images/human_spaceportL</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -228467,7 +228467,7 @@
       </ResourceQuantity>
     </ResourcesRequired>
     <Name>Тяжёлый линкор</Name>
-    <Description>Оружие 9 и 10 отсутствуют в корпусе</Description>
+    <Description>Оружие 9 и 10 отсутствует в корпусе</Description>
     <ImageFilename>Ships/Human/Images/human_battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -230718,7 +230718,7 @@
         <Amount>800</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Транспортный корабль армии</Name>
+    <Name>Десантный корабль</Name>
     <ImageFilename>Ships/Human/Images/human_troop_large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -232872,8 +232872,8 @@
         <Amount>1080</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Линейный крейсер</Name>
-    <Description>Оружие 9 и 10 отсутствуют в корпусе</Description>
+    <Name>Дредноут</Name>
+    <Description>Оружие 9 и 10 отсутствует в корпусе</Description>
     <ImageFilename>Ships/Human/Images/human_battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -235807,7 +235807,7 @@
         <Amount>3600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Секторный космический порт</Name>
+    <Name>Космопорт сектора</Name>
     <ImageFilename>Ships/Human/Images/human_spaceportL</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -243136,7 +243136,7 @@
         <Amount>490</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Массивный десантный корабль</Name>
+    <Name>Сверхкрупный десантный корабль</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_TroopTransport_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -246897,7 +246897,7 @@
         <Amount>480</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Разведывательный крейсер</Name>
+    <Name>Исследовательский крейсер</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -250918,7 +250918,7 @@
         <Amount>680</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Экспедиционный транспортный корабль</Name>
+    <Name>Экспедиционный транспорт</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_TroopTransport_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -253561,7 +253561,7 @@
         <Amount>1600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Большой космический порт</Name>
+    <Name>Большой космопорт</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_Spaceport_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -258232,7 +258232,7 @@
         <Amount>800</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Транспортный корабль армии</Name>
+    <Name>Десантный корабль</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_TroopTransport_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -260495,7 +260495,7 @@
         <Amount>1080</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Линейный крейсер</Name>
+    <Name>Дредноут</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_Battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -264621,7 +264621,7 @@
         <Amount>3600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Секторный космический порт</Name>
+    <Name>Космопорт сектора</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_Spaceport_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -270665,7 +270665,7 @@
         <Amount>490</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Массивный десантный корабль</Name>
+    <Name>Сверхкрупный десантный корабль</Name>
     <ImageFilename>Ships/Ackdarian/Images/Ackdarian_TroopTransport_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -273745,7 +273745,7 @@
         <Amount>480</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Разведывательный крейсер</Name>
+    <Name>Исследовательский крейсер</Name>
     <ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -277131,7 +277131,7 @@
         <Amount>680</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Экспедиционный транспортный корабль</Name>
+    <Name>Экспедиционный транспорт</Name>
     <ImageFilename>Ships/Ackdarian/Images/Ackdarian_TroopTransport_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -278667,7 +278667,7 @@
         <Amount>1600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Большой космический порт</Name>
+    <Name>Большой космопорт</Name>
     <ImageFilename>Ships/Ackdarian/Images/Ackdarian_LargeSpacePort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -282339,7 +282339,7 @@
         <Amount>800</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Транспортный корабль армии</Name>
+    <Name>Десантный корабль</Name>
     <ImageFilename>Ships/Ackdarian/Images/Ackdarian_TroopTransport_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -284192,7 +284192,7 @@
         <Amount>1080</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Линейный крейсер</Name>
+    <Name>Дредноут</Name>
     <ImageFilename>Ships/Ackdarian/Images/Ackdarian_Battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -286742,7 +286742,7 @@
         <Amount>3600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Секторный космический порт</Name>
+    <Name>Космопорт сектора</Name>
     <ImageFilename>Ships/Ackdarian/Images/Ackdarian_LargeSpacePort</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -288510,7 +288510,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Тяжелый бомбардировщик</Name>
+    <Name>Тяжёлый бомбардировщик</Name>
     <ImageFilename>Ships/Human/Images/human_bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -288780,7 +288780,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Штурмовой бомбардировщик</Name>
+    <Name>Штурм. бомбард.</Name>
     <ImageFilename>Ships/Human/Images/human_bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -290580,7 +290580,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Тяжелый бомбардировщик</Name>
+    <Name>Тяжёлый бомбардировщик</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_Drone_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -290850,7 +290850,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Штурмовой бомбардировщик</Name>
+    <Name>Штурм. бомбард.</Name>
     <ImageFilename>Ships/Teekan/Images/Teekan_Drone_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -292208,7 +292208,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Тяжелый бомбардировщик</Name>
+    <Name>Тяжёлый бомбардировщик</Name>
     <ImageFilename>Ships/Haakonish/Images/bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -292478,7 +292478,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Штурмовой бомбардировщик</Name>
+    <Name>Штурм. бомбард.</Name>
     <ImageFilename>Ships/Haakonish/Images/bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -293836,7 +293836,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Тяжелый бомбардировщик</Name>
+    <Name>Тяжёлый бомбардировщик</Name>
     <ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -294106,7 +294106,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Штурмовой бомбардировщик</Name>
+    <Name>Штурм. бомбард.</Name>
     <ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -297095,7 +297095,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Тяжелый бомбардировщик</Name>
+    <Name>Тяжёлый бомбардировщик</Name>
     <ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -297365,7 +297365,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Штурмовой бомбардировщик</Name>
+    <Name>Штурм. бомбард.</Name>
     <ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -299639,7 +299639,7 @@
         <Amount>125</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -302022,7 +302022,7 @@
         <Amount>188</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -304523,7 +304523,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -310556,7 +310556,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Тяжелый бомбардировщик</Name>
+    <Name>Тяжёлый бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -310826,7 +310826,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Штурмовой бомбардировщик</Name>
+    <Name>Штурм. бомбард.</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -313100,7 +313100,7 @@
         <Amount>125</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -315483,7 +315483,7 @@
         <Amount>188</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -317984,7 +317984,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -324017,7 +324017,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Тяжелый бомбардировщик</Name>
+    <Name>Тяжёлый бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -324287,7 +324287,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Штурмовой бомбардировщик</Name>
+    <Name>Штурм. бомбард.</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -326561,7 +326561,7 @@
         <Amount>125</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -328944,7 +328944,7 @@
         <Amount>188</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -331445,7 +331445,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -337478,7 +337478,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Тяжелый бомбардировщик</Name>
+    <Name>Тяжёлый бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -337748,7 +337748,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Штурмовой бомбардировщик</Name>
+    <Name>Штурм. бомбард.</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -340022,7 +340022,7 @@
         <Amount>125</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -342405,7 +342405,7 @@
         <Amount>188</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -344906,7 +344906,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_SpaceStation_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -350939,7 +350939,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Тяжелый бомбардировщик</Name>
+    <Name>Тяжёлый бомбардировщик</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -351209,7 +351209,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Штурмовой бомбардировщик</Name>
+    <Name>Штурм. бомбард.</Name>
     <ImageFilename>Ships/Pirates/images/Pirates_Fighter_Bomber_4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -354198,7 +354198,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Тяжелый бомбардировщик</Name>
+    <Name>Тяжёлый бомбардировщик</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -354468,7 +354468,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Штурмовой бомбардировщик</Name>
+    <Name>Штурм. бомбард.</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -356256,7 +356256,7 @@
         <Amount>125</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -361179,7 +361179,7 @@
         <Amount>188</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -367432,7 +367432,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -372678,7 +372678,7 @@
         <Amount>360</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Средний космический порт</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Medium_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -378312,7 +378312,7 @@
         <Amount>525</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Средний космический порт</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Medium_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -387040,7 +387040,7 @@
         <Amount>490</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Массивный десантный корабль</Name>
+    <Name>Сверхкрупный десантный корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -390059,7 +390059,7 @@
         <Amount>480</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Разведывательный крейсер</Name>
+    <Name>Исследовательский крейсер</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -393436,7 +393436,7 @@
         <Amount>680</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Экспедиционный транспортный корабль</Name>
+    <Name>Экспедиционный транспорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -394972,7 +394972,7 @@
         <Amount>1600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Большой космический порт</Name>
+    <Name>Большой космопорт</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Large_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -398819,7 +398819,7 @@
         <Amount>800</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Транспортный корабль армии</Name>
+    <Name>Десантный корабль</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -400669,7 +400669,7 @@
         <Amount>1080</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Линейный крейсер</Name>
+    <Name>Дредноут</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -403429,7 +403429,7 @@
         <Amount>3600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Секторный космический порт</Name>
+    <Name>Космопорт сектора</Name>
     <ImageFilename>Ships/Zenox/Images/Zenox_Large_Spaceport</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -406418,7 +406418,7 @@
         <Amount>43</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Тяжелый бомбардировщик</Name>
+    <Name>Тяжёлый бомбардировщик</Name>
     <ImageFilename>Ships/Boskara/Images/Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -406688,7 +406688,7 @@
         <Amount>50</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Штурмовой бомбардировщик</Name>
+    <Name>Штурм. бомбард.</Name>
     <ImageFilename>Ships/Boskara/Images/Bomber</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -408461,7 +408461,7 @@
         <Amount>125</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_station_s</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -413352,7 +413352,7 @@
         <Amount>188</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_station_s</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -419541,7 +419541,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_station_s</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -424478,7 +424478,7 @@
         <Amount>360</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Средний космический порт</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_station_m</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -430113,7 +430113,7 @@
         <Amount>525</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Средний космический порт</Name>
+    <Name>Средний космопорт</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_station_m</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -438630,7 +438630,7 @@
         <Amount>490</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Массивный десантный корабль</Name>
+    <Name>Сверхкрупный десантный корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskaran_trooptransport_large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -441709,7 +441709,7 @@
         <Amount>480</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Разведывательный крейсер</Name>
+    <Name>Исследовательский крейсер</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_cruiser</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -445012,7 +445012,7 @@
         <Amount>680</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Экспедиционный транспортный корабль</Name>
+    <Name>Экспедиционный транспорт</Name>
     <ImageFilename>Ships/Boskara/Images/boskaran_trooptransport_large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -446548,7 +446548,7 @@
         <Amount>1600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Большой космический порт</Name>
+    <Name>Большой космопорт</Name>
     <ImageFilename>Ships/Boskara/Images/boskaran_station_l</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -450416,7 +450416,7 @@
         <Amount>800</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Транспортный корабль армии</Name>
+    <Name>Десантный корабль</Name>
     <ImageFilename>Ships/Boskara/Images/boskaran_trooptransport_large</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -452269,7 +452269,7 @@
         <Amount>1080</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Линейный крейсер</Name>
+    <Name>Дредноут</Name>
     <ImageFilename>Ships/Boskara/Images/boskara_battleship</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -455015,7 +455015,7 @@
         <Amount>3600</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Секторный космический порт</Name>
+    <Name>Космопорт сектора</Name>
     <ImageFilename>Ships/Boskara/Images/boskaran_station_l</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -459140,7 +459140,7 @@
         <Amount>75</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Колонизационный корабль</Name>
+    <Name>Колонизатор</Name>
     <ImageFilename>Ships/Abandoned/Images/Abandoned_Colony</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -460266,7 +460266,7 @@
         <Amount>225</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Abandoned/Images/AbandonedStation1</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -464030,7 +464030,7 @@
         <Amount>225</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Abandoned/Images/AbandonedStation1Dead</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -465164,7 +465164,7 @@
         <Amount>270</Amount>
       </ResourceQuantity>
     </ResourcesRequired>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Abandoned/Images/AbandonedStation2</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -466284,7 +466284,7 @@
         </DisplayEffectOffset>
       </ComponentBay>
     </ComponentBays>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Abandoned/Images/AbandonedStation2Dead</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -468502,7 +468502,7 @@
         </DisplayEffectOffset>
       </ComponentBay>
     </ComponentBays>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Abandoned/Images/AbandonedStation3</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -469622,7 +469622,7 @@
         </DisplayEffectOffset>
       </ComponentBay>
     </ComponentBays>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Abandoned/Images/AbandonedStation3Dead</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -470742,7 +470742,7 @@
         </DisplayEffectOffset>
       </ComponentBay>
     </ComponentBays>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Abandoned/Images/AbandonedStation4</ImageFilename>
   </ShipHull>
   <ShipHull>
@@ -471862,7 +471862,7 @@
         </DisplayEffectOffset>
       </ComponentBay>
     </ComponentBays>
-    <Name>Малый космический порт</Name>
+    <Name>Малый космопорт</Name>
     <ImageFilename>Ships/Abandoned/Images/AbandonedStation4Dead</ImageFilename>
   </ShipHull>
   <ShipHull>

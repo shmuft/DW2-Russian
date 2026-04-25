@@ -26962,7 +26962,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>513</ResearchProjectId>
-		<Name>Тяжелый бомбардировщик</Name>
+		<Name>Тяжёлый бомбардировщик</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>14400</Size>
 		<InitiationCost>

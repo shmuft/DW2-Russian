@@ -7032,7 +7032,7 @@
 				<Amount>226</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт v2</Name>
+		<Name>Малый космопорт v2</Name>
 		<ImageFilename>Ships/Haakonish/Images/small_spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -14888,7 +14888,7 @@
 				<Amount>324</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт v3</Name>
+		<Name>Малый космопорт v3</Name>
 		<ImageFilename>Ships/Haakonish/Images/small_spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -21745,7 +21745,7 @@
 				<Amount>432</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Средний космический порт</Name>
+		<Name>Средний космопорт</Name>
 		<ImageFilename>Ships/Haakonish/Images/mSpacePort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -29465,7 +29465,7 @@
 				<Amount>630</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Средний космический порт v2</Name>
+		<Name>Средний космопорт v2</Name>
 		<ImageFilename>Ships/Haakonish/Images/mSpacePort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -30597,7 +30597,7 @@
 				<Amount>396</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Космическая крепость v2</Name>
+		<Name>Космический бастион v2</Name>
 		<ImageFilename>Ships/Haakonish/Images/small_spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -33632,7 +33632,7 @@
 				<Amount>150</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Малый космический порт</Name>
+		<Name>Малый космопорт</Name>
 		<ImageFilename>Ships/Haakonish/Images/small_spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -40771,7 +40771,7 @@
 				<Amount>588</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Массивный десантный корабль</Name>
+		<Name>Сверхкрупный десантный корабль</Name>
 		<ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -44589,7 +44589,7 @@
 				<Amount>576</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Разведывательный крейсер</Name>
+		<Name>Исследовательский крейсер</Name>
 		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -48404,7 +48404,7 @@
 				<Amount>816</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Экспедиционный транспортный корабль</Name>
+		<Name>Экспедиционный транспорт</Name>
 		<ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -49959,7 +49959,7 @@
 				<Amount>1920</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Большой космический порт</Name>
+		<Name>Большой космопорт</Name>
 		<ImageFilename>Ships/Haakonish/Images/lSpacePort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -55293,7 +55293,7 @@
 				<Amount>960</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Транспортный корабль армии</Name>
+		<Name>Десантный корабль</Name>
 		<ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -57720,7 +57720,7 @@
 				<Amount>1296</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Линейный крейсер</Name>
+		<Name>Дредноут</Name>
 		<ImageFilename>Ships/Haakonish/Images/battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -60923,7 +60923,7 @@
 				<Amount>4320</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Секторный космический порт</Name>
+		<Name>Космопорт сектора</Name>
 		<ImageFilename>Ships/Haakonish/Images/lSpacePort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -62275,7 +62275,7 @@
 				<Amount>52</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Тяжелый бомбардировщик</Name>
+		<Name>Тяжёлый бомбардировщик</Name>
 		<ImageFilename>Ships/Haakonish/Images/bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -62544,7 +62544,7 @@
 				<Amount>60</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Штурмовой бомбардировщик</Name>
+		<Name>Штурм. бомбард.</Name>
 		<ImageFilename>Ships/Haakonish/Images/bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>

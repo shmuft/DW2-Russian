@@ -2193,7 +2193,7 @@ TERMINOLOGY RULES:
   - "Ground Combat"→"Наземный бой"
   - "Hardened Planetary Shields"→"Закаленные планетарные щиты"
   - "Harmonized Thrust"→"Гармонизированная тяга"
-  - "Heavy Bomber"→"Тяжелый бомбардировщик"
+  - "Heavy Bomber"→"Тяжёлый бомбардировщик"
   - "Heavy Installations"→"Тяжелые установки"
   - "Heavy Ion Weapons"→"Тяжелое ионное оружие"
   - "Heavy Missile Batteries"→"Тяжелые ракетные батареи"

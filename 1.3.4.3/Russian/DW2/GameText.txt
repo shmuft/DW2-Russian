@@ -3861,7 +3861,7 @@ Character Event NewTrait		;Новая черта
 Character Event RaidBaseAttackerLoss		;Провал рейда
 Character Event RaidBaseAttackerWin		;Успешный рейд
 Character Event RaidBaseDefenderLoss		;Вражеские рейды по нашей базе
-Character Event RaidBaseDefenderWin		;Вражеский рейл отбит
+Character Event RaidBaseDefenderWin		;Вражеский рейд отбит
 Character Event RaidColonyAttackerLoss		;Провал рейда
 Character Event RaidColonyAttackerWin		;Успешный рейд
 Character Event RaidColonyDefenderLoss		;Вражеские рейды на нашу колонию
