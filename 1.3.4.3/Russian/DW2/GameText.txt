@@ -4416,7 +4416,7 @@ Independent Colony Resists Colonization		;Независимая колония 
 The independent population of RACE have resisted our attempt to colonize the TYPE CATEGORY NAME in the SYSTEM system		;Независимое население {0} оказало сопротивление нашей попытке колонизировать {1} {2} [LOCATION]{3}[/LOCATION] в системе {4}.\n\nНаша попытка колонизации разгневала их, что нанесло ущерб нашим отношениям с ними.
 Colonization Success Chance		;Шанс успешной колонизации
 Colonized Independent World		;Колонизированный независимый мир
-We have successfully colonized the independent world NAME a TYPE CATEGORY in the SYSTEM system RACE		;Мы успешно колонизировали независимый мир [LOCATION]{0}[/LOCATION}, являющийся {1} {2} в системе {3}.\n\nЭтот мир населён {4}. Они с радостью присоединяются к нашей империи!
+We have successfully colonized the independent world NAME a TYPE CATEGORY in the SYSTEM system RACE		;Мы успешно колонизировали независимый мир [LOCATION]{0}[/LOCATION], являющийся {1} {2} в системе {3}.\n\nЭтот мир населён {4}. Они с радостью присоединяются к нашей империи!
 
 Empire Bonuses from all sources		;Бонусы империи от всех источников
 This design cannot be changed because it is in use		;Этот дизайн нельзя изменить, так как он используется

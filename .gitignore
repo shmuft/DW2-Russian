@@ -1,3 +1,6 @@
 russianlang
 russianlangdw2.zip
 __pycache__
+*_log.txt
+*.pyc
+*.zip
