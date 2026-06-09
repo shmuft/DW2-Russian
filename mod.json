@@ -1,10 +1,7 @@
 ﻿{
     "displayName":  "Russian Translation",
     "shortDescription":  "Перевод Distant Worlds 2 на Русский язык",
-    "description":  "Distant Worlds 2 한국어 번역 모드입니다.\r\n\r\n구독만 하고 실행하면 모드가 제대로 적용되지 않습니다. Steam 속성의 실행 옵션에 아래 문구를 넣어 주세요.\r\n\r\n--low-level-inject .\\..\\..\\workshop\\content\\1531540\\3684914325\\DW2KRRuntime.dll!DW2KRRuntime.MainClass.Init\r\n\r\n이 모드는 중국어 모드 구조를 기반으로 Codex로 제작했습니다.\r\n\r\n아직 QA가 충분하지 않아 게임 도중 튕기거나 예상하지 못한 문제가 발생할 수 있습니다.\r\n\r\n번역은 Codex가 처음부터 끝까지 진행했습니다. 그래서 이벤트 제목이나 자동 생성된 함선 이름 등은 자동 음역 때문에 다소 어색할 수 있습니다.\r\n\r\n최대한 번역했지만 일부 한국어 번역이 덜 된 문구가 남아 있을 수 있습니다.",
-    "version":  "0.2.0",
-    "bundles":  [
-
-                ],
-    "workshopId":  3684914325
+    "description":  "Полный перевод игры Distant Worlds 2 на русский язык.",
+    "author": "shmuft",
+    "version":  "1.1.0"
 }

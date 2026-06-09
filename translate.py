@@ -316,7 +316,6 @@ def check_translated_file(file_path: str) -> int:
             for action in elem.findall('.//PlacementActions/GameEventAction'):
                 if action.find('Type').text in ['BuildFacility', 'GeneratePlanetarySystem', 'GenerateIndependentColony','GenerateAbandonedShipBase']:
                     for child in action.iter('GeneratedItemName'):
-                        print(f"child is {child}")
                         check_text(child, f"{elem_tag}/PlacementActions/GameEventAction/GeneratedItemName")
                 for tag in ['MessageTitle', 'Description']:
                     for child in action.iter(tag):
@@ -329,7 +328,7 @@ def check_translated_file(file_path: str) -> int:
                 for child in elem.iter(tag):
                     check_text(child, f"{elem_tag}/{tag}")
         elif elem_tag == 'Race':
-            for tag in ['DescriptionBonuses', 'DescriptionObjective', 'Name', 'Description']:
+            for tag in ['DescriptionBonuses', 'DescriptionObjective', 'Description']:
                 for child in elem.iter(tag):
                     check_text(child, f"{elem_tag}/{tag}")
             for string_elem in elem.findall('.//FeatureExplanations/string'):
@@ -377,6 +376,8 @@ def check_translated_file(file_path: str) -> int:
             for tag in ['Name', 'Description']:
                 for child in elem.iter(tag):
                     check_text(child, f"{elem_tag}/{tag}")
+            for string_elem in elem.findall('.//CommonBonuses/BonusRange/Descriptions/string'):
+                check_text(string_elem, f"{elem_tag}/CommonBonuses/BonusRange/Descriptions/string")
         elif elem_tag == 'Resource':
             for tag in ['Name', 'Description']:
                 for child in elem.iter(tag):
@@ -738,7 +739,7 @@ def extract_translatable_texts(root):
                     if text:
                         texts.append((text, f"{elem_tag}/{tag}"))
         elif elem_tag == 'Race':
-            for tag in ['DescriptionBonuses', 'DescriptionObjective', 'Name', 'Description']:
+            for tag in ['DescriptionBonuses', 'DescriptionObjective', 'Description']:
                 for child in elem.iter(tag):
                     text = child.text.strip() if child.text else ''
                     if text:
@@ -813,6 +814,11 @@ def extract_translatable_texts(root):
                     text = child.text.strip() if child.text else ''
                     if text:
                         texts.append((text, f"{elem_tag}/{tag}"))
+
+            for string_elem in elem.findall('.//CommonBonuses/BonusRange/Descriptions/string'):
+                text = string_elem.text.strip() if string_elem.text else ''
+                if text:
+                    texts.append((text, f"{elem_tag}/CommonBonuses/BonusRange/Descriptions/string"))
         elif elem_tag == 'Resource':
             for tag in ['Name', 'Description']:
                 for child in elem.iter(tag):
@@ -1173,7 +1179,7 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
                         else:
                             add_task(child, tag, original)
         elif elem_tag == 'Race':
-            for tag in ['DescriptionBonuses', 'DescriptionObjective', 'Name', 'Description']:
+            for tag in ['DescriptionBonuses', 'DescriptionObjective', 'Description']:
                 for child in elem.iter(tag):
                     original = child.text.strip() if child.text else ''
                     if original:
@@ -1290,6 +1296,16 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
                             words_set.add(original)
                         else:
                             add_task(child, tag, original)
+                            
+            for string_elem in elem.findall('.//CommonBonuses/BonusRange/Descriptions/string'):
+                print(f"string_elem is {string_elem}")
+                original = string_elem.text.strip() if string_elem.text else ''
+                if original:
+                    if words_mode:
+                        words_set.add(original)
+                    else:
+                        add_task(string_elem, 'string (CommonBonuses/BonusRange/Descriptions)', original)
+
         elif elem_tag == 'Resource':
             for tag in ['Name', 'Description']:
                 for child in elem.iter(tag):
