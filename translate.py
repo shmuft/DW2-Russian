@@ -378,6 +378,9 @@ def check_translated_file(file_path: str) -> int:
                     check_text(child, f"{elem_tag}/{tag}")
             for string_elem in elem.findall('.//CommonBonuses/BonusRange/Descriptions/string'):
                 check_text(string_elem, f"{elem_tag}/CommonBonuses/BonusRange/Descriptions/string")
+            for string_elem in elem.findall('.//RuinLocationDescriptions/string'):
+                check_text(string_elem, f"{elem_tag}/RuinLocationDescriptions/string")
+
         elif elem_tag == 'Resource':
             for tag in ['Name', 'Description']:
                 for child in elem.iter(tag):
@@ -819,6 +822,10 @@ def extract_translatable_texts(root):
                 text = string_elem.text.strip() if string_elem.text else ''
                 if text:
                     texts.append((text, f"{elem_tag}/CommonBonuses/BonusRange/Descriptions/string"))
+            for string_elem in elem.findall('.//RuinLocationDescriptions/string'):
+                text = string_elem.text.strip() if string_elem.text else ''
+                if text:
+                    texts.append((text, f"{elem_tag}/RuinLocationDescriptions/string"))
         elif elem_tag == 'Resource':
             for tag in ['Name', 'Description']:
                 for child in elem.iter(tag):
@@ -1305,6 +1312,15 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
                         words_set.add(original)
                     else:
                         add_task(string_elem, 'string (CommonBonuses/BonusRange/Descriptions)', original)
+
+            for string_elem in elem.findall('.//RuinLocationDescriptions/string'):
+                print(f"string_elem is {string_elem}")
+                original = string_elem.text.strip() if string_elem.text else ''
+                if original:
+                    if words_mode:
+                        words_set.add(original)
+                    else:
+                        add_task(string_elem, 'string (RuinLocationDescriptions/Descriptions)', original)
 
         elif elem_tag == 'Resource':
             for tag in ['Name', 'Description']:

@@ -1352,11 +1352,11 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>lie deep in a dense forest</string>
-			<string>sit on a rocky mountain outcrop</string>
-			<string>are located in the midst of a grassy plain</string>
-			<string>sit at the bottom of a forest-covered valley</string>
-			<string>are perched atop rocky coastal cliffs overlooking a vast ocean</string>
+			<string>находятся глубоко в чащобе густого леса</string>
+			<string>расположены на скалистом горном уступе</string>
+			<string>расположены посреди травянистой равнины</string>
+			<string>расположены на дне долины, покрытой лесом</string>
+			<string>расположены на вершинах скалистых прибрежных утесов, возвышающихся над обширным океаном</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -1548,11 +1548,11 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>are surrounded by lush jungle</string>
-			<string>are situated on a reed-covered island in the middle of a marshy bog</string>
-			<string>are located in a clearing in the heart of a swampy jungle</string>
-			<string>sit in a grassy riverside clearing upstream from a large waterfall</string>
-			<string>are half-buried in undergrowth near a huge swampy wasteland</string>
+			<string>расположены на покрытой травой речной поляне выше по течению от большого водопада</string>
+			<string>расположены на покрытом тростником острове посреди болотистой топи</string>
+			<string>расположены в просеке в самом сердце болотистых джунглей</string>
+			<string>находятся на прибрежной лужайке выше по течению от большого водопада</string>
+			<string>наполовину скрыты в зарослях рядом с огромным топким пустырем</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -1752,8 +1752,8 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit on a rocky island lashed by giant storm waves from the surrounding sea</string>
-			<string>sit half-submerged atop a vast reef in the midst of an endless ocean</string>
+			<string>расположены на скалистом острове, терзаемом гигантскими штормовыми волнами окружающего моря</string>
+			<string>наполовину затоплены на вершине огромного рифа посреди бескрайнего океана</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -1940,11 +1940,11 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>lie half buried by deep sand drifts</string>
-			<string>are nearly consumed by a vast sandbank</string>
-			<string>are set into the wall of a rocky canyon</string>
-			<string>are perched atop a precipice overlooking a vast dusty plain</string>
-			<string>are situated atop a large mesa in a desert plain</string>
+			<string>наполовину погребены под глубокими песчаными заносами</string>
+			<string>почти погребены под огромной песчаной дюной</string>
+			<string>высечены в скалистой стене каньона</string>
+			<string>расположены на краю обрыва с видом на бескрайнюю пыльную равнину</string>
+			<string>расположены на вершине большого плато в пустынной равнине</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -2131,8 +2131,8 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>lie deep in snow drifts at the peak of a windswept mountain pass</string>
-			<string>are located near the edge of an icy tundra wasteland</string>
+			<string>скрыты под глубокими сугробами на вершине продуваемого ветрами горного перевала</string>
+			<string>расположены на краю ледяной тундры</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -2332,10 +2332,10 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit on a stone ledge overlooking a fiery lake of lava</string>
-			<string>lie in the midst of a vast rocky plain blanketed with thousands of geothermal steam vents</string>
-			<string>are located next to a molten river of lava</string>
-			<string>sit on a small rocky island that glows from the surrounding ocean of bright molten lava</string>
+			<string>расположены на каменном уступе с видом на огненное озеро лавы</string>
+			<string>расположены посреди бескрайней каменистой равнины, усеянной тысячами геотермальных паровых жерл</string>
+			<string>расположены рядом с расплавленной рекой лавы</string>
+			<string>расположены на небольшом скалистом островке, который светится в лучах окружающего океана яркой расплавленной лавы</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -2458,8 +2458,8 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit at the center of a shadowy, star-lit plain</string>
-			<string>lie at the bottom of a desolate, rocky valley</string>
+			<string>расположены в самом центре тенистой, залитой звездным светом равнины</string>
+			<string>скрыты на самом дне заброшенной скалистой долины</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -2936,7 +2936,7 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>are set into the wall of a deep canyon</string>
+			<string>высечены в отвесной стене глубокого ущелья</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -3127,14 +3127,14 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>lie deep in a dense forest</string>
-			<string>sit on a rocky mountain outcrop</string>
-			<string>sit at the bottom of a forest-covered valley</string>
-			<string>are perched atop rocky coastal cliffs overlooking a vast ocean</string>
-			<string>are surrounded by lush jungle</string>
-			<string>are located in a clearing in the heart of a dense jungle</string>
-			<string>sit in a grassy riverside clearing upstream from a large waterfall</string>
-			<string>are half-buried in undergrowth of an ancient forest</string>
+			<string>находятся глубоко в чащобе густого леса</string>
+			<string>расположены на скалистом горном уступе</string>
+			<string>расположены на дне долины, покрытой лесом</string>
+			<string>расположены на вершинах скалистых прибрежных утесов, возвышающихся над обширным океаном</string>
+			<string>расположены на покрытой травой речной поляне выше по течению от большого водопада</string>
+			<string>расположены в просеке в самом сердце густых джунглей</string>
+			<string>находятся на прибрежной лужайке выше по течению от большого водопада</string>
+			<string>наполовину погребены в подлеске древнего леса</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -3292,10 +3292,10 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>are located in the midst of a grassy plain</string>
-			<string>sit at the bottom of a forest-covered valley</string>
-			<string>sit in a grassy riverside clearing upstream from a large waterfall</string>
-			<string>are located on a grassy hilltop overlooking the ocean</string>
+			<string>расположены посреди травянистой равнины</string>
+			<string>расположены на дне долины, покрытой лесом</string>
+			<string>находятся на прибрежной лужайке выше по течению от большого водопада</string>
+			<string>расположены на травянистом холме с видом на океан</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -3500,12 +3500,12 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>lie half buried by deep sand drifts</string>
-			<string>are nearly consumed by a vast sandbank</string>
-			<string>are set into the wall of a rocky canyon</string>
-			<string>are perched atop a precipice overlooking a vast dusty plain</string>
-			<string>are situated atop a large mesa in a desert plain</string>
-			<string>sit on a vast rocky plain strewn with boulders</string>
+			<string>наполовину погребены под глубокими песчаными заносами</string>
+			<string>почти погребены под огромной песчаной дюной</string>
+			<string>высечены в скалистой стене каньона</string>
+			<string>расположены на краю обрыва с видом на бескрайнюю пыльную равнину</string>
+			<string>расположены на вершине большого плато в пустынной равнине</string>
+			<string>расположены на бескрайней каменистой равнине, усеянной валунами</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -3654,12 +3654,12 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>lie half buried by deep sand drifts</string>
-			<string>are nearly consumed by a vast sandbank</string>
-			<string>are set into the wall of a rocky canyon</string>
-			<string>are perched atop a precipice overlooking a vast dusty plain</string>
-			<string>are situated atop a large mesa in a desert plain</string>
-			<string>are located next to a small lake in dense woodland</string>
+			<string>наполовину погребены под глубокими песчаными заносами</string>
+			<string>почти погребены под огромной песчаной дюной</string>
+			<string>высечены в скалистой стене каньона</string>
+			<string>расположены на краю обрыва с видом на бескрайнюю пыльную равнину</string>
+			<string>расположены на вершине большого плато в пустынной равнине</string>
+			<string>расположены рядом с небольшим озером в густом лесу</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -3811,10 +3811,10 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>lie deep in snow drifts at the peak of a windswept mountain pass</string>
-			<string>are located near the edge of an icy tundra wasteland</string>
-			<string>are located on the shores of an icy ocean</string>
-			<string>are surrounded by a vast tundra forest</string>
+			<string>скрыты под глубокими сугробами на вершине продуваемого ветрами горного перевала</string>
+			<string>расположены на краю ледяной тундры</string>
+			<string>расположены на берегах ледяного океана</string>
+			<string>окружены обширной тундрой</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -4005,10 +4005,10 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>lie deep in snow drifts at the peak of a windswept mountain pass</string>
-			<string>are located near the edge of an icy tundra wasteland</string>
-			<string>are situated at the entrance to a vast network of ice tunnels</string>
-			<string>are half-buried under a thick glacial ice-sheet covering a wide valley</string>
+			<string>скрыты под глубокими сугробами на вершине продуваемого ветрами горного перевала</string>
+			<string>расположены на краю ледяной тундры</string>
+			<string>расположены у входа в обширную сеть ледяных туннелей</string>
+			<string>наполовину погребены под толстым ледниковым щитом, покрывающим широкую долину</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -4204,10 +4204,10 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit on a rocky island lashed by giant storm waves from the surrounding sea</string>
-			<string>sit half-submerged atop a vast reef in the midst of an endless ocean</string>
-			<string>are submerged in the shallow water atop a sub-oceanic ridge</string>
-			<string>are submerged deep underwater amidst a network of ocean ridges</string>
+			<string>расположены на скалистом острове, терзаемом гигантскими штормовыми волнами окружающего моря</string>
+			<string>наполовину затоплены на вершине огромного рифа посреди бескрайнего океана</string>
+			<string>погружены в мелководье на подводном хребте</string>
+			<string>погружены глубоко под воду среди сети океанических хребтов</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -4529,8 +4529,8 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit at the center of a shadowy, star-lit plain</string>
-			<string>lie at the bottom of a desolate, rocky valley</string>
+			<string>расположены в самом центре тенистой, залитой звездным светом равнины</string>
+			<string>скрыты на самом дне заброшенной скалистой долины</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -4656,9 +4656,9 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit at the center of a shadowy, star-lit plain</string>
-			<string>lie at the bottom of a desolate, rocky valley</string>
-			<string>are located on the edge of an icy plain</string>
+			<string>расположены в самом центре тенистой, залитой звездным светом равнины</string>
+			<string>скрыты на самом дне заброшенной скалистой долины</string>
+			<string>расположены на краю ледяной равнины</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -4851,11 +4851,11 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>are surrounded by lush jungle</string>
-			<string>are situated on a reed-covered island in the middle of a marshy bog</string>
-			<string>are located in a clearing in the heart of a swampy jungle</string>
-			<string>sit in a grassy riverside clearing upstream from a large waterfall</string>
-			<string>are half-buried in undergrowth near a huge swampy wasteland</string>
+			<string>расположены на покрытой травой речной поляне выше по течению от большого водопада</string>
+			<string>расположены на покрытом тростником острове посреди болотистой топи</string>
+			<string>расположены в просеке в самом сердце болотистых джунглей</string>
+			<string>находятся на прибрежной лужайке выше по течению от большого водопада</string>
+			<string>наполовину скрыты в зарослях рядом с огромным топким пустырем</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -5234,11 +5234,11 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit on a stone ledge overlooking a hydrocarbon lake</string>
-			<string>lie in the midst of a vast rocky plain blanketed with thousands of geothermal steam vents</string>
-			<string>are in a rocky valley littered with shards of hardened molten glass</string>
-			<string>are located next to a molten river of lava</string>
-			<string>are situated on a vast plain covered in thick black soot and ash</string>
+			<string>находятся на каменной скале, возвышающейся над углеводородным озером</string>
+			<string>расположены посреди бескрайней каменистой равнины, усеянной тысячами геотермальных паровых жерл</string>
+			<string>находятся в каменистой долине, усеянной осколками застывшего расплавленного стекла</string>
+			<string>расположены рядом с расплавленной рекой лавы</string>
+			<string>расположены на обширной равнине, покрытой густым черным сажей и пеплом</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -5404,10 +5404,10 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit on a stone ledge overlooking a firey lake of sulphur</string>
-			<string>lie in the midst of a vast rocky plain blanketed with thousands of geothermal steam vents</string>
-			<string>are in a rocky valley littered with shards of hardened molten glass</string>
-			<string>are situated on a vast plain deeply covered in bright yellow sulphur</string>
+			<string>расположены на каменном уступе с видом на огненное серное озеро</string>
+			<string>расположены посреди бескрайней каменистой равнины, усеянной тысячами геотермальных паровых жерл</string>
+			<string>находятся в каменистой долине, усеянной осколками застывшего расплавленного стекла</string>
+			<string>расположены на обширной равнине, глубоко покрытой ярко-жёлтой серой</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -5529,8 +5529,8 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>are set into the wall of a deep ice canyon</string>
-			<string>are buried under a thick sheet of ice</string>
+			<string>высечены в обледенелой стене глубокого ущелья</string>
+			<string>погребены под толстым слоем льда</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -5669,7 +5669,7 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>are set into the wall of a deep canyon</string>
+			<string>высечены в отвесной стене глубокого ущелья</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
@@ -6478,7 +6478,7 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>are set into the wall of a deep canyon</string>
+			<string>высечены в отвесной стене глубокого ущелья</string>
 		</RuinLocationDescriptions>
 	</OrbType>
 
