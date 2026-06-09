@@ -466,7 +466,7 @@
 	<Government>
 		<GovernmentId>2</GovernmentId> 
 		<LeaderTitle>Премьер-министр</LeaderTitle>
-		<CabinetTitle>Cabinet</CabinetTitle>
+		<CabinetTitle>Кабинет министров</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float> 
@@ -694,7 +694,7 @@
 	<Government>
 		<GovernmentId>3</GovernmentId> 
 		<LeaderTitle>Первый лорд</LeaderTitle>
-		<CabinetTitle>Noble Council</CabinetTitle>
+		<CabinetTitle>Совет знати</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float> 
@@ -1183,7 +1183,7 @@
 	<Government>
 		<GovernmentId>5</GovernmentId> 
 		<LeaderTitle>Вождь</LeaderTitle>
-		<CabinetTitle>War Council</CabinetTitle>
+		<CabinetTitle>Военный совет</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float> 
@@ -1439,7 +1439,7 @@
 	<Government>
 		<GovernmentId>6</GovernmentId> 
 		<LeaderTitle>Администратор</LeaderTitle>
-		<CabinetTitle>Panel of Experts</CabinetTitle>
+		<CabinetTitle>Экспертный совет</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float> 
@@ -2144,7 +2144,7 @@
 	<Government>
 		<GovernmentId>9</GovernmentId> 
 		<LeaderTitle>Верховный лидер</LeaderTitle>
-		<CabinetTitle>Cabinet</CabinetTitle>
+		<CabinetTitle>Кабинет министров</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float> 
@@ -2354,7 +2354,7 @@
 	<Government>
 		<GovernmentId>10</GovernmentId> 
 		<LeaderTitle>Верховный лидер</LeaderTitle>
-		<CabinetTitle>Cabinet</CabinetTitle>
+		<CabinetTitle>Кабинет министров</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float> 
