@@ -78,7 +78,7 @@ ShipMission Description LoadPopulation		;Загрузить колонистов
 ShipMission Description LoadPopulation RACE		;Загрузить колонистов в {0} ({1})
 ShipMission Description LoadCargo		;Заправить топливо в {0}
 ShipMission Description LoadCargo Resources		;Купить {1} за {0}
-ShipMission Description LoadCargo Smuggling Resources		;Купить контрабанду {1} за {0}
+ShipMission Description LoadCargo Smuggling Resources		;Купить контрабанду {1} в {0}
 ShipMission Description LoadCargo Resources Load		;Загрузить {1} в {0}
 ShipMission Description LoadCargo Smuggling Resources Load		;Загрузить контрабанду {1} в {0}
 ShipMission Description TransferFuel		;Передать топливо в {0}
@@ -109,7 +109,7 @@ ShipMission Description UnloadTroops		;Высадить войска в {0}
 ShipMission Description UnloadPassengers		;Высадить пассажиров в {0}
 ShipMission Description UnloadCargo		;Выгрузить груз в {0}
 ShipMission Description UnloadCargo Resources		;Продать {1} за {0}
-ShipMission Description UnloadCargo Smuggling Resources		;Контрабандой доставить {1} в {0}
+ShipMission Description UnloadCargo Smuggling Resources		;Доставить контрабанду {1} в {0}
 ShipMission Description ExitYard		;Покинуть верфь
 ShipMission Description Dock		;Причалить у {0}
 ShipMission Description Undock		;Отстыковаться от {0}
@@ -146,21 +146,21 @@ ShipMission Description With Distance Escape Target		;Побег из {0} (в {1
 ShipMission Description With Distance Escape Destination		;Побег в {0} (на расстоянии {1})
 ShipMission Description With Distance Escort		;Эскорт {0} (на расстоянии {1})
 ShipMission Description With Distance Explore		;Исследовать {0} (на расстоянии {1})
-ShipMission Description With Distance ExploreSystem		;Исследовать систему {0} ({1}, {2} вдали)
-ShipMission Description With Distance ExploreLocation		;Исследовать локацию {0} ({1}, {2} вдали)
+ShipMission Description With Distance ExploreSystem		;Исследовать систему {0} ({1}, {2} отсюда)
+ShipMission Description With Distance ExploreLocation		;Исследовать локацию {0} ({1}, {2} отсюда)
 ShipMission Description With Distance ExploreSurvey		;Исследовать детально {0} (на расстоянии {1})
 ShipMission Description With Distance FighterBoardCarrier		;Совершить посадку на авианосец {0} (дистанция: {1})
 ShipMission Description With Distance Guard		;Охранять {0} (в {1})
 ShipMission Description With Distance LoadTroops		;Загрузить войска в {0} (в {1})
 ShipMission Description With Distance LoadPopulation		;Загрузить колонистов в {0} (в {1})
-ShipMission Description With Distance LoadPopulation RACE		;Загрузить колонистов в {0} ({1}, {2} вдали)
+ShipMission Description With Distance LoadPopulation RACE		;Загрузить колонистов в {0} ({1}, {2} отсюда)
 ShipMission Description With Distance LoadCargo		;Загрузить топливо в {0} (в {1})
 ShipMission Description With Distance LoadCargo Resources		;Купить {1} за {0} (в {2})
-ShipMission Description With Distance LoadCargo Smuggling Resources		;Купить контрабанду {1} за {0} ({2} вдали)
-ShipMission Description With Distance LoadCargo Resources Load		;Загрузить {1} в {0} (в {2} вдали)
-ShipMission Description With Distance LoadCargo Smuggling Resources Load		;Загрузить контрабанду {1} в {0} ({2} вдали)
+ShipMission Description With Distance LoadCargo Smuggling Resources		;Купить контрабанду {1} в {0} ({2} отсюда)
+ShipMission Description With Distance LoadCargo Resources Load		;Загрузить {1} в {0} ({2} отсюда)
+ShipMission Description With Distance LoadCargo Smuggling Resources Load		;Загрузить контрабанду {1} в {0} ({2} отсюда)
 ShipMission Description With Distance TransferFuel		;Передать топливо в {0} (на расстоянии {1})
-ShipMission Description With Distance Mine		;Добыть {0} ({2} вдали), разгрузить на {1} ({3} вдали)
+ShipMission Description With Distance Mine		;Добыть {0} ({2} отсюда), разгрузить на {1} ({3} вдали)
 ShipMission Description With Distance MineLoad		;Добывать топливо на {0} (в {1})
 ShipMission Description With Distance MineLoad NonFuel		;Добывать ресурсы в {0} (в {1})
 ShipMission Description With Distance Move		;Переместиться в {0} (на расстоянии {1})
@@ -180,13 +180,13 @@ ShipMission Description With Distance Scout		;Разведка {0} (в {1})
 ShipMission Description With Distance Scrap		;Утилизировать в {0} (в {1})
 ShipMission Description With Distance Transport		;Перевезти груз из {0} (на расстоянии {2}) в {1} (на расстоянии {3})
 ShipMission Description With Distance Transport Passengers		;Перевезти пассажиров из {0} (на расстоянии {2}) в {1} (на расстоянии {3})
-ShipMission Description With Distance Transport Migrants		;Переместить мигрантов из {0} ({2} вдали) в {1} ({3} вдали)
+ShipMission Description With Distance Transport Migrants		;Переместить мигрантов из {0} ({2} отсюда) в {1} ({3} вдали)
 ShipMission Description With Distance Transport Tourists		;Перевезти туристов из {0} (на расстоянии {2}) в {1} (на расстоянии {3})
 ShipMission Description With Distance UnloadTroops		;Высадить войска в {0} (в {1})
 ShipMission Description With Distance UnloadPassengers		;Высадить пассажиров в {0} (в {1})
 ShipMission Description With Distance UnloadCargo		;Выгрузить груз в {0} (в {1})
 ShipMission Description With Distance UnloadCargo Resources		;Продать {1} за {0} (на расстоянии {2})
-ShipMission Description With Distance UnloadCargo Smuggling Resources		;Контрабандой доставить {1} в {0} ({2} вдали)
+ShipMission Description With Distance UnloadCargo Smuggling Resources		;Доставить контрабанду {1} в {0} ({2} отсюда)
 ShipMission Description With Distance Dock		;Причалить у {0} (на расстоянии {1})
 ShipMission Description With Distance Undock		;Отстыковаться от {0} (на расстоянии {1})
 
@@ -474,9 +474,9 @@ GameTaskType SetFleetAllowAutoUpgradingSpecificDesigns			;Автоапгрейд
 GameTaskType SetCapital		;Установить {0} в качестве новой столицы империи
 GameTaskType TransitionToRefugeeFleet		;Отказаться от {0} и стать Флотом беженцев. Вы потеряете все свои существующие корабли, базы и войска. Вместо этого вы будете командовать небольшим Флотом беженцев в поисках нового дома. Ваш новый одинокий Колонизационный корабль будет иметь на борту всё население {0}, готовое основать новую колонию
 GameTaskType UI_AddPrimaryWeapon		;Добавить «{0}» в основные вооружения ({1})
-GameTaskType UI_AddSecondaryWeapon		;Добавить «{0}» в дополнительные вооружения ({1})
+GameTaskType UI_AddSecondaryWeapon		;Добавить «{0}» во вспомогательное оружие ({1})
 GameTaskType UI_RemovePrimaryWeapon		;Удалить «{0}» из основных вооружений ({1})
-GameTaskType UI_RemoveSecondaryWeapon		;Удалить «{0}» из вторичного вооружения ({1})
+GameTaskType UI_RemoveSecondaryWeapon		;Убрать «{0}» из вспомогательного оружия ({1})
 GameTaskType UI_AutoFireAtSelection Target		;Автоматическая стрельба по {0}
 GameTaskType UI_AutoFireAtSelection		;Автоматическая стрельба по цели
 GameTaskType UI_CancelAutoFireAtSelection Target		;Отменить автоматический огонь в {0}
@@ -484,7 +484,7 @@ GameTaskType UI_CancelAutoFireAtSelection		;Отменить автоматич�
 GameTaskType LonePirateBuildBase		;Построить пиратскую базу и стать пиратской фракцией
 GameTaskType LonePirateCycleViewMode		;{0}
 GameTaskType LonePirateCycleViewMode Cockpit		;Войти в кабину
-GameTaskType LonePirateCycleViewMode Location		;Выйти из кокпита
+GameTaskType LonePirateCycleViewMode Location		;Выйти из кабины
 GameTaskType LonePirateCycleViewMode Galaxy		;Обзор галактики
 GameTaskType EnterCockpitMode		;Войти в режим кабины для {0}
 GameTaskType ExitCockpitMode		;Выйти из режима кабины
@@ -644,15 +644,15 @@ GameTaskType Short SetFleetFormationCoherence		;Установить постр�
 GameTaskType Short SetCapital		;Выбрать столицу
 GameTaskType Short TransitionToRefugeeFleet		;Отказаться от последней колонии и стать Флотом беженцев
 GameTaskType Short UI_AddPrimaryWeapon		;Добавить основное оружие
-GameTaskType Short UI_AddSecondaryWeapon		;Добавить вторичное оружие
+GameTaskType Short UI_AddSecondaryWeapon		;Добавить вспомогательное оружие
 GameTaskType Short UI_RemovePrimaryWeapon		;Удалить основное оружие
-GameTaskType Short UI_RemoveSecondaryWeapon		;Удалить вторичное оружие
+GameTaskType Short UI_RemoveSecondaryWeapon		;Удалить вспомогательное оружие
 GameTaskType Short UI_AutoFireAtSelection		;Автоматическая стрельба по цели
 GameTaskType Short UI_CancelAutoFireAtSelection		;Отменить автоматический огонь по цели
 GameTaskType Short LonePirateBuildBase		;Построить пиратскую базу и стать пиратской фракцией
 GameTaskType Short LonePirateCycleViewMode		;{0}
 GameTaskType Short LonePirateCycleViewMode Cockpit		;Войти в кабину
-GameTaskType Short LonePirateCycleViewMode Location		;Выйти из кокпита
+GameTaskType Short LonePirateCycleViewMode Location		;Выйти из кабины
 GameTaskType Short LonePirateCycleViewMode Galaxy		;Обзор галактики
 GameTaskType Short EnterCockpitMode		;Войти в режим кабины
 GameTaskType Short ExitCockpitMode		;Выйти из режима кабины
@@ -1313,7 +1313,7 @@ Can only build X per empire		;Можно построить только {0} в 
 Can only build X per galaxy		;Можно построить только {0} в галактике
 Can only build at PLANETTYPES		;Можно построить только в колониях {0}
 Can only build with GOVERNMENTS		;Можно построить только с правительствами типа {0}
-Enables GOVERNMENTS		;Позволяет {0} правительствам
+Enables GOVERNMENTS		;Разрешает формы правления: {0}
 
 ColonyCorruptionReductionProjectionRange		;Дальн. сниж. коррупции
 ColonyIncomeDrainRatio		;Отток доходов колонии
@@ -1883,7 +1883,7 @@ IncomeType Discoveries		;Открытия
 IncomeType TradeBonuses		;Бонусы к торговле
 IncomeType TradeIncome		;Доход от торговли
 IncomeType PrivateColonyRevenue		;Частный доход
-IncomeType Privateering		;Частное морское право
+IncomeType Privateering		;Каперство
 
 IncomeType ColonyTax Explanation		;Ставки налогов устанавливаются для каждой колонии отдельно. Налоговые поступления собираются с частного дохода колонии по установленной ставке. Высокие налоги снижают уровень счастья и замедляют рост колонии. Низкие налоги повышают уровень счастья и способствуют росту.
 IncomeType ResourceTrading Explanation		;Ваша империя будет автоматически продавать излишки ресурсов другим империям при наличии с ними Соглашения о Ограниченной, Лимитированной или Свободной Торговле. Независимые колонии и торговцы также будут покупать у вас излишки ресурсов.
@@ -1923,7 +1923,7 @@ ExpenseType PrivateShipMaintenance		;Частн. обсл. кораб.
 ExpenseType PrivateTourism		;Частный туризм
 ExpenseType PrivateShipBuilding		;Частн. строит. кораб.
 ExpenseType PrivateFuel		;Частный заправщик
-ExpenseType Privateering		;Частное морское право
+ExpenseType Privateering		;Каперство
 
 ExpenseType ColonyGrowthFunding Explanation		;Колонии обычно растут медленно, но вы можете ускорить их рост, выделив финансирование.
 ExpenseType Research Explanation		;Скорость исследований значительно увеличивается при выделении средств на исследования
@@ -4860,7 +4860,7 @@ Our recent contact with independent traders has revealed the location of an inde
 
 Special Abilities		;Способности
 Can manually control Mining Ships		;Можно вручную управлять добывающими кораблями
-Can manually control Freighters		;Возможность ручного управления грузовыми кораблями
+Can manually control Freighters		;Позволяет вручную управлять грузовыми кораблями
 Low Fuel		;Мало топлива
 Upgrade		;Улучшить
 
@@ -4931,7 +4931,7 @@ Project above is parent		;Проект выше является родител�
 Project below is child		;Проект ниже является дочерним (должен быть исследован после).
 
 Version X		;Версия {0}
-Stride X        ;Шаг v{0}
+Stride X        ;Stride v{0}
 NET X           ;.NET v{0}
 
 X vs X		;{0} против {1}
@@ -7958,7 +7958,7 @@ Lone Pirates do not use FUNCTION		;Одиночные пираты не испо
 Lone Pirates cannot queue research projects		;Одиночные пираты не могут ставить в очередь проекты исследований
 Lone Pirate Economy		;Экономика одиночного пирата
 
-Next Fire		;Следующий огонь
+Next Fire		;Следующий выстрел
 Ready to Fire		;Готов к стрельбе
 Must have ship selected		;Должен быть выбран корабль
 Must have target selected		;Должна быть выбрана цель
@@ -7966,32 +7966,32 @@ Selected ship must be of your own faction		;Выбранный корабль д
 Your Ship		;Ваш корабль
 
 Primary Weapon		;Основное оружие
-Secondary Weapon		;Вторичное оружие
+Secondary Weapon		;Вспомогательное оружие
 
-CockpitTaskType HeadingLeft		;Заголовок - Слева
-CockpitTaskType HeadingRight		;Заголовок - справа
-CockpitTaskType PitchUp		;Наклон - Вверх
-CockpitTaskType PitchDown		;Низкий тон
-CockpitTaskType RollLeft		;Бросок - Слева
-CockpitTaskType RollRight		;Бросок - Вправо
+CockpitTaskType HeadingLeft		;Рыскание - влево
+CockpitTaskType HeadingRight		;Рыскание - вправо
+CockpitTaskType PitchUp		;Тангаж - вверх
+CockpitTaskType PitchDown		;Тангаж - вниз 
+CockpitTaskType RollLeft		;Крен - влево
+CockpitTaskType RollRight		;Крен - вправо
 CockpitTaskType Accelerate		;Ускорить
 CockpitTaskType Decelerate		;Замедлить
 CockpitTaskType MaximumSpeed		;Максимальная скорость
 CockpitTaskType MinimumSpeed		;Минимальная скорость
-CockpitTaskType FirePrimaryWeapon		;Оружие основного огня
-CockpitTaskType FireSecondaryWeapon		;Оружие вторичного огня
-CockpitTaskType CycleNextTarget		;Переключить следующую враждебную цель в локации
-CockpitTaskType CyclePreviousTarget		;Циклически переключать предыдущую враждебную цель в локации
+CockpitTaskType FirePrimaryWeapon		;Огонь основным орудием
+CockpitTaskType FireSecondaryWeapon		;Огонь вспомогательным орудием
+CockpitTaskType CycleNextTarget		;Переключить на следующую враждебную цель в локации
+CockpitTaskType CyclePreviousTarget		;Переключмит нв предыдущую враждебную цель в локации
 CockpitTaskType CycleNextItem		;Следующий предмет на локации
-CockpitTaskType CyclePreviousItem		;Цикл предыдущий предмет в локации
+CockpitTaskType CyclePreviousItem		;Предыдущий предмет в локации
 CockpitTaskType AutoFireAtTarget		;Автоматическая стрельба по цели
 
 Cockpit Mode		;Режим кабины
 
 Click to deselect		;Нажмите, чтобы снять выделение
 
-Trade-In Price	;Цена по Trade-In
-Trade-in price for your existing ship NAME is AMOUNT		;Цена обмена за ваш существующий корабль '{0}' составляет {1} кредитов
+Trade-In Price	;Выкупная цена
+Trade-in price for your existing ship NAME is AMOUNT		;Выкупная цена за ваш существующий корабль '{0}' составляет {1} кредитов
 
 ETA: X secs		;Время ожидания: {0} сек.
 
@@ -8009,7 +8009,7 @@ Shadowport Intro Message Lone Pirate		;{0} говорит: «Приветств�
 
 Shadowport Diplomatic Greeting Pirates Neutral		;Приветствую тебя, космический странник. Приходи и посети нас, чтобы увидеть весь спектр наших услуг. Отправь корабль для стыковки с нашей базой.
 Shadowport Diplomatic Greeting Pirates Happy		;Добро пожаловать, друг! Обязательно посетите нас, чтобы ознакомиться с полным спектром наших услуг. Отправьте корабль для стыковки с нашей базой.
-Shadowport Diplomatic Greeting Pirates Angry		;Чего ты хочешь, вне закона? Изложи своё дело.
+Shadowport Diplomatic Greeting Pirates Angry		;Чего ты хочешь не законного? Изложи своё дело.
 Shadowport Diplomatic Greeting Standard Neutral		;Приветствую, обитатель планеты. Чем мы можем вам помочь?
 Shadowport Diplomatic Greeting Standard Happy		;Рад видеть тебя, дружелюбный обитатель планеты. О чём ты думаешь?
 Shadowport Diplomatic Greeting Standard Angry		;Чего тебе, обитатель планеты? Излагай суть.
@@ -8042,7 +8042,7 @@ Quest Lone Pirate Direct Description Destroy Sleeping Hive Ship Shadowport		;В 
 While visiting the bar at our Shadowport, a drunken pirate was overheard		;Во время посещения бара на нашей теневой станции был подслушан разговор одного пьяного пирата, хваставшегося своими недавними подвигами. Его история привлекла внимание нашего бармена.
 Drunken Pirate		;Пьяный пират
 While repairing a ship one of our mechanics found an old datapad		;Во время ремонта корабля один из наших механиков обнаружил старый планшет, спрятанный за панелью.
-Old Datapad		;Старый датапад
+Old Datapad		;Старый планшет
 A wealthy young noble from an independent colony contacted us		;Богатый молодой дворянин из независимой колонии обратился к нам с просьбой о помощи.
 Wealthy Noble		;Богатый дворянин
 Our scanner techs intercepted a communications transmission		;Наши специалисты по сканированию перехватили передачу связи.
@@ -8058,7 +8058,7 @@ Vordikar Hunter		;Охотник Вордикаров
 
 A computer technician of ours overheard an intriguing piece of gossip		;Один из наших компьютерных техников подслушал интригующий слух.
 Technician		;Техник
-A politician from an independent colony got in touch with us with an under-the-table request		;Политик из независимой колонии связался с нами с просьбой, заключенной за кулисами.
+A politician from an independent colony got in touch with us with an under-the-table request		;С нами связался политик из независимой колонии с неофициальной просьбой
 Politician		;Политик
 A contact of ours recently passed on an interesting story		;Наш контакт недавно передал интересную историю.
 Contact		;Контакт
@@ -8071,72 +8071,72 @@ Merchant		;Торговец
 
 The REVEALITEM revealed that SITUATION		;{0} выявил, что {1}
 
-Missing Title Deed		;Отсутствует свидетельство о праве собственности
-Shadowport Quest Situation Missing Title Deed		;Отсутствует важный документ. Документом является Свидетельство о праве собственности на небольшую луну, богатую полезными ископаемыми. Судя по всему, документ находился на борту корабля, который был поглощен Вордикаром. Последнее сообщение с гибнущего корабля указывало на то, что Вордикар также был уничтожен. Следовательно, Свидетельство о праве собственности, вероятно, находится среди останков мертвого существа в месте битвы.
-Shadowport Quest Objective Missing Title Deed		;Найти и извлечь отсутствующий акт на право собственности
+Missing Title Deed		;Потерянное свидетельство о праве собственности
+Shadowport Quest Situation Missing Title Deed		;утерян важный документ. Документом является Свидетельство о праве собственности на небольшую луну, богатую полезными ископаемыми. Судя по всему, документ находился на борту корабля, который был поглощен Вордикаром. Последнее сообщение с гибнущего корабля указывало на то, что Вордикар также был уничтожен. Следовательно, Свидетельство о праве собственности, вероятно, находится среди останков мертвого существа в месте битвы.
+Shadowport Quest Objective Missing Title Deed		;найти и извлечь утерянный акт на право собственности
 
-Missing Will		;Отсутствует завещание
-Shadowport Quest Situation Missing Will		;Отсутствует важный документ. Это завещание, необходимое для подтверждения прав наследования крупного имущества. Судя по всему, документ находился на корабле, который был уничтожен в космическом сражении. Завещание, вероятно, можно найти среди обломков в месте боя.
-Shadowport Quest Objective Missing Will		;Найти и извлечь недостающую Волю
+Missing Will		;Утерянное завещание
+Shadowport Quest Situation Missing Will		;утерян важный документ. Это завещание, необходимое для подтверждения прав наследования крупного имущества. Судя по всему, документ находился на корабле, который был уничтожен в космическом сражении. Завещание, вероятно, можно найти среди обломков в месте боя.
+Shadowport Quest Objective Missing Will		;найти и извлечь утерянное завещание
 
-Missing Ambassador		;Отсутствует посол
+Missing Ambassador		;Потерянный посол
 Shadowport Quest Situation Missing Ambassador		;Инопланетный посол оказался брошенным в отдаленной и неизвестной части галактики. Очевидно, во время путешествия к новой дипломатической миссии экипаж счел посла настолько невыносимым, что устроил бунт и оставил его дрейфовать в спасательной капсуле. Империя посла, признавая его недостатки характера, заплатит крупное вознаграждение тому, кто вернет его.
-Shadowport Quest Objective Missing Ambassador		;Найти и вернуть отсутствующего посла
+Shadowport Quest Objective Missing Ambassador		;Найти и вернуть потерянного посла
 
-Missing Scientist		;Отсутствует учёный
-Shadowport Quest Situation Missing Scientist		;Один из иностранных учёных погиб в результате странного эксперимента. По всей видимости, он пытался «трансматерилизовать» объекты с одного корабля на другой, перемещая физические объекты посредством передаваемого потока данных. Эта безумная идея пошла не так, когда он безрассудно попытался трансматерилизовать самого себя. Никто не знает точно, куда он попал. Однако показания трансматеризатора указывали на то, что учёный жив и здоров где-то в галактике. Его коллеги полагали, что им удалось вычислить его местонахождение.
-Shadowport Quest Objective Missing Scientist		;Найти и вернуть отсутствующего учёного
+Missing Scientist		;Потерянный учёный
+Shadowport Quest Situation Missing Scientist		;один из иностранных учёных погиб в результате странного эксперимента. По всей видимости, он пытался «трансматерилизовать» объекты с одного корабля на другой, перемещая физические объекты посредством передаваемого потока данных. Эта безумная идея пошла не так, когда он безрассудно попытался трансматерилизовать самого себя. Никто не знает точно, куда он попал. Однако показания трансматеризатора указывали на то, что учёный жив и здоров где-то в галактике. Его коллеги полагали, что им удалось вычислить его местонахождение.
+Shadowport Quest Objective Missing Scientist		;найти и вернуть потерявшегося учёного
 
 Buried Treasure		;Скрытое сокровище
-Shadowport Quest Situation Buried Treasure Asteroid		;На астероиде захоронено большое количество пиратского сокровища. По-видимому, один старый пират спрятал здесь все свое добро, но умер, так и не сообщив никому, где оно находится. Его пиратские сообщники предполагали, что знают, где оно может быть, но слишком боялись искать его сами, так как в этом районе кишат Вордикары.
-Shadowport Quest Objective Buried Treasure		;Найти и извлечь захороненное сокровище
+Shadowport Quest Situation Buried Treasure Asteroid		;на астероиде захоронено большое количество пиратского сокровища. По-видимому, один старый пират спрятал здесь все свое добро, но умер, так и не сообщив никому, где оно находится. Его пиратские сообщники предполагали, что знают, где оно может быть, но слишком боялись искать его сами, так как в этом районе кишат Вордикары.
+Shadowport Quest Objective Buried Treasure		;найти и извлечь захороненное сокровище
 
 Floating Treasure		;Плавающий клад
-Shadowport Quest Situation Floating Treasure		;В верхних слоях атмосферы планеты-гиганта дрейфует большое количество пиратского сокровища. По-видимому, пиратский корабль был вынужден оставить огромный тайник с добычей у планеты, преследуемый противником. Бортовой навигационный компьютер пиратского корабля был поврежден в бою, поэтому впоследствии пираты не смогли точно определить местонахождение планеты. Они предполагали, что она находится в определенной звездной системе, но так и не смогли отыскать добычу.
-Shadowport Quest Objective Floating Treasure		;Найти и извлечь плавающий Сокровище
+Shadowport Quest Situation Floating Treasure		;в верхних слоях атмосферы планеты-гиганта дрейфует большое количество пиратского сокровища. По-видимому, пиратский корабль был вынужден оставить огромный тайник с добычей у планеты, преследуемый противником. Бортовой навигационный компьютер пиратского корабля был поврежден в бою, поэтому впоследствии пираты не смогли точно определить местонахождение планеты. Они предполагали, что она находится в определенной звездной системе, но так и не смогли отыскать добычу.
+Shadowport Quest Objective Floating Treasure		;найти и извлечь плавающий Сокровище
 
 
-Missing Spy		;Отсутствующий шпион
-Shadowport Quest Situation Missing Spy		;Иностранный шпион пропал. Похоже, что его собирались арестовать вражеские контрразведчики на обратном пути с задания, и он скрылся в спасательной капсуле. Империя Шпиона выплатит крупное вознаграждение за его скрытное спасение.
-Shadowport Quest Objective Missing Spy		;Найти и вернуть отсутствующего шпиона
+Missing Spy		;Потерявшийся шпион
+Shadowport Quest Situation Missing Spy		;иностранный шпион пропал. Похоже, что его собирались арестовать вражеские контрразведчики на обратном пути с задания, и он скрылся в спасательной капсуле. Империя Шпиона выплатит крупное вознаграждение за его скрытное спасение.
+Shadowport Quest Objective Missing Spy		;найти и вернуть отсутствующего шпиона
 
-Shadowport Quest Situation Missing Scientist 2		;Инопланетный ученый оказался в отдаленной части галактики вместе со своей командой. По-видимому, он случайно уничтожил корабль, на котором путешествовал, во время проведения несанкционированного эксперимента с использованием новейшего вида коррозионных химических веществ и искажения пространства-времени. Империя Ученого была бы признательна за скорое спасение, прежде чем он также уничтожит спасательную капсулу, в которой в данный момент находится команда.
+Shadowport Quest Situation Missing Scientist 2		;инопланетный ученый оказался в отдаленной части галактики вместе со своей командой. По-видимому, он случайно уничтожил корабль, на котором путешествовал, во время проведения несанкционированного эксперимента с использованием новейшего вида коррозионных химических веществ и искажения пространства-времени. Империя Ученого была бы признательна за скорое спасение, прежде чем он также уничтожит спасательную капсулу, в которой в данный момент находится команда.
 
 Missing Diplomats Daughter		;Пропавшая дочь дипломата
 Shadowport Quest Situation Missing Diplomats Daughter		;Дочь высокопоставленного дипломата пропала. Она была похищена и взята в заложники по политическим мотивам, но, судя по всему, во время похищения она спровоцировала бунт на корабле и каким-то образом смогла сбежать в хаосе. Вероятно, её можно найти в спасательной или грузовой капсуле в этом регионе галактики, и её родственники заплатят большое вознаграждение за её безопасное возвращение.
-Shadowport Quest Objective Missing Diplomats Daughter		;Найти и извлечь Дочь дипломата
+Shadowport Quest Objective Missing Diplomats Daughter		;найти и вернуть Дочь дипломата
 
-Missing Botanic Specimen		;Отсутствующий ботанический образец
-Shadowport Quest Situation Missing Botanic Specimen		;Отсутствует ценный ботанический образец. Ожидается, что этот невероятный новый гибридный водный фрукт установит рекорды на аукционе, но корабль, перевозивший его на торги, судя по всему, был уничтожен в перестрелке во время космического сражения. Мы полагаем, что он, вероятно, находится среди обломков в месте боя.
-Shadowport Quest Objective Missing Botanic Specimen		;Найти и извлечь ботанический образец
+Missing Botanic Specimen		;Потерянный ботанический образец
+Shadowport Quest Situation Missing Botanic Specimen		;потерян ценный ботанический образец. Ожидается, что этот невероятный новый гибридный водный фрукт установит рекорды на аукционе, но корабль, перевозивший его на торги, судя по всему, был уничтожен в перестрелке во время космического сражения. Мы полагаем, что он, вероятно, находится среди обломков в месте боя.
+Shadowport Quest Objective Missing Botanic Specimen		;найти и вернуть ботанический образец
 
-Missing Historical Artifact		;Отсутствующий исторический артефакт
-Shadowport Quest Situation Missing Historical Artifact		;Исторический артефакт был утерян. Важная бумажная карта, предназначенная для нескольких независимых колоний, перевозилась на выставку. К сожалению, кто-то на борту принял её за мусор и выбросил вместе с выгруженными отходами. Мы полагаем, что она находится где-то на маршруте, по которому следовал корабль.
-Shadowport Quest Objective Missing Historical Artifact		;Найти и извлечь Исторический артефакт
+Missing Historical Artifact		;Утерян исторический артефакт
+Shadowport Quest Situation Missing Historical Artifact		;исторический артефакт был утерян. Важная бумажная карта, предназначенная для нескольких независимых колоний, перевозилась на выставку. К сожалению, кто-то на борту принял её за мусор и выбросил вместе с выгруженными отходами. Мы полагаем, что она находится где-то на маршруте, по которому следовал корабль.
+Shadowport Quest Objective Missing Historical Artifact		;найти и вернуть Исторический артефакт
 
-Missing Biological Sample		;Отсутствующий биологический образец
-Shadowport Quest Situation Missing Biological Sample		;Отсутствует важный биологический образец. Редкое нервное заболевание отправляли в другую лабораторию для изучения, когда корабль был уничтожен в космическом сражении. Вероятно, образец можно найти среди обломков в месте боя, и империя, участвовавшая в конфликте, выплатит крупную сумму за конфиденциальное возвращение медицинского образца.
-Shadowport Quest Objective Missing Biological Sample		;Найти и извлечь биологический образец
+Missing Biological Sample		;Потерян биологический образец
+Shadowport Quest Situation Missing Biological Sample		;потерян важный биологический образец. Редкое нервное заболевание отправляли в другую лабораторию для изучения, когда корабль был уничтожен в космическом сражении. Вероятно, образец можно найти среди обломков в месте боя, и империя, участвовавшая в конфликте, выплатит крупную сумму за конфиденциальное возвращение медицинского образца.
+Shadowport Quest Objective Missing Biological Sample		;найти и вернуть биологический образец
 
-Missing Art Piece		;Отсутствующая часть головоломки
-Shadowport Quest Situation Missing Art Piece		;Пропадает ценное произведение искусства. Мозаика из хапекского обсидиана считается одним из шедевров своей эпохи, но, по-видимому, контрабандист, в последний раз подозревавшийся в её хранении, был задержан и отказался выдать её местонахождение. Новые данные указывают на то, что она, скорее всего, всё ещё находится на его заброшенном корабле.
-Shadowport Quest Objective Missing Art Piece		;Найти и извлечь произведение искусства
+Missing Art Piece		;Утеряна часть головоломки
+Shadowport Quest Situation Missing Art Piece		;утерянно ценное произведение искусства. Мозаика из хапекского обсидиана считается одним из шедевров своей эпохи, но, по-видимому, контрабандист, в последний раз подозревавшийся в её хранении, был задержан и отказался выдать её местонахождение. Новые данные указывают на то, что она, скорее всего, всё ещё находится на его заброшенном корабле.
+Shadowport Quest Objective Missing Art Piece		;найти и вернуть произведение искусства
 
-Missing Historical Weapon		;Отсутствующее историческое оружие
-Shadowport Quest Situation Missing Historical Weapon		;Древнее историческое оружие было утрачено. Это оружие — меч, которому тысячи лет и который имеет огромное культурное значение, был обнаружен в ходе недавнего археологического обследования. К сожалению, меч, по-видимому, находился на борту корабля, уничтоженного в космическом сражении. Вероятно, его можно найти среди обломков в месте битвы.
-Shadowport Quest Objective Missing Historical Weapon		;Найти и извлечь Историческое оружие
+Missing Historical Weapon		;Потеряно историческое оружие
+Shadowport Quest Situation Missing Historical Weapon		;древнее историческое оружие было утрачено. Это оружие — меч, которому тысячи лет и который имеет огромное культурное значение, был обнаружен в ходе недавнего археологического обследования. К сожалению, меч, по-видимому, находился на борту корабля, уничтоженного в космическом сражении. Вероятно, его можно найти среди обломков в месте битвы.
+Shadowport Quest Objective Missing Historical Weapon		;найти и вернуть Историческое оружие
 
-Missing Brandy		;Отсутствует бренди
-Shadowport Quest Situation Missing Brandy		;Крупная партия выдержанного Сокалианского бренди пропала. Этот напиток относится к предметам роскоши и производится путем дистилляции редких сокалианских слив, выращиваемых на песчаных пустынных мирах. По всей видимости, контрабандист каким-то образом завладел бренди, но, почувствовав, что за ним следят, в панике сбросил груз в космос. Возможно, он просто слишком много выпил...
-Shadowport Quest Objective Missing Brandy		;Найти и изъять недостающий бренди
+Missing Brandy		;Исчезло бренди
+Shadowport Quest Situation Missing Brandy		;крупная партия выдержанного Сокалианского бренди пропала. Этот напиток относится к предметам роскоши и производится путем дистилляции редких сокалианских слив, выращиваемых на песчаных пустынных мирах. По всей видимости, контрабандист каким-то образом завладел бренди, но, почувствовав, что за ним следят, в панике сбросил груз в космос. Возможно, он просто слишком много выпил...
+Shadowport Quest Objective Missing Brandy		;найти и вернуть недостающий бренди
 
-Missing Historical Relic		;Отсутствующая историческая реликвия
-Shadowport Quest Situation Missing Historical Relic		;Историческая реликвия была спрятана. Календарь Кинритера, поразительный пример древних часовых механизмов, стал предметом споров с момента своего первого обнаружения. Многочисленные стороны громко заявляли о своих правах собственности. Археологическая экспедиция, устав от многочисленных разногласий, оставила артефакт в руинах и скрыла место проведения своих изысканий. Похоже, что он оставался там до сегодняшнего дня.
-Shadowport Quest Objective Missing Historical Relic		;Найти и извлечь Исторический реликвия
+Missing Historical Relic		;Исчезла историческая реликвия
+Shadowport Quest Situation Missing Historical Relic		;историческая реликвия была спрятана. Календарь Кинритера, поразительный пример древних часовых механизмов, стал предметом споров с момента своего первого обнаружения. Многочисленные стороны громко заявляли о своих правах собственности. Археологическая экспедиция, устав от многочисленных разногласий, оставила артефакт в руинах и скрыла место проведения своих изысканий. Похоже, что он оставался там до сегодняшнего дня.
+Shadowport Quest Objective Missing Historical Relic		;найти и вернуть Историческую реликвию
 
-Missing Survey Map		;Отсутствует карта разведки
-Shadowport Quest Situation Missing Survey Map		;Отсутствует интересный документ о древних местах добычи полезных ископаемых. На карте разведки указаны месторождения ценного тебраакианского гранита. Карта находилась в компьютерном ядре корабля, который был покинут во время вспышки смертельного вируса. Вероятно, она будет обнаружена в останках брошенного корабля.
-Shadowport Quest Objective Missing Survey Map		;Найти и извлечь карту исследования
+Missing Survey Map		;Исчезла карта разведки
+Shadowport Quest Situation Missing Survey Map		;исчезл интересный документ о древних местах добычи полезных ископаемых. На карте разведки указаны месторождения ценного тебраакианского гранита. Карта находилась в компьютерном ядре корабля, который был покинут во время вспышки смертельного вируса. Вероятно, она будет обнаружена в останках брошенного корабля.
+Shadowport Quest Objective Missing Survey Map		;найти и вернуть карту исследования
 
 
 
@@ -8151,7 +8151,7 @@ Shadowport Quest Location Hint Item Nearby StarType		;{0} не указывае�
 Shadowport Quest Location Hint Character Nearby StarType		;{0} не помнил точного местоположения, но вспоминал, что это [LOCATION]{1} звездная система где-то рядом с системой {2}[/LOCATION].
 
 Our mission for you, our trusted friend, is MISSION		;Наша миссия для вас, нашего доверенного друга, — {0}
-Our mission for you, NAME, is MISSION		;Наша миссия для вас, {0}, — {1}
+Our mission for you, NAME, is MISSION		;Наша миссия для вас, {0} это {1}
 
 You helped us with special missions		;Вы помогли нам со специальными миссиями
 
@@ -8175,14 +8175,14 @@ Ship Graveyard		;Кладбище кораблей
 Hive Ship		;Корабль Улья
 Legend of Durg Skuf		;Легенда о Дурге Скуфе
 
-Shadowport Quest Situation Ship Graveyard		;В отдалённой звёздной системе существует древнее кладбище кораблей. Эти корабли являются остатками крупного сражения, произошедшего в далёком прошлом, в ходе которого осталось множество повреждённых судов и обломков. Корабли, судя по всему, были весьма продвинутыми и, вероятно, представляют большую ценность для разборки на запчасти. Кладбище кораблей было обнаружено отважным пиратом-исследователем, который впоследствии бесследно исчез.
-Shadowport Quest Objective Ship Graveyard		;Найти кладбище кораблей
+Shadowport Quest Situation Ship Graveyard		;в отдалённой звёздной системе существует древнее кладбище кораблей. Эти корабли являются остатками крупного сражения, произошедшего в далёком прошлом, в ходе которого осталось множество повреждённых судов и обломков. Корабли, судя по всему, были весьма продвинутыми и, вероятно, представляют большую ценность для разборки на запчасти. Кладбище кораблей было обнаружено отважным пиратом-исследователем, который впоследствии бесследно исчез.
+Shadowport Quest Objective Ship Graveyard		;найти кладбище кораблей
 
-Shadowport Quest Situation Secret Construction Project		;В отдалённой звёздной системе существует грандиозный секретный строительный проект. Проект не завершён и, судя по всему, относится к очень далёкому прошлому. Огромный корабль, находящийся в стадии постройки, должен обладать невероятной мощью. Технологии этого корабля также должны быть чрезвычайно ценными. Заброшенный корабль был обнаружен отважным пиратом-исследователем, который впоследствии пропал без вести.
-Shadowport Quest Objective Secret Construction Project		;Найти секретный строительный проект
+Shadowport Quest Situation Secret Construction Project		;в отдалённой звёздной системе существует грандиозный секретный строительный проект. Проект не завершён и, судя по всему, относится к очень далёкому прошлому. Огромный корабль, находящийся в стадии постройки, должен обладать невероятной мощью. Технологии этого корабля также должны быть чрезвычайно ценными. Заброшенный корабль был обнаружен отважным пиратом-исследователем, который впоследствии пропал без вести.
+Shadowport Quest Objective Secret Construction Project		;найти секретный строительный проект
 
-Shadowport Quest Situation Hive Ship		;В далекой звездной системе обнаружен древний корабль смертоносного Улья. Однако корабль, по-видимому, находится в спящем и неактивном состоянии. После великого галактического катаклизма Улей представлял смертельную угрозу для пиратов. Пираты постоянно сражались с Ульем на протяжении многих лет, пока не были отброшены и не были признаны вымершими. Но, судя по всему, некоторые их корабли все еще существуют. К сожалению, у нас есть лишь последнее известное местоположение разведчика, обнаружившего корабль Улья. Связь с ним вскоре была потеряна.
-Shadowport Quest Objective Hive Ship		;Найти корабль Улья
+Shadowport Quest Situation Hive Ship		;в далекой звездной системе обнаружен древний корабль смертоносного Улья. Однако корабль, по-видимому, находится в спящем и неактивном состоянии. После великого галактического катаклизма Улей представлял смертельную угрозу для пиратов. Пираты постоянно сражались с Ульем на протяжении многих лет, пока не были отброшены и не были признаны вымершими. Но, судя по всему, некоторые их корабли все еще существуют. К сожалению, у нас есть лишь последнее известное местоположение разведчика, обнаружившего корабль Улья. Связь с ним вскоре была потеряна.
+Shadowport Quest Objective Hive Ship		;найти корабль Улья
 
 Shadowport Quest Situation Legend of Durg Skuf		;Пьяный пират рассказал о странной находке, сделанной им в древних руинах на далёкой планете. Оказалось, что массивная каменная стена в руинах покрыта резьбой, инкрустированной драгоценными камнями. Судя по всему, эти узоры представляли собой звёздную карту, где камни символизировали звёзды.\n\nХотя сама по себе эта история была достаточно интересной, описание карты на стене сильно напоминало «Легенду о Дурге Скуфе», старую пиратскую байку о капитане, который спасся во время катастрофического космического сражения и ушёл на покой на безлюдную планету, где построил дворец. Согласно легенде, он увековечил место битвы на звёздной карте, вырезанной на стене его дворца.\n\nПьяный пират хвастался, что вернётся в руины и заберёт ценные камни. Хотя эти камни могут иметь определённую ценность, мы полагаем, что настоящая добыча — это то, на что указывала карта: место самой битвы.\n\nК сожалению, пират ушёл, прежде чем наш бармен успел узнать больше подробностей. Но мы знаем, что недавно он прибыл из системы [LOCATION]{0}[/LOCATION]. Поэтому мы подозреваем, что [B]руины находятся где-то вблизи этой системы[/B].\n\nНаша миссия для тебя, наш дорогой друг, — найти эти руины и расшифровать звёздную карту. Если нам удастся обнаружить место древней битвы, кто знает, что мы там найдём!
 
@@ -8215,7 +8215,7 @@ We are now a Planetary Empire Explanation		;С переходом нашей ф�
 Weapon Range		;Дальность оружия
 Top Speed		;Максимальная скорость
 
-Smuggled Contraband		;Контрабанда, провезенная контрабандой
+Smuggled Contraband		;Доставленная контрабанда
 Contraband Resources		;Контрабандные ресурсы
 Black Market		;Черный рынок
 Resource Smuggling Explanation		;Эти ресурсы являются [HL]незаконным контрабандным товаром[/HL], скорее всего, украденным. Поэтому они доступны по [B]значительно более низкой цене[/B], чем обычно.\n\nЕсли эти ресурсы находятся на вашем корабле, вы подвергаетесь [HL]риску обнаружения и атаки[/HL] со стороны местных властей в любой точке галактики. Однако низкая цена покупки может сделать их очень прибыльными.\n\nОбратите внимание, что пиратские фракции обычно не беспокоятся о контрабандных ресурсах.\n\nТакже учтите, что вы можете снизить вероятность обнаружения при контрабандном провозе ресурсов, используя технологии [GOOD]Подавления сканеров[/GOOD]. Старайтесь также держаться на расстоянии от кораблей и баз, которые могут просканировать ваш грузовой отсек.
@@ -8282,40 +8282,40 @@ GamePad missing		;(Выбранный игровой контроллер отс
 No GamePad selected		;(Игровой контроллер не выбран)
 
 GamePadButton A		;A
-GamePadButton B		;Б
-GamePadButton Back		;Назад
-GamePadButton LeftShoulder		;Левое плечо
-GamePadButton LeftThumb		;Педаль левого большого пальца
+GamePadButton B		;B
+GamePadButton Back		;Back
+GamePadButton LeftShoulder		;LB
+GamePadButton LeftThumb		;L3
 GamePadButton None		;(Нет)
-GamePadButton PadDown		;Опустить вниз
-GamePadButton PadLeft		;Сдвинуть влево
+GamePadButton PadDown		;Крестовина: Вниз
+GamePadButton PadLeft		;Крестовина: Влево
 GamePadButton PadRight		;Выровнять по правому краю
-GamePadButton PadUp		;Поднять
-GamePadButton RightShoulder		;Правое плечо
+GamePadButton PadUp		;Крестовина: Вверх
+GamePadButton RightShoulder		;Крестовина: Вправо
 GamePadButton RightThumb		;Правый большой палец
-GamePadButton Start		;Начать
+GamePadButton Start		;Start
 GamePadButton X		;X
 GamePadButton Y		;Y
 
 GamePadAxis None		;(Нет)
-GamePadAxis Left		;Левый джойстик
-GamePadAxis Right		;Правый большой палец
+GamePadAxis Left		;Левый трекпад
+GamePadAxis Right		;Правый трекпад
 
 Select Gamepad		;Выбрать геймпад
 Ship Heading		;Направление корабля
-Ship Roll		;Ролл корабля
+Ship Roll		;Крен корабля
 Accelerate		;Ускорить
 Decelerate		;Замедлить
 Maximum Speed		;Максимальная скорость
 Minimum Speed		;Минимальная скорость
-Fire Primary Weapons		;Оружие первичного огня
-Fire Secondary Weapons		;Огневое вторичное оружие
+Fire Primary Weapons		;Огонь основного оружия
+Fire Secondary Weapons		;Огонь вспомогательного оружия
 Cycle Next Target		;Следующая цель
-Cycle Previous Target		;Цикл предыдущей цели
-Cycle Next Item at Location		;Переключить следующий предмет в локации
-Cycle Previous Item at Location		;Цикл предыдущего элемента в локации
+Cycle Previous Target		;Предыдущая цель
+Cycle Next Item at Location		;Следующий предмет в локации
+Cycle Previous Item at Location		;Предыдущий предмет в локации
 
-Cycle Lone Pirate View Mode		;Режим просмотра одиночного пирата
+Cycle Lone Pirate View Mode		;Переключить режим просмотра одиночного пирата
 
 Lone Pirate Relations		;Отношения с одиночными пиратами
 Shadowport Relations		;Отношения с теневыми портами
@@ -8329,11 +8329,11 @@ Lone Pirate Policy Settings Explanation		;Обратите внимание, ч�
 
 Cargo Capacity X used Y capacity Z remaining		;Грузоподъёмность: {0} из {1} ({2} осталось)
 
-Privateering		;Частное морское право
+Privateering		;Каперство
 We are targeting ships and bases of TARGET for them		;Мы нацеливаем корабли и базы [FACTION]{0}[/FACTION] для них
 Targeting ships and bases of TARGET for us		;Наведение на корабли и базы [FACTION]{0}[/FACTION] для нас
 
-Cancel Privateering		;Отменить частный секвестр
+Cancel Privateering		;Отменить каперство
 Cancel Privateering Explanation		;Это отменит наше соглашение о корсарстве с данной фракцией. Мы больше не будем платить им за уничтожение кораблей и баз [FACTION]{0}[/FACTION].
 Cancel Privateering Explanation Pirate		;Это отменит наше соглашение о корсарстве с данной фракцией. Они больше не будут платить нам за уничтожение кораблей и баз [FACTION]{0}[/FACTION].
 
@@ -8351,8 +8351,8 @@ Pirates cannot recruit troops		;Пираты не могут набирать в
 
 Pirate General Intro Goals		;Пираты в конечном итоге выбирают одну из следующих долгосрочных целей: [ULI][HL]перейти к созданию стандартной планетарной империи[/HL] после построения Преступной сети[/ULI][ULI][B]ИЛИ[/B] [HL]модернизировать Преступную сеть до Анархополиса[/HL], чуда пиратов, являющегося галактическим центром пиратской активности (требуется 1 миллиард населения в колонии)[/ULI]
 
-Privateering Report		;Отчет о приватирах
-Targeting EMPIRE		;Наведение на {0}
+Privateering Report		;Отчет о каперстве
+Targeting EMPIRE		;Цель на {0}
 
 Legendary Lone Pirate Bounty Hunter Destroyed Title		;Охотник за головами повержен!
 Legendary Lone Pirate Bounty Hunter Destroyed Description		;Мы победили Охотника за головами {0}, уничтожив его корабль {1}!\n\nНесмотря на попытки некоторых уничтожить нас, мы одержали победу! Эта победа принесла нам статус [HL]Легендарного одиночного пирата[/HL] во всех остальных пиратских фракциях и Теневых портах.\n\nТеперь мы обладаем новыми бонусами и преимуществами благодаря нашему новому стилю правления Легендарного одиночного пирата.\n\nКроме того, все Теневые порты теперь готовы продавать нам [HL]корпуса крейсеров и больших грузовых кораблей[/HL]. Таким образом, мы можем модернизировать наши корабли, чтобы сделать их еще более мощными и легендарными.\n\n[B]Поздравляем, вы стали легендой![/B]

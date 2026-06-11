@@ -151,9 +151,9 @@ PIRATE_TRUCEREJECTRESPONSE		;As you wish. But without a truce we cannot guarante
 
 
 
-'======================================
+''======================================
 '*** DISTANT WORLDS 2 ENTRIES BELOW ***
-'======================================
+''======================================
 
 GREETING_INTRODUCTION			;Greetings! We are the {0}
 GREETING_FRIENDLY			;Share your thoughts with us friend

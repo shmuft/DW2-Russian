@@ -318,8 +318,7 @@ def build_file_translation_cache(cache_versions, base_dir: Path, rel_path: Path)
     for version in cache_versions:
         version_dir = base_dir / version
         english_file = version_dir / 'English' / rel_path
-        russian_path = resolve_russian_rel_path(rel_path, version_dir / 'Russian')
-        russian_file = version_dir / 'Russian' / russian_path
+        russian_file = version_dir / 'Russian' / rel_path
 
         if not english_file.exists() or not russian_file.exists():
             continue
@@ -405,8 +404,12 @@ def collect_translation_pairs(english_file: Path, russian_file: Path):
     return pairs
 
 
-def write_new_translated_lines_report(target_english_dir: Path, target_russian_dir: Path, old_cache: dict):
-    """Создаёт рядом с русскими файлами отчёты *_new_translated_lines.txt."""
+def write_new_translated_lines_report(target_english_dir: Path, target_russian_dir: Path, previous_versions: list[str], base_dir: Path):
+    """Создаёт рядом с русскими файлами отчёты *_new_translated_lines.txt.
+
+    Для сравнения используется только локальный кэш по тому же файлу из предыдущих версий,
+    без общего кэша и без glossary.
+    """
     written_files = 0
 
     for english_file in sorted(target_english_dir.rglob('*')):
@@ -414,14 +417,17 @@ def write_new_translated_lines_report(target_english_dir: Path, target_russian_d
             continue
 
         rel_path = english_file.relative_to(target_english_dir)
-        russian_file = target_russian_dir / resolve_russian_rel_path(rel_path, target_russian_dir)
+        file_old_cache = build_file_translation_cache(previous_versions, base_dir, rel_path)
+
+        russian_file = target_russian_dir / rel_path
         if not russian_file.exists():
             continue
 
         pairs = collect_translation_pairs(english_file, russian_file)
+
         new_pairs = []
         for eng_text, rus_text in pairs:
-            previous_translation = old_cache.get(eng_text)
+            previous_translation = file_old_cache.get(eng_text)
             if previous_translation is None or previous_translation != rus_text:
                 new_pairs.append((eng_text, rus_text))
 
@@ -535,9 +541,8 @@ def main():
 
     if args.show_new_translated_diff_ver:
         previous_versions = [version for version in args.cache_versions if version != args.target_version]
-        old_cache = build_previous_versions_cache(previous_versions, Path('.'))
         print(f"\n[INFO] Генерация отчётов новых фраз для {args.target_version}...")
-        return write_new_translated_lines_report(english_dir, russian_dir, old_cache)
+        return write_new_translated_lines_report(english_dir, russian_dir, previous_versions, Path('.'))
 
     # Загружаем кэш переводов из уже переведённых файлов.
     # Если файл уже был посчитан ранее, переиспользуем его вместо повторного построения.
