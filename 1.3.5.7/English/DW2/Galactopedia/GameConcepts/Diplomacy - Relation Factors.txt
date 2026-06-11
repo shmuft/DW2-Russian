@@ -39,7 +39,7 @@ When empires desire resources or colonies of your empire they may test your defe
 When an intelligence mission against another empire is detected or intercepted then the diplomatic fallout can be very high. Other empires strongly dislike you carrying out intelligence missions against them.
 
 [H3]Empire Reputation[/H3]
-Your empire’s reputation will affect other empires evaluations of you. See “Empire Reputation” for more details.
+Your empireâ€™s reputation will affect other empires evaluations of you. See â€œEmpire Reputationâ€ for more details.
 
 [H3]Blockades[/H3]
-Blockading a colony or base of another empire is a sure way to cause great offense to them. Each further blockade you initiate only adds to the insult. Keep it up and you’ll be at war in no time.
+Blockading a colony or base of another empire is a sure way to cause great offense to them. Each further blockade you initiate only adds to the insult. Keep it up and youâ€™ll be at war in no time.

@@ -10,7 +10,7 @@ Troops are recruited at your colonies. They cost money to maintain, so only recr
 
 It also takes time to recruit troops - they must be trained and equipped. The following factors influence troop recruitment time:
 [ULI]Size of the colony - larger populations recruit troops faster[/ULI]
-[ULI]Your empire’s government type - some government types recruit troops faster than others[/ULI]
+[ULI]Your empireâ€™s government type - some government types recruit troops faster than others[/ULI]
 [ULI]Troop Recruitment bonuses - some facilities or characters can provide troop recruitment rate bonuses[/ULI]
 
 You must plan ahead to have adequate troops to support your aims.

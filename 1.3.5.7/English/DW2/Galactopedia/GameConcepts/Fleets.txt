@@ -45,7 +45,7 @@ A fleet's home base is their center of operations. They will return here when th
 
 The home base should have sufficient fuel for the entire fleet. Good candidates are spaceports, large colonies, or a fuel mining station. When you select a new fleet home base, stock levels will automatically order more fuel at the location.
 
-To set a fleet’s home base:
+To set a fleetâ€™s home base:
 [OLI]select the fleet[/OLI]
 [OLI]right-click and hold on the location of the new home base, which will popup a menu[/OLI]
 [OLI]click the menu option 'Set home base for (Fleet Name) to (Location)'[/OLI]

@@ -12,7 +12,7 @@ PIRATEPROTECTION_DEAL    ;Space is a cold and dangerous place. It would be a suc
 DEAL_BEGIN    ;A deal? Let's hear it
 DEAL_ACCEPT    ;We accept your proposal
 DEAL_ACCEPT_RESPONSE  ;An excellent outcome!
-DEAL_REJECT_RESPONSE  ;That’s very disappointing...
+DEAL_REJECT_RESPONSE  ;Thatâ€™s very disappointing...
 DEAL_REJECT    ;This proposal is worthless - no deal
 
 SWAP_MAPS  ;What kind of map did you want to swap?

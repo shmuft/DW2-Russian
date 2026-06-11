@@ -243,7 +243,7 @@
 				<WeaponVolleyFireRate>0.25</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Импульсно‑волновая пушка [S]</Name>
+		<Name>Импульсно-волновая пушка [S]</Name>
 		<ImageFilename>Environment/Components/248-Pulse Wave Cannon</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -489,7 +489,7 @@
 				<WeaponVolleyFireRate>0.25</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Импульсно‑волновая пушка [M]</Name>
+		<Name>Импульсно-волновая пушка [M]</Name>
 		<ImageFilename>Environment/Components/248-Pulse Wave Cannon</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -711,7 +711,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Импульсно‑волновая пушка [ftr]</Name>
+		<Name>Импульсно-волновая пушка [ftr]</Name>
 		<ImageFilename>Environment/Components/248-Pulse Wave Cannon</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -933,7 +933,7 @@
 				<WeaponVolleyFireRate>0.25</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Импульсно‑волновая пушка [L]</Name>
+		<Name>Импульсно-волновая пушка [L]</Name>
 		<ImageFilename>Environment/Components/248-Pulse Wave Cannon</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>

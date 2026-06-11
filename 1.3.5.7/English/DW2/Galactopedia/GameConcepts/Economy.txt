@@ -1,15 +1,15 @@
-Your empire consists of your colonies – worlds where you have a loyal population.
+Your empire consists of your colonies â€“ worlds where you have a loyal population.
 
 [H3]State vs Private[/H3]
 The citizens of your colonies act independently from you and form your Private economy. They actively seek to improve their colonies and increase their wealth.
 
 Thus these citizens seek out business opportunities trading in-demand goods between your colonies. When you have trade treaties with independent colonies and other empires, your citizens will also expand their trade activities to include these new opportunities.
 
-Hardy citizens will also form mining expeditions – using mining ships to extract valuable resources all over the explored galaxy and returning them to your spaceports for use.
+Hardy citizens will also form mining expeditions â€“ using mining ships to extract valuable resources all over the explored galaxy and returning them to your spaceports for use.
 
 The population on each of your colonies will grow over time, eventually reaching a natural limit on each type of world. As the population grows it produces more income, providing a larger tax base to fund your empire.
 
-A summary of your empire’s State and Private economies are displayed in the Empire Economy Screen (F2).
+A summary of your empireâ€™s State and Private economies are displayed in the Empire Economy Screen (F2).
 
 The various types of Income and Expenses are explained in detail below:
 
@@ -17,7 +17,7 @@ The various types of Income and Expenses are explained in detail below:
 Your State economy is funded by several main sources of income outlined below:
 
 [H3]Colony Tax Revenue[/H3]
-You can directly adjust colony tax rates. This allows you to collect more revenue from each colony. However, the higher you raise taxes, the more evasion there will be – some of your citizens will find ways to avoid paying. Also, higher taxes lower colony happiness and wealth production.
+You can directly adjust colony tax rates. This allows you to collect more revenue from each colony. However, the higher you raise taxes, the more evasion there will be â€“ some of your citizens will find ways to avoid paying. Also, higher taxes lower colony happiness and wealth production.
 
 [H3]Ship Construction[/H3]
 Expanding your empire with new colonies stimulates demand for new freighters and mining ships from your private citizens. These ship purchases at your construction yards add more money to your state economy.
@@ -38,8 +38,8 @@ Your empires Resort Bases earn income when tourists travel to them.
 
 [H3]Economic Strategy[/H3]
 Thus your strategy for boosting state income should include the following:
-[ULI]Keep expanding your empire with new colonies – this stimulates trade and causes your private citizens to purchase more freighters and other ships[/ULI]
-[ULI]Ensure safe trade routes for freighters transporting goods to your colonies – higher level development at colonies means more tax income[/ULI]
+[ULI]Keep expanding your empire with new colonies â€“ this stimulates trade and causes your private citizens to purchase more freighters and other ships[/ULI]
+[ULI]Ensure safe trade routes for freighters transporting goods to your colonies â€“ higher level development at colonies means more tax income[/ULI]
 [ULI]Seek trade agreements with friendly empires to supplement your income. You reap bonus income from the total trade volume between your two empires[/ULI]
 [ULI]Build Resort Bases at locations with Scenery bonuses[/ULI]
 

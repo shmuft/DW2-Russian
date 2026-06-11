@@ -10,10 +10,41 @@ import argparse
 import subprocess
 import sys
 import os
+import pickle
+import xml.etree.ElementTree as ET
 from pathlib import Path
-from translate import build_translation_cache_from_paired_files, set_translation_cache, translate_text
+from translate import build_translation_cache_from_paired_files, extract_translatable_texts, _is_technical_string, translate_text
 
-def translate_file(input_path: Path, output_path: Path, words_mode: bool = False, check_mode: bool = False, pool_addresses=None, pool_timeout: int = 120, cache_file: str = None, fix_untranslated: bool = False, fix_newlines: bool = False) -> int:
+DEFAULT_TARGET_VERSION = '1.3.5.7'
+DEFAULT_CACHE_VERSIONS = ('1.3.4.3',)
+DEFAULT_CACHE_FILE_NAME = '.translation_cache.pkl'
+
+
+def get_galactopedia_translated_rel_path(rel_path: Path) -> Path:
+    """Возвращает путь к русскому имени файла для Galactopedia, как это делает основной цикл перевода."""
+    if 'Galactopedia' not in str(rel_path):
+        return rel_path
+
+    original_stem = rel_path.stem + rel_path.suffix
+    translated_stem = translate_text(original_stem)
+    return rel_path.with_name(translated_stem)
+
+
+def resolve_russian_rel_path(english_rel_path: Path, russian_dir: Path) -> Path:
+    """Находит корректный путь к русскому файлу, учитывая переведённые имена Galactopedia."""
+    candidate = russian_dir / english_rel_path
+    if candidate.exists():
+        return english_rel_path
+
+    translated_rel_path = get_galactopedia_translated_rel_path(english_rel_path)
+    translated_candidate = russian_dir / translated_rel_path
+    if translated_candidate.exists():
+        return translated_rel_path
+
+    return english_rel_path
+
+
+def translate_file(input_path: Path, output_path: Path, words_mode: bool = False, check_mode: bool = False, pool_addresses=None, pool_timeout: int = 120, cache_file: str = None, file_cache_file: str = None, fix_untranslated: bool = False, fix_newlines: bool = False) -> int:
     """
     Run translate.py for a single XML or TXT file.
 
@@ -42,8 +73,11 @@ def translate_file(input_path: Path, output_path: Path, words_mode: bool = False
 
     # Передаём файл кэша через переменную окружения
     env = os.environ.copy()
+    env['DW2_GLOSSARY_CACHE'] = '.glossary_cache.pkl'
     if cache_file:
         env['DW2_TRANSLATION_CACHE'] = cache_file
+    if file_cache_file:
+        env['DW2_FILE_TRANSLATION_CACHE'] = file_cache_file
 
     try:
         subprocess.run(cmd, check=True, env=env)
@@ -152,6 +186,265 @@ def fix_newlines_files(xml_files, english_dir, russian_dir):
     return 0 if fixed_count == total_problems else 1
 
 
+def collect_files_in_progress(english_dir: Path, russian_dir: Path):
+    """Собирает пути файлов, которые сейчас находятся в процессе перевода."""
+    files_in_progress = set()
+    for xml_file in english_dir.rglob('*.xml'):
+        rel_path = xml_file.relative_to(english_dir)
+        output_file = russian_dir / rel_path
+        progress_file = f"{output_file}.progress.pkl"
+        if os.path.exists(progress_file):
+            files_in_progress.add(str(output_file))
+            print(f"[INFO] Пропускаю файл на паузе: {output_file}")
+    for txt_file in english_dir.rglob('*.txt'):
+        rel_path = txt_file.relative_to(english_dir)
+        output_file = russian_dir / rel_path
+        progress_file = f"{output_file}.progress.pkl"
+        if os.path.exists(progress_file):
+            files_in_progress.add(str(output_file))
+            print(f"[INFO] Пропускаю файл на паузе: {output_file}")
+    return files_in_progress
+
+
+def build_cache_from_versions(cache_versions, base_dir: Path, target_english_dir: Path, target_russian_dir: Path):
+    """
+    Строит единый кэш переводов из последовательности предыдущих версий
+    и текущей целевой версии. Порядок важен: старые версии идут сначала,
+    а целевая версия добавляется последней.
+    """
+    merged_cache = {}
+
+    if cache_versions:
+        for version in cache_versions:
+            version_dir = base_dir / version
+            english_dir = version_dir / 'English'
+            russian_dir = version_dir / 'Russian'
+
+            if not english_dir.exists() or not russian_dir.exists():
+                print(f"[WARNING] Пропускаю версию {version}: отсутствуют {english_dir} или {russian_dir}")
+                continue
+
+            files_in_progress = collect_files_in_progress(english_dir, russian_dir)
+            version_cache = build_translation_cache_from_paired_files(
+                str(english_dir),
+                str(russian_dir),
+                exclude_files=files_in_progress,
+            )
+
+            if version_cache:
+                merged_cache.update(version_cache)
+                print(f"[INFO] Из версии {version} добавлено {len(version_cache)} переводов в общий кэш")
+
+    if target_english_dir.exists() and target_russian_dir.exists():
+        files_in_progress = collect_files_in_progress(target_english_dir, target_russian_dir)
+        target_cache = build_translation_cache_from_paired_files(
+            str(target_english_dir),
+            str(target_russian_dir),
+            exclude_files=files_in_progress,
+        )
+
+        if target_cache:
+            merged_cache.update(target_cache)
+            print(f"[INFO] Из целевой версии {target_english_dir.parent.parent.name} добавлено {len(target_cache)} переводов в общий кэш")
+
+    return merged_cache
+
+
+def get_cache_file_name(target_version: str, cache_versions) -> str:
+    """Возвращает путь к постоянному файлу кэша для данного набора версий."""
+    versions_key = '_'.join([target_version, *cache_versions])
+    safe_key = ''.join(ch if ch.isalnum() else '_' for ch in versions_key)
+    return f'.translation_cache_{safe_key}.pkl'
+
+
+def get_previous_versions_cache_file_name(cache_versions) -> str:
+    """Возвращает путь к постоянному файлу кэша только из предыдущих версий."""
+    versions_key = '_'.join(cache_versions)
+    safe_key = ''.join(ch if ch.isalnum() else '_' for ch in versions_key)
+    return f'.previous_translation_cache_{safe_key}.pkl'
+
+
+def build_previous_versions_cache(cache_versions, base_dir: Path):
+    """Собирает кэш только из указанных предыдущих версий (без целевой)."""
+    cache_file = get_previous_versions_cache_file_name(tuple(cache_versions))
+    if os.path.exists(cache_file):
+        try:
+            with open(cache_file, 'rb') as f:
+                cached = pickle.load(f)
+            print(f"[INFO] Использую сохранённый кэш предыдущих версий из {cache_file} ({len(cached)} записей)")
+            return cached
+        except Exception as exc:
+            print(f"[WARNING] Не удалось загрузить сохранённый кэш предыдущих версий: {exc}")
+
+    merged_cache = {}
+
+    for version in cache_versions:
+        version_dir = base_dir / version
+        english_dir = version_dir / 'English'
+        russian_dir = version_dir / 'Russian'
+
+        if not english_dir.exists() or not russian_dir.exists():
+            print(f"[WARNING] Пропускаю версию {version}: отсутствуют {english_dir} или {russian_dir}")
+            continue
+
+        version_cache = build_translation_cache_from_paired_files(
+            str(english_dir),
+            str(russian_dir),
+            exclude_files=collect_files_in_progress(english_dir, russian_dir),
+        )
+        if version_cache:
+            merged_cache.update(version_cache)
+            print(f"[INFO] Из версии {version} добавлено {len(version_cache)} переводов в базовый кэш")
+
+    if merged_cache:
+        try:
+            with open(cache_file, 'wb') as f:
+                pickle.dump(merged_cache, f)
+            print(f"[INFO] Сохранён кэш предыдущих версий в {cache_file} ({len(merged_cache)} записей)")
+        except Exception as exc:
+            print(f"[WARNING] Не удалось сохранить кэш предыдущих версий: {exc}")
+
+    return merged_cache
+
+
+def build_file_translation_cache(cache_versions, base_dir: Path, rel_path: Path) -> dict:
+    """
+    Строит локальный приоритетный кэш только для конкретного файла из предыдущих версий.
+    Используется перед общим кэшем и словарём, чтобы файл мог иметь свои собственные
+    сокращения/переводы без конфликтов с общими правилами.
+    """
+    file_cache = {}
+
+    for version in cache_versions:
+        version_dir = base_dir / version
+        english_file = version_dir / 'English' / rel_path
+        russian_path = resolve_russian_rel_path(rel_path, version_dir / 'Russian')
+        russian_file = version_dir / 'Russian' / russian_path
+
+        if not english_file.exists() or not russian_file.exists():
+            continue
+
+        pairs = collect_translation_pairs(english_file, russian_file)
+        for eng_text, rus_text in pairs:
+            if eng_text and rus_text and eng_text != rus_text:
+                file_cache[eng_text] = rus_text
+
+    return file_cache
+
+
+def save_translation_cache(cache: dict, rel_path: Path) -> str | None:
+    """Сохраняет кэш в временный pickle-файл для передачи в translate.py."""
+    if not cache:
+        return None
+
+    safe_name = ''.join(ch if ch.isalnum() else '_' for ch in str(rel_path))
+    cache_file = Path(f'.translation_cache_file_{safe_name}.pkl')
+
+    try:
+        with open(cache_file, 'wb') as f:
+            pickle.dump(cache, f)
+        return str(cache_file)
+    except Exception as exc:
+        print(f"[WARNING] Не удалось сохранить локальный кэш для {rel_path}: {exc}")
+        return None
+
+
+def collect_translation_pairs(english_file: Path, russian_file: Path):
+    """Возвращает пары (английский текст, русский текст) для одного файла."""
+    if english_file.suffix.lower() == '.txt':
+        try:
+            with open(english_file, 'r', encoding='utf-8') as f:
+                eng_lines = f.readlines()
+            with open(russian_file, 'r', encoding='utf-8') as f:
+                rus_lines = f.readlines()
+        except Exception as exc:
+            print(f"[WARNING] Не удалось прочитать txt-файл {english_file}: {exc}")
+            return []
+
+        line_count = min(len(eng_lines), len(rus_lines))
+        pairs = []
+        for i in range(line_count):
+            eng_line = eng_lines[i].rstrip('\n')
+            rus_line = rus_lines[i].rstrip('\n')
+
+            eng_original = eng_line.strip()
+            rus_original = rus_line.strip()
+            if not eng_original or not rus_original:
+                continue
+
+            if ';' in eng_original:
+                eng_parts = eng_original.split(';', 1)
+                eng_text = eng_parts[1].strip() if len(eng_parts) > 1 else eng_original
+                rus_parts = rus_original.split(';', 1)
+                rus_text = rus_parts[1].strip() if len(rus_parts) > 1 else rus_original
+            else:
+                eng_text = eng_original
+                rus_text = rus_original
+
+            if eng_text and rus_text and not _is_technical_string(eng_text):
+                pairs.append((eng_text, rus_text))
+        return pairs
+
+    try:
+        eng_tree = ET.parse(english_file)
+        rus_tree = ET.parse(russian_file)
+    except Exception as exc:
+        print(f"[WARNING] Не удалось разобрать XML-файл {english_file}: {exc}")
+        return []
+
+    eng_texts = extract_translatable_texts(eng_tree.getroot())
+    rus_texts = extract_translatable_texts(rus_tree.getroot())
+
+    pairs = []
+    for (eng_text, tag_desc), (rus_text, _) in zip(eng_texts, rus_texts):
+        if not eng_text or not rus_text:
+            continue
+        if rus_text == eng_text:
+            continue
+        pairs.append((eng_text, rus_text))
+    return pairs
+
+
+def write_new_translated_lines_report(target_english_dir: Path, target_russian_dir: Path, old_cache: dict):
+    """Создаёт рядом с русскими файлами отчёты *_new_translated_lines.txt."""
+    written_files = 0
+
+    for english_file in sorted(target_english_dir.rglob('*')):
+        if english_file.suffix.lower() not in ('.xml', '.txt'):
+            continue
+
+        rel_path = english_file.relative_to(target_english_dir)
+        russian_file = target_russian_dir / resolve_russian_rel_path(rel_path, target_russian_dir)
+        if not russian_file.exists():
+            continue
+
+        pairs = collect_translation_pairs(english_file, russian_file)
+        new_pairs = []
+        for eng_text, rus_text in pairs:
+            previous_translation = old_cache.get(eng_text)
+            if previous_translation is None or previous_translation != rus_text:
+                new_pairs.append((eng_text, rus_text))
+
+        # В отчёт должны попадать только те строки, где текущий перевод
+        # отличается от перевода из предыдущей версии игры. Если таких строк
+        # нет, файл отчёта не создаётся.
+
+        report_path = russian_file.with_name(russian_file.stem + '_new_translated_lines.txt')
+        report_lines = []
+        for eng_text, rus_text in new_pairs:
+            report_lines.append(f"\n{eng_text}\n->\n{rus_text}")
+
+        if not report_lines:
+            continue
+
+        report_path.write_text('\n'.join(report_lines) + '\n', encoding='utf-8')
+        written_files += 1
+        print(f"[REPORT] Создан {report_path} ({len(new_pairs)} новых фраз)")
+
+    print(f"[INFO] Создано {written_files} отчётов *_new_translated_lines.txt")
+    return 0
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Batch translate XML files from English to Russian"
@@ -197,6 +490,25 @@ def main():
         action='store_true',
         help='Постобработка: заменить переносы строк на \\n во всех переведённых XML файлах в русской директории'
     )
+    parser.add_argument(
+        '--show-new-translated-diff-ver',
+        '--show_new_translated_diff_ver',
+        dest='show_new_translated_diff_ver',
+        action='store_true',
+        help='Сгенерировать рядом с файлами целевой версии отчёты *_new_translated_lines.txt с новыми фразами'
+    )
+    parser.add_argument(
+        '--target-version',
+        default=DEFAULT_TARGET_VERSION,
+        help='Целевая версия для перевода (по умолчанию: 1.3.5.7)'
+    )
+    parser.add_argument(
+        '--cache-from',
+        dest='cache_versions',
+        nargs='*',
+        default=list(DEFAULT_CACHE_VERSIONS),
+        help='Последовательность предыдущих версий для кэша, от старой к новой (например: 1.3.4.3 1.3.5.7)'
+    )
 
     args = parser.parse_args()
 
@@ -214,53 +526,54 @@ def main():
         for chunk in args.pool:
             pool_addresses.extend([addr.strip() for addr in chunk.split(',') if addr.strip()])
 
-    english_dir = Path('./1.3.4.3/English')
-    russian_dir = Path('./1.3.4.3/Russian')
+    english_dir = Path('.') / args.target_version / 'English'
+    russian_dir = Path('.') / args.target_version / 'Russian'
 
     if not english_dir.exists():
         print(f"Error: English directory '{english_dir}' does not exist")
         return 1
 
-    # Загружаем кэш переводов из уже переведённых файлов
+    if args.show_new_translated_diff_ver:
+        previous_versions = [version for version in args.cache_versions if version != args.target_version]
+        old_cache = build_previous_versions_cache(previous_versions, Path('.'))
+        print(f"\n[INFO] Генерация отчётов новых фраз для {args.target_version}...")
+        return write_new_translated_lines_report(english_dir, russian_dir, old_cache)
+
+    # Загружаем кэш переводов из уже переведённых файлов.
+    # Если файл уже был посчитан ранее, переиспользуем его вместо повторного построения.
     import pickle
-    cache_file = '.translation_cache.pkl'
-    
+    cache_file = get_cache_file_name(args.target_version, tuple(args.cache_versions))
+
     if russian_dir.exists() and not args.check and not args.words and not args.fix_untranslated and not args.fix_newlines:
-        print("\n[INFO] Построение кэша переводов из уже переведённых файлов...")
-        print("[INFO] Пропускаем файлы в процессе перевода...")
-        
-        # Найдём все файлы на паузе
-        files_in_progress = set()
-        for xml_file in english_dir.rglob('*.xml'):
-            rel_path = xml_file.relative_to(english_dir)
-            output_file = russian_dir / rel_path
-            progress_file = f"{output_file}.progress.pkl"
-            if os.path.exists(progress_file):
-                files_in_progress.add(str(output_file))
-                print(f"[INFO] Пропускаю файл на паузе: {output_file}")
-        for txt_file in english_dir.rglob('*.txt'):
-            rel_path = txt_file.relative_to(english_dir)
-            output_file = russian_dir / rel_path
-            progress_file = f"{output_file}.progress.pkl"
-            if os.path.exists(progress_file):
-                files_in_progress.add(str(output_file))
-                print(f"[INFO] Пропускаю файл на паузе: {output_file}")
-        
-        cache = build_translation_cache_from_paired_files(str(english_dir), str(russian_dir), exclude_files=files_in_progress)
-        
+        if os.path.exists(cache_file):
+            try:
+                with open(cache_file, 'rb') as f:
+                    cache = pickle.load(f)
+                print(f"[INFO] Использую сохранённый кэш из {cache_file} ({len(cache)} записей)")
+            except Exception as exc:
+                print(f"[WARNING] Не удалось загрузить сохранённый кэш {cache_file}: {exc}")
+                cache = None
+        else:
+            print("\n[INFO] Построение кэша переводов из уже переведённых файлов...")
+            print("[INFO] Пропускаем файлы в процессе перевода...")
+
+            cache = build_cache_from_versions(args.cache_versions, Path('.'), english_dir, russian_dir)
+
         if cache:
-            # Сохраняем кэш в файл для передачи в translate.py
             try:
                 with open(cache_file, 'wb') as f:
                     pickle.dump(cache, f)
-                print(f"[INFO] Кэш сохранён ({len(cache)} записей)")
-            except Exception as e:
-                print(f"[WARNING] Ошибка сохранения кэша: {e}")
+                print(f"[INFO] Кэш сохранён в {cache_file} ({len(cache)} записей)")
+            except Exception as exc:
+                print(f"[WARNING] Ошибка сохранения кэша: {exc}")
                 cache_file = None
         else:
             cache_file = None
     else:
         cache_file = None
+
+    if cache_file:
+        os.environ['DW2_TRANSLATION_CACHE'] = cache_file
 
     # Find all XML and TXT files recursively
     xml_files = list(english_dir.rglob('*.xml'))
@@ -279,6 +592,7 @@ def main():
 
     success_count = 0
     skip_count = 0
+    created_cache_files = []
 
     # If not --all, translate only one eligible file and exit.
     for file_path in all_files:
@@ -286,23 +600,9 @@ def main():
         # Compute relative path from English directory
         rel_path = file_path.relative_to(english_dir)
         
-        # Special handling for Galactopedia: translate filenames
-        if 'Galactopedia' in str(rel_path):
-            # Translate the filename (stem only)
-            env = os.environ.copy()
-            if cache_file:
-                print(f"transl cache {cache_file}")
-                env['DW2_TRANSLATION_CACHE'] = cache_file
-            original_stem = rel_path.stem + rel_path.suffix
-            print(f"original_stem={original_stem}")
-            print(f"rel_path={rel_path}")
-            print("1")
-            translated_stem = translate_text(original_stem)
-            print("2")
-            new_filename = translated_stem
-            rel_path = rel_path.with_name(new_filename)
-        
-        output_file = russian_dir / rel_path
+        # Special handling for Galactopedia: translate filenames in the output path.
+        rel_path_for_output = get_galactopedia_translated_rel_path(rel_path)
+        output_file = russian_dir / rel_path_for_output
 
         if args.check:
             check_file = output_file
@@ -332,18 +632,28 @@ def main():
             # Ensure output directory exists
             output_file.parent.mkdir(parents=True, exist_ok=True)
 
+        file_cache_file = None
+        if not args.check and not args.words and not args.fix_untranslated and not args.fix_newlines:
+            file_cache = build_file_translation_cache(args.cache_versions, Path('.'), rel_path)
+            if file_cache:
+                file_cache_file = save_translation_cache(file_cache, rel_path)
+                if file_cache_file:
+                    created_cache_files.append(file_cache_file)
+                    print(f"[INFO] Локальный кэш для {rel_path}: {len(file_cache)} переводов")
+
         action = 'Проверка' if args.check else 'Translating'
         print(f"{action} {file_path} -> {output_file}")
 
         result_code = translate_file(
-        file_path,
-        output_file,
-        words_mode=args.words,
-        check_mode=args.check,
-        pool_addresses=pool_addresses,
-        pool_timeout=args.pool_timeout,
-        cache_file=cache_file,
-    )
+            file_path,
+            output_file,
+            words_mode=args.words,
+            check_mode=args.check,
+            pool_addresses=pool_addresses,
+            pool_timeout=args.pool_timeout,
+            cache_file=cache_file,
+            file_cache_file=file_cache_file,
+        )
         if result_code == 0:
             success_count += 1
             print("OK")
@@ -366,12 +676,12 @@ def main():
     print(f"  Skipped: {skip_count}")
     print(f"  Total files: {len(xml_files)}")
 
-    # Очищаем файл кэша
-    if cache_file and os.path.exists(cache_file):
+    for cache_file_path in created_cache_files:
         try:
-            os.remove(cache_file)
-        except Exception as e:
-            print(f"[WARNING] Ошибка удаления кэша: {e}")
+            if os.path.exists(cache_file_path):
+                os.remove(cache_file_path)
+        except Exception as exc:
+            print(f"[WARNING] Ошибка удаления локального кэша {cache_file_path}: {exc}")
 
     return 0 if success_count > 0 else 1
 

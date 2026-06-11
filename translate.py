@@ -23,6 +23,8 @@ DEFAULT_POOL_TIMEOUT = 120  # timeout in seconds (was 120000ms)
 
 paused = False
 
+DEFAULT_GLOSSARY_CACHE_FILE = '.glossary_cache.pkl'
+
 # Глобальный кеш для словаря
 _glossary_cache = None
 _glossary_lock = threading.Lock()
@@ -30,6 +32,10 @@ _glossary_lock = threading.Lock()
 # Глобальный кеш для переводов из уже переведённых файлов
 _translation_cache = None
 _translation_cache_lock = threading.Lock()
+
+# Локальный приоритетный кэш для конкретного файла
+_file_translation_cache = None
+_file_translation_cache_lock = threading.Lock()
 
 def pause_handler():
     global paused
@@ -48,14 +54,37 @@ def _build_glossary():
     return glossary
 
 
+def _get_glossary_cache_path() -> str:
+    """Возвращает путь к файлу, где хранится словарь из системного промпта."""
+    return os.environ.get('DW2_GLOSSARY_CACHE') or DEFAULT_GLOSSARY_CACHE_FILE
+
+
 def _get_glossary():
     """Возвращает закешированный словарь (потокобезопасно)."""
     global _glossary_cache
     if _glossary_cache is None:
         with _glossary_lock:
             if _glossary_cache is None:
-                _glossary_cache = _build_glossary()
-                print(f"[INFO] Загружено {len(_glossary_cache)} требований из системного промпта")
+                cache_file = _get_glossary_cache_path()
+                if cache_file and os.path.exists(cache_file):
+                    try:
+                        with open(cache_file, 'rb') as f:
+                            _glossary_cache = pickle.load(f)
+                        print(f"[INFO] Загружено {len(_glossary_cache)} требований из кэша словаря")
+                    except Exception as exc:
+                        print(f"[WARNING] Ошибка загрузки кэша словаря: {exc}")
+                        _glossary_cache = None
+
+                if _glossary_cache is None:
+                    _glossary_cache = _build_glossary()
+                    try:
+                        with open(cache_file, 'wb') as f:
+                            pickle.dump(_glossary_cache, f)
+                        print(f"[INFO] Сохранён кэш словаря в {cache_file} ({len(_glossary_cache)} записей)")
+                    except Exception as exc:
+                        print(f"[WARNING] Не удалось сохранить кэш словаря: {exc}")
+
+                print(f"[INFO] Использовано {len(_glossary_cache)} требований из системного промпта")
     return _glossary_cache
 
 
@@ -97,6 +126,25 @@ def _get_translation_cache() -> dict:
     return _translation_cache
 
 
+def _get_file_translation_cache() -> dict:
+    """Возвращает локальный приоритетный кэш для текущего файла."""
+    global _file_translation_cache
+    if _file_translation_cache is None:
+        with _file_translation_cache_lock:
+            if _file_translation_cache is None:
+                _file_translation_cache = {}
+                cache_file = os.environ.get('DW2_FILE_TRANSLATION_CACHE')
+                if cache_file and os.path.exists(cache_file):
+                    try:
+                        with open(cache_file, 'rb') as f:
+                            _file_translation_cache = pickle.load(f)
+                        print(f"[INFO] Загружено {len(_file_translation_cache)} переводов из локального кэша")
+                    except Exception as e:
+                        print(f"[WARNING] Ошибка загрузки локального кэша: {e}")
+                        _file_translation_cache = {}
+    return _file_translation_cache
+
+
 def _translate_from_cache(text: str) -> str:
     """
     Проверяет кэш переводов и возвращает перевод, если найден.
@@ -105,22 +153,32 @@ def _translate_from_cache(text: str) -> str:
     cache = _get_translation_cache()
     return cache.get(text.strip())
 
+
+def _translate_from_file_cache(text: str) -> str:
+    """Проверяет локальный кэш конкретного файла перед общим словарём и кэшем."""
+    cache = _get_file_translation_cache()
+    return cache.get(text.strip())
+
 def translate_text(text: str) -> str:
     """
     Перевод текста через LM Studio (локальный LLM) используя lmstudio-python SDK.
     Проверяет в порядке приоритета:
-    1. Словарь из SYSTEM_PROMPT 
-    2. Кэш из уже переведённых файлов
-    3. LLM (Qwen)
+    1. Локальный кэш конкретного файла
+    2. Словарь из SYSTEM_PROMPT
+    3. Общий кэш из уже переведённых файлов
+    4. LLM (Qwen)
     """
-    
-    # Сначала проверяем системный словарь
+
+    file_cache_translation = _translate_from_file_cache(text)
+    if file_cache_translation:
+        print(f"[FILE_CACHE] {text} -> {file_cache_translation}")
+        return file_cache_translation
+
     glossary_translation = _translate_from_glossary(text)
     if glossary_translation:
         print(f"[GLOSSARY] {text} -> {glossary_translation}")
         return glossary_translation
 
-    # Затем проверяем кэш переводов из уже переведённых файлов
     cache_translation = _translate_from_cache(text)
     if cache_translation:
         print(f"[CACHE] {text} -> {cache_translation}")
@@ -206,13 +264,16 @@ class RemotePoolTranslator:
             return host
 
     def _translate_with_host(self, text, api_host):
-        # Сначала проверяем системный словарь
+        file_cache_translation = _translate_from_file_cache(text)
+        if file_cache_translation:
+            print(f"[FILE_CACHE] {text} -> {file_cache_translation}")
+            return file_cache_translation
+
         glossary_translation = _translate_from_glossary(text)
         if glossary_translation:
             print(f"[GLOSSARY] {text} -> {glossary_translation}")
             return glossary_translation
-        
-        # Затем проверяем кэш переводов
+
         cache_translation = _translate_from_cache(text)
         if cache_translation:
             print(f"[CACHE] {text} -> {cache_translation}")
@@ -672,28 +733,27 @@ def _is_technical_string(text: str) -> bool:
     """
     if not text:
         return False
-    
+
     text = text.strip()
-    
+
     # Пути к файлам содержат слэши
     if '/' in text or '\\' in text:
         return True
-    
-    # Технические идентификаторы часто содержат подчеркивание
-    if '_' in text:
-        # Но проверяем, что это не просто слово с подчеркиванием
-        # Если это выглядит как путь/ID и НЕ содержит пробелов
-        if ' ' not in text and len(text) > 2:
-            return True
-    
-    # Строки без пробелов, содержащие только английские буквы, цифры, точки и дефисы
-    # это часто ID файлов (например: "Effects/Weapons/Slug1" без слэша проверяется выше)
+
+    # Идентификаторы и служебные имена часто содержат подчеркивание, цифры или
+    # выглядят как CamelCase/UPPERCASE. Но обычные имена персонажей/рас (
+    # например: Sukantu, Wekkarus, ResearchAll) не должны считаться техническими.
     if ' ' not in text and all(c.isalnum() or c in '._-' for c in text):
-        # Если это похоже на техническое имя (CamelCase ID, snake_case и т.д.)
-        if any(c.isupper() for c in text) or '_' in text:
-            # Это выглядит как техническое имя, не текст для перевода
+        if '_' in text or any(c.isdigit() for c in text):
             return True
-    
+
+        uppercase_count = sum(c.isupper() for c in text)
+        if uppercase_count >= 2:
+            return True
+
+        if text.isupper() and len(text) > 1:
+            return True
+
     return False
 
 
@@ -848,6 +908,24 @@ def extract_translatable_texts(root):
     return texts
 
 
+def resolve_russian_file_path(english_file: Path, english_dir: Path, russian_dir: Path) -> Path:
+    """Возвращает корректный путь к русскому файлу, учитывая переведённые имена Galactopedia."""
+    rel_path = english_file.relative_to(english_dir)
+    candidate = russian_dir / rel_path
+
+    if candidate.exists():
+        return candidate
+
+    if 'Galactopedia' in str(rel_path):
+        translated_stem = translate_text(rel_path.stem + rel_path.suffix)
+        translated_rel_path = rel_path.with_name(translated_stem)
+        translated_candidate = russian_dir / translated_rel_path
+        if translated_candidate.exists():
+            return translated_candidate
+
+    return candidate
+
+
 def build_translation_cache_from_paired_files(english_dir_path: str, russian_dir_path: str, exclude_files: set = None) -> dict:
     """
     Сравнивает английские и русские файлы и собирает кэш переводов.
@@ -880,8 +958,8 @@ def build_translation_cache_from_paired_files(english_dir_path: str, russian_dir
     
     for eng_file in xml_files:
         # Вычислим соответствующий русский файл
+        rus_file = resolve_russian_file_path(eng_file, english_dir, russian_dir)
         rel_path = eng_file.relative_to(english_dir)
-        rus_file = russian_dir / rel_path
         
         # Пропускаем файлы в процессе перевода
         if str(rus_file) in exclude_files:
@@ -897,6 +975,12 @@ def build_translation_cache_from_paired_files(english_dir_path: str, russian_dir
             rus_tree = ET.parse(rus_file)
             rus_root = rus_tree.getroot()
             
+            # Добавляем перевод имени файла, если в русской версии оно уже отличается.
+            eng_filename = rel_path.name
+            rus_filename = rus_file.name
+            if eng_filename and rus_filename and eng_filename != rus_filename:
+                cache[eng_filename] = rus_filename
+
             # Извлекаем переводимые тексты из обоих файлов
             eng_texts = extract_translatable_texts(eng_root)
             rus_texts = extract_translatable_texts(rus_root)
@@ -930,8 +1014,8 @@ def build_translation_cache_from_paired_files(english_dir_path: str, russian_dir
     print(f"[INFO] Сканирование txt {len(txt_files)} файлов для построения кэша переводов...")
     for eng_file in txt_files:
         # Вычислим соответствующий русский файл
+        rus_file = resolve_russian_file_path(eng_file, english_dir, russian_dir)
         rel_path = eng_file.relative_to(english_dir)
-        rus_file = russian_dir / rel_path
         
         # Пропускаем файлы в процессе перевода
         if str(rus_file) in exclude_files:
@@ -941,27 +1025,29 @@ def build_translation_cache_from_paired_files(english_dir_path: str, russian_dir
             continue
         
         try:
-            # Парсим оба файла
+            # Для *.txt строим кэш по строкам, без XML-парсинга.
             try:
                 with open(eng_file, 'r', encoding='utf-8') as f:
                     eng_lines = f.readlines()
             except Exception as e:
                 print(f"Ошибка чтения файла {eng_file}: {e}")
-                return
-            
+                continue
+
             try:
                 with open(rus_file, 'r', encoding='utf-8') as f:
                     rus_lines = f.readlines()
             except Exception as e:
                 print(f"Ошибка чтения файла {rus_file}: {e}")
-                return
+                continue
 
-            for i in range(0, len(eng_lines)):
-                if paused:
-                    break
-                eng_line = eng_lines[i]
-                rus_line = rus_lines[i]
-                
+            line_count = min(len(eng_lines), len(rus_lines))
+            if len(eng_lines) != len(rus_lines):
+                print(f"[WARNING] Разное число строк в {eng_file} и {rus_file}: {len(eng_lines)} vs {len(rus_lines)}")
+
+            for i in range(line_count):
+                eng_line = eng_lines[i].rstrip('\n')
+                rus_line = rus_lines[i].rstrip('\n')
+
                 eng_original = eng_line.strip()
                 if not eng_original:
                     continue
@@ -970,61 +1056,29 @@ def build_translation_cache_from_paired_files(english_dir_path: str, russian_dir
                 if not rus_original:
                     continue
 
-                # Определяем, нужно ли переводить всю строку или только часть после ';'
+                # Добавляем перевод имени файла, если это файл Galactopedia и имя уже отличается.
+                eng_filename = rel_path.name
+                rus_filename = rus_file.name
+                if eng_filename and rus_filename and eng_filename != rus_filename:
+                    cache[eng_filename] = rus_filename
+
                 if ';' in eng_original:
-                    # Формат: ключ ; текст
                     eng_parts = eng_original.split(';', 1)
                     eng_text = eng_parts[1].strip()
-                    
+
                     rus_parts = rus_original.split(';', 1)
-                    rus_text = rus_parts[1].strip()
-                    
+                    rus_text = rus_parts[1].strip() if len(rus_parts) > 1 else rus_original
                 else:
-                    # Смотрим всю строку (как в Hints.txt)
                     eng_text = eng_original
                     rus_text = rus_original
-                    
-                
-                # Если русский текст равен английскому - это недопереведённый элемент
+
                 if rus_text == eng_text:
                     problem_msg = f"[PROBLEM] Недопереводённый элемент в {rus_file}: {eng_text}"
                     print(problem_msg)
                     problems_found.append(problem_msg)
-                    # Не добавляем в кэш!
                 else:
-                    # Добавляем только правильно переведённые элементы
                     cache[eng_text] = rus_text
-            
-            files_processed += 1
-            if files_processed % 10 == 0:
-                print(f"  Обработано {files_processed} файлов, кэш: {len(cache)} записей")
 
-            eng_tree = ET.parse(eng_file)
-            eng_root = eng_tree.getroot()
-            rus_tree = ET.parse(rus_file)
-            rus_root = rus_tree.getroot()
-            
-            # Извлекаем переводимые тексты из обоих файлов
-            eng_texts = extract_translatable_texts(eng_root)
-            rus_texts = extract_translatable_texts(rus_root)
-            
-            # Сопоставляем тексты по порядку
-            for (eng_text, tag_desc), (rus_text, _) in zip(eng_texts, rus_texts):
-                # Пропускаем технические строки
-                if _is_technical_string(eng_text):
-                    technical_strings_skipped += 1
-                    continue
-                
-                # Если русский текст равен английскому - это недопереведённый элемент
-                if rus_text == eng_text:
-                    problem_msg = f"[PROBLEM] Недопереводённый элемент в {rus_file}: <{tag_desc.split('/')[-1]}>{eng_text}</{tag_desc.split('/')[-1]}>"
-                    print(problem_msg)
-                    problems_found.append(problem_msg)
-                    # Не добавляем в кэш!
-                else:
-                    # Добавляем только правильно переведённые элементы
-                    cache[eng_text] = rus_text
-            
             files_processed += 1
             if files_processed % 10 == 0:
                 print(f"  Обработано {files_processed} файлов, кэш: {len(cache)} записей")

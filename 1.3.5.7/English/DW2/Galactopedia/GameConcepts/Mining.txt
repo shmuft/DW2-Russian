@@ -1,6 +1,6 @@
 Resources are the raw materials found at planets, moons and asteroids. These can include metallic ores, gases, minerals, textiles, foods, beverages, and many other items.
 
-Mining valuable resources is an important part of your empire’s economy.
+Mining valuable resources is an important part of your empireâ€™s economy.
 
 Some resources are used in constructing new ships and bases. Other resources are used to raise the development of your colonies - these are luxury resources. And one resource (Caslon) is used as a universal reactor fuel.
 
