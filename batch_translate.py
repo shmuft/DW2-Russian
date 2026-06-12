@@ -318,10 +318,13 @@ def build_file_translation_cache(cache_versions, base_dir: Path, rel_path: Path)
     for version in cache_versions:
         version_dir = base_dir / version
         english_file = version_dir / 'English' / rel_path
-        russian_file = version_dir / 'Russian' / rel_path
+        russian_file = version_dir / 'Russian' / resolve_russian_rel_path(rel_path, version_dir / 'Russian')
 
         if not english_file.exists() or not russian_file.exists():
             continue
+
+        if english_file.name != russian_file.name:
+            file_cache[english_file.name] = russian_file.name
 
         pairs = collect_translation_pairs(english_file, russian_file)
         for eng_text, rus_text in pairs:
@@ -419,7 +422,7 @@ def write_new_translated_lines_report(target_english_dir: Path, target_russian_d
         rel_path = english_file.relative_to(target_english_dir)
         file_old_cache = build_file_translation_cache(previous_versions, base_dir, rel_path)
 
-        russian_file = target_russian_dir / rel_path
+        russian_file = target_russian_dir / resolve_russian_rel_path(rel_path, target_russian_dir)
         if not russian_file.exists():
             continue
 

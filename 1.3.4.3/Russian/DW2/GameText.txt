@@ -1363,7 +1363,7 @@ Click to queue research		;Нажмите, чтобы поставить иссл
 Completed		;Завершено
 Right-click to cancel		;Правый клик для отмены
 Click to initiate Crash Program		;Нажмите, чтобы запустить форсированную программу за {0} кредитов из наличных средств в размере {1} кредита
-CRASH PROGRAM (X speed)		;Форсированная программа ({0}x скорость)
+CRASH PROGRAM (X speed)		;Форсир прогр ({0}x скор.)
 X% Complete		;{0} завершено
 Must first research PROJECTS		;Сначала необходимо исследовать {0}
 We have X		;У нас есть {0}
@@ -1661,7 +1661,7 @@ Tech Level X		;Технический уровень {0}
 Regenerate Tech Tree - Visible		;Пересоздать древо технологий - Открыто
 Regenerate Tech Tree - Blind		;Пересоздать древо технологий - Скрыто
 
-Home Base		;Домашняя база
+Home Base		;Штаб
 ACTION TARGET, then targets RANGE		;{0} {1}, затем цель - {2}
 ACTION targets RANGE		;{0} атакует {1}
 ENGAGEMENT when attacked		;при атаке
@@ -2566,7 +2566,7 @@ No Buildable Designs		;Нет доступных для постройки ди�
 No Buildable Designs for ROLE		;Нет доступных для постройки дизайнов для {0}
 No Buildable Designs Explanation		;Сначала необходимо исследовать корпус корабля для этой роли, а затем создать дизайн, использующий этот корпус.
 
-Cannot cancel crash programs		;Нельзя отменить форсированные программы
+Cannot cancel crash programs		;Нельзя отмен. форсир. программы
 Under Attack		;Под атакой
 X is under attack from ATTACKER		;[LOCATION]{0}[/LOCATION] подвергается нападению со стороны {1}!
 X Y is under attack from ATTACKER		;[LOCATION]{0} {1}[/LOCATION] подвергается нападению со стороны {2}!
@@ -3345,7 +3345,7 @@ Reactors and Energy		;Реакторы и энергия
 Stealth and Evasion		;Скрытность и уклонение
 All Projects		;Все проекты
 Research bonuses for this project		;{0} бонусов к исследованиям для этого проекта
-Research speed for this project		;{0}% к скорости иссл-я этого проекта
+Research speed for this project		;{0} к скорости иссл-я этого проекта
 Fighter Only		;Только истребители
 Fighters and Assault Pods		;Истребители и штурмовые капсулы
 Reactors		;Реакторы
@@ -3767,7 +3767,7 @@ Swap Maps		;Обменять карты
 Send a Gift		;Отправить подарок
 Offer treaties		;Предложить договоры
 Clear Items		;Очистить предметы
-Offered Items		;Предложенные предметы
+Offered Items		;Предложение
 Never mind		;Неважно
 
 Troop Cloning		;Клонирование войск
@@ -6118,7 +6118,7 @@ Production Oversupply Explanation		;У вас избыток этого ресу
 COLONY will be permanently abandoned		;{0} будет навсегда покинут и станет независимой колонией.\n\nВсе базы на этой колонии будут утилизированы, все войска расформированы, а все персонажи переведены в другое место.
 Are you sure you want to abandon COLONY		;Вы уверены, что хотите покинуть {0}?
 Abandon Colony		;Отказаться от колонии
-Abandon Outpost		;Оставить аванпост
+Abandon Outpost		;Отказаться от аванпоста
 OUTPOST will be permanently abandoned		;{0} будет навсегда заброшен, что полностью уничтожит население.\n\nВсе войска на аванпосте будут расформированы, а все персонажи переведены в другое место.
 
 Cannot abandon your empire capital		;Нельзя отказаться от столицы вашей империи
