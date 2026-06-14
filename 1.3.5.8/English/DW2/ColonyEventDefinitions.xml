@@ -1,0 +1,714 @@
+<?xml version="1.0"?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>0</ColonyEventDefinitionId> <!-- Colossal Quake -->
+		<Type>Disaster</Type>
+		<PopulationAmount>-0.05</PopulationAmount>
+		<DamageRepair>-0.05</DamageRepair>
+		<RandomInitiationChance>0.001</RandomInitiationChance>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Colossal Quake</Name>
+		<Description>The quake has leveled many cities and opened vast fissures in the planet surface. Much of the planetary infrastructure has been reduced to rubble.
+
+As a result there has been extensive loss of life and the quake has even damaged the quality of the planet itself.</Description>
+		<ImageFilename>Environment/Events/earthquake</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>1</ColonyEventDefinitionId> <!-- Tsunami -->
+		<Type>Disaster</Type>
+		<PopulationAmount>-0.05</PopulationAmount>
+		<DamageRepair>-0.05</DamageRepair>
+		<RandomInitiationChance>0.001</RandomInitiationChance>
+		<OrbTypeFilters>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId> <!-- Continental -->
+				<Factor>0.5</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId> <!-- Ocean -->
+				<Factor>0.8</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId> <!-- Ice -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId> <!-- Forest -->
+				<Factor>0.5</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId> <!-- Grasslands -->
+				<Factor>0.2</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId> <!-- Ice Tundra -->
+				<Factor>0.2</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId> <!-- Deep Ocean -->
+				<Factor>1</Factor>
+			</OrbTypeFactor>
+		</OrbTypeFilters>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Tsunami</Name>
+		<Description>Powerful underwater surges have swept away many suboceanic cities and manufacturing centers.
+
+As a result there has been extensive loss of life and the tsunami has even damaged the quality of the planet itself.</Description>
+		<ImageFilename>Environment/Events/tsunami</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>2</ColonyEventDefinitionId> <!-- Massive Sinkhole -->
+		<Type>Disaster</Type>
+		<PopulationAmount>-0.05</PopulationAmount>
+		<DamageRepair>-0.05</DamageRepair>
+		<RandomInitiationChance>0.001</RandomInitiationChance>
+		<OrbTypeFilters>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId> <!-- Marshy Swamp -->
+				<Factor>1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId> <!-- Mangrove Forest -->
+				<Factor>0.7</Factor>
+			</OrbTypeFactor>
+		</OrbTypeFilters>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Massive Sinkhole</Name>
+		<Description>An entire continent has suffered extensive crustal collapse, sending entire cities plunging into vast undergound pools of mud and debris.
+
+As a result there has been extensive loss of life and the sinkhole has even damaged the quality of the planet itself.</Description>
+		<ImageFilename>Environment/Events/sinkhole</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>3</ColonyEventDefinitionId> <!-- Enormous Sandstorm -->
+		<Type>Disaster</Type>
+		<PopulationAmount>-0.05</PopulationAmount>
+		<DamageRepair>-0.05</DamageRepair>
+		<RandomInitiationChance>0.003</RandomInitiationChance>
+		<OrbTypeFilters>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> <!-- Rocky Desert -->
+				<Factor>0.8</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>0.5</Factor>
+			</OrbTypeFactor>
+		</OrbTypeFilters>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Enormous Sandstorm</Name>
+		<Description>Colossal storm winds have sent a wall of sand across half the planet's surface, irretrievably burying many cities underneath.
+
+As a result there has been extensive loss of life and the sandstorm has even damaged the quality of the planet itself.</Description>
+		<ImageFilename>Environment/Events/sandstorm</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>4</ColonyEventDefinitionId> <!-- Super-freezing Blizzard -->
+		<Type>Disaster</Type>
+		<PopulationAmount>-0.05</PopulationAmount>
+		<DamageRepair>-0.05</DamageRepair>
+		<RandomInitiationChance>0.003</RandomInitiationChance>
+		<OrbTypeFilters>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId> <!-- Ice -->
+				<Factor>0.6</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId> <!-- Ice Tundra -->
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId> <!-- Frozen Ice -->
+				<Factor>1</Factor>
+			</OrbTypeFactor>
+		</OrbTypeFilters>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Super-freezing Blizzard</Name>
+		<Description>Powerful storm winds and huge chunks of super-chilled ice have wiped out many above-ground installations, and even damaged some cities in underground ice-caves.
+
+As a result there has been extensive loss of life and the blizzard has even damaged the quality of the planet itself.</Description>
+		<ImageFilename>Environment/Events/blizzard</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>5</ColonyEventDefinitionId> <!-- Catastrophic Volcanic Eruption -->
+		<Type>Disaster</Type>
+		<PopulationAmount>-0.1</PopulationAmount>
+		<DamageRepair>-0.1</DamageRepair>
+		<RandomInitiationChance>0.003</RandomInitiationChance>
+		<OrbTypeFilters>
+			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId> <!-- Volcanic -->
+				<Factor>1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId> <!-- Carbonaceous -->
+				<Factor>0.6</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId> <!-- Sulphur Volcanic -->
+				<Factor>0.8</Factor>
+			</OrbTypeFactor>
+		</OrbTypeFilters>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Catastrophic Volcanic Eruption</Name>
+		<Description>Multiple new super-volcanoes have burst through the planet crust, spewing huge oceans of lava across entire continents.
+
+As a result there has been extensive loss of life and the eruption has even damaged the quality of the planet itself.</Description>
+		<ImageFilename>Environment/Events/eruption</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>6</ColonyEventDefinitionId> <!-- Hekretos Fever -->
+		<Type>Plague</Type>
+		<IconFilename>Environment/Events/Icons/HekretosFever</IconFilename>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<PopulationAmount>-0.05</PopulationAmount>
+		<ColonyHappiness>-5</ColonyHappiness>
+		<SpreadToOtherColoniesChance>1</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>200000000</SpreadToOtherColoniesRange>
+		<RandomInitiationChance>0.007</RandomInitiationChance>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Hekretos Fever</Name>
+		<Description>Hekretos Fever is a deadly infection that attacks the internal organs, causing rapid degeneration and death. An outbreak of Hekretos Fever typically lasts about 1-2 years.</Description>
+		<ImageFilename>Environment/Events/HekretosFever</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>7</ColonyEventDefinitionId> <!-- Dekara Virus -->
+		<Type>Plague</Type>
+		<IconFilename>Environment/Events/Icons/DekaraVirus</IconFilename>
+		<DurationMinimum>1.5</DurationMinimum>
+		<DurationMaximum>3</DurationMaximum>
+		<PopulationAmount>-0.06</PopulationAmount>
+		<ColonyHappiness>-8</ColonyHappiness>
+		<SpreadToOtherColoniesChance>1.2</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>200000000</SpreadToOtherColoniesRange>
+		<RandomInitiationChance>0.003</RandomInitiationChance>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<PlagueCuringFactor>1.1</PlagueCuringFactor>
+		<Name>Dekara Virus</Name>
+		<Description>Dekara Virus is a very painful disease that slowly cripples the central nervous system of any creature it infects, ultimately leading to death. An outbreak of Dekara Virus typically lasts about 1-3 years.</Description>
+		<ImageFilename>Environment/Events/DekaraVirus</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>8</ColonyEventDefinitionId> <!-- Genetic Scrambling Syndrome -->
+		<Type>Plague</Type>
+		<IconFilename>Environment/Events/Icons/GeneticScramblingSyndrome</IconFilename>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<PopulationAmount>-0.15</PopulationAmount>
+		<ColonyHappiness>-10</ColonyHappiness>
+		<SpreadToOtherColoniesChance>1.4</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>250000000</SpreadToOtherColoniesRange>
+		<RandomInitiationChance>0.0015</RandomInitiationChance>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<PlagueCuringFactor>1.2</PlagueCuringFactor>
+		<Name>Genetic Scrambling Syndrome</Name>
+		<Description>Genetic Scrambling Syndrome attacks the genetic code in all of the cells of an infected creature, wiping out any useful biological instructions. This leads to very rapid disintegration of the infected creature, finally breaking them down to a puddle of protein slime. An outbreak of Genetic Scrambling Syndrome typically lasts 1-2 years. However it is highly infectious and thus can spread rapidly.</Description>
+		<ImageFilename>Environment/Events/GeneticScramblingSyndrome</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>9</ColonyEventDefinitionId> <!-- Merturov Plague -->
+		<Type>Plague</Type>
+		<IconFilename>Environment/Events/Icons/MerturovPlague</IconFilename>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<PopulationAmount>-0.12</PopulationAmount>
+		<ColonyHappiness>-12</ColonyHappiness>
+		<SpreadToOtherColoniesChance>1.6</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>250000000</SpreadToOtherColoniesRange>
+		<RandomInitiationChance>0.0007</RandomInitiationChance>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<PlagueCuringFactor>1.4</PlagueCuringFactor>
+		<Name>Merturov Plague</Name>
+		<Description>Merturov Plague is the most deadly disease in the known galaxy. It swiftly eats the brain of the infected creature, progressively causing insanity, immobilization and eventual death. Merturov Plague is a highly resilient air-borne virus, and is thus very infectious. An outbreak of Merturov Plague typically lasts 1-2 years.</Description>
+		<ImageFilename>Environment/Events/MerturovPlague</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>10</ColonyEventDefinitionId> <!-- Shakturi Psionic Virus - Variant K7 -->
+		<Type>Plague</Type>
+		<IconFilename>Environment/Events/Icons/PsionicMindVirus</IconFilename>
+		<DurationMinimum>4</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<PopulationAmount>-0.1</PopulationAmount>
+		<ColonyHappiness>-15</ColonyHappiness>
+		<SpreadToOtherColoniesChance>0.3</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>150000000</SpreadToOtherColoniesRange>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<PlagueModifiersPerRaceId>
+			<unsignedByte>20</unsignedByte> <!-- Shakturi -->
+		</PlagueModifiersPerRaceId>
+		<PlagueModifiersPerRaceAmount>
+			<float>0</float>
+		</PlagueModifiersPerRaceAmount>
+		<PlagueCuringFactor>1.5</PlagueCuringFactor>
+		<Name>Shakturi Psionic Virus - Variant K7</Name>
+		<Description>Shakturi Psionic Virus makes a species more vulnerable to Shakturi psychic powers.\n\nAlthough not particularly deadly, it's lethality correlates with how resistant a species is to psychic attacks.\n\nInfected victims come under a form of psychic suggestion, making them behave in ways that maximize the spread of the virus. Thus Shakturi Psionic Virus is very infectious and can spread rapidly.</Description>
+		<ImageFilename>Environment/Events/PsionicMindVirus</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>11</ColonyEventDefinitionId> <!-- Haakonish Xenophobia -->
+		<Type>Undefined</Type>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<PreventStartWhenEventActiveColonyEventDefinitionId>142</PreventStartWhenEventActiveColonyEventDefinitionId>
+		<RaceFilterIds>
+			<unsignedByte>3</unsignedByte> <!-- Haakonish -->
+		</RaceFilterIds>
+		<MinimumPopulationAmount>10000000</MinimumPopulationAmount>
+		<MinimumPopulationRaceId>3</MinimumPopulationRaceId>
+		<MustHaveRacesOtherThanRaceIds>
+			<unsignedByte>3</unsignedByte> <!-- Haakonish -->
+		</MustHaveRacesOtherThanRaceIds>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<GameEventName>Start Xenophobic Riots (Haakonish)</GameEventName>
+		<Name>Xenophobic Riots</Name>
+		<Description>Xenophobic Riots against non-Haakonish population, with the following effects:[ULI]Immediately reduces non-Haakonish populations at the colony by 25%[/ULI][ULI][GOOD]+10 Colony Happiness[/GOOD] for 5 years[/ULI][ULI]Significantly [BAD]harms our reputation[/BAD][/ULI][ULI]Negatively affects [BAD]migration[/BAD] to the colony for 10 years[/ULI]</Description>
+		<ImageFilename>Environment/Events/Haakonish Xenophobia</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>12</ColonyEventDefinitionId> <!-- Underwater Leviathan -->
+		<Type>Undefined</Type>
+		<PopulationAmount>-0.05</PopulationAmount>
+		<DamageRepair>-0.05</DamageRepair>
+		<RandomInitiationChance>0.001</RandomInitiationChance>
+		<RaceFilterIds>
+			<unsignedByte>1</unsignedByte> <!-- Ackdarian -->
+		</RaceFilterIds>
+		<OrbTypeFilters>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId> <!-- Ocean -->
+				<Factor>0.7</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId> <!-- Deep Ocean -->
+				<Factor>1</Factor>
+			</OrbTypeFactor>
+		</OrbTypeFilters>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Underwater Leviathan</Name>
+		<Description>The main underwater city of our colony {0} has suffered a devastating attack by an enormous Darkhul sea monster!
+
+Many lives have been lost at {0}, and the quality of the colony has also been reduced.</Description>
+		<ImageFilename>Environment/Events/Underwater Leviathan</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>13</ColonyEventDefinitionId> <!-- Research Insight -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<RandomInitiationChance>0.00125</RandomInitiationChance>
+		<RaceFilterIds>
+			<unsignedByte>1</unsignedByte> <!-- Ackdarian -->
+		</RaceFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Research Insight</Name>
+		<Description>The great minds of our scientists and engineers at {0} have had a series of brilliant insights. Our empire-wide research efforts will receive a +10% boost for the next year!</Description>
+		<ImageFilename>Environment/Events/Research Insight</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>14</ColonyEventDefinitionId> <!-- Warrior Wave -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<RaceFilterIds>
+			<unsignedByte>4</unsignedByte> <!-- Mortalen -->
+		</RaceFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>RecruitedTroopStrengthAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Warrior Wave</Name>
+		<Description>Our armies are preparing for a surge of new troops at our colony {0}.
+
+All troops recruited in the next year will be trained 20% faster and will be 10% stronger.</Description>
+		<ImageFilename>Environment/Events/Warrior Wave</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>15</ColonyEventDefinitionId> <!-- Patriotic Wave -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<ColonyHappiness>3</ColonyHappiness>
+		<RaceFilterIds>
+			<unsignedByte>4</unsignedByte> <!-- Mortalen -->
+		</RaceFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Patriotic Wave</Name>
+		<Description>A wave of intense patriotic spirit sweeps through our colony {0}!
+
+War weariness has been dramatically reduced throughout our empire for the next 2 years.</Description>
+		<ImageFilename>Environment/Events/Patriotic Wave</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>16</ColonyEventDefinitionId> <!-- Predictive History -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<RaceFilterIds>
+			<unsignedByte>7</unsignedByte> <!-- Zenox -->
+		</RaceFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PsyOps</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Predictive History</Name>
+		<Description>Our analysts have made an ingenious application of our recent discoveries when exploring some ruins. Using our detailed examination of the past, combined with our extensive exploration discoveries, we can now predict events of the near future with some accuracy.\n\nThus for the next two years our empire will enjoy the following benefits and penalties:\n[ULI]-5% All Research[/ULI][ULI]+10% Diplomacy[/ULI][ULI]+10% Counter Espionage[/ULI][ULI]+10% Espionage[/ULI][ULI]+10% PsyOps[/ULI]</Description>
+		<ImageFilename>Environment/Events/Predictive History</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>17</ColonyEventDefinitionId> <!-- Economic Boost -->
+		<Type>Undefined</Type>
+		<DurationMinimum>0</DurationMinimum>
+		<DurationMaximum>0</DurationMaximum>
+		<!--RandomInitiationChance>0.0025</RandomInitiationChance-->
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<MinimumIntervalPerEmpireYears>8</MinimumIntervalPerEmpireYears>
+		<RaceFilterIds>
+			<unsignedByte>3</unsignedByte> <!-- Haakonish -->
+		</RaceFilterIds>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<GameEventName>Start Economic Boost (Haakonish)</GameEventName>
+		<Name>Economic Boost</Name>
+		<Description>Our clever finance wizards have figured out a way to temporarily boost economic output through some creative accounting!
+
+Initiating this Economic Boost will [GOOD]increase empire income by +10% for 5 years[/GOOD]. Apparently there might also be some [BAD]minor increase to corruption later[/BAD], but that sounds like an unimportant detail.</Description>
+		<ImageFilename>Environment/Events/Economic Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>18</ColonyEventDefinitionId> <!-- Great Hunt -->
+		<Type>Undefined</Type>
+		<DurationMinimum>0</DurationMinimum>
+		<DurationMaximum>0</DurationMaximum>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<ManualInitiationCost>25000</ManualInitiationCost>
+		<MinimumIntervalPerEmpireYears>5</MinimumIntervalPerEmpireYears>
+		<RaceFilterIds>
+			<unsignedByte>2</unsignedByte> <!-- Teekan -->
+		</RaceFilterIds>
+		<OrbTypeFilters>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> <!-- Rocky Desert -->
+				<Factor>0.6</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>0.3</Factor>
+			</OrbTypeFactor>
+		</OrbTypeFilters>
+		<GameEventName>Great Bakdur Hunt (Teekan)</GameEventName>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Great Bakdur Hunt</Name>
+		<Description>Initiate a Great Bakdur Hunt at a Desert colony. The outcome of the hunt will vary, but will always provide some benefits: typically an empire-wide Happiness bonus and a Development bonus at the colony. Can only be started once every 5 years.</Description>
+		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>19</ColonyEventDefinitionId> <!-- Crazed Cannibalism -->
+		<Type>Undefined</Type>
+		<DurationMinimum>0.5</DurationMinimum>
+		<DurationMaximum>0.5</DurationMaximum>
+		<PopulationAmount>-0.2</PopulationAmount>
+		<RaceFilterIds>
+			<unsignedByte>6</unsignedByte> <!-- Boskara -->
+		</RaceFilterIds>
+		<MinimumPopulationAmount>10000000</MinimumPopulationAmount>
+		<MinimumPopulationRaceId>6</MinimumPopulationRaceId>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Crazed Cannibalism</Name>
+		<Description>The populace at our colony {0} has been driven into an insane frenzy. Due to this hyper-aggressive paranoia, there has been widespread cannibalism!
+
+As a result the population of {0} has been reduced.</Description>
+		<ImageFilename>Environment/Events/Crazed Cannibalism</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>20</ColonyEventDefinitionId> <!-- Great Art Exposition -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<RaceFilterIds>
+			<unsignedByte>0</unsignedByte> <!-- Human -->
+		</RaceFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Scenery</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<MinimumIntervalPerEmpireYears>5</MinimumIntervalPerEmpireYears>
+		<Name>Great Art Exposition</Name>
+		<Description>A great art exposition is being held at our colony {0}. This exposition features the pinnacle of art and culture from the surrounding systems.
+
+As a result our empire will enjoy a +10% boost to trade and tourism income for the next 2 years.
+
+{0} will also benefit from +10% colony income and +10% scenery bonus during that time.</Description>
+		<ImageFilename>Environment/Events/Great Art Exposition</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>21</ColonyEventDefinitionId> <!-- Mining Bonus -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1.5</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Mining Bonus</Name>
+		<ImageFilename>Environment/Events/earthquake</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>22</ColonyEventDefinitionId> <!-- We're not alone in the universe... -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>-15</EmpireHappiness>
+		<ValuesDecayGradually>true</ValuesDecayGradually>
+		<Name>We're not alone in the universe...</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>23</ColonyEventDefinitionId> <!-- Our PR Campaign -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Our PR Campaign</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>24</ColonyEventDefinitionId> <!-- We Paid Pirates -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>We Paid Pirates</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>25</ColonyEventDefinitionId> <!-- We've Eliminated a Threat -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>We've Eliminated a Threat</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>26</ColonyEventDefinitionId> <!-- We Helped Aliens -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>We Helped Aliens</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>27</ColonyEventDefinitionId> <!-- Our People Have Been Inspired -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Our People Have Been Inspired</Name>
+		<ImageFilename>Environment/Events/Our People Have Been Inspired</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>28</ColonyEventDefinitionId> <!-- Morale Improvement Initiative -->
+		<Type>Undefined</Type>
+		<DurationMinimum>6</DurationMinimum>
+		<DurationMaximum>6</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>true</ValuesDecayGradually>
+		<Name>Morale Improvement Initiative</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>29</ColonyEventDefinitionId> <!-- Competition Initiative -->
+		<Type>Undefined</Type>
+		<DurationMinimum>6</DurationMinimum>
+		<DurationMaximum>6</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>true</ValuesDecayGradually>
+		<Name>Competition Initiative</Name>
+		<ImageFilename>Environment/Events/Competition Initiative</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>30</ColonyEventDefinitionId> <!-- The Clones Attacked -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<ColonyHappiness>-10</ColonyHappiness>
+		<ValuesDecayGradually>true</ValuesDecayGradually>
+		<Name>The Clones Attacked</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>31</ColonyEventDefinitionId> <!-- Planetary Damage Repaired -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<ColonyHappiness>5</ColonyHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Planetary Damage Repaired</Name>
+		<ImageFilename>Environment/Events/Repair Planetary Damage</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>32</ColonyEventDefinitionId> <!-- We Recovered Ancient Knowledge -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<ColonyHappiness>5</ColonyHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>We Recovered Ancient Knowledge</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>33</ColonyEventDefinitionId> <!-- Zenox Cognition Virus -->
+		<Type>Undefined</Type>
+		<DurationMinimum>10</DurationMinimum>
+		<DurationMaximum>10</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>true</ValuesDecayGradually>
+		<Name>Zenox Cognition Virus</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>34</ColonyEventDefinitionId> <!-- Alien Encounter -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Alien Encounter</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>51</ColonyEventDefinitionId> <!-- Focusing on what matters -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<ColonyHappiness>5</ColonyHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Focusing on what matters</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>99</ColonyEventDefinitionId> <!-- Happiness from Completed War Mission -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Happiness from Completed War Mission</Name>
+		<Description>Our recent completion of a War Mission has temporarily increased happiness throughout our empire</Description>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

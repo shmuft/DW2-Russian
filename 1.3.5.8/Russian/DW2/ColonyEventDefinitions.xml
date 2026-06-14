@@ -1,0 +1,688 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>0</ColonyEventDefinitionId> 
+		<Type>Disaster</Type>
+		<PopulationAmount>-0.05</PopulationAmount>
+		<DamageRepair>-0.05</DamageRepair>
+		<RandomInitiationChance>0.001</RandomInitiationChance>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Колоссальное землетрясение</Name>
+		<Description>Землетрясение сравняло с землей множество городов и открыло огромные трещины в поверхности планеты. Значительная часть планетарной инфраструктуры превратилась в руины.\n\nВ результате произошли массовые человеческие жертвы, а само землетрясение даже ухудшило качество самой планеты.</Description>
+		<ImageFilename>Environment/Events/earthquake</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>1</ColonyEventDefinitionId> 
+		<Type>Disaster</Type>
+		<PopulationAmount>-0.05</PopulationAmount>
+		<DamageRepair>-0.05</DamageRepair>
+		<RandomInitiationChance>0.001</RandomInitiationChance>
+		<OrbTypeFilters>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId> 
+				<Factor>0.5</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId> 
+				<Factor>0.8</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId> 
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId> 
+				<Factor>0.5</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId> 
+				<Factor>0.2</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId> 
+				<Factor>0.2</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId> 
+				<Factor>1</Factor>
+			</OrbTypeFactor>
+		</OrbTypeFilters>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>«Цунами»</Name>
+		<Description>Мощные подводные толчки смыли многие подводные города и производственные центры.\n\nВ результате произошли массовые человеческие жертвы, а цунами даже ухудшило само качество планеты.</Description>
+		<ImageFilename>Environment/Events/tsunami</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>2</ColonyEventDefinitionId> 
+		<Type>Disaster</Type>
+		<PopulationAmount>-0.05</PopulationAmount>
+		<DamageRepair>-0.05</DamageRepair>
+		<RandomInitiationChance>0.001</RandomInitiationChance>
+		<OrbTypeFilters>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId> 
+				<Factor>1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId> 
+				<Factor>0.7</Factor>
+			</OrbTypeFactor>
+		</OrbTypeFilters>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Гигантская воронка</Name>
+		<Description>Целый континент подвергся масштабному обрушению коры, в результате чего целые города погрузились в огромные подземные озера грязи и обломков.\n\nВ результате произошли массовые человеческие жертвы, а карстовая воронка даже ухудшила качество самой планеты.</Description>
+		<ImageFilename>Environment/Events/sinkhole</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>3</ColonyEventDefinitionId> 
+		<Type>Disaster</Type>
+		<PopulationAmount>-0.05</PopulationAmount>
+		<DamageRepair>-0.05</DamageRepair>
+		<RandomInitiationChance>0.003</RandomInitiationChance>
+		<OrbTypeFilters>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> 
+				<Factor>1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> 
+				<Factor>0.8</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> 
+				<Factor>0.5</Factor>
+			</OrbTypeFactor>
+		</OrbTypeFilters>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Огромная песчаная буря</Name>
+		<Description>Колоссальные штормовые ветра подняли стену песка, которая накрыла половину поверхности планеты, безвозвратно похоронив под собой множество городов.\n\nВ результате произошли массовые человеческие жертвы, а песчаная буря даже ухудшила само качество планеты.</Description>
+		<ImageFilename>Environment/Events/sandstorm</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>4</ColonyEventDefinitionId> 
+		<Type>Disaster</Type>
+		<PopulationAmount>-0.05</PopulationAmount>
+		<DamageRepair>-0.05</DamageRepair>
+		<RandomInitiationChance>0.003</RandomInitiationChance>
+		<OrbTypeFilters>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId> 
+				<Factor>0.6</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId> 
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId> 
+				<Factor>1</Factor>
+			</OrbTypeFactor>
+		</OrbTypeFilters>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>«Сверххолодная снежная буря»</Name>
+		<Description>Мощные штормовые ветра и огромные глыбы переохлажденного льда уничтожили многие наземные сооружения, а также повредили некоторые города в подземных ледяных пещерах.\n\nВ результате произошли массовые человеческие жертвы, а метель даже ухудшила само качество планеты.</Description>
+		<ImageFilename>Environment/Events/blizzard</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>5</ColonyEventDefinitionId> 
+		<Type>Disaster</Type>
+		<PopulationAmount>-0.1</PopulationAmount>
+		<DamageRepair>-0.1</DamageRepair>
+		<RandomInitiationChance>0.003</RandomInitiationChance>
+		<OrbTypeFilters>
+			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId> 
+				<Factor>1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId> 
+				<Factor>0.6</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId> 
+				<Factor>0.8</Factor>
+			</OrbTypeFactor>
+		</OrbTypeFilters>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Катастрофическое извержение вулкана</Name>
+		<Description>Множество новых супервулканов прорвались сквозь кору, разливая океаны лавы по целым континентам.\n\nВ результате произошли массовые человеческие жертвы, а само извержение даже ухудшило качество планеты.</Description>
+		<ImageFilename>Environment/Events/eruption</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>6</ColonyEventDefinitionId> 
+		<Type>Plague</Type>
+		<IconFilename>Environment/Events/Icons/HekretosFever</IconFilename>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<PopulationAmount>-0.05</PopulationAmount>
+		<ColonyHappiness>-5</ColonyHappiness>
+		<SpreadToOtherColoniesChance>1</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>200000000</SpreadToOtherColoniesRange>
+		<RandomInitiationChance>0.007</RandomInitiationChance>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Лихорадка Хекретос</Name>
+		<Description>Лихорадка Хекретос - смертельная инфекция, поражающая внутренние органы и вызывающая быструю дегенерацию и смерть. Вспышка лихорадки Хекретос обычно длится около 1–2 лет.</Description>
+		<ImageFilename>Environment/Events/HekretosFever</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>7</ColonyEventDefinitionId> 
+		<Type>Plague</Type>
+		<IconFilename>Environment/Events/Icons/DekaraVirus</IconFilename>
+		<DurationMinimum>1.5</DurationMinimum>
+		<DurationMaximum>3</DurationMaximum>
+		<PopulationAmount>-0.06</PopulationAmount>
+		<ColonyHappiness>-8</ColonyHappiness>
+		<SpreadToOtherColoniesChance>1.2</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>200000000</SpreadToOtherColoniesRange>
+		<RandomInitiationChance>0.003</RandomInitiationChance>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<PlagueCuringFactor>1.1</PlagueCuringFactor>
+		<Name>Вирус Декара</Name>
+		<Description>Вирус Декара - очень болезненное заболевание, которое медленно парализует центральную нервную систему любого заражённого существа, в конечном итоге приводя к смерти. Вспышка вируса Декара обычно длится около 1–3 лет.</Description>
+		<ImageFilename>Environment/Events/DekaraVirus</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>8</ColonyEventDefinitionId> 
+		<Type>Plague</Type>
+		<IconFilename>Environment/Events/Icons/GeneticScramblingSyndrome</IconFilename>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<PopulationAmount>-0.15</PopulationAmount>
+		<ColonyHappiness>-10</ColonyHappiness>
+		<SpreadToOtherColoniesChance>1.4</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>250000000</SpreadToOtherColoniesRange>
+		<RandomInitiationChance>0.0015</RandomInitiationChance>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<PlagueCuringFactor>1.2</PlagueCuringFactor>
+		<Name>Синдром генетической дезорганизации</Name>
+		<Description>Синдром генетической дезорганизации атакует генетический код во всех клетках зараженного существа, уничтожая все полезные биологические инструкции. Это приводит к очень быстрому распаду зараженного существа, в конечном итоге превращая его в лужу протеиновой слизи. Вспышка синдрома генетической дезорганизации обычно длится 1–2 года. Однако он крайне заразен и может быстро распространяться.</Description>
+		<ImageFilename>Environment/Events/GeneticScramblingSyndrome</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>9</ColonyEventDefinitionId> 
+		<Type>Plague</Type>
+		<IconFilename>Environment/Events/Icons/MerturovPlague</IconFilename>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<PopulationAmount>-0.12</PopulationAmount>
+		<ColonyHappiness>-12</ColonyHappiness>
+		<SpreadToOtherColoniesChance>1.6</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>250000000</SpreadToOtherColoniesRange>
+		<RandomInitiationChance>0.0007</RandomInitiationChance>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<PlagueCuringFactor>1.4</PlagueCuringFactor>
+		<Name>Мертуровская чума</Name>
+		<Description>Мертуровская чума - самая смертоносная болезнь в известной галактике. Она стремительно пожирает мозг заражённого существа, постепенно вызывая безумие, обездвиживание и, в конечном итоге, смерть. Мертуровская чума представляет собой крайне стойкий вирус, передающийся воздушно-капельным путём, поэтому она обладает высокой заразностью. Вспышка Мертуровской чумы обычно длится от 1 до 2 лет.</Description>
+		<ImageFilename>Environment/Events/MerturovPlague</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>10</ColonyEventDefinitionId> 
+		<Type>Plague</Type>
+		<IconFilename>Environment/Events/Icons/PsionicMindVirus</IconFilename>
+		<DurationMinimum>4</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<PopulationAmount>-0.1</PopulationAmount>
+		<ColonyHappiness>-15</ColonyHappiness>
+		<SpreadToOtherColoniesChance>0.3</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>150000000</SpreadToOtherColoniesRange>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<PlagueModifiersPerRaceId>
+			<unsignedByte>20</unsignedByte> 
+		</PlagueModifiersPerRaceId>
+		<PlagueModifiersPerRaceAmount>
+			<float>0</float>
+		</PlagueModifiersPerRaceAmount>
+		<PlagueCuringFactor>1.5</PlagueCuringFactor>
+		<Name>Псионический вирус Шактури - Вариант К7</Name>
+		<Description>Псионический вирус Шактури делает видимость более уязвимой для псионических сил Шактури.\n\nХотя он не особенно смертоносен, его летальность коррелирует с тем, насколько устойчив вид к психическим атакам.\n\nЗараженные жертвы подвергаются форме психического внушения, что заставляет их вести себя так, чтобы максимально увеличить распространение вируса. Таким образом, Псионический вирус Шактури крайне заразен и может быстро распространяться.</Description>
+		<ImageFilename>Environment/Events/PsionicMindVirus</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>11</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<PreventStartWhenEventActiveColonyEventDefinitionId>142</PreventStartWhenEventActiveColonyEventDefinitionId>
+		<RaceFilterIds>
+			<unsignedByte>3</unsignedByte> 
+		</RaceFilterIds>
+		<MinimumPopulationAmount>10000000</MinimumPopulationAmount>
+		<MinimumPopulationRaceId>3</MinimumPopulationRaceId>
+		<MustHaveRacesOtherThanRaceIds>
+			<unsignedByte>3</unsignedByte> 
+		</MustHaveRacesOtherThanRaceIds>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<GameEventName>Start Xenophobic Riots (Haakonish)</GameEventName>
+		<Name>Межрасовые беспорядки</Name>
+		<Description>Межрасовые беспорядки против не-хааконишского населения, с последующими эффектами:[ULI]Мгновенно сокращает численность не-хааконишских рас в колонии на 25%[/ULI][ULI][GOOD]+10 к счастью колонии[/GOOD] на 5 лет[/ULI][ULI]Значительно [BAD]вредит нашей репутации[/BAD][/ULI][ULI]Негативно влияет на [BAD]миграцию[/BAD] в колонию в течение 10 лет[/ULI]</Description>
+		<ImageFilename>Environment/Events/Haakonish Xenophobia</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>12</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<PopulationAmount>-0.05</PopulationAmount>
+		<DamageRepair>-0.05</DamageRepair>
+		<RandomInitiationChance>0.001</RandomInitiationChance>
+		<RaceFilterIds>
+			<unsignedByte>1</unsignedByte> 
+		</RaceFilterIds>
+		<OrbTypeFilters>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId> 
+				<Factor>0.7</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId> 
+				<Factor>1</Factor>
+			</OrbTypeFactor>
+		</OrbTypeFilters>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Подводный Левиафан</Name>
+		<Description>Главный подводный город нашей колонии {0} подвергся разрушительной атаке со стороны огромного морского монстра Даркхул!\n\nМногие жизни были потеряны в {0}, а качество колонии также было снижено.</Description>
+		<ImageFilename>Environment/Events/Underwater Leviathan</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>13</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<RandomInitiationChance>0.00125</RandomInitiationChance>
+		<RaceFilterIds>
+			<unsignedByte>1</unsignedByte> 
+		</RaceFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Прорыв в исследованиях</Name>
+		<Description>Величайшие умы наших учёных и инженеров на {0} получили серию блестящих озарений. Наши общеимперские исследовательские усилия получат бонус +10% в течение следующего года!</Description>
+		<ImageFilename>Environment/Events/Research Insight</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>14</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<RaceFilterIds>
+			<unsignedByte>4</unsignedByte> 
+		</RaceFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>RecruitedTroopStrengthAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Волна воинов</Name>
+		<Description>Наши армии готовятся к притоку новых войск на нашей колонии {0}.\n\nВсе войска, набранные в течение следующего года, будут обучаться на 20% быстрее и станут на 10% сильнее.</Description>
+		<ImageFilename>Environment/Events/Warrior Wave</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>15</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<ColonyHappiness>3</ColonyHappiness>
+		<RaceFilterIds>
+			<unsignedByte>4</unsignedByte> 
+		</RaceFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Волна патриотизма</Name>
+		<Description>Волна мощного патриотического подъема прокатилась по нашей колонии {0}!\n\nВоенная усталость во всей нашей империи на следующие 2 года значительно снижена.</Description>
+		<ImageFilename>Environment/Events/Patriotic Wave</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>16</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<RaceFilterIds>
+			<unsignedByte>7</unsignedByte> 
+		</RaceFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PsyOps</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Предсказательная история</Name>
+		<Description>Наши аналитики нашли гениальное применение нашим недавним открытиям при исследовании руин. Используя детальное изучение прошлого в сочетании с результатами наших обширных исследовательских экспедиций, мы теперь можем с определенной точностью предсказывать события ближайшего будущего.\n\nТаким образом, в течение следующих двух лет наша империя получит следующие бонусы и штрафы:\n[ULI]-5% ко всем исследованиям[/ULI][ULI]+10% к дипломатии[/ULI][ULI]+10% к контршпионажу[/ULI][ULI]+10% к шпионажу[/ULI][ULI]+10% к Пси-операциям[/ULI]</Description>
+		<ImageFilename>Environment/Events/Predictive History</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>17</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>0</DurationMinimum>
+		<DurationMaximum>0</DurationMaximum>
+		
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<MinimumIntervalPerEmpireYears>8</MinimumIntervalPerEmpireYears>
+		<RaceFilterIds>
+			<unsignedByte>3</unsignedByte> 
+		</RaceFilterIds>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<GameEventName>Start Economic Boost (Haakonish)</GameEventName>
+		<Name>Экономический подъем</Name>
+		<Description>Наши хитроумные финансовые волшебники нашли способ временно стимулировать экономический рост с помощью творческого учета!\n\nЗапуск этой Инициативы по экономическому подъему [GOOD]увеличит доход империи на 10% в течение 5 лет[/GOOD]. По-видимому, позже может произойти и [BAD]незначительный рост коррупции[/BAD], но это звучит как несущественная деталь.</Description>
+		<ImageFilename>Environment/Events/Economic Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>18</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>0</DurationMinimum>
+		<DurationMaximum>0</DurationMaximum>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<ManualInitiationCost>25000</ManualInitiationCost>
+		<MinimumIntervalPerEmpireYears>5</MinimumIntervalPerEmpireYears>
+		<RaceFilterIds>
+			<unsignedByte>2</unsignedByte> 
+		</RaceFilterIds>
+		<OrbTypeFilters>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> 
+				<Factor>1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> 
+				<Factor>0.6</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> 
+				<Factor>0.3</Factor>
+			</OrbTypeFactor>
+		</OrbTypeFilters>
+		<GameEventName>Great Bakdur Hunt (Teekan)</GameEventName>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Великая охота на Бакдуров</Name>
+		<Description>Начать Великую охоту на Бакдуров в пустынной колонии. Результат охоты будет разным, но всегда принесет определенные преимущества: обычно это общеимперский бонус к счастью и бонус к развитию в данной колонии. Можно начать только раз в 5 лет.</Description>
+		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>19</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>0.5</DurationMinimum>
+		<DurationMaximum>0.5</DurationMaximum>
+		<PopulationAmount>-0.2</PopulationAmount>
+		<RaceFilterIds>
+			<unsignedByte>6</unsignedByte> 
+		</RaceFilterIds>
+		<MinimumPopulationAmount>10000000</MinimumPopulationAmount>
+		<MinimumPopulationRaceId>6</MinimumPopulationRaceId>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Безумный каннибализм</Name>
+		<Description>Население нашей колонии {0} впало в безумное неистовство. Из-за этой гиперагрессивной паранойи повсеместно распространился каннибализм!\n\nВ результате численность населения {0} сократилась.</Description>
+		<ImageFilename>Environment/Events/Crazed Cannibalism</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>20</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<RaceFilterIds>
+			<unsignedByte>0</unsignedByte> 
+		</RaceFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Scenery</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<MinimumIntervalPerEmpireYears>5</MinimumIntervalPerEmpireYears>
+		<Name>«Грандиозная художественная выставка»</Name>
+		<Description>В нашей колонии {0} проводится грандиозная художественная выставка. На ней представлены вершина искусства и культуры из окрестных систем.\n\nВ результате наша империя в течение следующих 2 лет получит +10% к доходам от торговли и туризма.\n\n{0} также получит +10% к доходу колонии и +10% бонус за живописность в этот период.</Description>
+		<ImageFilename>Environment/Events/Great Art Exposition</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>21</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1.5</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Горнодобывающий бонус</Name>
+		<ImageFilename>Environment/Events/earthquake</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>22</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>-15</EmpireHappiness>
+		<ValuesDecayGradually>true</ValuesDecayGradually>
+		<Name>Мы не одиноки во вселенной...</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>23</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Наша Кампания по связям с общественностью</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>24</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Мы заплатили пиратам</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>25</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Мы устранили угрозу</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>26</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Мы помогли чужакам</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>27</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Наш народ воодушевлен</Name>
+		<ImageFilename>Environment/Events/Our People Have Been Inspired</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>28</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>6</DurationMinimum>
+		<DurationMaximum>6</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>true</ValuesDecayGradually>
+		<Name>Инициатива по укреплению боевого духа</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>29</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>6</DurationMinimum>
+		<DurationMaximum>6</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>true</ValuesDecayGradually>
+		<Name>Инициатива по поддержке конкуренции</Name>
+		<ImageFilename>Environment/Events/Competition Initiative</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>30</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<ColonyHappiness>-10</ColonyHappiness>
+		<ValuesDecayGradually>true</ValuesDecayGradually>
+		<Name>Атака клонов</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>31</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<ColonyHappiness>5</ColonyHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Планетарный ущерб устранен</Name>
+		<ImageFilename>Environment/Events/Repair Planetary Damage</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>32</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<ColonyHappiness>5</ColonyHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Мы восстановили древние знания</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>33</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>10</DurationMinimum>
+		<DurationMaximum>10</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>true</ValuesDecayGradually>
+		<Name>Вирус познания Зеноксов</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>34</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Первый контакт</Name>
+		<ImageFilename>Environment/Events/negative happiness</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>51</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<ColonyHappiness>5</ColonyHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Фокус на важном</Name>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>99</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Счастье от выполненной военной задачи</Name>
+		<Description>Счастье от выполненной военной задачи временно повысилось во всей нашей империи</Description>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

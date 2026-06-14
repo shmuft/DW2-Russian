@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>127</ColonyEventDefinitionId> <!-- Wonders of the Past - Happiness -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Wonders of the Past - Happiness</Name>
+		<Description>Our recent ruins exploration has increased happiness throughout our empire</Description>
+		<ImageFilename>Environment/Events/Zenox Wonders of the Past</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>128</ColonyEventDefinitionId> <!-- Wonders of the Past - Research -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>-1</FilterId>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Wonders of the Past - Research</Name>
+		<Description>Our recent ruins exploration has improved our research output</Description>
+		<ImageFilename>Environment/Events/Zenox Wonders of the Past</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>129</ColonyEventDefinitionId> <!-- Search the Archives -->
+		<Type>Undefined</Type>
+		<DurationMinimum>0</DurationMinimum>
+		<DurationMaximum>0</DurationMaximum>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<MinimumIntervalPerEmpireYears>5</MinimumIntervalPerEmpireYears>
+		<Name>Search the Archives</Name>
+		<Description></Description>
+		<ImageFilename>Environment/Events/Zenox Search the Archives</ImageFilename>
+		<GameEventName>Search the Archives (Zenox)</GameEventName>
+		<RaceFilterIds>
+			<unsignedByte>7</unsignedByte>
+		</RaceFilterIds>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<ManualInitiationCost>25000</ManualInitiationCost>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>130</ColonyEventDefinitionId> <!-- Search the Archives - Research Boost -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>-1</FilterId>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Search the Archives - Research Boost</Name>
+		<Description>Our search of the archives has revealed lost scientific knowledge that accelerates our research efforts</Description>
+		<ImageFilename>Environment/Events/Zenox Search the Archives</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>131</ColonyEventDefinitionId> <!-- Search the Archives - Happiness Boost -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<ColonyHappiness>10</ColonyHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Search the Archives - Happiness Boost</Name>
+		<Description>Our search of the archives has revealed more details about the ancient Zenox, fascinating the people of our empire</Description>
+		<ImageFilename>Environment/Events/Zenox Search the Archives</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>
