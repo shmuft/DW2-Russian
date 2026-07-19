@@ -6,3 +6,5 @@ __pycache__
 *.zip
 *.pkl
 *.pyc
+*_log.txt
+*_new_translated_lines.txt

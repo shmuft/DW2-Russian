@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfTroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>60</TroopDefinitionId> 
+		<RaceId>15</RaceId> 
+		<Type>Armored</Type>
+		<Size>10000</Size>
+		<RecruitmentCost>
+			<Money>3750</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>375</MaintenanceCost>
+		<AttackStrength>240</AttackStrength>
+		<DefendStrength>96</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Бронетанковое соединение "Бегемот"</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>61</TroopDefinitionId> 
+		<RaceId>15</RaceId> 
+		<Type>PlanetaryDefense</Type>
+		<Size>15000</Size>
+		<RecruitmentCost>
+			<Money>3500</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>350</MaintenanceCost>
+		<AttackStrength>38</AttackStrength>
+		<DefendStrength>115</DefendStrength>
+		<EvasionInfantry>0.1</EvasionInfantry>
+		<EvasionArmor>0.1</EvasionArmor>
+		<IsRobotic>false</IsRobotic>
+		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
+		<Name>Силы перехвата</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>62</TroopDefinitionId> 
+		<RaceId>15</RaceId> 
+		<Type>SpecialForces</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>5000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<AttackStrength>192</AttackStrength>
+		<DefendStrength>108</DefendStrength>
+		<SabotageStrength>100</SabotageStrength>
+		<EvasionInfantry>0.25</EvasionInfantry>
+		<EvasionArmor>0.35</EvasionArmor>
+		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
+		<IsRobotic>false</IsRobotic>
+		<Name>Штурмовое соединение</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>63</TroopDefinitionId> 
+		<RaceId>15</RaceId> 
+		<Type>Titan</Type>
+		<Size>20000</Size>
+		<RecruitmentCost>
+			<Money>10000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<AttackStrength>480</AttackStrength>
+		<DefendStrength>432</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<IsRobotic>false</IsRobotic>
+		<Name>Егерская рота</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
+	</TroopDefinition>
+</ArrayOfTroopDefinition>

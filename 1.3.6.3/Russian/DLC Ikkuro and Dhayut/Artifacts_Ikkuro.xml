@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfArtifact>
+	<Artifact>
+		<ArtifactId>34</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>HyperjumpSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>5</RaceId>
+		<Name>Талисман Мудрого Навигатора</Name>
+		<Description>Чрезвычайно тяжёлая деревянная подвеска на серебряной цепочке для ношения на шее. Подвеска выполнена в форме раннего космического корабля Иккуро, который не мог бы покинуть пределы своей звёздной системы. Такие подвески вручались мастерам-ремесленникам древнего гильдии кораблестроителей Иккуро и свидетельствовали о том, что их обладатель достиг вершины знаний в области проектирования и постройки кораблей. Из-за своего большого веса эти подвески обычно носили лишь по торжественным случаям.</Description>
+		<ImageFilename>Artifacts/the talisman of the wise navigator</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>35</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>5</RaceId>
+		<Name>Сфера процветания</Name>
+		<Description>Сфера примерно размером с череп взрослого Иккуро, идеально круглая и изготовленная из таинственного материала, неизвестного в современную эпоху - возможно, своего рода полупрозрачный алюминий. Внутри сферы находится облако перемешивающихся газов разных цветов, взаимодействующих друг с другом, но никогда не смешивающихся. Считается, что такие сферы использовались Иккуро древней галактики в качестве средства для медитации.</Description>
+		<ImageFilename>Artifacts/the orb of thriving</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>36</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchIndustrial</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>5</RaceId>
+		<Name>Древо Творения</Name>
+		<Description>Вдохновлённая древним мифом иккуров о творении, эта голограмма изображает массивное и почти невообразимо высокое дерево с узловатым стволом и бесчисленными ветвями, густо покрытыми листвой и увешанными крупными спелыми плодами. Говорят, что те, кто сидит под деревом и размышляет о жизни в гармонии и балансе, способны попробовать этот плод, который, по слухам, сладок с лёгкой кислинкой.</Description>
+		<ImageFilename>Artifacts/the tree of creation</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>37</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchArmor</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchShields</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>5</RaceId>
+		<Name>Книга Гармоничной Необходимости</Name>
+		<Description>Этот древний кодекс происходит с родного мира Иккуро и, как говорят, предшествует космическим путешествиям и, возможно, даже атмосферным летательным аппаратам. Имя автора утеряно во времени, но книга, по слухам, была написана правителем древнего государства-нации и рассуждает о том, что война иногда необходима для продвижения дела мира. Чтобы мир мог быть достигнут ещё быстрее, она содержит множество полезной информации о подавлении врагов гармонии.</Description>
+		<ImageFilename>Artifacts/the book of harmonious necessity</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>
