@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>127</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Чудеса прошлого - Счастье</Name>
+		<Description>Наши недавние раскопки на руинах повысили уровень счастья во всей нашей империи</Description>
+		<ImageFilename>Environment/Events/Zenox Wonders of the Past</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>128</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>-1</FilterId>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Чудеса прошлого - Исследование</Name>
+		<Description>Наши недавние раскопки древних руин повысили эффективность исследований</Description>
+		<ImageFilename>Environment/Events/Zenox Wonders of the Past</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>129</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>0</DurationMinimum>
+		<DurationMaximum>0</DurationMaximum>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<MinimumIntervalPerEmpireYears>5</MinimumIntervalPerEmpireYears>
+		<Name>Поиск в архивах</Name>
+		<Description />
+		<ImageFilename>Environment/Events/Zenox Search the Archives</ImageFilename>
+		<GameEventName>Search the Archives (Zenox)</GameEventName>
+		<RaceFilterIds>
+			<unsignedByte>7</unsignedByte>
+		</RaceFilterIds>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<ManualInitiationCost>25000</ManualInitiationCost>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>130</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>-1</FilterId>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Поиск в архивах - Бонус к исследованиям</Name>
+		<Description>Наше исследование архивов выявило утраченные научные знания, ускоряющие наши исследовательские усилия.</Description>
+		<ImageFilename>Environment/Events/Zenox Search the Archives</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>131</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<ColonyHappiness>10</ColonyHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Поиск в архивах - Бонус к счастью</Name>
+		<Description>Наше исследование архивов выявило больше подробностей о древних Зеноксах, очаровав народ нашей империи.</Description>
+		<ImageFilename>Environment/Events/Zenox Search the Archives</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

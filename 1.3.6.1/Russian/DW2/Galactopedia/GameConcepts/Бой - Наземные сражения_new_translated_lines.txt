@@ -1,0 +1,16 @@
+
+For an invasion to succeed, the invading troops should significantly outnumber the defenders. Prolonged battles can weaken invading troops - even if they eventually win the invasion it will take some time to recuperate their readiness. Quickly overwhelming the defenders with irresistible force is the best strategy.
+->
+Для успешного вторжения численность вторгающихся войск должна значительно превосходить численность защитников. Длительные сражения могут ослабить войска вторжения — даже если в конечном итоге они одержат победу, им потребуется время, чтобы восстановить боеготовность. Наиболее эффективной стратегией является быстрое подавление защитников сокрушительной силой.
+
+In either case - whether the invader or defender wins - the development level of the colony will be temporarily set back by the disruption.
+->
+В любом случае — победит ли захватчик или защитник — уровень развития колонии временно снизится из-за разрушений.
+
+Victorious troops (of either invader or defender) also receive a promotion - their strength will increase, making them more effective in future battles.
+->
+Победоносные войска (как захватчиков, так и защитников) также получают повышение — их сила увеличится, что сделает их более эффективными в будущих сражениях.
+
+You can monitor the progress of a ground invasion by selecting the colony. The colony information will be displayed in the Selection Panel at the bottom-left of the main view. Defending troops will appear here in the "Troops" section. Invading troops will also appear here - they will have a red background.
+->
+Вы можете отслеживать ход наземного вторжения, выбрав колонию. Информация о колонии будет отображаться в панели выбора в левом нижнем углу основного вида. Здесь же в разделе «Войска» появятся обороняющиеся войска. Вторгающиеся войска также будут отображаться здесь — они будут иметь красный фон.

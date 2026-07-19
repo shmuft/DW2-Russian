@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfArtifact>
+	<Artifact>
+		<ArtifactId>86</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Countermeasures</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Навигатор улья</Name>
+		<Description>Хотя изначально этот компьютер был создан, чтобы заманивать корабли Улья к гибели, теперь он был переоборудован, чтобы помогать кораблям избегать систем наведения противника. Несмотря на то, что это устройство выглядит древним и поврежденным, оно обеспечивает мощную защиту, даже в опасной галактике сегодняшнего дня.</Description>
+		<ImageFilename>Environment/Events/the hive navigator</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>87</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Коллекция видеозаписей 'Цитадели Обид'</Name>
+		<Description>Найти современное устройство воспроизведения видео, совместимое с этими записями, может оказаться непростой задачей, однако затраченные усилия полностью окупятся. Свидетельства того, как пираты заставляли политиков, олигархов и дворян сражаться насмерть, служат мощным напоминанием об опасностях и возможностях анархии. Вероятно, ради просмотра этих записей сюда явятся посетители с самых отдаленных уголков галактики.</Description>
+		<ImageFilename>Environment/Events/the grudgehold recordings box set</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>88</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Реликт «Последнего оплота»</Name>
+		<Description>В годы, последовавшие за войной с Шактури, «Последний оплот» продолжал сражаться с последними остатками Оси Шактури. Разрозненные группы выживших из Альянса Свободы часто прибегали к немыслимым средствам, чтобы досаждать любому врагу. Это устройство позволяло им легче побеждать опасных (или выгодных) противников.</Description>
+		<ImageFilename>Environment/Events/remnant of the last remnant</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>89</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ScanEvasion</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Секрет Налётчиков</Name>
+		<Description>Этот кристалл данных некогда принадлежал Налётчикам, пиратскому клану, специализировавшемуся на молниеносных атаках из скрытых баз. Он по-прежнему полезен для избегания обнаружения и будет высоко оценён любым капитаном корабля, понимающим силу скрытности.</Description>
+		<ImageFilename>Environment/Events/the ambushers secret</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>90</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Пустой трон</Name>
+		<Description />
+		<ImageFilename>Environment/Events/The Empty Throne</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>91</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>CharacterQualityTroopGeneral</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityFleetAdmiral</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Инструктор</Name>
+		<Description />
+		<ImageFilename>Environment/Events/The Instructor</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>92</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Трекер ульевого типа</Name>
+		<Description />
+		<ImageFilename>Environment/Events/Hive-Pattern Tracker</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>93</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ConstructionSpeedFacility</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Эхо Строителей</Name>
+		<Description />
+		<ImageFilename>Environment/Events/Echo of the Builders</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>

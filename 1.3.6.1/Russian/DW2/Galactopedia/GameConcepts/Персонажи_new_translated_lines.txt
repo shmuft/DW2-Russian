@@ -1,0 +1,12 @@
+
+Some characters initially have their traits and skill levels hidden. These will not be revealed until they are actually given a mission or other responsibility that uses those skills. These characters are considered "Untested".
+->
+Некоторые персонажи изначально имеют скрытые черты и уровни навыков. Они не будут раскрыты, пока им не будет поручена миссия или иная ответственность, требующая использования этих навыков. Такие персонажи считаются «Непроверенными».
+
+Character skills provide bonuses specific to the character's role. Some examples:
+->
+Навыки персонажей предоставляют бонусы, специфичные для роли персонажа. Некоторые примеры:
+
+Characters may also be dismissed by using the Dismiss button on the Character Screen, but it may be some time before another character of the same type is generated. In most cases, it's worth trying to develop the characters rather than dismissing them and hoping a more exceptional character comes along.
+->
+Персонажей также можно уволить, нажав кнопку «Уволить» на экране персонажей, но может пройти некоторое время, прежде чем будет сгенерирован другой персонаж того же типа. В большинстве случаев стоит попытаться развить имеющихся персонажей, а не увольнять их и надеяться на появление более выдающегося.

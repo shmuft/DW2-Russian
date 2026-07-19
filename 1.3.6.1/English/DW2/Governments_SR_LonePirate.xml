@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGovernment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Government>
+		<GovernmentId>32740</GovernmentId>
+		<!-- Lone Pirate Balanced -->
+		<LeaderTitle>Pirate</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float>
+				<!-- Undefined, i.e. Unused -->
+				<float>1</float>
+				<!-- ColonyTax -->
+				<float>1</float>
+				<!-- ResourceTrading -->
+				<float>1</float>
+				<!-- Fuel -->
+				<float>1</float>
+				<!-- Information -->
+				<float>1</float>
+				<!-- Tribute -->
+				<float>1</float>
+				<!-- Raiding -->
+				<float>1</float>
+				<!-- Missions -->
+				<float>1</float>
+				<!-- ColonyCrime -->
+				<float>1</float>
+				<!-- Tourism -->
+				<float>1</float>
+				<!-- ShipBuilding -->
+				<float>1</float>
+				<!-- Discoveries -->
+				<float>1</float>
+				<!-- TradeBonuses -->
+				<float>1</float>
+				<!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float>
+				<!-- Undefined, i.e. Unused -->
+				<float>1</float>
+				<!-- ColonyDevelopment -->
+				<float>1</float>
+				<!-- Research -->
+				<float>0</float>
+				<!-- ShipMaintenance -->
+				<float>1</float>
+				<!-- TroopMaintenance -->
+				<float>1</float>
+				<!-- FacilityMaintenance -->
+				<float>1</float>
+				<!-- Ships -->
+				<float>1</float>
+				<!-- TroopRecruitment -->
+				<float>1</float>
+				<!-- Facilities -->
+				<float>1</float>
+				<!-- ResourceTrading -->
+				<float>1</float>
+				<!-- Fuel -->
+				<float>1</float>
+				<!-- Information -->
+				<float>1</float>
+				<!-- Tribute -->
+				<float>1</float>
+				<!-- Missions -->
+				<float>1</float>
+				<!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>1000</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>Undefined</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1</Stability>
+		<ConcernForOwnReputation>0</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0</ImportanceOfOthersReputations>
+		<UsesCabinet>false</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<RequiresColoniesToExist>false</RequiresColoniesToExist>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanRaid>true</CanRaid>
+		<AllowControlMiningShips>true</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>Bloody</string>
+			<string>Dread</string>
+			<string>Dirty</string>
+			<string>Evil</string>
+			<string>Iron</string>
+			<string>Fierce</string>
+			<string>Cruel</string>
+			<string>Sinister</string>
+			<string>Vicious</string>
+			<string>Lone</string>
+			<string>Savage</string>
+			<string>Fearsome</string>
+			<string>Deadly</string>
+			<string>Venomous</string>
+			<string>Murderous</string>
+			<string>Red</string>
+			<string>Black</string>
+			<string>Dark</string>
+			<string>Grim</string>
+			<string>Haunted</string>
+			<string>Menacing</string>
+			<string>Blood</string>
+			<string>Burning</string>
+			<string>Hidden</string>
+			<string>Fire</string>
+			<string>Lost</string>
+		</EmpireNameAdjectives>
+		<EmpireNameMiddles>
+			<string>Sun</string>
+			<string>Star</string>
+			<string>Rock</string>
+			<string>Moon</string>
+			<string>Storm</string>
+			<string>Fang</string>
+			<string>Claw</string>
+			<string>Dagger</string>
+			<string>Lightning</string>
+			<string>Flame</string>
+		</EmpireNameMiddles>
+		<EmpireNameNouns>
+			<string>Pirates</string>
+			<string>Marauders</string>
+			<string>Bandits</string>
+			<string>Buccaneers</string>
+			<string>Outlaws</string>
+			<string>Corsairs</string>
+			<string>Gangsters</string>
+			<string>Prowlers</string>
+			<string>Intruders</string>
+			<string>Skyjackers</string>
+			<string>Gang</string>
+			<string>Council</string>
+			<string>Network</string>
+			<string>League</string>
+			<string>Force</string>
+			<string>Clan</string>
+			<string>Authority</string>
+			<string>Confederacy</string>
+			<string>Confederation</string>
+			<string>Fleet</string>
+			<string>Consortium</string>
+			<string>Syndicate</string>
+			<string>Cartel</string>
+		</EmpireNameNouns>
+		<Biases>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ScanEvasion</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<BonusesPerTreatyTypeTreaties>
+		</BonusesPerTreatyTypeTreaties>
+		<BonusesPerTreatyType>
+		</BonusesPerTreatyType>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Pirate</Name>
+		<Description>Lone Pirates are not strongly focussed in any one area. They are versatile and can try a bit of everything.\n\nThey can capture enemy ships, raid bases and smuggle resources.\n\nThey may also accept a variety of contracts from other factions.\n\nYour starting ship is a small military vessel, an [HL]Escort[/HL] equipped with basic tech.</Description>
+	</Government>
+
+	<Government>
+		<GovernmentId>32741</GovernmentId>
+		<!-- Lone Pirate Smuggler -->
+		<LeaderTitle>Smuggler</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float>
+				<!-- Undefined, i.e. Unused -->
+				<float>1</float>
+				<!-- ColonyTax -->
+				<float>1</float>
+				<!-- ResourceTrading -->
+				<float>1</float>
+				<!-- Fuel -->
+				<float>1</float>
+				<!-- Information -->
+				<float>1</float>
+				<!-- Tribute -->
+				<float>1</float>
+				<!-- Raiding -->
+				<float>1</float>
+				<!-- Missions -->
+				<float>1</float>
+				<!-- ColonyCrime -->
+				<float>1</float>
+				<!-- Tourism -->
+				<float>1</float>
+				<!-- ShipBuilding -->
+				<float>1</float>
+				<!-- Discoveries -->
+				<float>1</float>
+				<!-- TradeBonuses -->
+				<float>1</float>
+				<!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float>
+				<!-- Undefined, i.e. Unused -->
+				<float>1</float>
+				<!-- ColonyDevelopment -->
+				<float>1</float>
+				<!-- Research -->
+				<float>0</float>
+				<!-- ShipMaintenance -->
+				<float>1</float>
+				<!-- TroopMaintenance -->
+				<float>1</float>
+				<!-- FacilityMaintenance -->
+				<float>1</float>
+				<!-- Ships -->
+				<float>1</float>
+				<!-- TroopRecruitment -->
+				<float>1</float>
+				<!-- Facilities -->
+				<float>1</float>
+				<!-- ResourceTrading -->
+				<float>1</float>
+				<!-- Fuel -->
+				<float>1</float>
+				<!-- Information -->
+				<float>1</float>
+				<!-- Tribute -->
+				<float>1</float>
+				<!-- Missions -->
+				<float>1</float>
+				<!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>1000</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>Undefined</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1</Stability>
+		<ConcernForOwnReputation>0</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0</ImportanceOfOthersReputations>
+		<UsesCabinet>false</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<RequiresColoniesToExist>false</RequiresColoniesToExist>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanRaid>true</CanRaid>
+		<AllowControlMiningShips>true</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>Lone</string>
+			<string>Red</string>
+			<string>Black</string>
+			<string>Dark</string>
+			<string>Grim</string>
+			<string>Haunted</string>
+			<string>Blood</string>
+			<string>Burning</string>
+			<string>Hidden</string>
+			<string>Fire</string>
+			<string>Lost</string>
+			<string>Swift</string>
+			<string>Nimble</string>
+			<string>Agile</string>
+			<string>Fearless</string>
+			<string>Audacious</string>
+			<string>Bold</string>
+			<string>Adept</string>
+		</EmpireNameAdjectives>
+		<EmpireNameMiddles>
+			<string>Sun</string>
+			<string>Star</string>
+			<string>Rock</string>
+			<string>Moon</string>
+			<string>Storm</string>
+			<string>Fang</string>
+			<string>Claw</string>
+			<string>Dagger</string>
+			<string>Lightning</string>
+			<string>Flame</string>
+		</EmpireNameMiddles>
+		<EmpireNameNouns>
+			<string>Gang</string>
+			<string>Council</string>
+			<string>Network</string>
+			<string>League</string>
+			<string>Force</string>
+			<string>Clan</string>
+			<string>Fleet</string>
+			<string>Authority</string>
+			<string>Confederacy</string>
+			<string>Confederation</string>
+			<string>Horde</string>
+			<string>Corporation</string>
+			<string>Consortium</string>
+			<string>Syndicate</string>
+			<string>Cartel</string>
+			<string>Guild</string>
+			<string>Smugglers</string>
+			<string>Traders</string>
+			<string>Enterprises</string>
+		</EmpireNameNouns>
+		<Biases>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ScanEvasion</Type>
+				<Amount>0.35</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<BonusesPerTreatyTypeTreaties>
+		</BonusesPerTreatyTypeTreaties>
+		<BonusesPerTreatyType>
+		</BonusesPerTreatyType>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Smuggler</Name>
+		<Description>Lone Smugglers are focussed on trading resources with factions. They often also fulfill resource contracts.\n\nSmugglers value stability and peaceful coexistence with other factions instead of open conflict. They also make good use of spies to influence events in their favor.\n\nYour starting ship is a [HL]Small Freighter[/HL] equipped with basic tech.\n\nSmugglers also enjoy an extra 10% discount on the price of Black Market resources.</Description>
+	</Government>
+
+	<Government>
+		<GovernmentId>32742</GovernmentId>
+		<!-- Lone Pirate Raider -->
+		<LeaderTitle>Raider</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float>
+				<!-- Undefined, i.e. Unused -->
+				<float>1</float>
+				<!-- ColonyTax -->
+				<float>1</float>
+				<!-- ResourceTrading -->
+				<float>1</float>
+				<!-- Fuel -->
+				<float>1</float>
+				<!-- Information -->
+				<float>1</float>
+				<!-- Tribute -->
+				<float>1</float>
+				<!-- Raiding -->
+				<float>1</float>
+				<!-- Missions -->
+				<float>1</float>
+				<!-- ColonyCrime -->
+				<float>1</float>
+				<!-- Tourism -->
+				<float>1</float>
+				<!-- ShipBuilding -->
+				<float>1</float>
+				<!-- Discoveries -->
+				<float>1</float>
+				<!-- TradeBonuses -->
+				<float>1</float>
+				<!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float>
+				<!-- Undefined, i.e. Unused -->
+				<float>1</float>
+				<!-- ColonyDevelopment -->
+				<float>1</float>
+				<!-- Research -->
+				<float>0</float>
+				<!-- ShipMaintenance -->
+				<float>1</float>
+				<!-- TroopMaintenance -->
+				<float>1</float>
+				<!-- FacilityMaintenance -->
+				<float>1</float>
+				<!-- Ships -->
+				<float>1</float>
+				<!-- TroopRecruitment -->
+				<float>1</float>
+				<!-- Facilities -->
+				<float>1</float>
+				<!-- ResourceTrading -->
+				<float>1</float>
+				<!-- Fuel -->
+				<float>1</float>
+				<!-- Information -->
+				<float>1</float>
+				<!-- Tribute -->
+				<float>1</float>
+				<!-- Missions -->
+				<float>1</float>
+				<!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>1000</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>Undefined</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1</Stability>
+		<ConcernForOwnReputation>0</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0</ImportanceOfOthersReputations>
+		<UsesCabinet>false</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<RequiresColoniesToExist>false</RequiresColoniesToExist>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanRaid>true</CanRaid>
+		<AllowControlMiningShips>true</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>Bloody</string>
+			<string>Dread</string>
+			<string>Dirty</string>
+			<string>Evil</string>
+			<string>Iron</string>
+			<string>Fierce</string>
+			<string>Cruel</string>
+			<string>Sinister</string>
+			<string>Vicious</string>
+			<string>Lone</string>
+			<string>Savage</string>
+			<string>Fearsome</string>
+			<string>Deadly</string>
+			<string>Venomous</string>
+			<string>Murderous</string>
+			<string>Red</string>
+			<string>Black</string>
+			<string>Dark</string>
+			<string>Grim</string>
+			<string>Haunted</string>
+			<string>Menacing</string>
+			<string>Blood</string>
+			<string>Burning</string>
+			<string>Hidden</string>
+			<string>Fire</string>
+			<string>Lost</string>
+		</EmpireNameAdjectives>
+		<EmpireNameMiddles>
+			<string>Sun</string>
+			<string>Star</string>
+			<string>Rock</string>
+			<string>Moon</string>
+			<string>Storm</string>
+			<string>Fang</string>
+			<string>Claw</string>
+			<string>Dagger</string>
+			<string>Lightning</string>
+			<string>Flame</string>
+		</EmpireNameMiddles>
+		<EmpireNameNouns>
+			<string>Pirates</string>
+			<string>Marauders</string>
+			<string>Bandits</string>
+			<string>Raiders</string>
+			<string>Buccaneers</string>
+			<string>Outlaws</string>
+			<string>Corsairs</string>
+			<string>Pillagers</string>
+			<string>Gangsters</string>
+			<string>Ravagers</string>
+			<string>Prowlers</string>
+			<string>Intruders</string>
+			<string>Invaders</string>
+			<string>Skyjackers</string>
+			<string>Gang</string>
+			<string>Force</string>
+			<string>Clan</string>
+			<string>Army</string>
+			<string>Fleet</string>
+			<string>Horde</string>
+		</EmpireNameNouns>
+		<Biases>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>RaidIncome</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<BonusesPerTreatyTypeTreaties>
+		</BonusesPerTreatyTypeTreaties>
+		<BonusesPerTreatyType>
+		</BonusesPerTreatyType>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Raider</Name>
+		<Description>Lone Raiders focus on raiding bases to loot money and resources.\n\nThey may also salvage debris after destroying their targets, picking up valuable items they find.\n\nYour starting ship is a small military vessel, an [HL]Escort[/HL] equipped with basic tech.</Description>
+	</Government>
+
+	<Government>
+		<GovernmentId>32743</GovernmentId>
+		<!-- Lone Pirate Mercenary -->
+		<LeaderTitle>Bounty Hunter</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float>
+				<!-- Undefined, i.e. Unused -->
+				<float>1</float>
+				<!-- ColonyTax -->
+				<float>1</float>
+				<!-- ResourceTrading -->
+				<float>1</float>
+				<!-- Fuel -->
+				<float>1</float>
+				<!-- Information -->
+				<float>1</float>
+				<!-- Tribute -->
+				<float>1</float>
+				<!-- Raiding -->
+				<float>1</float>
+				<!-- Missions -->
+				<float>1</float>
+				<!-- ColonyCrime -->
+				<float>1</float>
+				<!-- Tourism -->
+				<float>1</float>
+				<!-- ShipBuilding -->
+				<float>1</float>
+				<!-- Discoveries -->
+				<float>1</float>
+				<!-- TradeBonuses -->
+				<float>1</float>
+				<!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float>
+				<!-- Undefined, i.e. Unused -->
+				<float>1</float>
+				<!-- ColonyDevelopment -->
+				<float>1</float>
+				<!-- Research -->
+				<float>0</float>
+				<!-- ShipMaintenance -->
+				<float>1</float>
+				<!-- TroopMaintenance -->
+				<float>1</float>
+				<!-- FacilityMaintenance -->
+				<float>1</float>
+				<!-- Ships -->
+				<float>1</float>
+				<!-- TroopRecruitment -->
+				<float>1</float>
+				<!-- Facilities -->
+				<float>1</float>
+				<!-- ResourceTrading -->
+				<float>1</float>
+				<!-- Fuel -->
+				<float>1</float>
+				<!-- Information -->
+				<float>1</float>
+				<!-- Tribute -->
+				<float>1</float>
+				<!-- Missions -->
+				<float>1</float>
+				<!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>1000</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>Undefined</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1</Stability>
+		<ConcernForOwnReputation>0</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0</ImportanceOfOthersReputations>
+		<UsesCabinet>false</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<RequiresColoniesToExist>false</RequiresColoniesToExist>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanRaid>true</CanRaid>
+		<AllowControlMiningShips>true</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>Bloody</string>
+			<string>Dread</string>
+			<string>Dirty</string>
+			<string>Evil</string>
+			<string>Iron</string>
+			<string>Fierce</string>
+			<string>Cruel</string>
+			<string>Sinister</string>
+			<string>Vicious</string>
+			<string>Lone</string>
+			<string>Savage</string>
+			<string>Fearsome</string>
+			<string>Deadly</string>
+			<string>Venomous</string>
+			<string>Murderous</string>
+			<string>Red</string>
+			<string>Black</string>
+			<string>Dark</string>
+			<string>Grim</string>
+			<string>Haunted</string>
+			<string>Menacing</string>
+			<string>Blood</string>
+			<string>Burning</string>
+			<string>Hidden</string>
+			<string>Fire</string>
+			<string>Lost</string>
+		</EmpireNameAdjectives>
+		<EmpireNameMiddles>
+			<string>Sun</string>
+			<string>Star</string>
+			<string>Rock</string>
+			<string>Moon</string>
+			<string>Storm</string>
+			<string>Fang</string>
+			<string>Claw</string>
+			<string>Dagger</string>
+			<string>Lightning</string>
+			<string>Flame</string>
+		</EmpireNameMiddles>
+		<EmpireNameNouns>
+			<string>Buccaneers</string>
+			<string>Outlaws</string>
+			<string>Corsairs</string>
+			<string>Gangsters</string>
+			<string>Prowlers</string>
+			<string>Intruders</string>
+			<string>Gang</string>
+			<string>Mercenaries</string>
+			<string>Council</string>
+			<string>Network</string>
+			<string>League</string>
+			<string>Force</string>
+			<string>Clan</string>
+			<string>Authority</string>
+			<string>Security</string>
+			<string>Warriors</string>
+			<string>Hunters</string>
+			<string>Guild</string>
+		</EmpireNameNouns>
+		<Biases>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ScanEvasion</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<BonusesPerTreatyTypeTreaties>
+		</BonusesPerTreatyTypeTreaties>
+		<BonusesPerTreatyType>
+		</BonusesPerTreatyType>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Bounty Hunter</Name>
+		<Description>Bounty Hunters are guns for hire who seek out attack and defense contracts offered by other empires.\n\nWhen not carrying out contracts, they can board and capture ships from enemy empires. They also raid colonies and bases for loot.\n\nThey may also undertake Privateering agreements for other empires.\n\nYour starting ship is a small military vessel, an [HL]Escort[/HL] equipped with basic tech.</Description>
+	</Government>
+
+	<Government>
+		<GovernmentId>32720</GovernmentId>
+		<!-- Legendary Lone Pirate -->
+		<LeaderTitle>Pirate</LeaderTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float>
+				<!-- Undefined, i.e. Unused -->
+				<float>1</float>
+				<!-- ColonyTax -->
+				<float>1</float>
+				<!-- ResourceTrading -->
+				<float>1</float>
+				<!-- Fuel -->
+				<float>1</float>
+				<!-- Information -->
+				<float>1</float>
+				<!-- Tribute -->
+				<float>1</float>
+				<!-- Raiding -->
+				<float>1</float>
+				<!-- Missions -->
+				<float>1</float>
+				<!-- ColonyCrime -->
+				<float>1</float>
+				<!-- Tourism -->
+				<float>1</float>
+				<!-- ShipBuilding -->
+				<float>1</float>
+				<!-- Discoveries -->
+				<float>1</float>
+				<!-- TradeBonuses -->
+				<float>1</float>
+				<!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float>
+				<!-- Undefined, i.e. Unused -->
+				<float>1</float>
+				<!-- ColonyDevelopment -->
+				<float>1</float>
+				<!-- Research -->
+				<float>0</float>
+				<!-- ShipMaintenance -->
+				<float>1</float>
+				<!-- TroopMaintenance -->
+				<float>1</float>
+				<!-- FacilityMaintenance -->
+				<float>1</float>
+				<!-- Ships -->
+				<float>1</float>
+				<!-- TroopRecruitment -->
+				<float>1</float>
+				<!-- Facilities -->
+				<float>1</float>
+				<!-- ResourceTrading -->
+				<float>1</float>
+				<!-- Fuel -->
+				<float>1</float>
+				<!-- Information -->
+				<float>1</float>
+				<!-- Tribute -->
+				<float>1</float>
+				<!-- Missions -->
+				<float>1</float>
+				<!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<LeaderReplacementTypicalPeriod>1000</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementTypicalManner>Undefined</LeaderReplacementTypicalManner>
+		<LeaderReplacementCharacterPositiveTraitChance>0</LeaderReplacementCharacterPositiveTraitChance>
+		<LeaderReplacementCharacterDismissChance>0</LeaderReplacementCharacterDismissChance>
+		<Stability>1</Stability>
+		<ConcernForOwnReputation>0</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0</ImportanceOfOthersReputations>
+		<UsesCabinet>false</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<RequiresColoniesToExist>false</RequiresColoniesToExist>
+		<UseBaseForCapital>false</UseBaseForCapital>
+		<CanRaid>true</CanRaid>
+		<AllowControlMiningShips>true</AllowControlMiningShips>
+		<EmpireNameAdjectives>
+			<string>Bloody</string>
+			<string>Dread</string>
+			<string>Dirty</string>
+			<string>Evil</string>
+			<string>Iron</string>
+			<string>Fierce</string>
+			<string>Cruel</string>
+			<string>Sinister</string>
+			<string>Vicious</string>
+			<string>Lone</string>
+			<string>Savage</string>
+			<string>Fearsome</string>
+			<string>Deadly</string>
+			<string>Venomous</string>
+			<string>Murderous</string>
+			<string>Red</string>
+			<string>Black</string>
+			<string>Dark</string>
+			<string>Grim</string>
+			<string>Haunted</string>
+			<string>Menacing</string>
+			<string>Blood</string>
+			<string>Burning</string>
+			<string>Hidden</string>
+			<string>Fire</string>
+			<string>Lost</string>
+		</EmpireNameAdjectives>
+		<EmpireNameMiddles>
+			<string>Sun</string>
+			<string>Star</string>
+			<string>Rock</string>
+			<string>Moon</string>
+			<string>Storm</string>
+			<string>Fang</string>
+			<string>Claw</string>
+			<string>Dagger</string>
+			<string>Lightning</string>
+			<string>Flame</string>
+		</EmpireNameMiddles>
+		<EmpireNameNouns>
+			<string>Pirates</string>
+			<string>Marauders</string>
+			<string>Bandits</string>
+			<string>Buccaneers</string>
+			<string>Outlaws</string>
+			<string>Corsairs</string>
+			<string>Gangsters</string>
+			<string>Prowlers</string>
+			<string>Intruders</string>
+			<string>Skyjackers</string>
+			<string>Gang</string>
+			<string>Council</string>
+			<string>Network</string>
+			<string>League</string>
+			<string>Force</string>
+			<string>Clan</string>
+			<string>Authority</string>
+			<string>Confederacy</string>
+			<string>Confederation</string>
+			<string>Fleet</string>
+			<string>Consortium</string>
+			<string>Syndicate</string>
+			<string>Cartel</string>
+		</EmpireNameNouns>
+		<Biases>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ScanEvasion</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>RaidIncome</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+			</Bonus>
+		</Bonuses>
+		<StartingGameEventNames>
+		</StartingGameEventNames>
+		<MigrationFactor>0</MigrationFactor>
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+		<SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+		<HighColonyTroopPresenceHappinessBoost>0</HighColonyTroopPresenceHappinessBoost>
+		<UseFlagShip>false</UseFlagShip>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>false</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<BonusesPerTreatyTypeTreaties>
+		</BonusesPerTreatyTypeTreaties>
+		<BonusesPerTreatyType>
+		</BonusesPerTreatyType>
+		<TradeIncomePerYearPerRestrictedTradeTreaty>0</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
+		<SpecialMode>Undefined</SpecialMode>
+		<Name>Legendary Lone Pirate</Name>
+		<Description>Legendary Lone Pirates are the pinnacle of lone pirate governance.\n\nIt combines all of the advantages of the different styles of lone piracy (Pirates, Smugglers, Raiders, Mercenaries) into a single form of government.\n\nLegendary Lone Pirate is automatically enabled by defeating the Bounty Hunter sent after you by other pirates.</Description>
+	</Government>
+	
+</ArrayOfGovernment>

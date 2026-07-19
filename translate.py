@@ -126,6 +126,28 @@ def _get_translation_cache() -> dict:
     return _translation_cache
 
 
+def _read_text_file_lines(file_path: str, encodings=None) -> list[str]:
+    """Читает текстовый файл, пробуя несколько кодировок до успешного декодирования."""
+    if encodings is None:
+        encodings = ['utf-8', 'utf-8-sig', 'cp1252', 'cp1251', 'iso-8859-1']
+
+    last_error = None
+    for encoding in encodings:
+        try:
+            with open(file_path, 'r', encoding=encoding) as f:
+                lines = f.readlines()
+            if encoding != 'utf-8':
+                print(f"[INFO] Файл {file_path} прочитан в кодировке {encoding}")
+            return lines
+        except UnicodeDecodeError as exc:
+            last_error = exc
+            continue
+    with open(file_path, 'r', encoding='utf-8', errors='replace') as f:
+        lines = f.readlines()
+    print(f"[WARNING] Файл {file_path} прочитан с заменой недопустимых символов: {last_error}")
+    return lines
+
+
 def _get_file_translation_cache() -> dict:
     """Возвращает локальный приоритетный кэш для текущего файла."""
     global _file_translation_cache
@@ -314,6 +336,144 @@ def iter_with_path(elem, path=''):
         yield from iter_with_path(child, current_path)
 
 
+def iter_translatable_elements(root, skip_technical=False):
+    """
+    Итерирует все переводимые элементы XML в том же порядке,
+    что и в translate_xml/check_translated_file/collect_words_and_tasks.
+    Возвращает (elem, tag, tag_desc) кортежи.
+    skip_technical=True пропускает технические теги (Type, RaceId и т.д.)
+    """
+    technical_tags = {'Type', 'ImageFilename', 'AppliesTo', 'ArtifactId', 'DiscoveryLevel',
+                      'BonusesOnlyWhenAtColony', 'BonusesOnlyWhenAtCapital', 'PsychicResistance',
+                      'RaceId', 'Amount'}
+
+    for elem in root.iter():
+        elem_tag = elem.tag
+        if elem_tag == 'Artifact':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    if skip_technical and child.tag in technical_tags:
+                        continue
+                    yield (child, tag, f"{elem_tag}/{tag}")
+        elif elem_tag == 'GameEvent':
+            for action in elem.findall('.//TriggerActions/GameEventAction'):
+                for tag in ['MessageTitle', 'Description', 'ChoiceButtonText']:
+                    for child in action.iter(tag):
+                        if skip_technical and child.tag in technical_tags:
+                            continue
+                        yield (child, tag, f"{elem_tag}/TriggerActions/GameEventAction/{tag}")
+            for action in elem.findall('.//PlacementActions/GameEventAction'):
+                if action.find('Type').text in ['BuildFacility', 'GeneratePlanetarySystem', 'GenerateIndependentColony', 'GenerateAbandonedShipBase']:
+                    for child in action.iter('GeneratedItemName'):
+                        yield (child, 'GeneratedItemName', f"{elem_tag}/PlacementActions/GameEventAction/GeneratedItemName")
+                for tag in ['MessageTitle', 'Description']:
+                    for child in action.iter(tag):
+                        if skip_technical and child.tag in technical_tags:
+                            continue
+                        yield (child, tag, f"{elem_tag}/PlacementActions/GameEventAction/{tag}")
+            for tag in ['Title', 'Description']:
+                for child in elem.iter(tag):
+                    if skip_technical and child.tag in technical_tags:
+                        continue
+                    yield (child, tag, f"{elem_tag}/{tag}")
+        elif elem_tag == 'PlanetaryFacilityDefinition':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    if skip_technical and child.tag in technical_tags:
+                        continue
+                    yield (child, tag, f"{elem_tag}/{tag}")
+        elif elem_tag == 'Race':
+            for tag in ['DescriptionBonuses', 'DescriptionObjective', 'Description']:
+                for child in elem.iter(tag):
+                    if skip_technical and child.tag in technical_tags:
+                        continue
+                    yield (child, tag, f"{elem_tag}/{tag}")
+            for string_elem in elem.findall('.//FeatureExplanations/string'):
+                yield (string_elem, 'string', f"{elem_tag}/FeatureExplanations/string")
+            for string_elem in elem.findall('.//DesignNames/string'):
+                yield (string_elem, 'string', f"{elem_tag}/DesignNames/string")
+            for string_elem in elem.findall('.//CharacterFirstNames/string'):
+                yield (string_elem, 'string', f"{elem_tag}/CharacterFirstNames/string")
+            for string_elem in elem.findall('.//CharacterLastNames/string'):
+                yield (string_elem, 'string', f"{elem_tag}/CharacterLastNames/string")
+        elif elem_tag == 'ResearchProjectDefinition':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    if skip_technical and child.tag in technical_tags:
+                        continue
+                    yield (child, tag, f"{elem_tag}/{tag}")
+        elif elem_tag == 'ShipHull':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    if skip_technical and child.tag in technical_tags:
+                        continue
+                    yield (child, tag, f"{elem_tag}/{tag}")
+        elif elem_tag == 'TroopDefinition':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    if skip_technical and child.tag in technical_tags:
+                        continue
+                    yield (child, tag, f"{elem_tag}/{tag}")
+        elif elem_tag == 'ArmyTemplate':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    if skip_technical and child.tag in technical_tags:
+                        continue
+                    yield (child, tag, f"{elem_tag}/{tag}")
+        elif elem_tag == 'ColonyEventDefinition':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    if skip_technical and child.tag in technical_tags:
+                        continue
+                    yield (child, tag, f"{elem_tag}/{tag}")
+        elif elem_tag == 'ComponentDefinition':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    if skip_technical and child.tag in technical_tags:
+                        continue
+                    yield (child, tag, f"{elem_tag}/{tag}")
+        elif elem_tag == 'FleetTemplate':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    if skip_technical and child.tag in technical_tags:
+                        continue
+                    yield (child, tag, f"{elem_tag}/{tag}")
+        elif elem_tag == 'Government':
+            for tag in ['LeaderTitle', 'Name', 'Description', 'string', 'Title']:
+                for child in elem.iter(tag):
+                    if skip_technical and child.tag in technical_tags:
+                        continue
+                    yield (child, tag, f"{elem_tag}/{tag}")
+        elif elem_tag == 'OrbType':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    if skip_technical and child.tag in technical_tags:
+                        continue
+                    yield (child, tag, f"{elem_tag}/{tag}")
+            for string_elem in elem.findall('.//CommonBonuses/BonusRange/Descriptions/string'):
+                yield (string_elem, 'string', f"{elem_tag}/CommonBonuses/BonusRange/Descriptions/string")
+            for string_elem in elem.findall('.//RuinLocationDescriptions/string'):
+                yield (string_elem, 'string', f"{elem_tag}/RuinLocationDescriptions/string")
+        elif elem_tag == 'Resource':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    if skip_technical and child.tag in technical_tags:
+                        continue
+                    yield (child, tag, f"{elem_tag}/{tag}")
+        elif elem_tag == 'SpaceItemDefinition':
+            for tag in ['Name', 'Description']:
+                for child in elem.iter(tag):
+                    if skip_technical and child.tag in technical_tags:
+                        continue
+                    yield (child, tag, f"{elem_tag}/{tag}")
+        elif elem_tag == 'TourItem':
+            for tag in ['StepTitle', 'MarkupText', 'Title']:
+                for child in elem.iter(tag):
+                    if skip_technical and child.tag in technical_tags:
+                        continue
+                    yield (child, tag, f"{elem_tag}/{tag}")
+
+
 def check_translated_file(file_path: str) -> int:
     tree = ET.parse(file_path)
     root = tree.getroot()
@@ -352,108 +512,9 @@ def check_translated_file(file_path: str) -> int:
                 
         return True
 
-    def check_text(elem, path):
-        # Skip technical tags that contain game constants/identifiers
-        technical_tags = {'Type', 'ImageFilename', 'AppliesTo', 'ArtifactId', 'DiscoveryLevel', 
-                         'BonusesOnlyWhenAtColony', 'BonusesOnlyWhenAtCapital', 'PsychicResistance', 
-                         'RaceId', 'Amount'}
-        if elem.tag in technical_tags:
-            return
-            
+    for elem, tag, tag_desc in iter_translatable_elements(root, skip_technical=True):
         if elem.text and elem.text.strip() and not should_ignore_text(elem.text):
-            found.append((path, elem.text.strip()))
-
-    for elem in root.iter():
-        elem_tag = elem.tag
-        if elem_tag == 'Artifact':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    check_text(child, f"{elem_tag}/{tag}")
-        elif elem_tag == 'GameEvent':
-            for action in elem.findall('.//TriggerActions/GameEventAction'):
-                for tag in ['MessageTitle', 'Description', 'ChoiceButtonText']:
-                    for child in action.iter(tag):
-                        check_text(child, f"{elem_tag}/TriggerActions/GameEventAction/{tag}")
-            for action in elem.findall('.//PlacementActions/GameEventAction'):
-                if action.find('Type').text in ['BuildFacility', 'GeneratePlanetarySystem', 'GenerateIndependentColony','GenerateAbandonedShipBase']:
-                    for child in action.iter('GeneratedItemName'):
-                        check_text(child, f"{elem_tag}/PlacementActions/GameEventAction/GeneratedItemName")
-                for tag in ['MessageTitle', 'Description']:
-                    for child in action.iter(tag):
-                        check_text(child, f"{elem_tag}/PlacementActions/GameEventAction/{tag}")
-            for tag in ['Title', 'Description']:
-                for child in elem.iter(tag):
-                    check_text(child, f"{elem_tag}/{tag}")
-        elif elem_tag == 'PlanetaryFacilityDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    check_text(child, f"{elem_tag}/{tag}")
-        elif elem_tag == 'Race':
-            for tag in ['DescriptionBonuses', 'DescriptionObjective', 'Description']:
-                for child in elem.iter(tag):
-                    check_text(child, f"{elem_tag}/{tag}")
-            for string_elem in elem.findall('.//FeatureExplanations/string'):
-                check_text(string_elem, f"{elem_tag}/FeatureExplanations/string")
-            for string_elem in elem.findall('.//DesignNames/string'):
-                check_text(string_elem, f"{elem_tag}/DesignNames/string")
-            for string_elem in elem.findall('.//CharacterFirstNames/string'):
-                check_text(string_elem, f"{elem_tag}/CharacterFirstNames/string")
-            for string_elem in elem.findall('.//CharacterLastNames/string'):
-                check_text(string_elem, f"{elem_tag}/CharacterLastNames/string")
-
-        elif elem_tag == 'ResearchProjectDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    check_text(child, f"{elem_tag}/{tag}")
-        elif elem_tag == 'ShipHull':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    check_text(child, f"{elem_tag}/{tag}")
-        elif elem_tag == 'TroopDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    check_text(child, f"{elem_tag}/{tag}")
-        elif elem_tag == 'ArmyTemplate':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    check_text(child, f"{elem_tag}/{tag}")
-        elif elem_tag == 'ColonyEventDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    check_text(child, f"{elem_tag}/{tag}")
-        elif elem_tag == 'ComponentDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    check_text(child, f"{elem_tag}/{tag}")
-        elif elem_tag == 'FleetTemplate':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    check_text(child, f"{elem_tag}/{tag}")
-        elif elem_tag == 'Government':
-            for tag in ['LeaderTitle','Name', 'Description', 'string', 'Title']:
-                for child in elem.iter(tag):
-                    check_text(child, f"{elem_tag}/{tag}")
-        elif elem_tag == 'OrbType':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    check_text(child, f"{elem_tag}/{tag}")
-            for string_elem in elem.findall('.//CommonBonuses/BonusRange/Descriptions/string'):
-                check_text(string_elem, f"{elem_tag}/CommonBonuses/BonusRange/Descriptions/string")
-            for string_elem in elem.findall('.//RuinLocationDescriptions/string'):
-                check_text(string_elem, f"{elem_tag}/RuinLocationDescriptions/string")
-
-        elif elem_tag == 'Resource':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    check_text(child, f"{elem_tag}/{tag}")
-        elif elem_tag == 'SpaceItemDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    check_text(child, f"{elem_tag}/{tag}")
-        elif elem_tag == 'TourItem':
-            for tag in ['StepTitle', 'MarkupText', 'Title']:
-                for child in elem.iter(tag):
-                    check_text(child, f"{elem_tag}/{tag}")
+            found.append((tag_desc, elem.text.strip()))
 
     if not found:
         print(f"Проверка пройдена: английских слов в {file_path} не найдено.")
@@ -477,8 +538,7 @@ def check_translated_txt_file(file_path: str) -> int:
     found = []
 
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            lines = f.readlines()
+        lines = _read_text_file_lines(file_path)
         
         for i, line in enumerate(lines, 1):
             line = line.strip()
@@ -527,8 +587,7 @@ def translate_txt_file(input_file: str, output_file: str, words_mode=False, tran
             print(f"Ошибка загрузки прогресса: {e}. Начинаю заново.")
 
     try:
-        with open(input_file, 'r', encoding='utf-8') as f:
-            lines = f.readlines()
+        lines = _read_text_file_lines(input_file)
     except Exception as e:
         print(f"Ошибка чтения файла {input_file}: {e}")
         return
@@ -763,148 +822,10 @@ def extract_translatable_texts(root):
     что и в translate_xml. Возвращает список кортежей (text, tag_description).
     """
     texts = []
-    
-    for elem in root.iter():
-        elem_tag = elem.tag
-        if elem_tag == 'Artifact':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    text = child.text.strip() if child.text else ''
-                    if text:
-                        texts.append((text, f"{elem_tag}/{tag}"))
-        elif elem_tag == 'GameEvent':
-            for action in elem.findall('.//TriggerActions/GameEventAction'):
-                for tag in ['MessageTitle', 'Description', 'ChoiceButtonText']:
-                    for child in action.iter(tag):
-                        text = child.text.strip() if child.text else ''
-                        if text:
-                            texts.append((text, f"{elem_tag}/TriggerActions/GameEventAction/{tag}"))
-            for action in elem.findall('.//PlacementActions/GameEventAction'):
-                if action.find('Type').text in ['BuildFacility', 'GeneratePlanetarySystem', 'GenerateIndependentColony','GenerateAbandonedShipBase']:
-                    for child in action.iter('GeneratedItemName'):
-                        text = child.text.strip() if child.text else ''
-                        if text:
-                            texts.append((text, f"{elem_tag}/PlacementActions/GameEventAction/GeneratedItemName"))
-                for tag in ['MessageTitle', 'Description']:
-                    for child in action.iter(tag):
-                        text = child.text.strip() if child.text else ''
-                        if text:
-                            texts.append((text, f"{elem_tag}/PlacementActions/GameEventAction/{tag}"))
-            for tag in ['Title', 'Description']:
-                for child in elem.iter(tag):
-                    text = child.text.strip() if child.text else ''
-                    if text:
-                        texts.append((text, f"{elem_tag}/{tag}"))
-        elif elem_tag == 'PlanetaryFacilityDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    text = child.text.strip() if child.text else ''
-                    if text:
-                        texts.append((text, f"{elem_tag}/{tag}"))
-        elif elem_tag == 'Race':
-            for tag in ['DescriptionBonuses', 'DescriptionObjective', 'Description']:
-                for child in elem.iter(tag):
-                    text = child.text.strip() if child.text else ''
-                    if text:
-                        texts.append((text, f"{elem_tag}/{tag}"))
-            for string_elem in elem.findall('.//FeatureExplanations/string'):
-                text = string_elem.text.strip() if string_elem.text else ''
-                if text:
-                    texts.append((text, f"{elem_tag}/FeatureExplanations/string"))
-            for string_elem in elem.findall('.//DesignNames/string'):
-                text = string_elem.text.strip() if string_elem.text else ''
-                if text:
-                    texts.append((text, f"{elem_tag}/DesignNames/string"))
-            for string_elem in elem.findall('.//CharacterFirstNames/string'):
-                text = string_elem.text.strip() if string_elem.text else ''
-                if text:
-                    texts.append((text, f"{elem_tag}/CharacterFirstNames/string"))
-            for string_elem in elem.findall('.//CharacterLastNames/string'):
-                text = string_elem.text.strip() if string_elem.text else ''
-                if text:
-                    texts.append((text, f"{elem_tag}/CharacterLastNames/string"))
-        elif elem_tag == 'ResearchProjectDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    text = child.text.strip() if child.text else ''
-                    if text:
-                        texts.append((text, f"{elem_tag}/{tag}"))
-        elif elem_tag == 'ShipHull':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    text = child.text.strip() if child.text else ''
-                    if text:
-                        texts.append((text, f"{elem_tag}/{tag}"))
-        elif elem_tag == 'TroopDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    text = child.text.strip() if child.text else ''
-                    if text:
-                        texts.append((text, f"{elem_tag}/{tag}"))
-        elif elem_tag == 'ArmyTemplate':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    text = child.text.strip() if child.text else ''
-                    if text:
-                        texts.append((text, f"{elem_tag}/{tag}"))
-        elif elem_tag == 'ColonyEventDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    text = child.text.strip() if child.text else ''
-                    if text:
-                        texts.append((text, f"{elem_tag}/{tag}"))
-        elif elem_tag == 'ComponentDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    text = child.text.strip() if child.text else ''
-                    if text:
-                        texts.append((text, f"{elem_tag}/{tag}"))
-        elif elem_tag == 'FleetTemplate':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    text = child.text.strip() if child.text else ''
-                    if text:
-                        texts.append((text, f"{elem_tag}/{tag}"))
-        elif elem_tag == 'Government':
-            for tag in ['LeaderTitle', 'Name', 'Description', 'string', 'Title']:
-                for child in elem.iter(tag):
-                    text = child.text.strip() if child.text else ''
-                    if text:
-                        texts.append((text, f"{elem_tag}/{tag}"))
-        elif elem_tag == 'OrbType':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    text = child.text.strip() if child.text else ''
-                    if text:
-                        texts.append((text, f"{elem_tag}/{tag}"))
-
-            for string_elem in elem.findall('.//CommonBonuses/BonusRange/Descriptions/string'):
-                text = string_elem.text.strip() if string_elem.text else ''
-                if text:
-                    texts.append((text, f"{elem_tag}/CommonBonuses/BonusRange/Descriptions/string"))
-            for string_elem in elem.findall('.//RuinLocationDescriptions/string'):
-                text = string_elem.text.strip() if string_elem.text else ''
-                if text:
-                    texts.append((text, f"{elem_tag}/RuinLocationDescriptions/string"))
-        elif elem_tag == 'Resource':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    text = child.text.strip() if child.text else ''
-                    if text:
-                        texts.append((text, f"{elem_tag}/{tag}"))
-        elif elem_tag == 'SpaceItemDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    text = child.text.strip() if child.text else ''
-                    if text:
-                        texts.append((text, f"{elem_tag}/{tag}"))
-        elif elem_tag == 'TourItem':
-            for tag in ['StepTitle', 'MarkupText', 'Title']:
-                for child in elem.iter(tag):
-                    text = child.text.strip() if child.text else ''
-                    if text:
-                        texts.append((text, f"{elem_tag}/{tag}"))
-    
+    for elem, tag, tag_desc in iter_translatable_elements(root):
+        text = elem.text.strip() if elem.text else ''
+        if text:
+            texts.append((text, tag_desc))
     return texts
 
 
@@ -1027,15 +948,13 @@ def build_translation_cache_from_paired_files(english_dir_path: str, russian_dir
         try:
             # Для *.txt строим кэш по строкам, без XML-парсинга.
             try:
-                with open(eng_file, 'r', encoding='utf-8') as f:
-                    eng_lines = f.readlines()
+                eng_lines = _read_text_file_lines(eng_file)
             except Exception as e:
                 print(f"Ошибка чтения файла {eng_file}: {e}")
                 continue
 
             try:
-                with open(rus_file, 'r', encoding='utf-8') as f:
-                    rus_lines = f.readlines()
+                rus_lines = _read_text_file_lines(rus_file)
             except Exception as e:
                 print(f"Ошибка чтения файла {rus_file}: {e}")
                 continue
@@ -1181,229 +1100,14 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
     words_set = set()
     tasks = []
 
-    def add_task(elem, tag, original):
-        tasks.append((elem, tag, original))
-
-    for elem in root.iter():
-        elem_tag = elem.tag
-        if elem_tag == 'Artifact':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    original = child.text.strip() if child.text else ''
-                    if original:
-                        if words_mode:
-                            words_set.add(original)
-                        else:
-                            add_task(child, tag, original)
-        elif elem_tag == 'GameEvent':
-            for action in elem.findall('.//TriggerActions/GameEventAction'):
-                for tag in ['MessageTitle', 'Description', 'ChoiceButtonText']:
-                    for child in action.iter(tag):
-                        original = child.text.strip() if child.text else ''
-                        if original:
-                            if words_mode:
-                                words_set.add(original)
-                            else:
-                                add_task(child, tag, original)
-            for action in elem.findall('.//PlacementActions/GameEventAction'):
-                if action.find('Type').text in ['BuildFacility', 'GeneratePlanetarySystem', 'GenerateIndependentColony','GenerateAbandonedShipBase']:
-                    for child in action.iter('GeneratedItemName'):
-                        original = child.text.strip() if child.text else ''
-                        if original:
-                            if words_mode:
-                                words_set.add(original)
-                            else:
-                                add_task(child, tag, original)
-                for tag in ['MessageTitle', 'Description']:
-                    for child in action.iter(tag):
-                        original = child.text.strip() if child.text else ''
-                        if original:
-                            if words_mode:
-                                words_set.add(original)
-                            else:
-                                add_task(child, tag, original)
-            for tag in ['Title', 'Description']:
-                for child in elem.iter(tag):
-                    original = child.text.strip() if child.text else ''
-                    if original:
-                        if words_mode:
-                            words_set.add(original)
-                        else:
-                            add_task(child, tag, original)
-        elif elem_tag == 'PlanetaryFacilityDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    original = child.text.strip() if child.text else ''
-                    if original:
-                        if words_mode:
-                            words_set.add(original)
-                        else:
-                            add_task(child, tag, original)
-        elif elem_tag == 'Race':
-            for tag in ['DescriptionBonuses', 'DescriptionObjective', 'Description']:
-                for child in elem.iter(tag):
-                    original = child.text.strip() if child.text else ''
-                    if original:
-                        if words_mode:
-                            words_set.add(original)
-                        else:
-                            add_task(child, tag, original)
-            for string_elem in elem.findall('.//FeatureExplanations/string'):
-                original = string_elem.text.strip() if string_elem.text else ''
-                if original:
-                    if words_mode:
-                        words_set.add(original)
-                    else:
-                        add_task(string_elem, 'string (FeatureExplanations)', original)
-            for string_elem in elem.findall('.//DesignNames/string'):
-                original = string_elem.text.strip() if string_elem.text else ''
-                if original:
-                    if words_mode:
-                        words_set.add(original)
-                    else:
-                        add_task(string_elem, 'string (DesignNames)', original)
-            for string_elem in elem.findall('.//CharacterFirstNames/string'):
-                original = string_elem.text.strip() if string_elem.text else ''
-                if original:
-                    if words_mode:
-                        words_set.add(original)
-                    else:
-                        add_task(string_elem, 'string (CharacterFirstNames)', original)
-            for string_elem in elem.findall('.//CharacterLastNames/string'):
-                original = string_elem.text.strip() if string_elem.text else ''
-                if original:
-                    if words_mode:
-                        words_set.add(original)
-                    else:
-                        add_task(string_elem, 'string (CharacterLastNames)', original)
-        elif elem_tag == 'ResearchProjectDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    original = child.text.strip() if child.text else ''
-                    if original:
-                        if words_mode:
-                            words_set.add(original)
-                        else:
-                            add_task(child, tag, original)
-        elif elem_tag == 'ShipHull':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    original = child.text.strip() if child.text else ''
-                    if original:
-                        if words_mode:
-                            words_set.add(original)
-                        else:
-                            add_task(child, tag, original)
-        elif elem_tag == 'TroopDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    original = child.text.strip() if child.text else ''
-                    if original:
-                        if words_mode:
-                            words_set.add(original)
-                        else:
-                            add_task(child, tag, original)
-        elif elem_tag == 'ArmyTemplate':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    original = child.text.strip() if child.text else ''
-                    if original:
-                        if words_mode:
-                            words_set.add(original)
-                        else:
-                            add_task(child, tag, original)
-        elif elem_tag == 'ColonyEventDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    original = child.text.strip() if child.text else ''
-                    if original:
-                        if words_mode:
-                            words_set.add(original)
-                        else:
-                            add_task(child, tag, original)
-        elif elem_tag == 'ComponentDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    original = child.text.strip() if child.text else ''
-                    if original:
-                        if words_mode:
-                            words_set.add(original)
-                        else:
-                            add_task(child, tag, original)
-        elif elem_tag == 'FleetTemplate':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    original = child.text.strip() if child.text else ''
-                    if original:
-                        if words_mode:
-                            words_set.add(original)
-                        else:
-                            add_task(child, tag, original)
-        elif elem_tag == 'Government':
-            for tag in ['LeaderTitle', 'Name', 'Description', 'string', 'Title']:
-                for child in elem.iter(tag):
-                    original = child.text.strip() if child.text else ''
-                    if original:
-                        if words_mode:
-                            words_set.add(original)
-                        else:
-                            add_task(child, tag, original)
-        elif elem_tag == 'OrbType':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    original = child.text.strip() if child.text else ''
-                    if original:
-                        if words_mode:
-                            words_set.add(original)
-                        else:
-                            add_task(child, tag, original)
-                            
-            for string_elem in elem.findall('.//CommonBonuses/BonusRange/Descriptions/string'):
-                print(f"string_elem is {string_elem}")
-                original = string_elem.text.strip() if string_elem.text else ''
-                if original:
-                    if words_mode:
-                        words_set.add(original)
-                    else:
-                        add_task(string_elem, 'string (CommonBonuses/BonusRange/Descriptions)', original)
-
-            for string_elem in elem.findall('.//RuinLocationDescriptions/string'):
-                print(f"string_elem is {string_elem}")
-                original = string_elem.text.strip() if string_elem.text else ''
-                if original:
-                    if words_mode:
-                        words_set.add(original)
-                    else:
-                        add_task(string_elem, 'string (RuinLocationDescriptions/Descriptions)', original)
-
-        elif elem_tag == 'Resource':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    original = child.text.strip() if child.text else ''
-                    if original:
-                        if words_mode:
-                            words_set.add(original)
-                        else:
-                            add_task(child, tag, original)
-        elif elem_tag == 'SpaceItemDefinition':
-            for tag in ['Name', 'Description']:
-                for child in elem.iter(tag):
-                    original = child.text.strip() if child.text else ''
-                    if original:
-                        if words_mode:
-                            words_set.add(original)
-                        else:
-                            add_task(child, tag, original)
-        elif elem_tag == 'TourItem':
-            for tag in ['StepTitle', 'MarkupText', 'Title']:
-                for child in elem.iter(tag):
-                    original = child.text.strip() if child.text else ''
-                    if original:
-                        if words_mode:
-                            words_set.add(original)
-                        else:
-                            add_task(child, tag, original)
-        # For unknown elements, do nothing
+    for elem, tag, tag_desc in iter_translatable_elements(root):
+        original = elem.text.strip() if elem.text else ''
+        if not original:
+            continue
+        if words_mode:
+            words_set.add(original)
+        else:
+            tasks.append((elem, tag_desc, original))
 
     if words_mode:
         words_file = output_file.replace('.xml', '_words.txt')

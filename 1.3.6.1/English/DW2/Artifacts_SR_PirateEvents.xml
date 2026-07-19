@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<ArrayOfArtifact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Artifact>
+		<ArtifactId>86</ArtifactId> <!-- The Hive Navigator -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Countermeasures</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>The Hive Navigator</Name>
+		<Description>Though originally designed to lure Hive ships to their doom, this computer has been repurposed to help ships avoid an enemy's targeting technology. Though this device appears ancient and damaged, it provides potent protection, even in today's dangerous galaxy.</Description>
+		<ImageFilename>Environment/Events/the hive navigator</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>87</ArtifactId> <!-- Grudgehold Recordings Box Set -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Grudgehold Recordings Box Set</Name>
+		<Description>It might be a challenge to find a modern video playback device compatible with these recordings, but it would be well worth the effort. The evidence of pirates forcing politicians, oligarchs, and noblemen to fight to the death represents a powerful reminder of the dangers and possibilities of anarchy. Surely visitors would come from the furthest reaches of the galaxy to watch these recordings.</Description>
+		<ImageFilename>Environment/Events/the grudgehold recordings box set</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>88</ArtifactId> <!-- Remnant of the Last Remnant -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Remnant of the Last Remnant</Name>
+		<Description>In the years following the Shakturi War, the Last Remnant continued to fight against the last vestiges of the Shaktur Axis. Ragtag bands of Freedom Alliance survivors would often resort to unspeakable means to harass any enemy. This device allowed them to more easily defeat dangerous (or lucrative) targets.</Description>
+		<ImageFilename>Environment/Events/remnant of the last remnant</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>89</ArtifactId> <!-- The Ambushers' Secret -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ScanEvasion</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>The Ambushers' Secret</Name>
+		<Description>This data crystal once belonged to the Ambushers, a pirate clan dedicated to lightning attacks from hidden bases. It remains useful for avoiding detection and will be prized by any ship’s captain who understands the power of stealth.</Description>
+		<ImageFilename>Environment/Events/the ambushers secret</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>90</ArtifactId> <!-- The Empty Throne -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>The Empty Throne</Name>
+		<Description></Description>
+		<ImageFilename>Environment/Events/The Empty Throne</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>91</ArtifactId> <!-- The Instructor -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>CharacterQualityTroopGeneral</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityFleetAdmiral</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>The Instructor</Name>
+		<Description></Description>
+		<ImageFilename>Environment/Events/The Instructor</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>92</ArtifactId> <!-- Hive-Pattern Tracker -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Hive-Pattern Tracker</Name>
+		<Description></Description>
+		<ImageFilename>Environment/Events/Hive-Pattern Tracker</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>93</ArtifactId> <!-- Echo of the Builders -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ConstructionSpeedFacility</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Echo of the Builders</Name>
+		<Description></Description>
+		<ImageFilename>Environment/Events/Echo of the Builders</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfArtifact>
+	<Artifact>
+		<ArtifactId>41</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchHighTech</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>15</RaceId>
+		<Name>Строительный дрон Древних Стражей</Name>
+		<Description>Дрон, созданный для помощи в восстановлении колоний, уничтоженных Шактури во время войны. Он ускоряет строительство инфраструктуры и экономических центров, помогая колонии процветать с ускоренным темпом. Дрон активно противодействует всем попыткам проанализировать его технологии. Его создатели приложили огромные усилия, чтобы гарантировать невозможность его репликации.</Description>
+		<ImageFilename>Artifacts/ancient guardian development drone</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>42</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ConstructionSpeedFacility</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>15</RaceId>
+		<Name>План улучшения мира X-1084-W</Name>
+		<Description>Кристалл данных, содержащий информацию, предназначенную для содействия как базовому развитию колоний, так и созданию и поддержанию передовых сооружений. Создан во время войны с Шактури, он, по-видимому, предвосхищает время, когда галактике потребуется восстановление после полного краха цивилизации. Тем не менее текст сосредоточен на практических процедурах и полностью лишён эмоций.</Description>
+		<ImageFilename>Artifacts/world improvement plan x-1084-w</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>43</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchSensors</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>15</RaceId>
+		<Name>Кристалл Откровения</Name>
+		<Description>Какое разумное существо способно постичь предмет, созданный Шактури? В нём нет элементов технологии в том виде, как мы её понимаем. Это лишь переплетение пересекающихся кристаллов, и всё же это устройство позволит нам улучшить показания сенсоров по всей нашей империи. Что ещё могли бы сделать Шактури?</Description>
+		<ImageFilename>Artifacts/Unveiling Crystal</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>44</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.02</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>15</RaceId>
+		<Name>Тайны Строителей</Name>
+		<Description>Машины мыслят способами, непостижимыми для органических существ. Решение Древних Стражей создать хранилища, сохраняющие знания, принималось в течение невообразимо долгого времени. Оно также произошло за мгновение ока. Не пытайтесь понять, как оба этих факта могут быть истинными. Вам следует лишь принять это как данность.\n\nКак только Древние Стражи осознали важность сохранения галактических знаний, они приступили к строительству Хранилищ с невообразимой для органических существ скоростью. Многие их методы применимы исключительно к машинному разуму, однако небольшая часть их мудрости может быть передана биологическим существам для помощи в собственных строительных усилиях.</Description>
+		<ImageFilename>Artifacts/Secrets of the Builders</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>
