@@ -1,8 +1,0 @@
-
-Also, be careful not to raise taxes too high - it's usually a good idea to allow colony taxes to be automatically controlled (default setting in Game Options).
-->
-Также будьте осторожны, не повышайте налоги слишком сильно — обычно рекомендуется позволить налогам колоний контролироваться автоматически (настройка по умолчанию в параметрах игры).
-
-Luxury resources are consumed by colonies. Having access to many luxury resources raises a colony's luxury development level, producing more income. Each luxury resource raises the development level by a specific amount (typically 3-6%, but each resource differs), thus when a colony has consistent access to many luxury resources its luxury development level will slowly rise.
-->
-Ресурсы роскоши потребляются колониями. Наличие доступа к большому количеству ресурсов роскоши повышает уровень развития роскоши колонии, что приносит дополнительный доход. Каждый ресурс роскоши увеличивает уровень развития на определенную величину (обычно на 3–6%, хотя для каждого ресурса значение различается), поэтому, если колония имеет стабильный доступ ко многим ресурсам роскоши, уровень развития роскоши будет постепенно расти.
