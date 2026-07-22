@@ -1,0 +1,69 @@
+!Package
+SerializedVersion: {Assets: 3.1.0.0}
+Meta:
+    Name: RussianFont4_1.Windows
+    Version: 1.0.0
+    Authors: []
+    Owners: []
+    Dependencies: null
+AssetFolders:
+    -   Path: !dir Assets
+ResourceFolders:
+    - !dir Resources
+OutputGroupDirectories: {}
+ExplicitFolders: []
+Bundles:
+    -   Name: RussianFont
+        Selectors:
+            - !PathSelector
+                Paths:
+                    - Fonts/
+        Dependencies: []
+TemplateFolders: []
+RootAssets:
+    - 0272862a-3822-40dc-b26f-b8f7c1613719:Fonts/Font14Bold
+    - 038d84d7-798b-4ac2-b02f-da62c42ce5c3:Fonts/Font38Bold
+    - 045a1344-8935-4dc9-ba0e-2e1cb0d9b1b9:Fonts/Font18
+    - 06fb8b1b-ff12-4c52-9cb8-b60c4d077149:Fonts/Font22
+    - 0b8d0d44-1448-4b37-9576-81b9ce445413:Fonts/Font8Bold
+    - 0d359e30-ec45-44d6-9cab-738ef8ec6a6e:Fonts/Font42Bold
+    - 17085d6b-5e27-4a36-9fd3-16fe6bb39abb:Fonts/Font40Bold
+    - 1a5b4418-613b-4c0a-adad-6e3b045e2092:Fonts/Font32Bold
+    - 22b66c7d-ab84-46d0-b5ac-622554f8b8e9:Fonts/Font12
+    - 347e2e3b-c6ec-425f-8959-e677b6b1f654:Fonts/Font42
+    - 4225915d-9c5f-486b-aecb-4a01862f6688:Fonts/Font28
+    - 425c0be2-1d60-4916-bbe0-f965f4af13f8:Fonts/Font22Bold
+    - 44be1601-2cdd-4bd1-be20-7bcc5f63b631:Fonts/Font20Bold
+    - 47659ff9-b13a-4175-9fc7-d26e0de0cfde:Fonts/Font26Bold
+    - 4e22dca7-820e-4ec1-924b-e066a63ead98:Fonts/Font30Bold
+    - 4f933537-562e-4d45-8dab-7dee3baa9ad6:Fonts/Font46Bold
+    - 53f6c46c-c414-4610-bf21-b2eae7a1b1a2:Fonts/Font28Bold
+    - 5a93e868-f4bb-4b96-ab21-8e748941aebd:Fonts/Font26
+    - 61ad8843-2006-43ba-851c-55ee4bec3717:Fonts/Font44
+    - 61db60a9-0cb8-4823-b6da-174003f37241:Fonts/Font14
+    - 6549a50b-f9a1-4dff-b1bf-008f1f81cf9e:Fonts/Font38
+    - 6a833c37-fd7f-4eb9-84f1-49ebcbe59f9d:Fonts/Font30
+    - 75d6ce95-f21f-4808-90e3-3bc6da2f003e:Fonts/Font6Bold
+    - 7b59a16d-37ff-4030-a042-1201129cdcba:Fonts/Font12Bold
+    - 89461970-c7dd-41cc-ab9e-bc0e61005ada:Fonts/Font20
+    - 89e349ba-9942-499c-8c59-8f82a4b2cae4:Fonts/Font40
+    - 8ab8abdb-abde-4d6a-9823-fad69423db03:Fonts/Font36Bold
+    - 8e618d45-975d-455e-b3ef-77f76010b7c4:Fonts/Font16
+    - 92d0ed5b-a6fb-49be-b8d0-4aa000cc1c6d:Fonts/Font4Bold
+    - a3e1e408-2241-459e-b3be-4b9f6f51b4c9:Fonts/Font24
+    - a7bd60ad-d2a0-4cde-bdf4-c5d1b07c1212:Fonts/Font24Bold
+    - b0c986db-599c-448d-9ea2-1f2465750052:Fonts/Font16Bold
+    - c6a4e236-adcd-4cae-a7b4-7494aa18ddf2:Fonts/Font48Bold
+    - c8f9d06f-69d7-4ed8-b487-69a00ef982b9:Fonts/Font8
+    - cc14f4e9-e24c-47ba-b8aa-5b7a7131a0af:Fonts/Font44Bold
+    - cf5552bd-1c30-402f-9b06-28145cef9b5e:Fonts/Font18Bold
+    - cfd38e63-9bfe-4d11-95af-3efef43f63ab:Fonts/Font4
+    - d64a5f5c-79c6-403b-8e54-eba3f20ae5ad:Fonts/Font10Bold
+    - d8341968-224b-449e-a5e4-f706a2b35aa1:Fonts/Font10
+    - dce2f24a-1115-41d3-b072-292a44b44263:Fonts/Font46
+    - df85a5db-d2fe-45a9-910f-24bd50f1b845:Fonts/Font48
+    - e8b8fa9c-a188-426d-b1d5-05949c121d69:Fonts/Font34Bold
+    - ea08d8ad-c604-432f-b18d-31588e1cfd06:Fonts/Font36
+    - f8869d1c-4c18-44d3-b878-a8133877aff7:Fonts/Font6
+    - fa77512b-588a-4fe1-9d02-8566974c55ec:Fonts/Font32
+    - fd1d8ba0-4131-45da-b171-b1023c09156c:Fonts/Font34

@@ -1,0 +1,11 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+VisualStudioVersion = 16.0.0.0
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RussianFont4_1.Windows", "RussianFont4_1.Windows\RussianFont4_1.Windows.csproj", "{663B1D59-D739-4CE1-8022-E1D9DF66B4D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RussianFont4_1", "RussianFont4_1\RussianFont4_1.csproj", "{F16E614B-6C3C-4262-BACC-075F89C6DAD4}"
+EndProject
+Global
+EndGlobal

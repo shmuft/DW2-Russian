@@ -1,0 +1,10 @@
+!SpriteFont
+Id: a7bd60ad-d2a0-4cde-bdf4-c5d1b07c1212
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+FontSource: !FileFontProvider
+    Source: !file JetBrainsMonoNL-Bold.ttf
+FontType: !OfflineRasterizedSpriteFontType
+    Size: 24.0
+    CharacterSet: !file ai_chars.txt
+    CharacterRegions: {}
