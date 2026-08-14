@@ -351,16 +351,27 @@ def save_translation_cache(cache: dict, rel_path: Path) -> str | None:
         return None
 
 
+def _read_txt_lines(file: Path) -> list[str] | None:
+    """Read a text file, trying utf-8 first, then falling back to cp1251."""
+    for enc in ('utf-8', 'cp1251'):
+        try:
+            with open(file, 'r', encoding=enc) as f:
+                return f.readlines()
+        except (UnicodeDecodeError, LookupError):
+            continue
+    return None
+
+
 def collect_translation_pairs(english_file: Path, russian_file: Path):
     """Возвращает пары (английский текст, русский текст) для одного файла."""
     if english_file.suffix.lower() == '.txt':
-        try:
-            with open(english_file, 'r', encoding='utf-8') as f:
-                eng_lines = f.readlines()
-            with open(russian_file, 'r', encoding='utf-8') as f:
-                rus_lines = f.readlines()
-        except Exception as exc:
-            print(f"[WARNING] Не удалось прочитать txt-файл {english_file}: {exc}")
+        eng_lines = _read_txt_lines(english_file)
+        if eng_lines is None:
+            print(f"[WARNING] Не удалось прочитать txt-файл {english_file}: не удалось определить кодировку")
+            return []
+        rus_lines = _read_txt_lines(russian_file)
+        if rus_lines is None:
+            print(f"[WARNING] Не удалось прочитать txt-файл {russian_file}: не удалось определить кодировку")
             return []
 
         line_count = min(len(eng_lines), len(rus_lines))
