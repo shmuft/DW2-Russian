@@ -8,3 +8,4 @@ __pycache__
 *.pyc
 *_log.txt
 *_new_translated_lines.txt
+.env

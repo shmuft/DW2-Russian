@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfArtifact>
+	<Artifact>
+		<ArtifactId>38</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>10</RaceId>
+		<Name>Хитрый управляющий</Name>
+		<Description>Древняя картина (масло на холсте, сделанном из кожи казнённого дезертира), изображающая управляющего примитивного поместья Дхают. Управляющий окружён инструментами своего ремесла, и те, кто знаком с иконографией Дхают, способны увидеть, как различные инструменты образуют своего рода неявный аргумент в пользу наилучшей системы управления и эксплуатации имения. Изображённые принципы могут быть расширены и применены на планетарном уровне.</Description>
+		<ImageFilename>Artifacts/the clever steward</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>39</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>10</RaceId>
+		<Name>Большой Обманщик</Name>
+		<Description>Мраморная статуя, изображающая дипломата ранней эпохи космических путешествий древних Дхают. Дипломат стоит в жесте, символизирующем открытость и щедрость в культуре Дхают. Выражение лица приветливое, хотя многие не-Дхают находят его пугающим или даже ужасающим. Одна из рук дипломата скрывает смертоносный клинок. Неизвестно, изображает ли эта статуя реального дипломата или лишь идеал дипломатии.</Description>
+		<ImageFilename>Artifacts/the great deceiver</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>40</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>10</RaceId>
+		<Name>Нити исследований</Name>
+		<Description>Этот древний научный кристалл функционирует, несмотря на то что его обожгли, раздавили, погрузили в морскую воду и, возможно, извергли. Он содержит научный манифест, написанный анонимным учёным Дхают из древней галактики. Этот учёный десятилетиями записывал свои теории (а также тайно похищал и поглощал всех своих коллег, которых она считала угрозой), и хотя её идеи были проигнорированы в её время, революционные принципы имеют потенциал для ускорения научных исследований.</Description>
+		<ImageFilename>Artifacts/the threads of research</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>

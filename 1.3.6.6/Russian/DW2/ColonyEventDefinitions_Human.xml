@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>74</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<EmpireHappiness>-10</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Внутренние споры</Name>
+		<Description>Подписание оборонительного союза вызвало обеспокоенность среди нашего населения, спровоцировав споры «за» и «против». Это снизило уровень счастья во всей нашей империи.</Description>
+		<ImageFilename>Environment/Events/Internal Debates</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>75</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>11</FilterId>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Усиленные меры безопасности</Name>
+		<Description>Контршпионаж улучшился, однако уровень счастья снизился после недавних усилий по укреплению внутренней безопасности в связи с успехом иностранной разведывательной миссии против нас.</Description>
+		<ImageFilename>Environment/Events/Heightened Security</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

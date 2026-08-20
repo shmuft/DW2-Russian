@@ -181,6 +181,49 @@ def _translate_from_file_cache(text: str) -> str:
     cache = _get_file_translation_cache()
     return cache.get(text.strip())
 
+
+def _build_rag_prompt_text(text: str, top_k: int = 5) -> str:
+    """Ищет похожие `en -> ru` переводы в PostgreSQL и возвращает фрагмент промпта с примерами."""
+    password = os.environ.get('DW2_PG_PASSWORD', '').strip()
+    if not password:
+        return ""
+
+    try:
+        from rag.rag import search_similar_translations
+
+        db_config = {
+            'host': os.environ.get('DW2_PG_HOST', 'localhost'),
+            'port': int(os.environ.get('DW2_PG_PORT', 5432)),
+            'dbname': os.environ.get('DW2_PG_DB', 'dw2russian'),
+            'user': os.environ.get('DW2_PG_USER', 'postgres'),
+            'password': password,
+        }
+
+        results = search_similar_translations(
+            query=text,
+            top_k=top_k,
+            db_config=db_config,
+            use_hybrid=True,
+        )
+        if not results:
+            return ""
+
+        lines = ['RELEVANT TRANSLATION EXAMPLES:']
+        for index, item in enumerate(results[:top_k], 1):
+            english = (item.get('english') or '').strip()
+            russian = (item.get('russian') or '').strip()
+            if english and russian:
+                lines.append(f"{index}. EN: \"{english}\" -> RU: \"{russian}\"")
+
+        if len(lines) == 1:
+            return ""
+
+        return '\n'.join(lines)
+    except Exception as exc:
+        print(f"[WARNING] RAG search failed for '{text[:80]}': {exc}")
+        return ""
+
+
 def translate_text(text: str) -> str:
     """
     Перевод текста через LM Studio (локальный LLM) используя lmstudio-python SDK.
@@ -206,12 +249,17 @@ def translate_text(text: str) -> str:
         print(f"[CACHE] {text} -> {cache_translation}")
         return cache_translation
 
+    rag_examples = _build_rag_prompt_text(text, top_k=5)
+    user_message = f"Text: {text}"
+    if rag_examples:
+        user_message = f"{rag_examples}\n\nTranslate this text:\n{user_message}"
+
     # Получаем модель
     model = lms.llm(DEFAULT_MODEL)
     
     # Создаём чат с системным промптом
     chat = lms.Chat(SYSTEM_PROMPT)
-    chat.add_user_message(f"Text: {text}")
+    chat.add_user_message(user_message)
     
     # Получаем ответ
     result = model.respond(
@@ -304,13 +352,18 @@ class RemotePoolTranslator:
         # Проверяем, запущен ли API сервер на этом хосте
         if not lms.Client.is_valid_api_host(api_host):
             raise RuntimeError(f"No API server available at {api_host}")
+
+        rag_examples = _build_rag_prompt_text(text, top_k=5)
+        user_message = f"Text: {text}"
+        if rag_examples:
+            user_message = f"{rag_examples}\n\nTranslate this text:\n{user_message}"
         
         # Получаем модель с указанным хостом
         model = lms.llm(self.model_name, api_host=api_host)
         
         # Создаём чат с системным промптом
         chat = lms.Chat(SYSTEM_PROMPT)
-        chat.add_user_message(f"Text: {text}")
+        chat.add_user_message(user_message)
         
         # Получаем ответ
         result = model.respond(

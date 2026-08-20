@@ -14,6 +14,7 @@ import pickle
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from translate import build_translation_cache_from_paired_files, extract_translatable_texts, _is_technical_string, translate_text
+from rag.rag import generate_missing_embeddings, migrate_db, load_translations_to_db
 
 DEFAULT_TARGET_VERSION = '1.3.5.7'
 DEFAULT_CACHE_VERSIONS = ('1.3.4.3',)
@@ -541,6 +542,37 @@ def main():
     if args.fix_newlines and (args.words or args.check or args.force or args.fix_untranslated):
         parser.error('--fix-newlines нельзя использовать с другими опциями')
 
+    db_password = os.environ.get('DW2_PG_PASSWORD', '').strip()
+    if db_password:
+        print("\n[INFO] Проверка и применение миграций базы данных...")
+        try:
+            db_config = {
+                'host': os.environ.get('DW2_PG_HOST', 'localhost'),
+                'port': int(os.environ.get('DW2_PG_PORT', 5432)),
+                'dbname': os.environ.get('DW2_PG_DB', 'dw2russian'),
+                'user': os.environ.get('DW2_PG_USER', 'postgres'),
+                'password': db_password,
+            }
+            migrate_result = migrate_db(db_config=db_config, show_status=False)
+            if migrate_result.get('status') == 'success':
+                print(f"[INFO] Миграции применены: {migrate_result['migrations_applied']}")
+            elif migrate_result.get('status') == 'error':
+                print(f"[WARNING] Ошибка миграции: {migrate_result.get('error', 'unknown')}")
+                print("[INFO] Продолжаем работу без миграций...")
+                exit(1)
+            else:
+                print("[INFO] База данных актуальна. Миграции не требуются.")
+
+            print("[INFO] Проверка недостающих embedding в RAG...")
+            generate_missing_embeddings(db_config=db_config)
+        except SystemExit:
+            print("[WARNING] Migrate DB вызвал SystemExit; продолжаем без прерывания batch-операции.")
+        except Exception as e:
+            print(f"[WARNING] Не удалось применить миграции: {e}")
+            print("[INFO] Продолжаем работу без миграций...")
+    else:
+        print("[INFO] DW2_PG_PASSWORD не задан. Пропускаю автоматическую миграцию базы данных.")
+
     pool_addresses = []
     if args.pool:
         for chunk in args.pool:
@@ -557,6 +589,56 @@ def main():
         previous_versions = [version for version in args.cache_versions if version != args.target_version]
         print(f"\n[INFO] Генерация отчётов новых фраз для {args.target_version}...")
         return write_new_translated_lines_report(english_dir, russian_dir, previous_versions, Path('.'))
+
+    if not (args.words or args.check or args.fix_untranslated or args.fix_newlines):
+        db_password = os.environ.get('DW2_PG_PASSWORD', '').strip()
+        if db_password:
+            reference_versions = [v for v in args.cache_versions if v != args.target_version]
+            if not reference_versions:
+                reference_versions = [args.target_version]
+
+            print(f"\n[INFO] Загрузка справочных переводов для RAG: {reference_versions}")
+            try:
+                db_config = {
+                    'host': os.environ.get('DW2_PG_HOST', 'localhost'),
+                    'port': int(os.environ.get('DW2_PG_PORT', 5432)),
+                    'dbname': os.environ.get('DW2_PG_DB', 'dw2russian'),
+                    'user': os.environ.get('DW2_PG_USER', 'postgres'),
+                    'password': db_password,
+                }
+
+                for version_name in reference_versions:
+                    version_dir = Path('.') / version_name
+                    english_version_dir = version_dir / 'English'
+                    russian_version_dir = version_dir / 'Russian'
+                    if not english_version_dir.exists() or not russian_version_dir.exists():
+                        print(f"[WARNING] Пропускаю версию {version_name}: отсутствуют директории {english_version_dir} или {russian_version_dir}")
+                        continue
+
+                    version_cache = build_translation_cache_from_paired_files(
+                        str(english_version_dir),
+                        str(russian_version_dir),
+                        exclude_files=collect_files_in_progress(english_version_dir, russian_version_dir),
+                    )
+                    if not version_cache:
+                        print(f"[INFO] Для версии {version_name} нет справочных переводов для RAG")
+                        continue
+
+                    load_translations_to_db(
+                        reference_pairs=version_cache,
+                        source_version=version_name,
+                        db_config=db_config,
+                        generate_embeddings=True,
+                    )
+            except SystemExit:
+                print("[WARNING] Загрузка RAG-данных вызвала SystemExit; продолжаем batch-процесс.")
+                exit(1)
+            except Exception as e:
+                print(f"[WARNING] Не удалось загрузить переводы в RAG: {e}")
+                print("[INFO] Продолжаем batch-процесс без RAG-загрузки.")
+                exit(1)
+        else:
+            print("[INFO] DW2_PG_PASSWORD не задан. Пропускаю загрузку RAG-данных в PostgreSQL.")
 
     # Загружаем кэш переводов из уже переведённых файлов.
     # Если файл уже был посчитан ранее, переиспользуем его вместо повторного построения.
