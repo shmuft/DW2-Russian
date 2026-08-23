@@ -2332,7 +2332,11 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Результаты внезапной атаки</MessageTitle>
-				<Description>Хотя этот мир хорошо защищён, мы провели внезапную атаку и совершили налёты на несколько локаций до того, как соотношение риска и выгоды сделало отход истинной победой. Чужаки обладают древними записями о «избегающих конфликтов» Дхают, и хотя мы не полностью понимаем, что это означает, нам известно, что у них есть легенды, в которых они предстают как боги, перекраивая другие виды под свои нужды. Конечно, абсурдно полагать, что эти дрожащие трусы могли «перекроить» древних Дхают. Дальнейшие доказательства нашего былого величия наверняка следует искать среди звёзд.\n\nМы также украли часть их припасов, что компенсирует расходы на эту операцию.\n\nМы захватили некоторых местных жителей, которых изначально пытали просто ради развлечения, но обнаружили, что они обладают ценной информацией. Они раскрыли расположение колонии Иккуро, которую считали стратегически важной для Шактури. Возможно, именно там мы сможем узнать больше о нашем прошлом.</Description>
+				<Description>Though this world is well-defended, we have launched a surprise attack and raided several locations before the risk/reward ratio made retreat the true victory. The aliens possess ancient accounts of "conflict averse" Dhayut, and though we do not fully understand what this means. We do know that the aliens have legends in which they appear as gods, reshaping other species to suit their own needs. It is, of course, nonsensical to believe that these quaking cowards could have "reshaped" the ancient Dhayut. Further proof of our former greatness is certainly to be found among the stars. 
+
+We have also stolen some of their supplies which will offset the cost of this operation. 
+
+We captured some of the locals, whom we tortured initially simply for entertainment, but we discovered they possessed information of interest. The have revealed the location of a Ikkuro colony world they believed to be of strategic interest to the Shakturi. Perhaps we can discover more of our past there.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>

@@ -40,7 +40,7 @@
 		<PsychicResistance>0.07</PsychicResistance>
 		<RaceId>8</RaceId>
 		<Name>Памятник Неизвестному Солдату Первого Поколения</Name>
-		<Description>Каменный прямоугольник высотой примерно с взрослого Веккаруса. Царственные украшения древних Веккарусов удерживают памятник в вертикальном положении и подчеркивают гравировку на камне. Несмотря на значительный вес, к основанию Памятника Неизвестному Солдату прикреплено древнее устройство снижения гравитации, обеспечивающее его переносимость. Многие, находящиеся рядом с этим артефактом, испытывают чувство уверенности и безопасности.\n\nКроме того, этот артефакт удваивает вероятность событий с призрачными персонажами «Предки среди нас» (если он принадлежит фракции Веккарусов).</Description>
+		<Description>A stone rectangle approximately as tall as an adult Wekkarus. Regal decorations of the ancient Wekkarus keep the monument upright and accent the stone’s engravings. Though quite heavy, an ancient gravity reduction device is affixed to the Cenotaph’s base, promoting portability. Many who are near this artifact report feelings of competence and safety.\n\nIn addition this artifact will double the chance of Ancestors Among Us ghost character events (when owned by a Wekkarus faction).</Description>
 		<ImageFilename>Artifacts/cenotaph of the first generation</ImageFilename>
 	</Artifact>
 	<Artifact>
@@ -63,7 +63,7 @@
 		<PsychicResistance>0.07</PsychicResistance>
 		<RaceId>8</RaceId>
 		<Name>Корабль предков</Name>
-		<Description>Настольная модель древнего транспортного средства Атуук, которую искатели приключений использовали для исследования родного мира Атуук за пределами океанов. Она изготовлена из неизвестного металла тёмно-синего цвета, однако при определённом освещении на нём проступают мраморные узоры светло-голубых надписей, создавая впечатление поверхности океана.\n\nКроме того, этот артефакт удваивает шанс появления корабля-призрака «Предки среди нас» (если он находится во владении фракции Атуук).</Description>
+		<Description>A tabletop model of an ancient Wekkarus vehicle which adventurers used to explore the Wekkarus homeworld beyond the oceans. It is made of an unknown metal, darker blue in color though certain kinds of light reveal it is marbled with hues of lighter blue inscriptions, creating the impression of an ocean surface.\n\nIn addition this artifact will double the chance of Ancestors Among Us ghost ship appearance (when owned by a Wekkarus faction).</Description>
 		<ImageFilename>Artifacts/airship of the ancestors</ImageFilename>
 	</Artifact>
 	<Artifact>
@@ -86,7 +86,7 @@
 		<PsychicResistance>0.07</PsychicResistance>
 		<RaceId>8</RaceId>
 		<Name>Сфера Силы Предков</Name>
-		<Description>Это металлический шар, достаточно малый, чтобы поместиться в руке. Постукивание по нему позволяет предположить, что он внутри пустой, однако сам шар удивительно тяжёл. Все, кто держит его, сообщают о видении ментальных образов наземных боев. Это сильные впечатления, а не полные галлюцинации.\n\nКроме того, этот артефакт удваивает шанс появления призрачных войск события «Предки среди нас» (если он принадлежит фракции Веккарус).</Description>
+		<Description>This is a metal sphere, small enough to hold. Tapping on it suggests it is hollow, but the sphere is nevertheless curiously heavy. All who hold is report seeing mental images of ground combat. These are strong impressions rather than full hallucinations.\n\nIn addition this artifact will double the chance of Ancestors Among Us ghost troop appearance (when owned by a Wekkarus faction).</Description>
 		<ImageFilename>Artifacts/orb of ancestral strength</ImageFilename>
 	</Artifact>
 	<Artifact>

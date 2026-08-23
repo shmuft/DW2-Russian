@@ -18,7 +18,10 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Надзорная олигархия</MessageTitle>
-				<Description>Благодаря выбранной нами форме правления мы обрели понимание в области:\n\n[ULI][RESEARCH]Проникающие сканеры[/RESEARCH][/ULI]\n[ULI][RESEARCH]Улучшенные сенсоры[/RESEARCH][/ULI]</Description>
+				<Description>Due to our chosen government, we have gained insight into:
+
+[ULI][RESEARCH]Penetrating Scanners[/RESEARCH][/ULI]
+[ULI][RESEARCH]Improved Sensors[/RESEARCH][/ULI]</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>

@@ -13,8 +13,23 @@ import os
 import pickle
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from translate import build_translation_cache_from_paired_files, extract_translatable_texts, _is_technical_string, translate_text
-from rag.rag import generate_missing_embeddings, migrate_db, load_translations_to_db
+from translate import (
+    _is_technical_string,
+    _read_text_file_lines,
+    build_translation_cache_from_paired_files,
+    extract_translatable_texts,
+    iter_translatable_elements,
+    translate_text,
+)
+from rag.rag import (
+    count_missing_embeddings,
+    generate_missing_embeddings,
+    load_translations_to_db,
+    migrate_db,
+    register_pending_translations,
+    search_similar_translations,
+    unload_embedding_model,
+)
 
 DEFAULT_TARGET_VERSION = '1.3.5.7'
 DEFAULT_CACHE_VERSIONS = ('1.3.4.3',)
@@ -43,6 +58,85 @@ def resolve_russian_rel_path(english_rel_path: Path, russian_dir: Path) -> Path:
         return translated_rel_path
 
     return english_rel_path
+
+
+def collect_pending_translation_texts(
+    english_files: list[Path],
+    english_dir: Path,
+    cache_translations: dict[str, str],
+) -> set[str]:
+    """Возвращает английские тексты target-версии, отсутствующие в cache-from."""
+    pending = set()
+    cached_english = {
+        text.strip()
+        for text in cache_translations
+        if text and text.strip()
+    }
+
+    for english_file in english_files:
+        try:
+            if english_file.suffix.lower() == '.xml':
+                english_root = ET.parse(english_file).getroot()
+                english_texts = extract_translatable_texts(english_root)
+                for english_text, _ in english_texts:
+                    if (english_text and english_text not in cached_english
+                            and not _is_technical_string(english_text)):
+                        pending.add(english_text)
+            else:
+                english_lines = _read_text_file_lines(english_file)
+                for line in english_lines:
+                    english_line = line.strip()
+                    if not english_line:
+                        continue
+                    if ';' in english_line:
+                        english_text = english_line.split(';', 1)[1].strip()
+                    else:
+                        english_text = english_line
+                    if (english_text and english_text not in cached_english
+                            and not _is_technical_string(english_text)):
+                        pending.add(english_text)
+        except Exception as exc:
+            print(f"[WARNING] Не удалось просканировать {english_file}: {exc}")
+    return pending
+
+
+def has_untranslated_txt_content(english_file: Path, russian_file: Path) -> bool:
+    """Проверяет TXT по ключам до ';', включая неполные и смещённые файлы."""
+    if not russian_file.exists():
+        return True
+
+    try:
+        english_lines = _read_text_file_lines(english_file)
+        russian_lines = _read_text_file_lines(russian_file)
+    except Exception as exc:
+        print(f"[WARNING] Не удалось проверить перевод {russian_file}: {exc}")
+        return True
+
+    russian_by_key = {}
+    for line in russian_lines:
+        content = line.strip()
+        if not content:
+            continue
+        if ';' in content:
+            key, translated = content.split(';', 1)
+            russian_by_key[key.strip()] = translated.strip()
+
+    for line in english_lines:
+        content = line.strip()
+        if not content:
+            continue
+        if ';' in content:
+            key, english_text = content.split(';', 1)
+            english_text = english_text.strip()
+            if not english_text or _is_technical_string(english_text):
+                continue
+            translated = russian_by_key.get(key.strip())
+            if translated is None or translated == english_text:
+                return True
+        elif not _is_technical_string(content) and content not in russian_lines:
+            return True
+
+    return False
 
 
 def translate_file(input_path: Path, output_path: Path, words_mode: bool = False, check_mode: bool = False, pool_addresses=None, pool_timeout: int = 120, cache_file: str = None, file_cache_file: str = None, fix_untranslated: bool = False, fix_newlines: bool = False) -> int:
@@ -530,8 +624,17 @@ def main():
         default=list(DEFAULT_CACHE_VERSIONS),
         help='Последовательность предыдущих версий для кэша, от старой к новой (например: 1.3.4.3 1.3.5.7)'
     )
+    parser.add_argument(
+        '--check-rag',
+        '--check_rag',
+        dest='check_rag',
+        help='Проверить найденные RAG-примеры для английского текста без запуска перевода'
+    )
 
     args = parser.parse_args()
+
+    if args.check_rag and not os.environ.get('DW2_PG_PASSWORD', '').strip():
+        parser.error('--check-rag требует DW2_PG_PASSWORD для доступа к PostgreSQL')
 
     if args.words and args.check:
         parser.error('--words и --check нельзя использовать одновременно')
@@ -543,6 +646,7 @@ def main():
         parser.error('--fix-newlines нельзя использовать с другими опциями')
 
     db_password = os.environ.get('DW2_PG_PASSWORD', '').strip()
+    db_config = None
     if db_password:
         print("\n[INFO] Проверка и применение миграций базы данных...")
         try:
@@ -559,12 +663,9 @@ def main():
             elif migrate_result.get('status') == 'error':
                 print(f"[WARNING] Ошибка миграции: {migrate_result.get('error', 'unknown')}")
                 print("[INFO] Продолжаем работу без миграций...")
-                exit(1)
+                return 1
             else:
                 print("[INFO] База данных актуальна. Миграции не требуются.")
-
-            print("[INFO] Проверка недостающих embedding в RAG...")
-            generate_missing_embeddings(db_config=db_config)
         except SystemExit:
             print("[WARNING] Migrate DB вызвал SystemExit; продолжаем без прерывания batch-операции.")
         except Exception as e:
@@ -590,56 +691,109 @@ def main():
         print(f"\n[INFO] Генерация отчётов новых фраз для {args.target_version}...")
         return write_new_translated_lines_report(english_dir, russian_dir, previous_versions, Path('.'))
 
-    if not (args.words or args.check or args.fix_untranslated or args.fix_newlines):
-        db_password = os.environ.get('DW2_PG_PASSWORD', '').strip()
-        if db_password:
-            reference_versions = [v for v in args.cache_versions if v != args.target_version]
-            if not reference_versions:
-                reference_versions = [args.target_version]
+    xml_files = list(english_dir.rglob('*.xml'))
+    txt_files = list(english_dir.rglob('*.txt'))
+    all_files = xml_files + txt_files
 
-            print(f"\n[INFO] Загрузка справочных переводов для RAG: {reference_versions}")
-            try:
-                db_config = {
-                    'host': os.environ.get('DW2_PG_HOST', 'localhost'),
-                    'port': int(os.environ.get('DW2_PG_PORT', 5432)),
-                    'dbname': os.environ.get('DW2_PG_DB', 'dw2russian'),
-                    'user': os.environ.get('DW2_PG_USER', 'postgres'),
-                    'password': db_password,
-                }
+    if db_config and not (args.words or args.check or args.fix_untranslated or args.fix_newlines):
+        cache_versions = [v for v in args.cache_versions if v != args.target_version]
+        cache_translations = build_previous_versions_cache(cache_versions, Path('.'))
+        reference_versions = cache_versions or [args.target_version]
+        print(f"\n[INFO] Загрузка справочных переводов для RAG: {reference_versions}")
+        try:
+            for version_name in reference_versions:
+                version_dir = Path('.') / version_name
+                english_version_dir = version_dir / 'English'
+                russian_version_dir = version_dir / 'Russian'
+                if not english_version_dir.exists() or not russian_version_dir.exists():
+                    print(f"[WARNING] Пропускаю версию {version_name}: отсутствуют директории {english_version_dir} или {russian_version_dir}")
+                    continue
 
-                for version_name in reference_versions:
-                    version_dir = Path('.') / version_name
-                    english_version_dir = version_dir / 'English'
-                    russian_version_dir = version_dir / 'Russian'
-                    if not english_version_dir.exists() or not russian_version_dir.exists():
-                        print(f"[WARNING] Пропускаю версию {version_name}: отсутствуют директории {english_version_dir} или {russian_version_dir}")
-                        continue
-
-                    version_cache = build_translation_cache_from_paired_files(
-                        str(english_version_dir),
-                        str(russian_version_dir),
-                        exclude_files=collect_files_in_progress(english_version_dir, russian_version_dir),
-                    )
-                    if not version_cache:
-                        print(f"[INFO] Для версии {version_name} нет справочных переводов для RAG")
-                        continue
-
+                version_cache = build_translation_cache_from_paired_files(
+                    str(english_version_dir),
+                    str(russian_version_dir),
+                    exclude_files=collect_files_in_progress(english_version_dir, russian_version_dir),
+                )
+                if version_cache:
                     load_translations_to_db(
                         reference_pairs=version_cache,
                         source_version=version_name,
                         db_config=db_config,
-                        generate_embeddings=True,
+                        generate_embeddings=False,
                     )
-            except SystemExit:
-                print("[WARNING] Загрузка RAG-данных вызвала SystemExit; продолжаем batch-процесс.")
-                exit(1)
-            except Exception as e:
-                print(f"[WARNING] Не удалось загрузить переводы в RAG: {e}")
-                print("[INFO] Продолжаем batch-процесс без RAG-загрузки.")
-                exit(1)
-        else:
-            print("[INFO] DW2_PG_PASSWORD не задан. Пропускаю загрузку RAG-данных в PostgreSQL.")
+        except SystemExit:
+            print("[WARNING] Загрузка RAG-данных вызвала SystemExit; прекращаю batch-процесс.")
+            return 1
+        except Exception as e:
+            print(f"[WARNING] Не удалось загрузить переводы в RAG: {e}")
+            return 1
 
+        pending_texts = collect_pending_translation_texts(
+            all_files,
+            english_dir,
+            cache_translations,
+        )
+        print(f"\n[INFO] Найдено {len(pending_texts)} фраз для регистрации в базе данных (target_version={args.target_version})")
+        register_pending_translations(
+            pending_texts,
+            source_version=args.target_version,
+            db_config=db_config,
+        )
+
+        missing_embeddings = count_missing_embeddings(db_config=db_config)
+        if missing_embeddings:
+            input(
+                f"\nВ базе найдено {missing_embeddings} фраз без embedding. "
+                "Загрузите embedding-модель в LM Studio и нажмите Enter для продолжения..."
+            )
+            generate_missing_embeddings(db_config=db_config)
+            remaining_embeddings = count_missing_embeddings(db_config=db_config)
+            if remaining_embeddings:
+                print(
+                    f"[ERROR] Осталось {remaining_embeddings} строк без embedding. "
+                    "Перевод не запускается; повторите подготовительный этап."
+                )
+                return 1
+            if args.check_rag:
+                print("[INFO] Режим проверки RAG: embedding-модель оставлена загруженной.")
+            elif not unload_embedding_model():
+                print("[ERROR] Перевод остановлен: embedding-модель не удалось выгрузить из LM Studio.")
+                return 1
+            if not args.check_rag:
+                input(
+                    "\nEmbedding завершены и модель выгружена. "
+                    "Загрузите LLM в LM Studio и нажмите Enter для начала перевода..."
+                )
+
+        if args.check_rag:
+            print(f"\n[INFO] Проверка RAG для: {args.check_rag!r}")
+            print("[INFO] Если фраза отсутствует в БД, загрузите embedding-модель в LM Studio.")
+            input("Нажмите Enter для выполнения RAG-поиска...")
+            try:
+                results = search_similar_translations(
+                    query=args.check_rag,
+                    top_k=10,
+                    db_config=db_config,
+                    use_hybrid=True,
+                    generate_query_embedding=True,
+                )
+            except Exception as exc:
+                print(f"[ERROR] RAG search failed: {type(exc).__name__}: {exc!r}")
+                return 1
+
+            if not results:
+                print("[INFO] RAG не вернул релевантных переводов.")
+            else:
+                print(f"[INFO] Найдено примеров: {len(results)}")
+                for index, item in enumerate(results, 1):
+                    print(
+                        f"{index}. similarity={item.get('similarity', 0):.4f} "
+                        f"version={item.get('source_version', '')} "
+                        f"EN: {item.get('english', '')!r} -> RU: {item.get('russian', '')!r}"
+                    )
+            return 0
+
+    # return 1
     # Загружаем кэш переводов из уже переведённых файлов.
     # Если файл уже был посчитан ранее, переиспользуем его вместо повторного построения.
     import pickle
@@ -675,11 +829,6 @@ def main():
 
     if cache_file:
         os.environ['DW2_TRANSLATION_CACHE'] = cache_file
-
-    # Find all XML and TXT files recursively
-    xml_files = list(english_dir.rglob('*.xml'))
-    txt_files = list(english_dir.rglob('*.txt'))
-    all_files = xml_files + txt_files
 
     if args.fix_untranslated:
         print(f"Поиск недопереведённых элементов в {len(all_files)} файлах...")
@@ -721,10 +870,17 @@ def main():
             is_paused = os.path.exists(progress_file)
             
             # Пропускаем только если файл ПОЛНОСТЬЮ перевёден и это не на паузе
-            if output_file.exists() and not args.force and not is_paused:
+            output_is_incomplete = (
+                file_path.suffix.lower() == '.txt'
+                and has_untranslated_txt_content(file_path, output_file)
+            )
+            if output_file.exists() and not args.force and not is_paused and not output_is_incomplete:
                 print(f"Skipping {file_path} (output exists: {output_file})")
                 skip_count += 1
                 continue
+
+            if output_is_incomplete:
+                print(f"Найден неполный перевод, обрабатываю заново: {file_path}")
             
             # Если файл на паузе, продолжаем перевод (не пропускаем)
             if is_paused:

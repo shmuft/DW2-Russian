@@ -26,7 +26,7 @@
 			</Bonus>
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Inspired Conniving</Name>
+		<Name>Вдохновлённая коварность</Name>
 		<Description>Наши успешные шпионские усилия вдохновили наш народ принять наши ценности Дхают! В течение следующего года мы можем ожидать, что все наши усилия в области Шпионажа, Саботажа и Уклонения от сканирования будут на 20% более успешными.</Description>
 		<ImageFilename>Environment/Events/inspired conniving</ImageFilename>
 	</ColonyEventDefinition>

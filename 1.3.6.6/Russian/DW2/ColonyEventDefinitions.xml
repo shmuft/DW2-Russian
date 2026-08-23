@@ -234,7 +234,7 @@
 		</PlagueModifiersPerRaceAmount>
 		<PlagueCuringFactor>1.5</PlagueCuringFactor>
 		<Name>Псионический вирус Шактури - Вариант К7</Name>
-		<Description>Псионический вирус Шактури делает видимость более уязвимой для псионических сил Шактури.\n\nХотя он не особенно смертоносен, его летальность коррелирует с тем, насколько устойчив вид к психическим атакам.\n\nЗараженные жертвы подвергаются форме психического внушения, что заставляет их вести себя так, чтобы максимально увеличить распространение вируса. Таким образом, Псионический вирус Шактури крайне заразен и может быстро распространяться.</Description>
+		<Description>Shakturi Psionic Virus makes a species more vulnerable to Shakturi psychic powers.\n\nAlthough not particularly deadly, it's lethality correlates with how resistant a species is to psychic attacks.\n\nInfected victims come under a form of psychic suggestion, making them behave in ways that maximize the spread of the virus. Thus Shakturi Psionic Virus is very infectious and can spread rapidly.</Description>
 		<ImageFilename>Environment/Events/PsionicMindVirus</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -253,7 +253,7 @@
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<GameEventName>Start Xenophobic Riots (Haakonish)</GameEventName>
 		<Name>Межрасовые беспорядки</Name>
-		<Description>Межрасовые беспорядки против не-хааконишского населения, с последующими эффектами:[ULI]Мгновенно сокращает численность не-хааконишских рас в колонии на 25%[/ULI][ULI][GOOD]+10 к счастью колонии[/GOOD] на 5 лет[/ULI][ULI]Значительно [BAD]вредит нашей репутации[/BAD][/ULI][ULI]Негативно влияет на [BAD]миграцию[/BAD] в колонию в течение 10 лет[/ULI]</Description>
+		<Description>Xenophobic Riots against non-Haakonish population, with the following effects:[ULI]Immediately reduces non-Haakonish populations at the colony by 25%[/ULI][ULI][GOOD]+10 Colony Happiness[/GOOD] for 5 years[/ULI][ULI]Significantly [BAD]harms our reputation[/BAD][/ULI][ULI]Negatively affects [BAD]migration[/BAD] to the colony for 10 years[/ULI]</Description>
 		<ImageFilename>Environment/Events/Haakonish Xenophobia</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -384,7 +384,7 @@
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Предсказательная история</Name>
-		<Description>Наши аналитики нашли гениальное применение нашим недавним открытиям при исследовании руин. Используя детальное изучение прошлого в сочетании с результатами наших обширных исследовательских экспедиций, мы теперь можем с определенной точностью предсказывать события ближайшего будущего.\n\nТаким образом, в течение следующих двух лет наша империя получит следующие бонусы и штрафы:\n[ULI]-5% ко всем исследованиям[/ULI][ULI]+10% к дипломатии[/ULI][ULI]+10% к контршпионажу[/ULI][ULI]+10% к шпионажу[/ULI][ULI]+10% к Пси-операциям[/ULI]</Description>
+		<Description>Our analysts have made an ingenious application of our recent discoveries when exploring some ruins. Using our detailed examination of the past, combined with our extensive exploration discoveries, we can now predict events of the near future with some accuracy.\n\nThus for the next two years our empire will enjoy the following benefits and penalties:\n[ULI]-5% All Research[/ULI][ULI]+10% Diplomacy[/ULI][ULI]+10% Counter Espionage[/ULI][ULI]+10% Espionage[/ULI][ULI]+10% PsyOps[/ULI]</Description>
 		<ImageFilename>Environment/Events/Predictive History</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -401,7 +401,9 @@
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<GameEventName>Start Economic Boost (Haakonish)</GameEventName>
 		<Name>Экономический подъем</Name>
-		<Description>Наши хитроумные финансовые волшебники нашли способ временно стимулировать экономический рост с помощью творческого учета!\n\nЗапуск этой Инициативы по экономическому подъему [GOOD]увеличит доход империи на 10% в течение 5 лет[/GOOD]. По-видимому, позже может произойти и [BAD]незначительный рост коррупции[/BAD], но это звучит как несущественная деталь.</Description>
+		<Description>Our clever finance wizards have figured out a way to temporarily boost economic output through some creative accounting!
+
+Initiating this Economic Boost will [GOOD]increase empire income by +10% for 5 years[/GOOD]. Apparently there might also be some [BAD]minor increase to corruption later[/BAD], but that sounds like an unimportant detail.</Description>
 		<ImageFilename>Environment/Events/Economic Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>

@@ -21,6 +21,25 @@ DEFAULT_MODEL = "qwen/qwen3.6-35b-a3b"
 # DEFAULT_MODEL = "google/gemma-4-26b-a4b"
 DEFAULT_POOL_TIMEOUT = 120  # timeout in seconds (was 120000ms)
 
+TECHNICAL_PHRASES = frozenset({
+    "*** DISTANT WORLDS 2 ENTRIES BELOW ***",
+    "System names",
+    ".NET v{0}",
+    "DirectX 11",
+    "Stride v{0}",
+    "Shift-{0}",
+    "X",
+    "Y",
+    "{0}",
+    "{0} @ {1} = {2}",
+    "{0} x {1} ({2})",
+    "{0} {1}",
+    "{0}!",
+    "{0}: {1}",
+    "{0}x{1}",
+    "\ufeff",
+})
+
 paused = False
 
 DEFAULT_GLOSSARY_CACHE_FILE = '.glossary_cache.pkl'
@@ -204,6 +223,7 @@ def _build_rag_prompt_text(text: str, top_k: int = 5) -> str:
             top_k=top_k,
             db_config=db_config,
             use_hybrid=True,
+            generate_query_embedding=False,
         )
         if not results:
             return ""
@@ -220,7 +240,7 @@ def _build_rag_prompt_text(text: str, top_k: int = 5) -> str:
 
         return '\n'.join(lines)
     except Exception as exc:
-        print(f"[WARNING] RAG search failed for '{text[:80]}': {exc}")
+        print(f"[WARNING] RAG search failed for '{text[:80]}': {type(exc).__name__}: {exc!r}")
         return ""
 
 
@@ -233,6 +253,9 @@ def translate_text(text: str) -> str:
     3. Общий кэш из уже переведённых файлов
     4. LLM (Qwen)
     """
+
+    if _is_technical_string(text):
+        return text
 
     file_cache_translation = _translate_from_file_cache(text)
     if file_cache_translation:
@@ -847,6 +870,8 @@ def _is_technical_string(text: str) -> bool:
         return False
 
     text = text.strip()
+    if text in TECHNICAL_PHRASES or text.lstrip('\ufeff').strip() in TECHNICAL_PHRASES:
+        return True
 
     # Пути к файлам содержат слэши
     if '/' in text or '\\' in text:

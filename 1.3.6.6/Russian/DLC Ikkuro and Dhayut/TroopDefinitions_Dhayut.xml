@@ -71,7 +71,7 @@
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
 		<IsRobotic>false</IsRobotic>
-		<Name>Окто-Титан</Name>
+		<Name>Octo-Titan</Name>
 		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 	</TroopDefinition>
 </ArrayOfTroopDefinition>

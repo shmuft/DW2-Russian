@@ -369,7 +369,17 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Мы нашли кое-что!</MessageTitle>
-				<Description>Теперь мы знаем! Найденные здесь машины не оставляют сомнений: этот аванпост был построен Давними Друзьями, хотя за прошедшие годы он настолько сильно пострадал, что трудно догадаться, зачем они сюда пришли.\n\nМы обнаружили некоторое оружие, а мины вокруг аванпоста свидетельствуют о том, что они опасались кражи своих вещей плохими людьми. Были ли у них также давние враги? Надеемся, нет.\n\nНаши учёные были заняты изучением артефактов, оставленных Давними Друзьями, включая некоторые корабли, спроектированные нашими собственными предками. Нам очень лестно, что Давние Друзья так интересовались тем, что мы создали из их даров!\n\nМы также обнаружили кристалл данных со звёздной картой. Он указывает на [LOCATION]близлежащее местоположение[/LOCATION], которое стоит исследовать.\n\nК сожалению, наши учёные теперь очень устали от всей своей работы. Им потребуется отдых, прежде чем они смогут вернуться к труду.\n\nНаши новые эскортные корабли называются [HL]Чудесно насыщенный отпуск[/HL] и [HL]Мой второй любимый дядя[/HL].</Description>
+				<Description>Now we know! The machines we've found here leave no doubt. This outpost was built by the Long-Ago Friends, though it has been so badly damaged over the years that it's difficult to guess what they were doing here.
+
+We did find some weapons, and the mines surrounding the outpost suggest that they were worried about bad people stealing their things. Were there also Long-Ago enemies? Let's hope not.
+
+Our scientists have been busy studying the artifacts the Long-Ago friends left behind, including some ships designed by our own ancestors. It's very flattering that the Long-Ago friends were so interested in the things we made from their gifts!
+
+We also found a data crystal with a star map. It points to a [LOCATION]nearby location[/LOCATION], which might be worth investigating.
+
+Unfortunately, our scientists are now very tired from all their research. They are going to need to rest before they're ready to get back to work.
+
+Our new Escorts are called [HL]Wonderfully Eventful Vacation[/HL] and [HL]My Second Favorite Uncle[/HL].</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -5029,7 +5039,9 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Мы Знаем, Куда Мы Идём!</MessageTitle>
-				<Description>Но есть и хорошие новости. В обломках базы мы обнаружили кристалл данных с картой на планету, которая, как мы полагаем, могла быть колонией Друзей из давних времён! Да, наконец-то у нас появится возможность посетить их и поблагодарить за Великий Подарок. Мы стараемся не питать излишних надежд, ведь знаем: эта карта очень древняя, а с момента её создания галактика претерпела значительные изменения, но сдержать волнение трудно. Возможно, они уже знают о нашем прибытии и даже планируют устроить для нас праздник. Это вполне разумно. Одно мы знаем наверняка: воссоединение с Друзьями из давних времён обещает стать замечательным событием!\n\n[ARTIFACT]Мы также обнаружили запись с музыкой, которая многим нашим солдатам кажется крайне вдохновляющей[/ARTIFACT]. Мы уже решили, что войска должны слушать её перед каждым боем. Наши лингвисты перевели часть текстов песен, и они оказались удивительно агрессивными, словно призывают солдат радоваться вступлению в бой. Странно, что Друзья могли написать подобную песню, но иногда именно энтузиазм необходим для победы. Прослушивание этой музыки должно сделать наших солдат ещё сильнее и храбрее, чем они есть сейчас.</Description>
+				<Description>But there is good news. In the base's wreckage we found a data crystal with a map to a world that we believe might have been a colony of the Long-Ago Friends! Yes, we should finally be able to visit them and thank them for the Big Gift. We are trying not to get our hopes up, because we know this map is very old, and the galaxy has gone through some changes since it was made, but it's hard to contain our excitement. Maybe they even know we are coming and are planning to have a party for us. It's not unreasonable. One thing we know for sure: reuniting with the Long-Ago Friends is going to be a great time!
+
+[ARTIFACT]We also found a recording containing music that many of our soldiers find extremely inspiring[/ARTIFACT]. We have already decided that troops should listen to this whenever they go into battle. Our linguistics experts have translated some of the lyrics, and they are weirdly aggressive, as though soldiers should be happy about going into battle. It's strange that the Friends would write a song like this, but sometimes enthusiasm is what you need to win. Listening to this music should make our soldiers even stronger and more courageous than they already are.</Description>
 				<ImageFilepath>Artifacts/the soldiers anthem</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -5218,7 +5230,9 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Интересная запись</MessageTitle>
-				<Description>[ARTIFACT]Мы также обнаружили запись воинственной музыки, которая странно трогает наших солдат.[/ARTIFACT] Эффект, похоже, выходит за рамки видовых различий, а наши предварительные исследования показывают, что прослушивание этой музыки сделает солдат более смелыми и эффективными.\n\nМы также нашли звездную карту с [LOCATION]местом, которое идентифицировано[/LOCATION], хотя мы не знаем, что там обнаружим.</Description>
+				<Description>[ARTIFACT]We also found a recording or martial music that our soldiers find strangely affecting[/ARTIFACT]. The effect appears to transcend species, and our preliminary studies suggest listening to this music will make soldier more courageous and effective.
+
+We have also found a star map with [LOCATION]a location identified[/LOCATION], though we do not know what we will find there.</Description>
 				<ImageFilepath>Artifacts/the soldiers anthem</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -5879,7 +5893,13 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Надежда на будущее</MessageTitle>
-				<Description>Тщательное изучение записей многому нас научило о Боскара. Они совершали ужасные вещи давным-давно. Возможно, они изменились к лучшему, но будет мудро проявлять осторожность перед тем, как торопиться с любыми соглашениями с ними. Возможно, и с кем угодно. Галактика - опасное место.\n\nМы исследуем оставшиеся сооружения на этой планете, чтобы извлечь уроки и попытаться воспроизвести их технологии. Боскара не были добрыми, но они были умны!\n\nМы также обнаружили интересное устройство под названием [ARTIFACT]Компьютер тактической бомбардировки[/ARTIFACT], которое поможет нам наносить удары по чужим мирам. Надеемся, нам никогда не придётся его использовать!\n\nЭти открытия тревожны, но мы многому научились и теперь готовы встретить будущее с новыми друзьями и технологиями. Это хороший день для Атуук!</Description>
+				<Description>Our careful examination of the records has taught us a great deal about the Boskara. They did terrible things a long time ago. Maybe they've changed for the better, but it would be wise to be careful before rushing into any agreements with them. Maybe with anyone. The galaxy is a dangerous place.
+
+We've been combing through the remaining structures on this world, looking to see what we can learn from and reverse engineer. The Boskara were not nice, but they were smart!
+
+We've also found an interesting device called the [ARTIFACT]Tactical Bombardment Computer[/ARTIFACT], which can help us launch assaults on alien worlds. Let's hope we never need to use it!
+
+These have been some troubling revelations, but we've learned a great deal, and we are now ready to face our future with new friends and technology. This is a good day for the Atuuk!</Description>
 				<ImageFilepath>Artifacts/tactical bombardment computer</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6212,7 +6232,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Древний артефакт</MessageTitle>
-				<Description>Мы обнаружили устройство под названием [ARTIFACT]Компьютер тактической бомбардировки[/ARTIFACT], которое усиливает бомбардировку планеты. Мы будем использовать его с пользой.</Description>
+				<Description>We have found a device called the [ARTIFACT]Tactical Bombardment Computer[/ARTIFACT], which augments the bombardment of a planet. We will make good use of this.</Description>
 				<ImageFilepath>Artifacts/tactical bombardment computer</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6380,7 +6400,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Древний артефакт</MessageTitle>
-				<Description>Мы также обнаружили устройство, называемое [ARTIFACT]Компьютер тактической бомбардировки[/ARTIFACT], которое, по-видимому, усиливает бомбардировку планеты.</Description>
+				<Description>We have also found a device called the [ARTIFACT]Tactical Bombardment Computer[/ARTIFACT], which appears to augment the bombardment of a planet.</Description>
 				<ImageFilepath>Artifacts/tactical bombardment computer</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6885,7 +6905,7 @@
 			<GameEventAction>
 				<Type>AchieveVictoryObjective</Type>
 				<MessageTitle>Великое Направление - Умнее: Цель достигнута</MessageTitle>
-				<Description>Отличная работа! Вы завершили исследовательский проект уровня технологий 6 или выше.\n\nЭто выполняет цель победы для «Великое Направление - Умнее» [HL].</Description>
+				<Description>Good job! You have completed a research project of tech level 6 or higher.\n\nThis achieves the victory objective for [HL]The Great Direction: Smarter[/HL]</Description>
 				<ImageFilepath>Environment/Events/great direction - smarter</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6924,7 +6944,7 @@
 			<GameEventAction>
 				<Type>AchieveVictoryObjective</Type>
 				<MessageTitle>Великое Направление - Дружелюбнее: Цель достигнута</MessageTitle>
-				<Description>Отличная работа! Вы подписали новый договор о защите.\n\nЭто выполняет цель победы для [HL]Великое Направление - Дружелюбнее[/HL].</Description>
+				<Description>Good job! You have signed a new Defense treaty.\n\nThis achieves the victory objective for [HL]The Great Direction: Friendlier[/HL]</Description>
 				<ImageFilepath>Environment/Events/great direction - friendlier</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6967,7 +6987,7 @@
 			<GameEventAction>
 				<Type>AchieveVictoryObjective</Type>
 				<MessageTitle>Великое Направление - Сильнее: Цель достигнута</MessageTitle>
-				<Description>Отличная работа! Вы уничтожили вражеский линкор или авианосец.\n\nЭто выполняет победную цель для [HL]Великое Направление - Сильнее[/HL].</Description>
+				<Description>Good job! You have destroyed an enemy Battleship or Carrier.\n\nThis achieves the victory objective for [HL]The Great Direction: Stronger[/HL]</Description>
 				<ImageFilepath>Environment/Events/great direction - stronger</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7007,7 +7027,7 @@
 			<GameEventAction>
 				<Type>AchieveVictoryObjective</Type>
 				<MessageTitle>Великое Направление - Богаче: Цель достигнута</MessageTitle>
-				<Description>Отличная работа! Вы достигли положительного денежного потока империи в размере +50 000 или более.\n\nЭто выполняет условие победы для [HL]Великое Направление - Богаче[/HL].</Description>
+				<Description>Good job! You have achieved an empire cashflow of +50K or greater.\n\nThis achieves the victory objective for [HL]The Great Direction: Richer[/HL]</Description>
 				<ImageFilepath>Environment/Events/great direction - richer</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7047,7 +7067,7 @@
 			<GameEventAction>
 				<Type>AchieveVictoryObjective</Type>
 				<MessageTitle>Великое Направление - Быстрее: Цель достигнута</MessageTitle>
-				<Description>Отличная работа! Вы завершили исследования по проекту «Усовершенствованные двигатели».\n\nЭто позволяет выполнить условие победы для [HL]Великое Направление - Быстрее[/HL].</Description>
+				<Description>Good job! You have completed research in the Advanced Engines project.\n\nThis achieves the victory objective for [HL]The Great Direction: Faster[/HL]</Description>
 				<ImageFilepath>Environment/Events/great direction - faster</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7087,7 +7107,7 @@
 			<GameEventAction>
 				<Type>AchieveVictoryObjective</Type>
 				<MessageTitle>Великое Направление - Скрытнее: Цель достигнута</MessageTitle>
-				<Description>Отличная работа! Вы похитили проект исследований уровня технологий 6 или выше.\n\nЭто выполняет цель победы для «Великое Направление - Скрытнее» [HL].</Description>
+				<Description>Good job! You have stolen a research project of tech level 6 or higher.\n\nThis achieves the victory objective for [HL]The Great Direction: Sneakier[/HL]</Description>
 				<ImageFilepath>Environment/Events/great direction - sneakier</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7127,7 +7147,7 @@
 			<GameEventAction>
 				<Type>AchieveVictoryObjective</Type>
 				<MessageTitle>Великое Направление - Умножить: Цель достигнута</MessageTitle>
-				<Description>Отличная работа! Вы достигли численности населения империи в 100 миллиардов.\n\nЭто выполняет условие победы для [HL]Великое Направление - Умножить[/HL].</Description>
+				<Description>Good job! You have achieved an empire population of 100 billion.\n\nThis achieves the victory objective for [HL]The Great Direction: Multiply[/HL]</Description>
 				<ImageFilepath>Environment/Events/great direction - multiply</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7196,7 +7216,9 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Мы Велики!</MessageTitle>
-				<Description>Недавнее подписание Соглашения о свободной торговле вызвало всплеск счастья среди нашего населения.\n\nВ результате наша империя в течение следующего года получит [BONUS] +5% к Счастью колоний и снижение коррупции на 10%[/BONUS].</Description>
+				<Description>The recent signing of a Free Trade Agreement has caused a surge of happiness throughout our population.
+
+As a result our empire will enjoy a [BONUS]+5% boost to Colony Happiness[/BONUS] and [BONUS]+10% Corruption Reduction[/BONUS] for the next year.</Description>
 				<ImageFilepath>Environment/Events/we are great</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7267,7 +7289,9 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Мы Велики!</MessageTitle>
-				<Description>Недавнее подписание Научного договора вызвало всплеск счастья среди нашего населения.\n\nВ результате наша империя в течение следующего года получит [BONUS]+5% к уровню счастья колоний[/BONUS] и [BONUS]+10% снижение коррупции[/BONUS].</Description>
+				<Description>The recent signing of a Research Treaty has caused a surge of happiness throughout our population.
+
+As a result our empire will enjoy a [BONUS]+5% boost to Colony Happiness[/BONUS] and [BONUS]+10% Corruption Reduction[/BONUS] for the next year.</Description>
 				<ImageFilepath>Environment/Events/we are great</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7338,7 +7362,9 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Мы Велики!</MessageTitle>
-				<Description>Недавнее подписание Договора о обороне вызвало всплеск счастья среди нашего населения.\n\nВ результате наша империя в течение следующего года будет получать [BONUS]бонус к Счастью колоний [+5%][/BONUS] и [BONUS]снижение коррупции на +10%[/BONUS].</Description>
+				<Description>The recent signing of a Defense Treaty has caused a surge of happiness throughout our population.
+
+As a result our empire will enjoy a [BONUS]+5% boost to Colony Happiness[/BONUS] and [BONUS]+10% Corruption Reduction[/BONUS] for the next year.</Description>
 				<ImageFilepath>Environment/Events/we are great</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>

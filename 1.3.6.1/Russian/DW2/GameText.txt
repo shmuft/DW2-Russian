@@ -7551,8 +7551,8 @@ PIRATE becomes Hostile Explanation Lone Pirate		;{0} стал враждебен
 PIRATE offers us Neutral		;{0} предлагает прекратить военные действия
 
 Privateering Cancelled Title EMPIRE		;{0} отменяет капёрство
-Privateering Cancelled Explanation EMPIRE TARGET		;[FACTION]{0}[/FACTION] отменил своё соглашение о приватистве с нами против [FACTION]{1}[/FACTION].\n\n{0} больше не будет платить нам за уничтожение или захват целей {1}.
-Privateering Cancelled By Pirate Explanation EMPIRE TARGET		;[FACTION]{0}[/FACTION] отменил с нами [HL]соглашение о приватистве[/HL] против [FACTION]{1}[/FACTION].\n\n{0} больше не будет уничтожать или захватывать цели {1} для нас.
+Privateering Cancelled Explanation EMPIRE TARGET		;[FACTION]{0}[/FACTION] отменил своё соглашение о каперстве с нами против [FACTION]{1}[/FACTION].\n\n{0} больше не будет платить нам за уничтожение или захват целей {1}.
+Privateering Cancelled By Pirate Explanation EMPIRE TARGET		;[FACTION]{0}[/FACTION] отменил с нами [HL]соглашение о каперстве[/HL] против [FACTION]{1}[/FACTION].\n\n{0} больше не будет уничтожать или захватывать цели {1} для нас.
 
 Pirate Playstyle Balanced		;Сбалансированный
 Pirate Playstyle Smuggler		;Контрабандист

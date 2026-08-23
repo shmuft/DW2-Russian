@@ -9,6 +9,8 @@ import os
 import sys
 import json
 import argparse
+import urllib.error
+import urllib.request
 from pathlib import Path
 from typing import Optional
 
@@ -338,6 +340,36 @@ def generate_embeddings_batch(texts: list[str], model: str = None, api_base: str
         return None
 
 
+def unload_embedding_model(model: str = None, api_base: str = None) -> bool:
+    """Выгружает embedding-модель из LM Studio через native API."""
+    model = model or os.environ.get("EMBEDDING_MODEL", "text-embedding-qwen3-embedding-8b")
+    api_base = api_base or os.environ.get("LM_STUDIO_API_BASE", "http://localhost:1234/v1")
+    api_root = api_base.rstrip("/")
+    if api_root.endswith("/api/v1"):
+        endpoint = f"{api_root}/models/unload"
+    else:
+        if api_root.endswith("/v1"):
+            api_root = api_root[:-3]
+        endpoint = f"{api_root}/api/v1/models/unload"
+    payload = json.dumps({"instance_id": model}).encode("utf-8")
+    headers = {"Content-Type": "application/json"}
+    api_key = os.environ.get("LM_STUDIO_API_KEY")
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
+
+    request = urllib.request.Request(endpoint, data=payload, headers=headers, method="POST")
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            response.read()
+        print(f"[INFO] Embedding-модель выгружена из LM Studio: {model}")
+        return True
+    except urllib.error.HTTPError as exc:
+        print(f"[ERROR] LM Studio не выгрузил embedding-модель ({exc.code}): {exc.reason}")
+    except (urllib.error.URLError, TimeoutError) as exc:
+        print(f"[ERROR] Не удалось подключиться к LM Studio для выгрузки embedding-модели: {exc}")
+    return False
+
+
 def _halfvec_literal(embedding: list[float]) -> str:
     """Преобразует список float в строковое представление для `::halfvec` в PostgreSQL."""
     trimmed = [float(v) for v in embedding[:4000]]
@@ -402,6 +434,48 @@ def generate_missing_embeddings(
     except Exception:
         conn.rollback()
         raise
+    finally:
+        conn.close()
+
+
+def count_missing_embeddings(db_config: Optional[dict] = None) -> int:
+    """Возвращает количество строк без embedding, не обращаясь к embedding-модели."""
+    conn = get_db_connection(db_config)
+    try:
+        cursor = conn.cursor()
+        cursor.execute("SELECT COUNT(*) FROM translations WHERE embedding IS NULL")
+        return cursor.fetchone()[0]
+    finally:
+        conn.close()
+
+
+def register_pending_translations(
+    texts: set[str] | list[str],
+    *,
+    source_version: str,
+    db_config: Optional[dict] = None,
+    batch_size: int = 100,
+) -> int:
+    """Сохраняет английские фразы, которым ещё предстоит перевод и embedding."""
+    pending = sorted({text.strip() for text in texts if text and text.strip()})
+    if not pending:
+        return 0
+
+    conn = get_db_connection(db_config)
+    try:
+        cursor = conn.cursor()
+        insert_sql = """
+            INSERT INTO translations
+                (english, russian, source_file, source_version, category, xml_tag)
+            VALUES (%s, '', 'pending_translation', %s, 'pending', 'pending')
+            ON CONFLICT (source_version, english) DO NOTHING
+        """
+        for offset in range(0, len(pending), max(1, batch_size)):
+            chunk = pending[offset:offset + max(1, batch_size)]
+            cursor.executemany(insert_sql, [(text, source_version) for text in chunk])
+            conn.commit()
+        print(f"[INFO] Зарегистрировано {len(pending)} недопереведённых фраз для {source_version}")
+        return len(pending)
     finally:
         conn.close()
 
@@ -579,6 +653,7 @@ def search_similar_translations(
     db_config: Optional[dict] = None,
     include_category: str = None,
     use_hybrid: bool = True,
+    generate_query_embedding: bool = True,
 ) -> list[dict]:
     """
     Ищет похожие переводы через векторный поиск (cosine similarity).
@@ -593,26 +668,37 @@ def search_similar_translations(
     Returns:
         Список словарей с переводами и релевантностью
     """
-    try:
-        generate_missing_embeddings(db_config=db_config, batch_size=100)
-    except Exception as e:
-        print(f"[WARNING] Не удалось дозаполнить embedding перед RAG-поиском: {e}")
-
     conn = get_db_connection(db_config)
     cursor = conn.cursor(row_factory=psycopg.rows.dict_row)
     
-    # Генерируем эмбеддинг для запроса
-    query_embedding = generate_embedding(query)
-    
-    if not query_embedding:
-        print("[WARNING] Не удалось сгенерировать эмбеддинг для запроса, возвращаем пустой результат")
+    # После выгрузки embedding-модели используем заранее сохранённый embedding
+    # текущей target-фразы. Это позволяет выполнять RAG во время работы LLM.
+    cursor.execute(
+        """
+            SELECT embedding::text
+            FROM translations
+            WHERE english = %s AND embedding IS NOT NULL
+            ORDER BY CASE WHEN russian <> '' THEN 0 ELSE 1 END, id
+            LIMIT 1
+        """,
+        (query,),
+    )
+    stored_embedding = cursor.fetchone()
+    if stored_embedding:
+        embedding_str = stored_embedding["embedding"]
+    elif generate_query_embedding:
+        query_embedding = generate_embedding(query)
+        if not query_embedding:
+            print("[WARNING] Не удалось сгенерировать эмбеддинг для запроса, возвращаем пустой результат")
+            conn.close()
+            return []
+        embedding_str = f"[{','.join(map(str, query_embedding))}]"
+    else:
+        print("[WARNING] Для RAG-запроса нет сохранённого embedding; embedding-модель выгружена")
         conn.close()
         return []
     
-    # Преобразуем в строку для PostgreSQL
-    embedding_str = f"[{','.join(map(str, query_embedding))}]"
-    
-    base_where = "WHERE 1=1"
+    base_where = "WHERE russian <> '' AND embedding IS NOT NULL"
     params: list = []
     
     if include_category:
@@ -636,9 +722,9 @@ def search_similar_translations(
             ORDER BY embedding <=> %s::halfvec
             LIMIT %s
         """
-        params.extend([embedding_str, embedding_str, top_k])
-        
-        cursor.execute(vector_query, params)
+        vector_params = [*params, embedding_str, embedding_str, top_k]
+
+        cursor.execute(vector_query, vector_params)
         results = cursor.fetchall()
         
         # Текстовый поиск (как дополнение)
@@ -650,14 +736,14 @@ def search_similar_translations(
                 source_version,
                 category,
                 xml_tag,
-                ts_rank(to_tsvector('russian', english), plainto_tsquery('russian', %s)) AS text_rank
+                1 - (embedding <=> %s::halfvec) AS similarity,
+                ts_rank(to_tsvector('english', english), plainto_tsquery('english', %s)) AS text_rank
             FROM translations
             {base_where}
             ORDER BY text_rank DESC
             LIMIT %s
         """
-        text_params = params[:-2]  # Убираем эмбеддинг-параметры
-        text_params.extend([query, top_k])
+        text_params = [*params, embedding_str, query, top_k]
         
         cursor.execute(text_query, text_params)
         text_results = cursor.fetchall()
@@ -683,15 +769,15 @@ def search_similar_translations(
                 source_version,
                 category,
                 xml_tag,
-                1 - (embedding <=> %s::vector) AS similarity
+                1 - (embedding <=> %s::halfvec) AS similarity
             FROM translations
             {base_where}
-            ORDER BY embedding <=> %s::vector
+            ORDER BY embedding <=> %s::halfvec
             LIMIT %s
         """
-        params.extend([embedding_str, embedding_str, top_k])
-        
-        cursor.execute(query_sql, params)
+        query_params = [*params, embedding_str, embedding_str, top_k]
+
+        cursor.execute(query_sql, query_params)
         results = cursor.fetchall()
         conn.close()
         return [dict(r) for r in results]
@@ -890,6 +976,9 @@ def main():
             "user": args.db_user,
             "password": os.environ.get("DW2_PG_PASSWORD", ""),
         }
+        if count_missing_embeddings(db_config=db_config):
+            input("Загрузите embedding-модель в LM Studio и нажмите Enter для проверки недостающих embedding...")
+            generate_missing_embeddings(db_config=db_config)
         results = search_similar_translations(
             query=args.query,
             top_k=args.top_k,
@@ -929,6 +1018,9 @@ def main():
             "user": args.db_user,
             "password": os.environ.get("DW2_PG_PASSWORD", ""),
         }
+        if count_missing_embeddings(db_config=db_config):
+            input("Загрузите embedding-модель в LM Studio и нажмите Enter для проверки недостающих embedding...")
+            generate_missing_embeddings(db_config=db_config)
         results = search_similar_translations(
             query=args.query,
             top_k=args.top_k,

@@ -373,16 +373,16 @@
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
 		<FeatureExplanations>
-			<string>[HL]Безотходность:[/HL] +25% к шансу получения бонусов технологий при утилизации или списании корабля с продвинутыми технологиями. Дополнительный бонус технологии при полном списании продвинутого корабля</string>
-			<string>[HL]Искоренение:[/HL] выбор в пользу «искоренения» недавно захваченной вражеской колонии. Искоренение сбрасывает развитие колонии, уничтожает 10% населения, накладывает временный штраф к уровню счастья и наносит ущерб репутации. Однако оно обеспечивает дополнительный прорыв в технологиях завоевания, крупный запас ресурсов и временно ускоряет рост популяции Гизурианов во всей вашей империи.</string>
-			<string>[HL]Междоусобицы:[/HL] необходимо выбрать одного из двух персонажей в борьбе за власть, убив одного и усилив другого новыми навыками и чертами</string>
-			<string>[HL]Мир-инкубатор:[/HL] предоставляет бонус к темпу роста популяции Гизурианов во всей вашей империи, когда вы применяете политику «Искоренение» против негизурианской расы в одной из ваших колоний. Дополнительные Мира-инкубатора предоставляют кумулятивные бонусы</string>
-			<string>[HL]Племенной конфликт:[/HL] краткосрочный общеимперский бонус к темпу роста популяции Гизурианов, но с сопутствующим штрафом к уровню счастья</string>
-			<string>[HL]Управление роем:[/HL] специальный целеуказывающий компьютер для кораблей, обеспечивающий повышенную точность прицеливания в зависимости от общего числа кораблей во флоте.</string>
-			<string>[HL]Уникальная черта лидера - Одарённый проводник:[/HL] +10% к счастью колонии</string>
-			<string>[HL]Уникальная черта лидера - Управляющий разум:[/HL] +10% к снижению коррупции</string>
-			<string>[HL]Уникальная общая черта - Повелитель Роя:[/HL] +10% к скорости вербовки войск, +10% экономии на содержании войск</string>
-			<string>[HL]Уникальная общая черта - Личинка-надзиратель:[/HL] +10% к скорости восстановления войск</string>
+			<string>[HL]Waste Nothing:[/HL] 25% increased chance of tech boosts when salvaging or retiring a ship with advanced tech. Additional tech boost when completely retire an advanced ship</string>
+			<string>[HL]The Scouring:[/HL] choice to 'scour' a newly conquered enemy colony. Scouring resets colony development, consumes 10% of the population, adds a temporary happiness penalty and damages reputation. But it provides an additional conquest tech breakthrough, a large resource cache and temporarily boosts population growth for Gizureans throughout your empire</string>
+			<string>[HL]Rivalries:[/HL] must select between 2 characters in a power struggle, killing one of them, but boosting the other with new skills and traits</string>
+			<string>[HL]Breeding World:[/HL] provides a bonus to Gizurean population growth rate throughout your empire whenever you use Exterminate population policy against a non-Gizurean race at one of your colonies. Additional Breeding Worlds provide cumulative bonuses</string>
+			<string>[HL]Tribal Conflict:[/HL] short-term empire-wide boost to Gizurean population growth rate, but with an accompanying happiness penalty</string>
+			<string>[HL]Swarm Command:[/HL] special targeting computer for ships that allows increased targeting accuracy based on the total number of ships in a fleet</string>
+			<string>[HL]Unique Leader trait - Gifted Conduit:[/HL] +10% Colony Happiness</string>
+			<string>[HL]Unique Leader trait - Controlling Mind:[/HL] +10% Corruption Reduction</string>
+			<string>[HL]Unique General trait - Swarm Lord:[/HL] +10% Troop Recruitment Rate, +10% Troop Maintenance Savings</string>
+			<string>[HL]Unique General trait - Larva Overseer:[/HL] +10% Troop Recovery Rate</string>
 		</FeatureExplanations>
 		<DefaultInfantryId>45</DefaultInfantryId> 
 		<Name>Gizurean</Name>

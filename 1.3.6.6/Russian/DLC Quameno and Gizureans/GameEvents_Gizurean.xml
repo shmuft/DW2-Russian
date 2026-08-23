@@ -17,7 +17,19 @@
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>«Искоренение»</MessageTitle>
-				<Description>С нашим недавним завоеванием колонии {0} мы можем решить, внедрять ли «Искоренение».\n\nПроведение Искоренения на этой недавно приобретённой колонии даст нам [RESEARCH]дополнительную технологию[/RESEARCH], полученную в результате этого завоевания.\n\nЧасть [BAD]существующего населения будет уничтожена[/BAD], что обеспечит продовольствием для [BONUS]временного ускорения роста популяции Гизурианов во всей нашей империи[/BONUS].\n\nНаши добросовестные усилия по Искоренению планеты, несомненно, также [RESOURCE]выявят любые скрытые запасы ресурсов[/RESOURCE].\n\nИскоренение также на два года [WARN]снизит счастье колонии[/WARN] и драматически [WARN]понижет уровень развития[/WARN] колонии.\n\nЭто также [WARN]нанесёт ущерб нашей репутации[/WARN] перед другими фракциями.\n\nСледует ли нам внедрить «Искоренение» в нашей новой колонии {0}?</Description>
+				<Description>With our recent conquest of the colony {0} we can choose whether to implement 'The Scouring'.
+
+Scouring this newly-acquired colony will grant us an [RESEARCH]extra tech[/RESEARCH] from this conquest.
+
+Some of the [BAD]existing population will be consumed[/BAD], providing food to [BONUS]temporarily boost population growth for Gizureans throughout our empire[/BONUS].
+
+Our diligent efforts to scour the planet will also no doubt [RESOURCE]reveal any hidden resource caches[/RESOURCE].
+
+Scouring will also [WARN]lower colony happiness[/WARN] for two years and dramatically [WARN]reduce the development level[/WARN] of the colony.
+
+It will also [WARN]harm our reputation[/WARN] with other factions.
+
+Should we implement 'The Scouring' at our new colony {0}?</Description>
 				<ImageFilepath>Environment/Events/the scouring</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>

@@ -2839,6 +2839,7 @@ TERMINOLOGY RULES:
   - "Wrecks and Ship Debris"→"Обломки и космический мусор"
   - "'*** DISTANT WORLDS 2 ENTRIES BELOW ***"→"'*** DISTANT WORLDS 2 ENTRIES BELOW ***"
   - "'System names"→"'System names"
+  - "Privateering Agreement"→"Соглашение о каперстве"
 SPECIES RULES:
 24. Species names are alien ethnonyms, not personal names.
 

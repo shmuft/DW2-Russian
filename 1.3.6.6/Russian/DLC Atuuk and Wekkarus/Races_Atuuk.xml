@@ -366,8 +366,8 @@
 		<EmpireDirections>
 			<EmpireDirection>
 				<Name>Smarter</Name>
-				<DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+30% ко всем исследованиям[/ULI][ULI]+30% к лечению патогенов[/ULI][ULI]+30% к сдерживанию патогенов[/ULI]</DescriptionBonuses>
-				<DescriptionObjective>[HL]Цель победы:[/HL] Завершить исследование проекта технологического уровня 6 или выше</DescriptionObjective>
+				<DescriptionBonuses>[HL]Bonuses:[/HL]\n[ULI]+30% All Research[/ULI][ULI]+30% Plague Curing[/ULI][ULI]+30% Plague Containment[/ULI]</DescriptionBonuses>
+				<DescriptionObjective>[HL]Victory Objective:[/HL] Complete research in a project of tech level 6 or higher</DescriptionObjective>
 				<ColonyEventDefinitionId>107</ColonyEventDefinitionId> 
 				<ObjectiveGameEventName>Great Direction - Smarter Objective (Atuuk)</ObjectiveGameEventName>
 				<VictoryObjectiveName>Great Direction: Smarter</VictoryObjectiveName>
@@ -375,8 +375,8 @@
 			</EmpireDirection>
 			<EmpireDirection>
 				<Name>Friendlier</Name>
-				<DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+40% к дипломатии[/ULI][ULI]+40% к пси-операциям[/ULI][ULI]+10% к счастью колоний[/ULI]</DescriptionBonuses>
-				<DescriptionObjective>[HL]Задача:[/HL] Подписать оборонительный договор</DescriptionObjective>
+				<DescriptionBonuses>[HL]Bonuses:[/HL]\n[ULI]+40% Diplomacy[/ULI][ULI]+40% Psy Ops[/ULI][ULI]+10% Colony Happiness[/ULI]</DescriptionBonuses>
+				<DescriptionObjective>[HL]Objective:[/HL] Sign a new Defense treaty</DescriptionObjective>
 				<ColonyEventDefinitionId>108</ColonyEventDefinitionId> 
 				<ObjectiveGameEventName>Great Direction - Friendlier Objective (Atuuk)</ObjectiveGameEventName>
 				<VictoryObjectiveName>Great Direction: Friendlier</VictoryObjectiveName>
@@ -384,8 +384,8 @@
 			</EmpireDirection>
 			<EmpireDirection>
 				<Name>Stronger</Name>
-				<DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+40% к снижению усталости от войны[/ULI][ULI]+20% к штурмовой мощи[/ULI][ULI]+40% к скорости восстановления войск[/ULI][ULI]+20% к урону оружия[/ULI][ULI]+40% к скорости строительства кораблей[/ULI][ULI]+40% к скорости ремонта кораблей[/ULI]</DescriptionBonuses>
-				<DescriptionObjective>[HL]Цель победы:[/HL] Уничтожить вражеский линкор или авианосец</DescriptionObjective>
+				<DescriptionBonuses>[HL]Bonuses:[/HL]\n[ULI]+40% War Weariness Reduction[/ULI][ULI]+20% Ground Attack Strength[/ULI][ULI]+40% Troop Recovery Rate[/ULI][ULI]+20% Weapons Damage[/ULI][ULI]+40% Ship Construction Speed[/ULI][ULI]+40% Ship Repair Rate[/ULI]</DescriptionBonuses>
+				<DescriptionObjective>[HL]Victory Objective:[/HL] Destroy an enemy Battleship or Carrier</DescriptionObjective>
 				<ColonyEventDefinitionId>109</ColonyEventDefinitionId> 
 				<ObjectiveGameEventName>Great Direction - Stronger Objective (Atuuk)</ObjectiveGameEventName>
 				<VictoryObjectiveName>Great Direction: Stronger</VictoryObjectiveName>
@@ -393,8 +393,8 @@
 			</EmpireDirection>
 			<EmpireDirection>
 				<Name>Richer</Name>
-				<DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+10% к доходу колонии[/ULI][ULI]+5% к снижению коррупции в колониях[/ULI][ULI]+25% к доходу от торговли[/ULI][ULI]+25% к доходу от туризма[/ULI]</DescriptionBonuses>
-				<DescriptionObjective>[HL]Цель победы:[/HL] Обеспечить положительный денежный поток империи на уровне +50 000 или выше</DescriptionObjective>
+				<DescriptionBonuses>[HL]Bonuses:[/HL]\n[ULI]+10% Colony Income[/ULI][ULI]+5% Colony Corruption Reduction[/ULI][ULI]+25% Trade Income[/ULI][ULI]+25% Tourism Income[/ULI]</DescriptionBonuses>
+				<DescriptionObjective>[HL]Victory Objective:[/HL] Achieve empire cashflow of +50K or greater</DescriptionObjective>
 				<ColonyEventDefinitionId>110</ColonyEventDefinitionId> 
 				<ObjectiveGameEventName>Great Direction - Richer Objective (Atuuk)</ObjectiveGameEventName>
 				<VictoryObjectiveName>Great Direction: Richer</VictoryObjectiveName>
@@ -402,8 +402,8 @@
 			</EmpireDirection>
 			<EmpireDirection>
 				<Name>Faster</Name>
-				<DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+40% к исследованиям двигателей[/ULI][ULI]+40% к исследованиям гипердвигателей[/ULI][ULI]+25% к скорости гиперпрыжка[/ULI][ULI]+25% к скорости корабля[/ULI][ULI]+25% к маневренности корабля[/ULI]</DescriptionBonuses>
-				<DescriptionObjective>[HL]Цель победы:[/HL] Завершить исследование проекта «Улучшенные двигатели»</DescriptionObjective>
+				<DescriptionBonuses>[HL]Bonuses:[/HL]\n[ULI]+40% Engine Research[/ULI][ULI]+40% Hyperdrive Research[/ULI][ULI]+25% Hyperjump Speed[/ULI][ULI]+25% Ship Speed[/ULI][ULI]+25% Ship Maneuvering[/ULI]</DescriptionBonuses>
+				<DescriptionObjective>[HL]Victory Objective:[/HL] Complete research in the Advanced Engines project</DescriptionObjective>
 				<ColonyEventDefinitionId>111</ColonyEventDefinitionId> 
 				<ObjectiveGameEventName>Great Direction - Faster Objective (Atuuk)</ObjectiveGameEventName>
 				<VictoryObjectiveName>Great Direction: Faster</VictoryObjectiveName>
@@ -411,8 +411,8 @@
 			</EmpireDirection>
 			<EmpireDirection>
 				<Name>Sneakier</Name>
-				<DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+40% к шпионажу[/ULI][ULI]+40% к контршпионажу[/ULI][ULI]+40% к диверсиям[/ULI]</DescriptionBonuses>
-				<DescriptionObjective>[HL]Цель победы:[/HL] Украсть проект исследования технологического уровня 6 или выше</DescriptionObjective>
+				<DescriptionBonuses>[HL]Bonuses:[/HL]\n[ULI]+40% Espionage[/ULI][ULI]+40% Counter Espionage[/ULI][ULI]+40% Sabotage[/ULI]</DescriptionBonuses>
+				<DescriptionObjective>[HL]Victory Objective:[/HL] Steal a research project of tech level 6 or higher</DescriptionObjective>
 				<ColonyEventDefinitionId>112</ColonyEventDefinitionId> 
 				<ObjectiveGameEventName>Great Direction - Sneakier Objective (Atuuk)</ObjectiveGameEventName>
 				<VictoryObjectiveName>Great Direction: Sneakier</VictoryObjectiveName>
@@ -420,8 +420,8 @@
 			</EmpireDirection>
 			<EmpireDirection>
 				<Name>Multiply</Name>
-				<DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+25% к скорости роста населения[/ULI]</DescriptionBonuses>
-				<DescriptionObjective>[HL]Цель победы:[/HL] Достичь численности населения империи в 100 миллиардов</DescriptionObjective>
+				<DescriptionBonuses>[HL]Bonuses:[/HL]\n[ULI]+25% Population Growth Rate[/ULI]</DescriptionBonuses>
+				<DescriptionObjective>[HL]Victory Objective:[/HL] Achieve empire population of 100 billion</DescriptionObjective>
 				<ColonyEventDefinitionId>113</ColonyEventDefinitionId> 
 				<ObjectiveGameEventName>Great Direction - Multiply Objective (Atuuk)</ObjectiveGameEventName>
 				<VictoryObjectiveName>Great Direction: Multiply</VictoryObjectiveName>
@@ -479,25 +479,25 @@
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
 		<FeatureExplanations>
-			<string>[HL]Изменения лидеров:[/HL] обратите внимание, что [B]Атууки не подчиняются обычным механизмам смены лидеров в выбранном ими правительстве[/B]. Вместо этого они выбирают новых лидеров с помощью функций [B]Великое Направление[/B] и [B]Великий[/B], описанных ниже. Таким образом, фракции Атууков не могут вручную сместить своего Лидера.</string>
-			<string>[HL]Великое Направление:[/HL] каждые 5 лет выбирайте одну из трёх Великих Направлений с сопутствующими бонусами, действующими в течение 5 лет. Всего существует семь Великих Направлений, каждое со своей уникальной целью победы.</string>
-			<string>[HL]Кто станет Великим?:[/HL] периодически предлагается выбор из двух персонажей для назначения Великими Атууками будущего. Тот, кого выберут, получит черту [B]Великий потенциал[/B], что сделает его пригодным для будущего лидерства</string>
-			<string>[HL]Великий:[/HL] всякий раз при смене Великого Направления существует 25%-ная вероятность того, что новый Лидер Фракции должен быть избран из двух случайно выбранных персонажей с чертой [B]Большой потенциал[/B]. Новый лидер может оказаться обладающим необходимыми качествами для роли [B]Великого[/B]. В противном случае новый лидер может оказаться разочарованием ([B]Не Великий[/B]), что приведёт к повторному выбору через год.</string>
-			<string>[HL]Сомнения в Направлении:[/HL] всякий раз, когда Великое Направление меняется, существует 20%-ная вероятность того, что некоторые Атуук усомнятся в этом изменении. В таком случае на два года Атуук испытывают снижение уровня счастья на 10%, пока приспосабливаются к новому направлению</string>
-			<string>[HL]Быстрая незапланированная разборка:[/HL] иногда корабль государства Атуук выходит из строя из-за плохого качества инженерии. Корабль, скорее всего, получит серьёзные повреждения или даже будет полностью уничтожен. Чаще это происходит с кораблями в гиперпространстве.</string>
-			<string>[HL]Что делает эта кнопка?:[/HL] при каждом критическом успехе исследования появляется выбор: нажать кнопку или не нажимать её, что приводит к различным позитивным или негативным событиям.</string>
-			<string>[HL]Смертоносны в численности:[/HL] +25% бонус к наземным боям, когда отряды Атуук превосходят противника по количеству во время колониального сражения</string>
-			<string>[HL]Мы Велики![/HL] +5% к счастью и снижение коррупции на 10% в течение одного года при подписании любого из договоров: о свободной торговле, научном сотрудничестве или оборонительного союза.</string>
-			<string>[HL]Уникальная черта лидера - Процветание:[/HL] +5% к доходу колоний, +5% к торговым доходам</string>
-			<string>[HL]Уникальная черта лидера - Первый из многих:[/HL] +5% к росту населения колоний</string>
-			<string>[HL]Уникальная черта лидера - Великий:[/HL] +10% Счастье империи</string>
-			<string>[HL]Уникальная черта лидера - Не Великий:[/HL] −20% Счастье империи</string>
-			<string>[HL]Уникальная черта посла - Обаяние:[/HL] +5% к дипломатии, +10% к психологическим операциям</string>
-			<string>[HL]Уникальная черта посла - Доверчивость:[/HL] −5% к дипломатии, −10% торговым доходам</string>
-			<string>[HL]Уникальная общая черта - Почётный охотник:[/HL] +10% к силе атаки войск</string>
-			<string>[HL]Уникальная черта адмирала - Безумие скорости:[/HL] +20% к скорости кораблей, +20% к маневренности кораблей, −10% к экономии на обслуживании кораблей</string>
-			<string>[HL]Уникальная черта учёного - Интуитивность:[/HL] +10% к исследованиям строительства</string>
-			<string>[HL]Уникальная шпионская черта - Милая, но смертоносная:[/HL] +10% к шпионажу, +10% к убийствам</string>
+			<string>[HL]Leader Changes:[/HL] note that [B]Atuuks do not follow the normal leader change mechanisms of their chosen government[/B]. Instead they select new leaders using the [B]Great Direction[/B] and [B]Great One[/B] features outlined below. Thus Atuuk factions cannot manually dismiss their Leader</string>
+			<string>[HL]The Great Direction:[/HL] every 5 years select from a choice of three Great Directions with associated bonuses which apply for 5 years. There are seven Great Directions in all, each with a unique victory objective</string>
+			<string>[HL]Who is Great?:[/HL] periodically presented with a choice of two characters to be designated Great Atuuks of the future. Whichever one is chosen gains the [B]Great Potential[/B] trait, making them eligible for future leadership</string>
+			<string>[HL]The Great One:[/HL] whenever the Great Direction changes, there is a 25% chance that a new Faction Leader must then be chosen from two randomly-selected characters with the [B]Great Potential[/B] trait. The new leader may turn out to have the right qualities to be [B]The Great One[/B]. Alternatively, the new leader may turn out to be a disappointment ([B]Not The Great One[/B]), leading to a reselection one year later</string>
+			<string>[HL]Direction Doubt:[/HL] whenever the Great Direction changes, there is a 20% chance that some Atuuk have doubts about the change. If so, then for two years the Atuuk suffer -10% Happiness as they adjust to the new direction</string>
+			<string>[HL]Rapid Unscheduled Disassembly:[/HL] occasionally an Atuuk state ship will suffer a major failure due to poor engineering. The ship will likely experience major damage, or it may even be completely destroyed. More likely to happen to ships in hyperspace.</string>
+			<string>[HL]What Does This Button Do?:[/HL] whenever a Critical Research Success occurs there is a choice to Push the Button or Don't Push the Button, leading to various positive or negative events</string>
+			<string>[HL]Deadly... in Numbers:[/HL] +25% ground combat bonus when Atuuk troop units outnumber their enemy during a colony battle</string>
+			<string>[HL]We Are Great!:[/HL] +5% Happiness and +10% Corruption Reduction for one year whenever sign a Free Trade Agreement, Research Treaty or Defense Treaty</string>
+			<string>[HL]Unique Leader trait - Prosperous:[/HL] +5% Colony Income, +5% Trade Income</string>
+			<string>[HL]Unique Leader trait - First of Many:[/HL] +5% Colony Population Growth</string>
+			<string>[HL]Unique Leader trait - The Great One:[/HL] +10% Empire Happiness</string>
+			<string>[HL]Unique Leader trait - Not The Great One:[/HL] -20% Empire Happiness</string>
+			<string>[HL]Unique Ambassador trait - Endearing:[/HL] +5% Diplomacy, +10% PsyOps</string>
+			<string>[HL]Unique Ambassador trait - Gullible:[/HL] -5% Diplomacy, -10% Trade Income</string>
+			<string>[HL]Unique General trait - Honored Hunter:[/HL] +10% Troop Attack Strength</string>
+			<string>[HL]Unique Admiral trait - Speed Maniac:[/HL] +20% Ship Speed, +20% Ship Maneuvering, -10% Ship Maintenance Savings</string>
+			<string>[HL]Unique Scientist trait - Intuitive:[/HL] +10% Construction Research</string>
+			<string>[HL]Unique Spy trait - Cute But Deadly:[/HL] +10% Espionage, +10% Assassination</string>
 		</FeatureExplanations>
 		<DefaultInfantryId>43</DefaultInfantryId> 
 		<Name>Atuuk</Name>

@@ -39,7 +39,9 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Время странствий</MessageTitle>
-				<Description>Наше недавнее основание новой колонии в [LOCATION]{6}[/LOCATION] вызвало новую волну стремления к странствиям и кочевых настроений среди нашего населения Тиканов.\n\nВ результате [LOCATION]{6}[/LOCATION] станет очень популярным направлением для миграции на следующие 5 лет.</Description>
+				<Description>Our recent settlement of a new colony at [LOCATION]{6}[/LOCATION] has ignited a fresh wave of wanderlust and nomadic sentiment in our Teekan population.
+
+As a result [LOCATION]{6}[/LOCATION] will be a very popular migration destination for the next 5 years.</Description>
 				<ImageFilepath>Environment/Events/Wander Time</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>

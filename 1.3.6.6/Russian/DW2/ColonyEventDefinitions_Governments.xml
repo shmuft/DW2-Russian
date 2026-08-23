@@ -19,7 +19,13 @@
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<MinimumIntervalPerEmpireYears>20</MinimumIntervalPerEmpireYears>
 		<Name>Всплеск научно-исследовательских работ</Name>
-		<Description>Наша [B]демократическая форма правления[/B] поощрила предприимчивый дух нашего народа.\n\nРасходы на исследования и разработки со стороны наших частных корпораций резко возросли.\n\nТаким образом, в течение следующего года наша империя получит следующие бонусы:\n\n[ULI][BONUS]+10% ко всем исследованиям[/BONUS][/ULI]</Description>
+		<Description>Our [B]Democratic form of government[/B] has encouraged the enterprising spirit of our people.
+			
+Research and Development spending by our private corporations has soared.
+			
+Thus for the next year our empire will enjoy the following bonuses:
+
+[ULI][BONUS]+10% boost to All Research[/BONUS][/ULI]</Description>
 		<ImageFilename>Environment/Events/Democracy Positive Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -41,7 +47,13 @@
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<MinimumIntervalPerEmpireYears>20</MinimumIntervalPerEmpireYears>
 		<Name>Энергия сотрудничества</Name>
-		<Description>Наша [B]демократическая форма правления[/B] поощрила предприимчивый дух нашего народа.\n\nВ нашем населении растёт сильное стремление к единству и сотрудничеству.\n\nТаким образом, в течение следующего года наша империя получит следующие бонусы:\n\n[ULI][BONUS]+10% к навыку дипломатии[/BONUS][/ULI]</Description>
+		<Description>Our [B]Democratic form of government[/B] has encouraged the enterprising spirit of our people.
+
+A strong desire for unity and cooperation is growing throughout our population.
+
+Thus for the next year our empire will enjoy the following bonuses:
+
+[ULI][BONUS]+10% boost to Diplomacy[/BONUS][/ULI]</Description>
 		<ImageFilename>Environment/Events/Democracy Positive Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -63,7 +75,13 @@
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<MinimumIntervalPerEmpireYears>20</MinimumIntervalPerEmpireYears>
 		<Name>Шпионские триллеры</Name>
-		<Description>Наша [B]демократическая форма правления[/B] поощрила предприимчивый дух нашего народа.\n\nВсеобщее увлечение шпионскими триллерами и фильмами привело к фокусу на операциях шпионажа и разведывательных миссиях.\n\nТаким образом, в течение следующего года наша империя получит следующие бонусы:\n\n[ULI][BONUS]+10% к навыку шпионажа[/BONUS][/ULI]</Description>
+		<Description>Our [B]Democratic form of government[/B] has encouraged the enterprising spirit of our people.
+
+A popular fascination with spy thriller novels and movies has caused a focus on espionage and intelligence missions.
+
+Thus for the next year our empire will enjoy the following bonuses:
+
+[ULI][BONUS]+10% boost to Espionage[/BONUS][/ULI]</Description>
 		<ImageFilename>Environment/Events/Democracy Positive Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -90,7 +108,14 @@
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<MinimumIntervalPerEmpireYears>20</MinimumIntervalPerEmpireYears>
 		<Name>Остросюжетное кино</Name>
-		<Description>Наша [B]демократическая форма правления[/B] поощрила предприимчивый дух нашего народа.\n\nВсеобщее увлечение патриотическими боевиками привело к фокусу на военных вопросах.\n\nТаким образом, в течение следующего года наша империя получит следующие бонусы:\n\n[ULI][BONUS]+10% к скорости набора войск[/BONUS][/ULI]\n[ULI][BONUS]+10% к экономии на содержании войск[/BONUS][/ULI]</Description>
+		<Description>Our [B]Democratic form of government[/B] has encouraged the enterprising spirit of our people.
+
+A popular fascination with patriotic action movies has caused a focus on military matters.
+
+Thus for the next year our empire will enjoy the following bonuses:
+
+[ULI][BONUS]+10% boost to Troop Recruitment Rate[/BONUS][/ULI]
+[ULI][BONUS]+10% boost to Troop Maintenance Savings[/BONUS][/ULI]</Description>
 		<ImageFilename>Environment/Events/Democracy Positive Boost</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -139,7 +164,7 @@
 		<EmpireHappiness>-5</EmpireHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Флагман уничтожен</Name>
-		<Description>Наш флагманский корабль империи погиб в бою.\n\nЭто катастрофическое событие вызвало волну скорби, снизив уровень счастья на следующий год.</Description>
+		<Description>Our empire flag ship has been lost in battle.\n\nThis catastrophic event has produced a wave of mourning, lowering happiness for the next year.</Description>
 		<ImageFilename>Environment/Events/flagship negative</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -150,7 +175,7 @@
 		<EmpireHappiness>5</EmpireHappiness>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Триумф флагмана</Name>
-		<Description>Флагман нашей империи одержал победу в решающем сражении.\n\nЭто великое достижение породило волну патриотического подъема, повысив уровень счастья на следующий год.</Description>
+		<Description>Our empire flag ship has triumphed in a decisive battle.\n\nThis great exploit has produced a wave of patriotic sentiment, raising happiness for the next year.</Description>
 		<ImageFilename>Environment/Events/flagship positive</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>

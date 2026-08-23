@@ -49,7 +49,7 @@
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Племенной конфликт</Name>
-		<Description>Вспыхнули межплеменные конфликты.\n\nЭто ускорило темпы роста популяции Гизурианов во всей нашей империи.\n\nОднако это также снизило уровень счастья в империи в целом.\n\nМы ожидаем, что этот племенной конфликт продлится от одного до трёх лет.</Description>
+		<Description>Inter-tribal conflicts have broken out.\n\nThis has boosted population growth rates for Gizureans throughout our empire.\n\nHowever it has also reduced empire-wide happiness.\n\nWe expect this tribal conflict to last anywhere from one to three years.</Description>
 		<ImageFilename>Environment/Events/tribe-wars</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -107,7 +107,7 @@
 		</PlagueModifiersPerRaceAmount>
 		<PlagueCuringFactor>1.5</PlagueCuringFactor>
 		<Name>Псионический вирус Шактури - Дельта-вариант</Name>
-		<Description>Псионический вирус Шактури делает вид более уязвимым для психических сил Шактури.\n\nЭто особенно смертоносная вариация.\n\nЗаражённые жертвы попадают под форму психического внушения, заставляя их действовать так, чтобы максимально увеличить распространение вируса. Таким образом, псионический вирус Шактури крайне заразен и может быстро распространяться.</Description>
+		<Description>Shakturi Psionic Virus makes a species more vulnerable to Shakturi psychic powers.\n\nThis is a particularly deadly variant.\n\nInfected victims come under a form of psychic suggestion, making them behave in ways that maximize the spread of the virus. Thus Shakturi Psionic Virus is very infectious and can spread rapidly.</Description>
 		<ImageFilename>Environment/Events/PsionicMindVirus</ImageFilename>
 	</ColonyEventDefinition>
 	<ColonyEventDefinition>
@@ -125,7 +125,7 @@
 		</Bonuses>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Мир-инкубатор</Name>
-		<Description>Мы уничтожаем инопланетные популяции на нашей колонии {0}, обеспечивая вкусный источник пищи для нового поколения Гизуриан!\n\nКаждый Мир-инкубатор в нашей империи обеспечит кумулятивный бонус [+10%] к темпам роста популяции Гизуриан[/BONUS].</Description>
+		<Description>We are exterminating foreign populations at our colony {0}, providing a tasty food source for a new generation of Gizureans!\n\nEach Breeding World in our empire will provide a cumulative [BONUS]+10% Gizurean population growth rate bonus[/BONUS].</Description>
 		<ImageFilename>Environment/Events/breeding world</ImageFilename>
 	</ColonyEventDefinition>
 </ArrayOfColonyEventDefinition>

@@ -52,7 +52,7 @@
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Чудеса прошлого</MessageTitle>
-				<Description>Наше недавнее исследование руин вызвало у нашего народа всплеск интереса к галактической истории.\n\nМы можем направить этот интерес одним из двух способов:\n[ULI]+10 к счастью империи на один год[/ULI][ULI]+10% ко всем исследованиям на один год[/ULI]\nКак нам использовать этот энтузиазм?</Description>
+				<Description>Our recent ruins exploration has triggered a renewed fascination with galactic history amongst our people.\n\nWe can choose to harness this interest in one of the following two ways:\n[ULI]+10 Empire Happiness for one year[/ULI][ULI]+10% All Research for one year[/ULI]\nHow should we exploit this enthusiasm?</Description>
 				<ImageFilepath>Environment/Events/Zenox Wonders of the Past</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -226,7 +226,7 @@
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Предсказательная история</MessageTitle>
-				<Description>Наши недавние раскопки дают нам возможность применить здесь наши открытия для улучшения дипломатических и разведывательных миссий нашей империи, но ценой замедления исследований.\n\nЕсли мы воспользуемся этой возможностью, то в течение следующих двух лет получим следующие бонусы и штрафы:[ULI][BAD]-5% ко всем исследованиям[/BAD][/ULI][ULI][GOOD]+10% к дипломатии[/GOOD][/ULI][ULI][GOOD]+10% к контршпионажу[/GOOD][/ULI][ULI][GOOD]+10% к шпионажу[/GOOD][/ULI][ULI][GOOD]+10% к Пси-операциям[/GOOD][/ULI]\n\nСледует ли нам применить эти открытия таким образом или нет?</Description>
+				<Description>Our recent ruins exploration provides us with an opportunity to apply our discoveries here to enhance our empire's diplomacy and intelligence missions, but at the cost of slowing our research.\n\nIf we take this opportunity we will experience the following benefits and penalties for the next two years:[ULI][BAD]-5% All Research[/BAD][/ULI][ULI][GOOD]+10% Diplomacy[/GOOD][/ULI][ULI][GOOD]+10% Counterespionage[/GOOD][/ULI][ULI][GOOD]+10% Espionage[/GOOD][/ULI][ULI][GOOD]+10% PsyOps[/GOOD][/ULI]\nShould we apply these discoveries in this way or not?</Description>
 				<ImageFilepath>Environment/Events/Predictive History</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -358,7 +358,7 @@
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Сохранить руины</MessageTitle>
-				<Description>Наша недавняя колонизация мира с древними руинами открывает уникальную возможность.\n\nМы можем сделать одно из следующего с руинами:[ULI]Преобразовать руины в административное сооружение бесплатно (потеряв любые бонусы от руин)[/ULI][ULI]Сохранить руины, но с повышенным уровнем бонусов (1.5x)[/ULI]\nЧто мы должны сделать с руинами?</Description>
+				<Description>Our recent colonization of a world with ancient ruins presents a unique opportunity.\n\nWe can do one of the following with the ruins:[ULI]Convert the ruins to a Governance facility for free (losing any ruins bonuses)[/ULI][ULI]Keep the ruins, but with increased bonus levels (1.5x)[/ULI]\nWhat should we do with the ruins?</Description>
 				<ImageFilepath>Environment/Events/Zenox Preserve the Ruins</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -536,7 +536,7 @@
 			<GameEventAction>
 				<Type>StartColonyEvent</Type>
 				<MessageTitle>Поиск в архивах</MessageTitle>
-				<Description>Наше исследование архивов открыло утраченные научные знания, ускоряющие наши исследовательские усилия!\n\nВ течение следующих двух лет наша империя получит бонус [BONUS]+5% ко всем исследованиям[/BONUS].</Description>
+				<Description>Our search of the archives has revealed lost scientific knowledge that accelerates our research efforts!\n\nFor the next two years our empire will benefit from a [BONUS]+5% All Research[/BONUS] bonus.</Description>
 				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -577,7 +577,7 @@
 			<GameEventAction>
 				<Type>StartColonyEvent</Type>
 				<MessageTitle>Поиск в архивах</MessageTitle>
-				<Description>Наше исследование архивов раскрыло новые подробности о древних Зеноксах, очаровав народ нашей империи!\n\nВ течение следующих двух лет наша колония получит бонус к счастью [+10].</Description>
+				<Description>Our search of the archives has revealed more details about the ancient Zenox, fascinating the people of our empire!\n\nFor the next two years our colony will benefit from a [HL]+10 Happiness[/HL] boost.</Description>
 				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -618,7 +618,7 @@
 			<GameEventAction>
 				<Type>NavigationalCoordinatesRandomSelection</Type>
 				<MessageTitle>Поиск в архивах</MessageTitle>
-				<Description>Наше исследование архивов выявило особое место в галактике.\n\nСведений об этом месте крайне мало. Мы смогли лишь приблизительно определить его местоположение по случайным упоминаниям в архивах. Поэтому мы не знаем о нём ничего, кроме того, что оно обладает определённой важностью. Вероятно, нам следует исследовать это место.\n\nНа нашу карту галактики добавлен [HL]навигационный маяк[/HL]. Это место также можно найти в списке особых локаций в разделе «Исследование».</Description>
+				<Description>Our search of the archives has revealed a special location in the galaxy.\n\nDetails on this location are very thin. We have only been able to infer it's location through passing mentions of it in the archives. So we do not know much about it, except that it has some importance. We should probably investigate this location.\n\nA [HL]navigational marker ping[/HL] has been added to our galaxy map. This location can also be found in our Special Locations list in the Exploration section.</Description>
 				<ImageFilepath>Environment/Events/Zenox Search the Archives</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
