@@ -381,9 +381,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Наследие Силы Кода</MessageTitle>
-				<Description>Our scientists believe that the ancient AI, now in its safe and modified state, can be revived. It presents no danger, and is certain to be a source of safe and compelling amusement for our people. Because of the nature of the A.I.'s games, we believe playing will improve some of our tactical skills.
-
-We now have the [ARTIFACT]S.L.I.T.H.E.R.I.N.E. Mainframe[/ARTIFACT] installed on our home colony.</Description>
+				<Description>Наши учёные полагают, что древний ИИ, находящийся сейчас в безопасном и модифицированном состоянии, можно оживить. Он не представляет никакой опасности и наверняка станет источником безопасного и увлекательного развлечения для нашего народа. Учитывая природу игр ИИ, мы считаем, что участие в них позволит нам улучшить некоторые тактические навыки.\n\nТеперь на нашей родной колонии установлен [ARTIFACT]Мэйнфрейм S.L.I.T.H.E.R.I.N.E.[/ARTIFACT].</Description>
 				<ImageFilepath>Artifacts/Slitherine Mainframe</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -718,7 +716,7 @@ We now have the [ARTIFACT]S.L.I.T.H.E.R.I.N.E. Mainframe[/ARTIFACT] installed on
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>К звёздам!</MessageTitle>
-				<Description>For countless generations, we have looked to the stars while living among the remains of the civilization of our ancestors.\n\nTales from those days of a terrible cataclysm which destroyed them were passed down to us, but only recently has our science allowed us to better understand the artifacts they left behind. We now know for certain that we are not the first of our kind to leave our planet. \n\nThey went to the stars before us and left behind a path for us to follow, in the form of these ancient relics. Our long study of these ruins has helped us learn to construct starships and possibly even faster than light travel without the effects of time dilation.  We have also recovered a great many unusual resources vital to these technologies from the ruins. Most of these resources do not otherwise exist on our world and must be used carefully. As our first priority, we must find more of these resources our ancestors had access to, to allow our research and exploration to continue.\n\nWe must also complete our hyperspace research to allow us to much more rapidly explore our system and beyond!\n\nPerhaps, just perhaps, our ancestors are still out there somewhere, waiting for us, but the legends of destruction mean that we must also prepare our defenses for whatever we may find.</Description>
+				<Description>На протяжении бесчисленных поколений мы взирали в звёздную даль, живя среди остатков цивилизации наших предков.\n\nСказания тех дней о ужасном катаклизме, уничтожившем их, передавались нам из поколения в поколение, но лишь недавно наша наука позволила нам лучше понять артефакты, которые они оставили. Теперь мы точно знаем: мы не первые из нашего вида, покинувшие нашу планету.\n\nОни отправились к звёздам раньше нас и проложили путь для нас в виде этих древних реликвий. Наше долгое изучение этих руин помогло нам научиться создавать звездные корабли и, возможно, даже осуществлять гиперпространственные перемещения без эффектов временной дилатации. Мы также извлекли из руин множество необычных ресурсов, жизненно важных для этих технологий. Большинство этих ресурсов иначе не существует на нашей планете и должно использоваться с осторожностью. В качестве нашего первоочередного приоритета мы должны найти больше таких ресурсов, к которым имели доступ наши предки, чтобы продолжить наши исследования и исследования.\n\nМы также должны завершить наши исследования гиперпространства, чтобы иметь возможность гораздо быстрее исследовать нашу систему и пространства за её пределами!\n\nВозможно, всего лишь возможно, что наши предки всё ещё где-то там, вдали, ждут нас, но легенды о разрушении означают, что мы также должны подготовить наши оборонительные силы к тому, что бы мы ни обнаружили.</Description>
 				<ImageFilepath>UserInterface/Races/Human</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -2075,7 +2073,7 @@ We now have the [ARTIFACT]S.L.I.T.H.E.R.I.N.E. Mainframe[/ARTIFACT] installed on
 	<GameEvent>
 		<Name>SpecialEvent_PreWarpHomeSystem_AbandonedBase_TechOrMaps</Name>
 		<Title>Какие данные мы должны загрузить?</Title>
-		<Description>As our team enters the base it automatically initiates a wipe of the central computer core!\n\nWe only have time to download one piece of information: either some star system maps or important research data.\n\nWhich item should we download?</Description>
+		<Description>По мере того как наша команда входит в базу, автоматически запускается процесс стирания центрального компьютерного ядра!\n\nУ нас есть время загрузить лишь один фрагмент информации: либо карты звездных систем, либо важные исследовательские данные.\n\nКакой элемент мы должны загрузить?</Description>
 		<TriggerType>Acquire</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
@@ -2921,7 +2919,7 @@ We now have the [ARTIFACT]S.L.I.T.H.E.R.I.N.E. Mainframe[/ARTIFACT] installed on
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Найдено древнее Ядро данных</MessageTitle>
-				<Description>We have encountered a computer datacore floating in space. It looks to be mostly intact.\n\nWe should investigate further - it may be possible to salvage something useful from the datacore.</Description>
+				<Description>Мы обнаружили в космосе плавающий компьютерный ядро данных. Оно, похоже, в основном целое.\n\nНам следует провести более тщательное расследование - возможно, удастся извлечь что-то полезное из этого ядра данных.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -2992,7 +2990,7 @@ We now have the [ARTIFACT]S.L.I.T.H.E.R.I.N.E. Mainframe[/ARTIFACT] installed on
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Найдено древнее Ядро данных</MessageTitle>
-				<Description>We have encountered a computer datacore floating in space. It looks to be mostly intact.\n\nWe should investigate further - it may be possible to salvage something useful from the datacore.</Description>
+				<Description>Мы обнаружили в космосе плавающий компьютерный ядро данных. Оно, похоже, в основном целое.\n\nНам следует провести более тщательное расследование - возможно, удастся извлечь что-то полезное из этого ядра данных.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -3063,7 +3061,7 @@ We now have the [ARTIFACT]S.L.I.T.H.E.R.I.N.E. Mainframe[/ARTIFACT] installed on
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Обнаружен загадочный объект</MessageTitle>
-				<Description>We have encountered some strange debris. It looks to be biological in origin and very old.\n\nIts appearance matches ancient descriptions of terrifying space monsters - it seems to be the carcass of one of these huge monsters.\n\nWe should investigate further, it may be possible to salvage something useful from the carcass.</Description>
+				<Description>Мы обнаружили странные обломки. Они имеют биологическое происхождение и очень древние.\n\nИх внешний вид совпадает с древними описаниями ужасающих космических чудовищ - похоже, это туша одного из этих гигантских существ.\n\nНам следует провести более тщательное расследование: возможно, удастся извлечь что-то полезное из этой туши.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -3132,7 +3130,7 @@ We now have the [ARTIFACT]S.L.I.T.H.E.R.I.N.E. Mainframe[/ARTIFACT] installed on
 			<GameEventAction>
 				<Type>StartColonyEvent</Type>
 				<MessageTitle>Бум добычи</MessageTitle>
-				<Description>We have discovered a strange magnetic anomaly that has caused seismic disturbances at all locations across our home system.\n\nAs a result mining for resources has become significantly easier. Thus for at least the next year we will enjoy a large mining bonus!</Description>
+				<Description>Мы обнаружили странную магнитную аномалию, вызвавшую сейсмические возмущения во всех локациях нашей родной системы.\n\nВ результате добыча ресурсов стала значительно проще. Таким образом, как минимум в течение следующего года мы будем получать крупный бонус к добыче!</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -3551,7 +3549,7 @@ We now have the [ARTIFACT]S.L.I.T.H.E.R.I.N.E. Mainframe[/ARTIFACT] installed on
 	<GameEvent>
 		<Name>SpecialEvent_PreWarpHomeSystem_AbandonedBase_RevealIndependentColonyOrGalacticCoordinates</Name>
 		<Title>Какие данные мы должны загрузить?</Title>
-		<Description>As our team enters the base it automatically initiates a wipe of the central computer core!\n\nWe only have time to download one piece of information: either the location of a nearby independent colony or a mysterious set of galactic coordinates.\n\nWhich item should we download?</Description>
+		<Description>По мере того как наша команда входит в базу, автоматически запускается процесс стирания центрального компьютерного ядра!\n\nУ нас есть время загрузить лишь один фрагмент информации: либо местоположение близкой независимой колонии, либо загадочный набор галактических координат.\n\nКакой элемент мы должны загрузить?</Description>
 		<TriggerType>Acquire</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
@@ -3684,7 +3682,7 @@ We now have the [ARTIFACT]S.L.I.T.H.E.R.I.N.E. Mainframe[/ARTIFACT] installed on
 			<GameEventAction>
 				<Type>SetOrbDamage</Type>
 				<MessageTitle>Массивное землетрясение на нашем родном мире!</MessageTitle>
-				<Description>As our team enters the ruins a massive quake is mysteriously triggered at our homeworld in the same system!\n\nThe quake has caused extensive damage, even damaging the quality of the planet itself.\n\nHowever it has also revealed an [RESOURCE]abundant new resource at our homeworld![/RESOURCE]</Description>
+				<Description>По мере того как наша команда входит в руины, на нашей родной планете в той же системе таинственно происходит мощное землетрясение!\n\nЗемлетрясение нанесло обширные разрушения и даже ухудшило качество самой планеты.\n\nОднако оно также открыло [RESOURCE]обильный новый ресурс[/RESOURCE] на нашей родной планете!</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -3774,7 +3772,7 @@ We now have the [ARTIFACT]S.L.I.T.H.E.R.I.N.E. Mainframe[/ARTIFACT] installed on
 			<GameEventAction>
 				<Type>SetOrbDamage</Type>
 				<MessageTitle>Массивное землетрясение на нашем родном мире!</MessageTitle>
-				<Description>As our team enters the ruins a massive quake is mysteriously triggered at our homeworld in the same system!\n\nThe quake has caused extensive damage has even damaged the quality of the planet itself.\n\nHowever it has also revealed intriguing geological features at our homeworld that has given us a [BONUS]permanent bonus to all of our research![/BONUS]</Description>
+				<Description>По мере того как наша команда входит в руины, на нашей родной планете в той же системе таинственно происходит мощное землетрясение!\n\nЗемлетрясение нанесло обширные разрушения и даже ухудшило качество самой планеты.\n\nОднако оно также выявило интригующие геологические особенности на нашей родине, что дало нам [BONUS]постоянный бонус ко всем нашим исследованиям![/BONUS].</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -3862,7 +3860,7 @@ We now have the [ARTIFACT]S.L.I.T.H.E.R.I.N.E. Mainframe[/ARTIFACT] installed on
 			<GameEventAction>
 				<Type>SetOrbDamage</Type>
 				<MessageTitle>Массивное землетрясение на нашем родном мире!</MessageTitle>
-				<Description>As our team enters the ruins a massive quake is mysteriously triggered at our homeworld in the same system!\n\nThe quake has caused extensive damage has even damaged the quality of the planet itself.\n\nHowever it has also changed aspects of our homeworld, actually making it more hospitable to our race. As a result our homeworld now has a [BONUS]permanent population growth bonus![/BONUS]</Description>
+				<Description>По мере того как наша команда входит в руины, на нашей родной планете в той же системе таинственно происходит мощное землетрясение!\n\nЗемлетрясение нанесло обширный ущерб и даже ухудшило качество самой планеты.\n\nОднако оно также изменило некоторые аспекты нашего родного мира, фактически сделав его более пригодным для жизни нашей расы. В результате наша родная планета теперь обладает [BONUS]постоянным бонусом к росту населения![/BONUS].</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -6863,13 +6861,7 @@ We now have the [ARTIFACT]S.L.I.T.H.E.R.I.N.E. Mainframe[/ARTIFACT] installed on
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Частичные журналы, восстановленные из Древнего флота</MessageTitle>
-				<Description>We have boarded {0} and taken control.\n\nAlthough much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
-
-The messages indicate that this ship was part of the 4th Alliance Fleet. This fleet was tasked with defending a nearby system against something called the Shakturi. It appears that they were unsuccessful...
-
-In addition, we have found a set of galactic coordinates stored in the computer core. No explanation is given about these coordinates, but they appear to have been the next destination of the fleet...
-
-We have added a location ping for the coordinates to the galactic map.</Description>
+				<Description>Мы захватили {0} и взяли его под контроль.\n\nНесмотря на огромные потери, нам удалось извлечь небольшую часть журналов из центрального вычислительного ядра корабля.\n\nСообщения указывают на то, что этот корабль входил в состав 4-го флота Альянса. Этот флот был направлен для защиты близлежащей системы от некоего противника под названием Шактури. Похоже, они потерпели неудачу...\n\nКроме того, мы обнаружили набор галактических координат, сохраненных в вычислительном ядре. Никаких пояснений относительно этих координат не приведено, однако они, по-видимому, обозначали следующую точку назначения флота...\n\nМы добавили метку локации с этими координатами на галактическую карту.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7210,13 +7202,7 @@ We have added a location ping for the coordinates to the galactic map.</Descript
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Частичные журналы, восстановленные из Древнего флота</MessageTitle>
-				<Description>We have boarded {0} and taken control.\n\nAlthough much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
-
-The messages indicate that this ship was part of the 7th Alliance Fleet. This fleet was tasked with defending a nearby system against something called the Shakturi. It appears that they were unsuccessful...
-
-In addition, we have found a set of galactic coordinates stored in the computer core. No explanation is given about these coordinates, but they appear to have been the next destination of the fleet...
-
-We have added a location ping for the coordinates to the galactic map.</Description>
+				<Description>Мы захватили {0} и взяли его под контроль.\n\nНесмотря на значительные потери, нам удалось извлечь небольшую часть журналов из центрального вычислительного ядра корабля.\n\nСообщения указывают на то, что этот корабль входил в состав 7-го флота Альянса. Этот флот был направлен для защиты близлежащей системы от некоего противника под названием Шактури. Похоже, они потерпели неудачу...\n\nКроме того, мы обнаружили набор галактических координат, сохраненных в вычислительном ядре. Никаких пояснений относительно этих координат не приведено, но, по-видимому, они предназначались для следующего пункта назначения флота...\n\nМы добавили метку локации с этими координатами на галактическую карту.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7557,13 +7543,7 @@ We have added a location ping for the coordinates to the galactic map.</Descript
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Частичные журналы, восстановленные из Древнего флота</MessageTitle>
-				<Description>We have boarded {0} and taken control.\n\nAlthough much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
-
-The messages indicate that this ship was part of the 9th Alliance Fleet. This fleet was tasked with defending a nearby system against something called the Shakturi. It appears that they were unsuccessful...
-
-In addition, we have found a set of galactic coordinates stored in the computer core. No explanation is given about these coordinates, but they appear to have been the next destination of the fleet...
-
-We have added a location ping for the coordinates to the galactic map.</Description>
+				<Description>Мы захватили {0} и взяли его под контроль.\n\nНесмотря на значительные потери, нам удалось извлечь небольшую часть журналов из центрального вычислительного ядра корабля.\n\nСообщения указывают на то, что этот корабль входил в 9-й флот Альянса. Этот флот был направлен для защиты близлежащей системы от чего-то под названием Шактури. Похоже, они потерпели неудачу...\n\nКроме того, мы обнаружили набор галактических координат, сохраненных в вычислительном ядре. Никаких пояснений относительно этих координат не приведено, но, по-видимому, они предназначались для следующего пункта назначения флота...\n\nМы добавили метку местоположения с этими координатами на галактическую карту.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7904,13 +7884,7 @@ We have added a location ping for the coordinates to the galactic map.</Descript
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Частичные журналы, восстановленные из Древнего флота</MessageTitle>
-				<Description>We have boarded {0} and taken control.\n\nAlthough much has been lost, we have also been able to retrieve a small portion of the logs from the central computer core.
-
-The messages indicate that this ship was part of an ancient Mortalen fleet. This fleet was tasked with attacking a fearsome adversary known as the Shakturi. Apparently the Shakturi won the battle...
-
-In addition, we have found a set of galactic coordinates stored in the computer core. No explanation is given about these coordinates, but they appear to have been the next destination of the fleet...
-
-We have added a location ping for the coordinates to the galactic map.</Description>
+				<Description>Мы высадились на {0} и взяли корабль под контроль.\n\nХотя многое было утрачено, нам также удалось извлечь небольшую часть журналов из центрального вычислительного ядра.\n\nСообщения указывают на то, что этот корабль входил в состав древнего флота Морталенов. Этот флот был направлен для атаки грозного противника, известного как Шактури. По-видимому, Шактури одержали победу в этом сражении...\n\nКроме того, мы обнаружили набор галактических координат, сохраненных в вычислительном ядре. Никаких пояснений относительно этих координат не приводится, но они, по всей видимости, обозначали следующее место назначения флота...\n\nМы добавили метку локации с этими координатами на галактическую карту.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -8322,9 +8296,7 @@ We have added a location ping for the coordinates to the galactic map.</Descript
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Частичные журналы, восстановленные из древнего флота Акдариан</MessageTitle>
-				<Description>We have boarded {0} and taken control.\n\nAlthough much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
-
-The messages indicate that this fleet was part of an empire called The Freedom Alliance. This fleet was tasked with defending a nearby system against something called the Shakturi. It appears that they lost the battle...</Description>
+				<Description>Мы высадились на {0} и взяли его под контроль.\n\nХотя многое было утеряно, нам удалось извлечь небольшую часть журналов из центрального ядра компьютера.\n\nСообщения указывают на то, что этот флот входил в состав империи под названием Альянс Свободы. Этому флоту была поручена защита близлежащей системы от чего-то под названием Шактури. Похоже, они проиграли битву...</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -8407,9 +8379,7 @@ The messages indicate that this fleet was part of an empire called The Freedom A
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Частичные журналы, восстановленные из флота древних людей</MessageTitle>
-				<Description>We have boarded {0} and taken control.\n\nAlthough much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
-
-The messages indicate that this fleet was part of an empire called The Freedom Alliance. This fleet was tasked with defending a nearby system against something called the Shakturi. It appears that they lost the battle...</Description>
+				<Description>Мы высадились на {0} и взяли его под контроль.\n\nХотя многое было утеряно, нам удалось извлечь небольшую часть журналов из центрального ядра компьютера.\n\nСообщения указывают на то, что этот флот входил в состав империи под названием Альянс Свободы. Этому флоту была поручена защита близлежащей системы от чего-то под названием Шактури. Похоже, они проиграли битву...</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -8492,9 +8462,7 @@ The messages indicate that this fleet was part of an empire called The Freedom A
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Частичные журналы, восстановленные из древнего флота Зеноксов</MessageTitle>
-				<Description>We have boarded {0} and taken control.\n\nAlthough much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
-
-The messages indicate that this fleet was part of an empire called The Freedom Alliance. This fleet was tasked with defending a nearby system against something called the Shakturi. It appears that they lost the battle...</Description>
+				<Description>Мы высадились на {0} и взяли его под контроль.\n\nХотя многое было утеряно, нам удалось извлечь небольшую часть журналов из центрального ядра компьютера.\n\nСообщения указывают на то, что этот флот входил в состав империи под названием Альянс Свободы. Этому флоту была поручена защита близлежащей системы от чего-то под названием Шактури. Похоже, они проиграли битву...</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -8577,9 +8545,7 @@ The messages indicate that this fleet was part of an empire called The Freedom A
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Частичные журналы, восстановленные из древнего флота Боскара</MessageTitle>
-				<Description>We have boarded {0} and taken control.\n\nAlthough much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
-
-The messages indicate that this fleet was part of a fearsome empire called the Shaktur Axis. Their last intact log entry indicates that they were jumping to attack a Haakonish core world. The logs contain no indication of a battle, yet this fleet was clearly destroyed by something...</Description>
+				<Description>Мы захватили {0} и взяли его под контроль.\n\nХотя многое было утеряно, нам удалось извлечь небольшую часть журналов из центрального вычислительного ядра корабля.\n\nСообщения указывают на то, что этот флот входил в состав грозной империи, известной как Ось Шактури. Последняя сохранившаяся запись в журнале свидетельствует о том, что они совершали прыжок для атаки ключевого мира Хааконишей. В журналах нет никаких признаков битвы, однако этот флот был явно уничтожен чем-то...</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -8665,7 +8631,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Обнаружено неизвестное поле обломков</MessageTitle>
-				<Description>We have encountered a vast field of ship debris in the {1} system.\n\nThe debris appears very alien - some items are covered in strange glyphs that do not correspond to any known language, past or present.\n\nThe field contains no complete ships, only smaller debris - the ships must have been completely shattered to pieces by something, leaving no intact hulls at all.</Description>
+				<Description>Мы обнаружили обширное поле обломков кораблей в системе {1}.\n\nОбломки выглядят крайне чужеродно: некоторые предметы покрыты странными рунами, не соответствующими ни одному известному языку - ни древнему, ни современному.\n\nВ этом поле нет целых кораблей, лишь мелкие обломки; очевидно, корабли были полностью разбиты на части чем-то, не оставившим ни единого неповреждённого корпуса.</Description>
 				<MusicFilepath>music/extra/discovery.mp3</MusicFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -8773,7 +8739,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Обнаружено неизвестное поле обломков</MessageTitle>
-				<Description>We have encountered a vast field of ship debris in the {1} system.\n\nThe debris appears very alien - some items are covered in strange glyphs that do not correspond to any known language, past or present.\n\nThe field contains no complete ships, only smaller debris - the ships must have been completely shattered to pieces by something, leaving no intact hulls at all.</Description>
+				<Description>Мы обнаружили обширное поле обломков кораблей в системе {1}.\n\nОбломки выглядят крайне чужеродно: некоторые предметы покрыты странными рунами, не соответствующими ни одному известному языку - ни древнему, ни современному.\n\nВ этом поле нет целых кораблей, лишь мелкие обломки; очевидно, корабли были полностью разбиты на части чем-то, не оставившим ни единого неповреждённого корпуса.</Description>
 				<MusicFilepath>music/extra/discovery.mp3</MusicFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -8881,7 +8847,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Обнаружено неизвестное поле обломков</MessageTitle>
-				<Description>We have encountered a vast field of ship debris in the {1} system.\n\nThe debris appears very alien - some items are covered in strange glyphs that do not correspond to any known language, past or present.\n\nThe field contains no complete ships, only smaller debris - the ships must have been completely shattered to pieces by something, leaving no intact hulls at all.</Description>
+				<Description>Мы обнаружили обширное поле обломков кораблей в системе {1}.\n\nОбломки выглядят крайне чужеродно: некоторые предметы покрыты странными рунами, не соответствующими ни одному известному языку - ни древнему, ни современному.\n\nВ этом поле нет целых кораблей, лишь мелкие обломки; очевидно, корабли были полностью разбиты на части чем-то, не оставившим ни единого неповреждённого корпуса.</Description>
 				<MusicFilepath>music/extra/discovery.mp3</MusicFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -9760,7 +9726,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Древние Ордена</MessageTitle>
-				<Description>Hail, Dirtsider!  We are the Ghost Fleet and we have long watched over your primitive world. Our old legends tell us that many, many years ago, some our ancestors settled among you.\n\nAs a result, of all the plague-filled dirtballs in the galaxy, we've been a bit protective of yours and we've generally discouraged other of the clans from raiding your system.  Now, this has cost us over time as some of the clans are fairly ultra-violent.\n\nAnyway, the legends also said that someday you would take to the stars again and that when that day came, we would be able to re-join our dirt-based ancestors in one happy new clan.  Well, seeing as this has now happened, we figure it's time for a chat.\n\nThe only thing is, we've been re-reading the legend and also talking over the cost of protecting your dirt-ball over the generations and the legend says that re-joining you will "return us to prosperity".\n\nWe figure this means you need to pay up and if you do, we'll know the prophecy was right and we'll join up with you.\n\nOtherwise, well... I guess we all know not all stories turn out to be true.  So what do you say?</Description>
+				<Description>Привет, землянин! Мы - Призрачный флот, и мы давно оберегали ваш примитивный мир. Наши древние легенды гласят, что очень давно некоторые из наших предков поселились среди вас.\n\nВ результате, из всех заражённых чумой грязных шаров в галактике, мы были несколько более заботливы к вашему и обычно удерживали другие кланы от налётов на вашу систему. Однако со временем это обошлось нам дорого, так как некоторые кланы довольно жестоки.\n\nВ любом случае, легенды также предсказывали, что однажды вы снова отправитесь в звёзды, и когда этот день наступит, мы сможем воссоединиться с нашими земляными предками в одном счастливом новом клане. Ну, раз это уже произошло, мы считаем, что пора поговорить.\n\nЕдинственное, о чём стоит упомянуть: мы перечитали легенду и обсудили цену защиты вашего грязного шара на протяжении поколений. В легенде сказано, что воссоединение с вами «вернёт нам процветание».\n\nМы полагаем, это означает, что вы должны заплатить. Если вы сделаете это, мы узнаем, что пророчество сбылось, и присоединимся к вам.\n\nВ противном случае... ну, думаю, все мы знаем, что не все истории заканчиваются счастливо. Так что скажете?</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -9770,7 +9736,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Pay the Ghost Fleet\n[-25,000cr]</ChoiceButtonText>
+				<ChoiceButtonText>Оплатить Призрачный флот\n[-25,000cr]</ChoiceButtonText>
 				<GeneratedItemName>Integrate Ghost Fleet (Human)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -9797,7 +9763,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Refuse the Pirate Offer\n[-20 Relations]</ChoiceButtonText>
+				<ChoiceButtonText>Отклонить пиратское предложение\n[-20 Отношений]</ChoiceButtonText>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -9881,7 +9847,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>IntegrateEmpire</Type>
 				<MessageTitle>Легенды были правдой.</MessageTitle>
-				<Description>Allright, a sign of good faith and gratitude from dirtsiders...\n\nI guess the legends were true after all, which means we share some common ancestors.  If all the legends are true, then we have a lot to tell you and maybe we need to also return to some of the older ways.\n\nFor now, we'll join our clans into one and share with you what our legends tell us.</Description>
+				<Description>Ладно, знак доброй воли и благодарности от землян...\n\nПохоже, легенды были правдой, а это значит, что у нас есть общие предки. Если все легенды верны, то нам есть чем поделиться с вами, и, возможно, нам стоит вернуться к некоторым старинным обычаям.\n\nНа данный момент мы объединим наши кланы в один и поделимся с вами тем, о чём говорят наши легенды.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -9924,7 +9890,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Легенда о Призрачном флоте</MessageTitle>
-				<Description>Two ages ago, before the Age of Shadows, there was no separation between space clans and dirt clans.  \n\nWe were one people, united against a terrible ancient enemy, The Shak-tur, that killed our people, destroyed our ships and our worlds and tore space itself apart.  This was a battle to the finish and defeating this enemy cost us most of our people, ships and worlds.\n\nBy the end of the war, the worlds were full of disease and wracked with natural disasters.  Only the toughest survived and those that went back dirtstide were usually lost.\n\nWe learned to survive in space.  We were part of a clan called the 8th Fleet back then and the only one that made it through the end.\n\nOur last orders were to protect this system, to keep it safe and hidden from the enemy, to do whatever it took to survive until the final victory when the worlds and the star clans would reunite and return to prosperity and cooperation.\n\nAfter two generations passed, some decided to go back dirtside and help those still alive there, but eventually they stopped communicating too.  We who remained started calling ourselves the Ghost Fleet because the ghosts of our ancestors fought with us.  We fought against the terrors of the void that appeared at the end of the last age, keeping them out of our system and away from our  resources.  We fought against and with some of the other star clans that survived.\n\nIt turned out some of the enemy survived too and we fought a long war against the "Hive" for many generations, losing many ships and much of the clan, but also meeting and sometimes trading with and fighting alongside other star clans, other fleets.\n\nEventually, we drove the last of the enemy away and then some of the clans turned on each other and we've been fighting them mostly for the last three generations or so.\n\nThere aren't as many clans as there used to be and it's been a while we've been watching and seeing the dirtsiders grow in number, guessing the plagues and disasters were over and someday we'd meet again.\n\nThe galaxy's a dangerous place and there's no telling what out there beyond this system, but working together we'll have a better chance at survival.</Description>
+				<Description>Два века назад, до Эпохи Теней, не существовало разделения между космическими кланами и обитателями поверхности.  \n\nМы были единым народом, объединённым против ужасного древнего врага - Ша-Тура, который убил наших людей, уничтожил наши корабли и миры и разорвал само пространство на части. Это была битва до конца, и победа над этим врагом стоила нам большей части нашего народа, кораблей и миров.\n\nК концу войны миры были переполнены болезнями и опустошены стихийными бедствиями. Выжили лишь самые стойкие, а те, кто вернулся на поверхность, обычно погибали.\n\nМы научились выживать в космосе. Тогда мы входили в состав клана под названием 8-й флот - единственного, кто дожил до конца войны.\n\nНаши последние приказы гласили: защищать эту систему, сохранять её в безопасности и скрывать от врага, делать всё необходимое для выживания до окончательной победы, когда миры и звёздные кланы воссоединятся и вернутся к процветанию и сотрудничеству.\n\nПрошло два поколения, и некоторые решили вернуться на поверхность, чтобы помочь тем, кто там ещё жив, но в конце концов связь с ними тоже прервалась. Мы, оставшиеся, начали называть себя Призрачным флотом, потому что вместе с нами сражались призраки наших предков. Мы сражались против ужасов пустоты, возникших в конце последней эпохи, не давая им проникнуть в нашу систему и завладеть нашими ресурсами. Мы сражались как против, так и вместе с другими звёздными кланами, пережившими войну.\n\nОказалось, что часть врага тоже выжила, и мы вели долгую войну против «Улья» на протяжении многих поколений, потеряв множество кораблей и значительную часть клана. Однако мы также встречались с другими звёздными кланами и флотами, иногда торговали с ними и даже сражались плечом к плечу.\n\nВ конце концов мы изгнали последнего врага, но затем некоторые кланы повернулись друг против друга, и вот уже примерно три поколения мы в основном воюем между собой.\n\nКланов осталось меньше, чем раньше, и давно мы наблюдаем за тем, как обитатели поверхности растут численно, предполагая, что чумы и бедствия закончились, и однажды мы снова встретимся.\n\nГалактика - опасное место, и никто не знает, что скрывается за пределами этой системы. Но работая вместе, у нас будет больше шансов на выживание.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -10040,7 +10006,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<EmpireRelationType>Undefined</EmpireRelationType>
-				<ChoiceButtonText>Stabilize and Explore \n[-20,000cr]</ChoiceButtonText>
+				<ChoiceButtonText>Стабилизировать и исследовать\n[-20,000cr]</ChoiceButtonText>
 				<GeneratedItemName>Stabilize Buried Battleship (Human)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<MessageViewMode>Undefined</MessageViewMode>
@@ -10150,7 +10116,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Успешная стабилизация</MessageTitle>
-				<Description>Quick action succeeds in stabilizing the area around the battleship and while the ongoing tremors cause some shifting and a few injuries, your team is able to fully explore the wreck and its secrets.\n\nThe ancient remains you discover throughout the ship suggest that its arrival on the surface of the planet was unplanned and sudden.  The structure shows indications of battle scars as well as a crash landing, with extensive damage which was exacerbated by the centuries of seismic activity. \n\nRecovered fragments indicate that this was once the SRS Liberty, a Battleship of the Human Solar Republic and flagship of the 8th Fleet, with roughly 800 crew and 200 marines.\n\nIn addition to this information, your exploration teams are able to recover significant remains of advanced Hyperdrive and Sensor technologies.</Description>
+				<Description>Быстрые действия позволили стабилизировать район вокруг линкора. Хотя продолжающиеся подземные толчки вызвали некоторые смещения и несколько ранений, ваша команда смогла полностью осмотреть обломки корабля и раскрыть его тайны.\n\nДревние останки, обнаруженные вами по всему кораблю, свидетельствуют о том, что его прибытие на поверхность планеты было незапланированным и внезапным. Конструкция демонстрирует следы боевых повреждений, а также признаки аварийной посадки; обширные разрушения были усугублены столетиями сейсмической активности.\n\nВосстановленные фрагменты указывают на то, что это был «SRS Liberty» - линкор Солнечной Республики людей и флагман 8-го флота с экипажем примерно из 800 человек и 200 морпехов.\n\nПомимо этой информации, ваши исследовательские группы смогли восстановить значительные останки передовых технологий гипердвигателей и сенсоров.</Description>
 				<ActionLocationHint>TriggeringItem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -10231,7 +10197,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Появляется расщелина</MessageTitle>
-				<Description>Unfortunately the seismic events continued, with a major quake opening a new chasm which swallowed most of the ancient ship's remains for good.\n\nHowever, this chasm also uncovered a second, smaller ship which was buried near  the first.  It appears that it was escorting the larger Battleship until some event caused both to crash land on this planet.\n\nYour teams are able to recover some advanced Hyperdrive technologyy from the one remaining piece of the larger ship.  An exploration of the smaller ship reveals it to be the ancient Human Destroyer SRS Intrepid.  The state of the hull and the remains within suggest that it was in a battle of some kind before crashing here and that its crew perished with it.\n\nFortunately, much of the Destroyer's reactor remained intact and you are also able to recover valuable insights into reactor technology from this wreck.</Description>
+				<Description>К сожалению, сейсмические события продолжались: мощное землетрясение открыло новую расщелину, которая навсегда поглотила большую часть останков древнего корабля.\n\nОднако эта расщелина также обнажила второй, меньший корабль, захороненный рядом с первым. Похоже, он сопровождал более крупный Линкор до тех пор, пока какое-то событие не заставило оба судна совершить аварийную посадку на этой планете.\n\nВашим командам удалось восстановить некоторые передовые технологии гипердвигателей из единственного сохранившегося фрагмента большого корабля. Исследование меньшего корабля показало, что это древний эсминец человечества SRS Intrepid. Состояние корпуса и останков внутри свидетельствует о том, что он участвовал в каком-то сражении перед тем, как совершить посадку здесь, а его экипаж погиб вместе с ним.\n\nК счастью, большая часть реактора Эсминца сохранилась, и вам также удалось извлечь ценные сведения о технологии реакторов из этого затонувшего корабля.</Description>
 				<ActionLocationHint>TriggeringItem</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -10316,7 +10282,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Древняя колония</MessageTitle>
-				<Description>The ruins on this ancient world extend across the planet both above and below ground and are relatively unstable.\n\nThis world clearly suffered from a bombardment and some other cataclysm in the distant past.\n\nThe above ground ruins seem more residential in nature.  What little your team has explored below ground indicates those ruins are more industrial in nature.  However, exploring above ground could collapse some of the below ground ruins and below ground exploration could also cause similar issues.\n\nGiven the instability, do you choose to focus your exploration above or below ground?</Description>
+				<Description>Руины этого древнего мира простираются по всей планете как над поверхностью, так и под землей, и они относительно нестабильны.\n\nЭтот мир явно подвергся бомбардировке и пережил какой-то другой катаклизм в далеком прошлом.\n\nНаземные руины, похоже, носили преимущественно жилой характер. То немногое, что ваша команда исследовала под землей, указывает на то, что подземные руины имели скорее промышленное назначение. Однако исследование над поверхностью может обрушить часть подземных руин, а подземная экспедиция также способна вызвать аналогичные проблемы.\n\nУчитывая нестабильность, вы предпочитаете сосредоточить свои исследования над землей или под ней?</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -10421,7 +10387,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Вы обнаружили артефакт!</MessageTitle>
-				<Description>Amid the residential ruins of the {1} in the {0} system, your exploration team finds widespread decay and destruction, as well as many ancient remains which indicate sudden and often violent deaths.\n\nThere are indications that much of the massive seismic damage which is evident occured at the same time as many of the deaths in this ancient colony world, with indications of additional smaller seismic events continuing over time.\n\nFrom the remains, you determine that this world was once named Cygnus. \n\nIn one of the residences, your team discovers one somehow still functional artifact of the ancient age is amid some remains, well buried in the rubble. What wonders will this artifact reveal to us about the ancient times?</Description>
+				<Description>Среди жилых руин {1} в системе {0} ваша исследовательская команда обнаруживает повсеместное разрушение и упадок, а также множество древних останков, свидетельствующих о внезапных и часто насильственных смертях.\n\nЕсть признаки того, что значительная часть масштабного сейсмического ущерба, очевидного здесь, произошла в то же время, что и многие смерти на этом древнем колониальном мире, при этом наблюдаются свидетельства дополнительных более мелких сейсмических событий, продолжавшихся со временем.\n\nПо останкам вы определяете, что этот мир когда-то назывался Лебедь (Cygnus).\n\nВ одном из жилых помещений ваша команда обнаруживает один, каким-то образом всё ещё функционирующий артефакт древней эпохи среди остатков, глубоко погребенный в руинах. Какие чудеса откроет нам этот артефакт о древних временах?</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -10461,7 +10427,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Подземные руины {0}</MessageTitle>
-				<Description>In the underground ruins of the {0} in the {1} system, you have discovered extensive signs of ancient industry and as well as extensive remains, mostly but not entirely human in origin.\n\nMost of the underground facilities are completely ruined, but one data bank is still accessible and contains a great deal of information on this ancient Human colony, which it turns out was once named Cygnus.\n\n From the fragmented pieces of recoverable data, it becomes clear that it was considered a relatively unimportant frontier colony with a rapidly growing population of various species totaling around 500 million. Shortly after it was colonized, a great war against a terrible power known as the Shaktur Axis began, which resulted in an increasing influx of refugees from various parts of the galaxy. \n\nThis sudden surge in population, along with the strains of what appears to have been a full mobilization of the population towards wartime goals, resulted in scarce resources and an increase in property crimes. \n\nAn ancient interstellar law enforcement organization called the Terran Rangers appears to have been  put in charge of maintaining order, but its methods out on the frontier were at times harsh and not always welcomed by the locals.\n\nThe underground ruins were largely part of the rapid wartime mobilization to build out an industrial base that could support the war effort. The most recent data entries seem to be from roughly a millennia ago and do not give any indication of how this place came to ruin.</Description>
+				<Description>В подземных руинах {0} в системе {1} вы обнаружили обширные свидетельства древней промышленности, а также многочисленные остатки, происхождение которых преимущественно человеческое, хотя и не исключительно.\n\nБольшинство подземных сооружений полностью разрушены, однако один банк данных остается доступным и содержит множество сведений об этой древней человеческой колонии, которая, как выяснилось, некогда называлась «Лебедь».\n\nИз фрагментарных восстановленных данных становится ясно, что это была относительно незначительная пограничная колония с быстро растущим населением различных видов, насчитывавшим около 500 миллионов человек. Вскоре после основания колонии началась великая война против ужасающей силы, известной как Ось Шактури, что привело к постоянному притоку беженцев из разных уголков галактики.\n\nЭтот внезапный всплеск численности населения, наряду с напряжением от, по-видимому, полной мобилизации всех сил ради военных целей, привел к нехватке ресурсов и росту имущественных преступлений.\n\nДревняя межзвездная организация правоохранительных органов под названием «Рейнджеры Терры», похоже, была назначена для поддержания порядка, однако её методы на пограничье порой были суровы и не всегда находили отклик у местных жителей.\n\nПодземные руины в основном являются частью быстрой военной мобилизации, направленной на создание промышленной базы, способной поддерживать военные усилия. Самые последние записи датируются примерно тысячелетием назад и не дают никаких указаний на то, как это место пришло в запустение.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Ancient Human Colony Ruins</ActionLocationItemName>
@@ -10550,7 +10516,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Обнаружено древнее хранилище!</MessageTitle>
-				<Description>Further extensive excavations in the {1} system have revealed a previously unknown sub-level which contains a massive vault, complete with an active ancient security system.\n\nAfter further careful investigation, some of our scientists believe the only way to get inside is to use some of our most powerful plasma cutting and explosive devices.\n\nOthers think that with more time, we may be able to interface with the ancient security systems and "hack" a way past the defense measures, but how long this will take is unclear and it also risks setting them off.\n\nWhich method will you attempt?</Description>
+				<Description>Дальнейшие масштабные раскопки в системе {1} выявили ранее неизвестный подуровень, содержащий массивное хранилище с активными древними системами безопасности.\n\nПосле тщательного дополнительного исследования некоторые из наших учёных полагают, что единственный способ проникнуть внутрь - использовать наши самые мощные плазменные режущие и взрывные устройства.\n\nДругие считают, что при наличии большего времени мы сможем подключиться к древним системам безопасности и «взлома» путь сквозь оборонительные меры, однако неизвестно, сколько это займет времени, а также существует риск их активации.\n\nКакой метод вы выберете?</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -10608,7 +10574,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Повреждённое хранилище</MessageTitle>
-				<Description>Your exploration teams in the {1} system successfully cut and then blast an opening into the ancient vault, but it requires quite a lot of engineering and blasting due to the remarkable alloy used by the ancients to construct the vault.\n\nIt turns out the vault contained a large databank.  Unfortunately, time has resulted in a great deal of data deterioration and the blast damage likely caused further harm.\n\nYour scientists are however able to recover some navigational information  suggesting another ancient location of significant interest.  We are also able to learn a great deal about the engineering of these ancient super-alloys used in the vault's construction.</Description>
+				<Description>Ваши исследовательские отряды в системе {1} успешно проделали и взорвали проход в древнее хранилище, однако для этого потребовалось значительное количество инженерных работ и взрывных операций из-за замечательного сплава, использованного древними при строительстве хранилища.\n\nОказалось, что хранилище содержало обширный банк данных. К сожалению, время привело к значительной деградации данных, а последствия взрыва, вероятно, нанесли дополнительный ущерб.\n\nТем не менее, ваши ученые смогли восстановить часть навигационной информации, указывающей на другое древнее место, представляющее значительный интерес. Мы также получили обширные сведения об инженерии этих древних сверхсплавов, использованных при строительстве хранилища.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Ancient Human Data Vault</ActionLocationItemName>
@@ -10709,7 +10675,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Древнее хранилище открыто!</MessageTitle>
-				<Description>After extensive study of the ancient underground vault in the {1} system, our scientists find a way to interface with the vault's systems.  \n\nSome of the security measures are unfortunately triggered, killing one scientist, costing us some valuable equipment and resulting in additional injuries to personnel despite our precautions. \n\nHowever, over time, the vault's encryption is deciphered and we are able to successfully open the vault.\n\nInside we discover a larger ancient Human databank.  Much of the data has deteriorated over time, but we are able to recover two important navigational coordinates, leading to significant locations of ancient Human science and settlement.\n\nOur ability to interface with the ancient systems also leads to a major leap in our understanding of computational systems and architectures.</Description>
+				<Description>После тщательного изучения древнего подземного хранилища в системе {1} наши ученые нашли способ подключиться к системам хранилища. \n\nК сожалению, некоторые меры безопасности были активированы: погиб один ученый, мы потеряли ценное оборудование и получили дополнительные ранения среди персонала, несмотря на принятые нами меры предосторожности.\n\nОднако со временем шифрование хранилища было взломано, и нам удалось успешно открыть его.\n\nВнутри мы обнаружили обширное древнее хранилище данных человечества. Большая часть данных со временем пришла в негодность, но нам удалось восстановить два важных навигационных координата, ведущих к значимым местам древней человеческой науки и поселений.\n\nНаша способность подключаться к древним системам также привела к крупному скачку в нашем понимании вычислительных систем и архитектур.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Ancient Human Data Vault</ActionLocationItemName>
@@ -11476,7 +11442,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Древний промышленный мир</MessageTitle>
-				<Description>The planet-spanning ruins on this world show that is was once a highly populated and advanced industrial world, focused on manufacturing of all kinds of technologies for the Ancient Human Solar Republic.\n\nThere is clear evidence of a massive sudden cataclysm which struck it, followed by many smaller events over the centuries.  The ionic storms on the planet and within the system appear to be remnants of that cataclysm.\n\nNo life remains on the surface, although countless remains of ancient Humans and various wildlife are evident. The planet itself has also been nearly torn apart by past massive seismic events.  In its present state, it would be very difficult for life to return and survive.\n\nThe ruins also prove to be an abundant source of several important and valuable resources.  From the remains, coordinates for another location of significant interest are also discovered.</Description>
+				<Description>Руины, охватывающие всю планету на этом мире, свидетельствуют о том, что когда-то это был высоконаселенный и технологически развитый промышленный мир, специализировавшийся на производстве всех видов технологий для Древней Солнечной Республики людей.\n\nНаблюдаются явные свидетельства масштабного внезапного катаклизма, поразившего планету, за которым последовало множество менее значительных событий в течение столетий. Ионные бури на поверхности планеты и внутри системы, по-видимому, являются остатками того катаклизма.\n\nНа поверхности не осталось жизни, хотя повсюду видны многочисленные останки древних людей и разнообразной дикой фауны. Сама планета также была почти разорвана в клочья прошлыми мощными сейсмическими событиями. В своем нынешнем состоянии она представляет собой среду, крайне неблагоприятную для возвращения и выживания жизни.\n\nРуины также оказались богатым источником нескольких важных и ценных ресурсов. Из остатков были обнаружены координаты другого места, представляющего значительный интерес.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -11726,7 +11692,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Древний исследовательский мир</MessageTitle>
-				<Description>The extensive ruins on this world show that is was once a highly populated and advanced research world, focused on advancing science for the Ancient Human Solar Republic.\n\nThere is clear evidence of a massive sudden cataclysm which struck it, followed by many smaller events over the centuries.  The gravitic storms on the planet and within the system appear to be remnants of that cataclysm and remain extremely dangerous.\n\nNo life remains on the surface, although countless remains of ancient Humans and various flora and fauna are evident. The planet itself has also been nearly torn apart by past massive seismic events.  In its present state, it would be very difficult for life to return and survive.\n\nThe ruins also prove to be an abundant source of several important and valuable resources, including a supply of unique crystals with gravitic properties. From the remains, coordinates for another location of significant interest are also discovered.</Description>
+				<Description>Массивные руины на этой планете свидетельствуют о том, что когда-то это был высоконаселенный и передовой исследовательский мир, посвященный развитию науки для Древней Солнечной Республики людей.\n\nНаблюдаются четкие свидетельства масштабного внезапного катаклизма, поразившего её, за которым последовало множество менее значительных событий на протяжении веков. Гравитационные штормы на планете и в системе, по-видимому, являются остатками того катаклизма и остаются крайне опасными.\n\nНа поверхности жизни нет, хотя повсюду видны многочисленные останки древних людей, а также флоры и фауны. Сама планета также была почти разорвана на части прошлыми масштабными сейсмическими событиями. В её нынешнем состоянии возвращение и выживание жизни было бы крайне затруднительным.\n\nРуины также оказались богатым источником нескольких важных и ценных ресурсов, включая запасы уникальных кристаллов с гравитационными свойствами. Из остатков были обнаружены координаты другого места, представляющего значительный интерес.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -12020,9 +11986,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Уничтоженный мир-крепость</MessageTitle>
-				<Description>The extensive ruins on this world show that is was once an extensively militarized and heavily defended world, perhaps on the frontier of the Ancient Human Solar Republic.\n\nThere is clear evidence of an orbital bombardment as well as a massive sudden cataclysm, followed by many smaller events over the centuries.  The gravitic storms on the planet and within the system appear to be remnants of that cataclysm and remain extremely dangerous.\n\nNo life survives on the surface, although countless remains of ancient Humans and various flora and fauna are evident. The planet itself has also been nearly torn apart by past massive seismic events.  In its present state, it would be very difficult for life to return and survive.
-
-The ruins also prove to be an abundant source of several important and valuable resources and some of the damaged military facilities may be of interest.</Description>
+				<Description>Массивные руины на этой планете свидетельствуют о том, что когда-то это был мир с развитой военной инфраструктурой и мощной обороной, возможно, находившийся на границе Древней Солнечной Республики людей.\n\nНаблюдаются явные следы орбитальной бомбардировки, а также масштабного внезапного катаклизма, за которым последовало множество менее значительных событий в течение столетий. Гравитационные штормы на планете и внутри системы, по-видимому, являются остатками того катаклизма и остаются крайне опасными.\n\nНа поверхности нет жизни, хотя повсюду видны многочисленные останки древних людей, а также флоры и фауны. Сама планета была почти разорвана на части в результате прошлых мощных сейсмических событий. В её нынешнем состоянии возвращение и выживание жизни было бы крайне затруднительным.\n\nРуины также являются богатым источником нескольких важных и ценных ресурсов, а некоторые из поврежденных военных сооружений могут представлять интерес.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -12122,7 +12086,7 @@ The ruins also prove to be an abundant source of several important and valuable 
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Новый путь или ложная дорога?</MessageTitle>
-				<Description>One of our colonies, {0}, has discovered a previously buried Ancient Human underground facility.  \n\nInitial communications indicated a functional Ancient databank, with much more information than we've been able to previously recover.  \n\nAs we assembled a larger team to lead the exploration and recovery, communications with our colony became more "unusual".  We have now been delivered an ultimatum of sorts.  \n\nOur colony tells us that they have found "a better way" and no longer wish to remain part of our empire.  We are told we must let them go their own way and they have issued a Declaration of Independence, though we are apparently free to join them in this "new way" if we are willing to abandon our existing form of government.  \n\nThis is clearly a major crisis and they have made clear they are only willing to speak further at the highest levels, with our Leader, in person.\n\nDo we risk sending our Leader to this rebellious colony, or do we refuse their demands and seek other means to enforce unity and prevent secession?</Description>
+				<Description>Одна из наших колоний, {0}, обнаружила ранее скрытое подземное сооружение древних людей.  \n\nПервоначальные сообщения указывали на функциональный древний банк данных, содержащий гораздо больше информации, чем нам удавалось восстановить ранее.  \n\nПо мере того как мы формировали более крупную группу для руководства исследованием и изъятием данных, связь с нашей колонией становилась всё более «странный». Теперь нам был предъявлен своего рода ультиматум.  \n\nНаша колония сообщает, что они нашли «лучший путь» и больше не желают оставаться частью нашей империи. Нам говорят, что мы должны позволить им идти своим путём, и они издали Декларацию независимости, хотя нам, по-видимому, разрешено присоединиться к ним в этом «новом пути», если мы готовы отказаться от существующей формы правления.  \n\nЭто явно крупный кризис, и они дали понять, что готовы вести дальнейшие переговоры только на высшем уровне - лично с нашим Лидером.  \n\nРискнем ли мы отправить нашего Лидера в эту мятежную колонию или откажемся от их требований и поищем другие способы обеспечить единство и предотвратить отделение?</Description>
 				<ActionLocationHint>BestColonyNonCapital</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -12221,7 +12185,7 @@ The ruins also prove to be an abundant source of several important and valuable 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Новый путь</MessageTitle>
-				<Description>Our leader traveled to {1} to speak with our rebellious citizens and found there a society already partially transformed.  \n\nThe teachings within the ancient Databanks had advanced both the reason and intuition of our people to a remarkable degree.  \n\nIn a shocking change for the rest of our empire, after discussion and study, our Leader has declared that {1} will be allowed to follow this path, that our Leader will join them and that the rest of the Empire should follow.  \n\nThe Path of the Ancients as a Government type has now been revealed to us, will we and our new Leader choose to follow it?</Description>
+				<Description>Наш лидер отправился в {1}, чтобы поговорить с нашими восставшими гражданами и обнаружил там общество, уже частично преобразившееся.  \n\nУчения, содержащиеся в древних Базах данных, значительно продвинули как разум, так и интуицию нашего народа.  \n\nВ шокирующем для остальной части нашей империи изменении, после обсуждения и изучения, наш Лидер объявил, что {1} будет позволено следовать этим путём, что сам он присоединится к ним и что остальная часть Империи должна последовать за ними.  \n\nПуть Предков как тип правления теперь открыт нам; последуем ли мы с нашим новым Лидером по этому пути?</Description>
 				<ActionLocationHint>BestColonyNonCapital</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -12326,7 +12290,7 @@ The ruins also prove to be an abundant source of several important and valuable 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Выход из состава!</MessageTitle>
-				<Description>Our greatest colony, {1} has declared independence and followed through on its ultimatum to us!  \n\nThey are now independent of our Empire and it will require great diplomatic or military efforts to return them to us again.</Description>
+				<Description>Наша величайшая колония, {1}, объявила о независимости и выполнила свой ультиматум нам!  \n\nТеперь они независимы от нашей Империи, и для их возвращения потребуются значительные дипломатические или военные усилия.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -12405,7 +12369,7 @@ The ruins also prove to be an abundant source of several important and valuable 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Наш Древний Дом</MessageTitle>
-				<Description>Within the sanctuary on this world is a treasure trove of data from the Ancient Human Solar Republic which will take us many years to fully understand. \n\nWe have already learned enough to understand that in the ancient times, the Solar Republic together with the Ackdarian Technocracy founded the Freedom Alliance, focused on defending against the powerful Shaktur Axis.  The Shaktur Axis was in the service of the Shakturi, an extremely advanced and powerful alien race of unknown origins.  They traveled the galaxy by tearing holes in space-time using their "wormhole drives".\n\nWhen this sanctuary was created, the war had been going on for several years and many worlds and lives had already been lost.  The hope was that the information here might survive, come what may.\n\nAmong the various important discoveries, we also located a star map which shows clearly the location of the ancient home world of the Solar Republic.  \n\nAt long last, we may find out what happened to our ancestors!  The coordinates have now been added to our current star map.</Description>
+				<Description>Внутри святилища на этой планете находится сокровищница данных Древней Солнечной Республики, изучение которых займет у нас многие годы.\n\nМы уже узнали достаточно, чтобы понять: в древние времена Солнечная Республика вместе с Акдарианской Технократией основала Альянс Свободы, созданный для защиты от мощной Оси Шактури. Ось Шактури служила Шактури - крайне продвинутой и могущественной инопланетной расе неизвестного происхождения. Они путешествовали по галактике, разрывая пространство-время с помощью своих «червоточинных двигателей».\n\nКогда это святилище было создано, война уже шла несколько лет, многие миры и жизни были потеряны. Надежда заключалась в том, что информация здесь уцелеет, несмотря ни на что.\n\nСреди различных важных открытий мы также обнаружили звездную карту, на которой четко обозначено местоположение древнего родного мира Солнечной Республики.\n\nНаконец-то мы сможем узнать, что случилось с нашими предками! Координаты уже добавлены к нашей текущей звездной карте.</Description>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>

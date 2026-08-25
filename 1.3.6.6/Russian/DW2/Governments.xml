@@ -686,7 +686,7 @@
 		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
 		<SpecialMode>Undefined</SpecialMode>
 		<FeatureExplanations>
-			<string>[HL]Enterprising Spirit:[/HL] chance of a periodic random positive event that temporarily improves Research, Diplomacy, Espionage or the Military.\nOccurs approximately once every 10 years on average</string>
+			<string>[HL]Предприимчивый дух:[/HL] шанс периодического случайного позитивного события, временно улучшающего исследования, дипломатию, шпионаж или военную сферу. Происходит примерно раз в 10 лет в среднем.</string>
 		</FeatureExplanations>
 		<Name>Демократия</Name>
 		<Description>Демократические правительства черпают свою власть у народов, живущих под их властью. Проводятся конкурентные выборы для избрания представителей, которые правят в течение установленного срока.\n\nГраждане демократических правительств пользуются всеобщими признанными свободами и правами, включая: свободу политической деятельности, свободу слова и свободу прессы. Демократические правительства обычно также поддерживают другие важные принципы, такие как: равенство перед законом, надлежащая правовая процедура и гражданские свободы.</Description>
@@ -947,9 +947,9 @@
 		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
 		<SpecialMode>Undefined</SpecialMode>
 		<FeatureExplanations>
-			<string>[HL]Upgraded Militia:[/HL] defending militia troops are much stronger than usual, providing better defense against invaders. When one of your colonies is conquered, any rebellion against the invaders will also produce stronger militia troops as they attempt to return to your empire</string>
-			<string>[HL]Feudal Obligation:[/HL] doubled Troop Recruitment Rate for 2 years after a war starts</string>
-			<string>[HL]Privateer Navy:[/HL] Nobles within your empire will fund construction and operation of a small number of Escorts to defend civilian shipping. These ships are funded from your private economy (purchase and maintenance). They cannot be manually controlled</string>
+			<string>[HL]Улучшенное ополчение:[/HL] войска ополчения при обороне значительно сильнее обычного и обеспечивают лучшую защиту от захватчиков. Когда одна из ваших колоний захвачена, любое восстание против захватчиков также приведет к появлению более сильного ополчения, поскольку они попытаются вернуть колонию вашей империи.</string>
+			<string>[HL]Феодальная повинность:[/HL] удваивает скорость набора войск в течение 2 лет после начала войны</string>
+			<string>[HL]Частный флот корсаров:[/HL] Благородные в вашей империи профинсируют строительство и эксплуатацию небольшого числа эскортных кораблей для защиты гражданского судоходства. Эти корабли финансируются из вашей частной экономики (покупка и содержание). Они не могут управляться вручную.</string>
 		</FeatureExplanations>
 		<Name>Феодализм</Name>
 		<Description>Феодализм - это форма правления, основанная на системе взаимных правовых и военных обязательств среди воинской знати. В своей самой простой сущности феодализм представляет собой передачу земель и прав в обмен на военную службу.\n\nПри феодальных правительствах класс благородных людей фактически образует правящий совет. Они предоставляют права и свободы простым людям в обмен на их военную поддержку.\n\nФеодальные общества придают огромное значение иерархии и рангу. Их социальные структуры, как правило, крайне статичны. У каждого есть своё предопределённое место в обществе - они подчиняются своему местному вождю.</Description>
@@ -1174,8 +1174,8 @@
 		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
 		<SpecialMode>Undefined</SpecialMode>
 		<FeatureExplanations>
-			<string>[HL]Flag Ship:[/HL] can designate one military ship as your empire Flag ship. Flag ships have +10% Targeting, Countermeasures, Ship Maneuvering, Ship Speed and Damage Control. When your Flag ship destroys an enemy military ship of equal or greater size your empire receives a one-year happiness bonus. When your Flag ship is destroyed your empire receives a one-year happiness penalty. To assign a military ship as your Flag ship, right-click the ship for a popup menu option</string>
-			<string>[HL]Always Justified:[/HL] all wars you declare are always considered justified by your population, thus slowing the growth rate of war weariness</string>
+			<string>[HL]Флагманский корабль:[/HL] позволяет назначить один военный корабль в качестве флагмана вашей империи. Флагманские корабли получают +10% к точности наведения, противодействию, маневрированию, скорости и борьбе за живучесть. Когда ваш флагманский корабль уничтожает вражеский военный корабль равного или большего размера, ваша империя получает бонус к счастью сроком на один год. Если ваш флагманский корабль будет уничтожен, ваша империя получит штраф к счастью сроком на один год. Чтобы назначить военный корабль в качестве флагмана, щелкните по нему правой кнопкой мыши и выберите соответствующий пункт в появившемся меню.</string>
+			<string>[HL]Всегда оправдано:[/HL] все объявленные вами войны всегда считаются населением оправданными, что замедляет рост усталости от войны.</string>
 		</FeatureExplanations>
 		<Name>Монархия</Name>
 		<Description>Монархии возлагают верховную власть на одного человека (монарха), который является главой государства, часто пожизненно или до отречения. Монархии обычно являются наследственными: после смерти родителя власть переходит к его ребенку.\n\nМонархи могут править с абсолютной властью или разделять её с правящим советом дворян или избранных представителей.</Description>
@@ -1430,8 +1430,8 @@
 		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
 		<SpecialMode>Undefined</SpecialMode>
 		<FeatureExplanations>
-			<string>[HL]War World:[/HL] can manually initiate a temporary War World event at one of your colonies for +100% boosts to Troop Recruitment, Ship Construction and Facility Construction, but with reduced colony happiness. War World lasts for two years and costs 20,000 credits to initiate</string>
-			<string>[HL]Reassuring Security:[/HL] high troop presence at your colonies adds up to +5 happiness. This colony approval factor starts when you have at least half the expected troop levels to defend the colony. Check the colony approval factors in the Selection Panel for details</string>
+			<string>[HL]Мир войны:[/HL] позволяет вручную запустить временное событие «Мир войны» на одной из ваших колоний с бонусом +100% к набору войск, строительству кораблей и строительству объектов, но со снижением счастья колонии. Событие «Мир войны» длится два года и стоит 20,000 кредитов для запуска.</string>
+			<string>[HL]Успокаивающая безопасность:[/HL] высокое присутствие войск в ваших колониях добавляет +5 к уровню счастья. Этот фактор одобрения колонии начинает действовать, когда у вас есть как минимум половина ожидаемого уровня войск для защиты колонии. Проверьте факторы одобрения колоний на панели выбора для получения подробной информации.</string>
 		</FeatureExplanations>
 		<Name>Военная диктатура</Name>
 		<Description>Военная диктатура - это автократическая форма абсолютного правления, не ограниченная законами, конституциями или другими социальными и политическими факторами.\n\nВоенные диктатуры регулируют практически все аспекты общественного и частного поведения своих подданных. Их политическая, социальная и гражданская структура ориентирована на военные вопросы и ведение войны. Правительства такого типа обычно сосредоточены на завоеваниях и экспансии.</Description>
@@ -1920,8 +1920,8 @@
 		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
 		<SpecialMode>Undefined</SpecialMode>
 		<FeatureExplanations>
-			<string>[HL]Intuitive Jumps:[/HL] Hyperjump accuracy doubled when exiting a jump at a location where your empire has an established presence (colony or base)</string>
-			<string>[HL]War Hive:[/HL] Population growth rate increases by +50% during war time</string>
+			<string>[HL]Интуитивные прыжки:[/HL] Точность гиперпрыжка удваивается при выходе из прыжка в месте, где у вашей империи есть установленное присутствие (колония или база).</string>
+			<string>[HL]Боевой улей:[/HL] Скорость роста населения увеличивается на +50% во время войны</string>
 		</FeatureExplanations>
 		<Name>Коллективный разум</Name>
 		<Description>Правление Коллективного разума может быть установлено инопланетными расами, обладающими врожденной способностью к телепатии. Главная ценность - преданность сообществу в целом: индивидуальное самовыражение и свобода подавляются ради общего блага.\n\nВ правительствах с Коллективным разумом вся работа разделена между различными социальными кастами. Одни касты отвечают за производство продовольствия, другие - за оборону, третьи - за администрирование. В некоторых инопланетных обществах даже размножение специализировано и возложено на небольшую касту, где одна или несколько «королев» производят каждое новое поколение.\n\nТип правления «Коллективный разум» доступен только расам Боскара и Дхаютов.</Description>

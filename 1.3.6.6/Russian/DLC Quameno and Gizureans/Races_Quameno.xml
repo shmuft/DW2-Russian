@@ -364,18 +364,18 @@
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
 		<FeatureExplanations>
-			<string>[HL]Alien Distractions:[/HL] +1 Happiness and -20% All Research for 2 years when sign a treaty with another faction</string>
-			<string>[HL]Integration Studies:[/HL] reduced Happiness and Research output whenever you have unassimilated alien populations at your colonies. The reduction amount relates to the proportion of unassimilated population in your empire</string>
-			<string>[HL]The Answer:[/HL] +10% Happiness for 5 years and a random tech boost when you build the Transcendence Hub planetary facility</string>
-			<string>[HL]A Puzzle Solved:[/HL] When complete an advanced research project (tech level 5 or greater) small chance of the following benefits: +10% Happiness and +10% All Research for 2 years, plus a bonus positive trait on your Leader and a Scientist. Higher level projects have an increased chance for this event to occur</string>
-			<string>[HL]Building the Future:[/HL] +5 Happiness for 6 months whenever you build a new Research Station</string>
-			<string>[HL]A Piece of the Puzzle:[/HL] 50% chance of both a 25% research boost in a related tech and a +10% empire-wide population growth bonus for one year whenever discover a new research location</string>
-			<string>[HL]Unique Leader trait - Puzzle Solver:[/HL] +5% All Research, -5% Colony Income</string>
-			<string>[HL]Unique Leader trait - Introverted:[/HL] -10% Diplomacy</string>
-			<string>[HL]Unique Scientist trait - Driven:[/HL] +5% All Research, but increased chance of a critical research failure</string>
-			<string>[HL]Unique Scientist trait - Efficiency Specialist:[/HL] 20% discount on the cost of crash research</string>
-			<string>[HL]Ambassador Starting Trait:[/HL] All ambassadors start with Linguist trait (+5% Diplomacy, +5% Tourism Income)</string>
-			<string>[HL]Concurrent Research disabled:[/HL] can only research a single project at a time</string>
+			<string>[HL]Чужеродные помехи:[/HL] +1 к счастью и −20% ко всем исследованиям в течение 2 лет при подписании договора с другой фракцией</string>
+			<string>[HL]Исследования интеграции:[/HL] снижает Счастье и Научный потенциал, когда у вас есть неассимилированные инопланетные популяции на ваших колониях. Величина снижения зависит от доли неассимилированного населения в вашей империи.</string>
+			<string>[HL]Ответ:[/HL] +10% к счастью на 5 лет и случайный бонус к технологиям при постройке планетарного сооружения «Центр Возвышения»</string>
+			<string>[HL]Загадка разгадана:[/HL] При завершении продвинутого исследовательского проекта (уровень технологий 5 или выше) существует небольшой шанс получить следующие бонусы: +10% к уровню счастья и +10% ко всем исследованиям на 2 года, а также дополнительная положительная черта для вашего Лидера и Учёного. Более высокие уровни проектов увеличивают вероятность возникновения этого события.</string>
+			<string>[HL]Строим будущее:[/HL] +5 к уровню счастья на 6 месяцев при постройке новой Исследовательской станции</string>
+			<string>[HL]Часть головоломки:[/HL] При обнаружении новой исследовательской локации с вероятностью 50% вы получаете бонус к исследованиям на 25% по соответствующей технологии и +10% к росту населения всей империи в течение одного года.</string>
+			<string>[HL]Уникальная черта лидера - Решатель головоломок:[/HL] +5% ко всем исследованиям, −5% доход колоний</string>
+			<string>[HL]Уникальная черта лидера - Интроверт:[/HL] −10% к дипломатии</string>
+			<string>[HL]Уникальная черта учёного - Движимый:[/HL] +5% ко всем исследованиям, но повышенная вероятность критического провала исследований</string>
+			<string>[HL]Уникальная черта учёного - Специалист по эффективности:[/HL] Скидка 20% на стоимость форсирования исследования</string>
+			<string>[HL]Стартовая черта посла:[/HL] Все послы начинают с чертой «Лингвист» (+5% к дипломатии, +5% к доходу от туризма).</string>
+			<string>[HL]Параллельные исследования отключены:[/HL] можно исследовать только один проект в моменте</string>
 		</FeatureExplanations>
 		<DefaultInfantryId>49</DefaultInfantryId> 
 		<Name>Quameno</Name>

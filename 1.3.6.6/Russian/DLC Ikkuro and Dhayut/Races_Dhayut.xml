@@ -309,12 +309,12 @@
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
 		<FeatureExplanations>
-			<string>[HL]Disinformation:[/HL] Deep Cover mission success against another faction also provides the ability to create disinformation at all levels, making the target faction view the Dhayut more positively</string>
-			<string>[HL]Inspired Conniving:[/HL] whenever a difficult intelligence mission succeeds, provides a boost to All espionage missions against that faction for the next year</string>
-			<string>[HL]Unique Leader trait - Slaver:[/HL] +10% income from Slavery policy</string>
-			<string>[HL]Unique Leader trait - Divide and Rule:[/HL] +5% Happiness</string>
-			<string>[HL]Unique Spy trait - Careful Weaver:[/HL] +10% Counter-espionage</string>
-			<string>[HL]Unique Spy trait - Strikes from Shadow:[/HL] +10% Assassination</string>
+			<string>[HL]Дезинформация:[/HL] Успешное выполнение секретной миссии глубокого прикрытия против другой фракции также даёт возможность создавать дезинформацию на всех уровнях, заставляя целевую фракцию воспринимать Дхаютов более позитивно</string>
+			<string>[HL]Вдохновлённая коварность:[/HL] при успешном завершении сложной разведывательной миссии обеспечивает бонус ко всем шпионским миссиям против этой фракции на следующий год.</string>
+			<string>[HL]Уникальная черта лидера - Рабовладелец:[/HL] +10% дохода от политики «Рабство»</string>
+			<string>[HL]Уникальная черта лидера - Разделяй и властвуй:[/HL] +5% к счастью</string>
+			<string>[HL]Уникальная шпионская черта - Осторожный Ткач:[/HL] +10% контршпионаж</string>
+			<string>[HL]Уникальная шпионская черта - Удары из тени:[/HL] +10% к убийствам</string>
 		</FeatureExplanations>
 		<DefaultInfantryId>44</DefaultInfantryId> 
 		<Name>Dhayut</Name>

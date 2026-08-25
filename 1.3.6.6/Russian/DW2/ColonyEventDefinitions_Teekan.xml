@@ -22,11 +22,7 @@
 		<DevelopmentChange>0.05</DevelopmentChange>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Посредственная охота на Бакдуров</Name>
-		<Description>The Great Bakdur Hunt at our colony {0} has proved disappointing, with only a mediocre haul.
-
-Still, for the next 5 years we will experience a [GOOD]+5% boost to empire-wide happiness[/GOOD].
-
-In addition, our colony [LOCATION]{0}[/LOCATION] will gain a [GOOD]+5 development boost[/GOOD] for 5 years.</Description>
+		<Description>Великая охота на Бакдуров в нашей колонии {0} оказалась разочаровывающей, с лишь посредственным уловом.\n\nТем не менее, в течение следующих 5 лет мы будем испытывать [GOOD]+5% прирост общеимперского счастья[/GOOD].\n\nКроме того, наша колония [LOCATION]{0}[/LOCATION] получит [GOOD]+5 бонус к развитию[/GOOD] на 5 лет.</Description>
 		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
 	</ColonyEventDefinition>
 
@@ -40,11 +36,7 @@ In addition, our colony [LOCATION]{0}[/LOCATION] will gain a [GOOD]+5 developmen
 		<DevelopmentChange>0.1</DevelopmentChange>
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<Name>Удачная охота на Бакдуров</Name>
-		<Description>The Great Bakdur Hunt at our colony {0} has been good, with many Bakdur harvested!
-
-Thus for the next 5 years we will experience a [GOOD]+10% boost to empire-wide happiness[/GOOD].
-
-In addition, our colony [LOCATION]{0}[/LOCATION] will gain a [GOOD]+10 development boost[/GOOD] for 5 years.</Description>
+		<Description>Великая охота на Бакдуров в нашей колонии {0} прошла успешно, и было добыто множество Бакдуров!\n\nТаким образом, в течение следующих 5 лет мы будем испытывать [GOOD]+10% бонус к общему уровню счастья империи[/GOOD].\n\nКроме того, наша колония [LOCATION]{0}[/LOCATION] получит [GOOD]+10% к развитию[/GOOD] на 5 лет.</Description>
 		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
 	</ColonyEventDefinition>
 
@@ -59,13 +51,7 @@ In addition, our colony [LOCATION]{0}[/LOCATION] will gain a [GOOD]+10 developme
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<GameEventName>Outstanding Bakdur Hunt Spice (Teekan)</GameEventName>
 		<Name>Выдающаяся охота на Бакдуров</Name>
-		<Description>The Great Bakdur Hunt at our colony {0} has been a spectacular success, with an enormous haul of Bakdur!
-
-Thus for the next 5 years we will experience a [GOOD]+10% boost to empire-wide happiness[/GOOD].
-
-In addition, our colony [LOCATION]{0}[/LOCATION] will gain a [GOOD]+5 development boost[/GOOD] for 5 years.
-
-This oustanding Hunt also uncovered a large deposit of [RESOURCE]Korabbian Spice[/RESOURCE] which will provide a huge boost to the development of our empire!</Description>
+		<Description>Великая охота на Бакдуров в нашей колонии {0} стала настоящим триумфом, и добыча Бакдуров оказалась колоссальной!\n\nТаким образом, в течение следующих 5 лет мы будем испытывать [GOOD]+10% прирост общеимперского счастья[/GOOD].\n\nКроме того, наша колония [LOCATION]{0}[/LOCATION] получит [GOOD]+5 бонус к развитию[/GOOD] на срок 5 лет.\n\nЭта выдающаяся охота также выявила крупное месторождение [RESOURCE]Кораббианской пряности[/RESOURCE], что обеспечит огромный прирост развития нашей империи!</Description>
 		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
 	</ColonyEventDefinition>
 

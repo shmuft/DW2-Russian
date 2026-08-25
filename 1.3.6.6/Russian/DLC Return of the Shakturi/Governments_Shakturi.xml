@@ -81,21 +81,7 @@
 		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
 		<SpecialMode>RefugeeFleet</SpecialMode>
 		<Name>Флот беженцев</Name>
-		<Description>[HL]Note that this is an advanced start for experienced players who are comfortable with manual play.[/HL]
-		
-Refugee Fleet government gives you a unique starting situation: Cruel alien invaders have forced you to flee your homeworld, and you are on the run.
-
-You have no colonies. Instead you start with a small fleet of ships, including a few military ships, some fuel tankers, some exploration ships, and your lone Colony Ship. Your objective is to establish a new homeworld, then select a new government and transition to normal play.
-
-But where will you go?
-
-Ancient myths record a time in the distant past when a band of your people were exiled, leaving your homeworld behind and travelling far across the stars to establish their own new world. Over time contact with them was lost. Can we find them again and join forces?
-
-We have several clues as to their location in the galaxy. We should travel to these coordinates (marked on our map) and investigate. Perhaps we will eventually find our long-lost brothers, and become reunited with them once again.
-
-Alternatively, if we cannot find them, we can also establish a new colony of our own. We have a massive Colony Ship containing all of the remaining population in our faction. We can use that to establish our new homeworld. We should carefully look for a planet that is suitable for our race. It is essential that we protect our Colony Ship. If we lose this then we have lost all.
-
-Once we establish our new homeworld we will select a new government and transition to a normal empire, with all of the usual features: research, construction, mining, and further colonization. If we fail to manually select a new government, a default government will automatically be chosen for us</Description>
+		<Description>[HL]Обратите внимание: это продвинутый старт для опытных игроков, уверенно чувствующих себя при ручном управлении.[/HL]\n\nПравительство «Флот беженцев» предоставляет вам уникальную стартовую ситуацию: жестокие инопланетные захватчики вынудили вас покинуть родной мир, и теперь вы находитесь в бегах.\n\nУ вас нет колоний. Вместо этого вы начинаете с небольшого флота кораблей, включающего несколько военных судов, некоторые топливные заправщики, некоторые исследовательские корабли и ваш единственный Колонизационный корабль. Ваша цель - основать новый родной мир, затем выбрать новое правительство и перейти к обычному режиму игры.\n\nНо куда же вы отправитесь?\n\nДревние мифы хранят память о далеком прошлом, когда группа вашего народа была изгнана, оставив свой родной мир позади и отправившись далеко в звёздные просторы, чтобы основать свою собственную новую планету. Со временем связь с ними была утеряна. Сможем ли мы найти их снова и объединить усилия?\n\nУ нас есть несколько подсказок относительно их местоположения в галактике. Нам следует отправиться к этим координатам (отмеченным на нашей карте) и провести расследование. Возможно, в конечном итоге мы найдем наших давно потерянных братьев и воссоединимся с ними вновь.\n\nВ качестве альтернативы, если нам не удастся их отыскать, мы можем основать собственную новую колонию. У нас есть Массивный колонизационный корабль, вмещающий всё оставшееся население нашей фракции. Мы можем использовать его для основания нашего нового родного мира. Нам следует тщательно искать планету, пригодную для нашей расы. Крайне важно защитить наш Колонизационный корабль. Если мы потеряем его, то потеряем всё.\n\nКак только мы обоснуемся на новой родине, мы выберем новое правительство и перейдём к обычному имперскому режиму со всеми стандартными функциями: исследованиями, строительством, добычей ресурсов и дальнейшей колонизацией. Если мы не выберем новое правительство вручную, по умолчанию будет автоматически выбрано одно из них.</Description>
 	</Government>
 	<Government>
 		<GovernmentId>32760</GovernmentId> 

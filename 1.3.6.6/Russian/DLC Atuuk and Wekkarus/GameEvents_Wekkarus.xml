@@ -290,9 +290,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Прошлое всегда нестабильно</MessageTitle>
-				<Description>As we feared, our search caused the ruins to collapse in on itself. Our team was able to evacuate safely, and no Wekkarus were hurt.
-
-In the docking bay, we found [DISCOVERY]two functional exploration ships[/DISCOVERY]. We also found the fragmented logs, which identify the [LOCATION]location of an archive[/LOCATION]. It could hold vital information about the Lost Artifacts. We should investigate at once.</Description>
+				<Description>Как мы и опасались, наши поиски привели к обрушению руин на самих себя. Наша команда смогла эвакуироваться без происшествий, и никто из Веккарусов не пострадал.\n\nВ док-отсеке мы обнаружили [DISCOVERY]два функциональных исследовательских корабля[/DISCOVERY]. Мы также нашли фрагментированные журналы, указывающие на [LOCATION]местоположение архива[/LOCATION]. Он может содержать жизненно важную информацию о Потерянных артефактах. Нам следует расследовать это немедленно.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -642,9 +640,7 @@ In the docking bay, we found [DISCOVERY]two functional exploration ships[/DISCOV
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Тривиальные награды, тривиальные умы</MessageTitle>
-				<Description>We have paid the Teekans for what was not theirs to sell, and they have delivered to us an ancient Wekkarus data crystal. It is battered and partially corrupted, but the spirit of our ancestors has not faded from it entirely.
-
-The crystal contains a [LOCATION]map to a distant location[/LOCATION]. Much of the explanatory text has been distorted, but there is reason to believe that something at this location can lead us to one of our Lost Artifacts.</Description>
+				<Description>Мы заплатили Тиканам за то, что не имело права быть проданным, и они доставили нам древний кристалл данных Веккаруса. Он помят и частично повреждён, но дух наших предков не исчез из него полностью.\n\nКристалл содержит [LOCATION]карту в далёкое место[/LOCATION]. Большая часть поясняющего текста искажена, однако есть основания полагать, что нечто в этом месте может привести нас к одному из наших Утерянных Артефактов.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -872,11 +868,7 @@ The crystal contains a [LOCATION]map to a distant location[/LOCATION]. Much of t
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Это Тривиальные Существа</MessageTitle>
-				<Description>The Teekans have capitulated and delivered to us an ancient Wekkarus data crystal. It is battered and partially corrupted, but the spirit of our ancestors has not faded from it entirely.
-
-The crystal contains [LOCATION]a map to a distant location[/LOCATION]. Much of the explanatory text has been distorted, but there is reason to believe that something at this location can lead us to one of our Lost Artifacts.
-
-We now have a direction. We can, in due time, recover the Lost Artifacts and bring our ancestors peace.</Description>
+				<Description>Тиканы капитулировали и передали нам древний кристалл данных Веккарусов. Он повреждён и частично искажён, но дух наших предков не исчез из него полностью.\n\nКристалл содержит [LOCATION]карту в далёкое место[/LOCATION]. Большая часть поясняющего текста искажена, однако есть основания полагать, что нечто в этом месте может привести нас к одному из наших Потерянных артефактов.\n\nТеперь у нас есть направление. Со временем мы сможем вернуть Потерянные артефакты и даровать покой нашим предкам.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -2225,11 +2217,7 @@ We now have a direction. We can, in due time, recover the Lost Artifacts and bri
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Больше для открытия</MessageTitle>
-				<Description>Among the librarian's possessions, we've discovered [LOCATION]a star map with a location[/LOCATION] indicated. Its import is unknown. 
-
-We have also discovered that Shakturi technology is not the only thing the librarian preserved. His collection includes an artifact of the old galaxy, the [ARTIFACT]Cenotaph of the First Generation[/ARTIFACT]. This large rectangular monument, made entirely of stone from our lost homeworld, was built in honor of the great heroes of our distant past, the very founders of Wekkarus civilization.
-
-Proximity to the Cenotaph allows us to feel a stronger connection to our ancestors. It will help them to reach out across the void of time to join this generation. Heroes of the past can stand with us and work toward making this a generation to be remembered.</Description>
+				<Description>Среди владений библиотекаря мы обнаружили [LOCATION]звёздную карту с обозначенным местом[/LOCATION]. Её значение неизвестно.\n\nМы также выяснили, что технология Шактури - не единственное, что сохранил библиотекарь. Его коллекция включает артефакт старой галактики, [ARTIFACT]Памятник Неизвестному Солдату Первого Поколения[/ARTIFACT]. Этот крупный прямоугольный монумент, полностью выстроенный из камня нашей утраченной родины, был воздвигнут в честь великих героев далёкого прошлого - самих основателей цивилизации Веккарус.\n\nБлизость к Памятнику Неизвестному Солдату позволяет нам ощущать более сильную связь с нашими предками. Это поможет им протянуть руку сквозь безвременье, чтобы присоединиться к этому поколению. Герои прошлого могут стоять рядом с нами и работать над тем, чтобы это поколение стало запоминающимся.</Description>
 				<ImageFilepath>Artifacts/cenotaph of the first generation</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -2391,11 +2379,7 @@ Proximity to the Cenotaph allows us to feel a stronger connection to our ancesto
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Знание наших Предков</MessageTitle>
-				<Description>Among the librarian's possessions, we've found [LOCATION]a star map with a location[/LOCATION] indicated. Its import is unknown.
-
-We have also discovered that Shakturi technology is not the only thing the librarian preserved. In his collection we've found an artifact of the old galaxy, the [ARTIFACT]Cenotaph of the First Generation[/ARTIFACT]. This large rectangular monument, made entirely of stone from our lost homeworld, was built in honor of the great heroes of our distant past, the very founders of Wekkarus civilization.
-
-Proximity to the Cenotaph allows us to feel a stronger connection to our ancestors. It will help them to reach out across the void of time to join this generation. Heroes of the past can stand with us and work toward making this a generation to be remembered.</Description>
+				<Description>Среди владений библиотекаря мы обнаружили [LOCATION]звёздную карту с обозначенным местом[/LOCATION]. Её значение неизвестно.\n\nМы также выяснили, что технология Шактури - не единственное, что сохранил библиотекарь. В его коллекции мы нашли артефакт старой галактики, [ARTIFACT]Памятник Неизвестному Солдату Первого Поколения[/ARTIFACT]. Этот крупный прямоугольный монумент, полностью выстроенный из камня нашей утраченной родины, был воздвигнут в честь великих героев далёкого прошлого - самих основателей цивилизации Веккарус.\n\nБлизость к Памятнику Неизвестному Солдату позволяет нам ощутить более сильную связь с нашими предками. Это поможет им протянуть руку сквозь бездну времени, чтобы присоединиться к этому поколению. Герои прошлого могут стоять рядом с нами и работать над тем, чтобы это поколение стало запоминающимся.</Description>
 				<ImageFilepath>Artifacts/cenotaph of the first generation</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -2843,7 +2827,7 @@ Proximity to the Cenotaph allows us to feel a stronger connection to our ancesto
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Увлекательное открытие</MessageTitle>
-				<Description>We have also discovered that Shakturi technology is not the only thing the librarian preserved. We found in his collection an artifact of the old galaxy, the [ARTIFACT]Cenotaph of the First Generation[/ARTIFACT]. This large rectangular monument, made entirely of an unfamiliar stone. The Cenotaph contains some kind of barely perceptible energy of an unknown nature. Citizens from across our empire claim to feel its subtle effects. In particular, our best and brightest say they feel more adept and proficient at their posts.</Description>
+				<Description>Мы также обнаружили, что технология Шактури - не единственное, что сохранил библиотекарь. В его коллекции мы нашли артефакт старой галактики: [ARTIFACT]Памятник Неизвестному Солдату Первого Поколения[/ARTIFACT]. Это крупный прямоугольный монумент, полностью выполненный из незнакомого камня. Памятник содержит некий едва уловимый энергетический поток неизвестной природы. Граждане по всей нашей империи утверждают, что ощущают его тонкое воздействие. В частности, наши лучшие и наиболее одарённые говорят, что чувствуют себя более искусными и компетентными на своих постах.</Description>
 				<ImageFilepath>Artifacts/cenotaph of the first generation</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -3005,7 +2989,7 @@ Proximity to the Cenotaph allows us to feel a stronger connection to our ancesto
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Есть ещё больше того, что можно открыть</MessageTitle>
-				<Description>We have also discovered that Shakturi technology is not the only thing the librarian preserved. We found in his collection an artifact of the old galaxy, the [ARTIFACT]Cenotaph of the First Generation[/ARTIFACT]. This large rectangular monument, made entirely of an unfamiliar stone. The Cenotaph contains some kind of barely perceptible energy of an unknown nature. Citizens from across our empire claim to feel its subtle effects. In particular, our best and brightest say they feel more adept and proficient at their posts.</Description>
+				<Description>Мы также обнаружили, что технология Шактури - не единственное, что сохранил библиотекарь. В его коллекции мы нашли артефакт старой галактики: [ARTIFACT]Памятник Неизвестному Солдату Первого Поколения[/ARTIFACT]. Это крупный прямоугольный монумент, полностью выполненный из незнакомого камня. Памятник содержит некий едва уловимый энергетический поток неизвестной природы. Граждане по всей нашей империи утверждают, что ощущают его тонкое воздействие. В частности, наши лучшие и наиболее одарённые говорят, что чувствуют себя более искусными и компетентными на своих постах.</Description>
 				<ImageFilepath>Artifacts/cenotaph of the first generation</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -3386,15 +3370,7 @@ Proximity to the Cenotaph allows us to feel a stronger connection to our ancesto
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>То, что было Ихним, теперь наше</MessageTitle>
-				<Description>We have recovered all valuable resources in the remains of the Shakturi ship. In doing so, we discovered a star map, which appears to show the [LOCATION]location of two deep ocean worlds[/LOCATION]. We do not know if they are currently inhabited by Wekkarus, but they are worth investigating.
-
-We have received:
-
-1,500 Hexodorium
-1,500 Aculon
-600 Dyrillium Quartz
-600 Osalia
-600 Kaasian Crystal</Description>
+				<Description>Мы извлекли все ценные ресурсы из останков корабля Шактури. В ходе этого мы обнаружили звездную карту, которая, по-видимому, указывает на [LOCATION]расположение двух миров с глубокими океанами[/LOCATION]. Мы не знаем, обитают ли они в настоящее время Веккарусами, но они заслуживают исследования.\n\nМы получили:\n\n1500 Гексодория\n1500 Акулона\n600 Дириллиевого кварца\n600 Осалии\n600 Каасийского кристалла</Description>
 				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -3574,7 +3550,7 @@ We have received:
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>То, что они знали, мы узнаем</MessageTitle>
-				<Description>We have turned over the remains of the Shakturi ship to our scientists for analysis. We have also discovered a star map, which appears to show the [LOCATION]location of two deep ocean worlds[/LOCATION]. We do not know if they are currently inhabited by Wekkarus, but they are worth investigating.</Description>
+				<Description>Мы передали останки корабля Шактури нашим учёным для анализа. Мы также обнаружили звёздную карту, на которой, по-видимому, обозначено [LOCATION]местоположение двух миров с глубокими океанами[/LOCATION]. Неизвестно, обитают ли они в настоящее время Веккарусами, но их стоит исследовать.</Description>
 				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -4085,7 +4061,7 @@ We have received:
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Раскрытие тайн прошлого</MessageTitle>
-				<Description>We have turned over the remains of the Shakturi ship to our scientists for analysis. We have also discovered a star map, which appears to show the [LOCATION]location of two deep ocean worlds[/LOCATION]. We do not know if they are currently inhabited by Wekkarus, but they are worth investigating.</Description>
+				<Description>Мы передали останки корабля Шактури нашим учёным для анализа. Мы также обнаружили звёздную карту, на которой, по-видимому, обозначено [LOCATION]местоположение двух миров с глубокими океанами[/LOCATION]. Неизвестно, обитают ли они в настоящее время Веккарусами, но их стоит исследовать.</Description>
 				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -4460,7 +4436,7 @@ We have received:
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Решение само собой предлагает себя</MessageTitle>
-				<Description>We believe we may have discovered a solution. To continue functioning, the museum requires a curator, who will need to integrate with the alien technology systems via a permanent interface. Anyone taking on this responsibility will need to remain at the museum for the rest of their life. If we are willing to commit [CHARACTER]one of our scientists[/CHARACTER] to this role, we will be able to access most of the information. Otherwise, we can simply allow the ancient collection of knowledge to be lost, though we can certainly study the written records and hope to glean some insights.</Description>
+				<Description>Мы полагаем, что могли найти решение. Чтобы продолжать функционировать, музею необходим куратор, который должен будет интегрироваться с системами инопланетных технологий через постоянный интерфейс. Любой, кто возьмёт на себя эту ответственность, должен будет остаться в музее до конца своей жизни. Если мы готовы посвятить [CHARACTER]одного из наших учёных[/CHARACTER] этой роли, мы сможем получить доступ к большей части информации. В противном случае мы можем просто позволить древнему собранию знаний быть утраченным, хотя, безусловно, сможем изучить письменные записи и надеяться почерпнуть некоторые знания.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -4886,7 +4862,7 @@ We have received:
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Решение само собой предлагает себя</MessageTitle>
-				<Description>We believe we may have discovered a solution. To continue functioning, the museum requires a curator, who will need to integrate with the alien technology systems via a permanent interface. Anyone taking on this responsibility will need to remain at the museum for the rest of their life. If we are willing to commit [CHARACTER]one of our scientists[/CHARACTER] to this role, we will be able to access most of the information. Otherwise, we can simply allow the ancient collection of knowledge to be lost, though we can certainly study the written records and hope to glean some insights.</Description>
+				<Description>Мы полагаем, что могли найти решение. Чтобы продолжать функционировать, музею необходим куратор, который должен будет интегрироваться с системами инопланетных технологий через постоянный интерфейс. Любой, кто возьмёт на себя эту ответственность, должен будет остаться в музее до конца своей жизни. Если мы готовы посвятить [CHARACTER]одного из наших учёных[/CHARACTER] этой роли, мы сможем получить доступ к большей части информации. В противном случае мы можем просто позволить древнему собранию знаний быть утраченным, хотя, безусловно, сможем изучить письменные записи и надеяться почерпнуть некоторые знания.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -5401,11 +5377,7 @@ We have received:
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Обнаружен фрагмент прошлого</MessageTitle>
-				<Description>There is good news, however. We can report that we have discovered one of the Lost Artifacts.
-
-We now possess the [ARTIFACT]Orb of Ancestral Strength[/ARTIFACT]. This is a sphere, small enough to hold, but curiously heavy. Now that we possess it, all Wekkarus throughout the galaxy can sense its presence, however distantly. It connects us, providing a stronger link to our Ancestors. When warriors of this generation enter combat, the Orb will aid them in communicating across time, making us one with the great warriors of the past. Our fighters will be able to sense them and call to them, making it more likely they will aid us. This is a glorious day for this generation.
-
-We have also discovered a star map which indicates the [LOCATION]location of an important Wekkarus world[/LOCATION].</Description>
+				<Description>Однако есть хорошие новости. Мы можем сообщить, что обнаружили один из Потерянных Артефактов.\n\nТеперь мы обладаем [ARTIFACT]Сферой Силы Предков[/ARTIFACT]. Это сфера, достаточно малая, чтобы поместиться в руке, но удивительно тяжёлая. Теперь, когда мы ею обладаем, все Веккарусы по всей галактике могут ощущать её присутствие, даже на большом расстоянии. Она соединяет нас, обеспечивая более прочную связь с нашими Предками. Когда воины этого поколения вступают в бой, Сфера поможет им общаться сквозь время, делая нас единым целым с великими воинами прошлого. Наши бойцы смогут ощущать их и призывать их, что повысит вероятность того, что они придут нам на помощь. Это славный день для этого поколения.\n\nМы также обнаружили звёздную карту, указывающую на [LOCATION]местоположение важного мира Веккарусов[/LOCATION].</Description>
 				<ImageFilepath>Artifacts/orb of ancestral strength</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -5574,9 +5546,7 @@ We have also discovered a star map which indicates the [LOCATION]location of an 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Открытый артефакт</MessageTitle>
-				<Description>We have discovered an ancient Wekkarus artifact, the [ARTIFACT]Orb of Ancestral Strength[/ARTIFACT]. This is a sphere, small enough to hold, but curiously heavy. This sphere has affected our perception by means of some mysterious Wekkarus technology. Now that it's in our possession, our combat crews feel a greater affinity for their stations and are able to perform far more capably. This is a remarkable find!
-
-We have also discovered a star map which indicates the [LOCATION]location of an important Wekkarus world.[/LOCATION]</Description>
+				<Description>Мы обнаружили древний артефакт Веккарус, [ARTIFACT]Сферу Преданной Силы[/ARTIFACT]. Это сфера, достаточно малая, чтобы поместиться в руке, но удивительно тяжёлая. Она повлияла на наше восприятие посредством некой таинственной технологии Веккарус. Теперь, когда она находится во владении у нас, наши боевые экипажи ощущают большую привязанность к своим постам и способны действовать значительно эффективнее. Это замечательная находка!\n\nМы также обнаружили звёздную карту, указывающую на [LOCATION]местоположение важного мира Веккарус[/LOCATION].</Description>
 				<ImageFilepath>Artifacts/orb of ancestral strength</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6090,11 +6060,7 @@ We have also discovered a star map which indicates the [LOCATION]location of an 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Наше прошлое укрепляет нас</MessageTitle>
-				<Description>We've found that this world houses one of the Lost Artifacts. We have recovered the [ARTIFACT]Airship of the Ancestors[/ARTIFACT]. This ancient ceramic figurine, shaped like a primitive Wekkarus airship, inscribed with the names of ancient aeronaut champions. Their specific stories have long been forgotten, but their connection to our people live on. It required only that one of us touch this figurine and at once a deeper connection was felt throughout this entire generation. When we travel through the void of space, we can now sense the paths traveled by those who came before us. We can reach out to them, and they to us. In battle, we will draw strength from our ancestors and fight with the hope that our descendants continue the great chain of generations.
-
-Additionally, this world contains a [FACILITY]Chimera Cloning Facility[/FACILITY], which should help protect and nurture any colony we develop here.
-
-We have also found [ARTIFACT]The Devastator Compendium[/ARTIFACT], a data crystal containing research regarding the Devastator Pulse. This is an area attack weapon that will help this generation not suffer the same fate as those who came before us.</Description>
+				<Description>Мы обнаружили, что этот мир хранит один из Утерянных Артефактов. Мы восстановили [ARTIFACT]Корабль предков[/ARTIFACT]. Эта древняя керамическая фигурка, выполненная в виде примитивного воздушного корабля Веккарус и украшенная именами древних чемпионов авиации, хранит их память. Их конкретные истории давно забыты, но связь с нашим народом жива. Достаточно было лишь одному из нас коснуться этой фигурки, как по всему этому поколению пронеслось глубокое чувство связи. Теперь, путешествуя сквозь пустоту космоса, мы можем ощущать пути тех, кто был до нас. Мы можем протянуть к ним руку, и они - к нам. В бою мы черпаем силу у наших предков и сражаемся в надежде, что наши потомки продолжат великую цепь поколений.\n\nКроме того, на этом мире находится [FACILITY]Химерный клонирующий комплекс[/FACILITY], который должен помочь защитить и взрастить любую колонию, которую мы создадим здесь.\n\nМы также обнаружили [ARTIFACT]Сводку «Разрушитель»[/ARTIFACT] - кристалл данных, содержащий исследования, касающиеся Импульса Разрушителя. Это оружие зонального поражения поможет этому поколению не повторить судьбу тех, кто был до нас.</Description>
 				<ImageFilepath>Artifacts/airship of the ancestors</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6184,11 +6150,7 @@ We have also found [ARTIFACT]The Devastator Compendium[/ARTIFACT], a data crysta
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Лечение может начаться</MessageTitle>
-				<Description>This world contains a sophisticated [FACILITY]medical complex[/FACILITY]. Our ancestors must have built it to begin the work of remaking ourselves.
-
-The Shakturi used their technology to make us weaker. We Wekkarus, working with the strength given to us by prior generations, can take advantage of this technology and reclaim our lost nature. We can undo the damage the Shakturi did to us and someday, we hope, strengthen our connection with the Ancestors.
-
-The work will be difficult and the outcome uncertain, but we must strive to remake ourselves. Never again must we be what our enemies envision. We must become who we truly are. If the Shakturi, or any enemy, think to set themselves against the Wekkarus, they will find that they have misunderstood the danger of a people who live in communion with the past. They will find that we will not be defeated, and we will not again flee. This is the promise we make to the Ancestors.</Description>
+				<Description>Эта планета содержит сложный [FACILITY]медицинский комплекс[/FACILITY]. Наши Предки должны были построить его, чтобы начать работу по переделанию самих себя.\n\nШактури использовали свои технологии, чтобы сделать нас слабее. Мы, Веккарусы, работая с силой, данной нам предыдущими поколениями, можем воспользоваться этой технологией и вернуть свою утраченную природу. Мы можем исправить ущерб, нанесённый нам Шактури, и однажды, надеемся, укрепить нашу связь с Предками.\n\nРабота будет трудной, а результат - неопределённым, но мы должны стремиться переделать самих себя. Никогда больше мы не должны быть теми, кем нас видят наши враги. Мы должны стать теми, кто мы есть на самом деле. Если Шактури или любой другой враг решит противостоять Веккарусам, он обнаружит, что ошибочно оценил опасность народа, живущего в единении с прошлым. Он обнаружит, что нас не победить и мы больше никогда не будем бежать. Это обещание мы даём Предкам.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -6457,11 +6419,7 @@ The work will be difficult and the outcome uncertain, but we must strive to rema
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Реликвии Древних времен</MessageTitle>
-				<Description>This world also houses an artifact, the [ARTIFACT]Airship of the Ancestors[/ARTIFACT]. This figurine, shaped like a primitive airship, was created by the Wekkarus as some sort of memorial for their ancient heroes. Simply being in contact with it sharpens our perceptions. This artifact could make all the difference in future space battles.
-
-Additionally this world contains a [FACILITY]Chimera Cloning Facility[/FACILITY], which help protect and nurture any colony we develop here.
-
-We have also found [ARTIFACT]The Devastator Compendium[/ARTIFACT], a data crystal containing research regarding the Devastator Pulse. This is an area attack weapon that will provide new possibilities when we enter into space combat.</Description>
+				<Description>Эта планета также хранит артефакт, [ARTIFACT]Корабль предков[/ARTIFACT]. Эта фигурка в виде примитивного дирижабля была создана Веккарусами как некое мемориал их древним героям. Само нахождение рядом с ним обостряет наши восприятия. Этот артефакт может стать решающим фактором в будущих космических битвах.\n\nКроме того, на этой планете находится [FACILITY]Учреждение клонирования Химеры[/FACILITY], которое помогает защищать и взращивать любую колонию, которую мы создадим здесь.\n\nМы также обнаружили [ARTIFACT]Сводный свод о Разрушителе[/ARTIFACT] - кристалл данных, содержащий исследования, касающиеся Импульса Разрушителя. Это оружие площадного поражения, которое откроет новые возможности при вступлении нас в космические сражения.</Description>
 				<ImageFilepath>Artifacts/airship of the ancestors</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6551,7 +6509,7 @@ We have also found [ARTIFACT]The Devastator Compendium[/ARTIFACT], a data crysta
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ценная находка</MessageTitle>
-				<Description>This world contains a sophisticated [FACILITY]medical complex[/FACILITY]. We believe the ancient Wekkarus intended this facility to undo the genetic damage unleashed upon their species by Shakturi attacks. We can use it for our own purposes, to strengthen and improve our own people as suits us best.</Description>
+				<Description>Эта планета содержит сложный [FACILITY]медицинский комплекс[/FACILITY]. Мы полагаем, что древние Веккарусы предназначили этот объект для устранения генетических повреждений, нанесённых их виду атаками Шактури. Мы можем использовать его в своих целях, чтобы укрепить и улучшить наш народ наилучшим для нас образом.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -6618,7 +6576,7 @@ We have also found [ARTIFACT]The Devastator Compendium[/ARTIFACT], a data crysta
 			<GameEventAction>
 				<Type>GenerateResourceAtOrb</Type>
 				<MessageTitle>Богатства из глубин</MessageTitle>
-				<Description>Our intuitive sensing for our native Deep Ocean worlds has helped us to discover a new resource at our colony [LOCATION]{0}[/LOCATION]!\n\nWe have uncovered a new source of [RESOURCE]RESOURCENAME[/RESOURCE] at {0}.</Description>
+				<Description>Наше интуитивное чувство родных миров Глубокого Океана помогло нам открыть новый ресурс на нашей колонии [LOCATION]{0}[/LOCATION]!\n\nМы обнаружили новый источник [RESOURCE]RESOURCENAME[/RESOURCE] в точке {0}.</Description>
 				<ImageFilepath>Environment/Events/riches from the deep</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6659,7 +6617,7 @@ We have also found [ARTIFACT]The Devastator Compendium[/ARTIFACT], a data crysta
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Предки среди нас</MessageTitle>
-				<Description>The intense stress of combat in the {1} system has established a strong connection to our ancestral psychic memories.\n\nThese memories have actually manifested in our dimension, causing a ship from long ago to appear! The {0} is now engaged in battle, helping us to defeat our enemies.\n\nWe do not expect it to be with us for long, but while it is here it will fight alongside us.</Description>
+				<Description>Интенсивный страт боевых действий в системе {1} укрепил прочную связь с нашими психическими воспоминаниями предков.\n\nЭти воспоминания действительно проявились в нашем измерении, вызвав появление корабля из давних времён! {0} теперь ведёт бой, помогая нам одолеть врагов.\n\nМы не ожидаем, что он пробудет с нами долго, но пока он здесь - будет сражаться плечом к плечу с нами.</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6700,7 +6658,7 @@ We have also found [ARTIFACT]The Devastator Compendium[/ARTIFACT], a data crysta
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Предки среди нас</MessageTitle>
-				<Description>The intense stress of combat at {0} in the {1} system has established a strong connection to our ancestral psychic memories.\n\nThese memories have actually manifested in our dimension, causing troops from long ago to appear! These troops are now engaged in the ground battle at {0}, helping us to defeat our enemies.\n\nWe do not expect them to be with us for long, but while they are here they will fight alongside us.</Description>
+				<Description>Интенсивный стресс боя в точке {0} в системе {1} укрепил прочную связь с нашими психическими воспоминаниями предков.\n\nЭти воспоминания фактически проявились в нашем измерении, заставив войска из давних времён явиться! Эти войска сейчас участвуют в наземном бою в точке {0}, помогая нам одолеть врагов.\n\nМы не ожидаем, что они останутся с нами надолго, но пока они здесь, они будут сражаться плечом к плечу с нами.</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6776,7 +6734,7 @@ We have also found [ARTIFACT]The Devastator Compendium[/ARTIFACT], a data crysta
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Предки среди нас</MessageTitle>
-				<Description>Our recent signing of a [GOOD]Free Trade Agreement[/GOOD] with the [FACTION]{3}[/FACTION] has established a strong connection to our ancestral psychic memories.\n\nThese memories have actually manifested in our dimension, causing a [HL]Wekkarus Ambassador[/HL] from long ago to temporarily appear!\n\nThe ambassador has been able to further enhance our relations with the [FACTION]{3}[/FACTION], boosting their evaluation of us.\n\nThe ambassador has now vanished, but their intervention certainly helped!</Description>
+				<Description>Наше недавнее подписание [GOOD]Соглашения о свободной торговле[/GOOD] с фракцией [FACTION]{3}[/FACTION] укрепило связь с нашими предковыми психическими воспоминаниями.\n\nЭти воспоминания фактически проявились в нашем измерении, вызвав временное появление [HL]посла Веккаруса[/HL] из давних времён!\n\nПосол смог дополнительно укрепить наши отношения с фракцией [FACTION]{3}[/FACTION], повысив их оценку нас.\n\nТеперь посол исчез, но его вмешательство определённо помогло!</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6852,7 +6810,7 @@ We have also found [ARTIFACT]The Devastator Compendium[/ARTIFACT], a data crysta
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Предки среди нас</MessageTitle>
-				<Description>Our recent signing of a [GOOD]Research Agreement[/GOOD] with the [FACTION]{3}[/FACTION] has established a strong connection to our ancestral psychic memories.\n\nThese memories have actually manifested in our dimension, causing a [HL]Wekkarus Ambassador[/HL] from long ago to temporarily appear!\n\nThe ambassador has been able to further enhance our relations with the [FACTION]{3}[/FACTION], boosting their evaluation of us.\n\nThe ambassador has now vanished, but their intervention certainly helped!</Description>
+				<Description>Наше недавнее подписание [GOOD]Соглашения об исследованиях[/GOOD] с фракцией [FACTION]{3}[/FACTION] укрепило связь с нашими предковыми психическими воспоминаниями.\n\nЭти воспоминания фактически проявились в нашем измерении, вызвав временное появление [HL]посланника Веккарус[/HL] из давних времён!\n\nПосланник смог дополнительно укрепить наши отношения с фракцией [FACTION]{3}[/FACTION], повысив их оценку нас.\n\nТеперь посланник исчез, но его вмешательство определённо помогло!</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -6928,7 +6886,7 @@ We have also found [ARTIFACT]The Devastator Compendium[/ARTIFACT], a data crysta
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Предки среди нас</MessageTitle>
-				<Description>Our recent signing of a [GOOD]Defense Pact[/GOOD] with the [FACTION]{3}[/FACTION] has established a strong connection to our ancestral psychic memories.\n\nThese memories have actually manifested in our dimension, causing a [HL]Wekkarus Ambassador[/HL] from long ago to temporarily appear!\n\nThe ambassador has been able to further enhance our relations with the [FACTION]{3}[/FACTION], boosting their evaluation of us.\n\nThe ambassador has now vanished, but their intervention certainly helped!</Description>
+				<Description>Наше недавнее подписание [GOOD]Договора о оборонительном союзе[/GOOD] с [FACTION]{3}[/FACTION] укрепило связь с нашими предковыми психическими воспоминаниями.\n\nЭти воспоминания фактически проявились в нашем измерении, вызвав временное появление [HL]посла Веккаруса[/HL] из давних времён!\n\nПосол смог дополнительно укрепить наши отношения с [FACTION]{3}[/FACTION], повысив их оценку нас.\n\nТеперь посол исчез, но его вмешательство определённо помогло!</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7004,7 +6962,7 @@ We have also found [ARTIFACT]The Devastator Compendium[/ARTIFACT], a data crysta
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Предки среди нас</MessageTitle>
-				<Description>Our recent signing of a [GOOD]Free Trade Agreement[/GOOD] with [FACTION]{0}[/FACTION] has established a strong connection to our ancestral psychic memories.\n\nThese memories have actually manifested in our dimension, causing a [HL]Wekkarus Ambassador[/HL] from long ago to temporarily appear!\n\nThe ambassador has been able to further enhance our relations with [FACTION]{0}[/FACTION], boosting their evaluation of us.\n\nThe ambassador has now vanished, but their intervention certainly helped!</Description>
+				<Description>Наше недавнее подписание [GOOD]Соглашения о свободной торговле[/GOOD] с [FACTION]{0}[/FACTION] укрепило связь с нашими предковыми психическими воспоминаниями.\n\nЭти воспоминания фактически проявились в нашем измерении, вызвав временное появление [HL]посланника Веккаруса[/HL] из давних времён!\n\nПосланник смог дополнительно укрепить наши отношения с [FACTION]{0}[/FACTION], повысив их оценку нас.\n\nТеперь посланник исчез, но его вмешательство определённо помогло!</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7080,7 +7038,7 @@ We have also found [ARTIFACT]The Devastator Compendium[/ARTIFACT], a data crysta
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Предки среди нас</MessageTitle>
-				<Description>Our recent signing of a [GOOD]Research Agreement[/GOOD] with [FACTION]{0}[/FACTION] has established a strong connection to our ancestral psychic memories.\n\nThese memories have actually manifested in our dimension, causing a [HL]Wekkarus Ambassador[/HL] from long ago to temporarily appear!\n\nThe ambassador has been able to further enhance our relations with [FACTION]{0}[/FACTION], boosting their evaluation of us.\n\nThe ambassador has now vanished, but their intervention certainly helped!</Description>
+				<Description>Наше недавнее подписание [GOOD]Соглашения об исследованиях[/GOOD] с [FACTION]{0}[/FACTION] укрепило связь с нашими предковыми психическими воспоминаниями.  \n\nЭти воспоминания фактически проявились в нашем измерении, вызвав временное появление [HL]посланника Веккарус[/HL] из давних времён!  \n\nПосланник смог дополнительно укрепить наши отношения с [FACTION]{0}[/FACTION], повысив их оценку нас.  \n\nТеперь посланник исчез, но его вмешательство определённо помогло!</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -7156,7 +7114,7 @@ We have also found [ARTIFACT]The Devastator Compendium[/ARTIFACT], a data crysta
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Предки среди нас</MessageTitle>
-				<Description>Our recent signing of a [GOOD]Defense Pact[/GOOD] with [FACTION]{0}[/FACTION] has established a strong connection to our ancestral psychic memories.\n\nThese memories have actually manifested in our dimension, causing a [HL]Wekkarus Ambassador[/HL] from long ago to temporarily appear!\n\nThe ambassador has been able to further enhance our relations with [FACTION]{0}[/FACTION], boosting their evaluation of us.\n\nThe ambassador has now vanished, but their intervention certainly helped!</Description>
+				<Description>Наше недавнее подписание [GOOD]Договора о оборонительном союзе[/GOOD] с [FACTION]{0}[/FACTION] укрепило связь с нашими древними психическими воспоминаниями.\n\nЭти воспоминания действительно проявились в нашем измерении, вызвав временное появление [HL]посла Веккарус[/HL] из далёкого прошлого!\n\nПосол смог дополнительно укрепить наши отношения с [FACTION]{0}[/FACTION], повысив их оценку нас.\n\nТеперь посол исчез, но его вмешательство определённо помогло!</Description>
 				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>

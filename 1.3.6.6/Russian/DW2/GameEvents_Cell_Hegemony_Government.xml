@@ -17,11 +17,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Клеточная гегемония</MessageTitle>
-				<Description>Due to our chosen government, we have gained insight into:
-
-[ULI][RESEARCH]Exploration Scanners[/RESEARCH][/ULI]
-[ULI][RESEARCH]Improved Sensors[/RESEARCH][/ULI]
-[ULI][RESEARCH]Coordinated Control[/RESEARCH][/ULI]</Description>
+				<Description>Благодаря выбранной нами форме правления мы получили знания о:\n\n[ULI][RESEARCH]Исследовательские сканеры[/RESEARCH][/ULI]\n[ULI][RESEARCH]Улучшенные сенсоры[/RESEARCH][/ULI]\n[ULI][RESEARCH]Координированное управление[/RESEARCH][/ULI]</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>

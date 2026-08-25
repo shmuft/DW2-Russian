@@ -18,10 +18,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Гармоничная утопия</MessageTitle>
-				<Description>Due to our chosen government, we have gained insight into:
-
-[ULI][RESEARCH]Basic Recreation Systems[/RESEARCH][/ULI]
-[ULI][RESEARCH]Basic Medical Systems[/RESEARCH][/ULI]</Description>
+				<Description>Благодаря выбранной форме правления мы получили знания о:\n\n[ULI][RESEARCH]Базовые системы отдыха[/RESEARCH][/ULI]\n[ULI][RESEARCH]Базовые медицинские системы[/RESEARCH][/ULI]</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>

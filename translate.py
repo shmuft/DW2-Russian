@@ -275,7 +275,7 @@ def translate_text(text: str) -> str:
     rag_examples = _build_rag_prompt_text(text, top_k=5)
     user_message = f"Text: {text}"
     if rag_examples:
-        user_message = f"{rag_examples}\n\nTranslate this text:\n{user_message}"
+        user_message = f"{rag_examples}\n\nTranslate this text into Russian:\n{user_message}"
 
     # Получаем модель
     model = lms.llm(DEFAULT_MODEL)
@@ -871,10 +871,6 @@ def _is_technical_string(text: str) -> bool:
 
     text = text.strip()
     if text in TECHNICAL_PHRASES or text.lstrip('\ufeff').strip() in TECHNICAL_PHRASES:
-        return True
-
-    # Пути к файлам содержат слэши
-    if '/' in text or '\\' in text:
         return True
 
     # Идентификаторы и служебные имена часто содержат подчеркивание, цифры или

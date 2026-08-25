@@ -52,16 +52,7 @@
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Волна воинов</MessageTitle>
-				<Description>Our recent war declaration has caused a surge of martial spirit in our empire.
-
-As a result our empire will receive a [BONUS]+20% Mortalen population growth rate[/BONUS] bonus for the next 2 years.
-
-In addition we can also choose one of the following:
-
-[ULI][BONUS]+50% Troop Recruitment Rate[/BONUS][/ULI]
-[ULI][BONUS]+20% Troop Attack Strength[/BONUS][/ULI]
-
-What shall we choose? Troop Recruitment Rate or Troop Attack Strength?</Description>
+				<Description>Недавнее объявление войны вызвало всплеск воинственного духа в нашей империи.\n\nВ результате наша империя получит бонус [BONUS]+20% к скорости роста населения Морталенов[/BONUS] на следующие 2 года.\n\nКроме того, мы также можем выбрать одно из следующего:\n\n[ULI][BONUS]+50% к скорости набора войск[/BONUS][/ULI]\n[ULI][BONUS]+20% к силе атаки войск[/BONUS][/ULI]\n\nЧто же нам выбрать? Скорость набора войск или силу атаки войск?</Description>
 				<ImageFilepath>Environment/Events/Warrior Wave</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -231,16 +222,7 @@ What shall we choose? Troop Recruitment Rate or Troop Attack Strength?</Descript
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Волна патриотизма</MessageTitle>
-				<Description>The recent war declaration against us has caused a surge of patriotic spirit in our empire.
-
-As a result our empire will receive a [BONUS]+20% Mortalen population growth rate[/BONUS] bonus for the next 2 years.
-
-In addition we can also choose one of the following:
-
-[ULI][BONUS]+10% Colony Corruption Reduction[/BONUS][/ULI]
-[ULI][BONUS]+50% War Weariness Reduction[/BONUS][/ULI]
-
-What shall we choose? Colony Corruption Reduction or War Weariness Reduction?</Description>
+				<Description>Недавнее объявление войны против нас вызвало всплеск патриотического духа во всей нашей империи.\n\nВ результате наша империя в течение следующих 2 лет получит бонус [BONUS]+20% к скорости роста населения Морталенов[/BONUS].\n\nКроме того, мы также можем выбрать один из следующих вариантов:\n\n[ULI][BONUS]+10% к снижению коррупции в колониях[/BONUS][/ULI]\n[ULI][BONUS]+50% к снижению усталости от войны[/BONUS][/ULI]\n\nЧто же нам выбрать? Снижение коррупции в колониях или снижение усталости от войны?</Description>
 				<ImageFilepath>Environment/Events/Patriotic Wave</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -410,14 +392,7 @@ What shall we choose? Colony Corruption Reduction or War Weariness Reduction?</D
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Знай своего врага</MessageTitle>
-				<Description>Our recent conquest of an enemy world allows us to obtain temporary improvements in our ongoing conflict.
-
-We can choose one of the following for the next 2 years:
-
-[ULI][BONUS]+10% Espionage and +10% Counter Espionage[/BONUS][/ULI]
-[ULI][BONUS]+10% Targeting and +10% Countermeasures[/BONUS][/ULI]
-
-What shall we choose? Espionage and Counter Espionage? Or Targeting and Countermeasures?</Description>
+				<Description>Наша недавняя победа над вражеским миром позволяет нам получить временные улучшения в текущем конфликте.\n\nМы можем выбрать одно из следующих на ближайшие 2 года:\n\n[ULI][BONUS]+10% к шпионажу и +10% к контршпионажу[/BONUS][/ULI]\n[ULI][BONUS]+10% к точности наведения и +10% к противодействию[/BONUS][/ULI]\n\nЧто мы выберем? Шпионаж и контршпионаж? Или точность наведения и противодействие?</Description>
 				<ImageFilepath>Environment/Events/Know Your Enemy</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>

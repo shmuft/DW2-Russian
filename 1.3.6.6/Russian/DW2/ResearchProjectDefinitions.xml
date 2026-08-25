@@ -33816,7 +33816,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>638</ResearchProjectId>
-		<Name>Shields/Armor</Name>
+		<Name>Щиты/Броня</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>43200</Size>
 		<InitiationCost>
@@ -34170,7 +34170,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>644</ResearchProjectId>
-		<Name>Improved Ship/Base Max Size (Dreadnaught/Fleet Carrier)</Name>
+		<Name>Улучш. макс. размер корабля/базы (Дредноут/Флотский авианосец)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>43200</Size>
 		<InitiationCost>
@@ -39503,7 +39503,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>775</ResearchProjectId>
-		<Name>Reduced Beam/Blaster Energy Cost</Name>
+		<Name>Сниж. энергопотр. лучей/бластеров</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>43200</Size>
 		<InitiationCost>
@@ -39627,7 +39627,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>776</ResearchProjectId>
-		<Name>Improved Beam/Blaster Range</Name>
+		<Name>Улучш. дальность лучей/бластеров</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>43200</Size>
 		<InitiationCost>
@@ -39759,7 +39759,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>777</ResearchProjectId>
-		<Name>Improved Beam/Blaster ROF</Name>
+		<Name>Улучш. скоростр. лучей/бластеров</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>43200</Size>
 		<InitiationCost>

@@ -2295,9 +2295,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Необъяснимая энергия</MessageTitle>
-				<Description>The rift appears to be growing, which is troubling enough, but also shifting, as though transforming into something entirely new. This is a phenomenon unlike anything we have previously encountered.
-
-Understanding the nature of these rifts and their unusual energy would consume a significant portion of our scientific resources, but can we afford to ignore this phenomenon? [RESEARCH]We should continue our research into psychic energy[/RESEARCH] if we are to prepare for whatever comes next.</Description>
+				<Description>Разлом, похоже, расширяется, что уже само по себе тревожно, но он также смещается, словно превращаясь во что-то совершенно новое. Это явление не имеет аналогов среди того, с чем мы сталкивались ранее.\n\nПонимание природы этих разломов и их необычной энергии потребует значительной части наших научных ресурсов, но можем ли мы позволить себе игнорировать это явление? [RESEARCH]Нам следует продолжить исследования пси-энергии[/RESEARCH], если мы хотим подготовиться к тому, что последует дальше.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -3216,9 +3214,7 @@ Understanding the nature of these rifts and their unusual energy would consume a
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Неизвестные пришельцы</MessageTitle>
-				<Description>We are receiving alarming reports from the vicinity of the gravitic rifts. [B]Ships are emerging[/B]. They are of a strange design, like nothing we've seen before, and yet there is something about their appearance that resonates with our people. It is eerie and inexplicably familiar.
-
-Anything approaching the ships has been destroyed, and we have received garbled reports of strange energies affecting anyone attacked. These ships appear to be drawn toward a particular destination, perhaps at the galactic rim. Their goals remain mysterious, and we have had no direct confirmation of their identity, and yet we cannot help but fear the worst.</Description>
+				<Description>Мы получаем тревожные сообщения из окрестностей гравитационных разломов. [B]Корабли появляются[/B]. Они имеют странный дизайн, не похожий ни на что виденное нами ранее, и тем не менее в их облике есть нечто, откликающееся в наших людях. Это жутко и необъяснимо знакомо.\n\nВсё, что приближалось к этим кораблям, было уничтожено; мы получили искажённые сообщения о странных энергиях, поражающих тех, на кого они нападают. Эти корабли, похоже, притягиваются к определённому месту назначения, возможно, на окраине галактики. Их цели остаются загадочными, у нас нет прямых подтверждений их идентичности, и тем не менее мы не можем не опасаться худшего.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -4218,7 +4214,7 @@ Anything approaching the ships has been destroyed, and we have received garbled 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Мы знаем своё место</MessageTitle>
-				<Description>We accept the offer we cannot refuse.\n\nThere is no choice.\n\nWe will submit and profit.</Description>
+				<Description>Мы принимаем предложение, от которого нельзя отказаться.\n\nВыбора нет.\n\nМы подчинимся и извлечём выгоду.</Description>
 				<ImageFilepath>Environment/Events/Large/shakturi axis</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -4855,7 +4851,7 @@ Anything approaching the ships has been destroyed, and we have received garbled 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Упущенная возможность</MessageTitle>
-				<Description>We have missed our chance to intervene with the formation of a Boskara/Shakturi alliance. Let's hope we don't regret our inaction.</Description>
+				<Description>Мы упустили шанс вмешаться в формирование альянса Боскара/Шактури. Пусть мы не пожалеем о нашем бездействии.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -10937,17 +10933,7 @@ Anything approaching the ships has been destroyed, and we have received garbled 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Результаты стратегического совещания</MessageTitle>
-				<Description>Our meeting has proved most productive. Based on everything we have learned, we now believe we must achieve the following goals if we are to defeat the Shakturi.
-
-1. We must [B]destroy their beacons[/B] in order to inhibit their ability to receive supplies and reinforcements from their home galaxy.
-
-2. We must [B]learn to defeat their Planet Destroyer ships[/B], and build our own ships of similar size.
-
-3. We must [B]stop their ability to spread psychic plague[/B] and, perhaps use their technology against them and create plagues of our own.
-
-4. We must learn how to [B]eliminate the threat of the Rift Striders[/B] and Shakturi genetic engineering in general, which poses the threat of turning other space creatures against us.
-
-If we can achieve these four goals, then victory becomes possible, though never certain. Yet such goals are easier imagined than achieved. Our work lies ahead of us, and the fate of the galaxy depends upon our efforts.</Description>
+				<Description>Наша встреча оказалась крайне плодотворной. Исходя из всего, что мы узнали, теперь считаем необходимым достичь следующих целей, если хотим одолеть Шактури:\n\n1. Мы должны [B]уничтожить их маяки[/B], чтобы лишить их возможности получать припасы и подкрепления из своей родной галактики.\n\n2. Мы должны [B]научиться побеждать их корабли-пожиратели планет[/B] и построить собственные суда подобного размера.\n\n3. Мы должны [B]остановить способность Шактури распространять псионическую чуму[/B], а возможно, использовать их технологии против них самих и создать свои собственные чумы.\n\n4. Мы должны научиться [B]нейтрализовать угрозу Скитальцев Разлома[/B] и генной инженерии Шактури в целом, которая грозит обратить других космических существ против нас.\n\nЕсли мы сможем достичь этих четырёх целей, то победа станет возможной, хотя и не гарантированной. Однако такие цели легче вообразить, чем реализовать. Наше дело ещё впереди, и судьба галактики зависит от наших усилий.</Description>
 				<ImageFilepath>Environment/Events/Large/grand strategy meeting</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -10989,13 +10975,7 @@ If we can achieve these four goals, then victory becomes possible, though never 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Наши войска перешли на сторону противника во время битвы!</MessageTitle>
-				<Description>One of our troop units has rebelled during the battle at {0}! They have switched sides to the dreaded Shakturi!
-
-It seems that the Shakturi were somehow able to use their psychic influence to persuade the troops to join them.
-
-How can we counter this frightening new ability?
-
-Our scientists recommend that we immediately begin research in [RESEARCH]Psychic Defense Fields[/RESEARCH] and any follow-on projects.</Description>
+				<Description>Одна из наших десантных единиц восстала во время битвы в {0}! Они перешли на сторону страшных Шактури!\n\nПохоже, что Шактури каким-то образом смогли использовать своё психическое влияние, чтобы склонить войска к переходу на их сторону.\n\nКак мы можем противостоять этой пугающей новой способности?\n\nНаши учёные рекомендуют немедленно начать исследования в области [RESEARCH]Пси-щитов[/RESEARCH] и любых связанных с ними проектов.</Description>
 				<ImageFilepath>Environment/Events/Troop Defection</ImageFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>

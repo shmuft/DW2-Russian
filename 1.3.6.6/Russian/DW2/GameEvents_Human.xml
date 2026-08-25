@@ -52,11 +52,7 @@
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Герой часа</MessageTitle>
-				<Description>The recent declaration of war against us has incited deep feelings of heroism and bravery amongst our military ranks.
-
-As a result a number of promising officers are demonstrating outstanding fighting spirit. We should promote one of them to flag officer.
-
-What shall we choose? An [CHARACTER]Admiral[/CHARACTER] or a [CHARACTER]General[/CHARACTER]?</Description>
+				<Description>Недавнее объявление войны против нас пробудило в наших военных рядах глубокие чувства героизма и мужества.\n\nВ результате ряд перспективных офицеров демонстрирует выдающийся боевой дух. Нам следует повысить одного из них до звания флотского адмирала или генерала.\n\nКого же нам выбрать? [CHARACTER]Адмирала[/CHARACTER] или [CHARACTER]Генерала[/CHARACTER]?</Description>
 				<ImageFilepath>Environment/Events/Hero of the Hour</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -115,7 +111,7 @@ What shall we choose? An [CHARACTER]Admiral[/CHARACTER] or a [CHARACTER]General[
 			<GameEventAction>
 				<Type>GenerateCharacter</Type>
 				<MessageTitle>Герой часа</MessageTitle>
-				<Description>A new hero has stepped forward!\n\n[CHARACTER]Admiral {1}[/CHARACTER] has appeared at {2}.</Description>
+				<Description>Новый герой вышел вперёд!\n\n[CHARACTER]Адмирал {1}[/CHARACTER] появился на {2}.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -235,7 +231,7 @@ What shall we choose? An [CHARACTER]Admiral[/CHARACTER] or a [CHARACTER]General[
 			<GameEventAction>
 				<Type>GenerateCharacter</Type>
 				<MessageTitle>Герой часа</MessageTitle>
-				<Description>A new hero has stepped forward!\n\n[CHARACTER]General {1}[/CHARACTER] has appeared at {2}.</Description>
+				<Description>Новый герой вышел вперёд!\n\n[CHARACTER]Генерал {1}[/CHARACTER] появился на {2}.</Description>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -390,9 +386,7 @@ What shall we choose? An [CHARACTER]Admiral[/CHARACTER] or a [CHARACTER]General[
 			<GameEventAction>
 				<Type>GenerateCharacter</Type>
 				<MessageTitle>Внутренние споры</MessageTitle>
-				<Description>Our recent signing of a Defense treaty has caused concern amongst our population, prompting debates for and against. This has [BAD]lowered happiness throughout our empire for 2 years[/BAD].
-
-However the new Defense treaty has also led to the appearance of a [CHARACTER]new Ambassador, {1}[/CHARACTER] at {2}.</Description>
+				<Description>Подписание нами оборонительного договора вызвало обеспокоенность среди населения, спровоцировав споры «за» и «против». Это [BAD]снизило уровень счастья во всей нашей империи на 2 года[/BAD].\n\nОднако новый оборонительный договор также привел к появлению [CHARACTER]нового посла {1}[/CHARACTER] в точке {2}.</Description>
 				<ImageFilepath>Environment/Events/Internal Debates</ImageFilepath>
 				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -549,13 +543,7 @@ However the new Defense treaty has also led to the appearance of a [CHARACTER]ne
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Усиленные меры безопасности</MessageTitle>
-				<Description>The recent success of a foreign intelligence mission against us is a cause for concern.
-
-To combat these efforts we can choose to [CHARACTER]spend a randomly-selected Spy[/CHARACTER] to gain a [BONUS]+20% bonus to Counter Espionage for 2 years[/BONUS]. The spy will be permanently lost.
-
-However doing this will also [BAD]reduce happiness by -5% in our empire for 2 years[/BAD].
-
-Should we spend a Spy to gain these temporary Counter Espionage bonuses?</Description>
+				<Description>Недавний успех иностранной разведывательной миссии против нас вызывает обеспокоенность.\n\nЧтобы противостоять этим усилиям, мы можем [CHARACTER]потратить случайно выбранного шпиона[/CHARACTER], чтобы получить [BONUS]+20% бонус к контршпионажу на 2 года[/BONUS]. Шпион будет безвозвратно потерян.\n\nОднако это также приведет к тому, что [BAD]уровень счастья в нашей империи снизится на -5% на 2 года[/BAD].\n\nСтоит ли нам потратить шпиона ради получения этих временных бонусов к контршпионажу?</Description>
 				<ImageFilepath>Environment/Events/Heightened Security</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -822,11 +810,7 @@ Should we spend a Spy to gain these temporary Counter Espionage bonuses?</Descri
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Великая художественная выставка</MessageTitle>
-				<Description>The recent construction of a new Resort Base at {0} has caused a surge of excitement throughout our population, leading some of our business leaders and local officials to organize a [GOOD]Great Art Exposition[/GOOD] at our colony [LOCATION]{6}[/LOCATION]. This exposition features the pinnacle of art and culture from the surrounding systems.
-
-As a result our empire will enjoy a [BONUS]+10% boost to trade and tourism income[/BONUS] for the next 2 years.
-
-[LOCATION]{6}[/LOCATION] will also benefit from [BONUS]+10% colony income and +10% scenery bonus[/BONUS] during that time.</Description>
+				<Description>Недавнее строительство новой Развлекательной базы в {0} вызвало всплеск энтузиазма среди нашего населения, побудив некоторых наших деловых лидеров и местных чиновников организовать [GOOD]Великую художественную выставку[/GOOD] на нашей колонии [LOCATION]{6}[/LOCATION]. Эта выставка демонстрирует вершину искусства и культуры из окрестных систем.\n\nВ результате наша империя в течение следующих 2 лет получит [BONUS]+10% к доходам от торговли и туризма[/BONUS].\n\n[LOCATION]{6}[/LOCATION] также получит [BONUS]+10% к доходу колонии и +10% бонус за живописность[/BONUS] в этот период.</Description>
 				<ImageFilepath>Environment/Events/Great Art Exposition</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -897,11 +881,7 @@ As a result our empire will enjoy a [BONUS]+10% boost to trade and tourism incom
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Великая художественная выставка</MessageTitle>
-				<Description>The recent signing of a Free Trade Agreement has caused a surge of excitement throughout our population, leading some of our business leaders and local officials to organize a [GOOD]Great Art Exposition[/GOOD] at our colony [LOCATION]{6}[/LOCATION]. This exposition features the pinnacle of art and culture from the surrounding systems.
-
-As a result our empire will enjoy a [BONUS]+10% boost to trade and tourism income[/BONUS] for the next 2 years.
-
-[LOCATION]{6}[/LOCATION] will also benefit from [BONUS]+10% colony income and +10% scenery bonus[/BONUS] during that time.</Description>
+				<Description>Недавнее подписание соглашения о свободной торговле вызвало всплеск энтузиазма во всём нашем населении, побудив некоторых наших деловых лидеров и местных чиновников организовать [GOOD]Великую художественную выставку[/GOOD] в нашей колонии [LOCATION]{6}[/LOCATION]. На этой выставке представлены вершина искусства и культуры из окрестных систем.\n\nВ результате наша империя на следующие 2 года получит [BONUS]+10% к доходам от торговли и туризма[/BONUS].\n\n[LOCATION]{6}[/LOCATION] также в этот период получит [BONUS]+10% к доходу колонии и +10% бонус за живописность[/BONUS].</Description>
 				<ImageFilepath>Environment/Events/Great Art Exposition</ImageFilepath>
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>

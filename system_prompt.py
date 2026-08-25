@@ -3055,5 +3055,5 @@ CAPITALIZATION RULES:
 "Your Empire - Policy Settings.txt"→"Твоя империя - Политические настройки.txt"
 
 OUTPUT RULE:
-Output ONLY the translation.
+Output ONLY the translation in Russian.
 """

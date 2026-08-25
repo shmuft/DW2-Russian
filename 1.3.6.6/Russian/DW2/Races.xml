@@ -389,16 +389,16 @@
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
 		<FeatureExplanations>
-			<string>[HL]Great Art Exposition:[/HL] When you sign a Free Trade Agreement or build a new Resort Base obtain a 2 year boost to Trade and Tourism income throughout your empire along with a boost to Colony income and Tourism for the colony where the Great Art Exposition is held. Cannot trigger more than once every 5 years</string>
-			<string>[HL]Hero of the Hour:[/HL] When war is declared on you choose either a new Admiral or new General with two positive traits</string>
-			<string>[HL]Internal Debates:[/HL] When you sign a new Defense treaty obtain a capable new Ambassador but also a 2 year decrease to Colony Happiness throughout your empire</string>
-			<string>[HL]Heightened Security:[/HL] When a foreign intelligence mission against you succeeds (but is detected) you may choose to spend a Spy to gain a 2 year boost to Counter Espionage along with a decrease to Colony Happiness throughout your empire</string>
-			<string>[HL]New Worlds:[/HL] When you colonize or conquer a Continental planet obtain a free random Colonization tech advance</string>
-			<string>[HL]Large Carriers:[/HL] all Carrier ship hulls +50 size</string>
-			<string>[HL]Unique Leader trait - Alliance Builder:[/HL] +10% Diplomacy</string>
-			<string>[HL]Unique Ambassador trait - Entrepreneur:[/HL] +10% Trade Income</string>
-			<string>[HL]Unique Spy trait - Industrial Agent:[/HL] +5% Espionage</string>
-			<string>[HL]Unique Scientist trait - Destructive:[/HL] +10% Weapons Research</string>
+			<string>[HL]Великая художественная выставка:[/HL] При подписании соглашения о свободной торговле или строительстве нового развлекательного комплекса вы получаете бонус к доходам от торговли и туризма на всей империи, а также дополнительный доход колонии и туризм в колонии, где проводится Великая художественная выставка. Эффект может срабатывать не чаще одного раза в 5 лет.</string>
+			<string>[HL]Герой часа:[/HL] Когда объявлена война, выберите нового адмирала или нового генерала с двумя положительными чертами.</string>
+			<string>[HL]Внутренние споры:[/HL] При подписании нового оборонительного договора вы получаете способного нового посла, но также и снижение счастья колоний на 2 года во всей вашей империи.</string>
+			<string>[HL]Усиленные меры безопасности:[/HL] Когда иностранная разведывательная миссия против вас успешна (но обнаружена), вы можете потратить шпиона, чтобы получить 2-летний бонус к контршпионажу наряду со снижением счастья в колониях по всей вашей империи.</string>
+			<string>[HL]Новые миры:[/HL] При колонизации или завоевании континентальной планеты вы получаете случайную бесплатную технологию развития колонизации</string>
+			<string>[HL]Крупные авианосцы:[/HL] все корпуса кораблей-авианосцев +50 к размеру</string>
+			<string>[HL]Уникальная черта лидера - Строитель альянсов:[/HL] +10% к дипломатии</string>
+			<string>[HL]Уникальная черта посла - Предприимчивость:[/HL] +10% к доходам от торговли</string>
+			<string>[HL]Уникальная черта шпиона - Промышленный агент:[/HL] +5% к шпионажу</string>
+			<string>[HL]Уникальная черта учёного - Разрушительная:[/HL] +10% к исследованиям оружия</string>
 		</FeatureExplanations>
 		<DefaultInfantryId>2</DefaultInfantryId> 
 		<Name>Human</Name>
@@ -1354,20 +1354,20 @@
 			<CharacterTraitType>Unnoticed</CharacterTraitType>
 		</AdditionalCharacterTraits>
 		<FeatureExplanations>
-			<string>[HL]Rapid Modular Construction:[/HL] all ships, bases and planetary facilities are built +30% faster than normal</string>
-			<string>[HL]Natural Traders:[/HL] -5 threshold to sign new trade treaties</string>
-			<string>[HL]Nomadic Population:[/HL] naturally dispersed population provides +30% resistance to bombardment and ground combat losses</string>
-			<string>[HL]Desert Dwellers:[/HL] Teekan Militia troops gain +50% attack and defense strength, and all other Teekan troops (i.e. Infantry, Armor, etc) gain +20% attack and defense strength when fighting on any desert planet (Sandy Desert, Rocky Desert, Desert Savanna)</string>
-			<string>[HL]Galactic Nomads:[/HL] when a Teekan faction has only one colony then they can choose to abandon that planet and become a Refugee Fleet in search of a new home. The full population of the last colony is loaded onto the single Colony Ship. All previous ships and bases are lost, with the exception of the small Refugee Fleet. To activate Galactic Nomads, select your last colony and click the 'Galactic Nomads' action button under the Selection Panel</string>
-			<string>[HL]Wander Time:[/HL] when a new colony is established, migration draw to the new colony is greatly increased for 5 years</string>
-			<string>[HL]Great Bakdur Hunt:[/HL] Teekan player can manually initiate a Great Bakdur Hunt at any Desert colony (Sandy Desert, Rocky Desert, Desert Savanna) for 25,000 credits once every 5 years. The outcome of the hunt will vary, but will always provide some benefits: typically an empire-wide Happiness bonus and a Development bonus at the colony</string>
-			<string>[HL]Salvage Kings:[/HL] when a Teekan ship discovers loot from salvaged ship debris, they may sometimes have the opportunity to forfeit the initial discovery in exchange for a chance to instead find better loot by searching harder. However sometimes pursuing this option will yield no further benefits, in which case nothing will be gained from the salvage</string>
-			<string>[HL]Fragile Hulls:[/HL] all military ship hulls are 20% smaller, making them more fragile in combat</string>
-			<string>[HL]Unique Leader trait - Wanderer:[/HL] +20% Leader Quality causing more rapid skill progression</string>
-			<string>[HL]Unique Leader trait - Haggler:[/HL] +5% Trade Income</string>
-			<string>[HL]Unique Scientist trait - Tinkerer:[/HL] +5% High Tech Research, +5% Industrial Research</string>
-			<string>[HL]Unique Ambassador trait - Bargainer:[/HL] +5% Trade Income</string>
-			<string>[HL]Unique Spy trait - Unnoticed:[/HL] +10% Concealment</string>
+			<string>[HL]Быстрая модульная сборка:[/HL] все корабли, базы и планетарные сооружения строятся на 30% быстрее обычного</string>
+			<string>[HL]Естественные торговцы:[/HL] -5 порог для подписания новых торговых договоров</string>
+			<string>[HL]Кочевое население:[/HL] естественно рассредоточенное население обеспечивает +30% устойчивости к бомбардировкам и потерям в наземных боях</string>
+			<string>[HL]Жители пустыни:[/HL] Войска ополчения Тиканов получают +50% к силе атаки и защиты, а все остальные войска Тиканов (т. е. пехота, бронетехника и т. д.) получают +20% к силе атаки и защиты при ведении боя на любой пустынной планете (песчаная пустыня, каменистая пустыня, пустынная саванна).</string>
+			<string>[HL]Галактические кочевники:[/HL] когда у фракции Тиканов остается только одна колония, она может покинуть эту планету и стать Флотом беженцев в поисках нового дома. Всё население последней колонии переселяется на единственный Колонизационный корабль. Все предыдущие корабли и базы теряются, за исключением небольшого Флота беженцев. Чтобы активировать «Галактических кочевников», выберите свою последнюю колонию и нажмите кнопку действия «Галактические кочевники» в панели выбора.</string>
+			<string>[HL]Время странствий:[/HL] при основании новой колонии приток мигрантов в неё значительно возрастает на 5 лет.</string>
+			<string>[HL]Великая охота на Бакдуров:[/HL] Игрок-Тикан может вручную начать Великую охоту на Бакдуров в любой пустынной колонии (Песчаная пустыня, Каменистая пустыня, Пустынная саванна) за 25,000 кредитов раз в 5 лет. Результат охоты будет разным, но всегда принесет определенные преимущества: обычно это общеимперский бонус к счастью и бонус к развитию колонии.</string>
+			<string>[HL]Короли спасения:[/HL] когда корабль тиканов обнаруживает добычу из обломков спасенного судна, у него иногда появляется возможность отказаться от первоначальной находки в обмен на шанс найти более ценную добычу благодаря тщательному поиску. Однако иногда преследование этого варианта не приносит никаких дополнительных выгод, и в таком случае от спасения ничего не будет получено.</string>
+			<string>[HL]Хрупкие корпуса:[/HL] все военные корпуса кораблей на 20% меньше, что делает их более хрупкими в бою</string>
+			<string>[HL]Уникальная черта лидера - Странник:[/HL] +20% к качеству лидеров, обеспечивающее более быстрое развитие навыков</string>
+			<string>[HL]Уникальная черта лидера - Торговец:[/HL] +5% к доходам от торговли</string>
+			<string>[HL]Уникальная черта учёного - «Изобретатель»:[/HL] +5% к исследованиям высоких технологий, +5% к промышленным исследованиям</string>
+			<string>[HL]Уникальная черта посла - Торговец:[/HL] +5% к доходам от торговли</string>
+			<string>[HL]Уникальная черта шпиона - Незаметность:[/HL] +10% к скрытности</string>
 		</FeatureExplanations>
 		<DefaultInfantryId>7</DefaultInfantryId> 
 		<Name>Teekan</Name>
@@ -1734,19 +1734,19 @@
 		</AllowableIntelligenceMissionTypes>
 
 		<FeatureExplanations>
-			<string>[HL]Pretentious Design:[/HL] all ship and base hulls use 20% more resources and cost 10% more to build. Planetary facilities are 10% slower to build</string>
-			<string>[HL]Binding Contracts:[/HL] other factions with a trade treaty with the Haakonish are [B]more likely to buy resources from Haakonish locations[/B] instead of other foreign suppliers</string>
-			<string>[HL]Penalty Clauses:[/HL] factions declaring war on a Haakonish faction suffer a [B]-10 Reputation penalty[/B]. Independent Colonies will also immediately [B]cancel any trade treaties with the warring faction[/B] if they also have a trade treaty with the Haakonish faction</string>
-			<string>[HL]Acccount Confiscation:[/HL] when a faction declares war on the Haakonish, the Haakonish faction will immediately [B]take bonus income equal to all trade[/B] with the warring faction over the previous year</string>
-			<string>[HL]Superior Destiny:[/HL] each time a Haakonish-specific research project is completed, gain a [GOOD]+5 empire-wide Happiness bonus[/GOOD] for 2 years</string>
-			<string>[HL]Exploit Loopholes:[/HL] a Haakonish faction may choose to exploit a trade treaty with another faction by [GOOD]taking money directly from the other faction[/GOOD] (up to 30,000 credits for standard empires, up to 15,000 credits for independent colonies). However this action will cause the other faction to immediately [BAD]cancel the trade treaty[/BAD] and will [BAD]harm our reputation[/BAD]</string>
-			<string>[HL]Economic Boost:[/HL] creative accounting [GOOD]boosts empire income by +10%[/GOOD] for 5 years. However later it also triggers [BAD]growing corruption throughout all colonies[/BAD] that lasts 5 years. Can be initiated at any colony once every 8 years</string>
-			<string>[HL]Xenophobic Riots:[/HL] can be initiated at any colony to [B]immediately reduce non-Haakonish populations by 25%[/B] at the colony. The colony also gains [GOOD]+10 Happiness[/GOOD] for 5 years and has [BAD]reduced Migration[/BAD] for 10 years. The Haakonish faction also suffers a [BAD]-10 Reputation penalty[/BAD]</string>
-			<string>[HL]Unique Leader trait - Hard Bargainer:[/HL] +10% Trade Income, -5% Diplomacy</string>
-			<string>[HL]Unique Leader trait - Xenophile:[/HL] -5% Colony Happiness, -5% Counter Esionage</string>
-			<string>[HL]Unique Scientist trait - Multi-Dimensional:[/HL] +5% Armor Research, +5% Construction Research, +5% Engine Research, +5% High Tech Research, +5% Hyperdrive Research, +5% Industrial Research, +5% Reactor Research, +5% Sensor Research, +5% Shields Research, +5% Troop Research, +5% Weapons Research</string>
-			<string>[HL]Unique Ambassador trait - Xenolocutor:[/HL] +10% Diplomacy, -5% Counter Esionage</string>
-			<string>[HL]Unique Spy trait - Suspicious:[/HL] +5% Counter Esionage, +5% Concealment</string>
+			<string>[HL]Вычурный дизайн:[/HL] все корпуса кораблей и базовых сооружений требуют на 20% больше ресурсов и стоят на 10% дороже в постройке. Планетарные сооружения строятся на 10% медленнее</string>
+			<string>[HL]Связанные контракты:[/HL] другие фракции, имеющие торговый договор с Хаакониш, [B]с большей вероятностью будут закупать ресурсы на территориях Хаакониш[/B], а не у других иностранных поставщиков.</string>
+			<string>[HL]Штрафные условия:[/HL] фракции, объявившие войну хааконишской фракции, получают [B]-10 к репутации[/B]. Независимые колонии также немедленно [B]отменяют любые торговые договоры с воюющей фракцией[/B], если у них также есть торговый договор с хааконишской фракцией.</string>
+			<string>[HL]Конфискация счетов:[/HL] когда фракция объявляет войну Хааконишам, фракция Хааконишей немедленно [B]получает бонусный доход в размере всех торговых операций[/B] с воюющей фракцией за предыдущий год</string>
+			<string>[HL]Высшее предназначение:[/HL] каждый раз при завершении проекта исследований Хааконишей получайте бонус к счастью по всей империи [+5% на 2 года][/GOOD]</string>
+			<string>[HL]Использование лазеек:[/HL] фракция Хааконишей может выбрать использование торговой сделки с другой фракцией, чтобы [GOOD]получить деньги напрямую от этой фракции[/GOOD] (до 30 000 кредитов для стандартных империй, до 15 000 кредитов для независимых колоний). Однако это действие заставит другую фракцию немедленно [BAD]отменить торговую сделку[/BAD] и нанесет [BAD]ущерб нашей репутации[/BAD].</string>
+			<string>[HL]Экономический подъем:[/HL] творческий учет [GOOD]увеличивает доход империи на +10%[/GOOD] в течение 5 лет. Однако позже он также запускает [BAD]рост коррупции во всех колониях[/BAD], который длится 5 лет. Может быть запущен в любой колонии раз в 8 лет</string>
+			<string>[HL]Межрасовые беспорядки:[/HL] можно инициировать в любой колонии, чтобы [B]мгновенно сократить численность не-хааконишских рас на 25%[/B] в этой колонии. Колония также получает [GOOD]+10 к счастью[/GOOD] на 5 лет и имеет [BAD]сниженную миграцию[/BAD] в течение 10 лет. Фракция Хааконишей также получает [BAD]-10 к репутации[/BAD].</string>
+			<string>[HL]Уникальная черта лидера - Жёсткий переговорщик:[/HL] +10% к доходам от торговли, -5% к дипломатии</string>
+			<string>[HL]Уникальная черта лидера - Ксенофил:[/HL] −5% счастья колоний, −5% контршпионаж</string>
+			<string>[HL]Уникальная черта учёного - Многомерность:[/HL] +5% к исследованиям брони, +5% к исследованиям строительства, +5% к исследованиям двигателей, +5% к высокотехнологичным исследованиям, +5% к исследованиям гипердвигателей, +5% к промышленным исследованиям, +5% к исследованиям реакторов, +5% к исследованиям сенсоров, +5% к исследованиям щитов, +5% к исследованиям войск, +5% к исследованиям оружия</string>
+			<string>[HL]Уникальная черта посла - Ксенолокутор:[/HL] +10% к дипломатии, -5% к контршпионажу</string>
+			<string>[HL]Уникальная черта шпиона - Подозрительность:[/HL] +5% к контршпионажу, +5% к маскировке</string>
 		</FeatureExplanations>
 
 		<DefaultInfantryId>12</DefaultInfantryId> 
@@ -2148,15 +2148,15 @@
 			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
 		<FeatureExplanations>
-			<string>[HL]Warrior Wave:[/HL] When you declare war obtain a 2 year boost to Mortalen Population Growth along with your choice of either a large Troop Recruitment Rate boost or a Troop Attack Strength boost</string>
-			<string>[HL]Patriotic Wave:[/HL] When war is declared on you obtain a 2 year boost to Mortalen Population Growth along with your choice of either Colony Coruption Reduction or War Weariness Reduction</string>
-			<string>[HL]Know Your Enemy:[/HL] When you invade and conquer an enemy world choose a 2 year boost to either Espionage and Counter Espionage or Targeting and Countermeasures</string>
-			<string>[HL]Prove Yourself:[/HL] Periodically choose between 2 characters (from Leader, Admirals, Generals) to undergo a trial by arms. If successful the selected character gains a positive trait, otherwise a negative trait</string>
-			<string>[HL]Reinforced Hulls:[/HL] all ship and spaceport hulls have +1 Reactive Armor rating</string>
-			<string>[HL]Unique Leader trait - Warmaster:[/HL] +10% Troop Maintenance Savings, +20% Ship Maintenance Savings</string>
-			<string>[HL]Unique Admiral trait - Grand Admiral:[/HL] +10% Weapons Damage, +10% Targeting</string>
-			<string>[HL]Unique General trait - Disciple of War:[/HL] +20% Troop Attack Strength, +10% Troop Maintenance Savings</string>
-			<string>[HL]Unique Ambassador trait - Intimidating Presence:[/HL] +10% Diplomacy</string>
+			<string>[HL]Волна воинов:[/HL] При объявлении войны вы получаете бонус к росту населения Морталенов на 2 года, а также выбираете один из двух вариантов: значительное увеличение скорости набора войск или повышение силы атаки войск.</string>
+			<string>[HL]Волна патриотизма:[/HL] При объявлении войны вы получаете бонус к росту населения Морталенов на 2 года, а также выбираете одно из двух: снижение коррупции в колониях или снижение усталости от войны.</string>
+			<string>[HL]Знай своего врага:[/HL] При вторжении и завоевании мира противника выберите бонус на 2 года: либо к шпионажу и контршпионажу, либо к точности наведения и противодействию.</string>
+			<string>[HL]Докажи себя:[/HL] Периодически выбирайте одного из двух персонажей (из Лидеров, Адмиралов или Генералов) для испытания оружием. В случае успеха выбранный персонаж получает положительную черту, в противном случае - отрицательную.</string>
+			<string>[HL]Усиленные корпуса:[/HL] все корпуса кораблей и космических портов имеют рейтинг реактивной брони +1</string>
+			<string>[HL]Уникальная черта лидера - Верховный главнокомандующий:[/HL] +10% экономии на содержании войск, +20% экономии на содержании кораблей</string>
+			<string>[HL]Уникальная черта адмирала - Великий адмирал:[/HL] +10% к урону оружием, +10% к точности наведения</string>
+			<string>[HL]Уникальная общая черта - Последователь войны:[/HL] +20% к силе атаки войск, +10% к экономии на содержании войск</string>
+			<string>[HL]Уникальная черта посла - Запугивающее присутствие:[/HL] +10% к дипломатии</string>
 		</FeatureExplanations>
 		<DefaultInfantryId>17</DefaultInfantryId> 
 		<Name>Mortalen</Name>
@@ -2516,18 +2516,18 @@
 		</GrowthResources>
 		
 		<FeatureExplanations>
-			<string>[HL]Poor Damage Control:[/HL] all ship and base hulls have -10% Damage Reduction, increasing damage that penetrates shields and armor</string>
-			<string>[HL]Warspawn:[/HL] option to obtain a new strong 'Warspawn' [CHARACTER]admiral or general[/CHARACTER] when you declare war against another faction, but at the cost of [BAD]greatly reduced relations[/BAD] with all other factions without a Non Aggression Pact or Defense treaty. Having a Warspawn character also enables the [B]War Spawning[/B] feature (see below). Will not occur if you already have a Warspawn character</string>
-			<string>[HL]Underlords:[/HL] discover an additional resource when establish a new Volcanic colony</string>
-			<string>[HL]We Reign Supreme:[/HL] when you conquer another empire's homeworld obtain +20% Empire Happiness for 10 years</string>
-			<string>[HL]Crazed Cannibalism:[/HL] when not at war, one of your Boskara colonies may periodically engage in a hyper-aggressive frenzy of cannibalism, losing about 10% of it's population</string>
-			<string>[HL]Total War:[/HL] when not at war, the player can mobilize any colony towards war production for 2 years. During this time the colony will have +50% Ship Construction Speed and +50% Troop Recruitment Rate. However the colony will also take [BAD]5 damage per year[/BAD]</string>
-			<string>[HL]War Spawning:[/HL] when a 'Warspawn' character exists in the empire, player can initiate War Spawning at any colony with over 1 billion Boskara. This will immediately convert 10% of the colony population into 10 new Infantry troop units at no cost</string>
-			<string>[HL]Core-Linked Weapons Mega Lab:[/HL] unique Boskara facility that provides bonuses to Weapons Research and All Research, but lowers the planet quality where it is built</string>
-			<string>[HL]Unique Leader trait - Underlord:[/HL] +10% Mining Rate. High chance of acquiring when establish a new Volcanic colony</string>
-			<string>[HL]Unique Spy trait - Malicious:[/HL] +10% Sabotage, +10% Assassination. High chance of acquiring when successfully complete any sabotage or assassination spy mission</string>
-			<string>[HL]Unique Admiral and General trait - Warspawn:[/HL] +20% Ground Attack Strength, +10% Weapons Damage, +10% Targeting. Acquired when choose to assign a Warspawn after declaring war</string>
-			<string>[HL]Unique Admiral trait - World Scorcher:[/HL] +20% Bombardment Damage. Acquired when completely destroy a colony via bombardment</string>
+			<string>[HL]Плохая система борьбы за живучесть:[/HL] все корпуса кораблей и баз имеют -10% к снижению урона, что увеличивает количество повреждений, проникающих сквозь щиты и броню.</string>
+			<string>[HL]Порождения войны:[/HL] возможность получить нового сильного адмирала или генерала «Порождения войны» при объявлении войны другой фракции, но ценой [BAD]сильного снижения отношений[/BAD] со всеми остальными фракциями, у которых нет пакта о ненападении или оборонительного договора. Наличие персонажа «Порождения войны» также активирует функцию [B]Генерация войны[/B] (см. ниже). Не произойдет, если у вас уже есть персонаж «Порождения войны».</string>
+			<string>[HL]Подчиненные лорды:[/HL] обнаруживают дополнительный ресурс при создании новой вулканической колонии</string>
+			<string>[HL]Мы безраздельно властвуем:[/HL] при захвате столичного мира другой империи получите +20% к счастью империи на 10 лет</string>
+			<string>[HL]Безумный каннибализм:[/HL] когда вы не ведете войну, одна из ваших колоний Боскара может периодически впадать в гиперагрессивное безумие и предаваться каннибализму, теряя около 10% своего населения.</string>
+			<string>[HL]Тотальная война:[/HL] когда вы не ведете войну, игрок может мобилизовать любую колонию на военное производство сроком на 2 года. В течение этого времени колония получит +50% к скорости строительства кораблей и +50% к скорости набора войск. Однако колония также будет получать [BAD]5 единиц урона в год[/BAD].</string>
+			<string>[HL]Генерация войны:[/HL] когда в империи существует персонаж «Порождения войны», игрок может инициировать Генерацию войны на любой колонии с населением более 1 миллиарда Боскара. Это мгновенно превратит 10% населения колонии в 10 новых отрядов пехоты без каких-либо затрат.</string>
+			<string>[HL]Оружейная мега-лаборатория с прямой связью с ядром:[/HL] уникальная боскаранская установка, предоставляющая бонусы к исследованиям оружия и всем исследованиям, но снижающая качество планеты, на которой она построена.</string>
+			<string>[HL]Уникальная черта лидера - Подчиненный лорд:[/HL] +10% к скорости добычи. Высокая вероятность получения при создании новой вулканической колонии</string>
+			<string>[HL]Уникальная черта шпиона - Злобность:[/HL] +10% к саботажу, +10% к убийствам. Высокая вероятность получения при успешном выполнении любой шпионской миссии по саботажу или убийству</string>
+			<string>[HL]Уникальная черта адмирала и генерала - Порождения войны:[/HL] +20% к силе наземной атаки, +10% к урону от оружия, +10% к точности наведения. Приобретается при назначении Порождения войны после объявления войны</string>
+			<string>[HL]Уникальная черта адмирала - «Сжигатель миров»:[/HL] +20% урона от бомбардировки. Приобретается при полном уничтожении колонии в результате бомбардировки.</string>
 		</FeatureExplanations>
 
 		<Biases>
@@ -3077,18 +3077,18 @@
 		</GrowthResources>
 
 		<FeatureExplanations>
-			<string>[HL]Built-in Stealth:[/HL] most hulls for military ships and bases have +10 Stealth</string>
-			<string>[HL]Ancient Star Charts:[/HL] Exploration ships scan and survey 20% faster. All ships have 20% better Hyperdrive jump accuracy, exiting their jumps closer to the target (at foreign locations)</string>
-			<string>[HL]Wonders of the Past:[/HL] when a ruin is investigated there is a choice of +10% Empire Happiness or +10% All Research for one year</string>
-			<string>[HL]Predictive History:[/HL] when a ruin is investigated can choose to get improved Diplomacy and Intelligence for two years, but at the cost of reduced Research</string>
-			<string>[HL]Preserve the Ruins:[/HL] when establishing a new colony at a location with ruins there is a choice to convert the ruin to a free Governance facility, or keep the ruin, but with increased bonus levels</string>
-			<string>[HL]Subterranean Cities:[/HL] all planetary facilities have +25% Bombardment Resistance and +25% Ground Combat Resistance</string>
-			<string>[HL]Search the Archives:[/HL] can pay to perform a thorough review of all data in the Zenox archives. This review will provide a random benefit: a short-term boost to happiness or research, or even the coordinates of an important galactic location...</string>
-			<string>[HL]Unique Leader trait - Archivist:[/HL] +5% All Research, -5% Diplomacy. Acquired when investigate a ruin with any bonus of 10% or higher</string>
-			<string>[HL]Unique Leader trait - Ancient Lineage:[/HL] ensures the character only ever has positive traits. Any negative traits will be changed to positive ones. High chance of acquiring when investigate a ruin with an 'All Research' bonus</string>
-			<string>[HL]Unique Scientist trait - Living in the Past:[/HL] -5% All Research, but greatly increased chances of critical research breakthroughs. Acquired when investigate Ancient Guardian vaults</string>
-			<string>[HL]Unique Ambassador trait - Manipulator:[/HL] -10% Diplomacy, +10% PsyOps. Acquire when sign treaty with another empire</string>
-			<string>[HL]Unique Spy trait - Secretive:[/HL] +5% Counter Espionage, +5% Concealment. Acquire when intercept an enemy spy</string>
+			<string>[HL]Встроенная стелс-система:[/HL] большинство корпусов военных кораблей и баз имеют +10 к скрытности</string>
+			<string>[HL]Древние звездные карты:[/HL] Корабли исследования сканируют и обследуют на 20% быстрее. Все корабли имеют точность гиперпрыжков на 20% выше, выходя из прыжков ближе к цели (на чужих локациях).</string>
+			<string>[HL]Чудеса прошлого:[/HL] при исследовании руин можно выбрать: +10% к счастью империи или +10% ко всем исследованиям на один год.</string>
+			<string>[HL]Предсказательная история:[/HL] при исследовании руин можно выбрать получение улучшенной дипломатии и разведки на два года, но ценой снижения исследований.</string>
+			<string>[HL]Сохранить руины:[/HL] при основании новой колонии в месте с руинами есть выбор: превратить их в бесплатное административное сооружение или сохранить руины, получив повышенные бонусы.</string>
+			<string>[HL]Подземные города:[/HL] все планетарные сооружения получают +25% к сопротивлению бомбардировкам и +25% к сопротивлению наземным боям</string>
+			<string>[HL]Поиск в архивах:[/HL] позволяет заплатить за тщательный обзор всех данных в архивах Зеноксов. Этот обзор даст случайную выгоду: краткосрочное повышение счастья или уровня исследований, а также координаты важного галактического объекта...</string>
+			<string>[HL]Уникальная черта лидера - Архивист:[/HL] +5% ко всем исследованиям, -5% к дипломатии. Приобретается при исследовании руин с любым бонусом 10% или выше</string>
+			<string>[HL]Уникальная черта лидера - Древнее происхождение:[/HL] гарантирует, что персонаж обладает исключительно положительными чертами. Любые негативные черты будут заменены на положительные. Высокая вероятность получения при исследовании руин с бонусом «Все исследования».</string>
+			<string>[HL]Уникальная черта учёного - Жизнь в прошлом:[/HL] −5% ко всем исследованиям, но значительно повышенные шансы на критические прорывы в науке. Приобретается при исследовании хранилищ Древних Стражей</string>
+			<string>[HL]Уникальная черта посла - Манипулятор:[/HL] −10% к дипломатии, +10% к пси-операциям. Приобретается при подписании договора с другой империей.</string>
+			<string>[HL]Уникальная черта шпиона - Тайный характер:[/HL] +5% к контршпионажу, +5% к скрытности. Приобретается при перехвате вражеского шпиона</string>
 		</FeatureExplanations>
 		
 		<VictoryConditions>

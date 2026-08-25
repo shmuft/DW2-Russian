@@ -17,13 +17,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Гениократия</MessageTitle>
-				<Description>Due to our chosen government, we have gained insight into:
-
-[ULI][RESEARCH]Research Labs[/RESEARCH][/ULI]
-[ULI][RESEARCH]Improved Sensors[/RESEARCH][/ULI]
-[ULI][RESEARCH]Coordinated Control[/RESEARCH][/ULI]
-
-A [CHARACTER]scientist[/CHARACTER] is also available on our homeworld.</Description>
+				<Description>Благодаря выбранной форме правления мы получили доступ к следующим исследованиям:\n\n[ULI][RESEARCH]Исследовательские лаборатории[/RESEARCH][/ULI]\n[ULI][RESEARCH]Улучшенные сенсоры[/RESEARCH][/ULI]\n[ULI][RESEARCH]Координированное управление[/RESEARCH][/ULI]\n\nНа нашем родном мире также доступен [CHARACTER]учёный[/CHARACTER].</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
