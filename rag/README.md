@@ -1,248 +1,192 @@
-# DW2 Russian RAG — PostgreSQL Knowledge Base
+# DW2 Russian RAG
 
-RAG (Retrieval Augmented Generation) система для улучшения переводов DW2 через PostgreSQL + векторный поиск.
+RAG-хранилище переводов DW2 на PostgreSQL и `pgvector`. Оно используется
+основным скриптом `batch_translate.py` для поиска похожих переводов перед
+обращением к LLM.
 
-## Возможности
+## Что делает batch_translate.py
 
-- **Загрузка переводов** из English/Russian директорий в PostgreSQL
-- **Векторный поиск** похожих переводов через pgvector
-- **Гибридный поиск** (векторы + полнотекстовый поиск)
-- **RAG-промпты** — автоматическая подстановка релевантных примеров в запрос к LLM
-- **Категоризация** переводов (ship, event, lore, research, etc.)
+При обычном запуске с настроенным PostgreSQL скрипт автоматически:
 
-## Установка
+1. применяет недостающие миграции базы данных;
+2. собирает справочники переводов из версий, указанных в `--cache-from`;
+3. добавляет или обновляет эти справочники в таблице `translations`;
+4. собирает английские тексты целевой версии, отсутствующие в `--cache-from`;
+5. регистрирует такие тексты с пустым `russian`;
+6. находит все строки без `embedding` и создаёт embedding пакетами;
+7. сохраняет результат после каждой пачки, поэтому обработку можно продолжить;
+8. выгружает embedding- и LLM-модели из LM Studio;
+9. автоматически запускает перевод с LLM.
 
-### 1. PostgreSQL + pgvector
+Существующие embedding не удаляются и не пересчитываются. При повторном запуске
+обрабатываются только строки, где `embedding IS NULL`.
 
-Убедитесь, что PostgreSQL установлен и запущен. Миграции создадут расширение `vector` автоматически.
+## Требования
 
-Для установки pgvector см.: https://github.com/pgvector/pgvector
+- PostgreSQL с расширением `vector` (pgvector);
+- Python-пакеты `psycopg`, `numpy`, `openai`, `lmstudio`, `keyboard`;
+- запущенный LM Studio;
+- запущенный LM Studio с доступным embeddings API;
+- embedding-модель и LLM, которые LM Studio может загрузить по имени.
 
-### 2. Python зависимости
+Установка зависимостей:
 
-```bash
-pip install psycopg2-binary numpy openai lmstudio
+```powershell
+pip install "psycopg[binary]" numpy openai lmstudio keyboard
 ```
 
-### 3. Настройка подключения
+## Настройка PostgreSQL
 
-```bash
-# Пароль для PostgreSQL
-export DW2_PG_PASSWORD="your_password"
+Обязательная переменная:
 
-# (Опционально) Модель для эмбеддингов
-export EMBEDDING_MODEL="qwen/qwen3.6-35b-a3b"
-
-# (Опционально) LM Studio API
-export LM_STUDIO_API_BASE="http://localhost:1234/v1"
+```powershell
+$env:DW2_PG_PASSWORD = "your_password"
 ```
 
-## Использование
+Необязательные переменные:
 
-### Инициализация базы
+```powershell
+$env:DW2_PG_HOST = "localhost"
+$env:DW2_PG_PORT = "5432"
+$env:DW2_PG_DB = "dw2russian"
+$env:DW2_PG_USER = "postgres"
+```
 
-Миграции применяются автоматически при первой загрузке данных. Для ручной инициализации:
+Если `DW2_PG_PASSWORD` не задан, перевод продолжится без автоматической работы
+с RAG и PostgreSQL.
 
-```bash
-# Показать статус миграций
+## Настройка LM Studio
+
+```powershell
+$env:LM_STUDIO_API_BASE = "http://localhost:1234/v1"
+$env:LM_STUDIO_API_KEY = "none"
+$env:EMBEDDING_MODEL = "text-embedding-qwen3-embedding-8b"
+```
+
+`LM_STUDIO_API_BASE` используется для OpenAI-совместимого embeddings API.
+Для выгрузки модели скрипт обращается к native endpoint LM Studio:
+
+```text
+POST http://localhost:1234/api/v1/models/unload
+```
+
+с телом:
+
+```json
+{"instance_id": "text-embedding-qwen3-embedding-8b"}
+```
+
+Перед использованием embedding или LLM скрипт сначала выгружает известные модели
+из LM Studio. Затем OpenAI-compatible embeddings API или `lmstudio.llm(...)`
+загружает нужную модель автоматически. Если выгрузка не удалась, перевод не
+запускается.
+
+## Основной запуск
+
+```powershell
+python batch_translate.py --all `
+    --target-version 1.3.6.6 `
+    --cache-from 1.3.6.3
+```
+
+`--cache-from` может содержать несколько версий. Они указываются от старой к
+новой:
+
+```powershell
+python batch_translate.py --all `
+    --target-version 1.3.6.6 `
+    --cache-from 1.3.4.3 1.3.5.7 1.3.6.3
+```
+
+Перед началом embedding скрипт автоматически освобождает память LM Studio.
+После окончания embedding-модель выгружается, затем память снова очищается перед
+загрузкой LLM. Ручные подтверждения не требуются.
+
+## Проверка RAG
+
+Для проверки похожих переводов без запуска обычного перевода:
+
+```powershell
+python batch_translate.py `
+    --target-version 1.3.6.6 `
+    --cache-from 1.3.6.3 `
+    --check-rag "Privateering Agreement"
+```
+
+Режим выводит найденные английские и русские пары, версию источника и
+`similarity`. Он требует `DW2_PG_PASSWORD`.
+
+Для произвольного текста, которого ещё нет в базе, диагностический режим
+автоматически использует embedding API после очистки памяти LM Studio.
+
+## Ручные команды RAG
+
+Показать статус и применить миграции:
+
+```powershell
 python rag/rag.py migrate --status
-
-# Применить все доступные миграции
 python rag/rag.py migrate
-
-# Применить до конкретной версии
-python rag/rag.py migrate --target 2
 ```
 
-> **Примечание:** Старый `schema.sql` больше не нужен — все DDL-запросы перенесены в `migrations/`.
+Найти похожие переводы в уже подготовленной базе:
 
-### Миграции
-
-Система автоматического версионирования схемы базы данных.
-
-| Версия | Файл | Описание |
-|--------|------|----------|
-| 1 | `001_initial.sql` | Таблица `translations`, индексы, представления |
-| 2 | `002_en_search_and_indexes.sql` | Англоязычный поиск, индексы по файлам/категориям |
-
-**Как это работает:**
-
-1. При первом запуске создаётся таблица `schema_migrations`
-2. При загрузке данных (`load`) или вручную (`migrate`) проверяется текущая версия
-3. Применяются все недостающие миграции по порядку
-4. Если в БД версия 1, а в коде версия 3 → применяются 002 и 003
-
-**Пример:**
-
-```bash
-# Текущая версия БД: 1, в коде: 2
-# Будет применена миграция 002
-python rag/rag.py migrate
-
-# После миграции:
-python rag/rag.py migrate --status
-# → База данных актуальна. Миграции не требуются.
-```
-
-### Загрузка переводов
-
-```bash
-# Загрузить переводы из версии 1.3.6.6
-python rag/rag.py load \
-    --english-dir 1.3.6.6/English \
-    --russian-dir 1.3.6.6/Russian \
-    --version 1.3.6.6
-
-# Без генерации эмбеддингов (быстрее)
-python rag/rag.py load \
-    --english-dir 1.3.6.6/English \
-    --russian-dir 1.3.6.6/Russian \
-    --version 1.3.6.6 \
-    --no-embeddings
-
-# С указанием модели для эмбеддингов
-python rag/rag.py load \
-    --english-dir 1.3.6.6/English \
-    --russian-dir 1.3.6.6/Russian \
-    --version 1.3.6.6 \
-    --embedding-model "Qwen/Qwen2.5-7B-Instruct" \
-    --api-base "http://localhost:1234/v1"
-```
-
-### Поиск похожих переводов
-
-```bash
-# Поиск по тексту
+```powershell
 python rag/rag.py search "Ancient Shakturi Advance Ship" --top-k 5
-
-# Поиск с фильтром по категории
 python rag/rag.py search "ship hull" --category ship
-
-# Только векторный поиск (без текстового)
 python rag/rag.py search "lore text" --no-hybrid
 ```
 
-### Просмотр статистики
+Сформировать RAG-промпт:
 
-```bash
-python rag/rag.py stats
-```
-
-### Генерация RAG-промпта
-
-```bash
-# Сформировать промпт с примерами
+```powershell
 python rag/rag.py prompt "Ancient Shakturi Advance Ship" --top-k 3
-
-# Сохранить промпт в файл
-python rag/rag.py prompt "Ancient Shakturi Advance Ship" --output /tmp/rag_prompt.txt
 ```
 
-## Интеграция с batch_translate.py
+Команды `search` и `prompt` автоматически дозаполняют отсутствующие embedding.
+Во время обычного перевода embedding для запроса не генерируется: используется
+заранее сохранённый embedding target-фразы, поэтому embedding-модель не нужна
+одновременно с LLM.
 
-### Вариант 1: Прямая интеграция
+## Миграции
 
-Добавить RAG-поиск в `translate.py` перед вызовом LLM:
+Версия схемы хранится в таблице `schema_migrations`. Миграции применяются по
+порядку при запуске `batch_translate.py` и при вызове `migrate`.
 
-```python
-# В translate.py, функция translate_text()
-from rag.rag import search_similar_translations, build_rag_prompt
+| Версия | Файл | Назначение |
+|---:|---|---|
+| 1 | `001_initial.sql` | `translations`, pgvector, базовые индексы и представления |
+| 2 | `002_en_search_and_indexes.sql` | английский полнотекстовый поиск и дополнительные индексы |
+| 3 | `003_unique_translation_pairs.sql` | уникальность `(source_version, english)` для безопасного upsert |
 
-def translate_text(text: str) -> str:
-    # ... существующая логика кэшей ...
-    
-    # RAG: поиск релевантных примеров
-    similar = search_similar_translations(text, top_k=3)
-    rag_prompt = build_rag_prompt(text, similar)
-    
-    # Вызов LLM с RAG-промптом
-    chat = lms.Chat(rag_prompt)
-    chat.add_user_message(f"Text: {text}")
-    result = model.respond(chat, config={"temperature": 0.1, "maxTokens": 1024*10})
-    
-    return result.content.strip()
+Например, если база имеет версию 1, а код ожидает версию 3, будут применены
+миграции 2 и 3.
+
+## Таблица translations
+
+Основные поля:
+
+```text
+english        — исходный английский текст
+russian        — русский перевод; пустое значение означает pending-фразу
+source_version — версия справочника
+source_file    — источник записи
+category       — категория перевода
+xml_tag        — контекст XML-тега
+embedding      — halfvec(4000)
 ```
 
-### Вариант 2: Через переменную окружения
+Справочные записи имеют русский перевод и участвуют в RAG. Pending-записи с
+пустым `russian` используются для подготовки embedding, но исключаются из
+результатов поиска.
 
-```bash
-# Включить RAG-поиск
-export DW2_RAG_ENABLED=1
-export DW2_RAG_TOP_K=5
+## Приоритет перевода
 
-# Запуск перевода с RAG
-python batch_translate.py --all --target-version 1.3.6.6 --cache-from 1.3.6.3
-```
+В `translate.py` используется следующий порядок:
 
-## Структура базы данных
+1. локальный cache конкретного файла;
+2. glossary из `system_prompt.py`;
+3. общий cache предыдущих версий;
+4. RAG-примеры из PostgreSQL;
+5. LLM.
 
-```
-translations
-├── id            — уникальный идентификатор
-├── english       — английский текст
-├── russian       — русский перевод
-├── source_file   — путь к файлу (DW2/ShipHulls.xml)
-├── source_version — версия игры (1.3.6.6)
-├── category      — категория (ship, event, lore, etc.)
-├── xml_tag       — XML тег контекста
-├── embedding     — векторное представление (vector(1024))
-├── created_at    — дата создания
-└── updated_at    — дата обновления
-```
-
-## Категории переводов
-
-| Категория | Файлы |
-|-----------|-------|
-| `lore` | Galactopedia, lore файлы |
-| `event` | GameEvents*.xml |
-| `ship` | ShipHulls*.xml |
-| `unit` | TroopDefinitions*.xml |
-| `research` | ResearchProjectDefinitions.xml |
-| `race` | Races.xml, Governments*.xml |
-| `tour` | TourItems.xml |
-| `spaceitem` | SpaceItemDefinitions.xml |
-| `resource` | Resources.xml |
-| `facility` | PlanetaryFacilityDefinitions*.xml |
-| `dlc` | DLC файлы |
-| `general` | Остальные файлы |
-
-## Архитектура
-
-```
-┌─────────────────────────────────────────────────────┐
-│                  batch_translate.py                  │
-│                      translate.py                    │
-│                    translate_text()                  │
-└──────────────────┬──────────────────────────────────┘
-                   │
-                   ▼
-┌─────────────────────────────────────────────────────┐
-│              RAG Retrieval Layer                     │
-│  ┌──────────────┐  ┌──────────────────────────┐    │
-│  │ Vector Search │  │ Full-Text Search (GIN)  │    │
-│  │ (pgvector)    │  │ (tsvector)              │    │
-│  └──────┬───────┘  └──────────┬───────────────┘    │
-│         └──────────┬───────────┘                     │
-│                    ▼                                 │
-│          build_rag_prompt()                          │
-│     (adds examples to SYSTEM_PROMPT)                 │
-└──────────────────┬──────────────────────────────────┘
-                   │
-                   ▼
-┌─────────────────────────────────────────────────────┐
-│              PostgreSQL (dw2russian)                 │
-│  ┌──────────────────────────────────────────────┐   │
-│  │  translations table                          │   │
-│  │  - english, russian, category, embedding     │   │
-│  │  - IVFFlat index on embedding                │   │
-│  │  - GIN index on english (tsvector)           │   │
-│  └──────────────────────────────────────────────┘   │
-└─────────────────────────────────────────────────────┘
-                   │
-                   ▼
-┌─────────────────────────────────────────────────────┐
-│              Local LLM (Qwen)                        │
-│         Получает промпт с примерами                  │
-└─────────────────────────────────────────────────────┘
-```
+Технические строки возвращаются без изменений и не отправляются в LLM.

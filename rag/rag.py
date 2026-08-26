@@ -340,17 +340,23 @@ def generate_embeddings_batch(texts: list[str], model: str = None, api_base: str
         return None
 
 
-def unload_embedding_model(model: str = None, api_base: str = None) -> bool:
-    """Выгружает embedding-модель из LM Studio через native API."""
-    model = model or os.environ.get("EMBEDDING_MODEL", "text-embedding-qwen3-embedding-8b")
+def _native_api_endpoint(path: str, api_base: str = None) -> str:
+    """Строит URL native API LM Studio из OpenAI-compatible base URL."""
     api_base = api_base or os.environ.get("LM_STUDIO_API_BASE", "http://localhost:1234/v1")
     api_root = api_base.rstrip("/")
     if api_root.endswith("/api/v1"):
-        endpoint = f"{api_root}/models/unload"
-    else:
-        if api_root.endswith("/v1"):
-            api_root = api_root[:-3]
-        endpoint = f"{api_root}/api/v1/models/unload"
+        return f"{api_root}/{path.lstrip('/')}"
+    if api_root.endswith("/v1"):
+        api_root = api_root[:-3]
+    return f"{api_root}/api/v1/{path.lstrip('/')}"
+
+
+def unload_model(model: str, api_base: str = None) -> bool:
+    """Выгружает один instance модели из LM Studio."""
+    if not model:
+        return True
+
+    endpoint = _native_api_endpoint("models/unload", api_base)
     payload = json.dumps({"instance_id": model}).encode("utf-8")
     headers = {"Content-Type": "application/json"}
     api_key = os.environ.get("LM_STUDIO_API_KEY")
@@ -361,13 +367,32 @@ def unload_embedding_model(model: str = None, api_base: str = None) -> bool:
     try:
         with urllib.request.urlopen(request, timeout=30) as response:
             response.read()
-        print(f"[INFO] Embedding-модель выгружена из LM Studio: {model}")
         return True
     except urllib.error.HTTPError as exc:
-        print(f"[ERROR] LM Studio не выгрузил embedding-модель ({exc.code}): {exc.reason}")
+        if exc.code == 404:
+            return True
+        print(f"[ERROR] LM Studio не выгрузил модель {model} ({exc.code}): {exc.reason}")
     except (urllib.error.URLError, TimeoutError) as exc:
-        print(f"[ERROR] Не удалось подключиться к LM Studio для выгрузки embedding-модели: {exc}")
+        print(f"[ERROR] Не удалось подключиться к LM Studio для выгрузки модели {model}: {exc}")
     return False
+
+
+def unload_all_models(api_base: str = None, model_names: list[str] = None) -> bool:
+    """Выгружает загруженные модели LM Studio, известные текущему процессу."""
+    names = list(model_names or [])
+    names.extend([
+        os.environ.get("EMBEDDING_MODEL", "text-embedding-qwen3-embedding-8b"),
+        os.environ.get("LLM_MODEL", "qwen/qwen3.6-35b-a3b"),
+    ])
+    unique_names = list(dict.fromkeys(name for name in names if name))
+    results = [unload_model(name, api_base=api_base) for name in unique_names]
+    return all(results)
+
+
+def unload_embedding_model(model: str = None, api_base: str = None) -> bool:
+    """Совместимый алиас для выгрузки embedding-модели."""
+    model = model or os.environ.get("EMBEDDING_MODEL", "text-embedding-qwen3-embedding-8b")
+    return unload_model(model, api_base=api_base)
 
 
 def _halfvec_literal(embedding: list[float]) -> str:
@@ -385,6 +410,9 @@ def generate_missing_embeddings(
     batch_size: int = 100,
 ) -> int:
     """Дозаполняет только отсутствующие embedding и безопасно возобновляется после остановки."""
+    if not unload_all_models(api_base=api_base, model_names=[embedding_model]):
+        raise RuntimeError("Не удалось выгрузить модели LM Studio перед генерацией embedding")
+
     conn = get_db_connection(db_config)
     cursor = conn.cursor()
     try:
@@ -687,6 +715,10 @@ def search_similar_translations(
     if stored_embedding:
         embedding_str = stored_embedding["embedding"]
     elif generate_query_embedding:
+        if not unload_all_models():
+            print("[WARNING] Не удалось выгрузить модели перед генерацией embedding запроса")
+            conn.close()
+            return []
         query_embedding = generate_embedding(query)
         if not query_embedding:
             print("[WARNING] Не удалось сгенерировать эмбеддинг для запроса, возвращаем пустой результат")
@@ -977,7 +1009,6 @@ def main():
             "password": os.environ.get("DW2_PG_PASSWORD", ""),
         }
         if count_missing_embeddings(db_config=db_config):
-            input("Загрузите embedding-модель в LM Studio и нажмите Enter для проверки недостающих embedding...")
             generate_missing_embeddings(db_config=db_config)
         results = search_similar_translations(
             query=args.query,
@@ -1019,7 +1050,6 @@ def main():
             "password": os.environ.get("DW2_PG_PASSWORD", ""),
         }
         if count_missing_embeddings(db_config=db_config):
-            input("Загрузите embedding-модель в LM Studio и нажмите Enter для проверки недостающих embedding...")
             generate_missing_embeddings(db_config=db_config)
         results = search_similar_translations(
             query=args.query,

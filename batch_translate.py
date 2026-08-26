@@ -28,7 +28,7 @@ from rag.rag import (
     migrate_db,
     register_pending_translations,
     search_similar_translations,
-    unload_embedding_model,
+    unload_all_models,
 )
 
 DEFAULT_TARGET_VERSION = '1.3.5.7'
@@ -742,10 +742,6 @@ def main():
 
         missing_embeddings = count_missing_embeddings(db_config=db_config)
         if missing_embeddings:
-            input(
-                f"\nВ базе найдено {missing_embeddings} фраз без embedding. "
-                "Загрузите embedding-модель в LM Studio и нажмите Enter для продолжения..."
-            )
             generate_missing_embeddings(db_config=db_config)
             remaining_embeddings = count_missing_embeddings(db_config=db_config)
             if remaining_embeddings:
@@ -754,21 +750,15 @@ def main():
                     "Перевод не запускается; повторите подготовительный этап."
                 )
                 return 1
-            if args.check_rag:
-                print("[INFO] Режим проверки RAG: embedding-модель оставлена загруженной.")
-            elif not unload_embedding_model():
-                print("[ERROR] Перевод остановлен: embedding-модель не удалось выгрузить из LM Studio.")
+            if not unload_all_models():
+                print("[ERROR] Перевод остановлен: не удалось выгрузить модели из LM Studio.")
                 return 1
-            if not args.check_rag:
-                input(
-                    "\nEmbedding завершены и модель выгружена. "
-                    "Загрузите LLM в LM Studio и нажмите Enter для начала перевода..."
-                )
 
         if args.check_rag:
+            if not unload_all_models():
+                print("[ERROR] Проверка RAG остановлена: не удалось выгрузить модели из LM Studio.")
+                return 1
             print(f"\n[INFO] Проверка RAG для: {args.check_rag!r}")
-            print("[INFO] Если фраза отсутствует в БД, загрузите embedding-модель в LM Studio.")
-            input("Нажмите Enter для выполнения RAG-поиска...")
             try:
                 results = search_similar_translations(
                     query=args.check_rag,
@@ -792,6 +782,9 @@ def main():
                         f"EN: {item.get('english', '')!r} -> RU: {item.get('russian', '')!r}"
                     )
             return 0
+        elif not unload_all_models():
+            print("[ERROR] Перевод остановлен: не удалось выгрузить модели из LM Studio.")
+            return 1
 
     # return 1
     # Загружаем кэш переводов из уже переведённых файлов.

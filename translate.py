@@ -55,6 +55,20 @@ _translation_cache_lock = threading.Lock()
 # Локальный приоритетный кэш для конкретного файла
 _file_translation_cache = None
 _file_translation_cache_lock = threading.Lock()
+_prepared_llm_hosts = set()
+
+
+def _prepare_llm_model(api_base: str = None):
+    """Освобождает память LM Studio перед первой загрузкой LLM в процессе."""
+    host_key = api_base or "default"
+    if host_key in _prepared_llm_hosts:
+        return
+
+    from rag.rag import unload_all_models
+
+    if not unload_all_models(api_base=api_base, model_names=[DEFAULT_MODEL]):
+        raise RuntimeError("Не удалось выгрузить модели LM Studio перед загрузкой LLM")
+    _prepared_llm_hosts.add(host_key)
 
 def pause_handler():
     global paused
@@ -278,6 +292,7 @@ def translate_text(text: str) -> str:
         user_message = f"{rag_examples}\n\nTranslate this text into Russian:\n{user_message}"
 
     # Получаем модель
+    _prepare_llm_model()
     model = lms.llm(DEFAULT_MODEL)
     
     # Создаём чат с системным промптом
@@ -382,6 +397,7 @@ class RemotePoolTranslator:
             user_message = f"{rag_examples}\n\nTranslate this text:\n{user_message}"
         
         # Получаем модель с указанным хостом
+        _prepare_llm_model(f"http://{api_host}/v1")
         model = lms.llm(self.model_name, api_host=api_host)
         
         # Создаём чат с системным промптом
