@@ -353,7 +353,9 @@ TERMINOLOGY RULES:
   - "Memory of Shaktur"→"Память Шактура"
   - "Sphere of Aggression"→"Сфера агрессии"
   - "Statuette of Genetic Engineering"→"Статуэтка генной инженерии"
-23.83 "Advanced Psionic Virus"→"Улучшенный псионический вирус"
+23.83 "Advanced Psionic Virus"→"Продвинутый псионический вирус"
+  - "Enhanced Psionic Virus"→"Улучшенный псионический вирус"
+  - "Ultimate Psionic Virus"→"Абсолютный псионический вирус"
   - "Beacon Impacting Research"→"Маяк, влияющий на исследования"
   - "Beacon Heavily Impacting Research"→"Маяк, сильно подавляющий исследования"
   - "Experimental Xaraktor Virus"→'Экспериментальный вирус "Характор"'

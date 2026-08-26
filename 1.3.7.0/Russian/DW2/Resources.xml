@@ -1,0 +1,1220 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfResource>
+  <Resource>
+    <ResourceId>0</ResourceId>
+    <Name>Кристалл эмерос</Name>
+    <Description>Кристалл эмерос - это ослепительно зеленый драгоценный камень. Обычно он используется в компонентах оружия. Кристаллы эмерос встречаются на вулканических мирах и иногда на углеродистых мирах.</Description>
+    <BaseCost>4</BaseCost>
+    <ImageFilename>Environment/Resources/EmerosCrystal</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>1</ResourceId>
+    <Name>Некрос-камень</Name>
+    <Description>Некрос-камень - это глубокий красный драгоценный камень, используемый в компонентах оружия. Некрос-камни встречаются на вулканических мирах и иногда на каменистых пустынных мирах.</Description>
+    <BaseCost>2.5</BaseCost>
+    <ImageFilename>Environment/Resources/NekrosStone</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>2</ResourceId>
+    <Name>Озалия</Name>
+    <Description>Озалия - это фиолетовый драгоценный камень, используемый в компонентах оружия. Камни озалии встречаются на вулканических, пустынных и континентальных мирах.</Description>
+    <BaseCost>5.5</BaseCost>
+    <ImageFilename>Environment/Resources/Osalia</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>3</ResourceId>
+    <Name>Каасийский кристалл</Name>
+    <Description>Кристалл Каасия - редкий аква-голубой драгоценный камень. Обычно он используется в компонентах высококлассного оружия. Кристалл Каасия встречается на океанических мирах.</Description>
+    <BaseCost>9</BaseCost>
+    <ImageFilename>Environment/Resources/KaasianCrystal</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>4</ResourceId>
+    <Name>Аргон</Name>
+    <Description>Аргон - инертный желтый газ. Обычно используется в оружии, щитах и компонентах реакторов. Аргон встречается на планетах Газовые гиганты и Замерзшие газовые гиганты.</Description>
+    <BaseCost>3.5</BaseCost>
+    <ImageFilename>Environment/Resources/Argon</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>5</ResourceId>
+    <Name>Криптон</Name>
+    <Description>Криптон - инертный зеленый газ. Обычно он используется в оружии, щитах и компонентах реакторов. Следовые количества встречаются на планетах Газовых гигантов и Замерзших газовых гигантов.</Description>
+    <BaseCost>5</BaseCost>
+    <ImageFilename>Environment/Resources/Krypton</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>6</ResourceId>
+    <Name>Тидериос</Name>
+    <Description>Тидериос - редкий инертный газ, используемый в оружии, щитах и компонентах реакторов. Газ тидериос имеет розоватый оттенок. Он тяжелее воздуха и оседает на уровне земли, если его не удерживают другие окружающие газы. Встречается в следовых количествах на ледяных мирах и мирах с замерзшими газовыми гигантами.</Description>
+    <BaseCost>7.5</BaseCost>
+    <ImageFilename>Environment/Resources/Tyderios</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>7</ResourceId>
+    <Name>Кремний</Name>
+    <Description>Кремний используется в электронных компонентах и энергетических коллекторах. Он встречается на каменисто-кремниевых мирах и пустынных мирах.</Description>
+    <BaseCost>2.5</BaseCost>
+    <ImageFilename>Environment/Resources/Silicon</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>8</ResourceId>
+    <Name>Сталь</Name>
+    <Description>Сталь - очень распространенный строительный материал, получаемый выплавкой из железной руды. Для постройки большинства кораблей и баз требуются большие объемы стали. Железная руда обычно встречается на каменисто-металлических и континентальных мирах или астероидах.</Description>
+    <BaseCost>2.5</BaseCost>
+    <ImageFilename>Environment/Resources/Steel</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>9</ResourceId>
+    <Name>Мебнар</Name>
+    <Description>Мебнар - очень плотный металл, выплавленный из руды мебнара. Он имеет тусклый темно-серый, почти черный вид. Особенно полезен в качестве тяжелой брони для компонентов реакторов. Мебнар часто встречается на каменисто-металлических мирах и астероидах.</Description>
+    <BaseCost>3</BaseCost>
+    <ImageFilename>Environment/Resources/Mebnar</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>10</ResourceId>
+    <Name>Акулон</Name>
+    <Description>Акулон - очень прочный, жаростойкий синий металл, выплавленный из руды акулон. Обычно он используется в компонентах, подвергающихся экстремальным температурам. Руда акулон встречается на вулканических и каменисто-металлических мирах, а также на астероидах.</Description>
+    <BaseCost>6</BaseCost>
+    <ImageFilename>Environment/Resources/Aculon</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>11</ResourceId>
+    <Name>Куприка</Name>
+    <Description>Куприка - блестящий металл, выплавленный из руды куприки. Она исключительно прочна и легка, обладает блестящим красно-коричневым оттенком. Куприка широко применяется в лучевом и торпедном оружии. Её можно найти на некоторых каменисто-металлических планетах и астероидах.</Description>
+    <BaseCost>9</BaseCost>
+    <ImageFilename>Environment/Resources/Cuprica</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>12</ResourceId>
+    <Name>Полимер</Name>
+    <Description>Полимеры - это различные виды пластмасс, обычно производимые из нефти. Они обычно используются в электронных компонентах. Полимеры встречаются на мирах с океаном, болотистыми топями и континентальным биомом.</Description>
+    <BaseCost>3</BaseCost>
+    <ImageFilename>Environment/Resources/Polymer</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>13</ResourceId>
+    <Name>Карбонит</Name>
+    <Description>Карбонит - это сверхпрочное углеродистое соединение. Обычно он используется в компонентах, требующих высокой прочности и устойчивости к экстремальным температурам. Карбонит встречается на мирах с болотистыми топями, мангровыми лесами, континентальными ландшафтами и углеродистой поверхностью.</Description>
+    <BaseCost>4.5</BaseCost>
+    <ImageFilename>Environment/Resources/Carbonite</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>14</ResourceId>
+    <Name>Каслон</Name>
+    <Description>Каслон - это распространенный газ, являющийся универсальным реакторным топливом. Он встречается на планетах газовых гигантов.</Description>
+    <BaseCost>1.5</BaseCost>
+    <ImageFilename>Environment/Resources/Caslon</ImageFilename>
+    <Bonuses />
+  </Resource>
+  
+  <Resource>
+    <ResourceId>15</ResourceId>
+    <Name>Плод лороса</Name>
+    <Description>Плод лороса - крайне редкий сладкий розовый плод дерева лорос. Он высоко ценится за свои удивительные восстановительные свойства, а также за насыщенный вкус и бархатистую текстуру. Плоды лороса значительно увеличивают продолжительность жизни: естественный процесс старения радикально замедляется, позволяя существу жить гораздо дольше обычного. Любая колония, снабжаемая плодами лороса, получает крупный бонус к развитию, сверх любых других бонусов. Как только этот ресурс будет обнаружен, следует приложить все усилия для контроля его торговли. Плоды лороса растут исключительно на мирах с болотистыми топями.</Description>
+    <BaseCost>100</BaseCost>
+    <ImageFilename>Environment/Resources/LorosFruit</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.26</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>PlagueCuring</Type>
+        <Amount>0.15</Amount>
+        <AppliesTo>Empire</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>16</ResourceId>
+    <Name>Орех мегаллос</Name>
+    <Description>Орех мегаллос - это терпкий желтый орех с дерева мегаллос. Эти деревья имеют узловатый, искривленный вид. Они растут очень медленно, обычно требуя 2000 лет, чтобы достичь зрелой высоты в 5 метров. Их обширная корневая система может распространяться до 30 метров во всех направлениях. Они произрастают глубоко внутри густых лесов на континентальных мирах.</Description>
+    <BaseCost>6</BaseCost>
+    <ImageFilename>Environment/Resources/MegallosNut</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>17</ResourceId>
+    <Name>Фалажианская пряность</Name>
+    <Description>Фалажианская пряность - это порошкообразная коричневая специя, собираемая с кустов фалажана. Она высоко ценится за свой уникальный насыщенный вкус. Фалажианскую пряность широко используют в экзотической кухне. Её получают из листьев куста фалажана: их медленно сушат, а затем перемалывают в тонкий порошок. Кусты фалажана произрастают на болотистых прудах миров с болотистой топью.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/FalajianSpice</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>18</ResourceId>
+    <Name>Кораббианская пряность</Name>
+    <Description>Кораббианская пряность - это чрезвычайно редкая кристаллизованная белая специя. Она ценится за свои уникальные лечебные свойства. В особых условиях залежи кораббианской пряности могут спонтанно накапливаться на стенах скалистых каньонов. Точный процесс образования кораббианской пряности никогда не был точно установлен. Однако существует теория, согласно которой специя образуется в результате химической реакции между определенными типами горных пород и суровыми горячими ветрами, которые иногда срываются через каньоны. Она драматически повышает остроту ума, позволяя существу совершать невероятные интеллектуальные подвиги. Любая колония, снабжаемая кораббианской пряностью, получает значительный бонус к развитию, сверх любых других бонусов. Как только она будет обнаружена, следует приложить все усилия для контроля торговли этим высокоценным ресурсом. Кораббианская пряность встречается исключительно на мирах-пустынях.</Description>
+    <BaseCost>90</BaseCost>
+    <ImageFilename>Environment/Resources/KorabbianSpice</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.22</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.15</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ResearchAll</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Empire</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>19</ResourceId>
+    <Name>Мясо экаруса</Name>
+    <Description>Мясо экаруса - нежное мясо зверя экаруса. Экарус - свирепый хищник, обитающий в водных болотах на мирах с болотистыми топями. Он может находиться под водой часами, всплывая лишь тогда, когда обнаруживает подходящую добычу, плывущую над поверхностью.</Description>
+    <BaseCost>9</BaseCost>
+    <ImageFilename>Environment/Resources/EkarusMeat</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>20</ResourceId>
+    <Name>Нефтидское вино</Name>
+    <Description>Вино «Нефтид» - изысканное вино, изготовленное из нефтидской водоросли. Огромные леса этой водоросли произрастают глубоко под океанами. Отдельные заросли могут достигать высоты 40 метров и более. Нефтидская водоросль уникальна для миров-океанов.</Description>
+    <BaseCost>11</BaseCost>
+    <ImageFilename>Environment/Resources/NepthysWine</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>21</ResourceId>
+    <Name>Репхидиевый Эль</Name>
+    <Description>Репхидиевый Эль - это вкусное, сверхсухое пиво. Производится несколько различных сортов репхидиевого эля. Некоторые из этих смесей используют секретные ингредиенты. Однако основным общим ингредиентом являются листья и стебли куста рефа. Репхидиевый Эль производится на лесных мирах.</Description>
+    <BaseCost>4</BaseCost>
+    <ImageFilename>Environment/Resources/RephidiumAle</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>22</ResourceId>
+    <Name>Виконий</Name>
+    <Description>Виконий - невероятно сладкий вид алкоголя, изготовленный из редкого растения викониус. Это растение представляет собой суккулент кактусообразной формы. Оно обладает толстыми губчатыми листьями, содержащими богатый сок викониуса. Растение викониус встречается исключительно на мирах пустынной саванны.</Description>
+    <BaseCost>9.5</BaseCost>
+    <ImageFilename>Environment/Resources/Wiconium</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>23</ResourceId>
+    <Name>Водкол</Name>
+    <Description>Водкол - мощный алкогольный напиток, изготовленный из корней растения Водия. Это выносливое растение произрастает в тундровых пустошах ледяных миров. Над землёй растение Водия выглядит как чахлый кустарник с широкими бледно-жёлтыми листьями. Под землёй у него клубневидные белые корни.</Description>
+    <BaseCost>6.5</BaseCost>
+    <ImageFilename>Environment/Resources/Vodkol</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>24</ResourceId>
+    <Name>Квестурианская кожа</Name>
+    <Description>Мех квестуриана - это мягкая чешуйчатая кожа квестуриана, огромного водного рептилия. Квестуриане - смертоносные хищники, способные достигать длины 100 метров и более. Они обитают в темных подводных туннелях и пещерах на глубине обширных океанов. Их можно встретить исключительно на мирах с океанами.</Description>
+    <BaseCost>13.5</BaseCost>
+    <ImageFilename>Environment/Resources/QuesturianSkin</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>25</ResourceId>
+    <Name>Бифурианский шелк</Name>
+    <Description>Бифурианский шелк - это чрезвычайно тонкая, мерцающая синяя ткань, которую прядет червь Бифурии. Черви Бифурии обитают глубоко в темных подземных пещерах на мирах с луговыми и континентальными биомами. Они прикрепляются к потолку и стенам влажных гротов и прядут огромные сети из сверхтонких волокон шелка-сырца. Эти волокна можно собирать и переплетать в бифурианский шелк.</Description>
+    <BaseCost>33</BaseCost>
+    <ImageFilename>Environment/Resources/BifurianSilk</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.07</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>26</ResourceId>
+    <Name>Мех Кагуара</Name>
+    <Description>Мех Кагуара - это роскошный мех полосатого кагуара. Кагуар - огромный саблезубый кот, обитающий в диких тропических лесах миров с лесным и болотистым биомами. Длина взрослого кагуара от носа до хвоста составляет примерно 4 метра. У них есть острые как бритва когти, которыми они ловят свою добычу.</Description>
+    <BaseCost>15.5</BaseCost>
+    <ImageFilename>Environment/Resources/CaguarFur</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.08</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>27</ResourceId>
+    <Name>Тераллионийский пух</Name>
+    <Description>Пух тераллиона - это мягкий белый пух зверя тераллиона. Тераллионы - четырёхногие птицы, населяющие тундровые пустоши ледяных миров. Их размах крыльев может достигать 6 метров. Тераллионы охотятся на мелких грызунов или даже разумные виды, такие как динты или угнари.</Description>
+    <BaseCost>9.5</BaseCost>
+    <ImageFilename>Environment/Resources/TerallionDown</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>28</ResourceId>
+    <Name>Мех данты</Name>
+    <Description>Мех данты - это длинная, волнистая шерсть коричнево-белого цвета у животных данта. Данты - крупные существа, обитающие на бескрайних пустынных равнинах миров с пустынным климатом. Они живут в стадах численностью от 30 до 200 особей. Данты мигрируют по пустыне в поисках пищи. Их основной рацион составляют грибы лопид, произрастающие примерно на полуметре под поверхностью песков. У дантов прекрасно развито обоняние, позволяющее им обнаруживать эти влагоносные грибковые образования и выкапывать их из песка.</Description>
+    <BaseCost>7</BaseCost>
+    <ImageFilename>Environment/Resources/DanthaFur</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>29</ResourceId>
+    <Name>Аквазианские благовония</Name>
+    <Description>Аквазианские благовония - это интенсивные синие духи. Они созданы из смеси уникальных ингредиентов, найденных на океанических мирах. Основной компонент - ядовитые шипы глубоководных актиний даркхулов. Другой ингредиент - ярко-синий коралл орктонов, перемолотый в тонкий порошок.</Description>
+    <BaseCost>14.5</BaseCost>
+    <ImageFilename>Environment/Resources/AquasianIncense</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>30</ResourceId>
+    <Name>Натарранские благовония</Name>
+    <Description>Аромат вофулы - прекрасный, но тонкий парфюм, созданный из растения натаррил. Натаррил - небольшой кустарник с крошечными голубовато-зелеными листьями и ослепительными разноцветными цветами. Обычно он произрастает на скалистых обрывах миров песчаных пустынь.</Description>
+    <BaseCost>13</BaseCost>
+    <ImageFilename>Environment/Resources/NatarranIncense</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.07</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>31</ResourceId>
+    <Name>Зентабийский флюид</Name>
+    <Description>Жидкость Зентабии - мощное целебное средство, изготовленное из редкого цветка зентабии. Эти цветы иногда произрастают в защищённых расщелинах на вулканических мирах. Их лепестки окрашены в ослепительно-зелёный цвет. Они процветают в крайне жарких условиях. Жидкость Зентабии способна исцелить практически любую рану или болезнь. Она может даже восстановить повреждённые конечности и органы. Любая колония, снабжённая жидкостью Зентабии, получает значительный бонус к развитию, сверх любых других бонусов. Как только этот высокоценный ресурс будет обнаружен, следует приложить все усилия для контроля его торговли.</Description>
+    <BaseCost>95</BaseCost>
+    <ImageFilename>Environment/Resources/ZentabiaFluid</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.24</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>TroopRecoveryRate</Type>
+        <Amount>0.5</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>PlagueCuring</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>32</ResourceId>
+    <Name>Илозианский нефрит</Name>
+    <Description>Илозианский нефрит - красивый полупрозрачный зеленый камень. Его добывают в виде огромных плит из речных пород. Илозианский нефрит встречается исключительно на мирах с болотистыми топями.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/IlosianJade</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>33</ResourceId>
+    <Name>Отандиевый опал</Name>
+    <Description>Опал отандия - это блестящий, сверкающий многоцветный камень. Опалы отандия встречаются на берегах лавовых озер вулканических миров. Они образуются при быстром остывании определенных типов лавы.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/OtandiumOpal</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>34</ResourceId>
+    <Name>Джакантская кость</Name>
+    <Description>Меч Джаканты добывается из бивней ледяных зверей Джаканта. Джаканты - скрытные существа, обитающие в горах ледяных планет. Это крупные шестилегие животные, похожие на медведей, с густой белой шерстью. Их бивни могут достигать длины более 3 метров.</Description>
+    <BaseCost>11.5</BaseCost>
+    <ImageFilename>Environment/Resources/JakantaIvory</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.07</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>35</ResourceId>
+    <Name>Укантиевая жемчужина</Name>
+    <Description>Жемчужины укантия - это огромные розовые и синие жемчужины, которые образуются в устрице укантии, моллюске, обитающем на глубине морей миров океанического типа. Устрица укантия может жить тысячи лет и достигать диаметра 5 метров и более. Одна особь способна производить сотни жемчужин.</Description>
+    <BaseCost>15.5</BaseCost>
+    <ImageFilename>Environment/Resources/UcantiumPearl</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.08</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>36</ResourceId>
+    <Name>Яррасский мрамор</Name>
+    <Description>Мрамор Ярраса - это великолепно текстурированный синий мрамор. Мрамор Ярраса образуется, когда карбонатные породы насыщаются миллионами крошечных синих кристаллов Агеи. Обычно это происходит из-за подземных потоков, протекающих сквозь скальные образования на протяжении тысячелетий. Мрамор Ярраса встречается на континентальных мирах.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/YarrasMarble</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+
+  <Resource>
+    <ResourceId>37</ResourceId>
+    <Name>Корень поданфии</Name>
+    <Description>Корень поданфии - лекарственное растение, помогающее исцелять множество болезней. Его тонкие волокнистые стебли насыщены мощными питательными веществами, укрепляющими иммунную систему. Он встречается на мирах с серно-вулканическим биомом.</Description>
+    <BaseCost>15</BaseCost>
+    <ImageFilename>Environment/Resources/PodanthiaRoot</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>38</ResourceId>
+    <Name>Аромат вофулы</Name>
+    <Description>Аромат вофулы - это опьяняющий парфюм, получаемый из ярко-зеленых цветов растения вофула. Растение вофула представляет собой небольшой кустарник, произрастающий рядом с углеводородными озерами на углеродистых мирах.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/VofulaScent</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>39</ResourceId>
+    <Name>Древесина сукулоса</Name>
+    <Description>Сукулос - редкая экзотическая древесина из дерева сукулос. Очень твердая древесина этого дерева имеет глубокий красный цвет с красивой текстурой и рисунком волокон. Деревья сукулос вырастают до огромной высоты в 400 метров и более. Они произрастают на обширных кустарниковых равнинах миров пустынной саванны.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/SucculosWood</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>40</ResourceId>
+    <Name>Копандил</Name>
+    <Description>Копандил - очень крепкий ликер, получаемый путем брожения клубней кустарника копандил. Концентрированная желтая жидкость обладает интенсивным огненным вкусом. Его можно найти на мирах с луговым биомом.</Description>
+    <BaseCost>12.5</BaseCost>
+    <ImageFilename>Environment/Resources/Copandil</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>41</ResourceId>
+    <Name>Яйца норджака</Name>
+    <Description>Эти яйца откладывает Норкак - огромное существо, напоминающее выдру, обитающее на ледяных планетах. Яйца Норкака обычно имеют размер 30–40 см и светло-голубой цвет. Они ценятся за свой нежный вкус и высокую питательную ценность.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/NorjakEggs</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>42</ResourceId>
+    <Name>Брекианские ягоды</Name>
+    <Description>Ягоды брекии - это крошечные фиолетовые плоды лозы брекии. Эти лозы произрастают высоко в кроне деревьев обширных джунглей лесных миров. Лоза брекии извлекает питательные вещества из дерева-хозяина, благодаря чему каждая лоза и её ягоды приобретают слегка различный вкус.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/BreqiianBerries</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>43</ResourceId>
+    <Name>Касотти</Name>
+    <Description>Касотти - это кремовый алкогольный напиток, получаемый из сочных листьев растения касот, почвопокровной травы, произрастающей на низменных прибрежных равнинах ледяных тундровых миров.</Description>
+    <BaseCost>7.5</BaseCost>
+    <ImageFilename>Environment/Resources/Kasotti</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>44</ResourceId>
+    <Name>Стейк из оксунума</Name>
+    <Description>Оксунумы - уверенно шагающие существа, похожие на коз, обитающие в уединённых каньонах миров с каменистыми пустынями. Они питаются множеством нежных мхов и лишайников, растущих в тенистых ущельях. Это придаёт их нежному мясу восхитительный вкус.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/OksunumSteak</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>45</ResourceId>
+    <Name>Мех аттариона</Name>
+    <Description>Аттарионы - хищные кошки, обитающие высоко в горах ледяных миров. Они вырастают до 2 метров в длину и обладают прекрасной серо-белой шерстью. Шерсть чрезвычайно мягкая и легкая. Она ценится за теплоизоляционные свойства и долговечность при использовании в одежде.</Description>
+    <BaseCost>12.5</BaseCost>
+    <ImageFilename>Environment/Resources/AttarionFur</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>46</ResourceId>
+    <Name>Мурионское вино</Name>
+    <Description>Растения муурион - высокие бамбукоподобные побеги, достигающие 15 метров в высоту. Они произрастают на бескрайних равнинах миров с луговым биомом. Растения муурион имеют множество мелких ароматных цветов. Желтые лепестки этих цветов используются для приготовления вина из мууриона.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/MuurionWine</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>47</ResourceId>
+    <Name>Плод инкасдии</Name>
+    <Description>Плод инкасдии растёт на небольших кустах в болотах миров с мангровыми лесами. У плода твёрдая фиолетовая кожура с пушистыми шипами, но внутри находится нежная, сочная мякоть, высоко ценимая за свой восхитительный вкус и текстуру.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/InkasdiaFruit</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>48</ResourceId>
+    <Name>Фераксианский огненный камень</Name>
+    <Description>Огненные камни Феракса иногда встречаются на серно-вулканических мирах. Они образуются, когда часть планетарного ядра выталкивается вверх активными серными вулканами. Остывающее ядро часто содержит огненные камни, названные так не только из-за их происхождения, но и потому, что они, кажется, светятся изнутри, когда на них попадают лучи света. Обычно они имеют ярко-желто-золотистый цвет, однако существует также редкий, но естественно возникающий огненный камень светло-голубого свечения.</Description>
+    <BaseCost>17.5</BaseCost>
+    <ImageFilename>Environment/Resources/FeraxianFirestone</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.08</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>49</ResourceId>
+    <Name>Кристалл вакалы</Name>
+    <Description>Кристаллы Вакалы способны создавать ослепительное переливание цветов при прохождении сквозь них света. Они обладают уникальной способностью преобразовывать невидимый свет в видимый спектр, что позволяет наблюдать инфракрасные и ультрафиолетовые лучи. Кристаллы Вакалы встречаются у берегов углеводородных озер на углеродистых мирах.</Description>
+    <BaseCost>16</BaseCost>
+    <ImageFilename>Environment/Resources/VakalaCrystal</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.07</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>50</ResourceId>
+    <Name>Декарионский эль</Name>
+    <Description>Эль Декарион - крепкий напиток ярко-красного цвета, производимый на мирах ледяной тундры. Этот эль получают из небольшого куста под названием декария, имеющего желто-красные листья. Напиток изготавливают из корней растения, уходящих глубоко в землю. Сбор урожая проводят летом перед тем, как снова посадить кусты осенью.</Description>
+    <BaseCost>12</BaseCost>
+    <ImageFilename>Environment/Resources/DecarionAle</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>51</ResourceId>
+    <Name>Обруданский янтарь</Name>
+    <Description>Янтарь Обрудана - это иридисцентная красно-оранжевая смола с дерева обруда. Эти деревья растут небольшими группами на мирах болотистых топей. Кора этого дерева очень хрупка, и при повреждении смола медленно вытекает наружу и затвердевает на стволе, образуя янтарь. Из-за своей притягательной внешности его часто используют в ювелирных изделиях.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/ObrudanAmber</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>52</ResourceId>
+    <Name>Лист япары</Name>
+    <Description>Лист япары - это низкорослый кустарник, произрастающий в глубине засушливых пустошей миров с пустынной саванной. Листья имеют желтовато-зеленый оттенок. Лист япары способен выдерживать экстремальную жару и обходиться без воды почти 10 лет. Листья этого растения насыщены мощными фитонутриентами, которые крайне эффективны в защите от токсинов и патогенов.</Description>
+    <BaseCost>15</BaseCost>
+    <ImageFilename>Environment/Resources/YaparaLeaf</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>PlagueCuring</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>53</ResourceId>
+    <Name>Гираксианский нектар</Name>
+    <Description>Нектар гираксиан - мощное лекарство, встречающееся на континентальных мирах. Нектар производится в крупных трубках цветов дерева гираксиан. Он имеет ярко-розовый цвет. Его очищают и смешивают с другими ингредиентами, чтобы создать средство, помогающее сбивать жар.</Description>
+    <BaseCost>12.5</BaseCost>
+    <ImageFilename>Environment/Resources/GiraxianNectar</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>PlagueCuring</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>54</ResourceId>
+    <Name>Хапекский обсидиан</Name>
+    <Description>Этот редкий вид обсидиана встречается на поверхности некоторых лесных миров. Он обладает ослепительным сине-бирюзовым цветом. Хапекский обсидиан особенно ценится при изготовлении ножей, так как лезвие из обсидиана может иметь режущую кромку во много раз более острую, чем у металлических ножей. Его прекрасный цвет делает его также желанным самоцветом для ювелирных изделий, а также материалом для создания инструментов и украшений.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/HapekObsidian</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>55</ResourceId>
+    <Name>Грибок лукаарин</Name>
+    <Description>Грибок лукаарин - редкий деликатес, растущий в мелководных водах вокруг корней мангровых деревьев. Сотни этих небольших коричневых узелков растут вместе, образуя крупные скопления. Они очень сладкие и обладают интенсивным ароматом. Их можно найти исключительно на мирах с лесами мангровых зарослей.</Description>
+    <BaseCost>12.5</BaseCost>
+    <ImageFilename>Environment/Resources/LukaarianFungus</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>56</ResourceId>
+    <Name>Райлиг</Name>
+    <Description>Райлиг - это кристалл, который при попадании на него света естественным образом проецирует 3D-голограммы. Райлиг образуется в результате взаимодействия чистой расплавленной лавы с обсидиановой породой. Он имеет тёмно-оранжевый цвет и обычно встречается на берегах рек из расплавленной лавы на вулканических мирах.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/RhyligCrystal</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>57</ResourceId>
+    <Name>Чешуя шудасты</Name>
+    <Description>Чешуя шудасты - это сверхпрочные чешуйчатые покровы гигантских ящеров шудасты. Эти ящеры ведут преимущественно одиночный образ жизни на каменистых пустынных мирах и могут достигать огромных размеров; некоторые из них вырастают до 11–12 метров в длину. Их трудно поймать и убить, однако их кожа обладает высокой ценностью и используется для пошива одежды и обивки стульев. Чешуя имеет серебристо-серый цвет.</Description>
+    <BaseCost>15</BaseCost>
+    <ImageFilename>Environment/Resources/ShudastaScales</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyDefense</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>TroopGroundDefense</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>58</ResourceId>
+    <Name>Тебраакианский гранит</Name>
+    <Description>Дириллиевый кварц встречается только на вулканических мирах. Он образуется при смешивании магмы с базальтом и её последующем погружении глубже под землю. При остывании магма образует кристаллы, излучающие сияющий красный свет. Дириллиевый кварц представлен в смеси цветов: красного, белого, серого и черного. Это очень твердый гранит, используемый для украшения и строительства зданий.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/TebraakianGranite</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>59</ResourceId>
+    <Name>Ксукантар</Name>
+    <Description>Ксукантар - это мощный парфюм, частично изготовленный из экзотического вида морских водорослей глубокого океана. Водоросли имеют фиолетовый цвет и плоские, сморщенные листья. При сжатии листья выделяют глубокую фиолетовую жидкость с прекрасным ароматом. Эту жидкость иногда используют для окрашивания тканей, но чаще - в качестве парфюма. Причина редкости этого парфюма заключается в том, что из большого количества водорослей получается очень малое количество жидкости, поэтому он всегда пользуется спросом.</Description>
+    <BaseCost>17.5</BaseCost>
+    <ImageFilename>Environment/Resources/Xukantar</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.09</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+
+  <Resource>
+    <ResourceId>60</ResourceId>
+    <Name>Зерно кордувы</Name>
+    <Description>Зерно кордувы выращивается на луговых мирах. Это зерно растет на очень высоких стеблях высотой 3–4 метра. Каждый стебель может иметь миллионы колосьев, что обеспечивает колоссальные урожаи. Зерно имеет бежевый цвет и ценится за высокую питательность и приятный вкус.</Description>
+    <BaseCost>12.5</BaseCost>
+    <ImageFilename>Environment/Resources/KorduvaGrain</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>61</ResourceId>
+    <Name>Сироп лозарна</Name>
+    <Description>Сироп лозарна - это густой сладкий сок дерева лозарн. На континентальных мирах выращиваются обширные леса деревьев лозарн. Сироп лозарна имеет насыщенный золотистый цвет и повсеместно ценится за свой восхитительный вкус.</Description>
+    <BaseCost>9</BaseCost>
+    <ImageFilename>Environment/Resources/LosarnSyrup</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>62</ResourceId>
+    <Name>Акрасанский янтарь</Name>
+    <Description>Акра́санский янтарь - это смола дерева акрасан, произрастающего в туманных районах планет с мангровыми лесами. У деревьев акрасан имеются крупные полые полости внутри ствола. Эти полости действуют как изолированные печи, где смола нагревается до кипения. Слабые участки ствола часто взрываются от давления горячей смолы. Смола вытекает наружу и привлекает насекомых. Они застревают в смоле. Охлаждающий туман затвердевает её, образуя красивый золотистый янтарь.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/AkrasanAmber</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>63</ResourceId>
+    <Name>Доаканский чай</Name>
+    <Description>Чай Доакан изготавливается из листьев доаканского бамбука. Он произрастает в тенистых местах горных регионов планет пустынной саванны. Для выживания ему требуется немного воды, что делает листья сморщенными и колючими. Чай из этих листьев обладает насыщенным вкусом.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/DoakanTea</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>64</ResourceId>
+    <Name>Йотапианский оникс</Name>
+    <Description>Йотапианский оникс - это глубокий фиолетово-черный драгоценный камень, который встречается в неглубоких подземных пещерах на каменистых пустынных планетах. Он высоко ценится за свое взаимодействие с другими драгоценными камнями, усиливая и углубляя их цвета. По этой причине его часто используют в ювелирных изделиях.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/YotapianOnyx</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>65</ResourceId>
+    <Name>Смола хьютила</Name>
+    <Description>Смола хьютила добывается из клубневидных растений на дне глубокого океана. Эти растения выделяют смолу, особенно под воздействием ультрафиолетового света. Смола хьютила чаще всего имеет тёмно-прозрачный красный или фиолетовый цвет, однако также были найдены образцы синего и коричневого цвета. Эта смола обладает исключительной прочностью; чтобы придать ей форму тонких изящных изделий и украшений, в которых она ценится выше всего, её необходимо подвергнуть воздействию высоких температур. Она встречается исключительно на мирах с глубоким океаном.</Description>
+    <BaseCost>10.5</BaseCost>
+    <ImageFilename>Environment/Resources/HyutilResin</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>66</ResourceId>
+    <Name>Щупальца даркхула</Name>
+    <Description>Даркхулы - грозные морские чудовища, населяющие бездонные подводные туннели миров с глубоким океаном. Даркхулы могут достигать длины 100 метров и более. Они являются вершиной пищевой цепи и не знают страха. Охота на этих ужасающих существ - опасное дело, полное угроз. Щупальца даркхулов представляют собой редкое лакомство, используемое в пищу и в качестве лекарства по всей галактике.</Description>
+    <BaseCost>22.5</BaseCost>
+    <ImageFilename>Environment/Resources/DarkhulTentacles</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.08</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>67</ResourceId>
+    <Name>Сокалианское бренди</Name>
+    <Description>Сокалианский бренди изготавливается из сокалианского сливового вина. Вино производится из редких сокалианских слив, имеющих глубокий розовый цвет. Сокалианские сливовые деревья растут исключительно в высокогорных районах миров с песчаными пустынями. Сокалианский бренди широко известен своим карамельным вкусом и красивым розовым цветом. Обычно его выдерживают более 50 лет, чтобы обогатить вкус.</Description>
+    <BaseCost>15</BaseCost>
+    <ImageFilename>Environment/Resources/SokalianBrandy</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>68</ResourceId>
+    <Name>Древесина бартака</Name>
+    <Description>Древесина бартака - это чрезвычайно плотный лес дерева бартак, встречающийся преимущественно на лесных мирах. Она обладает красивой тёмно-коричневой текстурой и очень тонкой, гладкой поверхностью после распиловки. Из неё можно изготавливать мебель или использовать в строительстве. Деревья бартак могут достигать гигантских размеров, требуя многих столетий для достижения высоты до 300 метров.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/BartakWood</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>69</ResourceId>
+    <Name>Врузосская анемона</Name>
+    <Description>Анемона врузоса плавает небольшими группами на поверхности океана и используется в пищу. Интересной особенностью этой редкой анемоны является то, что она расслабляется и расширяется под солнечным светом, но сжимается при воздействии штормовой погоды. Она считается большим деликатесом и обычно маринованная в различных соусах или специях перед употреблением. Обычно имеет кремовый или бледно-розовый цвет. Анемона врузоса встречается исключительно на океанических мирах.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/WruzosAnemone</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>70</ResourceId>
+    <Name>Волокно тассонтской моли</Name>
+    <Description>Гигантские моли тассонт являются крупнейшими представителями своего вида. Они обитают глубоко в обширных пещерах на мирах песчаных пустынь, где климат наиболее комфортен для них. Изобретательное волокно их крыльев способно выдерживать огромные нагрузки, хотя его толщина составляет всего несколько микрон. Оно крайне востребовано при изготовлении одежды и пошиве церемониальных костюмов. Однако оно также используется в строительных и спасательных работах, таких как скалолазание.</Description>
+    <BaseCost>13.5</BaseCost>
+    <ImageFilename>Environment/Resources/TassontMothFibre</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>71</ResourceId>
+    <Name>Панцирь ордулоса</Name>
+    <Description>Редкая панцирь ордулоса встречается на некоторых океанических мирах. Панцири небольшие, имеют примерно овальную форму и очень однородны по размеру. Внешняя сторона покрыта переливающимся веществом, создающим мерцающую игру цветов, подобно несовершенному природному призмe. Когда-то панцири широко использовались в качестве валюты на некоторых мирах, но теперь они применяются преимущественно как украшения и для декорирования одежды.</Description>
+    <BaseCost>12</BaseCost>
+    <ImageFilename>Environment/Resources/OrdulosShell</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>72</ResourceId>
+    <Name>Тебруллианский мох</Name>
+    <Description>Мох Тебруллиан произрастает на редком виде деревьев, растущих горизонтально у ледяных обрывов некоторых ледяных миров. Мох имеет бледно-серый цвет и растет в виде нитей, свисающих с древесных стволов. Его используют во многих кухнях как траву или украшение для определенных блюд, считая редким деликатесом.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/TebrullianMoss</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>73</ResourceId>
+    <Name>Сарробийский коралл</Name>
+    <Description>Коралл Сарробия очень тверд и остр. Он растет под водой в мелководных прибрежных зонах на океанических планетах. Он бывает различных цветов, таких как бирюзовый, нефритовый и фиолетовый. Солнечный свет от некоторых типов звезд может сделать коралл сверкающим и прекрасным.</Description>
+    <BaseCost>8.5</BaseCost>
+    <ImageFilename>Environment/Resources/SarrobiaCoral</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>74</ResourceId>
+    <Name>Бобы корхуга</Name>
+    <Description>Бобы корхуга растут на небольшом колючем дереве, встречающемся на мирах песчаных пустынь. Дереву требуются многие десятилетия, чтобы достичь зрелости. Когда оно наконец созревает, оно дает небольшие стручки с бобами, которые собирают и сушат. Бобы корхуга - вкусная, но очень острая приправа, используемая как ингредиент в блюдах многих пустынных культур. Также её применяют многие повара по всей галактике.</Description>
+    <BaseCost>8</BaseCost>
+    <ImageFilename>Environment/Resources/KorhugaBeans</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>75</ResourceId>
+    <Name>Щупальца ардилуса</Name>
+    <Description>Ардилусы - это крупные монстры глубокого космоса, которые обычно скрываются вблизи планет-газовых гигантов. Охота на них приносит ценные щупальца ардилуса. Эти щупальца имеют множество применений: некоторые части можно употреблять в пищу, другие используются для получения красителя. Колючие выросты популярны в декоративном строительстве.</Description>
+    <BaseCost>30</BaseCost>
+    <ImageFilename>Environment/Resources/ArdilusTentacles</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.15</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>76</ResourceId>
+    <Name>Кристалл гравилекса</Name>
+    <Description>Гравиллексы - это кристаллические космические чудовища, обычно обитающие вблизи корон экзотических типов звёзд. Охота на этих гравилексов позволяет добыть их уникальные кристаллические структуры. Кристаллы могут обладать широким спектром ослепительных цветов. Они обладают особыми голографическими свойствами, что делает их крайне востребованными в качестве украшений и предметов декора.</Description>
+    <BaseCost>22.5</BaseCost>
+    <ImageFilename>Environment/Resources/GravillexCrystal</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.11</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>77</ResourceId>
+    <Name>Дириллиевый кварц</Name>
+    <Description>Дириллиевый кварц используется в высококлассных электронных компонентах и энергетических коллекторах. Он встречается на мирах с серно-вулканическим биомом.</Description>
+    <BaseCost>6</BaseCost>
+    <ImageFilename>Environment/Resources/DyrilliumQuartz</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>78</ResourceId>
+    <Name>Гексодориум</Name>
+    <Description>Гексодориум - это уникальный вид полимера. Он обладает высокой прочностью и устойчивостью к повреждениям. Гексодориум широко применяется в различных высокотехнологичных компонентах. Обычно его можно найти на мирах с промёрзшим ледяным биомом, хотя небольшие месторождения могут встречаться и на других ледяных планетах.</Description>
+    <BaseCost>9.5</BaseCost>
+    <ImageFilename>Environment/Resources/Hexodorium</ImageFilename>
+    <Bonuses />
+  </Resource>
+</ArrayOfResource>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>58</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<EmpireHappiness>1</EmpireHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>true</ValuesDecayGradually>
+		<Name>Инопланетные забавы</Name>
+		<Description>Наш недавно подписанный договор отвлек наших граждан от их задач, поскольку они временно занялись новыми инопланетными народами. В результате общегосударственное счастье возросло, но объём научных исследований снизился.</Description>
+		<ImageFilename>Environment/Events/alien distractions</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>59</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>-25</EmpireHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Исследования интеграции</Name>
+		<Description>Неассимилированные инопланетные популяции на наших колониях снизили общее счастье в империи и уменьшили объём научных исследований.</Description>
+		<ImageFilename>Environment/Events/Integration studies</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>60</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Ответ</Name>
+		<Description>Недавнее строительство Центра Трансцендентности повысило уровень счастья в нашей империи.</Description>
+		<ImageFilename>Environment/Events/the answer</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>61</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Загадка разгадана</Name>
+		<Description>Завершение передового исследовательского проекта обеспечило нашей империи двухлетний бонус к уровню счастья и объёму научных исследований.\n\n[BONUS]+10% ко всем исследованиям[/BONUS]\n[BONUS]+10% к счастью[/BONUS]\n\nТакже оно предоставило [CHARACTER]бонусные черты характера нашему Лидеру и одному из наших учёных[/CHARACTER].</Description>
+		<ImageFilename>Environment/Events/A puzzle solved</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>62</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>0.5</DurationMinimum>
+		<DurationMaximum>0.5</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Строим будущее</Name>
+		<Description>Недавнее строительство новой исследовательской станции дало кратковременный прирост счастья в нашей империи.</Description>
+		<ImageFilename>Environment/Events/building the future</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>63</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Разрушение пиратской тюрьмы</Name>
+		<Description>Наше решение снести древний парк, использовавшийся пиратами, дало краткосрочный прирост счастья в нашей империи.</Description>
+		<ImageFilename>Environment/Events/pirates-maze</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>64</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Использование Пиратской тюрьмы</Name>
+		<Description>Наше решение использовать древний парк, ранее использовавшийся пиратами, дало нам краткосрочный удар по счастью нашей империи.</Description>
+		<ImageFilename>Environment/Events/pirates-maze</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>65</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>3</DurationMinimum>
+		<DurationMaximum>3</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Уничтожен кибернетический мозг</Name>
+		<Description>Наше решение уничтожить кибернетический мозг обеспечило прирост счастья в нашей империи на 3 года</Description>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>
