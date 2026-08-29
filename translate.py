@@ -22,8 +22,8 @@ DEFAULT_MODEL = "qwen/qwen3.6-35b-a3b"
 DEFAULT_POOL_TIMEOUT = 120  # timeout in seconds (was 120000ms)
 
 TECHNICAL_PHRASES = frozenset({
-    "*** DISTANT WORLDS 2 ENTRIES BELOW ***",
-    "System names",
+    "'*** DISTANT WORLDS 2 ENTRIES BELOW ***",
+    "'System names",
     ".NET v{0}",
     "DirectX 11",
     "Stride v{0}",
@@ -38,6 +38,7 @@ TECHNICAL_PHRASES = frozenset({
     "{0}: {1}",
     "{0}x{1}",
     "\ufeff",
+    "{0}/{1}",
 })
 
 paused = False
@@ -559,7 +560,7 @@ def iter_translatable_elements(root, skip_technical=False):
                         continue
                     yield (child, tag, f"{elem_tag}/{tag}")
         elif elem_tag == 'TourItem':
-            for tag in ['StepTitle', 'MarkupText', 'Title']:
+            for tag in ['StepTitle', 'MarkupText']:
                 for child in elem.iter(tag):
                     if skip_technical and child.tag in technical_tags:
                         continue

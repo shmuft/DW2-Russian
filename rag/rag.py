@@ -70,7 +70,7 @@ def get_db_connection(db_config: Optional[dict] = None):
 _MIGRATIONS_DIR = Path(__file__).parent / "migrations"
 
 # Текущая версия схемы (должна совпадать с номером последней миграции)
-CURRENT_SCHEMA_VERSION = 3
+CURRENT_SCHEMA_VERSION = 4
 
 
 def _get_current_db_version(conn) -> int:
@@ -416,6 +416,7 @@ def generate_missing_embeddings(
     conn = get_db_connection(db_config)
     cursor = conn.cursor()
     try:
+        
         if source_version is None:
             cursor.execute("""
                 SELECT id, english FROM translations
@@ -640,6 +641,8 @@ def load_translations_to_db(
         total_pairs += len(chunk)
         print(f"[INFO] Вставлено {total_pairs}/{len(pairs)} пар переводов для {source_version}")
 
+    cursor.execute("""SELECT update_new_embeddings_by_old_data()""")
+    conn.commit();
     conn.close()
 
     if generate_embeddings:
