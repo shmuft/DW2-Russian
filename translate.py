@@ -8,6 +8,7 @@ from concurrent.futures import ThreadPoolExecutor
 from system_prompt import SYSTEM_PROMPT
 import pickle
 import os
+import copy
 from pathlib import Path
 from openai import OpenAI
 
@@ -560,7 +561,7 @@ def iter_translatable_elements(root, skip_technical=False):
                         continue
                     yield (child, tag, f"{elem_tag}/{tag}")
         elif elem_tag == 'TourItem':
-            for tag in ['StepTitle', 'MarkupText']:
+            for tag in ['StepTitle', 'MarkupText', 'Title']:
                 for child in elem.iter(tag):
                     if skip_technical and child.tag in technical_tags:
                         continue
@@ -1155,7 +1156,7 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
         eng_root = eng_tree.getroot()
         rus_tree = ET.parse(output_file)
         rus_root = rus_tree.getroot()
-        
+
         # Получаем списки текстов
         eng_texts = extract_translatable_texts(eng_root)
         rus_texts = extract_translatable_texts(rus_root)
@@ -1187,6 +1188,24 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
     else:
         tree = ET.parse(source_file)
     root = tree.getroot()
+
+    new_items = []
+    for tour_item in root.findall("TourItem"):
+        # Копируем весь тег <TourItem> со всем содержимым
+        item_copy = copy.deepcopy(tour_item)
+            
+        # 2. Ищем внутри копии тег Title
+        title_tag = item_copy.find("Title")
+        if title_tag is not None:
+            title_tag.tag = "Title_new"  # Переименовываем сам тег
+            # Если нужно изменить и текст внутри, раскомментируйте строку ниже:
+            # title_tag.text = "Новое название" 
+                
+        new_items.append(item_copy)        # Получаем списки текстов
+    # 3. Добавляем измененные копии обратно в корень <ArrayOfTourItem>
+    for new_item in new_items:
+        root.append(new_item)
+
     log_entries = []
     words_set = set()
     tasks = []
@@ -1237,6 +1256,9 @@ def translate_xml(input_file: str, output_file: str, words_mode=False, translato
             pickle.dump(progress, f)
 
     if not paused:
+        for title_tag in tree.getroot().findall(".//Title_new"):
+            title_tag.tag = "Title"  # Переименовываем обратно
+
         tree.write(output_file, encoding="utf-8", xml_declaration=True)
         print(f"\nФайл сохранён: {output_file}")
         
