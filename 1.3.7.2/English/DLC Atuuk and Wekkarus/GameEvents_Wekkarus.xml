@@ -1,0 +1,3002 @@
+<?xml version="1.0"?>
+<ArrayOfGameEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<GameEvent>
+		<Name>Home Ruin Generation (Wekkarus)</Name>
+		<TriggerType>Investigate</TriggerType>
+		<TriggerRaceIds>
+			<short>8</short> <!-- Wekkarus -->
+		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<PlacementActions>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>0</Value2> <!-- Discovery Level -->
+				<GeneratedItemName>Archive of the First Generation</GeneratedItemName>
+			</GameEventAction>
+		</PlacementActions>
+		<TechLevelThreshold>1</TechLevelThreshold>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>A Generation Reborn</MessageTitle>
+				<Description>As the Wekkarus emerge from their long isolation, it is a time of celebratory contemplation. Once more, we have the means to explore the vastness of space, and so it is we call this generation the Generation that Returns to the Stars. It is how we shall be known to all future Generations, and it falls to us to be worthy of this name, lest we become a Generation without Merit. We did not originate in this galaxy, but for centuries it has been our only home. We must secure our place, or we risk the same disaster that forced us to flee our home galaxy.
+
+Our task then is not merely to return to the stars and take for ourselves such worlds that harbor deep oceans, but we must also dedicate ourselves to a greater cause: The Recovery of Lost Artifacts. We Wekkarus feel ourselves connected with one another, and so this great cause will be embraced by all. Long ago, when the Shakturi drove us to seek shelter in this galaxy, the Generation of Ambitious Fortitude sought to fight the invaders and preserve our great Artifacts. Though they are at the core of who we are, it was better they be lost for a thousand years than to be lost forever. And so, they hid away these remnants of the First Generation. Now that we can again roam the stars, it is time to seek them out.
+
+We must make good on our promise to those who came before us, and we walk their paths. We seek that which was lost and regain that which is ours. We ignore, beat back, or destroy those who exist only for themselves, those who resist the fabric of continuity. We shall find the Lost Artifacts and unite the past with the present. We will make the Wekkarus whole once more.</Description>
+				<ImageFilepath>UserInterface/Races/Wekkarus</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>252</Id1> <!-- Project Id (-1=Random), Current Value = Early Warp Field Experiments -->
+				<Value1>0.5</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+				<ResearchCategory>HyperDrive</ResearchCategory>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>414</Id1> <!-- Project Id (-1=Random), Current Value = Research Labs -->
+				<Value1>0.25</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+				<ResearchCategory>ResearchLab</ResearchCategory>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Lost Outpost (Wekkarus)</Name>
+		<TriggerType>Investigate</TriggerType>
+		<TriggerRaceIds>
+			<short>8</short> <!-- Wekkarus -->
+		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<PlacementActions>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<Description>This world contains the ruins of an ancient outpost. Initial scans reveal that it is almost certainly of Wekkarus design, belonging to one of the lost generations. We should survey the planet more thoroughly so we might commune with the Wekkarus whose spirits surely remain in this place.</Description>
+				<ActionLocationHint>HomeSystem</ActionLocationHint>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>5</Value2> <!-- Discovery Level -->
+			</GameEventAction>
+		</PlacementActions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Remnants of a Previous Generation</MessageTitle>
+				<Description>As we suspected, this world housed an industrial outpost of the ancient Wekkarus. It was mainly used as a storage facility for nearby asteroid mining operations, which we believe was long ago destroyed.
+
+We have uncovered some fragmented communication logs, which offer us a link to those who lived and labored here. It appears that those ancient Wekkarus knew something of the lost Artifacts of Origin.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>The Lost Outpost 2 (Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Lost Outpost 2 (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>Fragments of the Past</MessageTitle>
+				<Description>Hidden among the collapsed buildings and crumbling storage tunnels are the secrets we desire. We must be careful, however. The further we delve, the more unstable the ruins. We believe we can only choose to search in one area before we must abandon the facility. Some secrets of the past will inevitably be lost forever.</Description>
+				<ChoiceButtonText>Search the Docking Bay</ChoiceButtonText>
+				<GeneratedItemName>Search the Docking Bay Choice (Wekkarus)</GeneratedItemName>
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ChoiceButtonText>Search the Warehouse</ChoiceButtonText>
+				<GeneratedItemName>Search the Warehouse Choice (Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Search the Docking Bay Choice (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>The Past is Always Unstable</MessageTitle>
+				<Description>As we feared, our search caused the ruins to collapse in on itself. Our team was able to evacuate safely, and no Wekkarus were hurt.
+
+In the docking bay, we found [DISCOVERY]two functional exploration ships[/DISCOVERY]. We also found the fragmented logs, which identify the [LOCATION]location of an archive[/LOCATION]. It could hold vital information about the Lost Artifacts. We should investigate at once.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateShipBase</Type>
+				<Id1>8</Id1> <!-- Owning Race Id, Current Value = Wekkarus -->
+				<Id3>-1</Id3> <!-- Anchor to Site? 1=Yes -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>0</Value2> <!-- Damage Level (0 to 1) -->
+				<ShipRole>ExplorationShip</ShipRole>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateShipBase</Type>
+				<Id1>8</Id1> <!-- Owning Race Id, Current Value = Wekkarus -->
+				<Id3>-1</Id3> <!-- Anchor to Site? 1=Yes -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>0</Value2> <!-- Damage Level (0 to 1) -->
+				<ShipRole>ExplorationShip</ShipRole>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>Barrett</ActionLocationItemName>
+				<ActionLocationItemType>Orb</ActionLocationItemType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Search the Warehouse Choice (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>All Things Must Crumble in the End</MessageTitle>
+				<Description>As we feared, our search caused the ruins to collapse in on itself. Our team was able to evacuate safely, and no Wekkarus were hurt.
+
+In the warehouse, we found some useful resources, which should help us as we reclaim the stars. We also found the fragmented logs, which identify an archive. It could hold vital information about the Lost Artifacts. We should investigate at once.
+
+We have received:
+
+1000 Polymer
+1000 Nekros Stone
+1000 Silicon</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCargo</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>12</Id1> <!-- Resource Id, Current Value = Polymer -->
+				<Value1>1000</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCargo</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>1</Id1> <!-- Resource Id, Current Value = Nekros Stone -->
+				<Value1>1000</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCargo</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>7</Id1> <!-- Resource Id, Current Value = Silicon -->
+				<Value1>1000</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>Barrett</ActionLocationItemName>
+				<ActionLocationItemType>Orb</ActionLocationItemType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Map of Prior Generations (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<PlacementActions>
+			<GameEventAction>
+				<Type>GeneratePlanetarySystem</Type>
+				<ActionLocationHint>VeryNearbyEmptySystem</ActionLocationHint>
+				<Id1>10</Id1> <!-- Orb Type Id, Current Value = Sandy Desert -->
+				<Value1>0.35</Value1> <!-- Quality Level (0 to 1) -->
+				<Value2>0</Value2> <!-- Diameter (0=Default) -->
+				<GeneratedItemName>Barrett</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateIndependentColony</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id2>2</Id2> <!-- Population Race Id, Current Value = Teekan -->
+				<Value1>250000000</Value1> <!-- Population Amount -->
+				<Value2>0.75</Value2> <!-- Development Level (0 to 1) -->
+				<GeneratedItemName>Barrett</GeneratedItemName>
+				<GeneratedItemEventNames>
+					<string>Contact The Map of Prior Generations (Wekkarus)</string>
+				</GeneratedItemEventNames>
+			</GameEventAction>
+		</PlacementActions>
+		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
+	</GameEvent>
+	<GameEvent>
+		<Name>Contact The Map of Prior Generations (Wekkarus)</Name>
+		<TriggerType>EmpireRelationChangeIndependentColony</TriggerType>
+		<TriggerEmpireRelationType>FirstContact</TriggerEmpireRelationType>
+		<TriggerRaceIds>
+			<short>8</short> <!-- Wekkarus -->
+		</TriggerRaceIds>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>They Possess What is not Theirs</MessageTitle>
+				<Description>We have encountered a world inhabited by Teekans. They've contacted us to let us know that they are in possession of a Wekkarus relic from ancient times.
+
+We don't know what this relic is. It might be related to the Lost Artifacts. It could be a means to find them. It might also be something of no value whatsoever.
+
+The Teekans are demanding a large payment for the artifact. We could comply, or we could attempt to intimidate them into handing over what belongs to us.</Description>
+				<ImageFilepath>Environment/Events/the map of prior generations</ImageFilepath>
+				<ChoiceButtonText>Pay the Teekans [-50,000cr]</ChoiceButtonText>
+				<GeneratedItemName>Pay the Teekans Choice (Wekkarus)</GeneratedItemName>
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ChoiceButtonText>Intimidate the Teekans</ChoiceButtonText>
+				<GeneratedItemName>Intimidate the Teekans Choice (Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Pay the Teekans Choice (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Trivial Rewards Please Trivial Minds</MessageTitle>
+				<Description>We have paid the Teekans for what was not theirs to sell, and they have delivered to us an ancient Wekkarus data crystal. It is battered and partially corrupted, but the spirit of our ancestors has not faded from it entirely.
+
+The crystal contains a [LOCATION]map to a distant location[/LOCATION]. Much of the explanatory text has been distorted, but there is reason to believe that something at this location can lead us to one of our Lost Artifacts.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TransferMoney</Type>
+				<Id1>-1</Id1> <!-- Race Id to Subtract (-1=Triggering Empire, -2=Location Empire) -->
+				<Id2>-5</Id2> <!-- Race Id to Add (-1=Triggering Empire, -2=Location Empire) -->
+				<Value1>50000</Value1> <!-- Amount -->
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>The Refugee's Fortress</ActionLocationItemName>
+				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Pay the Teekans Choice 2 (Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Pay the Teekans Choice 2 (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>It is Ours Again</MessageTitle>
+				<Description>Though the Teekans ought to have given us this data crystal without demanding payment, we are nevertheless grateful to them. They have, in a way true to their nature, reunited us with a fragment of our past.
+
+We now have a direction. We can, in due time, recover the Lost Artifacts and bring our ancestors peace.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddEmpireIncidentFactorGeneral</Type>
+				<Description>We came to an agreement</Description>
+				<ActionLocationItemName>Barrett</ActionLocationItemName>
+				<ActionLocationItemType>Orb</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
+				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
+				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
+				<Value1>10</Value1> <!-- Amount -->
+				<Value2>0</Value2> <!-- Decay Rate -->
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Intimidate the Teekans Choice (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>The Weak Respect Strength</MessageTitle>
+				<Description>The Teekans understand bargaining and commerce. They do not understand the Wekkarus. They do not understand the link between those who walk today and those who remain with us as spirit.
+
+We explained that prohibiting us from gaining access to our ancestors would force us to destroy their capital city. Perhaps we could do so. Perhaps not. It does not matter. This clarification helped them to see reason.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Intimidate the Teekans Choice 2 (Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Intimidate the Teekans Choice 2 (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>These are Trivial Creatures</MessageTitle>
+				<Description>The Teekans have capitulated and delivered to us an ancient Wekkarus data crystal. It is battered and partially corrupted, but the spirit of our ancestors has not faded from it entirely.
+
+The crystal contains [LOCATION]a map to a distant location[/LOCATION]. Much of the explanatory text has been distorted, but there is reason to believe that something at this location can lead us to one of our Lost Artifacts.
+
+We now have a direction. We can, in due time, recover the Lost Artifacts and bring our ancestors peace.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddEmpireIncidentFactorGeneral</Type>
+				<Description>You threatened us</Description>
+				<ActionLocationItemName>Barrett</ActionLocationItemName>
+				<ActionLocationItemType>Orb</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
+				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
+				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
+				<Value1>-10</Value1> <!-- Amount -->
+				<Value2>0</Value2> <!-- Decay Rate -->
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>The Refugee's Fortress</ActionLocationItemName>
+				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Remnant of an Alliance (Wekkarus)</Name>
+		<TriggerType>Investigate</TriggerType>
+		<TriggerRaceIds>
+			<short>8</short> <!-- Wekkarus -->
+		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<PlacementActions>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<Description>This world contains the ruined remnants of a military base of Wekkarus design. We should investigate further.</Description>
+				<ActionLocationHint>NearbyEmptySystem</ActionLocationHint>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>10</Value2> <!-- Discovery Level -->
+				<GeneratedItemEventNames>
+					<string>Remnant of an Alliance (Non Wekkarus)</string>
+					<string>Remnant of an Alliance (Ackdarian)</string>
+				</GeneratedItemEventNames>
+			</GameEventAction>
+		</PlacementActions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>A Surprising Alliance</MessageTitle>
+				<Description>We have sent an exploratory team to the destroyed base. The interior was littered with the husks of many Wekkarus whose spirits have abandoned their physical form. It appears that a great and terrible battle took place here centuries ago, likely during the Shakturi War.
+
+We are surprised and confused to see many remains of Ackdarians side by side with the Wekkarus. There is no doubt that the two species fought together and died together.
+
+Always we have believed that, in the times before the Cataclysm, Ackdarians and Wekkarus disliked one another. The two species were not necessarily bitter enemies, but they were certainly rivals.</Description>
+				<ImageFilepath>Environment/Events/remnant of an alliance</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>Remnant of an Alliance (Non Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>Remnant of an Alliance (Ackdarian)</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Remnant of an Alliance 2 (Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Remnant of an Alliance 2 (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>The Past Informs the Present</MessageTitle>
+				<Description>This instance of interspecies cooperative gives us much to consider. If our ancestors could work with others, perhaps that is something our current generation should explore. Some voices among us draw a different conclusion. They say if we grow stronger, we will not need to depend upon our rivals for aid.
+
+We must decide which way is right for this generation. This decision may play some part in how future generations name us. Should we attempt to align ourselves with others, or should we determine to grow our military strength. What sort of generation do we wish to be?</Description>
+				<ChoiceButtonText>Focus on Diplomacy</ChoiceButtonText>
+				<GeneratedItemName>Focus on Diplomacy Choice (Wekkarus)</GeneratedItemName>
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ChoiceButtonText>Focus on Military</ChoiceButtonText>
+				<GeneratedItemName>Focus on Military Choice (Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Focus on Diplomacy Choice (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Cooperation is the Superior Path</MessageTitle>
+				<Description>We should find way to commune with others and grow stronger through cooperation. We must seek the way of cooperation.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>104</Id1> <!-- Colony Event Id, Current Value = We Found the Remnant of an Ancient Alliance -->
+				<Id2>-1</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Focus on Military Choice (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Might is the Superior Path</MessageTitle>
+				<Description>Only through strength can this Generation exist in harmony with our Ancestors. We must not allow others to dictate our course.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+				<ResearchCategory>Troops</ResearchCategory>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Remnant of an Alliance (Non Wekkarus)</Name>
+		<TriggerType>Investigate</TriggerType>
+		<NonTriggerRaceIds>
+			<short>1</short> <!-- Ackdarian -->
+			<short>8</short> <!-- Wekkarus -->
+		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>They Were Allies</MessageTitle>
+				<Description>We have sent an exploratory team to the destroyed base. The interior was littered with the corpses of Wekkarus and Ackdarians, who appear to have fought together against an unknown enemy.  The battle took place centuries before, possibly during the Shakturi War.</Description>
+				<ImageFilepath>Environment/Events/remnant of an alliance</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>Remnant of an Alliance (Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>Remnant of an Alliance (Ackdarian)</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Remnant of an Alliance 2 (Non Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Remnant of an Alliance 2 (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>United Against the True Threat</MessageTitle>
+				<Description>Though records from that time are incomplete, it is generally believed that relations between the Ackdarians and Wekkarus were tense, perhaps even hostile. In this instance, they evidently set aside their differences to fight against a common enemy.
+
+Perhaps we could take inspiration from this incident and dedicate ourselves to making new alliances. Alternatively, the lesson may be that a strong military is important so that we do not need to call upon potentially unreliable allies. 
+We must decide what lessons are to be learned here.</Description>
+				<ChoiceButtonText>Focus on Diplomacy</ChoiceButtonText>
+				<GeneratedItemName>Focus on Diplomacy Choice (Non Wekkarus)</GeneratedItemName>
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ChoiceButtonText>Focus on Military</ChoiceButtonText>
+				<GeneratedItemName>Focus on Military Choice (Non Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Focus on Diplomacy Choice (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Diplomacy is the Answer</MessageTitle>
+				<Description>We are inspired by the cooperation between opposing factions. We will focus on diplomacy.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>104</Id1> <!-- Colony Event Id, Current Value = We Found the Remnant of an Ancient Alliance -->
+				<Id2>-1</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Focus on Military Choice (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Strength is the Answer</MessageTitle>
+				<Description>No ally is as powerful as self-reliance. We must strengthen our military.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+				<ResearchCategory>Troops</ResearchCategory>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Remnant of an Alliance (Ackdarian)</Name>
+		<TriggerType>Investigate</TriggerType>
+		<TriggerRaceIds>
+			<short>1</short> <!-- Ackdarian -->
+		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Not Enemies but Allies</MessageTitle>
+				<Description>We have sent an exploratory team to the destroyed base. The interior was littered with the bodies of Ackdarians. Interestingly, there are also many dead Wekkarus. It appears that a great and terrible battle took place here centuries ago, likely during the Shakturi War.
+
+We are surprised to see signs of cooperation between the two species. There is no doubt that they fought together against a common enemy.
+
+Always we have believed that Ackdarians and Wekkarus disliked one another. The enmity did not rise to the two species being enemies, but certainly rivals.</Description>
+				<ImageFilepath>Environment/Events/remnant of an alliance</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>Remnant of an Alliance (Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>Remnant of an Alliance (Non Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Remnant of an Alliance 2 (Ackdarian)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Remnant of an Alliance 2 (Ackdarian)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>Fighting Together</MessageTitle>
+				<Description>This interspecies cooperative gives us much to consider. If our ancestors could work with their rivals, perhaps we could as well.
+
+Alternatively, it may be the valid lesson here is that we must strengthen our military, so we need rely on no one.
+
+Which path shall we follow?</Description>
+				<ChoiceButtonText>Focus on Diplomacy</ChoiceButtonText>
+				<GeneratedItemName>Focus on Diplomacy Choice (Ackdarian)</GeneratedItemName>
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ChoiceButtonText>Focus on Military</ChoiceButtonText>
+				<GeneratedItemName>Focus on Military Choice (Ackdarian)</GeneratedItemName>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Focus on Diplomacy Choice (Ackdarian)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Diplomatic Power</MessageTitle>
+				<Description>We are inspired by the cooperation between opposing factions. We will focus on diplomacy.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>104</Id1> <!-- Colony Event Id, Current Value = We Found the Remnant of an Ancient Alliance -->
+				<Id2>-1</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Focus on Military Choice (Ackdarian)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Military Power</MessageTitle>
+				<Description>No ally is as powerful as self-reliance. We must strengthen our military.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+				<ResearchCategory>Troops</ResearchCategory>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Insane Librarian (Wekkarus)</Name>
+		<TriggerType>Investigate</TriggerType>
+		<TriggerRaceIds>
+			<short>8</short> <!-- Wekkarus -->
+		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<PlacementActions>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<Description>We have discovered what appears to be a structure of Wekkarus design on the world below. We should survey further and discover what secrets this place conceals.</Description>
+				<ActionLocationHint>NearbyEmptySystem</ActionLocationHint>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>15</Value2> <!-- Discovery Level -->
+				<GeneratedItemEventNames>
+					<string>The Insane Librarian (Non Wekkarus)</string>
+				</GeneratedItemEventNames>
+			</GameEventAction>
+		</PlacementActions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Something Remains</MessageTitle>
+				<Description>Our survey team has determined that there is, indeed, a Wekkarus structure on the world below. We are detecting signs of limited activity and will now send a team to investigate.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>The Insane Librarian (Non Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>The Insane Librarian 2 (Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Insane Librarian 2 (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>A Link to What Was Forgotten</MessageTitle>
+				<Description>We have discovered something remarkable on the surface: A Wekkarus archive overseen by a librarian born into a long-dead generation. This is, indeed, a Wekkarus existing outside his own time.
+
+This librarian has dedicated his existence to collecting and preserving Shakturi legends. He insists that these tales contain truths that are vital not only for understanding Wekkarus history, but also for surviving in the future.
+
+It is a curious and inexplicable obsession, but the librarian's tale contains even stranger elements. In order to fulfill his obsessive mission the librarian, who was born to an ancient generation, has made use of unfathomable technology, which he learned from another species or invented himself (his stories are garbled and unclear) in order to clone himself over and over again over the centuries. He has done this so the Shakturi legends will not be lost.
+
+He cannot say why preserving these tales is important. When pressed, he insists that the Wekkarus must know. He repeats this over and over.
+
+But his mission has come to an end. The cloning mechanisms have failed. This librarian is the first of his line not to raise his own clone to take his place.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>The Insane Librarian 3 (Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Insane Librarian 3 (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Echoes of the Past Linger</MessageTitle>
+				<Description>The librarian insists that we not only preserve his work, but that we disseminate these Shakturi legends among our people. These tales are disjointed and disturbing. They are difficult for the Wekkarus mind to process. Reading even as little as a few paragraphs can produce strange hallucinations and uneasy feelings.
+
+The librarian has observed how troubling we find these Shakturi tales, and he is concerned that we will not make them available. After failing to persuade us with his arguments, the librarian has retreated to rest as he considers his options.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>The Insane Librarian 4 (Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Insane Librarian 4 (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>Atypical Behavior for a Librarian</MessageTitle>
+				<Description>Alarming news. The librarian did not go to his quarters to rest. He has activated a self-destruct mechanism in the archive. The team below has only hours to evacuate. It is the librarian's intention to force them into preserving the Shakturi tales, perhaps in the hope that once we save them from destruction, they will inevitably be spared.
+
+There may, indeed, be some value in better understanding the Shakturi, but perhaps it is the remnants of the ancient cloning technology that our team should preserve before the archive is lost forever.
+
+We must choose now.</Description>
+				<ChoiceButtonText>Save Shakturi Legends</ChoiceButtonText>
+				<GeneratedItemName>Save Shakturi Legends Choice (Wekkarus)</GeneratedItemName>
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ChoiceButtonText>Save Cloning Technology</ChoiceButtonText>
+				<GeneratedItemName>Save Cloning Technology Choice (Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Save Shakturi Legends Choice (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Knowledge Must Be Preserved</MessageTitle>
+				<Description>Our exploration team has escaped the archive, which has now been destroyed, along with the librarian. The Shakturi legends have been preserved, however.
+
+A review of the Shakturi legends has revealed very unsettling information. It seems that the Shakturi have long hunted the Wekkarus. It is part of the Shakturi nature to conquer and destroy, but capturing Wekkarus appears to have been a particular obsession.
+
+We cannot guess why. These legends are sprinkled with references to Shakturi technology, much of which is alien and unknown to us. Gaining insights into Shakturi scientific thinking may help our researchers pursue new ideas or explore unusual approaches. It is a strange sort of inspiration, but it is inspiration all the same. However, the dissemination of these documents among our people will almost certainly cause discomfort.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Save Shakturi Legends Choice 2 (Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Save Shakturi Legends Choice 2 (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>More to Discover</MessageTitle>
+				<Description>Among the librarian's possessions, we've discovered [LOCATION]a star map with a location[/LOCATION] indicated. Its import is unknown. 
+
+We have also discovered that Shakturi technology is not the only thing the librarian preserved. His collection includes an artifact of the old galaxy, the [ARTIFACT]Cenotaph of the First Generation[/ARTIFACT]. This large rectangular monument, made entirely of stone from our lost homeworld, was built in honor of the great heroes of our distant past, the very founders of Wekkarus civilization.
+
+Proximity to the Cenotaph allows us to feel a stronger connection to our ancestors. It will help them to reach out across the void of time to join this generation. Heroes of the past can stand with us and work toward making this a generation to be remembered.</Description>
+				<ImageFilepath>Artifacts/cenotaph of the first generation</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>105</Id1> <!-- Colony Event Id, Current Value = We are Disturbed by Shakturi Legends -->
+				<Id2>-1</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateArtifact</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>65</Id1> <!-- Artifact Id, Current Value = Cenotaph of the First Generation -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>Ancient Shakturi Advance Ship</ActionLocationItemName>
+				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Save Cloning Technology Choice (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Forgotten Technology Must be Preserved</MessageTitle>
+				<Description>It will take some time to study and understand this cloning technology, and it is unlikely we will ever have the ability to repeatedly clone a single individual as the librarian did. Nevertheless, there is much to learn.
+
+As for what drove the librarian to dedicate multiple lives to preserving Shakturi legends, we cannot say. Perhaps he believed there was a link between the Shakturi past and the Wekkarus future. Let us hope that is not the case.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Save Cloning Technology Choice 2 (Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Save Cloning Technology Choice 2 (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Knowledge of our Forebears</MessageTitle>
+				<Description>Among the librarian's possessions, we've found [LOCATION]a star map with a location[/LOCATION] indicated. Its import is unknown.
+
+We have also discovered that Shakturi technology is not the only thing the librarian preserved. In his collection we've found an artifact of the old galaxy, the [ARTIFACT]Cenotaph of the First Generation[/ARTIFACT]. This large rectangular monument, made entirely of stone from our lost homeworld, was built in honor of the great heroes of our distant past, the very founders of Wekkarus civilization.
+
+Proximity to the Cenotaph allows us to feel a stronger connection to our ancestors. It will help them to reach out across the void of time to join this generation. Heroes of the past can stand with us and work toward making this a generation to be remembered.</Description>
+				<ImageFilepath>Artifacts/cenotaph of the first generation</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>139</Id1> <!-- Project Id (-1=Random), Current Value = Basic Chimeras -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+				<ResearchCategory>MedicalCenter</ResearchCategory>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateArtifact</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>65</Id1> <!-- Artifact Id, Current Value = Cenotaph of the First Generation -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>Ancient Shakturi Advance Ship</ActionLocationItemName>
+				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Insane Librarian (Non Wekkarus)</Name>
+		<TriggerType>Investigate</TriggerType>
+		<NonTriggerRaceIds>
+			<short>8</short> <!-- Wekkarus -->
+		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>A Forgotten Structure</MessageTitle>
+				<Description>Our survey team has determined that there is, indeed, a Wekkarus structure on the world below. We are detecting signs of limited activity and will now send a team to investigate.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>The Insane Librarian (Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>The Insane Librarian 2 (Non Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Insane Librarian 2 (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>A Connection to the Ancient Galaxy</MessageTitle>
+				<Description>We have discovered something remarkable on the surface: A Wekkarus archive overseen by a librarian born from the distant past. This is an alien existing outside his own time.
+
+This librarian lived in the time of the Shakturi War. Or at least a version of him did. The librarian has dedicated his existence to collecting and preserving Shakturi legends. He insists that these tales contain truths that are vital for our galaxy's survival. The librarian would prefer to pass his archive along to the Wekkarus but is willing to give it to us.
+
+The librarian has made use of unfathomable technology, which he learned from another species or invented himself (his stories are garbled and unclear) in order to clone himself over and over again over the centuries. He has done this so the Shakturi legends will not be lost.
+
+He cannot say why preserving these tales is important. When pressed, he will only say that the galaxy must know.
+
+But his mission has come to an end. The cloning mechanisms have failed. This librarian is the first of his line not to raise his own clone to take his place.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>The Insane Librarian 3 (Non Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Insane Librarian 3 (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Tales of Unknowable Minds</MessageTitle>
+				<Description>The librarian insists that we not only preserve his work, but that we disseminate the Shakturi legends. These tales are disjointed and disturbing. They are difficult for our minds to process and reading even a few paragraphs can produce strange hallucinations and uneasy feelings.
+
+The librarian has observed how troubling we find these Shakturi tales, and he is concerned that we will not disseminate his Shakturi writings throughout our empire. After failing to persuade us with his arguments, the librarian has retreated to rest as he considers his options.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>The Insane Librarian 4 (Non Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Insane Librarian 4 (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>A Deceptive Librarian</MessageTitle>
+				<Description>Alarming news. The librarian did not go to his quarters to rest. He has activated a self-destruct mechanism in the archive. Our team has only hours to evacuate. It is the librarian's intention to force them into preserving the Shakturi tales, perhaps in the hope that once they are preserved, they will inevitably be spared.
+
+There may, indeed, be some value in better understanding the Shakturi, but perhaps it is the remnants of the ancient cloning technology that our team should preserve before the archive is lost forever.
+
+We must choose now.</Description>
+				<ChoiceButtonText>Save Shakturi Legends</ChoiceButtonText>
+				<GeneratedItemName>Save Shakturi Legends Choice (Non Wekkarus)</GeneratedItemName>
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ChoiceButtonText>Save Cloning Technology</ChoiceButtonText>
+				<GeneratedItemName>Save Cloning Technology Choice (Non Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Save Shakturi Legends Choice (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Preserving Knowledge</MessageTitle>
+				<Description>Our exploration team has escaped the archive, which has now been destroyed, along with the librarian. The Shakturi legends have been preserved, however.
+
+A review of the Shakturi legends has revealed very unsettling information. It seems that the Shakturi have long hunted the Wekkarus. It is part of the Shakturi nature to conquer and destroy, but capturing Wekkarus appears to have been a particular obsession.
+
+These legends are sprinkled with references to Shakturi technology, much of which is alien to us. Gaining insights into Shakturi scientific thinking may help our researchers pursue new ideas or explore unusual approaches. It is a strange sort of inspiration, but it is inspiration all the same. However, everyone who has interacted with the Shakturi texts has reported feeling uneasy. There is something inherently disquieting about everything connected with the Shakturi.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Save Shakturi Legends Choice 2 (Non Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Save Shakturi Legends Choice 2 (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>A Fascinating Discovery</MessageTitle>
+				<Description>We have also discovered that Shakturi technology is not the only thing the librarian preserved. We found in his collection an artifact of the old galaxy, the [ARTIFACT]Cenotaph of the First Generation[/ARTIFACT]. This large rectangular monument, made entirely of an unfamiliar stone. The Cenotaph contains some kind of barely perceptible energy of an unknown nature. Citizens from across our empire claim to feel its subtle effects. In particular, our best and brightest say they feel more adept and proficient at their posts.</Description>
+				<ImageFilepath>Artifacts/cenotaph of the first generation</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>105</Id1> <!-- Colony Event Id, Current Value = We are Disturbed by Shakturi Legends -->
+				<Id2>-1</Id2> <!-- 0=Send Message -->
+				<Id3>-1</Id3> <!-- If no valid ActionLocation then -1=Empire Capital, 0=Highest Developed Colony, 1=Random Colony -->
+				<Value1>0</Value1> <!-- 1=Restart With New Duration Period -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateArtifact</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>65</Id1> <!-- Artifact Id, Current Value = Cenotaph of the First Generation -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>Ancient Shakturi Advance Ship</ActionLocationItemName>
+				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Save Cloning Technology Choice (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Preserving Technology</MessageTitle>
+				<Description>It will take some time to study and understand this cloning technology, and it is unlikely we will ever have the ability to repeatedly clone a single individual as the librarian did. Nevertheless, there is much to learn.
+
+As for what drove the librarian to dedicate multiple lives to preserving Shakturi legends, we cannot say.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Save Cloning Technology Choice 2 (Non Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Save Cloning Technology Choice 2 (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>There is Even More to be Discovered</MessageTitle>
+				<Description>We have also discovered that Shakturi technology is not the only thing the librarian preserved. We found in his collection an artifact of the old galaxy, the [ARTIFACT]Cenotaph of the First Generation[/ARTIFACT]. This large rectangular monument, made entirely of an unfamiliar stone. The Cenotaph contains some kind of barely perceptible energy of an unknown nature. Citizens from across our empire claim to feel its subtle effects. In particular, our best and brightest say they feel more adept and proficient at their posts.</Description>
+				<ImageFilepath>Artifacts/cenotaph of the first generation</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>139</Id1> <!-- Project Id (-1=Random), Current Value = Basic Chimeras -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+				<ResearchCategory>MedicalCenter</ResearchCategory>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateArtifact</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>65</Id1> <!-- Artifact Id, Current Value = Cenotaph of the First Generation -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>Ancient Shakturi Advance Ship</ActionLocationItemName>
+				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Shakturi Advance Ship (Wekkarus)</Name>
+		<TriggerType>Investigate</TriggerType>
+		<TriggerRaceIds>
+			<short>8</short> <!-- Wekkarus -->
+		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<PlacementActions>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationHint>MediumEmptySystem</ActionLocationHint>
+				<Id1>136</Id1> <!-- Facility Id (-1=Ruins), Current Value = Ancient Shakturi Advance Ship -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>20</Value2> <!-- Discovery Level -->
+				<GeneratedItemName>Ancient Shakturi Advance Ship</GeneratedItemName>
+				<GeneratedItemEventNames>
+					<string>The Shakturi Advance Ship (Non Wekkarus)</string>
+				</GeneratedItemEventNames>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GeneratePlanetarySystem</Type>
+				<ActionLocationHint>MediumEmptySystem</ActionLocationHint>
+				<Id1>23</Id1> <!-- Orb Type Id, Current Value = Deep Ocean -->
+				<Value1>0.55</Value1> <!-- Quality Level (0 to 1) -->
+				<Value2>0</Value2> <!-- Diameter (0=Default) -->
+				<GeneratedItemName>Cassian</GeneratedItemName>
+			</GameEventAction>
+		</PlacementActions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>The Ancient Enemy</MessageTitle>
+				<Description>We've found the remains of a centuries-old Shakturi ship. We believe it may be an advance ship from the first days of the ancient Shakturi War. We are attempting to retrieve any recoverable data from the few intact data crystals we could find.</Description>
+				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>The Shakturi Advance Ship (Non Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>The Shakturi Advance Ship 2 (Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Shakturi Advance Ship 2 (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>A Terrible Foe</MessageTitle>
+				<Description>We were able to extract a limited amount of data from the damaged crystals.
+
+It appears that as the Shakturi advance fleet entered this galaxy, their first priority was locating all Wekkarus worlds. The data does not indicate for what purpose they sought us. We know only that they have always hated us, always hunted us. We can, in some inexplicable way, feel their presence when they are near. We sense that they are hollow and empty, a people without ancestors.
+
+Perhaps this is why they hate us. We live in communion with those who have gone before us. It may be the void within their souls must be filled with hatred and rage.</Description>
+				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>The Shakturi Advance Ship 3 (Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Shakturi Advance Ship 3 (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>A Troubling Choice</MessageTitle>
+				<Description>For now, we must decide what to do with the remains of the Shakturi ship. Should we simply strip it for resources, or should we attempt to reverse engineer its technology to add to our own knowledge?</Description>
+				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
+				<ChoiceButtonText>Strip for Resources</ChoiceButtonText>
+				<GeneratedItemName>Strip for Resources Choice (Wekkarus)</GeneratedItemName>
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ChoiceButtonText>Study Technology</ChoiceButtonText>
+				<GeneratedItemName>Study Technology Choice (Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Strip for Resources Choice (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>What was Theirs is now Ours</MessageTitle>
+				<Description>We have recovered all valuable resources in the remains of the Shakturi ship. In doing so, we discovered a star map, which appears to show the [LOCATION]location of two deep ocean worlds[/LOCATION]. We do not know if they are currently inhabited by Wekkarus, but they are worth investigating.
+
+We have received:
+
+1,500 Hexodorium
+1,500 Aculon
+600 Dyrillium Quartz
+600 Osalia
+600 Kaasian Crystal</Description>
+				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCargo</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>78</Id1> <!-- Resource Id, Current Value = Hexodorium -->
+				<Value1>1500</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCargo</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>10</Id1> <!-- Resource Id, Current Value = Aculon -->
+				<Value1>1500</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCargo</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>77</Id1> <!-- Resource Id, Current Value = Dyrillium Quartz -->
+				<Value1>600</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCargo</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>2</Id1> <!-- Resource Id, Current Value = Osalia -->
+				<Value1>600</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCargo</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>3</Id1> <!-- Resource Id, Current Value = Kaasian Crystal -->
+				<Value1>600</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>The Museum of the Generations</ActionLocationItemName>
+				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>Cassian</ActionLocationItemName>
+				<ActionLocationItemType>Orb</ActionLocationItemType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Study Technology Choice (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>What They Knew We Shall Know</MessageTitle>
+				<Description>We have turned over the remains of the Shakturi ship to our scientists for analysis. We have also discovered a star map, which appears to show the [LOCATION]location of two deep ocean worlds[/LOCATION]. We do not know if they are currently inhabited by Wekkarus, but they are worth investigating.</Description>
+				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>The Museum of the Generations</ActionLocationItemName>
+				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>Cassian</ActionLocationItemName>
+				<ActionLocationItemType>Orb</ActionLocationItemType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Shakturi Advance Ship (Non Wekkarus)</Name>
+		<TriggerType>Investigate</TriggerType>
+		<NonTriggerRaceIds>
+			<short>8</short> <!-- Wekkarus -->
+		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>An Ancient Ship</MessageTitle>
+				<Description>We've found the remains of a centuries-old Shakturi ship. We believe it may be an advance ship from the first days of the ancient Shakturi War. We are attempting to retrieve any recoverable data from the few intact data crystals we could find.</Description>
+				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>The Shakturi Advance Ship (Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>The Shakturi Advance Ship 2 (Non Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Shakturi Advance Ship 2 (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>A Fascination with the Wekkarus</MessageTitle>
+				<Description>We were able to extract a limited amount of data from the damaged crystals.
+
+It appears that as the Shakturi advance fleet entered this galaxy, their first priority was locating Wekkarus worlds. The data does not indicate for what purpose they sought out that particular species.</Description>
+				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>The Shakturi Advance Ship 3 (Non Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Shakturi Advance Ship 3 (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>A Difficult Choice</MessageTitle>
+				<Description>For now, we must decide what to do with the remains of the Shakturi ship. Should we simply strip it for resources, or should we attempt to reverse engineer its technology to add to our own knowledge?</Description>
+				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
+				<ChoiceButtonText>Strip for Resources</ChoiceButtonText>
+				<GeneratedItemName>Strip for Resources Choice (Non Wekkarus)</GeneratedItemName>
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ChoiceButtonText>Study Technology</ChoiceButtonText>
+				<GeneratedItemName>Study Technology Choice (Non Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Strip for Resources Choice (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Recovering the Resources</MessageTitle>
+				<Description>We have recovered all valuable resources in the remains of the Shakturi ship. In doing so, we discovered a star map, which appears to show the location of two deep ocean worlds. We do not know if they are currently inhabited by Wekkarus, but they are worth investigating.
+
+We have received:
+
+1,500 Hexodorium
+1,500 Aculon
+600 Dyrillium Quartz
+600 Osalia
+600 Kaasian Crystal</Description>
+				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCargo</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>78</Id1> <!-- Resource Id, Current Value = Hexodorium -->
+				<Value1>1500</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCargo</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>10</Id1> <!-- Resource Id, Current Value = Aculon -->
+				<Value1>1500</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCargo</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>77</Id1> <!-- Resource Id, Current Value = Dyrillium Quartz -->
+				<Value1>600</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCargo</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>2</Id1> <!-- Resource Id, Current Value = Osalia -->
+				<Value1>600</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCargo</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>3</Id1> <!-- Resource Id, Current Value = Kaasian Crystal -->
+				<Value1>600</Value1> <!-- Amount (Negative values convert to positive and select random positive between itself and half the amount) -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>The Museum of the Generations</ActionLocationItemName>
+				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>Cassian</ActionLocationItemName>
+				<ActionLocationItemType>Orb</ActionLocationItemType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Study Technology Choice (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Unlocking Secrets of the Past</MessageTitle>
+				<Description>We have turned over the remains of the Shakturi ship to our scientists for analysis. We have also discovered a star map, which appears to show the [LOCATION]location of two deep ocean worlds[/LOCATION]. We do not know if they are currently inhabited by Wekkarus, but they are worth investigating.</Description>
+				<ImageFilepath>Environment/Events/shakturi advance ship</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>The Museum of the Generations</ActionLocationItemName>
+				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>Cassian</ActionLocationItemName>
+				<ActionLocationItemType>Orb</ActionLocationItemType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Deep Ocean Museum (Wekkarus)</Name>
+		<TriggerType>Investigate</TriggerType>
+		<TriggerRaceIds>
+			<short>8</short> <!-- Wekkarus -->
+		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<PlacementActions>
+			<GameEventAction>
+				<Type>GeneratePlanetarySystem</Type>
+				<ActionLocationHint>MediumEmptySystem</ActionLocationHint>
+				<Id1>23</Id1> <!-- Orb Type Id, Current Value = Deep Ocean -->
+				<Value1>0.55</Value1> <!-- Quality Level (0 to 1) -->
+				<Value2>0</Value2> <!-- Diameter (0=Default) -->
+				<GeneratedItemName>Coventina</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<Description>We've discovered a deep ocean world with a Wekkarus facility below. We should investigate further.</Description>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>25</Value2> <!-- Discovery Level -->
+				<GeneratedItemName>The Museum of the Generations</GeneratedItemName>
+				<GeneratedItemEventNames>
+					<string>The Deep Ocean Museum (Non Wekkarus)</string>
+				</GeneratedItemEventNames>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateBonusAtOrb</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Value1>0.1</Value1> <!-- Amount (-1 to 1) -->
+				<Value2>25</Value2> <!-- Discovery Level -->
+				<BonusType>ColonyDevelopment</BonusType>
+				<BonusAppliesTo>Item</BonusAppliesTo>
+			</GameEventAction>
+		</PlacementActions>
+		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>The Museum of the Generations</MessageTitle>
+				<Description>On the ocean floor of this world is a Wekkarus remnant of the time before the Shakturi War: The Museum of the Generations. We are not entirely certain what the museum is meant to preserve. Our team is attempting to learn more.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>The Deep Ocean Museum (Non Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>The Deep Ocean Museum 2 (Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Deep Ocean Museum 2 (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Our Culture Preserved</MessageTitle>
+				<Description>It appears that the ancient museum was designed to record the knowledge of the Wekkarus by using a preservation technology that is beyond our understanding. It appears to rely on some kind of energy unfamiliar to us. Unfortunately, our exploration of the museum has damaged the preservation systems, and the mysterious energy is now dissipating. We are studying means of preventing the loss.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>The Deep Ocean Museum 3 (Wekkarus)</GeneratedItemName>
+				<Conditions>
+					<GameEventCondition>
+						<Type>EmpireHaveCharacterAvailableForRole</Type>
+						<VariableName>Scientist</VariableName>
+						<ComparisonType>Undefined</ComparisonType>
+					</GameEventCondition>
+				</Conditions>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Study Records Choice (Wekkarus)</GeneratedItemName>
+				<Conditions>
+					<GameEventCondition>
+						<Type>EmpireNotHaveCharacterAvailableForRole</Type>
+						<VariableName>Scientist</VariableName>
+						<ComparisonType>Undefined</ComparisonType>
+					</GameEventCondition>
+				</Conditions>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Deep Ocean Museum 3 (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>A Solution Presents Itself</MessageTitle>
+				<Description>We believe we may have discovered a solution. To continue functioning, the museum requires a curator, who will need to integrate with the alien technology systems via a permanent interface. Anyone taking on this responsibility will need to remain at the museum for the rest of their life. If we are willing to commit [CHARACTER]one of our scientists[/CHARACTER] to this role, we will be able to access most of the information. Otherwise, we can simply allow the ancient collection of knowledge to be lost, though we can certainly study the written records and hope to glean some insights.</Description>
+				<ChoiceButtonText>Commit a Scientist</ChoiceButtonText>
+				<GeneratedItemName>Commit a Scientist Choice (Wekkarus)</GeneratedItemName>
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ChoiceButtonText>Study Records</ChoiceButtonText>
+				<GeneratedItemName>Study Records Choice (Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Commit a Scientist Choice (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Joined with the Past</MessageTitle>
+				<Description>With our scientist now established as the museum curator, we are learning a great deal about the technology of the past and the concerns of our ancestors.
+
+We do not fully understand why, but we know the Shakturi launched a merciless campaign to track down and capture Wekkarus in the ancient galaxy. There was a great deal of concern about keeping our worlds hidden from them, and there was a general belief that no Wekkarus world, no matter how remote or sparsely populated, was safe from the enemy.
+
+And yes, despite our best precautions, the Shakturi always found us. Wekkarus can feel Shakturi when they are near. Perhaps the Shakturi can sense us as well, and at greater distance. Perhaps there is no way to live in peace if the Wekkarus and Shakturi inhabit the same galaxy. They are a species with no link to their ancestors, and that makes them violent, impulsive, and cruel.</Description>
+				<ImageFilepath>Environment/Events/the deep ocean museum</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DestroyCharacter</Type>
+				<Id1>-1</Id1> <!-- Race Id (-1=Triggering Empire, -2=Location Empire, -3=Action Location, -4=Invading Characters, -5=Use Id3) -->
+				<Id3>-1</Id3> <!-- -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
+				<CharacterRole>Scientist</CharacterRole>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Study Records Choice (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>We Cannot Squander Our Best Minds</MessageTitle>
+				<Description>Unfortunately, the knowledge preserved in the museum has dissipated, and we have lost the opportunity to understand what was archived here. There is still some knowledge to be gained here, however.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Deep Ocean Museum (Non Wekkarus)</Name>
+		<TriggerType>Investigate</TriggerType>
+		<NonTriggerRaceIds>
+			<short>8</short> <!-- Wekkarus -->
+		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>The Museum of the Generations</MessageTitle>
+				<Description>On the ocean floor of this world is a Wekkarus remnant of the time before the Shakturi War: The Museum of the Generations. We are not entirely certain what the museum is meant to preserve. Our team is attempting to learn more.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>The Deep Ocean Museum (Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>The Deep Ocean Museum 2 (Non Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Deep Ocean Museum 2 (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>The Ancient Wekkarus Revealed</MessageTitle>
+				<Description>It appears that the ancient museum was designed to record the knowledge of the Wekkarus by using a preservation technology that is beyond our understanding. It appears to rely on some kind of energy unfamiliar to us. Unfortunately, our exploration of the museum has damaged the preservation systems, and the mysterious energy is now dissipating. We are studying means of preventing the loss.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>The Deep Ocean Museum 3 (Non Wekkarus)</GeneratedItemName>
+				<Conditions>
+					<GameEventCondition>
+						<Type>EmpireHaveCharacterAvailableForRole</Type>
+						<VariableName>Scientist</VariableName>
+						<ComparisonType>Undefined</ComparisonType>
+					</GameEventCondition>
+				</Conditions>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Study Records Choice (Non Wekkarus)</GeneratedItemName>
+				<Conditions>
+					<GameEventCondition>
+						<Type>EmpireNotHaveCharacterAvailableForRole</Type>
+						<VariableName>Scientist</VariableName>
+						<ComparisonType>Undefined</ComparisonType>
+					</GameEventCondition>
+				</Conditions>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Deep Ocean Museum 3 (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>A Solution Presents Itself</MessageTitle>
+				<Description>We believe we may have discovered a solution. To continue functioning, the museum requires a curator, who will need to integrate with the alien technology systems via a permanent interface. Anyone taking on this responsibility will need to remain at the museum for the rest of their life. If we are willing to commit [CHARACTER]one of our scientists[/CHARACTER] to this role, we will be able to access most of the information. Otherwise, we can simply allow the ancient collection of knowledge to be lost, though we can certainly study the written records and hope to glean some insights.</Description>
+				<ChoiceButtonText>Commit a Scientist</ChoiceButtonText>
+				<GeneratedItemName>Commit a Scientist Choice (Non Wekkarus)</GeneratedItemName>
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ChoiceButtonText>Study Records</ChoiceButtonText>
+				<GeneratedItemName>Study Records Choice (Non Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Commit a Scientist Choice (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>A Link to the Past</MessageTitle>
+				<Description>With our scientist now established as the museum curator, we are learning a great deal about the ancient Wekkarus. For reasons we do not understand, the Shakturi launched a merciless campaign to track down and capture Wekkarus in the ancient galaxy. No Wekkarus world, no matter how remote or sparsely populated, was safe from the enemy.
+
+Despite their best precautions, the Shakturi always found the Wekkarus. It is hardly surprising that they went to such lengths to preserve their knowledge when they feared attack at any time.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DestroyCharacter</Type>
+				<Id1>-1</Id1> <!-- Race Id (-1=Triggering Empire, -2=Location Empire, -3=Action Location, -4=Invading Characters, -5=Use Id3) -->
+				<Id3>-1</Id3> <!-- -1=Get First by Role, 1=Get Last by Role, 2=Get by Random, 3=Get Highest Character by all Bonus Types -->
+				<CharacterRole>Scientist</CharacterRole>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Study Records Choice (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>We Will Not Make the Sacrifice</MessageTitle>
+				<Description>Unfortunately, the knowledge preserved in the museum has dissipated, and we have lost the opportunity to understand what was archived here. There is still some knowledge to be gained here, however.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<Id1>-1</Id1> <!-- Project Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Progress Amount (0=Random between 10% and 60%) -->
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The Refugee's Fortress (All)</Name>
+		<TriggerType>EncounterLocation</TriggerType>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<PlacementActions>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationHint>MediumEmptySystem</ActionLocationHint>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>255</Value2> <!-- Discovery Level -->
+				<GeneratedItemName>The Refugee's Fortress</GeneratedItemName>
+				<GeneratedItemEventNames>
+					<string>Investigate The Refugee's Fortress (Wekkarus)</string>
+					<string>Investigate The Refugee's Fortress (Non Wekkarus)</string>
+				</GeneratedItemEventNames>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateAbandonedShipBase</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>8</Id1> <!-- Race Id, Current Value = Wekkarus -->
+				<Id2>4</Id2> <!-- Tech Level -->
+				<Id3>-1</Id3> <!-- Anchor to Site? 1=Yes -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>0</Value2> <!-- Damage Level (0 to 1) -->
+				<ShipRole>DefensiveBase</ShipRole>
+				<GeneratedItemName>Fortress Bulwark 01</GeneratedItemName>
+				<GeneratedItemEventNames>
+					<string>Capture Fortress Bulwark 01 (All)</string>
+					<string>Destroy Fortress Bulwark 01 (All)</string>
+				</GeneratedItemEventNames>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddNebulaWithEffectsHidden</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>5</Id1> <!-- Location Effect Group Id: 2=Galactic Storm, 3=Ion Storm, 4=Radiation Zone, 5=Gravity Storm -->
+				<Id2>10000000</Id2> <!-- Nebula Radius -->
+				<Value1>10</Value1> <!-- Nebula Permeability (1 to 1000) -->
+				<Value2>0.55</Value2> <!-- Edge Proximity Ratio (0 to 1) -->
+			</GameEventAction>
+		</PlacementActions>
+		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>A Well Defended World</MessageTitle>
+				<Description>This world is protected by a defensive base. We will have to defeat it in order to survey it further.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ChangeShipEmpire</Type>
+				<ActionLocationItemName>Fortress Bulwark 01</ActionLocationItemName>
+				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<Id1>-4</Id1> <!-- New Race Id (-1=Triggering Empire, -2=Location Empire, -3=New Independent Empire, -4=New Dormant Pirate Faction, -5=Beserk AI, -6=Existing Dormant Pirate Faction) -->
+				<Id2>8</Id2> <!-- Race Id of new Pirate Faction, Current Value = Wekkarus -->
+				<Value1>4</Value1> <!-- Tech Level of new Pirate Faction -->
+				<GeneratedItemName>Automated Defenses</GeneratedItemName>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Capture Fortress Bulwark 01 (All)</Name>
+		<TriggerType>Acquire</TriggerType>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Destroy Fortress Bulwark 01 (All)</GeneratedItemName>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Destroy Fortress Bulwark 01 (All)</Name>
+		<TriggerType>Destroy</TriggerType>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Base Destroyed</MessageTitle>
+				<Description>The defenses have been neutralized, and we may now safely explore the world below.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ChangeFacilityDiscoveryLevel</Type>
+				<ActionLocationItemName>The Refugee's Fortress</ActionLocationItemName>
+				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Facility Id (-1=First Ruins) -->
+				<Id2>25</Id2> <!-- New Discovery Level -->
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Investigate The Refugee's Fortress (Wekkarus)</Name>
+		<TriggerType>Investigate</TriggerType>
+		<TriggerRaceIds>
+			<short>8</short> <!-- Wekkarus -->
+		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>The Refugee’s Fortress</MessageTitle>
+				<Description>Now that we have defeated the defenses surrounding this world, we have determined it was a refuge set up by the Wekkarus shortly after the Shakturi arrived, just prior to the start of the ancient war.
+
+Even before the rest of the galaxy was aware of the Shakturi threat, our ancestors recognized the danger and attempted to prepare themselves for the coming disaster. Records indicate our ancestors believed that the first thing the Shakturi would do would be to attack all Wekkarus worlds and enclaves.
+
+We do not know how that ancient generation understood the threat the Shakturi presented, or why the Shakturi were determined to attack the Wekkarus.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>Investigate The Refugee's Fortress (Non Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Investigate The Refugee's Fortress 2 (Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Investigate The Refugee's Fortress 2 (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>A Piece of the Past Discovered</MessageTitle>
+				<Description>There is good news, however. We can report that we have discovered one of the Lost Artifacts.
+
+We now possess the [ARTIFACT]Orb of Ancestral Strength[/ARTIFACT]. This is a sphere, small enough to hold, but curiously heavy. Now that we possess it, all Wekkarus throughout the galaxy can sense its presence, however distantly. It connects us, providing a stronger link to our Ancestors. When warriors of this generation enter combat, the Orb will aid them in communicating across time, making us one with the great warriors of the past. Our fighters will be able to sense them and call to them, making it more likely they will aid us. This is a glorious day for this generation.
+
+We have also discovered a star map which indicates the [LOCATION]location of an important Wekkarus world[/LOCATION].</Description>
+				<ImageFilepath>Artifacts/orb of ancestral strength</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateArtifact</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>67</Id1> <!-- Artifact Id, Current Value = Orb of Ancestral Strength -->
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>Kande</ActionLocationItemName>
+				<ActionLocationItemType>Orb</ActionLocationItemType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Investigate The Refugee's Fortress (Non Wekkarus)</Name>
+		<TriggerType>Investigate</TriggerType>
+		<NonTriggerRaceIds>
+			<short>8</short> <!-- Wekkarus -->
+		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>The Wekkarus Knew</MessageTitle>
+				<Description>Now that we have defeated the defenses surrounding this world, we have been able to determine that it was a refuge set up by the Wekkarus shortly after the Shakturi arrived, just prior to the start of the ancient war.
+
+Even before the rest of the galaxy was aware of the Shakturi threat, the Wekkarus recognized the danger and attempted to prepare themselves for the coming disaster. They believed the Shakturi were determined to find and eliminate all Wekkarus.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>Investigate The Refugee's Fortress (Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Investigate The Refugee's Fortress 2 (Non Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Investigate The Refugee's Fortress 2 (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>An Artifact Uncovered</MessageTitle>
+				<Description>We have discovered an ancient Wekkarus artifact, the [ARTIFACT]Orb of Ancestral Strength[/ARTIFACT]. This is a sphere, small enough to hold, but curiously heavy. This sphere has affected our perception by means of some mysterious Wekkarus technology. Now that it's in our possession, our combat crews feel a greater affinity for their stations and are able to perform far more capably. This is a remarkable find!
+
+We have also discovered a star map which indicates the [LOCATION]location of an important Wekkarus world.[/LOCATION]</Description>
+				<ImageFilepath>Artifacts/orb of ancestral strength</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateArtifact</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>67</Id1> <!-- Artifact Id, Current Value = Orb of Ancestral Strength -->
+			</GameEventAction>
+			<GameEventAction>
+				<Type>NavigationalCoordinates</Type>
+				<ActionLocationItemName>Kande</ActionLocationItemName>
+				<ActionLocationItemType>Orb</ActionLocationItemType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>The First Colony (All)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<PlacementActions>
+			<GameEventAction>
+				<Type>GenerateStar</Type>
+				<ActionLocationHint>MediumEmptyCoordinates</ActionLocationHint>
+				<Id1>2</Id1> <!-- Orb Type Id, Current Value = Super Giant -->
+				<Value1>0</Value1> <!-- Quality Level (0 to 1) -->
+				<Value2>0</Value2> <!-- Diameter (0=Default) -->
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GeneratePlanetarySystem</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>23</Id1> <!-- Orb Type Id, Current Value = Deep Ocean -->
+				<Value1>0.2</Value1> <!-- Quality Level (0 to 1) -->
+				<Value2>0</Value2> <!-- Diameter (0=Default) -->
+				<GeneratedItemName>Kande</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GeneratePlanetarySystem</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>23</Id1> <!-- Orb Type Id, Current Value = Deep Ocean -->
+				<Value1>0.2</Value1> <!-- Quality Level (0 to 1) -->
+				<Value2>0</Value2> <!-- Diameter (0=Default) -->
+				<GeneratedItemName>Eirny</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>CreatureSwarm</Type>
+				<ActionLocationItemName>Kande</ActionLocationItemName>
+				<ActionLocationItemType>Orb</ActionLocationItemType>
+				<Id1>0</Id1> <!-- Creature Id, Current Value = Vordikar -->
+				<Value1>20</Value1> <!-- Creature Amount -->
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationItemName>Kande</ActionLocationItemName>
+				<ActionLocationItemType>Orb</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>35</Value2> <!-- Discovery Level -->
+				<GeneratedItemEventNames>
+					<string>Investigate The First Colony (Wekkarus)</string>
+					<string>Investigate The First Colony (Non Wekkarus)</string>
+				</GeneratedItemEventNames>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationItemName>Eirny</ActionLocationItemName>
+				<ActionLocationItemType>Orb</ActionLocationItemType>
+				<Id1>-1</Id1> <!-- Facility Id (-1=Ruins) -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>35</Value2> <!-- Discovery Level -->
+				<GeneratedItemEventNames>
+					<string>Investigate The First Colony 2nd World (Wekkarus)</string>
+					<string>Investigate The First Colony 2nd World (Non Wekkarus)</string>
+				</GeneratedItemEventNames>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationItemName>Kande</ActionLocationItemName>
+				<ActionLocationItemType>Orb</ActionLocationItemType>
+				<Id1>66</Id1> <!-- Facility Id (-1=Ruins), Current Value = Chimera Cloning Facility -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>35</Value2> <!-- Discovery Level -->
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationItemName>Eirny</ActionLocationItemName>
+				<ActionLocationItemType>Orb</ActionLocationItemType>
+				<Id1>25</Id1> <!-- Facility Id (-1=Ruins), Current Value = Advanced Medicomplex -->
+				<Id2>-1</Id2> <!-- Colonisable Race Id (-1=Any) -->
+				<Value1>1</Value1> <!-- Construction Level (0 to 1) -->
+				<Value2>35</Value2> <!-- Discovery Level -->
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddNebulaWithEffectsHidden</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>5</Id1> <!-- Location Effect Group Id: 2=Galactic Storm, 3=Ion Storm, 4=Radiation Zone, 5=Gravity Storm -->
+				<Id2>10000000</Id2> <!-- Nebula Radius -->
+				<Value1>10</Value1> <!-- Nebula Permeability (1 to 1000) -->
+				<Value2>0.55</Value2> <!-- Edge Proximity Ratio (0 to 1) -->
+			</GameEventAction>
+		</PlacementActions>
+		<PlacementActionEventHostIndex>1</PlacementActionEventHostIndex>
+	</GameEvent>
+	<GameEvent>
+		<Name>Investigate The First Colony (Wekkarus)</Name>
+		<TriggerType>Investigate</TriggerType>
+		<TriggerRaceIds>
+			<short>8</short> <!-- Wekkarus -->
+		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>The First Colony</MessageTitle>
+				<Description>We have determined that this was the first world settled by the Wekkarus when they arrived in this galaxy. The records we've recovered reveal that the Wekkarus came here because no place in our home galaxy was safe from the Shakturi. Wekkarus researchers labored tirelessly to find a way to flee from their persecutors, yet the Shakturi followed us here.
+
+The records suggest some concern that the Shakturi might have found a way to steal from us the wormhole technology necessary for traveling to another galaxy. We are, however indirectly, the reason the Shakturi brought their thirst for conquest to this galaxy. It is unfortunate.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>Investigate The First Colony (Non Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Investigate The First Colony 2 (Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Investigate The First Colony 2 (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Why Us?</MessageTitle>
+				<Description>The question remains, why were the Shakturi so interested in the Wekkarus? We believe we have found the answer.
+
+Once our people had an even stronger psychic link than we currently possess. Our innate psychic abilities allowed us to do... more. The records do not clearly state the scope of these abilities, but we know the Shakturi once regarded us as their primary rivals. We, alone, had the strength to stop them, and so they believed they could secure their hegemony only by destroying us.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Investigate The First Colony 3 (Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Investigate The First Colony 3 (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>We Are Not Our True Selves</MessageTitle>
+				<Description>To that end, they attacked us mercilessly in our home galaxy. They waged conventional war, of course, but they also targeted us with bioengineered viruses, meant to attack our psychic link.
+
+We have been weakened and diminished. We are but a shadow of what we once were because of the Shakturi. Even so, this was not enough for them, and when we fled our home galaxy, granting them dominion over all they had conquered, it was not enough.
+
+They followed us, believing that someday we might regain our strength and return to take our revenge.
+
+Is such a thing possible? We do not know. It may be that the future they feared will be the very future their actions have made inevitable. Only the Ancestors can speak to the fate of generations not yet born.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Investigate The First Colony 4 (Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Investigate The First Colony 4 (Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Our Past Strengthens Us</MessageTitle>
+				<Description>We've found that this world houses one of the Lost Artifacts. We have recovered the [ARTIFACT]Airship of the Ancestors[/ARTIFACT]. This ancient ceramic figurine, shaped like a primitive Wekkarus airship, inscribed with the names of ancient aeronaut champions. Their specific stories have long been forgotten, but their connection to our people live on. It required only that one of us touch this figurine and at once a deeper connection was felt throughout this entire generation. When we travel through the void of space, we can now sense the paths traveled by those who came before us. We can reach out to them, and they to us. In battle, we will draw strength from our ancestors and fight with the hope that our descendants continue the great chain of generations.
+
+Additionally, this world contains a [FACILITY]Chimera Cloning Facility[/FACILITY], which should help protect and nurture any colony we develop here.
+
+We have also found [ARTIFACT]The Devastator Compendium[/ARTIFACT], a data crystal containing research regarding the Devastator Pulse. This is an area attack weapon that will help this generation not suffer the same fate as those who came before us.</Description>
+				<ImageFilepath>Artifacts/airship of the ancestors</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateArtifact</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>66</Id1> <!-- Artifact Id, Current Value = Airship of the Ancestors -->
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateArtifact</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>68</Id1> <!-- Artifact Id, Current Value = The Devastator Compendium -->
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Investigate The First Colony 2nd World (Wekkarus)</Name>
+		<TriggerType>Investigate</TriggerType>
+		<TriggerRaceIds>
+			<short>8</short> <!-- Wekkarus -->
+		</TriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>The Healing Can Begin</MessageTitle>
+				<Description>This world contains a sophisticated [FACILITY]medical complex[/FACILITY]. Our ancestors must have built it to begin the work of remaking ourselves.
+
+The Shakturi used their technology to make us weaker. We Wekkarus, working with the strength given to us by prior generations, can take advantage of this technology and reclaim our lost nature. We can undo the damage the Shakturi did to us and someday, we hope, strengthen our connection with the Ancestors.
+
+The work will be difficult and the outcome uncertain, but we must strive to remake ourselves. Never again must we be what our enemies envision. We must become who we truly are. If the Shakturi, or any enemy, think to set themselves against the Wekkarus, they will find that they have misunderstood the danger of a people who live in communion with the past. They will find that we will not be defeated, and we will not again flee. This is the promise we make to the Ancestors.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>Investigate The First Colony 2nd World (Non Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Investigate The First Colony (Non Wekkarus)</Name>
+		<TriggerType>Investigate</TriggerType>
+		<NonTriggerRaceIds>
+			<short>8</short> <!-- Wekkarus -->
+		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>The First Wekkarus Colony</MessageTitle>
+				<Description>We have determined that this was the first world settled by the Wekkarus when they first arrived in this galaxy. The records we've recovered reveal that the Wekkarus came here because no place in their home galaxy was safe from the Shakturi. Wekkarus researchers labored tirelessly to find a way to flee from their persecutors, yet the Shakturi followed them here.
+
+The records suggest some concern that the Shakturi might have found a way to steal the Wekkarus wormhole technology necessary for traveling to another galaxy. However unintended, the Wekkarus are the reason the Shakturi brought their thirst for conquest to this galaxy.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>Investigate The First Colony (Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Investigate The First Colony 2 (Non Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Investigate The First Colony 2 (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>The Shakturi Singled Them Out</MessageTitle>
+				<Description>The question remains, why were the Shakturi so interested in the Wekkarus? We believe it may be that the Wekkarus were in some ways resistant to Shakturi weaponry, which appears to rely on some kind of psychic energy. The Shakturi feared the Wekkarus might prove to be too powerful to conquer, making them potentially dangerous enemies. The Shakturi seemed to conclude that their dominion depended upon the destruction of the Wekkarus.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Investigate The First Colony 3 (Non Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Investigate The First Colony 3 (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>They Have Been Diminished</MessageTitle>
+				<Description>To that end, they attacked the Wekkarus mercilessly. They waged conventional war but also targeted them with bioengineered viruses, meant to attack the psychic bond that we suspect exists between all Wekkarus. Today's Wekkarus are, it seems, only a pale shadow of their ancestors.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<GeneratedItemName>Investigate The First Colony 4 (Non Wekkarus)</GeneratedItemName>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Investigate The First Colony 4 (Non Wekkarus)</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Relics of Ancient Times</MessageTitle>
+				<Description>This world also houses an artifact, the [ARTIFACT]Airship of the Ancestors[/ARTIFACT]. This figurine, shaped like a primitive airship, was created by the Wekkarus as some sort of memorial for their ancient heroes. Simply being in contact with it sharpens our perceptions. This artifact could make all the difference in future space battles.
+
+Additionally this world contains a [FACILITY]Chimera Cloning Facility[/FACILITY], which help protect and nurture any colony we develop here.
+
+We have also found [ARTIFACT]The Devastator Compendium[/ARTIFACT], a data crystal containing research regarding the Devastator Pulse. This is an area attack weapon that will provide new possibilities when we enter into space combat.</Description>
+				<ImageFilepath>Artifacts/airship of the ancestors</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateArtifact</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>66</Id1> <!-- Artifact Id, Current Value = Airship of the Ancestors -->
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateArtifact</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>68</Id1> <!-- Artifact Id, Current Value = The Devastator Compendium -->
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Investigate The First Colony 2nd World (Non Wekkarus)</Name>
+		<TriggerType>Investigate</TriggerType>
+		<NonTriggerRaceIds>
+			<short>8</short> <!-- Wekkarus -->
+		</NonTriggerRaceIds>
+		<ConditionEvaluation>EvaluateUntilTriggered</ConditionEvaluation>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireIsNotPirate</Type>
+			</GameEventCondition>
+		</Conditions>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<PlacementRaceId>8</PlacementRaceId> <!-- Wekkarus -->
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>A Valuable Find</MessageTitle>
+				<Description>This world contains a sophisticated [FACILITY]medical complex[/FACILITY]. We believe the ancient Wekkarus intended this facility to undo the genetic damage unleashed upon their species by Shakturi attacks. We can use it for our own purposes, to strengthen and improve our own people as suits us best.</Description>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<GeneratedItemName>Investigate The First Colony 2nd World (Wekkarus)</GeneratedItemName>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Riches from the Deep (Wekkarus)</Name>
+		<Conditions>
+			<GameEventCondition>
+				<Type>CheckOrbResourceCount</Type>
+				<ComparisonType>LessThan</ComparisonType>
+				<ComparisonValue>5</ComparisonValue> <!-- Total Resources Amount -->
+			</GameEventCondition>
+		</Conditions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GenerateResourceAtOrb</Type>
+				<MessageTitle>Riches from the Deep</MessageTitle>
+				<Description>Our intuitive sensing for our native Deep Ocean worlds has helped us to discover a new resource at our colony [LOCATION]{0}[/LOCATION]!\n\nWe have uncovered a new source of [RESOURCE]RESOURCENAME[/RESOURCE] at {0}.</Description>
+				<ImageFilepath>Environment/Events/riches from the deep</ImageFilepath>
+				<Id1>-1</Id1> <!-- Resource Id (-1=Random) -->
+				<Value1>0</Value1> <!-- Abundance (>0 to 1, 0=Default for Resource) -->
+				<Value2>2</Value2> <!-- Discovery Level -->
+				<Value3>5</Value3> <!-- Max Total Resource Limit (0=Unlimited) -->
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>SpecialEvent_GhostShip</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Ancestors Among Us</MessageTitle>
+				<Description>The intense stress of combat in the {1} system has established a strong connection to our ancestral psychic memories.\n\nThese memories have actually manifested in our dimension, causing a ship from long ago to appear! The {0} is now engaged in battle, helping us to defeat our enemies.\n\nWe do not expect it to be with us for long, but while it is here it will fight alongside us.</Description>
+				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>SpecialEvent_GhostTroop</Name>
+		<PlacementAtGameStart>true</PlacementAtGameStart>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Ancestors Among Us</MessageTitle>
+				<Description>The intense stress of combat at {0} in the {1} system has established a strong connection to our ancestral psychic memories.\n\nThese memories have actually manifested in our dimension, causing troops from long ago to appear! These troops are now engaged in the ground battle at {0}, helping us to defeat our enemies.\n\nWe do not expect them to be with us for long, but while they are here they will fight alongside us.</Description>
+				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Ancestors Among Us - Ambassador - Free Trade (Wekkarus)</Name>
+		<Conditions>
+			<GameEventCondition>
+				<Type>RandomComparisonNormalized</Type>
+				<ComparisonType>LessThan</ComparisonType>
+				<ComparisonValue>0.1</ComparisonValue>
+			</GameEventCondition>
+		</Conditions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>AddEmpireIncidentFactorGeneral</Type>
+				<MessageTitle>Ancestors Among Us</MessageTitle>
+				<Description>Ancient Ambassador boosts relations</Description>
+				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
+				<Id1>-2</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
+				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
+				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
+				<Value1>20</Value1> <!-- Amount -->
+				<Value2>0</Value2> <!-- Decay Rate -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Ancestors Among Us</MessageTitle>
+				<Description>Our recent signing of a [GOOD]Free Trade Agreement[/GOOD] with the [FACTION]{3}[/FACTION] has established a strong connection to our ancestral psychic memories.\n\nThese memories have actually manifested in our dimension, causing a [HL]Wekkarus Ambassador[/HL] from long ago to temporarily appear!\n\nThe ambassador has been able to further enhance our relations with the [FACTION]{3}[/FACTION], boosting their evaluation of us.\n\nThe ambassador has now vanished, but their intervention certainly helped!</Description>
+				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Ancestors Among Us - Ambassador - Research Agreement (Wekkarus)</Name>
+		<Conditions>
+			<GameEventCondition>
+				<Type>RandomComparisonNormalized</Type>
+				<ComparisonType>LessThan</ComparisonType>
+				<ComparisonValue>0.15</ComparisonValue>
+			</GameEventCondition>
+		</Conditions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>AddEmpireIncidentFactorGeneral</Type>
+				<MessageTitle>Ancestors Among Us</MessageTitle>
+				<Description>Ancient Ambassador boosts relations</Description>
+				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
+				<Id1>-2</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
+				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
+				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
+				<Value1>20</Value1> <!-- Amount -->
+				<Value2>0</Value2> <!-- Decay Rate -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Ancestors Among Us</MessageTitle>
+				<Description>Our recent signing of a [GOOD]Research Agreement[/GOOD] with the [FACTION]{3}[/FACTION] has established a strong connection to our ancestral psychic memories.\n\nThese memories have actually manifested in our dimension, causing a [HL]Wekkarus Ambassador[/HL] from long ago to temporarily appear!\n\nThe ambassador has been able to further enhance our relations with the [FACTION]{3}[/FACTION], boosting their evaluation of us.\n\nThe ambassador has now vanished, but their intervention certainly helped!</Description>
+				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Ancestors Among Us - Ambassador - Defense Pact (Wekkarus)</Name>
+		<Conditions>
+			<GameEventCondition>
+				<Type>RandomComparisonNormalized</Type>
+				<ComparisonType>LessThan</ComparisonType>
+				<ComparisonValue>0.2</ComparisonValue>
+			</GameEventCondition>
+		</Conditions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>AddEmpireIncidentFactorGeneral</Type>
+				<MessageTitle>Ancestors Among Us</MessageTitle>
+				<Description>Ancient Ambassador boosts relations</Description>
+				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
+				<Id1>-2</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
+				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
+				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
+				<Value1>20</Value1> <!-- Amount -->
+				<Value2>0</Value2> <!-- Decay Rate -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Ancestors Among Us</MessageTitle>
+				<Description>Our recent signing of a [GOOD]Defense Pact[/GOOD] with the [FACTION]{3}[/FACTION] has established a strong connection to our ancestral psychic memories.\n\nThese memories have actually manifested in our dimension, causing a [HL]Wekkarus Ambassador[/HL] from long ago to temporarily appear!\n\nThe ambassador has been able to further enhance our relations with the [FACTION]{3}[/FACTION], boosting their evaluation of us.\n\nThe ambassador has now vanished, but their intervention certainly helped!</Description>
+				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Ancestors Among Us - Ambassador - Free Trade Independent Colony (Wekkarus)</Name>
+		<Conditions>
+			<GameEventCondition>
+				<Type>RandomComparisonNormalized</Type>
+				<ComparisonType>LessThan</ComparisonType>
+				<ComparisonValue>0.1</ComparisonValue>
+			</GameEventCondition>
+		</Conditions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>AddEmpireIncidentFactorGeneral</Type>
+				<MessageTitle>Ancestors Among Us</MessageTitle>
+				<Description>Ancient Ambassador boosts relations</Description>
+				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
+				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
+				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
+				<Value1>20</Value1> <!-- Amount -->
+				<Value2>0</Value2> <!-- Decay Rate -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Ancestors Among Us</MessageTitle>
+				<Description>Our recent signing of a [GOOD]Free Trade Agreement[/GOOD] with [FACTION]{0}[/FACTION] has established a strong connection to our ancestral psychic memories.\n\nThese memories have actually manifested in our dimension, causing a [HL]Wekkarus Ambassador[/HL] from long ago to temporarily appear!\n\nThe ambassador has been able to further enhance our relations with [FACTION]{0}[/FACTION], boosting their evaluation of us.\n\nThe ambassador has now vanished, but their intervention certainly helped!</Description>
+				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Ancestors Among Us - Ambassador - Research Agreement Independent Colony (Wekkarus)</Name>
+		<Conditions>
+			<GameEventCondition>
+				<Type>RandomComparisonNormalized</Type>
+				<ComparisonType>LessThan</ComparisonType>
+				<ComparisonValue>0.15</ComparisonValue>
+			</GameEventCondition>
+		</Conditions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>AddEmpireIncidentFactorGeneral</Type>
+				<MessageTitle>Ancestors Among Us</MessageTitle>
+				<Description>Ancient Ambassador boosts relations</Description>
+				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
+				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
+				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
+				<Value1>20</Value1> <!-- Amount -->
+				<Value2>0</Value2> <!-- Decay Rate -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Ancestors Among Us</MessageTitle>
+				<Description>Our recent signing of a [GOOD]Research Agreement[/GOOD] with [FACTION]{0}[/FACTION] has established a strong connection to our ancestral psychic memories.\n\nThese memories have actually manifested in our dimension, causing a [HL]Wekkarus Ambassador[/HL] from long ago to temporarily appear!\n\nThe ambassador has been able to further enhance our relations with [FACTION]{0}[/FACTION], boosting their evaluation of us.\n\nThe ambassador has now vanished, but their intervention certainly helped!</Description>
+				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Ancestors Among Us - Ambassador - Defense Pact Independent Colony (Wekkarus)</Name>
+		<Conditions>
+			<GameEventCondition>
+				<Type>RandomComparisonNormalized</Type>
+				<ComparisonType>LessThan</ComparisonType>
+				<ComparisonValue>0.2</ComparisonValue>
+			</GameEventCondition>
+		</Conditions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>AddEmpireIncidentFactorGeneral</Type>
+				<MessageTitle>Ancestors Among Us</MessageTitle>
+				<Description>Ancient Ambassador boosts relations</Description>
+				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
+				<Id1>-1</Id1> <!-- Race Id of Empire (-1=Location Empire, -2=Other Empire) -->
+				<Id2>-1</Id2> <!-- Race Id of Other Empire (-1=Triggering Empire) -->
+				<Id3>-1</Id3> <!-- Entry Id of Empire (-1=Unused) -->
+				<Id4>-1</Id4> <!-- Entry Id of Other Empire (-1=Unused) -->
+				<Value1>20</Value1> <!-- Amount -->
+				<Value2>0</Value2> <!-- Decay Rate -->
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Ancestors Among Us</MessageTitle>
+				<Description>Our recent signing of a [GOOD]Defense Pact[/GOOD] with [FACTION]{0}[/FACTION] has established a strong connection to our ancestral psychic memories.\n\nThese memories have actually manifested in our dimension, causing a [HL]Wekkarus Ambassador[/HL] from long ago to temporarily appear!\n\nThe ambassador has been able to further enhance our relations with [FACTION]{0}[/FACTION], boosting their evaluation of us.\n\nThe ambassador has now vanished, but their intervention certainly helped!</Description>
+				<ImageFilepath>Environment/Events/ancestors among us</ImageFilepath>
+				<Id1>-1</Id1> <!-- Receiving Race Id (-1=Triggering Empire, 256=Player) -->
+				<Id2>-1</Id2> <!-- Receiving Empire Id (-1=Unused) -->
+				<Id3>-1</Id3> <!-- 1=Concatenate all descriptions when delayed -->
+				<Value1>0</Value1> <!-- Display Options: 0=Normal, 1=Full Screen, 2=Normal Without Extra Info -->
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+</ArrayOfGameEvent>
