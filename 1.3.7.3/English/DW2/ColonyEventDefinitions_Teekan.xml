@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>135</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>0</EmpireHappiness>
+		<MigrationFactor>1</MigrationFactor>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Wander Time</Name>
+		<Description>Our new colony is attracting new settlers from all across the region!</Description>
+		<ImageFilename>Environment/Events/Wander Time</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>136</ColonyEventDefinitionId> <!-- Great Bakdur Hunt - Mediocre -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<DevelopmentChange>0.05</DevelopmentChange>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Mediocre Bakdur Hunt</Name>
+		<Description>The Great Bakdur Hunt at our colony {0} has proved disappointing, with only a mediocre haul.
+
+Still, for the next 5 years we will experience a [GOOD]+5% boost to empire-wide happiness[/GOOD].
+
+In addition, our colony [LOCATION]{0}[/LOCATION] will gain a [GOOD]+5 development boost[/GOOD] for 5 years.</Description>
+		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>137</ColonyEventDefinitionId>
+		<!-- Great Bakdur Hunt - Good -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<DevelopmentChange>0.1</DevelopmentChange>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Good Bakdur Hunt</Name>
+		<Description>The Great Bakdur Hunt at our colony {0} has been good, with many Bakdur harvested!
+
+Thus for the next 5 years we will experience a [GOOD]+10% boost to empire-wide happiness[/GOOD].
+
+In addition, our colony [LOCATION]{0}[/LOCATION] will gain a [GOOD]+10 development boost[/GOOD] for 5 years.
+		</Description>
+		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>138</ColonyEventDefinitionId>
+		<!-- Great Bakdur Hunt - Oustanding -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<DevelopmentChange>0.1</DevelopmentChange>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<GameEventName>Outstanding Bakdur Hunt Spice (Teekan)</GameEventName>
+		<Name>Oustanding Bakdur Hunt</Name>
+		<Description>The Great Bakdur Hunt at our colony {0} has been a spectacular success, with an enormous haul of Bakdur!
+
+Thus for the next 5 years we will experience a [GOOD]+10% boost to empire-wide happiness[/GOOD].
+
+In addition, our colony [LOCATION]{0}[/LOCATION] will gain a [GOOD]+5 development boost[/GOOD] for 5 years.
+
+This oustanding Hunt also uncovered a large deposit of [RESOURCE]Korabbian Spice[/RESOURCE] which will provide a huge boost to the development of our empire!</Description>
+		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
+	</ColonyEventDefinition>
+
+</ArrayOfColonyEventDefinition>
