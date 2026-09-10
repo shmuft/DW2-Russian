@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfGameEvent>
+	<GameEvent>
+		<Name>Underlords (Boskara)</Name>
+		<Conditions>
+			<GameEventCondition>
+				<Type>CheckOrbResourceCount</Type>
+				<ComparisonType>LessThan</ComparisonType>
+				<ComparisonValue>5</ComparisonValue> 
+			</GameEventCondition>
+		</Conditions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GenerateResourceAtOrb</Type>
+				<MessageTitle>Подчиненные лорды</MessageTitle>
+				<Description>Мы недавно колонизировали [LOCATION]{0}[/LOCATION], вулканический мир, родной для Боскара.\n\nВ ходе первоначального всплеска исследований на новой колонии наши поселенцы обнаружили новый ресурс!\n\nМы нашли новый источник [RESOURCE]RESOURCENAME[/RESOURCE] в {0}.</Description>
+				<ImageFilepath>Environment/Events/Boskara Underlords</ImageFilepath>
+				<Id1>-1</Id1> 
+				<Value1>0</Value1> 
+				<Value2>2</Value2> 
+				<Value3>5</Value3> 
+				<MessageViewMode>Dialog</MessageViewMode>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>We Reign Supreme (Boskara)</Name>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<MessageTitle>Мы безраздельно властвуем</MessageTitle>
+				<Description>Наша недавняя победа в захвате столичного мира другой империи наполнила наше население эйфорической гордостью!\n\nТаким образом, в течение следующих 10 лет наша империя будет пользоваться следующими преимуществами:[ULI]+20% к счастью империи[/ULI][ULI]+50% к снижению военной усталости[/ULI]</Description>
+				<ImageFilepath>Environment/Events/Boskara We Reign Supreme</ImageFilepath>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>132</Id1> 
+				<Id2>-1</Id2> 
+				<Id3>-1</Id3> 
+				<Value1>1</Value1> 
+				<MessageViewMode>Dialog</MessageViewMode>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Crazed Cannibalism (Boskara)</Name>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<MessageTitle>Безумный каннибализм</MessageTitle>
+				<Description>Жизнь без войны и завоеваний не подходит воинственным Боскара.\n\nВремена мира довели население нашей колонии [LOCATION]{0}[/LOCATION] до безумного неистовства. Из-за этой гиперагрессивной паранойи повсюду царит массовый каннибализм!\n\nМы ожидаем, что это неистовство продлится шесть месяцев. В течение этого времени в {0} произойдут значительные потери населения.</Description>
+				<ImageFilepath>Environment/Events/Crazed Cannibalism</ImageFilepath>
+				<Id1>19</Id1> 
+				<Id2>-1</Id2> 
+				<Id3>-1</Id3> 
+				<Value1>1</Value1> 
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Warspawn (Boskara)</Name>
+		<Conditions>
+			<GameEventCondition>
+				<Type>EmpireNotHaveAnyCharacterAvailableWithTrait</Type>
+				<VariableName>Warspawn</VariableName>
+			</GameEventCondition>
+		</Conditions>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<GeneratedItemName>Warspawn Choice (Boskara)</GeneratedItemName>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Warspawn Choice (Boskara)</Name>
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>Порождения войны</MessageTitle>
+				<Description>Наше недавнее объявление войны предоставляет нам возможность назначить [HL]Порождение войны[/HL] для руководства нашей войной.\n\nЕсли мы решим сделать это, появится новый [CHARACTER]адмирал или генерал[/CHARACTER] с чертой Порождения войны, что придаст ему [BONUS]огромную силу в наземных и космических боях[/BONUS].\n\nКроме того, наличие Порождения войны в нашей империи позволяет нам реализовать [HL]Генерацию войны[/HL], где мы можем периодически превращать 10% населения колонии в 10 отрядов пехоты.\n\nОднако это также [WARN]очень негативно повлияет на наши отношения[/WARN] со всеми остальными империями, с которыми у нас еще нет пакта о ненападении или оборонительного договора.\n\nНазначить ли Порождение войны?</Description>
+				<ImageFilepath>Environment/Events/Boskara Warspawn</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ChoiceButtonText>Назначить Порождение войны!</ChoiceButtonText>
+				<GeneratedItemName>Implement Warspawn (Boskara)</GeneratedItemName>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ChoiceButtonText>Не использовать Порождения войны</ChoiceButtonText>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Implement Warspawn (Boskara)</Name>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>CustomCode</Type>
+				<GeneratedItemName>GenerateWarspawn</GeneratedItemName>
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>War Spawning (Boskara)</Name>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>ReducePopulationAtColony</Type>
+				<Value1>0.9</Value1> 
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateTroops</Type>
+				<Id1>22</Id1> 
+				<Value1>10</Value1> 
+				<AllConditionsMustBeMet>false</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+</ArrayOfGameEvent>

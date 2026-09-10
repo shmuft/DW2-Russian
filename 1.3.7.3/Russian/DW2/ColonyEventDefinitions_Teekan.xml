@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>135</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>0</EmpireHappiness>
+		<MigrationFactor>1</MigrationFactor>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Время странствий</Name>
+		<Description>Наша новая колония привлекает новых поселенцев со всей области!</Description>
+		<ImageFilename>Environment/Events/Wander Time</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>136</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<DevelopmentChange>0.05</DevelopmentChange>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Посредственная охота на Бакдуров</Name>
+		<Description>Великая охота на Бакдуров в нашей колонии {0} оказалась разочаровывающей, с лишь посредственным уловом.\n\nТем не менее, в течение следующих 5 лет мы будем испытывать [GOOD]+5% прирост общеимперского счастья[/GOOD].\n\nКроме того, наша колония [LOCATION]{0}[/LOCATION] получит [GOOD]+5 бонус к развитию[/GOOD] на 5 лет.</Description>
+		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>137</ColonyEventDefinitionId>
+		
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<DevelopmentChange>0.1</DevelopmentChange>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Удачная охота на Бакдуров</Name>
+		<Description>Великая охота на Бакдуров в нашей колонии {0} прошла успешно, и было добыто множество Бакдуров!\n\nТаким образом, в течение следующих 5 лет мы будем испытывать [GOOD]+10% бонус к общему уровню счастья империи[/GOOD].\n\nКроме того, наша колония [LOCATION]{0}[/LOCATION] получит [GOOD]+10% к развитию[/GOOD] на 5 лет.</Description>
+		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>138</ColonyEventDefinitionId>
+		
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<DevelopmentChange>0.1</DevelopmentChange>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<GameEventName>Outstanding Bakdur Hunt Spice (Teekan)</GameEventName>
+		<Name>Выдающаяся охота на Бакдуров</Name>
+		<Description>Великая охота на Бакдуров в нашей колонии {0} стала настоящим триумфом, и добыча Бакдуров оказалась колоссальной!\n\nТаким образом, в течение следующих 5 лет мы будем испытывать [GOOD]+10% прирост общеимперского счастья[/GOOD].\n\nКроме того, наша колония [LOCATION]{0}[/LOCATION] получит [GOOD]+5 бонус к развитию[/GOOD] на срок 5 лет.\n\nЭта выдающаяся охота также выявила крупное месторождение [RESOURCE]Кораббианской пряности[/RESOURCE], что обеспечит огромный прирост развития нашей империи!</Description>
+		<ImageFilename>Environment/Events/Great Hunt</ImageFilename>
+	</ColonyEventDefinition>
+
+</ArrayOfColonyEventDefinition>

@@ -294,7 +294,6 @@ def translate_text(text: str) -> str:
         user_message = f"{rag_examples}\n\nTranslate this text into Russian:\n{user_message}"
 
     # Получаем модель
-    _prepare_llm_model()
     model = lms.llm(DEFAULT_MODEL)
     
     # Создаём чат с системным промптом
@@ -1356,6 +1355,8 @@ def main():
 
     if args.fix_newlines:
         translator = FixNewLinesTranslator()
+
+    # _prepare_llm_model()
 
     translate_file(args.input, args.output, args.type, words_mode=args.words, translator=translator, fix_untranslated=args.fix_untranslated if args.type == 'xml' else False, fix_newlines=args.fix_newlines)
 

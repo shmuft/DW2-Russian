@@ -686,11 +686,6 @@ def main():
         print(f"Error: English directory '{english_dir}' does not exist")
         return 1
 
-    if args.show_new_translated_diff_ver:
-        previous_versions = [version for version in args.cache_versions if version != args.target_version]
-        print(f"\n[INFO] Генерация отчётов новых фраз для {args.target_version}...")
-        return write_new_translated_lines_report(english_dir, russian_dir, previous_versions, Path('.'))
-
     xml_files = list(english_dir.rglob('*.xml'))
     txt_files = list(english_dir.rglob('*.txt'))
     all_files = xml_files + txt_files
@@ -830,7 +825,12 @@ def main():
     if args.fix_newlines:
         print(f"\n[INFO] Постобработка переносов строк в русской директории...")
         return fix_newlines_files(xml_files, english_dir, russian_dir)
-        
+
+    if args.show_new_translated_diff_ver:
+        previous_versions = [version for version in args.cache_versions if version != args.target_version]
+        print(f"\n[INFO] Генерация отчётов новых фраз для {args.target_version}...")
+        return write_new_translated_lines_report(english_dir, russian_dir, previous_versions, Path('.'))
+  
     print(f"Found {len(xml_files)} XML files and {len(txt_files)} TXT files to process")
 
     success_count = 0

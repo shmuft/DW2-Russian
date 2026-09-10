@@ -325,20 +325,20 @@ Medical facilities increase our happiness		;Медицинские учрежд�
 
 Ship Automation Description		;Текущая: {0}, Следующая: {1}
 Ship Automation Manual		;Ручное управление
-Ship Automation AutoGuard		;Автозащита
-Ship Automation AutoPatrol		;Автопатруль
-Ship Automation AutoEscort		;Автоэскорт
-Ship Automation AutoRaid		;Авторэйд
-Ship Automation AutoExplore		;Автоисследование
-Ship Automation AutoScout		;Авторазведка систем
-Ship Automation AutoSpy		;Автошпионаж
-Ship Automation AutoMigration		;Автомиграция
-Ship Automation AutoTourism		;Автотуризм
+Ship Automation AutoGuard		;Auto-Guard
+Ship Automation AutoPatrol		;Auto-Patrol
+Ship Automation AutoEscort		;Auto-Escort
+Ship Automation AutoRaid		;Auto-Raid
+Ship Automation AutoExplore		;Auto-Explore
+Ship Automation AutoScout		;Авто-разведка систем
+Ship Automation AutoSpy		;Авто-шпионаж за врагами
+Ship Automation AutoMigration		;Auto-Migration
+Ship Automation AutoTourism		;Auto-Tourism
 Ship Automation AutoBuildMiningStations		;Авто-строительство добывающих станций
 Ship Automation AutoBuildResearchStations		;Автоматическое строительство исследовательских станций
 Ship Automation AutoBuildMonitoringStations		;Автоматическое строительство станций наблюдения
 Ship Automation AutoBuildResortBases		;Автоматическое строительство развлекательных баз
-Ship Automation AutoSalvageShips		;Авторазбор
+Ship Automation AutoSalvageShips		;Auto-Salvage
 Ship Automation FullyAutomate		;Полная автоматизация
 
 GameTaskType AssignCharacterMission		;
@@ -1966,7 +1966,7 @@ Income		;Доход
 Expenses		;Расходы
 Private Economy		;Частная экономика
 State Economy		;Государственная экономика
-Military		;Военное дело
+Military		;Военный
 Other State		;Прочие расходы
 Private		;Частный
 Excess		;Излишки
@@ -2123,7 +2123,7 @@ Bases		;Базы
 Target already part of our empire		;Цель уже является частью нашей империи
 Target destroyed		;Цель уничтожена
 Troop Defend Strength		;Сила обороны войск
-Exploration		;Разведка
+Exploration		;Исследование
 Exploration Ships		;Исследовательские корабли
 Known Ruins		;Известные руины
 
@@ -2691,7 +2691,7 @@ MessageType Economy		;Экономика
 MessageType Exploration		;Исследование
 MessageType GalaxyNews		;Галактофон
 MessageType ShadowNet		;ShadowNet
-MessageType Military		;Военное дело
+MessageType Military		;Военный
 MessageType Research		;Исследования
 MessageType Resources		;Ресурсы
 MessageType Story		;История
@@ -3493,6 +3493,7 @@ EmpireIncidentFactorType WarDuringDefense		;Предательство обор�
 EmpireIncidentFactorType GiftLongTerm		;Подарок
 EmpireIncidentFactorType DisapprovalOfPirates		;Ненависть к пиратам
 EmpireIncidentFactorType PirateDisapproval		;Пиратская враждебность
+EmpireIncidentFactorType ShadowportDisapproval		;Агрессия Теневого порта
 
 EmpireIncidentFactorType SubjugationResentment		;Недовольство порабощением
 EmpireIncidentFactorType Full SubjugationResentment		;Мы горько возмущены нашим порабощением вами
@@ -3554,6 +3555,7 @@ EmpireIncidentFactorType Full WarDuringDefense		;Вы предали наш об
 EmpireIncidentFactorType Full GiftLongTerm		;Вы подарили нам дары
 EmpireIncidentFactorType Full DisapprovalOfPirates		;Мы презираем ваше пиратское разбойничество
 EmpireIncidentFactorType Full PirateDisapproval		;Мы презираем вашу цивилизованную самодовольность
+EmpireIncidentFactorType Full ShadowportDisapproval		;Мы презираем ваш образ жизни обитателей планеты
 
 EmpireIncidentFactorType Full AngerAtExposure		;Мы возмущены разоблачением наших тайных операций
 EmpireIncidentFactorType Full ShipIntrusions		;Ваши корабли вторглись на нашу территорию
@@ -3785,6 +3787,7 @@ TradeOfferItemType Money		;Деньги
 TradeOfferItemType ResearchProjects		;Технологии
 TradeOfferItemType Resources		;Ресурсы
 TradeOfferItemType Ships		;Базы
+TradeOfferItemType Ships Shadowport		;Базы и обломки
 TradeOfferItemType SpecialLocations		;Особые локации
 TradeOfferItemType Ruins		;Древние руины
 TradeOfferItemType Treaties		;Договоры
@@ -7423,6 +7426,7 @@ Quest Pirate Title Destroy Pirate Base		;Уничтожить пиратскую
 Quest Pirate Description Destroy Pirate Base		;Уничтожить {0} из {1}
 Quest Pirate Title Destroy Pirate Ship		;Уничтожить пиратский корабль
 Quest Pirate Description Destroy Pirate Ship		;Уничтожить {0} ({1}) из {2}
+Quest Pirate Description Destroy Pirate Ship Last Seen		;Уничтожить {0} ({1}) фракции {2}, последний раз замеченной в {3}
 Quest Pirate Title Clear Creatures From Location		;Очистить существ из локации
 Quest Pirate Description Clear Creatures From Location		;Очистить все опасные существа из локации {0}
 Quest Pirate Title Destroy Creature		;Уничтожить существо
@@ -8068,6 +8072,10 @@ Greetings NAME Request		;Приветствую, {0}. Мы обращаемся 
 Quest Lone Pirate Direct Description Deliver Resources Independent Colony		;У нашей колонии не хватает ресурсов. Нам необходимо, чтобы вы [HL]доставили {0} единиц {1}[/HL] как можно скорее.
 Quest Lone Pirate Direct Description Destroy Pirate Ship Independent Colony		;Пиратский корабль наносит серьезный ущерб торговле в нашей системе. Необходимо устранить эту угрозу, чтобы предотвратить дальнейшие разрушения. Просим вас [HL]уничтожить пиратский корабль {0}[/HL] фракции {1}. В последний раз он был замечен в {2} в системе {3}.
 Quest Lone Pirate Direct Description Destroy Creature Independent Colony		;Опасное существо в нашей системе угрожает судоходству и нарушает торговлю. Нам необходимо устранить это существо, прежде чем оно нанесет еще больший ущерб. Просим вас [HL]уничтожить {0}[/HL]. В последний раз его видели в {1} в системе {2}.
+
+Quest Lone Pirate Direct Description Destroy Pirate Ship Independent Colony Distant		;Пиратский корабль наносит серьезный ущерб торговле в ближайшей системе. Необходимо устранить эту угрозу, чтобы предотвратить дальнейшие разрушения. Просим вас [HL]уничтожить пиратский корабль {0}[/HL] фракции {1}. В последний раз он был замечен в {2} в системе {3}.
+Quest Lone Pirate Direct Description Destroy Creature Independent Colony Distant		;Опасное существо в соседней системе угрожает судоходству и нарушает торговлю. Нам необходимо устранить это существо, прежде чем оно нанесет еще больший ущерб. Просим вас [HL]уничтожить {0}[/HL]. В последний раз его видели в {1} в системе {2}.
+
 Quest Lone Pirate Direct Description Obtain Artifact Independent Colony		;Мы хотим, чтобы вы [HL]получили {0}[/HL], древний артефакт. Этот артефакт высоко ценится из-за его важной роли в нашей истории. Мы стремимся к его возвращению и поэтому просим вас найти его для нас.
 
 Details of the contract are below		;Детали контракта приведены ниже
@@ -8109,6 +8117,8 @@ An old friend let us know about an anecdote from another part of the galaxy		;О
 Old Friend		;Старый друг
 A black market merchant repaid a favour by giving us a tip		;Торговец с черного рынка отплатил нам за услугу, дав ценную подсказку.
 Merchant		;Торговец
+Logbook page		;Страница бортового журнала
+
 
 The REVEALITEM revealed that SITUATION		;{0} выявил, что {1}
 
@@ -8412,12 +8422,14 @@ Junk Yard Warning		;[FACTION]{0}[/FACTION] говорит: перестаньт�
 Junk Yard Warning Pirate		;[FACTION]{0}[/FACTION] говорит: перестаньте пытаться починить и захватить наши корабли!\n\n[HL]{1}[/HL] принадлежит нам. Он может выглядеть заброшенным, но мы сами доставили его сюда, так что не смейте трогать!\n\nОднако имейте в виду, что {1} продается, если вы решите купить его у нас. Просто пристаньте к нам и нажмите «Купить корабль».
 Junk Yard Anger At Destroying Claimed Ship		;Вы уничтожили обломки корабля, на которые мы заявили права!
 Claimed by EMPIRE		;Права заявлены: {0}
+Claimed by another Empire Warning		;Вы не можете отремонтировать этот корабль, так как он принадлежит другой империи
 
 Buy Ship for X credits		;Купить {0}\n({1} кредитов)
 
 Claimed Ship Explanation		;Это заброшенный обломок, который был спасен {0}.\n\n[HL]{1}[/HL] поврежден и должен быть отремонтирован, чтобы снова стать полностью функциональным. Он уже содержит все свои компоненты, поэтому дополнительная доработка не требуется.\n\nПокупка таких обломков на свалках может быть весьма [B]доступным способом получения боеспособных кораблей[/B].\n\n{0} продаст его вам полностью отремонтированным и готовым к использованию. Просто нажмите кнопку «Купить».
 Claimed Wreck		;Заявленные обломки
 Junkyard Wreck		;Обломки на свалке
+
 
 YARD has delivered our new ship		;{0} доставил наш новый корабль
 YARD has repaired the wreck of SHIP		;{0} восстановил обломки [HL]{1}[/HL] и передал их нам в качестве нового корабля.\n\nНаслаждайтесь этим замечательным новым кораблём!
