@@ -1,0 +1,69 @@
+
+
+GREETING_INTRODUCTION			;Greetings to you outsider. We are the {0}.\n\nWe prefer to keep to ourselves, living peacefully in our deep undersea metropolises
+GREETING_FRIENDLY			;We are listening, friend
+GREETING_NEUTRAL			;You seek an audience with us?
+GREETING_ANGRY				;You are not welcome here. Speak quickly
+
+GIFT_PROPOSE				;What sort of gift is this?
+GIFT_THANKS_ANGRY				;We note your meagre monetary gift
+GIFT_THANKS_NEUTRAL				;Thank you for your kind gift
+GIFT_THANKS_FRIENDLY				;We appreciate your kind gift friend!
+
+OFFER_DEAL				;We feel that trade is a highly civilizing activity. What do you say to this trade deal?
+PIRATEPROTECTION_DEAL				;Space is as cold and dark as the deepest ocean. Full of dangers and perils.\n\nFor the small fee of {0} credits we can 'protect' all of your ships in our region.\n\nWe strongly recommend that you take this deal...
+DEAL_BEGIN				;What kind of deal are you proposing?
+DEAL_ACCEPT				;We agree to this deal
+DEAL_ACCEPT_RESPONSE		;A wise choice
+DEAL_REJECT_RESPONSE		;How unfortunate
+DEAL_REJECT				;We are unsatisfied with this deal, we reject it
+
+TREATY_PROPOSAL				;What new arrangement do you seek?
+TREATY_ACCEPTRESPONSE			;May this new treaty profit us both! Welcome friends
+TREATY_REJECTRESPONSE			;It was not to be. We cannot compel you
+PROTECTION_ACCEPTRESPONSE		;The galaxy just became a slightly safer place for you. We look forward to your monthly payments
+PROTECTION_REJECTRESPONSE		;A poor choice. The galaxy just became even more dangerous for you
+
+SWAP_MAPS		;What kind of map would you like to swap?
+
+WAR_END_ACCEPT				;Yes, this war must end.\n\nOur forces are returning home now
+WAR_END_REJECT				;End the war? No, this war cannot end while you are still free
+WAR_END_ACCEPT_RESPONSE			;Very well. Our forces are standing down now
+
+WAR_END_ACCEPT_BECOMEVASSAL				;We agree to become your vassal. We will cease hostilities immediately and commence our monthly tribute payments
+WAR_END_REJECT_BECOMEVASSAL				;No, we refuse to subjugate ourselves as your vassal.
+WAR_END_ACCEPT_ACCEPTVASSAL				;We agree to your surrender and subjugation as our vassal. We look forward to your monthly tribute payments.
+WAR_END_REJECT_ACCEPTVASSAL				;No, we refuse your offer of subjugation as our vassal. This war is not over yet.
+
+WAR_DECLARE_RESPONSE_ANGRY		;We are a peaceful people, but we know how to defend our homes!\n\nWe will fight hard
+WAR_DECLARE_RESPONSE_NEUTRAL		;Your aggression made this path inevitable.\n\nWe are ready for you!
+WAR_DECLARE_RESPONSE_FRIENDLY		;How shocking! You are a deadly Darkhul, sneaking up from behind.\n\nWe will put you back in your cage!
+
+TREATY_ACCEPT			;We accept your offer of {0}
+TREATY_REJECT			;No, we are not interested in {0} at this time
+TREATY_REJECT_TOOSOON_NEUTRAL			;No, we are not interested in {0}. It is too soon after the last change to our relations
+TREATY_REJECT_TOOSOON_ANGRY			;We have no interest in {0} with you! Besides, it is too soon after the last change to our relations
+TREATY_REJECT_TOOSOON_FRIENDLY			;Sorry but we are not interested in {0}. It is too soon after the last change to our relations
+TREATY_ACCEPT_NEUTRAL			;We accept your offer of {0}
+TREATY_REJECT_NEUTRAL			;No, we are not interested in {0}.
+TREATY_ACCEPT_ANGRY			;We accept your offer of {0}
+TREATY_REJECT_ANGRY			;We want no part of your tricky ways, you poisonous deep-sea anemone. No {0} with you!\n\nStay away from us now
+TREATY_ACCEPT_FRIENDLY			;We gladly accept your offer of {0}!
+TREATY_REJECT_FRIENDLY			;Sorry, but we are not interested in {0} at this time
+
+PROTECTION_ACCEPT		;We accept your request for protection. The monthly fee is {0} credits
+PROTECTION_ACCEPT_NEUTRAL		;We accept your request for protection. The monthly fee is {0} credits
+PROTECTION_ACCEPT_ANGRY		;Your weakness has been noted. Our 'protection' will cost you {0} credits per month. You may go now
+PROTECTION_ACCEPT_FRIENDLY		;We accept your request for protection. The monthly fee is {0} credits
+PROTECTION_REJECT			;No, we are not interested in protection at this time
+PROTECTION_REJECT_NEUTRAL		;No, we don't want a Protection Arrangement with you
+PROTECTION_REJECT_ANGRY		;No, we don't want to protect your worthless empire!
+PROTECTION_REJECT_FRIENDLY		;No, we don't want a Protection Arrangement with you
+
+CANCELTREATY				;It is time to cancel the {0} that we have with you. We do not want it any more.
+CANCELTREATY_RESPONSE_FRIENDLY		;How sad. We felt that this was a good treaty.
+CANCELTREATY_RESPONSE_NEUTRAL		;As you wish. We cannot keep it, if you do not want it
+CANCELTREATY_RESPONSE_ANGRY		;Yes, this treaty is a bad one.\n\nWe are wary of you. A deadly Darkhul, you are
+CANCELPROTECTION_RESPONSE_FRIENDLY		;Perhaps it is for the best
+CANCELPROTECTION_RESPONSE_NEUTRAL		;We will miss those monthly credits. Perhaps we will find other ways to obtain them...
+CANCELPROTECTION_RESPONSE_ANGRY		;A foolish move. Now you will pay via other means...
