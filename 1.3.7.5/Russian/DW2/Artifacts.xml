@@ -1,0 +1,1192 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfArtifact>
+	<Artifact>
+		<ArtifactId>0</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopGroundDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>15</RaceId>
+		<Name>Стела Такдуна</Name>
+		<Description>Стела Такдуна - это 3-метровый столб из хапекского обсидиана с нерасшифрованными надписями, которые, как полагают, содержат важные сведения об древней галактической истории. Куамено глубоко почитают эту стелу и испытывают почти иррациональную решимость защищать её.</Description>
+		<ImageFilename>Artifacts/Stele of Takdun</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>1</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>9</RaceId>
+		<Name>Свиток поколений</Name>
+		<Description>Свиток поколений - это длинный пергаментный свиток, покрытый плотным письмом. Древний свиток необычен тем, что Атууки лишь недавно обрели письменность, и их современное письмо не имеет сходства с надписями на свитке. Таким образом, Атууки не могут прочитать свиток, но предполагают, что в нем изложены обширные племенные родословные из давних времен.</Description>
+		<ImageFilename>Artifacts/Scroll of Generations</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>2</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchReactor</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>8</RaceId>
+		<Name>Рекаррунский кристалл</Name>
+		<Description>Кристалл Рекаррун - это очень крупный древний зелёный драгоценный камень. Кристалл был с высочайшей точностью огранён на атомном уровне и, по-видимому, способен фокусировать огромные объёмы энергии. Он постоянно слабо светится и испускает импульсы при попадании яркого света. Его происхождение утеряно в пелене времён - Веккарусы не знают, кто его создал, но полагают, что он имеет внеземное происхождение.</Description>
+		<ImageFilename>Artifacts/Rekarrun Crystal</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>3</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>CharacterQualityScientist</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>13</RaceId>
+		<Name>Планшет Аксорры</Name>
+		<Description>Планшет Аксорры - это 40-сантиметровая плита из йотапианского оникса, покрытая сложными угловатыми знаками. Никто не знает значения этих странных знаков, но удивительная детализация и точность каменной работы указывают на то, что содержащаяся в них информация крайне важна. Изучение знаков на планшете вызывает необъяснимый рост интеллекта у студента, даже если смысл самого планшета остаётся непонятым.</Description>
+		<ImageFilename>Artifacts/Tablet of Aksorra</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>4</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Scenery</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>16</RaceId>
+		<Name>Арфа Каридаса</Name>
+		<Description>Арфа Каридаса - это огромный струнный музыкальный инструмент, созданный из лучшего дерева сукулоса. Ноты, извлекаемые на арфе, охватывают более широкий частотный диапазон, чем могут воспринимать большинство разумных видов. Эти ноты также обладают удивительным и уникальным резонансом, который можно в полной мере оценить только во время живого выступления.</Description>
+		<ImageFilename>Artifacts/Harp of Karidas</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>5</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>688</short> 
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>0</RaceId>
+		<Name>Последние приказы 8-го флота</Name>
+		<Description>Поврежденная частичная запись последних приказов, изданных для 8-го флота Солнечной Республики людей, который вступил в бой с вражескими силами, союзными некоему «Оси Шактури». Важность района действий 8-го флота для общего хода войны подчеркивается. Суть сохранившегося отрывка заключается в том, что дальнейшей поддержки ожидать нельзя из-за масштабной и, надеемся, решающей совместной операции, которая вот-вот начнется против основного центра силы Шактури. До завершения этой операции 8-му флоту приказано любой ценой задержать вражеские союзные операции и предотвратить бомбардировку или штурм ключевых колоний в зоне его ответственности. Упоминается, что Гизурианский улей является одним из противников, противостоящих 8-му флоту.</Description>
+		<ImageFilename>Artifacts/final orders for 8th fleet</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>6</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>688</short> 
+			<short>689</short> 
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>0</RaceId>
+		<Name>«Пограничье»</Name>
+		<Description>Древний гарнитур, содержащий запись шедевра виртуальной реальности, повествующего об Этане Вардо - ветеране провалившейся колониальной революции на границах Солнечной Республики Человечества. Позже его семью убивают банды мародерствующих мятежников, превратившихся в разбойников, и он вынужден объединиться со своими бывшими врагами - Рейнджерами Терры, чтобы спасти своих оставшихся в живых родственников. Увлекательное проникновение в древнюю человеческую культуру, обычаи и жестокую природу правосудия на границах цивилизации.</Description>
+		<ImageFilename>Artifacts/the frontier</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>7</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>688</short> 
+			<short>692</short> 
+		</ResearchProjectCompleteIds>
+		<GovernmentUnlockIds>
+			<short>9</short> 
+		</GovernmentUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>0</RaceId>
+		<Name>Кристалл Конституции (Солнечная Республика)</Name>
+		<Description>Кристаллическое хранилище, содержащее, возможно, единственную сохранившуюся оригинальную копию Конституции древнего Альянса Свободы. Поскольку это первый устав, полностью объединивший множество инопланетных видов под единым правительством, он является уникальной и бесценной частью истории галактики. Говорят, что эта копия хранилась на древней прародине людей - Терре.</Description>
+		<ImageFilename>Artifacts/human constitution crystal</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>8</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchConstruction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>1</RaceId>
+		<Name>Вечность и искусство поддержания</Name>
+		<Description>Древний акдарианский голо-свиток с необычным философским уклоном, посвящённый красоте надлежащим образом обслуживаемой техники. Наполненный огромным объёмом утраченных практических знаний, он также стремится внушить читателю почтение к поддержанию работоспособности вещей и даже их улучшению, а не к их выбрасыванию или замене.</Description>
+		<ImageFilename>Artifacts/eternity and the art of maintenance</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>9</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Scenery</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>1</RaceId>
+		<Name>Жемчужина глубин</Name>
+		<Description>Древняя Укантиевая жемчужина идеального качества и необычайного размера. Редкое сокровище древних Акдарианов, оно, как говорят, помогает обладателю полностью раскрыть свой потенциал.</Description>
+		<ImageFilename>Artifacts/the pearl of the deep</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>10</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>688</short> 
+			<short>692</short> 
+		</ResearchProjectCompleteIds>
+		<GovernmentUnlockIds>
+			<short>9</short> 
+		</GovernmentUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>1</RaceId>
+		<Name>Кристалл Конституции (Акдария)</Name>
+		<Description>Кристаллическое устройство хранения, содержащее, возможно, единственную сохранившуюся оригинальную копию Конституции древнего Альянса Свободы. Поскольку это первый устав, полностью объединивший множество инопланетных видов под единым правительством, он является уникальной и бесценной частью истории галактики. Говорят, что эта копия хранилась на древней прародине акдариан - Акдарии.</Description>
+		<ImageFilename>Artifacts/ackdarian constitution crystal</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>11</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchEngines</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>604</short> 
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>1</RaceId>
+		<Name>Экспериментальный потоковый двигатель</Name>
+		<Description>Останки экспериментального двигателя, над которым, по-видимому, работали древние акдариане. Похоже, он был почти завершен до того, как их исследования и инженерная деятельность были прерваны.</Description>
+		<ImageFilename>Environment/Components/Ackdarian_ExperimentalFluxDrive</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>12</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>704</short> 
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>4</RaceId>
+		<Name>Копьё первого монарха</Name>
+		<Description>Древнее силовое древковое оружие необычайного размера и остроты, изготовленное из исключительно прочных сплавов и сохранившееся в почти идеальном состоянии. Согласно начертанным на нём письменам, этим оружием владел первый монарх Морталенов, и оно передавалось по линии королей Морталенов до тех пор, пока древний катаклизм не прервал эту цепь. Также на древке выгравирован Древний Кодекс Морталенов, не искажённый течением времени.</Description>
+		<ImageFilename>Artifacts/the spear of the first king</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>13</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityTroopGeneral</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityFleetAdmiral</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>4</RaceId>
+		<Name>Глефа Мора</Name>
+		<Description>Необычное оружие: морталенский стиль, но производство зеноксов и изготовлено из крайне продвинутого сплава. Оно состоит из множества лезвий под углом вокруг центрального диска и, по-видимому, сконструировано и сбалансировано для метания. Как и другие древние морталенские оружия, оно также содержит миниатюрный генератор внутри, который одновременно заряжает лезвия и ускоряет диск к цели, а затем быстро возвращает его владельцу, носящему сопрягаемый наруч, который сцепляется с этим оружием. Что-то ещё в энергетическом поле вокруг этого оружия также, по-видимому, вызывает всплеск агрессии на огромном расстоянии, даже до большей части поверхности планеты.</Description>
+		<ImageFilename>Artifacts/The Glaive of Mor</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>14</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchArmor</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>606</short> 
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>4</RaceId>
+		<Name>Экспериментальная звездная броня</Name>
+		<Description>Останки экспериментального сплава для брони, над которым, по-видимому, работали древние морталены. Первичные испытания показывают, что для его правильной ковки требуется жара, сопоставимая со звездной. Похоже, он был почти завершен до того, как их исследования и инженерная деятельность были прерваны.</Description>
+		<ImageFilename>Environment/Components/Mortalen_ExperimentalStellarArmor</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>15</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>249</short> 
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>4</RaceId>
+		<Name>Экспериментальный Экстерминатор планет</Name>
+		<Description>Останки того, что, по-видимому, является древним оружием массового уничтожения. Первичные испытания показывают, что оно ужасающе мощное и крайне нестабильно. На нем отпечатаны характерные черты древних Морталенов, которые, похоже, почти завершили его создание до того, как их исследования и инженерная деятельность были прерваны.</Description>
+		<ImageFilename>Environment/Components/Mortalen_ExperimentalPlanetaryExterminator</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>16</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>247</short> 
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>4</RaceId>
+		<Name>Экспериментальная торпеда «Сверхновая»</Name>
+		<Description>Останки, по-видимому, древнего экспериментального энергетического торпедного оружия Морталенов. Первичные испытания показали невероятный уровень удержания плазмы. Похоже, оно было почти завершено до того, как их исследования и инженерная деятельность были прерваны.</Description>
+		<ImageFilename>Environment/Components/Mortalen_ExperimentalSupernovaTorpedo</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>17</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>242</short> 
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>6</RaceId>
+		<Name>Экспериментальный луч смерти</Name>
+		<Description>Останки экспериментального импульсного энергетического оружия колоссальной мощности и дальности. Оно сильно повреждено и требует тщательного изучения, но, по-видимому, было создано древними Боскарами.</Description>
+		<ImageFilename>Environment/Components/Boskaran_ExperimentalDeathRay</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>18</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchHyperDrive</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>603</short> 
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>6</RaceId>
+		<Name>Экспериментальный червоточинный двигатель</Name>
+		<Description>Останки гиперпространственного двигателя уникальной и невероятно чуждой конструкции. Он сильно поврежден и требует тщательного изучения, однако надписи указывают на то, что его создали древние Боскары.</Description>
+		<ImageFilename>Environment/Components/Boskaran_ExperimentalWormholeDrive</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>19</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchEngines</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>605</short> 
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>0</RaceId>
+		<Name>Экспериментальный безынерционный двигатель</Name>
+		<Description>Останки экспериментального маневрового двигателя, над которым, по-видимому, работали древние люди. Похоже, он был почти завершен до того, как их исследования и инженерная деятельность были прерваны.</Description>
+		<ImageFilename>Environment/Components/Human_ExperimentalInertialessThruster</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>20</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>688</short> 
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>0</RaceId>
+		<Name>Информационный банк Университета Терры</Name>
+		<Description>Информационный банк Университета Терры, поврежденный, но в основном исправный, содержащий часть архивов древних людей. Несмотря на неполноту, здесь достаточно данных, чтобы стать искрой для бесчисленных открытий.</Description>
+		<ImageFilename>Artifacts/university of terra databank</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>21</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>716</short> 
+			<short>717</short> 
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>7</RaceId>
+		<Name>Куб Закона</Name>
+		<Description>Куб данных из некоего практически неразрушимого металлического кристалла. Внутри содержится всеобъемлющий трактат по всем аспектам древнего права Зеноксов, включающий как концепции, кажущиеся чуждыми, так и универсально применимые принципы, все изложены с поразительной логикой и ясностью.</Description>
+		<ImageFilename>Artifacts/cube of law</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>22</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>716</short> 
+			<short>717</short> 
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>7</RaceId>
+		<Name>Эпос о предательстве</Name>
+		<Description>Древняя поэма зеноксов, заключённая в пирамидальный голографический проектор, при активации воспроизводит и пересказывает историю в драматичном аудио-визуальном чтении. На поверхности она повествует о великой древней трагедии с двух точек зрения: брат в отчаянных обстоятельствах предаёт и убивает своего родственника, чтобы спасти собственную жизнь. Эпос начинается с точки зрения убитого брата, но затем с леденящими подробностями излагает логику предателя таким образом, что к концу слушатель оказывается в тупике, больше не зная, кому доверять и что есть истина. Для древних зеноксов это было высоким искусством благодаря способности передать сложность и нюансы морали, а также взаимодействия разумных существ, которые они наблюдали.</Description>
+		<ImageFilename>Artifacts/the epic of the betrayal</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>23</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Scenery</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>HyperjumpSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>696</short> 
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>2</RaceId>
+		<Name>Карта странствий</Name>
+		<Description>Разбитый древний планшет данных, всё ещё едва работающий, некогда принадлежавший старинному торговому клану Тиканов. Он содержит карту звёздных систем, через которые они странствовали, а также заметки о возросшей гравитационной нестабильности, с которой они столкнулись перед тем, как на них обрушилась древняя катастрофа. Наблюдения за этими гравитационными аномалиями, а также подробные описания того, как древние Тиканы безопасно обходили их, по-прежнему бесценны для любого учёного в области гиперпространства или навигатора сегодня.</Description>
+		<ImageFilename>Artifacts/the wander map</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>24</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchHighTech</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>696</short> 
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>2</RaceId>
+		<Name>«Оценщик»</Name>
+		<Description>Древний искусственный интеллект, заключённый в андроиде, имитирующем внешность тикана. Созданный как блестящий администратор и помощник по всем вопросам Торговли и бухгалтерии, его программирование не распространяется значительно за пределы этих сфер.</Description>
+		<ImageFilename>Artifacts/the appraiser</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>25</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>700</short> 
+			<short>701</short> 
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>3</RaceId>
+		<Name>Монолит гастрономии и коварства</Name>
+		<Description>Древнее монолитное устройство хранения данных, обветшалое, но функциональное. Древние Хаакониши, по-видимому, сохранили значительную часть своих культурных произведений на темы приготовления и употребления изысканной пищи, а также интриг и уловок. Хаакониши, написавшие эти труды, обнаружили, что через пересечение этих двух искусств они могут находить уязвимые места в других, менее совершенных культурах, анализируя их кулинарные предпочтения и обычаи. В течение всех этих трудов превосходство хааконишской гастрономии, отчасти благодаря их совершенной биологии, часто и неоднократно утверждается как самоочевидное. Возможно, наиболее интересно то, что многие из лучших блюд Хааконишей используют Кораббианскую пряность, а несколько древних мест, где её, возможно, всё ещё можно найти, записаны здесь.</Description>
+		<ImageFilename>Artifacts/the monolith of gastronomy and guile</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>26</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchHighTech</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>139</short> 
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>3</RaceId>
+		<Name>Камера клонирования</Name>
+		<Description>Изысканная камера генетических манипуляций, очевидно созданная древними Хааконишами для их биологии, но пригодная и для других видов. Она способна создавать клонов с огромной скоростью, а также исцелять все раны, кроме самых тяжёлых. Единственный недостаток заключается в том, что некая часть неизменяемого базового кода заставляет любого, кто регулярно использует камеру, постепенно приобретать всё больше черт Хааконишей.</Description>
+		<ImageFilename>Artifacts/cloning chamber</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>27</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>712</short> 
+		</ResearchProjectCompleteIds>
+		<GovernmentUnlockIds>
+			<short>8</short> 
+		</GovernmentUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>6</RaceId>
+		<Name>Алтарь Тьмы</Name>
+		<Description>Мощный древний артефакт в виде алтаря из некоего сплава, поглощающего свет, за исключением фиолетовых «жил» энергии, пересекающих поверхность и пульсирующих энергией. Он выглядит совершенно неповрежденным, и любой, кто подходит к его окрестностям, понимает, что он населен каким-то сознанием с телепатическими способностями. Те, кто задерживается там более чем на мгновение, становятся ментально порабощены новой идеологией, известной как Путь Тьмы. Те, кто стал рабом алтаря, затем служат проводниками его телепатии для воздействия на других. Без метода психического сдерживания его контроль может в кратчайшие сроки распространиться по всей планете.</Description>
+		<ImageFilename>Artifacts/altar of darkness</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>28</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchShields</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>602</short> 
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>7</RaceId>
+		<Name>Экспериментальные щиты «Цитадель»</Name>
+		<Description>Останки экспериментального генератора щитов невероятной мощности, над которым, по-видимому, работали древние Зеноксы. Похоже, он был почти завершен до того, как их исследования и инженерная деятельность были прерваны.</Description>
+		<ImageFilename>Environment/Components/Zenox_ExperimentalCitadelShields</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>29</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchSensors</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>610</short> 
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>7</RaceId>
+		<Name>Экспериментальные сенсоры пустоты</Name>
+		<Description>Останки экспериментального невероятно чувствительного сканера дальнего действия колоссальной мощности, над которым, по-видимому, работали древние Зеноксы. Похоже, он был почти завершён до того, как их исследования и инженерная деятельность были прерваны.</Description>
+		<ImageFilename>Environment/Components/Zenox_ExperimentalVoidSensors</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>30</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>244</short> 
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>2</RaceId>
+		<Name>Экспериментальный квантовый разряд</Name>
+		<Description>Останки экспериментального, невероятно мощного ионного оружия зонального действия, над которым, по-видимому, работали древние Тиканы. Похоже, оно было почти завершено до того, как их исследования и инженерная деятельность были прерваны.</Description>
+		<ImageFilename>Environment/Components/Teekan_ExperimentalQuantumBurst</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>31</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchSensors</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>609</short> 
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>3</RaceId>
+		<Name>Экспериментальный i-пространственный генератор</Name>
+		<Description>Останки экспериментального генератора, способного скрыть корабль, частично смещая его в другое измерение. Древние Хаакониш, похоже, работали над этим, и проект был почти завершен до того, как их исследования и инженерная деятельность были прерваны.</Description>
+		<ImageFilename>Environment/Components/Haakonish_ExperimentalI-SpaceGenerator</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>32</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>246</short> 
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>3</RaceId>
+		<Name>Экспериментальный излучатель черных дыр</Name>
+		<Description>Останки экспериментального гравитационного оружия, столь мощного, что оно способно создать нечто подобное чёрной дыре. Древние Хаакониш, по-видимому, работали над ним, и кажется, что оно было почти завершено до того, как их исследования и инженерные работы были прерваны.</Description>
+		<ImageFilename>Environment/Components/Haakonish_ExperimentalBlackHoleProjector</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>33</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>3</RaceId>
+		<Name>Книга коммерции</Name>
+		<Description>Древняя книга, описывающая хитроумные и обманные торговые практики, которыми руководствовалась древняя Звездная гильдия Хааконишей. Мудрость этих страниц подарит читателям стратегии для перехитрения даже самых осторожных торговых партнеров.</Description>
+		<ImageFilename>Artifacts/The Book of Commerce</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>70</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>true</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Countermeasures</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Мэйнфрейм S.L.I.T.H.E.R.I.N.E.</Name>
+		<Description>Многослойный массив интегрированных серверов, ярко сияющий первозданным потенциалом. Это устройство изготовлено из плотного металла и довольно тяжелое, хотя пять или шесть сильных представителей большинства разумных видов смогут его поднять. Мэйнфрейм S.L.I.T.H.E.R.I.N.E. обладает поразительной мощью и не стоит недооценивать.</Description>
+		<ImageFilename>Artifacts/Slitherine Mainframe</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>71</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>HyperDriveJumpAccuracy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>0</RaceId>
+		<Name>Журнал картографа</Name>
+		<Description>Этот кожаный журнал содержит нарисованные от руки звездные карты, созданные ранними человеческими исследователями, когда они покинули свою прародину. Хотя Катаклизм сделал многие записи устаревшими, скрытые маршруты все еще точны. Корабли, использующие эти лога, могут значительно повысить точность своих гиперпространственных прыжков.</Description>
+		<ImageFilename>Artifacts/cartographers log</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>72</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>1</RaceId>
+		<Name>Монета техно-торговца</Name>
+		<Description>Монета с тончайшей гравировкой некогда служила знаком доверия среди банды беспринципных торговцев технологиями. Владелец этой монеты допускался к переговорам, запретным для всех остальных. Хотя эти древние торговцы уже не существуют, владелец монеты не может не подходить к переговорам с новообретённым чувством уверенности.</Description>
+		<ImageFilename>Artifacts/tech trader coin</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>73</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>2</RaceId>
+		<Name>Диск убеждения</Name>
+		<Description>Блестящий металлический диск, инкрустированный древними торговыми рунами, смысл которых утерян во времени. Изначально использовавшийся тиканскими контрабандистами для заключения выгодных сделок, этот диск остается хорошо известным символом напористых переговоров.</Description>
+		<ImageFilename>Artifacts/the persuasive disc</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>74</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>BoardingDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>4</RaceId>
+		<Name>Клинок охотника</Name>
+		<Description>Потертый клинок, вытесанный из неизвестного металла; это оружие некогда принадлежало прославленному морталенскому охотнику за головами, который отдал жизнь, чтобы остановить жестокого пиратского вождей. Оно стало символом морталенской решимости.</Description>
+		<ImageFilename>Artifacts/the hunters blade</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>75</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>7</RaceId>
+		<Name>Дигитромакус Выживших</Name>
+		<Description>Потертое вычислительное устройство, использовавшееся древними доиндустриальными Зеноксами и по сей день пользующееся популярностью у некоторых математиков-Зеноксов, которые утверждают, что оно дает уникальные озарения, недоступные иными способами. Офицеры логистики, использующие его, сообщают о заметной экономии на обслуживании.</Description>
+		<ImageFilename>Artifacts/digitromacus of the survivors</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>76</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Countermeasures</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>14</RaceId>
+		<Name>Боевые планы героев</Name>
+		<Description>Эти планы настолько потрепаны и выцветши, что странные символы в виде крестов и кругов на них почти невозможно различить. Говорят, они были переписаны с боевого компьютера флагманского корабля флота Наксиллиан, спасшего целую колонию от кровожадного пиратского нападения. Они содержат эффективные схемы ведения огня и маневров уклонения в космических боях.</Description>
+		<ImageFilename>Artifacts/battle plans of the heroes</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>77</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>18</RaceId>
+		<Name>Вспомогательная рука</Name>
+		<Description>Грубый механический манипулятор / конечность, слишком массивный для тела живого Слукена; считается, что этот элемент был прикреплен к спине гигантского автоматона из древней галактики. Хотя его нельзя использовать по первоначальному назначению, он тем не менее содержит впечатляющий набор компьютеров обнаружения и защиты, которые можно подключить к любой системе планетарной обороны.</Description>
+		<ImageFilename>Artifacts/the helping additional hand</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>78</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>19</RaceId>
+		<Name>Силовой инъектор «Королей Пустоты»</Name>
+		<Description>Этот сильно модифицированный ускоритель тяги был спасён из опасной пиратской фракции, известной как Короли Пустоты. Хотя принцип его работы остаётся неясным, Инжектор значительно улучшает скорость и маневренность корабля при интеграции в навигационные компьютеры.</Description>
+		<ImageFilename>Artifacts/void kings power injector</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>79</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>3</RaceId>
+		<Name>Лазутчик черного рынка</Name>
+		<Description>Компактное устройство, предназначенное для ослабления систем защиты корабля от проникновения. Оно было впервые разработано для пиратских абордажных групп, но было захвачено во время неудачного налета на торговые пути Хааконишей.</Description>
+		<ImageFilename>Artifacts/black market neural stimulator</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>80</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>5</RaceId>
+		<Name>Организационное «пресс-папье» Гипер-Экспресса</Name>
+		<Description>Этот гладкий пластиковый сферокуб некогда был настольным украшением адмирала контрабандного флота «Гипер-Экспресс». Этот пресловутый пират заключил множество сделок с пограничными колониями и независимыми группировками, и многие подозревали, что сферокуб оказывал влияние адмирала на его партнеров по переговорам.</Description>
+		<ImageFilename>Artifacts/hyper express organizational paperweight</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>81</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>RecruitedTroopStrengthAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>6</RaceId>
+		<Name>Марш Пожирателей</Name>
+		<Description>Единственное содержание, найденное на древнем устройстве записи: этот марш впервые исполнили древние Боскара, защищаясь от пиратов в годы после Катаклизма. Ритм стимулирует определённые центры агрессии в мозге Боскара и, по слухам, действует также на другие виды. При трансляции на поле боя он значительно усиливает эффективность наземных штурмов.</Description>
+		<ImageFilename>Artifacts/marching song of the devourers</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>82</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>PsyOps</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>10</RaceId>
+		<Name>Подрывные цилиндры Граджолда</Name>
+		<Description>Прикрепленная пара золотых данных-цилиндров: это устройство содержит столетия зашифрованных сообщений, собранных во время визитов посторонних в популярную и печально известную пиратскую бойцовскую арену. Эта арена часто использовалась как место встреч различных враждующих фракций, а сведения о таких встречах регулярно эксплуатировались различными пиратскими группировками. Мастера шпионажа Дхаютов установили, что данные предоставляют важнейшие сведения о методах пси-операций большинства известных видов.</Description>
+		<ImageFilename>Artifacts/grudgehold subversion cylinders</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>83</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>11</RaceId>
+		<Name>Кристалл вдохновения</Name>
+		<Description>Этот кристалл, не примечательный на вид, способен распознавать потенциал широкого разнообразия типов планет. Затем он излучает инфразвуковой сигнал, который стимулирует среду, создавая новые возможности для роста и развития.</Description>
+		<ImageFilename>Artifacts/crystal of inspiration</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>84</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>12</RaceId>
+		<Name>Статуэтка бдительности</Name>
+		<Description>Небольшое записывающее устройство, населённое продвинутым искусственным интеллектом, обладающим, как полагают, выдающимися способностями к наблюдению. ИИ посвящён выявлению любых отклонений в привычных паттернах и поведении, которые он затем анализирует на предмет потенциальных намерений. Грамотное использование устройства помогает разоблачать деятельность тайных агентов.</Description>
+		<ImageFilename>Artifacts/statuette of vigilance</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>85</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>17</RaceId>
+		<Name>Корона эффективности</Name>
+		<Description>Изысканно спроектированный и обшитый мехом неизвестного существа, этот головной убор улучшает способность носителя координировать логистику в рамках нескольких добывающих сетей с поразительной скоростью. Хотя его может носить только один инженер одновременно, он способен повысить эффективность добычи всей империи благодаря встроенной системе гиперпространственной связи.</Description>
+		<ImageFilename>Artifacts/crown of efficiency</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>
