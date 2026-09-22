@@ -446,11 +446,11 @@ GameTaskType RefuelAndRepair		;Заправка и ремонт
 GameTaskType RefuelAndRepair Location		;Заправка и ремонт в {0}
 GameTaskType RemoveCharacter		;
 GameTaskType RemoveDesign		;
-GameTaskType RetrofitShip No Design		;Модернизация до новейшего дизайна
-GameTaskType RetrofitShip		;Модернизация до последнего дизайна ({0} ({1})) за {2} кредитов
-GameTaskType RetrofitShip Short		;Модернизация до {0} ({1}) за {2} кредитов
-GameTaskType RetrofitShip Location		;Модернизация до последней версии дизайна ({0} ({1})) в {2} за {3} кредитов
-GameTaskType RetrofitShip Multiple Designs		;Модернизация до выбранного дизайна
+GameTaskType RetrofitShip No Design		;Модернизировать до новейшего дизайна
+GameTaskType RetrofitShip		;Модернизировать до последнего дизайна ({0} ({1})) за {2} кредитов
+GameTaskType RetrofitShip Short		;Модернизировать до {0} ({1}) за {2} кредитов
+GameTaskType RetrofitShip Location		;Модернизировать до последней версии дизайна ({0} ({1})) в {2} за {3} кредитов
+GameTaskType RetrofitShip Multiple Designs		;Модернизировать до выбранного дизайна
 GameTaskType RetrofitMultipleShips		;Модернизировать корабли до последних дизайнов
 GameTaskType RetrofitMultipleShips Location		;Модернизировать корабли до последних дизайнов в {0}
 GameTaskType RetrofitFleet		;Модернизировать флот до последних дизайнов
@@ -1911,9 +1911,9 @@ IncomeType Privateering Explanation		;Доход от корсарства в и
 ExpenseType ColonyGrowthFunding		;Рост колонии
 ExpenseType Research		;Исследования
 ExpenseType ShipMaintenance		;Сод. кораб. и баз
-ExpenseType ShipMaintenance Short		;Техн. обсл. кораблей
+ExpenseType ShipMaintenance Short		;Обсл. кораблей
 ExpenseType TroopMaintenance		;Содержание войск
-ExpenseType FacilityMaintenance		;Содержание строений
+ExpenseType FacilityMaintenance		;Содерж. строений
 ExpenseType ShipBuilding		;Кораблестроение
 ExpenseType TroopRecruitment		;Набор войск
 ExpenseType FacilityBuilding		;Строительство строений
@@ -2751,8 +2751,8 @@ Facility Destroyed during Invasion		;{0} Уничтожено во время в
 Facility Destroyed during Invasion Description		;[FACILITY]{0}[/FACILITY] в нашей колонии [LOCATION]{1}[/LOCATION] была атакована и уничтожена вражескими силами во время наземного сражения.
 Character Killed during Invasion		;{0} Погиб во время вторжения
 Character Killed during Invasion Description		;Наш [CHARACTER]{0} {1}[/CHARACTER] погиб в ходе наземного сражения на [LOCATION]{2}[/LOCATION] под ударами вражеских сил.
-New Ship Completed		;Новый {0} завершён
-New Ship Completed Description		;Завершено строительство нового {0} в [LOCATION]{1}[/LOCATION].
+New Ship Completed		;Сдан новый проект: {0}
+New Ship Completed Description		;Завершено строительство {0} в [LOCATION]{1}[/LOCATION].
 Retrofit Ship Completed		;Модернизация {0} завершена
 Retrofit Ship Completed Description		;Модернизация {0} завершена в [LOCATION]{1}[/LOCATION].
 Tech Bonus From Scrapping Ship		;Технический прорыв благодаря утилизации {0}
@@ -4890,7 +4890,7 @@ Upgrade		;Улучшить
 
 Cannot build Mining Stations at colonies		;Нельзя строить добывающие станции в колониях
 Cannot build Research Stations at own colonies		;Нельзя строить исследовательские станции на собственных колониях
-While salvaging a SPACEITEM in the SYSTEM system we have made the following discovery		;При спасении {0} в системе {1} мы сделали следующее открытие
+While salvaging a SPACEITEM in the SYSTEM system we have made the following discovery		;Во время разбора {0} в системе {1} мы сделали следующее открытие
 CHARACTERROLE Recovered		;{0} Восстановлено
 Enemy CHARACTERROLE Captured		;Враг {0} захвачен
 Foreign CHARACTERROLE Recovered		;Инопланетные {0} восстановлены
@@ -5864,8 +5864,8 @@ Leader Change Replaced Title		;Лидер заменён
 Leader Change Replaced		;Нашего лидера {0} сместили как некомпетентного!\n\n{1} был назначен новым лидером и немедленно взял на себя управление.\n\nОднако эти перемены не обойдутся без потрясений - ожидайте периода нестабильности, пока наша империя приспосабливается к новому руководству...
 Leader Change Replaced From Existing		;Наш лидер {0} был смещен как некомпетентный!\n\n{1}, уже являющийся {2}, был назначен новым лидером и немедленно взял на себя управление.\n\nОднако эти перемены не обойдутся без потрясений - ожидайте периода нестабильности, пока наша империя приспосабливается к новому руководству...
 Leader Change Election Title		;Избран новый лидер
-Leader Change Election		;Нашего лидера {0} сменили на всеобщих выборах в масштабах всей империи.\n\n{1} был избран новым лидером.\n\nЭта новая власть вызвала во всей нашей империи волну энтузиазма, повысив уровень счастья и снизив усталость от войны во всех наших колониях.
-Leader Change Election From Existing		;Нашего лидера {0} сменили на всеобщих выборах по всей империи.\n\n{1}, уже являющийся {2}, был избран новым лидером.\n\nЭта новая власть вызвала во всей империи волну энтузиазма, повысив уровень счастья и снизив усталость от войны во всех наших колониях.
+Leader Change Election		;Нашего лидера {0} сменили на всеобщих выборах в масштабах всей империи.\n\n{1} был избран новым лидером.\n\nНовая власть вызвала во всей нашей империи волну энтузиазма, повысив уровень счастья и снизив усталость от войны во всех наших колониях.
+Leader Change Election From Existing		;Нашего лидера {0} сменили на всеобщих выборах по всей империи.\n\n{1}, уже являющийся {2}, был избран новым лидером.\n\nНовая власть вызвала во всей империи волну энтузиазма, повысив уровень счастья и снизив усталость от войны во всех наших колониях.
 Leader New Title		;Новый лидер вступает во власть
 Leader New		;{0} захватил власть в качестве нашего нового лидера и немедленно взял под свой контроль
 Leader New From Existing		;{0}, существующий {1}, захватил власть в качестве нашего нового лидера и немедленно взял под свой контроль
@@ -7407,7 +7407,7 @@ Quest General Description Destroy Pirate Ship Pirate Faction		;{1} просит 
 Quest General Description Destroy Pirate Base Own Colony		;{1} просит нас уничтожить {3}, базу {4}.\n\n{0} обеспокоен этими пиратами неподалеку и хочет искоренить их, прежде чем они нанесут еще больший ущерб.
 Quest General Description Destroy Pirate Base Independent Colony		;{1} просит нас уничтожить {3}, базу {4}.\n\n{0} обеспокоен этими пиратами неподалеку и хочет искоренить их, прежде чем они нанесут еще больший ущерб.
 Quest General Description Destroy Pirate Base Pirate Faction		;{1} просит нас уничтожить {3}, базу {4}.\n\n{0} обеспокоен наличием других пиратов поблизости, которые угрожают их собственным операциям. Они намерены устранить этих соперников до того, как те станут слишком сильными.
-Quest General Description Garrison Troop Strength		;{1} просит нас [HL]гарнизонировать {4} единиц оборонительной силы войск[/HL] в {3}.\n\n{0} чувствует себя уязвимым для налётов и вторжения из-за своего текущего недостаточного гарнизона.
+Quest General Description Garrison Troop Strength		;{1} просит нас [HL]разместить гарнизон оборонительных войск силой в {4} ед.[/HL] на объекте {3}.\n\nВвиду недостаточной численности текущих сил обороны, {0} выражает беспокойство из-за угрозы рейдов и вторжения.
 Quest General Description Defend Base		;Наши военные командиры просят нас [HL]защищать {3}[/HL] в течение {4} лет.\n\nОни обеспокоены тем, что этот удаленный аванпост может подвергнуться нападению со стороны пиратов или других угроз.\n\nМы должны предотвратить то, чтобы {2} был разграблен, захвачен или уничтожен в течение этого времени.
 Quest General Description Defend Colony		;Наши военные командиры просят нас [HL]защищать {3}[/HL] в течение {4} лет.\n\nОни обеспокоены тем, что эта удаленная колония может подвергнуться нападению со стороны пиратов или других угроз.\n\nМы должны предотвратить то, чтобы {2} подверглись рейдам, вторжению или уничтожению в этот период.
 
@@ -7897,7 +7897,7 @@ Character Trait Bargainer		;Сделочник
 Character Trait Unnoticed		;Незаметный
 
 Salvage Kings Title		;Короли-сборщики обломков
-Salvage Kings Description		;При спасении {0} в системе {1} мы сделали следующее открытие:\n{2}\n\nХотя это ценное открытие, наша команда спасателей уверена, что можно найти [HL]ещё более значимые открытия[/HL].\n\nОни рекомендуют полностью разобрать обломки ради получения [HL]улучшенных выгод[/HL], которые, как предполагается, существуют.\n\nОбратите внимание, что это приведёт к [WARN]потере первоначальных открытий[/WARN], упомянутых выше. И мы можем даже не найти улучшенных выгод, в результате чего ничего не получим.\n\nЧто нам делать? Принять уже найденные выгоды или искать тщательнее ради лучших?
+Salvage Kings Description		;Во время разбора {0} в системе {1} мы сделали следующее открытие:\n{2}\n\nХотя это ценное открытие, наша команда спасателей уверена, что можно найти [HL]ещё более значимые открытия[/HL].\n\nОни рекомендуют полностью разобрать обломки ради получения [HL]улучшенных выгод[/HL], которые, как предполагается, существуют.\n\nОбратите внимание, что это приведёт к [WARN]потере первоначальных открытий[/WARN], упомянутых выше. И мы можем даже не найти улучшенных выгод, в результате чего ничего не получим.\n\nЧто нам делать? Принять уже найденные выгоды или искать тщательнее ради лучших?
 Take the existing discovery		;Взять существующее открытие
 Search for better items		;Поиск лучших предметов
 Salvage Kings Keep Initial Title		;Сохранить то, что мы уже нашли

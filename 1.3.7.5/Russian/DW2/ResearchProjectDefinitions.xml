@@ -2,7 +2,7 @@
 <ArrayOfResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>0</ResearchProjectId>
-		<Name>Раннее лучевые орудия</Name>
+		<Name>Ранние лучевые орудия</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>75</Size>
 		<EnabledByDefault>true</EnabledByDefault>

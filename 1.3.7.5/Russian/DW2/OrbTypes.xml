@@ -1162,7 +1162,7 @@
 	<OrbType>
 		<OrbTypeId>7</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Континентальный</Name>
+		<Name>Континентальная</Name>
 		<Description>Континентальные планеты обладают землеподобным, разнообразным рельефом с богатой растительностью. Они могут поставлять широкий спектр ресурсов.\n\nВеличественные снежные горные хребты возвышаются над пышными лесными долинами. Огромные первобытные леса покрывают холмы и равнины низменностей. Плодородные луговые степи опоясывают прибрежные районы. Сверкающие океаны усеяны джунглями на островах и тропическими атоллами.</Description>
 		<ImageFilename>Environment/OrbTypes/Continental</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Continental</LargeImageFilename>
@@ -2139,7 +2139,7 @@
 	<OrbType>
 		<OrbTypeId>12</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Вулканический</Name>
+		<Name>Вулканическая</Name>
 		<Description>Вулканические планеты изобилуют обширными лавовыми потоками, вулканическими фумаролами и удушающе горячим воздухом.\n\nБескрайние поля раскалённого пепла и пылающих скал покрывают поверхность. Густой дым и ядовитые испарения поднимаются из тлеющих озер лавы. В вулканических кратерах, переполненных расплавленной породой, горят невероятно яркие огни.</Description>
 		<ImageFilename>Environment/OrbTypes/Volcanic</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Volcanic</LargeImageFilename>
@@ -2342,7 +2342,7 @@
 	<OrbType>
 		<OrbTypeId>13</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Каменисто-кремниевые планеты</Name>
+		<Name>Каменисто-кремниевая планета</Name>
 		<Description>Планеты каменисто-кремниевых типов не имеют пригодной для дыхания атмосферы. Они часто богаты залежами кремния.\n\nСуровые, мрачные горы возвышаются над пыльными равнинами, озарёнными звёздами. Глубокие каньоны и трещины скрывают тёмные пещеры и тоннели.\n\nПланеты каменисто-кремниевых типов крайне непригодны для жизни и никогда не подходят для колонизации.</Description>
 		<ImageFilename>Environment/OrbTypes/RockySilicon</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/BarrenRock</LargeImageFilename>
@@ -3141,7 +3141,7 @@
 	<OrbType>
 		<OrbTypeId>18</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Луговые планеты</Name>
+		<Name>Луговая планета</Name>
 		<Description>Планеты луговых биомов преимущественно представляют собой низменные равнины. Поверхность покрыта бескрайними полями различных видов трав, уходящих до самого горизонта.</Description>
 		<ImageFilename>Environment/OrbTypes/Grasslands</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Grasslands</LargeImageFilename>
@@ -4382,7 +4382,7 @@
 	<OrbType>
 		<OrbTypeId>25</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Каменисто-металлический</Name>
+		<Name>Каменисто-металлическая</Name>
 		<Description>Планеты каменисто-металлического типа не имеют пригодной для дыхания атмосферы. Они часто богаты месторождениями металлических руд.\n\nСуровые, тенистые горы возвышаются над пыльными равнинами, озарёнными звёздами. Глубокие каньоны и трещины скрывают тёмные пещеры и тоннели.\n\nПланеты каменисто-металлического типа крайне непригодны для жизни и никогда не подходят для колонизации.</Description>
 		<ImageFilename>Environment/OrbTypes/RockyMetallic</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/MetallicRock</LargeImageFilename>
@@ -4537,7 +4537,7 @@
 	<OrbType>
 		<OrbTypeId>26</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Каменисто-ледяной</Name>
+		<Name>Каменисто-ледяная</Name>
 		<Description>Планеты каменисто-ледяного типа не имеют пригодной для дыхания атмосферы. Иногда на них встречаются залежи замороженного газа тидериоса.\n\nБескрайние равнины льда и снега перемежаются полями пыли и камней.\n\nПланеты каменисто-ледяного типа крайне непригодны для жизни и никогда не подходят для колонизации.</Description>
 		<ImageFilename>Environment/OrbTypes/RockyIce</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/RockyIce</LargeImageFilename>
@@ -5055,7 +5055,7 @@
 	<OrbType>
 		<OrbTypeId>29</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Углеродистый</Name>
+		<Name>Углеродистая</Name>
 		<Description>Углеродистые планеты имеют тлеющие вулканы и обширную геотермальную активность.\n\nВоздух здесь обычно густо насыщен дымом и пеплом. На них часто встречаются крупные озера метана и других углеводородов.</Description>
 		<ImageFilename>Environment/OrbTypes/Carbonaceous</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Carbonaceous</LargeImageFilename>
@@ -5245,7 +5245,7 @@
 	<OrbType>
 		<OrbTypeId>30</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Серно-вулканический</Name>
+		<Name>Серно-вулканическая</Name>
 		<Description>Планеты серно-вулканического типа покрыты толстыми слоями оксидов серы, что придает им характерный желто-оранжевый оттенок.\n\nВулканические жерла извергают высокие фонтаны серы в атмосферу, распространяя вещество по поверхности планеты. Коррозионные облака кислоты поглощают почти все остальные материалы, оставляя после себя лишь бескрайние равнины желтого серного снега.</Description>
 		<ImageFilename>Environment/OrbTypes/SulphurVolcanic</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/SulphurVolcanic</LargeImageFilename>

@@ -51,7 +51,7 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<IsRobotic>false</IsRobotic>
-		<Name>Бригада ударных десантников</Name>
+		<Name>Бригада штурмовиков</Name>
 		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
