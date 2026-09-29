@@ -1,0 +1,68 @@
+
+
+GREETING_INTRODUCTION			;We are the {0}.\n\nWe seek understanding of all in the galaxy, including your unique empire.\n\nPlease, tell us about yourselves
+GREETING_FRIENDLY			;Our good friends, what is it that you wish to discuss with us?
+GREETING_NEUTRAL			;Is there anything that we can do for you?
+GREETING_ANGRY				;You test our patience.\n\nState your business quickly
+
+GIFT_PROPOSE				;What kind of gift do you have in mind?
+GIFT_THANKS_ANGRY				;We accept your tiny gift
+GIFT_THANKS_NEUTRAL				;We thank you for your gift
+GIFT_THANKS_FRIENDLY				;Your kind gift was most appreciated. Thank you!
+
+OFFER_DEAL				;Would you accept this trade?
+PIRATEPROTECTION_DEAL				;Things can be very dangerous in the cold dark depths of space. Your ships or bases could be attacked, or worse.\n\nFor the very reasonable monthly fee of {0} credits we can ensure that you remain safe, at least from us.\n\nWhat do you say?
+DEAL_BEGIN				;What do you propose?
+DEAL_ACCEPT				;This deal makes sense - we accept
+DEAL_ACCEPT_RESPONSE		;Great!
+DEAL_REJECT_RESPONSE		;How illogical and sad
+DEAL_REJECT				;This deal doesn't add up - we reject it
+
+TREATY_PROPOSAL				;A treaty proposal? We are eager to hear your idea
+TREATY_ACCEPTRESPONSE			;We are most pleased at your acceptance, our new ally.\n\nFeel free to share your thoughts with us at any time
+TREATY_REJECTRESPONSE			;Perhaps another time you will feel differently
+PROTECTION_ACCEPTRESPONSE		;You are logical. We look forward to your monthly payments
+PROTECTION_REJECTRESPONSE		;That makes no sense. Paying now is cheaper than paying later...
+
+SWAP_MAPS		;What kind of map would you like to swap?
+
+WAR_END_ACCEPT				;Yes, this war serves no purpose. We are ordering our forces to stop fighting
+WAR_END_REJECT				;It is too late for peace now.\n\nThis war will continue until you are defeated
+WAR_END_ACCEPT_RESPONSE			;A logical choice. Our forces are standing down now
+
+WAR_END_ACCEPT_BECOMEVASSAL				;We agree to become your vassal. We will cease hostilities immediately and commence our monthly tribute payments
+WAR_END_REJECT_BECOMEVASSAL				;No, we refuse to subjugate ourselves as your vassal
+WAR_END_ACCEPT_ACCEPTVASSAL				;We agree to your surrender and subjugation as our vassal. We look forward to your monthly tribute payments
+WAR_END_REJECT_ACCEPTVASSAL				;No, we refuse your offer of subjugation as our vassal. This war is not over yet
+
+WAR_DECLARE_RESPONSE_ANGRY		;It is not often that we seek war. But in your case we welcome it.\n\nWe anticipate your swift defeat
+WAR_DECLARE_RESPONSE_NEUTRAL		;We may be peaceful, but we are also prepared.\n\nIf you seek war, we will give it to you
+WAR_DECLARE_RESPONSE_FRIENDLY		;We do not understand your aggression.\n\nWe will defend ourselves, but we implore you to think again
+
+TREATY_ACCEPT			;We accept your offer of {0}
+TREATY_REJECT			;No, we do not want {0} right now
+TREATY_REJECT_TOOSOON_NEUTRAL			;We are sorry, but {0} with you would not work right now. It is too soon after the last change to our relations
+TREATY_REJECT_TOOSOON_ANGRY			;We have zero interest in {0} with you. Besides, it is too soon after the last change to our relations
+TREATY_REJECT_TOOSOON_FRIENDLY			;We are sorry friend, but {0} with you would not be suitable for us right now. It is too soon after the last change to our relations
+TREATY_ACCEPT_NEUTRAL			;{0} with you? We eagerly accept!\n\nWe will leave our ambassadors to work out the details of the treaty for us
+TREATY_REJECT_NEUTRAL			;We are sorry, but {0} with you would not work right now.\n\nYou can always try again later though
+TREATY_ACCEPT_ANGRY			;We accept your offer of {0}. But don't get the wrong idea - we still do not like you very much
+TREATY_REJECT_ANGRY			;We have zero interest in {0} with you
+TREATY_ACCEPT_FRIENDLY			;{0} with you? We eagerly accept!\n\nWe will leave our ambassadors to work out the details of the treaty for us
+TREATY_REJECT_FRIENDLY			;We are sorry friend, but {0} with you would not be suitable for us right now.\n\nMaybe we should revisit this topic at a later time
+
+PROTECTION_ACCEPT		;We accept your request for protection. The monthly fee is {0} credits
+PROTECTION_ACCEPT_NEUTRAL		;We accept your request for protection. The monthly fee is {0} credits
+PROTECTION_ACCEPT_ANGRY		;Excellent! Our 'protection' will cost you {0} credits per month. You may go now
+PROTECTION_ACCEPT_FRIENDLY		;We accept your sensible request for protection. The monthly fee is {0} credits
+PROTECTION_REJECT			;No, we are not interested in protection at this time
+PROTECTION_REJECT_NEUTRAL		;No, protecting you would be too much work
+PROTECTION_REJECT_ANGRY		;No, we do not want to protect you. We'd much rather raid you
+PROTECTION_REJECT_FRIENDLY		;No, we don't want a Protection Arrangement with you
+
+CANCELTREATY_RESPONSE_FRIENDLY		;This disappoints us. We felt that this treaty was most worthwhile.\n\nBut we respect your decision to end it
+CANCELTREATY_RESPONSE_NEUTRAL		;How unfortunate.\n\nBut it is good to speak openly with each other in these important matters
+CANCELTREATY_RESPONSE_ANGRY		;Your feelings match ours - we no longer want this treaty either.\n\nIt is best for it to end
+CANCELPROTECTION_RESPONSE_FRIENDLY		;How illogical. We thought those monthly payments worked well, at least for us
+CANCELPROTECTION_RESPONSE_NEUTRAL		;Oh dear, that is unfortunate for you. Now we will have to find other ways to obtain those monthly payments...
+CANCELPROTECTION_RESPONSE_ANGRY		;You make no sense. Now we will simply obtain those credits from you through other means...

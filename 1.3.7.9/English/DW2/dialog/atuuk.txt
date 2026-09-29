@@ -1,0 +1,69 @@
+
+
+GREETING_INTRODUCTION			;Hi funny alien! {0} we are.\n\nFriends with you, we be!
+GREETING_FRIENDLY			;Good to see you it is, friend. We help you, yes?
+GREETING_NEUTRAL			;We listen. You speak
+GREETING_ANGRY				;What you smelly ones want this time?
+
+GIFT_PROPOSE				;What is the gift?
+GIFT_THANKS_ANGRY				;You send us money. Next time send more. We'll be waiting
+GIFT_THANKS_NEUTRAL				;Thank you for money! All things smelling good!
+GIFT_THANKS_FRIENDLY				;Thank you for money! You are our good friend!
+
+OFFER_DEAL				;Trade time! We give stuff and you give stuff
+PIRATEPROTECTION_DEAL				;Galaxy is dangerous place, you know. Easy to get hurt.\n\nFor small fee of {0} credits we can protect all your ships in our space.\n\nYou should pay up, hmmm?...
+DEAL_BEGIN				;Tell us more...
+DEAL_ACCEPT				;Good deal, we accept
+DEAL_ACCEPT_RESPONSE		;We are happy you agree!
+DEAL_REJECT_RESPONSE		;No deal? We are sad
+DEAL_REJECT				;Bad deal, not happening
+
+TREATY_PROPOSAL				;Tell us treaty - we tell you if smell good or bad
+TREATY_ACCEPTRESPONSE			;We make big feast! Welcome friends!
+TREATY_REJECTRESPONSE			;You missing many big feasts, much good hunting. Think more - change mind
+PROTECTION_ACCEPTRESPONSE		;Your money smell real good! No accidents for your ships till we spent all the money
+PROTECTION_REJECTRESPONSE		;No pay - no protection. Very simple, it is
+
+SWAP_MAPS		;What kind of map you want to swap?
+
+WAR_END_ACCEPT				;Yes, we stop war now. Ready for big feast
+WAR_END_REJECT				;No, we just started hunting. Not end war now. Not feast time yet
+WAR_END_ACCEPT_RESPONSE			;Good, hunting all done now
+
+WAR_END_ACCEPT_BECOMEVASSAL				;We agree to become your vassal. We stop fighting right now and start our monthly tribute payments
+WAR_END_REJECT_BECOMEVASSAL				;No, we will NOT subjugate ourselves as your vassal.
+WAR_END_ACCEPT_ACCEPTVASSAL				;We agree to your surrender and subjugation as our vassal. We ready for your monthly tribute payments.
+WAR_END_REJECT_ACCEPTVASSAL				;No, we not want your offer of subjugation as our vassal. There is still more hunting to be done in this war.
+
+WAR_DECLARE_RESPONSE_ANGRY		;We not frightened. We good hunters. You be sorry
+WAR_DECLARE_RESPONSE_NEUTRAL		;We ready for war. Our spears are sharp!
+WAR_DECLARE_RESPONSE_FRIENDLY		;You all mixed up! We friends, have feast together - not war! Tell us is mistake
+
+TREATY_ACCEPT			;Yes, we accept {0}! We make big feast! Welcome friends!
+TREATY_REJECT			;No, we not want {0} right now. Maybe later, ok
+TREATY_REJECT_TOOSOON_NEUTRAL			;No, we not want {0}. We just had a change to our treaties!
+TREATY_REJECT_TOOSOON_ANGRY			;No way, no {0} with you! Besides, we just changed our treaties recently
+TREATY_REJECT_TOOSOON_FRIENDLY			;No, we not want {0} yet. We just had a change to our treaties! But maybe later, ok
+TREATY_ACCEPT_NEUTRAL			;Yes, we accept {0}! We make big feast! Welcome friends!
+TREATY_REJECT_NEUTRAL			;No, we not want {0} right now. Could be later though, we'll see
+TREATY_ACCEPT_ANGRY			;We accept your offer of {0}
+TREATY_REJECT_ANGRY			;No way, no {0} with you! Never ever
+TREATY_ACCEPT_FRIENDLY			;Yes, we accept {0}! We make big feast! Welcome friends!
+TREATY_REJECT_FRIENDLY			;No, we not want {0} right now. Maybe later, ok
+
+PROTECTION_ACCEPT		;We accept your request for protection. The monthly fee is {0} credits
+PROTECTION_ACCEPT_NEUTRAL		;Your money smell real good! No accidents for your ships till we spent all the money. Remember it's {0} credits per month, ok
+PROTECTION_ACCEPT_ANGRY		;Fine, no more accidents for your ships now. {0} credits per month, don't forget. Now get outta here
+PROTECTION_ACCEPT_FRIENDLY		;Your money smell real good! No accidents for your ships till we spent all the money. Remember it's {0} credits per month, ok
+PROTECTION_REJECT			;No, we not want to 'protect' you
+PROTECTION_REJECT_NEUTRAL		;No, we not want to 'protect' you
+PROTECTION_REJECT_ANGRY		;No, we no not to 'protect' you. You smell real bad. And you a terrible hunter
+PROTECTION_REJECT_FRIENDLY		;No, we not want to 'protect' you
+
+CANCELTREATY				;{0} with you all finished. We had enough now
+CANCELTREATY_RESPONSE_FRIENDLY		;We not friends now? We smell bad? What is it? Very sad
+CANCELTREATY_RESPONSE_NEUTRAL		;Treaty over? Ok then
+CANCELTREATY_RESPONSE_ANGRY		;We not like you anyway. You smell funny, and no good hunter.\n\nGo away now
+CANCELPROTECTION_RESPONSE_FRIENDLY		;No more payments? Ok then
+CANCELPROTECTION_RESPONSE_NEUTRAL		;You less smart than you look. We think you will regret this...
+CANCELPROTECTION_RESPONSE_ANGRY		;Bad move smelly one! Now we use other ways to get your stuff...

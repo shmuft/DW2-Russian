@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>139</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Superior Destiny</Name>
+		<Description>Our recent research breakthrough in a Haakonish tech has reinforced our confidence in our superior destiny</Description>
+		<ImageFilename>Environment/Events/Superior Destiny</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>140</ColonyEventDefinitionId> <!-- Economic Boost Income -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Economic Boost - Income</Name>
+		<Description>Our clever finance wizards have figured out a way to temporarily boost economic output through some creative accounting!
+
+Our entire empire will enjoy a +10% boost to income for 5 years</Description>
+		<ImageFilename>Environment/Events/Economic Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>141</ColonyEventDefinitionId> <!-- Economic Boost Corruption -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>true</ValuesDecayGradually>
+		<ValuesDecayUpwardsFromZero>true</ValuesDecayUpwardsFromZero>
+		<Name>Economic Boost - Corruption</Name>
+		<Description>The creative accounting of our supposedly clever finance wizards has had the unfortunate side-effect of increasing corruption throughout our empire! And the corruption seems to be increasing over time!
+
+Our entire empire will suffer a growing level of corruption for 5 years</Description>
+		<ImageFilename>Environment/Events/Economic Boost</ImageFilename>
+	</ColonyEventDefinition>
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>142</ColonyEventDefinitionId> <!-- Xenophobic Riots Happiness -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<ColonyHappiness>10</ColonyHappiness>
+		<Name>Xenophobic Riots - Happiness</Name>
+		<ImageFilename>Environment/Events/Haakonish Xenophobia</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>143</ColonyEventDefinitionId> <!-- Xenophobic Riots Migration -->
+		<Type>Undefined</Type>
+		<DurationMinimum>10</DurationMinimum>
+		<DurationMaximum>10</DurationMaximum>
+		<MigrationFactor>-1</MigrationFactor>
+		<Name>Xenophobic Riots - Harming Migration</Name>
+		<ImageFilename>Environment/Events/Haakonish Xenophobia</ImageFilename>
+	</ColonyEventDefinition>
+
+</ArrayOfColonyEventDefinition>
