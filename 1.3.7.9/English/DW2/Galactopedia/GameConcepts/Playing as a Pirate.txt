@@ -1,0 +1,52 @@
+Playing as a Pirate is quite different from playing as a normal planetary empire. Your activities are mainly space-faring rather than planetary.
+				
+[H3]Build and control all ships[/H3]
+You can control all of your ships, both state and civilian - there is no private sector for pirates.
+
+So you can directly build freighters and other civilian ships at your spaceports. You can also manually assign them missions to dock at a location and buy or sell resources.
+				
+[H3]Influencing Colonies[/H3]
+While planetary empires expand by colonizing new worlds, pirates instead exploit existing colonies (independent and empire-owned) by influencing them and siphoning away a portion of their income for themselves.
+				
+[H3]Income and Expenses[/H3]
+Your ship maintenance costs are much lower than standard planetary empires, but you will also find it harder to earn income. Your only sources of regular income are influenced colonies ('Colony Crime') and protection agreements. The rest of your income is from Resource Trading, Contracts, Raids, Espionage and Negotiations.
+
+[H3]How to Influence Colonies[/H3]
+You gain influence at colonies by parking your ships in orbit around them, or by raiding them. You may find yourself competing with other pirate factions for control of the same colony.
+
+As you gain influence at a colony, you can build Hidden Pirate Bases and Fortresses to lock down control of the planet, preventing other pirates from gaining a foothold there.
+
+Your level of influence at the colony determines how much of their income you siphon away. High influence at a large colony will earn the most income.
+
+[H3]Expanding your Mining and Research Operations[/H3]
+You should expand by building new Mining Stations and Research Stations at suitable locations.
+				
+Research unlocks new technology for your ships, allowing you to get the edge on all of your rivals.
+				
+Mining provides access to resources that you can use yourself for building new ships and bases. You can also earn money from trading away your excess resources.
+
+[H3]Resource Trading and Smuggling[/H3]
+Resource trading can be a very profitable source of income, especially if you mine the resources yourself with mining ships or mining stations.
+				
+The Trading Points screen provides powerful tools to find locations for trading specific resources at a good price.
+
+You can also smuggle contraband Black Market resources at some locations. These resources are available at a lower price, allowing a greater profit, but with added risk of detection and capture.
+
+[H3]Contracts[/H3]
+Contracts are another important source of income.
+
+Contracts are posted by Shadowports, independent colonies, planetary empires and even other pirates. You can even create Contracts yourself for others to fulfill for you.
+
+These missions are typically related to delivering resources, attacking and destroying specific targets, or stealing something (like an artifact). There is usually a monetary reward, but you will also often gain Influence and improved relations if you complete a contract for someone.
+
+[H3]Shadowports and Privateering[/H3]
+Shadowports are important hubs for all pirates. You can dock ships at these Shadowports to use their full array of services: upgrading ships with advanced technology, buying new ships, trading resources, buying special equipment and accessing lucrative contracts.
+				
+To use the services at a Shadowport, send a ship to dock there. Select the ship once it has docked and a menu panel will appear allowing you to choose what you want to do.
+
+Privateering allows you to get paid to destroy the enemy ships and bases of a faction. You can initiate privateering agreements in the Diplomacy Trade screen.
+
+[H3]Pirate Goals[/H3]
+Ultimately you have two paths as a pirate:
+[ULI]grow big enough to become a proper planetary empire by building a Criminal Network facility at your largest colony and leaving your pirate ways behind forever[/ULI]
+[ULI]OR you may instead build up to the unique Anarchopolis Wonder, which will allow you to achieve the status of a Legendary Pirate Faction, and remain a space-faring faction[/ULI]

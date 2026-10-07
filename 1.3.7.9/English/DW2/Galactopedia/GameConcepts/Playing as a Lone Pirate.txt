@@ -1,0 +1,88 @@
+As a Lone Pirate you have a single ship, travelling the stars. You have no bases or other ships. You have the freedom to pursue any path you choose:
+[ULI]Simple trading of in-demand resources across the galaxy[/ULI]
+[ULI]Action-packed raiding and combat to loot and pillage, or to acquire new ships[/ULI]
+[ULI]Stealthily perform contracts on behalf of others, hunting bounties, destroying targets or finding items[/ULI]
+...or pursue any combination of the above areas as you forge your own path.
+
+[H3]Differences to normal play[/H3]
+Uniquely as a lone pirate you have no regular income or expenses. You simply earn money based on what you do. To pay for fuel, repairs, upgrades or even an entirely new ship, you must actively make money through various activities.
+				
+Some other activities that are typical for standard Distant Worlds gameplay are mostly absent from Lone Pirate gameplay:
+[ULI]No research[/ULI]
+[ULI]No ship design or construction except for upgrading or buying new ships at Shadowports[/ULI]
+[ULI]No resource mining[/ULI]
+
+
+[H3]Simplified User Interface[/H3]
+Lone pirates use a cut-down user interface with less sections, allowing you to more easily focus on the most important activities. This includes areas like exploration, diplomacy, contracts and resource trading.
+				
+The header bar at the top of the main view also shows important information for you as a Lone Pirate: a quick link to your own ship, and quick links to all known Shadowports.
+
+[H3]Implied Behavior[/H3]
+When playing as a lone pirate, with only one ship, some of the user interface buttons can also use implied behavior.
+				
+For example, there is often no need to select your ship to assign missions. Instead you just click the action buttons under the Selected Item to move, dock, attack, etc.
+
+Similarly clicking the ‘Move and Dock’ button in the Trading Points list allows you to immediately assign a Dock mission to your ship without needing to first select it.
+
+[H3]Contracts[/H3]
+Contracts provide a variety of options for making money.
+[ULI][B]Resource Delivery:[/B] best suited for Smugglers whose ships typically have more cargo space available. However, any lone pirate might do some occasional resource trading. Smugglers also have very high scan evasion, allowing them to better avoid detection when smuggling black market resources that can be bought cheaper than normal.[/ULI]
+[ULI][B]Destroying Targets:[/B] best suited to lone pirates with strong military ships that can survive combat and take down serious threats.[/ULI]
+[ULI][B]Acquiring Items:[/B] this includes intelligence missions to capture or rescue characters. It also includes stealing artifacts or finding lost items. Any lone pirate can undertake these contracts, but they are especially well-suited to spies and leaders with strong espionage and sabotage skills.[/ULI]
+
+By carefully selecting appropriate contracts you can earn money and make friends.
+
+[H3]Resource Trading[/H3]
+Resource trading means buying and selling resources throughout the galaxy. Typically, you would buy resources at the lowest price you can find and then search for the destination that will pay the most to buy the resource.
+				
+You must also consider distance between the source and destination. Obviously closer locations allow you to earn money more quickly. In addition, each location will have a limit to how much of a resource they are willing to buy. This limit may often be zero, i.e. the location will not buy any of that resource.
+
+[H3]Trading Points screen[/H3]
+To view trading locations, you can use the Trading Points screen. This will show you a distance-sorted list of places where you can buy and sell resources. For each location you can click the button at the right to show the resource amounts and prices, as well as the buy limit for the resource.
+
+You can also click the 'Move and Dock' button at the right of each location to immediately send your ship to that location. When it arrives it will automatically dock and open a menu panel for you to select what you want to do there, e.g. trading resources.
+
+Filtering the Trading Points list by a specific resource will show the amounts, prices and limits directly in the Trading Points list.
+
+[H3]Smuggling[/H3]
+Pirates can also choose to smuggle contraband resources from the Black Market. Colonies that are influenced by pirate factions generate contraband resources that are available to buy at a much lower price than normal.
+				
+However, smuggling contraband resources is risky – if you are detected then you will be attacked as a smuggler.
+
+Other factions can detect smugglers by having good Trace Scanners on their ships. Pirates can prevent detection of smuggled resources by having good Scanner Jamming on their ships, and by keeping their distance from potential scanners (Trace Scanner detection power declines with range).
+
+Smuggling offers the possibility for greater rewards but also adds some risk of losing your ship.
+
+[H3]Shadowports[/H3]
+Shadowports are important bases for lone pirates that provide critical services.
+				
+At Shadowports you can refuel and repair your ship. You can also upgrade your ship with new components or specialized equipment.
+
+You can even browse and buy a completely new ship, better equipped to survive the dangerous life of a lone pirate.
+
+Shadowports have a supply of many resources, providing opportunities for trade.
+
+They also have their own private communications network known as the ShadowNet that provides special contracts, not available otherwise, that are directly offered to pirates. These contracts often involve finding a lost item or destroying a great threat.
+
+To use the services of a Shadowport you must travel to it and dock there. A menu panel will open, allowing you to select what you need.
+
+[H3]Cockpit Mode[/H3]
+Cockpit Mode puts you ‘in the driver's seat,’ allowing you to control your ship directly using either a game pad or the keyboard.
+				
+In the cockpit itself there is a panel at the bottom-right showing the current status of your ship, similar to the Selection Panel on the left. There are also targeting and selection brackets with hotkeys that allow you to quickly cycle through all items and enemy targets at the current location.
+
+You can enter and exit cockpit mode using the 'Enter Cockpit' button at the bottom-right of the screen.
+
+[H2]Goals[/H2]
+Ultimately you have two paths as a lone pirate:
+
+[H3]Become a full Pirate Faction[/H3]
+You can earn enough money to become a full Pirate Faction. You do this by finding a good location for your pirate base and paying a Shadowport to build the base for you. Once that Spaceport is completed your play experience will then change from Lone Pirate to Pirate Faction.
+
+[H3]Become a Legendary Lone Pirate[/H3]
+If you are successful enough as a Lone Pirate, you may earn the hostility of other envious pirate factions who see you as a threat. This can lead to them sending a Bounty Hunter after you to destroy you.
+
+If you defeat the Bounty Hunter you will earn the status of Legendary Lone Pirate. This auto-switches you to the Legendary Lone Pirate government style, which combines all of the advantages of the different styles of lone piracy (Pirates, Smugglers, Raiders, Mercenaries) into a single form of government.
+
+As a Legendary Lone Pirate, you will then have access to Cruiser and Large Freighter ship hulls at Shadowports, allowing you to upgrade your ship even further.

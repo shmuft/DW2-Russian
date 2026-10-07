@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<ArrayOfResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Resource>
+		<ResourceId>81</ResourceId>
+		<Name>Yuterre Fungal Spores</Name>
+		<Description>The giant Yuterre mushroom is found on Algaic Forest worlds. These mushrooms can grow to heights of 1.5 meters and produce enormous fungal spores. Although these spores have a very unpleasant taste, they provide immense health benefits to most sentient species. They also temporarily increase mental capacity, often enabling amazing insights into advanced mathematics and geometry.</Description>
+		<BaseCost>9</BaseCost>
+		<ImageFilename>Environment/Resources/YuterreFungalSpores</ImageFilename>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.07</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.02</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchReactor</Type>
+				<Amount>0.10</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+	</Resource>
+
+	<Resource>
+		<ResourceId>82</ResourceId>
+		<Name>Karakulas Spider Venom</Name>
+		<Description>Karakulas spiders are found on Algaic Forest worlds. In addition to their 8 legs, they also have 2 small arms near their head which they can use to manipulate items. They are colored red-brown and can grow to widths of 30cm or more. Karakulas spiders produce a deadly venom that they spray from their mouth to quickly immobilize and kill their prey. When diluted, this venom can also be used as a potent antibiotic, reducing the severity of most plagues and infections.</Description>
+		<BaseCost>7</BaseCost>
+		<ImageFilename>Environment/Resources/KarakulasSpiderVenom</ImageFilename>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.04</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlagueCuring</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+	</Resource>
+
+	<Resource>
+		<ResourceId>83</ResourceId>
+		<Name>Akridos Dragon Skin</Name>
+		<Description>Akridos Dragons are very large flying reptiles found on Rocky Desert Volcanic worlds. Their bat-like wings can reach a span of 15 meters. Despite their great size, they fly nearly silently. They attack at night, swooping on their prey and piercing them with the large talons of their claw-like feet. The leathery skin of the Akridos Dragon's vast wings is very tough but also very light. This leather is prized for its use in clothing of various kinds.</Description>
+		<BaseCost>6</BaseCost>
+		<ImageFilename>Environment/Resources/AkridosDragonSkin</ImageFilename>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+	</Resource>
+
+	<Resource>
+		<ResourceId>84</ResourceId>
+		<Name>Ash Worm Pearls</Name>
+		<Description>Ash Worms live in the vast ash fields of Rocky Desert Volcanic worlds. They burrow through the volcanic ash, feeding on these rich silica deposits. Ash Worms can grow to lengths of 2 meters and can live for hundreds of years. They also produce beautiful pearls, which are actually shiny concretions of the chemicals from the ash. These pearls are valued for their medicinal properties when dissolved in water. They are reputed to slow aging and extend lifespan.</Description>
+		<BaseCost>7</BaseCost>
+		<ImageFilename>Environment/Resources/AshWormPearls</ImageFilename>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.03</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+	</Resource>
+
+</ArrayOfResource>
