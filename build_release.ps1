@@ -32,6 +32,7 @@ $SourceDirs = @(
     "$Version\Russian\DLC Ikkuro and Dhayut\",
     "$Version\Russian\DLC Quameno and Gizureans\",
     "$Version\Russian\DLC Return of the Shakturi\",
+    "$Version\Russian\DLC Shadows Rising\",
     "$Version\Russian\DW2\",
     "data"
 )

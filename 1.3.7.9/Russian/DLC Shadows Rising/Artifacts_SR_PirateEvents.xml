@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfArtifact>
+	<Artifact>
+		<ArtifactId>86</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Countermeasures</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Навигатор улья</Name>
+		<Description>Хотя изначально этот компьютер был разработан для того, чтобы заманивать корабли Улья к их гибели, теперь он был переоборудован, чтобы помогать кораблям избегать систем наведения противника. Несмотря на то, что это устройство выглядит древним и поврежденным, оно обеспечивает мощную защиту, даже в опасной галактике сегодняшнего дня.</Description>
+		<ImageFilename>Environment/Events/the hive navigator</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>87</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Коллекция видеозаписей 'Цитадели Обид'</Name>
+		<Description>Найти современное устройство для воспроизведения видео, совместимое с этими записями, может оказаться непростой задачей, однако затраченные усилия полностью окупятся. Сцены, на которых пираты заставляют политиков, олигархов и дворян сражаться насмерть, служат мощным напоминанием об опасностях и возможностях анархии. Вероятно, ради просмотра этих записей сюда прибудут посетители со всех уголков галактики.</Description>
+		<ImageFilename>Environment/Events/the grudgehold recordings box set</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>88</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Реликт «Последнего оплота»</Name>
+		<Description>В годы, последовавшие за войной с Шактури, Последний оплот продолжал сражаться с последними остатками Оси Шактури. Разрозненные группы выживших из Альянса Свободы часто прибегали к немыслимым средствам, чтобы преследовать любого врага. Это устройство позволяло им легче побеждать опасных (или прибыльных) цели.</Description>
+		<ImageFilename>Environment/Events/remnant of the last remnant</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>89</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ScanEvasion</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Секрет Налётчиков</Name>
+		<Description>Этот кристалл данных некогда принадлежал Налётчикам, пиратскому клану, специализировавшемуся на молниеносных атаках из скрытых баз. Он по-прежнему полезен для избегания обнаружения и будет высоко оценён любым капитаном корабля, понимающим силу скрытности.</Description>
+		<ImageFilename>Environment/Events/the ambushers secret</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>95</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Пустой трон</Name>
+		<Description>Это трон древнего пиратского короля. Кресло велико и богато украшено, явно спроектировано так, чтобы внушать чувство власти и величия.</Description>
+		<ImageFilename>Artifacts/The Empty Throne</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>96</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>CharacterQualityTroopGeneral</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityFleetAdmiral</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Инструктор</Name>
+		<Description>Эта машина, оснащённая сложными нейронными реле, которые крепятся непосредственно к черепу пользователя, демонстрирует по-настоящему чуждую эстетику и, возможно, основана на технологиях, происходящих из другой галактики. Странные контуры устройства и отсутствие симметрии вызывают у некоторых наблюдателей чувство дискомфорта.</Description>
+		<ImageFilename>Artifacts/The Instructor</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>97</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Трекер ульевого типа</Name>
+		<Description>Это часть сенсорного массива, разработанного для отслеживания перемещений кораблей Улья. Теперь, после модификации, устройство готово к интеграции в современные сенсорные системы, что должно улучшить боевое наведение.</Description>
+		<ImageFilename>Artifacts/The Hive-Pattern Tracker</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>98</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ConstructionSpeedFacility</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Эхо Строителей</Name>
+		<Description>Главный компьютер, содержащий базы данных древней пиратской фракции, известной как Строители. Это обычное на вид вычислительное устройство, но в нём скрыто сокровище архитектурных знаний.</Description>
+		<ImageFilename>Artifacts/Echo of the Builder</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>

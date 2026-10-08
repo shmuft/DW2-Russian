@@ -1,0 +1,618 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfArtifact>
+	
+	<Artifact>
+		<ArtifactId>0</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<WeaponsFireRateModifier>0.9</WeaponsFireRateModifier>
+		<Cost>10000</Cost>
+		
+		<BonusesToOwner>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		
+		<RaceId>-1</RaceId>
+		<Name>Каприкур Surefire BX-100</Name>
+		<Description>Система «Безотказность» увеличивает скорострельность всех орудий, а также расширяет их дальность. Убедитесь лишь, что выходная мощность реактора достаточна для работы вооружения в усиленном режиме!</Description>
+		<ImageFilename>Artifacts/pirate weapons 1</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>1</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<WeaponsFireRateModifier>0.85</WeaponsFireRateModifier>
+		<TargetingBonus>0.05</TargetingBonus>
+		<Cost>30000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Каприкур Сурфир BX-300</Name>
+		<Description>Система «Безотказность» увеличивает скорострельность всех орудий, а также расширяет их дальность. Модель BX-300 также обеспечивает небольшое улучшение точности наведения. Только убедитесь, что у вас достаточно энергии реактора для работы орудий с повышенной скорострельностью!</Description>
+		<ImageFilename>Artifacts/pirate weapons 2</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>2</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<WeaponsFireRateModifier>0.8</WeaponsFireRateModifier>
+		<TargetingBonus>0.1</TargetingBonus>
+		<Cost>60000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Каприкур «Суэрфайр» BX-520</Name>
+		<Description>Система «Безотказность» увеличивает скорострельность всех орудий, а также расширяет их дальность. Модель BX-520 также обеспечивает заметное улучшение точности наведения. Дополнительным преимуществом, характерным исключительно для BX-520, является небольшое увеличение урона оружия. Только убедитесь, что выходная мощность реактора достаточна для работы орудий в усиленном режиме!</Description>
+		<ImageFilename>Artifacts/pirate weapons 3</ImageFilename>
+	</Artifact>
+	
+	<Artifact>
+		<ArtifactId>3</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<TargetingBonus>0.1</TargetingBonus>
+		<Cost>12000</Cost>
+		
+		<BonusesToOwner>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		
+		<RaceId>-1</RaceId>
+		<Name>Боевой трон «Геминнар TK-300»</Name>
+		<Description>«Боевой трон TK-300» улучшает как наведение, так и урон для всего вашего вооружения.</Description>
+		<ImageFilename>Artifacts/pirate weapons 1</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>4</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<TargetingBonus>0.15</TargetingBonus>
+		<Cost>36000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Боевой робот «Геминнар» TK-440</Name>
+		<Description>«Боевой трон TK-440» улучшает точность наведения и урон для всего вашего вооружения. Модель TK-440 также незначительно увеличивает дальность стрельбы оружия.</Description>
+		<ImageFilename>Artifacts/pirate weapons 2</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>5</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<TargetingBonus>0.25</TargetingBonus>
+		<Cost>68000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.08</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Боевой трон «Геминнар TK-600»</Name>
+		<Description>Боевой трон TK-600 значительно улучшает как наведение, так и урон для всего вашего вооружения. Модель TK-600 также увеличивает дальность оружия.</Description>
+		<ImageFilename>Artifacts/pirate weapons 3</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>6</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<ShieldRechargeRate>3</ShieldRechargeRate>
+		<CountermeasuresBonus>0.05</CountermeasuresBonus>
+		<Cost>11000</Cost>
+
+		<RaceId>-1</RaceId>
+		<Name>АкуТех GX-60 Защитник</Name>
+		<Description>Система «GX-60 Defendor» увеличивает скорость перезарядки щитов, обеспечивая большую боевую выносливость. Она также дает небольшой бонус к средствам противодействия.</Description>
+		<ImageFilename>Artifacts/pirate shields 1</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>7</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<ShieldRechargeRate>5</ShieldRechargeRate>
+		<CountermeasuresBonus>0.1</CountermeasuresBonus>
+		<Cost>32000</Cost>
+
+		<RaceId>-1</RaceId>
+		<Name>АкуТех GX-100 Защитник</Name>
+		<Description>Система GX-100 «Защитник» значительно увеличивает скорость перезарядки щитов, обеспечивая большую выживаемость в бою. Она также предоставляет достойный бонус к средствам противодействия.</Description>
+		<ImageFilename>Artifacts/pirate shields 2</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>8</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<DamageReduction>0.25</DamageReduction>
+		<DamageRepair>0.1</DamageRepair>
+		<Cost>37000</Cost>
+
+		<RaceId>-1</RaceId>
+		<Name>Ремонтный дрон BaktoCorp RD-11</Name>
+		<Description>Ремонтный дрон RD-11 обеспечивает функции борьбы за живучесть и ремонта вашего корабля. Это может стать настоящим спасением, позволяя проводить бортовой ремонт несущественных повреждений вместо дорогостоящих визитов на верфи Теневого порта.</Description>
+		<ImageFilename>Artifacts/pirate shields 2</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>9</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<ShieldRechargeRate>1</ShieldRechargeRate>
+		<CountermeasuresBonus>0.1</CountermeasuresBonus>
+		<DamageReduction>0.35</DamageReduction>
+		<DamageRepair>0.2</DamageRepair>
+		<Cost>78000</Cost>
+
+		<RaceId>-1</RaceId>
+		<Name>Ремонтный дрон BaktoCorp RD-22</Name>
+		<Description>Ремонтный дрон RD-22 обеспечивает значительные возможности по борьбе за живучесть и ремонту вашего корабля. Это может стать настоящим спасением, позволяя выполнять ремонт на борту при несущественных повреждениях, вместо дорогостоящих визитов на верфи «Теневого порта». Модель RD-22 также обладает небольшой встроенной функцией подзарядки щитов и даже дает бонус к контрмерам.</Description>
+		<ImageFilename>Artifacts/pirate shields 3</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>10</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<Cost>8000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Суперкомпрессор «Тегра Т-200»</Name>
+		<Description>«Турбонагнетатель T-200» увеличивает выходную тягу двигателей, позволяя вашему кораблю двигаться быстрее. Он также обеспечивает небольшое улучшение маневренности.</Description>
+		<ImageFilename>Artifacts/pirate engines1</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>11</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<Cost>25000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.08</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Наддувчик Tegra T-350</Name>
+		<Description>Турбонагнетатель T-350 увеличивает выходную тягу двигателей, позволяя вашему кораблю двигаться быстрее. Он также обеспечивает небольшое улучшение маневренности.</Description>
+		<ImageFilename>Artifacts/pirate engines 2</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>12</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<Cost>48000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Суперкомпрессор «Тегра Т-570»</Name>
+		<Description>Т-570 «Нагнетатель» значительно увеличивает выходную тягу двигателей, позволяя вашему кораблю двигаться быстрее. Он также улучшает маневренность.</Description>
+		<ImageFilename>Artifacts/pirate engines 3</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>13</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<HyperDriveJumpInitiationModifier>0.85</HyperDriveJumpInitiationModifier>
+		<Cost>16000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>HyperjumpSpeed</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>ZantoCorp KX-12 NaviTech</Name>
+		<Description>Модуль навигации KX-12 NaviTech улучшает ваш гипердвигатель, обеспечивая более быстрый запуск прыжка, что особенно полезно, когда вам нужно быстро скрыться. Он также увеличивает скорость гиперпрыжка.</Description>
+		<ImageFilename>Artifacts/pirate hyperspace 1</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>14</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<HyperDriveJumpInitiationModifier>0.75</HyperDriveJumpInitiationModifier>
+		<HyperDriveBlockingInsulation>5</HyperDriveBlockingInsulation>
+		<Cost>49000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>HyperjumpSpeed</Type>
+				<Amount>0.07</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>HyperDriveJumpAccuracy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>ZantoCorp KX-16 NaviTech</Name>
+		<Description>Модуль навигации KX-16 NaviTech улучшает ваш гипердвигатель, обеспечивая более быструю инициацию прыжка, что особенно полезно при необходимости быстрого отступления. Он также увеличивает скорость гиперпрыжка. Модель KX-16 оснащена изоляцией от блокировки гиперпрыжков, повышающей способность совершать прыжки даже при активном гипер-запретителе противника. Эта модель даже улучшает точность выхода из прыжка.</Description>
+		<ImageFilename>Artifacts/pirate hyperspace 2</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>15</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<HyperDriveJumpInitiationModifier>0.6</HyperDriveJumpInitiationModifier>
+		<HyperDriveBlockingInsulation>8</HyperDriveBlockingInsulation>
+		<Cost>98000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>HyperjumpSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>HyperDriveJumpAccuracy</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>ZantoCorp KX-24 NaviTech</Name>
+		<Description>Модуль навигации KX-24 NaviTech значительно улучшает работу вашего гипердвигателя, обеспечивая гораздо более быструю инициацию прыжка, что особенно полезно при необходимости быстрого отступления. Он также существенно увеличивает скорость гиперпрыжка. Модель KX-24 включает в себя изоляцию от блокировки гиперпрыжков, повышая вашу способность совершать прыжки даже при активном действии вражеских гипер-запретителей. Данная модель также улучшает точность выхода из прыжка.</Description>
+		<ImageFilename>Artifacts/pirate hyperspace 3</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>16</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<ScannerJammingPower>120</ScannerJammingPower>
+		<ScannerRoleMaskingPower>7</ScannerRoleMaskingPower>
+		<ScannerEmpireMaskingPower>7</ScannerEmpireMaskingPower>
+
+		<Cost>7000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ScanFocusing</Type>
+				
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Камуфляжный сканер DuraTech SR-61</Name>
+		<Description>Маскировочный сканер CamoScan SR-61 позволяет кораблю скрыть свою фракцию и роль, тем самым повышая способность прятаться от противников. Он также обеспечивает базовое подавление сканеров и улучшенную фокусировку сканирования для широкого спектра сканеров.</Description>
+		<ImageFilename>Artifacts/pirate sensors 1</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>17</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<ScannerJammingPower>160</ScannerJammingPower>
+		<ScannerRoleMaskingPower>10</ScannerRoleMaskingPower>
+		<ScannerEmpireMaskingPower>10</ScannerEmpireMaskingPower>
+		
+		<Cost>27000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ScanFocusing</Type> 
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Камуфляжный сканер DuraTech SR-72</Name>
+		<Description>CamoScan SR-72 позволяет кораблю маскировать свою фракцию и роль, тем самым повышая способность скрываться от противников. Он также обладает хорошей способностью к подавлению сканеров и улучшенной фокусировкой сканирования для широкого спектра сканеров.</Description>
+		<ImageFilename>Artifacts/pirate sensors 2</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>18</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<TargetingBonus>0.05</TargetingBonus>
+		<CountermeasuresBonus>0.05</CountermeasuresBonus>
+
+		<ScannerJammingPower>200</ScannerJammingPower>
+		<ScannerRoleMaskingPower>15</ScannerRoleMaskingPower>
+		<ScannerEmpireMaskingPower>15</ScannerEmpireMaskingPower>
+
+		<Cost>52000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ScanFocusing</Type>
+				
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Камуфляжный сканер DuraTech SR-84</Name>
+		<Description>Маскировочный сканер CamoScan SR-84 позволяет кораблю скрыть принадлежность к фракции и его роль, тем самым повышая способность укрываться от противников. Он также обладает отличной способностью к подавлению сканеров и улучшенной фокусировкой сканирования для широкого спектра сканеров. Эта модель SR-84 даже вносит небольшие улучшения в показатели наведения и противодействия.</Description>
+		<ImageFilename>Artifacts/pirate sensors 3</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>19</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<TargetingBonus>0.1</TargetingBonus>
+		<CountermeasuresBonus>0.1</CountermeasuresBonus>
+
+		<Stealth>40</Stealth>
+		<ScannerJammingPower>250</ScannerJammingPower>
+		<ScannerRoleMaskingPower>20</ScannerRoleMaskingPower>
+		<ScannerEmpireMaskingPower>20</ScannerEmpireMaskingPower>
+
+		<Cost>88000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ScanFocusing</Type>
+				
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Камуфляжный сканер DuraTech SR-98</Name>
+		<Description>CamoScan SR-98 — это передовая технология для обеспечения секретности и скрытности. Она позволяет кораблю маскировать свою фракцию и роль, тем самым повышая способность скрываться от противников. Также она обладает отличной способностью к подавлению сканеров и улучшенной фокусировкой сканирования для широкого спектра сканеров. Эта модель SR-98 также включает заметные улучшения показателей наведения и противодействия. Эта флагманская модель даже добавляет возможности скрытности.</Description>
+		<ImageFilename>Artifacts/pirate sensors 3</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>20</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<Cost>6000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>RaidIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Рейдтех 3000 «Джариду»</Name>
+		<Description>«RaidTech 3000» улучшает возможности абордажа и проведения рейдов. Он также повышает доход, получаемый от рейдов на цели.</Description>
+		<ImageFilename>Artifacts/pirate boarding 1</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>21</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<Cost>24000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>RaidIncome</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Рейдтех 4000 Джариду</Name>
+		<Description>«RaidTech 4000» улучшает возможности абордажа и рейдов. Он также увеличивает доход, получаемый от рейдов на цели. Модель 4000 дополнительно улучшает защиту от абордажа при вражеских рейдах на ваш собственный корабль.</Description>
+		<ImageFilename>Artifacts/pirate boarding 2</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>22</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<TargetingBonus>0.1</TargetingBonus>
+		<CountermeasuresBonus>0.1</CountermeasuresBonus>
+
+		<Cost>45000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.35</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingDefense</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>RaidIncome</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Джириду РэйдаТех 5600</Name>
+		<Description>«RaidTech 5600» обеспечивает значительное улучшение возможностей абордажа и рейдов. Он также существенно увеличивает доход, получаемый от рейдов на цели. Модель 5600 дополнительно вносит значительные улучшения в оборону от абордажа при вражеских рейдах на ваш собственный корабль. В неё даже включены улучшения систем наведения и противодействия.</Description>
+		<ImageFilename>Artifacts/pirate boarding 3</ImageFilename>
+	</Artifact>
+
+</ArrayOfArtifact>

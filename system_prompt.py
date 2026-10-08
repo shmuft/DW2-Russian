@@ -2842,6 +2842,7 @@ TERMINOLOGY RULES:
   - "'*** DISTANT WORLDS 2 ENTRIES BELOW ***"→"'*** DISTANT WORLDS 2 ENTRIES BELOW ***"
   - "'System names"→"'System names"
   - "Privateering Agreement"→"Соглашение о каперстве"
+  - "Anarchopolis Wonder"→"Чудо Анархополис"
 SPECIES RULES:
 24. Species names are alien ethnonyms, not personal names.
 
@@ -3055,6 +3056,10 @@ CAPITALIZATION RULES:
 "Your Empire - Leader.txt"→"Твоя империя - Лидер.txt"
 "Your Empire - Maintenance.txt"→"Твоя империя - Содержание.txt"
 "Your Empire - Policy Settings.txt"→"Твоя империя - Политические настройки.txt"
+"Contracts.txt"→"Контракты.txt"
+"Playing as a Lone Pirate.txt"→"Игра в роли Одинокого Пирата.txt"
+"Playing as a Pirate.txt"→"Игра в роли Пирата.txt"
+"Trading Points.txt"→"Торговые точки.txt"
 
 OUTPUT RULE:
 Output ONLY the translation in Russian.

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfResource>
+	<Resource>
+		<ResourceId>81</ResourceId>
+		<Name>Споры грибов Ютэрре</Name>
+		<Description>Гигантский гриб ютерре встречается на мирах с лесным биомом. Эти грибы могут вырастать до высоты 1,5 метра и производить огромные грибковые споры. Хотя эти споры имеют очень неприятный вкус, они приносят огромную пользу здоровью большинства разумных видов. Они также временно увеличивают умственные способности, часто позволяя получать удивительные озарения в области высшей математики и геометрии.</Description>
+		<BaseCost>9</BaseCost>
+		<ImageFilename>Environment/Resources/YuterreFungalSpores</ImageFilename>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.07</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.02</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchReactor</Type>
+				<Amount>0.10</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+	</Resource>
+
+	<Resource>
+		<ResourceId>82</ResourceId>
+		<Name>Яд паука Каракулас</Name>
+		<Description>Пауки каракулы обитают на мирах альгических лесов. Помимо восьми ног, у них есть две маленькие руки возле головы, которые они используют для манипуляции предметами. Их окрас красно-коричневый, а ширина тела может достигать 30 см и более. Пауки каракулы вырабатывают смертельный яд, который они выпрыскивают изо рта, чтобы быстро обездвижить и убить свою добычу. В разбавленном виде этот яд также может использоваться как мощный антибиотик, снижающий тяжесть большинства чум и инфекций.</Description>
+		<BaseCost>7</BaseCost>
+		<ImageFilename>Environment/Resources/KarakulasSpiderVenom</ImageFilename>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.04</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlagueCuring</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+	</Resource>
+
+	<Resource>
+		<ResourceId>83</ResourceId>
+		<Name>Кожа акридоса</Name>
+		<Description>Драконы акридос — это очень крупные летающие рептилии, обитающие на вулканических мирах с каменистыми пустынями. Их крылья, напоминающие крылья летучих мышей, в размахе достигают 15 метров. Несмотря на свои огромные размеры, они летают практически бесшумно. Они нападают ночью, пикируя на свою добычу и пронзая её огромными когтями своих лап, похожих на клешни. Кожистая кожа огромных крыльев дракона акридоса очень прочная, но при этом крайне лёгкая. Эта кожа высоко ценится за её использование в изготовлении различной одежды.</Description>
+		<BaseCost>6</BaseCost>
+		<ImageFilename>Environment/Resources/AkridosDragonSkin</ImageFilename>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+	</Resource>
+
+	<Resource>
+		<ResourceId>84</ResourceId>
+		<Name>Жемчужины песчаных червей</Name>
+		<Description>Аш-черви обитают на обширных полях пепла вулканических каменистых пустынных миров. Они роют ходы сквозь вулканический пепел, питаясь богатыми отложениями кремнезема. Аш-черви могут достигать длины 2 метров и жить сотни лет. Они также производят красивые жемчужины, которые на самом деле являются блестящими конкрециями химических веществ, содержащихся в пепле. Эти жемчужины ценятся за свои лечебные свойства при растворении в воде. Считается, что они замедляют старение и продлевают жизнь.</Description>
+		<BaseCost>7</BaseCost>
+		<ImageFilename>Environment/Resources/AshWormPearls</ImageFilename>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.03</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+	</Resource>
+
+</ArrayOfResource>
