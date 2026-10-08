@@ -5656,7 +5656,7 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся добывающий корабль</Name>
+		<Name>Неуловимый добывающий корабль</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/mining_ship_02</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -8093,7 +8093,7 @@
 				<Amount>70</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Рейдерский эскорт v2</Name>
+		<Name>Рейдовый эскорт v2</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/escort_03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -12320,7 +12320,7 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся добывающий корабль v2</Name>
+		<Name>Неуловимый добывающий корабль v2</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/mining_ship_02</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -12869,7 +12869,7 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклонистский малый грузовой корабль v2</Name>
+		<Name>Неуловимый малый грузовой корабль v2</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -22956,7 +22956,7 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся добывающий корабль v3</Name>
+		<Name>Неуловимый добывающий корабль v3</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/mining_ship_02</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -23592,7 +23592,7 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся средний грузовой корабль</Name>
+		<Name>Неуловимый средний грузовой корабль</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter02</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -25307,7 +25307,7 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Эсминец рейдеров v2</Name>
+		<Name>Рейдовый эсминец v2</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/destroyer_02</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -30376,7 +30376,7 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся большой грузовой корабль</Name>
+		<Name>Неуловимый большой грузовой корабль</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter05</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -32387,7 +32387,7 @@
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Ударный крейсер</Name>
+		<Name>Рейдовый крейсер</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/cruiser_01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -44362,7 +44362,7 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Ударный крейсер v2</Name>
+		<Name>Рейдовый крейсер v2</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/cruiser_01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -47184,7 +47184,7 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Линкор рейдеров v2</Name>
+		<Name>Рейдовый Линкор v2</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Battleship_02</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -48860,7 +48860,7 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Носитель роя v2</Name>
+		<Name>Рейдовый авианосец v2</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Carrier_01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -50123,7 +50123,7 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Ударный крейсер v3</Name>
+		<Name>Рейдовый крейсер v3</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/cruiser_01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -57543,7 +57543,7 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Носитель роя v3</Name>
+		<Name>Рейдовый авианосец v3</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Carrier_01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -63167,7 +63167,7 @@
 				<Amount>1080</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Материнский корабль рейдеров v4</Name>
+		<Name>Рейдовый Материнский корабль v4</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Carrier_01</ImageFilename>
 	</ShipHull>
 	<ShipHull>

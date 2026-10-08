@@ -5012,7 +5012,7 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Атакующий добывающий корабль</Name>
+		<Name>Ударный добывающий корабль</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/mining_ship_01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -6172,7 +6172,7 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Добывающий корабль «Атака» v2</Name>
+		<Name>Ударный добывающий корабль v2</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/mining_ship_01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -7374,7 +7374,7 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Добывающий корабль v3</Name>
+		<Name>Ударный добывающий корабль v3</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/mining_ship_01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -8534,7 +8534,7 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Атака Малый грузовой корабль</Name>
+		<Name>Ударный малый грузовой корабль</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter01</ImageFilename>
 	</ShipHull>
 	<ShipHull>

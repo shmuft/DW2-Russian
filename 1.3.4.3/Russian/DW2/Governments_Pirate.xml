@@ -135,7 +135,7 @@
 			<string>Бандиты</string>
 			<string>Корсары</string>
 			<string>Бандиты</string>
-			<string>Патрульные корабли</string>
+			<string>Бродяги</string>
 			<string>Вторжение</string>
 			<string>Небесные захватчики</string>
 			<string>Банда</string>
@@ -523,14 +523,14 @@
 			<string>Пираты</string>
 			<string>Мародеры</string>
 			<string>Бандиты</string>
-			<string>Набеговые отряды</string>
+			<string>Рэйдеры</string>
 			<string>Буканьеры</string>
 			<string>Бандиты</string>
 			<string>Корсары</string>
 			<string>Грабители</string>
 			<string>Бандиты</string>
 			<string>Разрушители</string>
-			<string>Патрульные корабли</string>
+			<string>Бродяги</string>
 			<string>Вторжение</string>
 			<string>Захватчики</string>
 			<string>Небесные похитители</string>
@@ -726,7 +726,7 @@
 			<string>Бандиты</string>
 			<string>Корсары</string>
 			<string>Бандиты</string>
-			<string>Патрульные корабли</string>
+			<string>Бродяги</string>
 			<string>Вторжение</string>
 			<string>Банда</string>
 			<string>Наёмники</string>

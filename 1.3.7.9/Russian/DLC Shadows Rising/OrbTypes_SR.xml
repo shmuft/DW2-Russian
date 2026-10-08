@@ -3,7 +3,7 @@
 	<OrbType>
 		<OrbTypeId>40</OrbTypeId>
 		<Category>Planet</Category>
-		<Name>Лесной биом</Name>
+		<Name>Водорослевый лес</Name>
 		<Description>Планеты с грибо-водорослевыми лесами покрыты густой топью из грибковой растительности. Многие из этих грибов имеют красный или оранжевый цвет, что придает этим планетам характерный красный оттенок.\n\nМелководные океаны заполнены водорослями и грибковыми сорняками, из-за чего они также приобретают красный цвет.</Description>
 		<ImageFilename>Environment/OrbTypes/AlgaicForest</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/AlgaicForest</LargeImageFilename>
@@ -101,7 +101,7 @@
 				<AppearanceChance>0.11</AppearanceChance>
 				<Descriptions>
 					<string>Цианобактериальный биорезерват</string>
-					<string>Лес водорослей глубокого океана</string>
+					<string>Глубоководный лес водорослей</string>
 				</Descriptions>
 			</BonusRange>
 		</CommonBonuses>
@@ -165,7 +165,7 @@
 		<OrbTypeId>41</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Каменисто-вулканическая пустыня</Name>
-		<Description>Пустынные и вулканические каменистые планеты покрыты обширными пустынями из пыли и пепла. Другие регионы более активны, с извергающимися вулканами, лавовыми озерами и глубокими каньонами.\n\nПодземные пещеры и туннели здесь распространены, часто через них протекают реки расплавленной лавы.</Description>
+		<Description>Каменистые вулканические планеты покрыты обширными пустынями из пыли и пепла. Другие регионы более активны, с извергающимися вулканами, лавовыми озерами и глубокими каньонами.\n\nПодземные пещеры и туннели здесь распространены, часто через них протекают реки расплавленной лавы.</Description>
 		<ImageFilename>Environment/OrbTypes/RockyDesertVolcanic</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/RockyDesertVolcanic</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/RockyDesertVolcanic</FullsizeImageFilename>
@@ -244,7 +244,7 @@
 				<AppearanceChance>0.11</AppearanceChance>
 				<Descriptions>
 					<string>Пылевые кольца {0}</string>
-					<string>Озера лавы</string>
+					<string>Пылающие озера лавы</string>
 					<string>Огненные пещеры {0}</string>
 					<string>Великая лавовая река</string>
 				</Descriptions>

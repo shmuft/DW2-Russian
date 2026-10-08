@@ -135,7 +135,7 @@
 			<string>Бандиты</string>
 			<string>Корсары</string>
 			<string>Бандиты</string>
-			<string>Патрульные корабли</string>
+			<string>Бродяги</string>
 			<string>Вторжение</string>
 			<string>Небесные похитители</string>
 			<string>Банда</string>
@@ -529,14 +529,14 @@
 			<string>Пираты</string>
 			<string>Мародеры</string>
 			<string>Бандиты</string>
-			<string>Набеговые отряды</string>
+			<string>Рэйдеры</string>
 			<string>Пираты</string>
 			<string>Бандиты</string>
 			<string>Корсары</string>
 			<string>Грабители</string>
 			<string>Бандиты</string>
 			<string>Разрушители</string>
-			<string>Патрульные корабли</string>
+			<string>Бродяги</string>
 			<string>Вторжение</string>
 			<string>Захватчики</string>
 			<string>Небесные похитители</string>
@@ -601,7 +601,7 @@
 		<TradeIncomePerYearPerLimitedTradeTreaty>0</TradeIncomePerYearPerLimitedTradeTreaty>
 		<TradeIncomePerYearPerFreeTradeTreaty>0</TradeIncomePerYearPerFreeTradeTreaty>
 		<SpecialMode>Undefined</SpecialMode>
-		<Name>Набеговые отряды</Name>
+		<Name>Рэйдеры</Name>
 		<Description>Рейдеры пытаются установить контроль над колониями, как независимыми, так и принадлежащими обычным империям. Они обогащаются, откачивая богатства из этих контролируемых колоний.\n\nЧтобы укрепить свой контроль, они отражают нападения конкурирующих пиратских группировок и пытаются построить пиратские базы и крепости в своих колониях.</Description>
 	</Government>
 
@@ -738,7 +738,7 @@
 			<string>Бандиты</string>
 			<string>Корсары</string>
 			<string>Бандиты</string>
-			<string>Патрульные корабли</string>
+			<string>Бродяги</string>
 			<string>Вторжение</string>
 			<string>Банда</string>
 			<string>Наёмники</string>
@@ -950,7 +950,7 @@
 			<string>Бандиты</string>
 			<string>Корсары</string>
 			<string>Бандиты</string>
-			<string>Патрульные корабли</string>
+			<string>Бродяги</string>
 			<string>Вторжение</string>
 			<string>Небесные похитители</string>
 			<string>Банда</string>
@@ -1352,14 +1352,14 @@
 			<string>Пираты</string>
 			<string>Мародеры</string>
 			<string>Бандиты</string>
-			<string>Набеговые отряды</string>
+			<string>Рэйдеры</string>
 			<string>Пираты</string>
 			<string>Бандиты</string>
 			<string>Корсары</string>
 			<string>Грабители</string>
 			<string>Бандиты</string>
 			<string>Разрушители</string>
-			<string>Патрульные корабли</string>
+			<string>Бродяги</string>
 			<string>Вторжение</string>
 			<string>Захватчики</string>
 			<string>Небесные похитители</string>
@@ -1562,7 +1562,7 @@
 			<string>Бандиты</string>
 			<string>Корсары</string>
 			<string>Бандиты</string>
-			<string>Патрульные корабли</string>
+			<string>Бродяги</string>
 			<string>Вторжение</string>
 			<string>Банда</string>
 			<string>Наёмники</string>

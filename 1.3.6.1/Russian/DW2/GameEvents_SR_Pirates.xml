@@ -10734,7 +10734,7 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Оптимизированная огневая мощь</MessageTitle>
-				<Description>Мы передали оружие «Горячие руки» нашим отделам исследований вооружений. Проанализировав уникальные методы пиратов по обходу стандартных ограничений безопасности, наши инженеры обнаружили несколько упрощений для наших собственных проектов.</Description>
+				<Description>Мы передали оружие «Горячих рук» нашим отделам исследований вооружений. Проанализировав уникальные методы пиратов по обходу стандартных ограничений безопасности, наши инженеры обнаружили несколько упрощений для наших собственных проектов.</Description>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>

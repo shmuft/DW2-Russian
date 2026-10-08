@@ -2430,7 +2430,7 @@ It also includes ion defence and some of the most competitive countermeasures on
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся эскорт</Name>
+		<Name>Неуловимый эскорт</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/escort_04</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -5569,7 +5569,7 @@ It also includes ion defence and some of the most competitive countermeasures on
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся добывающий корабль</Name>
+		<Name>Неуловимый добывающий корабль</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Mining_Ship_03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -6096,7 +6096,7 @@ Its superb stealth and extra shield recharge rate help it deliver its cargo anyw
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклонистский малый грузовой корабль</Name>
+		<Name>Неуловимый малый грузовой корабль</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -7942,7 +7942,7 @@ It also includes ion defence and some of the most competitive countermeasures on
 				<Amount>70</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся эскорт v2</Name>
+		<Name>Неуловимый эскорт v2</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/escort_04</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -8699,7 +8699,7 @@ Its extra speed and solid countermeasures are designed to help extract you from 
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся фрегат</Name>
+		<Name>Неуловимый фрегат</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/frigate_03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -12167,7 +12167,7 @@ Its extra speed and solid countermeasures are designed to help extract you from 
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся добывающий корабль v2</Name>
+		<Name>Неуловимый добывающий корабль v2</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Mining_Ship_03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -12703,7 +12703,7 @@ Its superb stealth and extra shield recharge rate help it deliver its cargo anyw
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклонистский малый грузовой корабль v2</Name>
+		<Name>Неуловимый малый грузовой корабль v2</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -16016,7 +16016,7 @@ Its extra speed and solid countermeasures are designed to help extract you from 
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся фрегат v2</Name>
+		<Name>Неуловимый фрегат v2</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/frigate_03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -17005,7 +17005,7 @@ Built for adventure, it offers extra countermeasures and decent cargo capacity, 
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся эсминец</Name>
+		<Name>Неуловимый эсминец</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Destroyer_03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -22634,7 +22634,7 @@ Built for adventure, it offers extra countermeasures and decent cargo capacity, 
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся добывающий корабль v3</Name>
+		<Name>Неуловимый добывающий корабль v3</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Mining_Ship_03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -23274,7 +23274,7 @@ Designed for speed, it also incorporates excellent countermeasures, stealth, and
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся средний грузовой корабль</Name>
+		<Name>Неуловимый средний грузовой корабль</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter04</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -24993,7 +24993,7 @@ Built for adventure, it offers extra countermeasures and decent cargo capacity, 
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся эсминец v2</Name>
+		<Name>Неуловимый эсминец v2</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Destroyer_03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -30030,7 +30030,7 @@ It boasts a fast shield recharge rate and substantial countermeasures while stil
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся большой грузовой корабль</Name>
+		<Name>Неуловимый большой грузовой корабль</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter05</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -32045,7 +32045,7 @@ With ion defence, countermeasures, and eleven weapon bays, you won't be easily t
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся крейсер</Name>
+		<Name>Неуловимый крейсер</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Cruiser_03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -40828,7 +40828,7 @@ It boasts a fast shield recharge rate and substantial countermeasures while stil
 				<Amount>560</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся линейный крейсер</Name>
+		<Name>Неуловимый линейный крейсер</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/battleship_01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -42375,7 +42375,7 @@ It boasts a fast shield recharge rate and substantial countermeasures while stil
 				<Amount>560</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Лёгкий авианосец уклонения</Name>
+		<Name>Неуловимый лёгкий авианосец</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Carrier_02</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -43637,7 +43637,7 @@ With ion defence, countermeasures, and eleven weapon bays, you won't be easily t
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся крейсер v2</Name>
+		<Name>Неуловимый крейсер v2</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Cruiser_03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -46420,7 +46420,7 @@ With ion defence, countermeasures, and eleven weapon bays, you won't be easily t
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся линкор v2</Name>
+		<Name>Неуловимый линкор v2</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/battleship_01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -47972,7 +47972,7 @@ With ion defence, countermeasures, and eleven weapon bays, you won't be easily t
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся авианосец v2</Name>
+		<Name>Неуловимый авианосец v2</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Carrier_02</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -49234,7 +49234,7 @@ With ion defence, countermeasures, and eleven weapon bays, you won't be easily t
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся крейсер v3</Name>
+		<Name>Неуловимый крейсер v3</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Cruiser_03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -54905,7 +54905,7 @@ With ion defence, countermeasures, and eleven weapon bays, you won't be easily t
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся линкор v3</Name>
+		<Name>Неуловимый линкор v3</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/battleship_01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -56457,7 +56457,7 @@ With ion defence, countermeasures, and eleven weapon bays, you won't be easily t
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся авианосец v3</Name>
+		<Name>Неуловимый авианосец v3</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Carrier_02</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -60361,7 +60361,7 @@ With ion defence, countermeasures, and eleven weapon bays, you won't be easily t
 				<Amount>1080</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся дредноут v4</Name>
+		<Name>Неуловимый дредноут v4</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/battleship_01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -61913,7 +61913,7 @@ With ion defence, countermeasures, and eleven weapon bays, you won't be easily t
 				<Amount>1080</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Маневрирующий материнский корабль v4</Name>
+		<Name>Неуловимый материнский корабль v4</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Carrier_02</ImageFilename>
 	</ShipHull>
 	<ShipHull>

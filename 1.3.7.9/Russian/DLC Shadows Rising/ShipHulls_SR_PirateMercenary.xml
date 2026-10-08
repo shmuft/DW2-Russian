@@ -3343,7 +3343,7 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся добывающий корабль</Name>
+		<Name>Неуловимый добывающий корабль</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Mining_Ship_03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -9629,7 +9629,7 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся добывающий корабль v2</Name>
+		<Name>Неуловимый добывающий корабль v2</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Mining_Ship_03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -10178,7 +10178,7 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклонистский малый грузовой корабль v2</Name>
+		<Name>Неуловимый малый грузовой корабль v2</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -19885,7 +19885,7 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся добывающий корабль v3</Name>
+		<Name>Неуловимый добывающий корабль v3</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Mining_Ship_03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -20521,7 +20521,7 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся средний грузовой корабль</Name>
+		<Name>Неуловимый средний грузовой корабль</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter04</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -26995,7 +26995,7 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклоняющийся большой грузовой корабль</Name>
+		<Name>Неуловимый большой грузовой корабль</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter05</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -38786,7 +38786,7 @@
 				<Amount>560</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Лёгкий авианосец</Name>
+		<Name>Ударный лёгкий авианосец</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Mercenaries/Pirates_Carrier_1</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -42584,7 +42584,7 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Линкор атаки v2</Name>
+		<Name>Ударный Линкор v2</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Mercenaries/Pirates_Battleship_1</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -44136,7 +44136,7 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Авианосец атаки v2</Name>
+		<Name>Ударный Авианосец v2</Name>
 		<ImageFilename>Ships/ShadowsRising/Images/Mercenaries/Pirates_Carrier_1</ImageFilename>
 	</ShipHull>
 	<ShipHull>
