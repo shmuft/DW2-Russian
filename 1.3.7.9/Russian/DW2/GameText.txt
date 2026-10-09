@@ -249,9 +249,9 @@ Shields		;Щиты
 Speed		;Скорость
 Weapons		;Оружие
 Health		;Здоровье
-Max DPS		;Макс. DPS
-Range		;Дальность
-Avg DPS		;Средний DPS
+Max DPS		;Мак DPS
+Range		;Дальн.
+Avg DPS		;Ср. DPS
 Min DPS		;Мин. DPS
 Fighters		;Истребители
 Building		;Строится
@@ -1263,7 +1263,7 @@ ComponentCategory FighterBay		;Ангар истребителей
 ComponentCategory FuelStorage		;Хранилище топлива
 ComponentCategory HyperBlock		;Гиперблок
 ComponentCategory HyperDeny		;Гипер-запретитель
-ComponentCategory HyperDrive		;Гипердвигатель
+ComponentCategory HyperDrive		;Гипердв.
 ComponentCategory IonDefense		;Ионная защита
 ComponentCategory MedicalCenter		;Медицинский центр
 ComponentCategory PassengerCompartment		;Пасс. отсек
@@ -2094,12 +2094,12 @@ Construction Yards		;Строительные верфи
 New Construction Yard Locations		;Новые места для верфи
 Construction Ships		;Строительные корабли
 Build Order		;Порядок строительства
-Construction Wait Time		;Время ожидания
+Construction Wait Time		;Время стр-ва
 BASENAME already built here		;{0} уже построен здесь
 SHIPROLE already under construction here		;{0} уже строится здесь
 Ship Designs		;Дизайны кораблей
 Unbuilt		;Непостр.
-Normal		;Нормально
+Normal		;Норма
 Destroyed		;Уничт.
 Disabled		;Откл.
 Enabled		;Включено
@@ -3632,7 +3632,7 @@ Personality		;Личность
 Capacity		;Вместимость
 Design Overview		;Обзор конструкции
 Reactor Output		;Мощность реактора
-Output		;Мощность
+Output		;Мощн.
 Rating		;Рейтинг
 EnergyPerFuelExplanation		;Реакторы генер. {0} энергии на ед. топл.
 Available Components		;Доступные компоненты
@@ -7833,7 +7833,7 @@ Trade Equipment		;Торговое оборудование
 Ships at X		;Корабли в {0}
 Ships for sale at X		;Корабли на продажу в\n{0}
 Ships for sale at		;Корабли на продажу в
-Select Empty Ship Hull		;Выбрать пустой корпус корабля
+Select Empty Ship Hull		;Выбрать пустой корпус
 Select Ship Hull with Components		;Выбрать корпус корабля с компонентами
 Select Ship Hull with Components Explanation		;Это создаст проект корабля, укомплектованного лучшими доступными компонентами на Теневом порту
 Select Empty Ship Hull X credits		;Выбрать пустой корпус корабля\n({0} кредитов)
@@ -8041,7 +8041,7 @@ Click to deselect		;Нажмите, чтобы снять выделение
 Trade-In Price	;Выкупная цена
 Trade-in price for your existing ship NAME is AMOUNT		;Выкупная цена за ваш существующий корабль '{0}' составляет {1} кредитов
 
-ETA: X secs		;Время ожидания: {0} сек.
+ETA: X secs		;Осталось: {0} сек.
 
 Greetings X		;Приветствую, {0}!
 Welcome to X		;Добро пожаловать в {0}.
@@ -8534,7 +8534,7 @@ Welcome back to X		;Добро пожаловать обратно в {0}
 Our services are at your command		;Наши услуги к вашим услугам.
 
 Refunds		;Возврат
-Less Refunds		;За вычетом возвратов
+Less Refunds		;Вычет
 Refund Amount		;Сумма возврата
 Refund amount for removed components		;Сумма возврата за удаленные компоненты. При удалении старых компонентов из проекта вы получаете возврат 25% их стоимости.
 
