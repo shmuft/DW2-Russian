@@ -1987,8 +1987,8 @@
 		<Role>Escort</Role>
 		<Level>5</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Wildfire ST100</MarketingName>
-		<MarketingDescription>The legendary Wildfire showcases incredible speed and significantly more cargo capacity than industry standard. As the infamous Dol Kassieda once said: It’s a dream to fly and a nightmare to pin down.</MarketingDescription>
+		<MarketingName>Шквал ST100</MarketingName>
+		<MarketingDescription>Легендарный «Шквал» демонстрирует невероятную скорость и значительно большую грузоподъемность по сравнению со стандартными отраслевыми показателями. Как однажды сказал знаменитый Дол Кассиэда: «Летать на нем — мечта, а поймать — кошмар».</MarketingDescription>
 		<Size>125</Size>
 		<MaximumSize>400</MaximumSize>
 		<DisplaySize>200</DisplaySize>
@@ -7540,8 +7540,8 @@
 		<Role>Escort</Role>
 		<Level>9</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Wildfire ST190</MarketingName>
-		<MarketingDescription>The legendary Wildfire showcases incredible speed and significantly more cargo capacity than industry standard. As the infamous Dol Kassieda once said: It’s a dream to fly and a nightmare to pin down.</MarketingDescription>
+		<MarketingName>Шквал ST190</MarketingName>
+		<MarketingDescription>Легендарный «Шквал» демонстрирует невероятную скорость и значительно большую грузоподъемность по сравнению со стандартными отраслевыми показателями. Как однажды сказал знаменитый Дол Кассиэда: «Летать на нем — мечта, а поймать — кошмар».</MarketingDescription>
 		<Size>140</Size>
 		<MaximumSize>440</MaximumSize>
 		<DisplaySize>217</DisplaySize>
@@ -8130,8 +8130,8 @@
 		<Role>Frigate</Role>
 		<Level>6</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Lightning PX3</MarketingName>
-		<MarketingDescription>The Lightning lives up to its name—with exceptional speed and a superb stealth system, you can be gone before they even knew you were there. This adaptable frigate is the first choice for many captains.</MarketingDescription>
+		<MarketingName>Молния PX3</MarketingName>
+		<MarketingDescription>«Молния» полностью оправдывает своё название: благодаря исключительной скорости и превосходной системе скрытности вы сможете исчезнуть, прежде чем противник даже поймёт, что вы были здесь. Этот универсальный фрегат является первым выбором для многих капитанов.</MarketingDescription>
 		<Size>150</Size>
 		<MaximumSize>475</MaximumSize>
 		<DisplaySize>250</DisplaySize>
@@ -15466,8 +15466,8 @@
 		<Role>Frigate</Role>
 		<Level>10</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Lightning PX6</MarketingName>
-		<MarketingDescription>The Lightning lives up to its name—with exceptional speed and a superb stealth system, you can be gone before they even knew you were there. This adaptable frigate is the first choice for many captains.</MarketingDescription>
+		<MarketingName>Молния PX6</MarketingName>
+		<MarketingDescription>«Молния» полностью оправдывает своё название: благодаря исключительной скорости и превосходной системе скрытности вы сможете исчезнуть, прежде чем противник даже поймёт, что вы были здесь. Этот универсальный фрегат является первым выбором для многих капитанов.</MarketingDescription>
 		<Size>165</Size>
 		<MaximumSize>515</MaximumSize>
 		<DisplaySize>275</DisplaySize>
@@ -16208,8 +16208,8 @@
 		<Role>Destroyer</Role>
 		<Level>6</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Firebolt Z7</MarketingName>
-		<MarketingDescription>The Firebolt incorporates ion defence, excellent manoevering, and still has ample room for any cargo. Its signature speed is among the best in the galaxy for its size.</MarketingDescription>
+		<MarketingName>Сполох Z7</MarketingName>
+		<MarketingDescription>«Сполох» оснащён ионной защитой, отличной маневренностью и по-прежнему обладает достаточным пространством для любого груза. Его характерная скорость входит в число лучших в галактике для кораблей такого размера.</MarketingDescription>
 		<Size>200</Size>
 		<MaximumSize>625</MaximumSize>
 		<DisplaySize>325</DisplaySize>
@@ -24215,8 +24215,8 @@
 		<Role>Destroyer</Role>
 		<Level>10</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Firebolt Z8</MarketingName>
-		<MarketingDescription>The Firebolt incorporates ion defence, excellent manoevering, and still has ample room for any cargo. Its signature speed is among the best in the galaxy for its size.</MarketingDescription>
+		<MarketingName>«Сполох» Z8</MarketingName>
+		<MarketingDescription>«Сполох» оснащён ионной защитой, отличной маневренностью и по-прежнему обладает достаточным пространством для любого груза. Его характерная скорость входит в число лучших в галактике для кораблей такого размера.</MarketingDescription>
 		<Size>225</Size>
 		<MaximumSize>700</MaximumSize>
 		<DisplaySize>340</DisplaySize>
@@ -31027,8 +31027,8 @@
 		<Role>Cruiser</Role>
 		<Level>11</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Thunderstrike RF100</MarketingName>
-		<MarketingDescription>The Thunderstrike is a popular option for those wanting versatility without compromising on speed or manoeuvrability. The incredibly spacious cruiser even incorporates extra weapons range.</MarketingDescription>
+		<MarketingName>Громовержец RF100</MarketingName>
+		<MarketingDescription>«Громовержец» — популярный выбор для тех, кто хочет получить универсальность, не жертвуя скоростью или маневренностью. Этот невероятно просторный крейсер даже включает увеличенную дальность стрельбы.</MarketingDescription>
 		<Size>250</Size>
 		<MaximumSize>775</MaximumSize>
 		<DisplaySize>410</DisplaySize>
@@ -42775,8 +42775,8 @@
 		<Role>Cruiser</Role>
 		<Level>15</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Thunderstrike RF200</MarketingName>
-		<MarketingDescription>The Thunderstrike is a popular option for those wanting versatility without compromising on speed or manoeuvrability. The incredibly spacious cruiser even incorporates extra weapons range.</MarketingDescription>
+		<MarketingName>Громовержец RF200</MarketingName>
+		<MarketingDescription>«Громовержец» — популярный выбор для тех, кто хочет получить универсальность, не жертвуя скоростью или маневренностью. Этот невероятно просторный крейсер даже включает увеличенную дальность стрельбы.</MarketingDescription>
 		<Size>280</Size>
 		<MaximumSize>855</MaximumSize>
 		<DisplaySize>433</DisplaySize>
@@ -48533,8 +48533,8 @@
 		<Role>Cruiser</Role>
 		<Level>19</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Thunderstrike RF300</MarketingName>
-		<MarketingDescription>The Thunderstrike is a popular option for those wanting versatility without compromising on speed or manoeuvrability. The incredibly spacious cruiser even incorporates extra weapons range.</MarketingDescription>
+		<MarketingName>Громовержец RF300</MarketingName>
+		<MarketingDescription>«Громовержец» — популярный выбор для тех, кто хочет получить универсальность, не жертвуя скоростью или маневренностью. Этот невероятно просторный крейсер даже включает увеличенную дальность стрельбы.</MarketingDescription>
 		<Size>300</Size>
 		<MaximumSize>925</MaximumSize>
 		<DisplaySize>450</DisplaySize>

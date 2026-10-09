@@ -2843,6 +2843,22 @@ TERMINOLOGY RULES:
   - "'System names"→"'System names"
   - "Privateering Agreement"→"Соглашение о каперстве"
   - "Anarchopolis Wonder"→"Чудо Анархополис"
+  - "Falcon"→"Сокол"
+  - "Kestrel"→"Пустельга"
+  - "Harrier"→"Лунь"
+  - "Hawk"→"Ястреб"
+  - "Osprey"→"Скопа"
+  - "Condor"→"Кондор"
+  - "Eagle"→"Орёл"
+  - "Blitz"→"Блиц"
+  - "Turbulent"→"Турбулент"
+  - "Surge"→"Всплеск"
+  - "Warlord"→"Воевода"
+  - "Wildfire"→"Шквал"
+  - "Lightning"→"Молния"
+  - "Firebolt"→"Сполох"
+  - "Thunderstrike"→"Громовержец"
+
 SPECIES RULES:
 24. Species names are alien ethnonyms, not personal names.
 

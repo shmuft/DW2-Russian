@@ -6,8 +6,8 @@
 		<Role>Escort</Role>
 		<Level>4</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Blitz AT1000</MarketingName>
-		<MarketingDescription>The Blitz incorporates a versatile array of features, including excellent speed and manoeuvrability and a brilliant targeting system. This popular model even includes extra countermeasures.</MarketingDescription>
+		<MarketingName>Блиц AT1000</MarketingName>
+		<MarketingDescription>«Блиц» сочетает в себе широкий спектр возможностей, включая высокую скорость и маневренность, а также превосходную систему наведения. Эта популярная модель даже оснащена дополнительными контрмерами.</MarketingDescription>
 		<Size>125</Size>
 		<MaximumSize>400</MaximumSize>
 		<DisplaySize>200</DisplaySize>
@@ -5182,8 +5182,8 @@
 		<Role>Escort</Role>
 		<Level>8</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Blitz AT1600</MarketingName>
-		<MarketingDescription>The Blitz incorporates a versatile array of features, including excellent speed and manoeuvrability and a brilliant targeting system. This popular model even includes extra countermeasures.</MarketingDescription>
+		<MarketingName>Блиц АТ1600</MarketingName>
+		<MarketingDescription>«Блиц» сочетает в себе широкий спектр возможностей, включая высокую скорость и маневренность, а также превосходную систему наведения. Эта популярная модель даже оснащена дополнительными контрмерами.</MarketingDescription>
 		<Size>140</Size>
 		<MaximumSize>440</MaximumSize>
 		<DisplaySize>217</DisplaySize>
@@ -5743,8 +5743,8 @@
 		<Role>Frigate</Role>
 		<Level>5</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Turbulent FG4</MarketingName>
-		<MarketingDescription>The Turbulent gives you flexibility and offensive range, especially with its enhanced targeting. The line is designed for attack versatility and reliability.</MarketingDescription>
+		<MarketingName>Турбулент FG4</MarketingName>
+		<MarketingDescription>«Турбулент» обеспечивает гибкость и дальность атаки, особенно благодаря улучшенной системе наведения. Этот класс кораблей создан для атакующей универсальности и надежности.</MarketingDescription>
 		<Size>150</Size>
 		<MaximumSize>475</MaximumSize>
 		<DisplaySize>250</DisplaySize>
@@ -12810,8 +12810,8 @@
 		<Role>Frigate</Role>
 		<Level>9</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Turbulent FG7</MarketingName>
-		<MarketingDescription>The Turbulent gives you flexibility and offensive range, especially with its enhanced targeting. The line is designed for attack versatility and reliability.</MarketingDescription>
+		<MarketingName>Турбулент FG7</MarketingName>
+		<MarketingDescription>«Турбулент» обеспечивает гибкость и дальность атаки, особенно благодаря улучшенной системе наведения. Этот класс кораблей создан для атакующей универсальности и надежности.</MarketingDescription>
 		<Size>165</Size>
 		<MaximumSize>515</MaximumSize>
 		<DisplaySize>275</DisplaySize>
@@ -13591,8 +13591,8 @@
 		<Role>Destroyer</Role>
 		<Level>5</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Surge KR50</MarketingName>
-		<MarketingDescription>Built for attack, the Surge carries extra speed for those tough situations. Its up-to-date countermeasures and targeting systems give it an edge against any opponents you might come up against.</MarketingDescription>
+		<MarketingName>Всплеск KR50</MarketingName>
+		<MarketingDescription>Созданный для атаки, «Всплеск» обладает повышенной скоростью для самых сложных ситуаций. Его современные системы противодействия и наведения дают ему преимущество над любыми противниками, с которыми вы можете столкнуться.</MarketingDescription>
 		<Size>200</Size>
 		<MaximumSize>625</MaximumSize>
 		<DisplaySize>325</DisplaySize>
@@ -21255,8 +21255,8 @@
 		<Role>Destroyer</Role>
 		<Level>9</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Surge KR80</MarketingName>
-		<MarketingDescription>Built for attack, the Surge carries extra speed for those tough situations. Its up-to-date countermeasures and targeting systems give it an edge against any opponents you might come up against.</MarketingDescription>
+		<MarketingName>Всплеск KR80</MarketingName>
+		<MarketingDescription>Созданный для атаки, «Всплеск» обладает повышенной скоростью для самых сложных ситуаций. Его современные системы противодействия и наведения дают ему преимущество над любыми противниками, с которыми вы можете столкнуться.</MarketingDescription>
 		<Size>225</Size>
 		<MaximumSize>700</MaximumSize>
 		<DisplaySize>340</DisplaySize>
@@ -27761,8 +27761,8 @@
 		<Role>Cruiser</Role>
 		<Level>10</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Warlord MX100</MarketingName>
-		<MarketingDescription>The Warlord model cruiser is well-known for packing a punch. It carries the latest in armament development, with increased weapons range and weapons damage.</MarketingDescription>
+		<MarketingName>Воевода МХ100</MarketingName>
+		<MarketingDescription>Крейсер модели «Воевода» известен своей мощью. Он оснащен новейшими разработками в области вооружения, увеличенной дальностью стрельбы и повышенным уроном.</MarketingDescription>
 		<Size>250</Size>
 		<MaximumSize>775</MaximumSize>
 		<DisplaySize>410</DisplaySize>
@@ -38795,8 +38795,8 @@
 		<Role>Cruiser</Role>
 		<Level>14</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Warlord MX200</MarketingName>
-		<MarketingDescription>The Warlord model cruiser is well-known for packing a punch. It carries the latest in armament development, with increased weapons range and weapons damage.</MarketingDescription>
+		<MarketingName>Воевода MX200</MarketingName>
+		<MarketingDescription>Крейсер модели «Воевода» известен своей мощью. Он оснащен новейшими разработками в области вооружения, увеличенной дальностью стрельбы и повышенным уроном.</MarketingDescription>
 		<Size>280</Size>
 		<MaximumSize>855</MaximumSize>
 		<DisplaySize>433</DisplaySize>
@@ -44145,8 +44145,8 @@
 		<Role>Cruiser</Role>
 		<Level>18</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Warlord MX300</MarketingName>
-		<MarketingDescription>The Warlord model cruiser is well-known for packing a punch. It carries the latest in armament development, with increased weapons range and weapons damage.</MarketingDescription>
+		<MarketingName>Воевода MX300</MarketingName>
+		<MarketingDescription>Крейсер модели «Воевода» известен своей мощью. Он оснащен новейшими разработками в области вооружения, увеличенной дальностью стрельбы и повышенным уроном.</MarketingDescription>
 		<Size>300</Size>
 		<MaximumSize>925</MaximumSize>
 		<DisplaySize>450</DisplaySize>

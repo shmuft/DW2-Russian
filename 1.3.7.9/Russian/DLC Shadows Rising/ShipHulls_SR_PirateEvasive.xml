@@ -1885,10 +1885,8 @@
 		<Role>Escort</Role>
 		<Level>3</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Kestrel T100</MarketingName>
-		<MarketingDescription>The Kestrel series combines raw speed with excellent agility, giving it the edge in quickly evading attackers. 
-
-It also includes ion defence and some of the most competitive countermeasures on the market.</MarketingDescription>
+		<MarketingName>Пустельга T100</MarketingName>
+		<MarketingDescription>Серия «Пустельга» сочетает высокую скорость с отличной маневренностью, что дает ей преимущество в быстром уклонении от атак.\n\nОна также оснащена ионной защитой и одними из самых эффективных систем противодействия на рынке.</MarketingDescription>
 		<Size>125</Size>
 		<MaximumSize>400</MaximumSize>
 		<DisplaySize>200</DisplaySize>
@@ -5578,10 +5576,8 @@ It also includes ion defence and some of the most competitive countermeasures on
 		<Role>FreighterSmall</Role>
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Harrier LT1000</MarketingName>
-		<MarketingDescription>The Harrier is an exceptionally practical make, intended as a tough all-rounder. 
-
-Its superb stealth and extra shield recharge rate help it deliver its cargo anywhere in the galaxy.</MarketingDescription>
+		<MarketingName>Лунь LT1000</MarketingName>
+		<MarketingDescription>«Лунь» — исключительно практичный корабль, созданный как надёжный универсал.\n\nЕго превосходная скрытность и увеличенная скорость перезарядки щитов позволяют доставлять грузы в любую точку галактики.</MarketingDescription>
 		<Size>125</Size>
 		<MaximumSize>450</MaximumSize>
 		<DisplaySize>150</DisplaySize>
@@ -7393,10 +7389,8 @@ Its superb stealth and extra shield recharge rate help it deliver its cargo anyw
 		<Role>Escort</Role>
 		<Level>7</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Kestrel T200</MarketingName>
-		<MarketingDescription>The Kestrel series combines raw speed with excellent agility, giving it the edge in quickly evading attackers. 
-
-It also includes ion defence and some of the most competitive countermeasures on the market.</MarketingDescription>
+		<MarketingName>Пустельга T200</MarketingName>
+		<MarketingDescription>Серия «Пустельга» сочетает высокую скорость с отличной маневренностью, что дает ей преимущество в быстром уклонении от атак.\n\nОна также оснащена ионной защитой и одними из самых эффективных систем противодействия на рынке.</MarketingDescription>
 		<Size>140</Size>
 		<MaximumSize>440</MaximumSize>
 		<DisplaySize>217</DisplaySize>
@@ -7951,10 +7945,8 @@ It also includes ion defence and some of the most competitive countermeasures on
 		<Role>Frigate</Role>
 		<Level>4</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Falcon XT1000</MarketingName>
-		<MarketingDescription>The Falcon is a step up in size while preserving its exceptional manoeuvrability. 
-
-Its extra speed and solid countermeasures are designed to help extract you from any sticky situation you find yourself in.</MarketingDescription>
+		<MarketingName>Сокол XT1000</MarketingName>
+		<MarketingDescription>«Сокол» — это корабль большего размера, сохраняющий исключительную маневренность.\n\nЕго повышенная скорость и надежные системы противодействия созданы для того, чтобы помочь вам выбраться из любой сложной ситуации.</MarketingDescription>
 		<Size>150</Size>
 		<MaximumSize>475</MaximumSize>
 		<DisplaySize>250</DisplaySize>
@@ -12176,10 +12168,8 @@ Its extra speed and solid countermeasures are designed to help extract you from 
 		<Role>FreighterSmall</Role>
 		<Level>4</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Harrier LT1500</MarketingName>
-		<MarketingDescription>The Harrier is an exceptionally practical make, intended as a tough all-rounder. 
-
-Its superb stealth and extra shield recharge rate help it deliver its cargo anywhere in the galaxy.</MarketingDescription>
+		<MarketingName>Лунь LT1500</MarketingName>
+		<MarketingDescription>«Лунь» — исключительно практичный корабль, созданный как надёжный универсал.\n\nЕго превосходная скрытность и увеличенная скорость перезарядки щитов позволяют доставлять грузы в любую точку галактики.</MarketingDescription>
 		<Size>150</Size>
 		<MaximumSize>500</MaximumSize>
 		<DisplaySize>150</DisplaySize>
@@ -15264,10 +15254,8 @@ Its superb stealth and extra shield recharge rate help it deliver its cargo anyw
 		<Role>Frigate</Role>
 		<Level>8</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Falcon XT1200</MarketingName>
-		<MarketingDescription>The Falcon is a step up in size while preserving its exceptional manoeuvrability. 
-
-Its extra speed and solid countermeasures are designed to help extract you from any sticky situation you find yourself in.</MarketingDescription>
+		<MarketingName>Сокол XT1200</MarketingName>
+		<MarketingDescription>«Сокол» — это корабль большего размера, сохраняющий исключительную маневренность.\n\nЕго повышенная скорость и надежные системы противодействия созданы для того, чтобы помочь вам выбраться из любой сложной ситуации.</MarketingDescription>
 		<Size>165</Size>
 		<MaximumSize>515</MaximumSize>
 		<DisplaySize>275</DisplaySize>
@@ -16025,10 +16013,8 @@ Its extra speed and solid countermeasures are designed to help extract you from 
 		<Role>Destroyer</Role>
 		<Level>4</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Hawk KR1000</MarketingName>
-		<MarketingDescription>The Hawk model of destroyer is a fast, reliable choice. 
-
-Built for adventure, it offers extra countermeasures and decent cargo capacity, while the additional speed is sure to come in handy.</MarketingDescription>
+		<MarketingName>Ястреб KR1000</MarketingName>
+		<MarketingDescription>Модель эсминца «Ястреб» — это быстрый и надежный выбор.\n\nСозданный для приключений, он предлагает дополнительные контрмеры и приличную грузовместимость, а дополнительная скорость наверняка окажется полезной.</MarketingDescription>
 		<Size>200</Size>
 		<MaximumSize>625</MaximumSize>
 		<DisplaySize>325</DisplaySize>
@@ -22643,10 +22629,8 @@ Built for adventure, it offers extra countermeasures and decent cargo capacity, 
 		<Role>FreighterMedium</Role>
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Osprey JT100</MarketingName>
-		<MarketingDescription>The Osprey is an agile, highly popular model of freighter. 
-
-Designed for speed, it also incorporates excellent countermeasures, stealth, and shield recharge.</MarketingDescription>
+		<MarketingName>Скопа JT100</MarketingName>
+		<MarketingDescription>«Скопа» — это маневрная и очень популярная модель грузового корабля.\n\nСпроектированный для скорости, он также обладает отличными контрмерами, скрытностью и скоростью перезарядки щитов.</MarketingDescription>
 		<Size>200</Size>
 		<MaximumSize>650</MaximumSize>
 		<DisplaySize>200</DisplaySize>
@@ -24008,10 +23992,8 @@ Designed for speed, it also incorporates excellent countermeasures, stealth, and
 		<Role>Destroyer</Role>
 		<Level>8</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Hawk KR1600</MarketingName>
-		<MarketingDescription>The Hawk model of destroyer is a fast, reliable choice. 
-
-Built for adventure, it offers extra countermeasures and decent cargo capacity, while the additional speed is sure to come in handy.</MarketingDescription>
+		<MarketingName>Ястреб KR1600</MarketingName>
+		<MarketingDescription>Модель эсминца «Ястреб» — это быстрый и надежный выбор.\n\nСозданный для приключений, он предлагает дополнительные контрмеры и приличную грузовместимость, а дополнительная скорость наверняка окажется полезной.</MarketingDescription>
 		<Size>225</Size>
 		<MaximumSize>700</MaximumSize>
 		<DisplaySize>340</DisplaySize>
@@ -29367,10 +29349,8 @@ Built for adventure, it offers extra countermeasures and decent cargo capacity, 
 		<Role>FreighterLarge</Role>
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Condor TK100</MarketingName>
-		<MarketingDescription>The Condor line incorporates larger capacity with solid defence. 
-
-It boasts a fast shield recharge rate and substantial countermeasures while still maintaining its famous speed.</MarketingDescription>
+		<MarketingName>Кондор ТК100</MarketingName>
+		<MarketingDescription>Линейка «Кондор» сочетает увеличенную вместимость с надежной защитой.\n\nОна отличается высокой скоростью перезарядки щитов и мощными системами противодействия, сохраняя при этом свою знаменитую скорость.</MarketingDescription>
 		<Size>225</Size>
 		<MaximumSize>725</MaximumSize>
 		<DisplaySize>250</DisplaySize>
@@ -30796,10 +30776,8 @@ It boasts a fast shield recharge rate and substantial countermeasures while stil
 		<Role>Cruiser</Role>
 		<Level>9</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Eagle FX1000</MarketingName>
-		<MarketingDescription>The Eagle balances attack and defence, swifter than average and with extra weapons range. 
-
-With ion defence, countermeasures, and eleven weapon bays, you won't be easily taken down.</MarketingDescription>
+		<MarketingName>Орёл FX1000</MarketingName>
+		<MarketingDescription>«Орёл» балансирует между атакой и защитой, он быстрее среднего и обладает увеличенной дальностью оружия.\n\nБлагодаря ионной обороне, контрмерам и одиннадцати оружейным отсекам, его будет непросто сбить.</MarketingDescription>
 		<Size>250</Size>
 		<MaximumSize>775</MaximumSize>
 		<DisplaySize>410</DisplaySize>
@@ -36122,10 +36100,8 @@ With ion defence, countermeasures, and eleven weapon bays, you won't be easily t
 		<Role>FreighterLarge</Role>
 		<Level>4</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Condor TK200</MarketingName>
-		<MarketingDescription>The Condor line incorporates larger capacity with solid defence. 
-
-It boasts a fast shield recharge rate and substantial countermeasures while still maintaining its famous speed.</MarketingDescription>
+		<MarketingName>Кондор ТК200</MarketingName>
+		<MarketingDescription>Линейка «Кондор» сочетает увеличенную вместимость с надежной защитой.\n\nОна отличается высокой скоростью перезарядки щитов и мощными системами противодействия, сохраняя при этом свою знаменитую скорость.</MarketingDescription>
 		<Size>250</Size>
 		<MaximumSize>775</MaximumSize>
 		<DisplaySize>250</DisplaySize>
@@ -42384,10 +42360,8 @@ It boasts a fast shield recharge rate and substantial countermeasures while stil
 		<Role>Cruiser</Role>
 		<Level>13</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Eagle FX1400</MarketingName>
-		<MarketingDescription>The Eagle balances attack and defence, swifter than average and with extra weapons range. 
-
-With ion defence, countermeasures, and eleven weapon bays, you won't be easily taken down.</MarketingDescription>
+		<MarketingName>Орёл FX1400</MarketingName>
+		<MarketingDescription>«Орёл» балансирует между атакой и защитой, он быстрее среднего и обладает увеличенной дальностью оружия.\n\nБлагодаря ионной обороне, контрмерам и одиннадцати оружейным отсекам, его будет непросто сбить.</MarketingDescription>
 		<Size>280</Size>
 		<MaximumSize>855</MaximumSize>
 		<DisplaySize>433</DisplaySize>
@@ -47981,10 +47955,8 @@ With ion defence, countermeasures, and eleven weapon bays, you won't be easily t
 		<Role>Cruiser</Role>
 		<Level>17</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Eagle FX1800</MarketingName>
-		<MarketingDescription>The Eagle balances attack and defence, swifter than average and with extra weapons range. 
-
-With ion defence, countermeasures, and eleven weapon bays, you won't be easily taken down.</MarketingDescription>
+		<MarketingName>Орёл FX1800</MarketingName>
+		<MarketingDescription>«Орёл» балансирует между атакой и защитой, он быстрее среднего и обладает увеличенной дальностью оружия.\n\nБлагодаря ионной обороне, контрмерам и одиннадцати оружейным отсекам, его будет непросто сбить.</MarketingDescription>
 		<Size>300</Size>
 		<MaximumSize>925</MaximumSize>
 		<DisplaySize>450</DisplaySize>

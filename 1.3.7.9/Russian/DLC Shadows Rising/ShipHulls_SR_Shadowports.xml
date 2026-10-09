@@ -8543,8 +8543,8 @@
 		<Role>FreighterSmall</Role>
 		<Level>3</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Agility KS12</MarketingName>
-		<MarketingDescription>The Agility provides superior speed and maneuverability, allowing you to get things done faster. It's also handy when you need to make any quick escapes.</MarketingDescription>
+		<MarketingName>Ловкость KS12</MarketingName>
+		<MarketingDescription>"Ловкость" обеспечивает превосходную скорость и подвижность, позволяя быстрее выполнять задачи. Она также пригодится, когда нужно совершить быстрое отступление.</MarketingDescription>
 		<Size>125</Size>
 		<MaximumSize>450</MaximumSize>
 		<DisplaySize>150</DisplaySize>
@@ -9639,8 +9639,8 @@
 		<Role>FreighterSmall</Role>
 		<Level>6</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Agility KS18</MarketingName>
-		<MarketingDescription>The Agility provides superior speed and maneuverability, allowing you to get things done faster. It's also handy when you need to make any quick escapes.</MarketingDescription>
+		<MarketingName>Ловкость KS18</MarketingName>
+		<MarketingDescription>"Ловкость" обеспечивает превосходную скорость и подвижность, позволяя быстрее выполнять задачи. Она также пригодится, когда нужно совершить быстрое отступление.</MarketingDescription>
 		<Size>150</Size>
 		<MaximumSize>500</MaximumSize>
 		<DisplaySize>150</DisplaySize>
@@ -10826,8 +10826,8 @@
 		<Role>FreighterMedium</Role>
 		<Level>3</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<MarketingName>Velocitor TX500</MarketingName>
-		<MarketingDescription>The Velocitor delivers excellent speed and good maneuverability, making it a top choice for moving cargo rapidly.</MarketingDescription>
+		<MarketingName>Разгонщик TX500</MarketingName>
+		<MarketingDescription>«Разгонщик» обеспечивает отличную скорость и хорошую маневренность, что делает его лучшим выбором для быстрой перевозки грузов.</MarketingDescription>
 		<Size>200</Size>
 		<MaximumSize>650</MaximumSize>
 		<DisplaySize>200</DisplaySize>
