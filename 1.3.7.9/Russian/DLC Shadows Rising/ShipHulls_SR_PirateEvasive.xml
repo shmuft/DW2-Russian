@@ -6096,7 +6096,7 @@ Its superb stealth and extra shield recharge rate help it deliver its cargo anyw
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Неуловимый малый грузовой корабль</Name>
+		<Name>Неуловимый малый грузовоз</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -12703,7 +12703,7 @@ Its superb stealth and extra shield recharge rate help it deliver its cargo anyw
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Неуловимый малый грузовой корабль v2</Name>
+		<Name>Неуловимый малый грузовоз v2</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -23274,7 +23274,7 @@ Designed for speed, it also incorporates excellent countermeasures, stealth, and
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Неуловимый средний грузовой корабль</Name>
+		<Name>Неуловимый средний грузовоз</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter04</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -30030,7 +30030,7 @@ It boasts a fast shield recharge rate and substantial countermeasures while stil
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Неуловимый большой грузовой корабль</Name>
+		<Name>Неуловимый большой грузовоз</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter05</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -36785,7 +36785,7 @@ It boasts a fast shield recharge rate and substantial countermeasures while stil
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Уклонистский большой грузовой корабль v2</Name>
+		<Name>Неуловимый большой грузовоз v2</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter05</ImageFilename>
 	</ShipHull>
 	<ShipHull>

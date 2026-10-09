@@ -496,7 +496,7 @@ def iter_translatable_elements(root, skip_technical=False):
                         continue
                     yield (child, tag, f"{elem_tag}/{tag}")
         elif elem_tag == 'ShipHull':
-            for tag in ['Name', 'Description']:
+            for tag in ['Name', 'Description', 'MarketingName', 'MarketingDescription']:
                 for child in elem.iter(tag):
                     if skip_technical and child.tag in technical_tags:
                         continue

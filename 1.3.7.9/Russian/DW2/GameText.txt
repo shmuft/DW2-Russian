@@ -198,7 +198,7 @@ Quality		;Качество
 We have raided TARGET of the EMPIRE but failed to obtain any loot		;Мы совершили набег на [LOCATION]{0}[/LOCATION] у [FACTION]{1}[/FACTION], но не смогли добыть никакой добычи
 The EMPIRE have raided our base TARGET but failed to obtain any loot		;[FACTION]{0}[/FACTION] совершили налёт на нашу базу [LOCATION]{1}[/LOCATION], но не смогли захватить никакого трофея
 The EMPIRE have raided our colony TARGET but failed to obtain any loot		;[FACTION]{0}[/FACTION] совершили набег на нашу колонию [LOCATION]{1}[/LOCATION], но не смогли захватить добычу
-X credits		;{0} кредитов
+X credits		;{0} кр.
 Research breakthrough in PROJECT		;Прорыв в исследованиях в области {0}
 Improved our understanding of PROJECT		;Улучшено наше понимание в {0}
 We have raided base TARGET of the EMPIRE and pillaged the following FAIL		;Мы совершили набег на базу [LOCATION]{0}[/LOCATION] фракции [FACTION]{1}[/FACTION]! Отчаянное сопротивление заставило нас отступить, но до этого нам удалось захватить следующее добытое имущество: {2}
@@ -985,7 +985,7 @@ HyperDenyRange		;Дальн. гипер-запрет
 HyperDenyStrength		;Мощн. гипер-запрет
 HyperDriveBlockingInsulation		;Гиперблок. защита
 HyperDriveEnergyUsage		;Эн.потр. гипердв
-HyperDriveJumpInitiationTime		;Время инициации прыжка
+HyperDriveJumpInitiationTime		;Время до прыжка
 HyperDriveJumpRange		;Дальность прыжка
 HyperDriveJumpAccuracy		;Точность прыжка
 HyperDriveRechargeTime		;Время перез. гипердв.
@@ -1019,7 +1019,7 @@ ScannerTraceRange		;Дальность скан-я следа
 ShieldPenetrationChance		;Шанс пробития щита
 ShieldPenetrationRatio		;Коэф. пробития щита
 ShieldRechargeRate		;Скор. подзар. щитов
-ShieldRechargeEnergyUsage		;Энергопотребление подзарядки щитов
+ShieldRechargeEnergyUsage		;Потр. на зарядку щитов
 ShieldResistance		;Сопротивление щита
 ShieldStrength		;Прочность щита
 StaticEnergyUsed		;Базов. потреб
@@ -1258,7 +1258,7 @@ ComponentCategory EnergyToFuel		;Преобр. энер. в топл.
 ComponentCategory Engine		;Двигатель
 ComponentCategory EngineVectoring		;Векторный двигатель
 ComponentCategory Extractor		;Экстрактор
-ComponentCategory RemoteFuelTransfer		;Модуль дистанционной передачи топлива
+ComponentCategory RemoteFuelTransfer		;Модуль дозаправки
 ComponentCategory FighterBay		;Ангар истребителей
 ComponentCategory FuelStorage		;Хранилище топлива
 ComponentCategory HyperBlock		;Гиперблок
@@ -1266,7 +1266,7 @@ ComponentCategory HyperDeny		;Гипер-запретитель
 ComponentCategory HyperDrive		;Гипердвигатель
 ComponentCategory IonDefense		;Ионная защита
 ComponentCategory MedicalCenter		;Медицинский центр
-ComponentCategory PassengerCompartment		;Пассажирский отсек
+ComponentCategory PassengerCompartment		;Пасс. отсек
 ComponentCategory Reactor		;Реактор
 ComponentCategory RecreationCenter		;Центр отдыха
 ComponentCategory ResearchLab		;Исследовательская лаборатория
@@ -1286,7 +1286,7 @@ ComponentCategory TargetingComputer		;Компьютер наведения
 ComponentCategory TargetingComputerFleet		;Компьютер флотского наведения
 ComponentCategory TractorBeam		;Притягивающий луч
 ComponentCategory TroopCompartment		;Десантный отсек
-ComponentCategory WeaponArea		;Оружие по площади
+ComponentCategory WeaponArea		;Площадное
 ComponentCategory WeaponBombard		;Бомбард. оружие
 ComponentCategory WeaponCloseIn		;Оружие ближн. боя
 ComponentCategory WeaponIntercept		;Оружие перехвата
@@ -1308,7 +1308,7 @@ X% Y bonuses from all sources		;{0} {1} бонусов от всех источ�
 Initiation Cost		;Стоимость инициации
 Extra Requirements		;Дополнительные требования
 Improved COMPONENT		;Улучшенный {0}
-COMPONENT LEVEL		;{{0}} (v{{1}})
+COMPONENT LEVEL		;{0} (v{1})
 RACE only		;{0} только
 Not RACE		;Не {0}
 
@@ -1535,7 +1535,7 @@ Standard		;Стандартный
 Ion		;Ионный
 Point Defense		;Точ. обор.
 Bombard		;Бомбард.
-Boarding		;Абордаж кораблей
+Boarding		;Абордаж
 Standard Damage		;Стандартный урон
 Ion Damage		;Ионный урон
 Point Defense Damage		;Урон системы ближней обороны
@@ -1581,7 +1581,7 @@ Peak DPS		;Пиковый DPS
 Sustained DPS		;Пост. DPS
 Point Blank		;Ближ. бой
 Maximum Range		;Макс. дальность
-Max Energy		;Макс. энергия
+Max Energy		;Макс. энер
 VALUE per second		;{0} в секунду
 
 Point Blank Accuracy		;Точность в упор
@@ -1591,7 +1591,7 @@ Excess Energy Output		;Избыток энергии
 Hull Size		;Размер корпуса
 Crew Description		;{0}/{1}
 Movement		;Перемещение
-Slow		;Медленно
+Slow		;Малый
 Cruise		;Крей.
 Sprint		;Форсаж
 Hyper		;Гипер
@@ -1811,7 +1811,7 @@ Production		;Производство
 Stockpile		;Запасы
 
 Distance from Spaceport		;Расстояние от космопорта
-Distance from Selected Item or Capital		;Расс. от выбр. объ. или столицы
+Distance from Selected Item or Capital		;Расст. от выбр. или столицы
 Priority		;Приоритет
 All Resources		;Все ресурсы
 Production Rate		;Скорость производства
@@ -2033,7 +2033,7 @@ X population		;население {0}
 PLUS others		;+ другие
 Tax Rate		;Налог %
 Tax Revenue		;Налоговые поступления
-Research Output		;Выход исследований
+Research Output		;Выработка науки
 Research Bonus Amounts		;Суммы бонусов к исследованиям
 
 Civilian		;Гражданский сектор
@@ -2099,7 +2099,7 @@ BASENAME already built here		;{0} уже построен здесь
 SHIPROLE already under construction here		;{0} уже строится здесь
 Ship Designs		;Дизайны кораблей
 Unbuilt		;Непостр.
-Normal		;Нормальный
+Normal		;Нормально
 Destroyed		;Уничт.
 Disabled		;Откл.
 Enabled		;Включено
@@ -2261,8 +2261,8 @@ Top Speed is lower than average for non-military ships X		;Максимальн�
 Top Speed is lower than average for military ships X		;Максимальная скорость ниже средней для военных кораблей (средняя по империи составляет {0}).
 Top Speed is lower than average for fighters X		;Максимальная скорость ниже средней для истребителей (средняя по империи составляет {0}).
 This design has no problems		;В этом проекте нет проблем
-X Recommendations		;{0} Рекомендации
-X Defects		;{0} дезертирует
+X Recommendations		;Рекомендации: {0}
+X Defects		;Проблемы: {0}
 Defensive bases must have weapons or fighters		;Оборонительные базы должны иметь оружие или истребители
 Military ships must have weapons or fighters		;Военные корабли должны иметь оружие или истребители
 Need more crew		;Нужно больше экипажа
@@ -2429,18 +2429,18 @@ Galaxy Expansion		;Освоение галактики
 Galaxy Aggression		;Агрессивность галактики
 
 Galaxy Aggression Peaceful		;Мирно
-Galaxy Aggression Normal		;Нормальный
+Galaxy Aggression Normal		;Нормально
 Galaxy Aggression Restless		;Беспокойно
 Galaxy Aggression Unstable		;Ужас
 Galaxy Aggression Chaos		;Хаос
 
 Galaxy Difficulty Easy		;Легко
-Galaxy Difficulty Normal		;Нормальный
+Galaxy Difficulty Normal		;Нормально
 Galaxy Difficulty Hard		;Тяжело
 Galaxy Difficulty Very Hard		;Очень тяжело
 Galaxy Difficulty Extreme		;Чрезмерно
 
-Galaxy NearbyHostileRaces Normal		;Нормальный
+Galaxy NearbyHostileRaces Normal		;Нормально
 Galaxy NearbyHostileRaces Some		;Немного
 Galaxy NearbyHostileRaces Hard		;Побольше
 Galaxy NearbyHostileRaces Very Hard		;Много
@@ -2452,7 +2452,7 @@ NearbyHostileRaces Explanation		;Сколько враждебных рас со
 Galaxy Research Speed Extremely Slow		;Улиточная
 Galaxy Research Speed Very Slow		;Очень медленно
 Galaxy Research Speed Slow		;Медленно
-Galaxy Research Speed Normal		;Нормальный
+Galaxy Research Speed Normal		;Нормально
 Galaxy Research Speed Fast		;Быстро
 Galaxy Research Speed Very Fast		;Очень быстро
 
@@ -2485,7 +2485,7 @@ Very Many		;Очень много
 
 Pirate Strength		;Сила пиратов
 Very Weak		;Очень слабая
-Weak		;Слабый
+Weak		;Слабая
 Strong		;Мощная
 Very Strong		;Очень сильная
 
@@ -2577,7 +2577,7 @@ Allowed Governments		;Доступные правительства
 
 Your Empire Home System Harsh		;Скудная
 Your Empire Home System Trying		;Тяжёлая
-Your Empire Home System Normal		;Нормальный
+Your Empire Home System Normal		;Нормальная
 Your Empire Home System Agreeable		;Подходящая
 Your Empire Home System Excellent		;Богатая
 
@@ -3631,8 +3631,8 @@ Reloading content		;Перезагрузка контента
 Personality		;Личность
 Capacity		;Вместимость
 Design Overview		;Обзор конструкции
-Reactor Output		;Выходная мощность реактора
-Output		;Вывод
+Reactor Output		;Мощность реактора
+Output		;Мощность
 Rating		;Рейтинг
 EnergyPerFuelExplanation		;Реакторы генер. {0} энергии на ед. топл.
 Available Components		;Доступные компоненты
@@ -4554,13 +4554,13 @@ We have encountered a new pirate faction SYSTEM		;Мы обнаружили но
 We have encountered a new independent colony		;Мы обнаружили новую независимую колонию {0}-ов в системе {2}, принадлежащую фракции [FACTION]{1}[/FACTION].
 Shadowport Explanation		;Теневые порты — это нейтральные базы, предоставляющие услуги пиратам и контрабандистам. Они могут продавать корабли, оборудование, ресурсы и информацию за соответствующую плату. Также они способны заправлять и ремонтировать суда, не имеющие собственной базы.\n\nТеневые порты предпочитают оставаться независимыми и отстраненными, открывая свой рынок для всех дружественных посетителей. Они предпочитают торговать с пиратами и контрабандистами. Однако при улучшении отношений они могут продавать некоторые товары и обычным планетарным империям.
 
-very friendly		;очень дружелюбный
-friendly		;дружелюбный
-mildly friendly		;слегка дружелюбный
-neutral		;нейтральный
-slightly hostile		;слегка враждебный
-hostile		;враждебный
-very hostile		;очень враждебный
+very friendly		;очень дружелюбно
+friendly		;дружелюбно
+mildly friendly		;слегка дружелюбно
+neutral		;нейтрально
+slightly hostile		;слегка враждебно
+hostile		;враждебно
+very hostile		;очень враждебно
 The RACE are naturally FEELING towards us		;{0} изначально настроены к нам {1}
 This empire is predominantly composed of SAME RACE		;Эта империя преимущественно состоит из представителей расы {0}, как и наша империя.
 This pirate faction is predominantly composed of SAME RACE		;Эта пиратская фракция преимущественно состоит из представителей расы {0}, как и наша империя.
@@ -6294,7 +6294,7 @@ ShieldFocus Strength		;Сила
 
 HyperdriveFocus Neutral     ;Нейтральный
 HyperdriveFocus Efficiency		;Энергоэффективность
-HyperdriveFocus JumpInitiationTime		;Время инициации прыжка
+HyperdriveFocus JumpInitiationTime		;Время до прыжка
 HyperdriveFocus Speed		;Скорость
 
 EngineFocus Neutral     ;Нейтральный
@@ -7672,7 +7672,7 @@ Attack all threats		;Атаковать все угрозы
 Maximum influence income for this colony		;Максимальный доход от влияния для этой колонии
 Maximum influence income for COLONY		;Максимальный доход от влияния для {0}
 
-Contracts		;Договоры
+Contracts		;Контракты
 Available Contracts		;Доступные контракты
 Accepted Contracts		;Принятые контракты
 Contract Offered		;Предложение о контракте
@@ -7684,9 +7684,9 @@ We are hostile with this faction		;Мы враждебны с этой фрак�
 Buy		;Куп.
 Sell		;Прод.
 Buy Price		;Цена покупки
-Buy Price Explanation		;Единичная цена, по которой это место покупает данный ресурс
+Buy Price Explanation		;Единичная цена, по которой у нас покупают данный ресурс
 Sell Price		;Цена продажи
-Sell Price Explanation		;Единичная цена, по которой это место будет продавать данный ресурс
+Sell Price Explanation		;Единичная цена, по которой будут нам продавать данный ресурс
 
 Shadowport		;Теневой порт
 
@@ -7740,7 +7740,7 @@ Sell Price - highest first		;Цена продажи: по убыванию
 Buy Price - lowest first		;Цена покупки - наименьшая
 Buy Price - highest first		;Цена покупки - по убыванию
 Cargo available at X		;Доступный груз в {0}
-Remaining Cargo Space		;Оставшееся грузовое пространство
+Remaining Cargo Space		;Остаток трюма
 No cargo space available		;Нет свободного грузового пространства
 No cargo to sell		;Нет груза на продажу
 No resources available		;Ресурсы отсутствуют
@@ -7771,7 +7771,7 @@ No ship selected		;Корабль не выбран
 Already docked at TARGET		;Уже пришвартован у {0}
 Already docking at TARGET		;Уже идет стыковка с {0}
 
-Trading Points		;Торговые очки
+Trading Points		;Торговые точки
 Amount available at location		;Доступно в локации
 Distance from X		;Расстояние от {0}
 Amount Abbreviation		;Кол
@@ -7824,7 +7824,7 @@ We have no spies to perform this mission		;У нас нет шпионов дл�
 Upgrade Ship		;Улучшить корабль
 Upgrade Costs		;Стоимость улучшений
 You cannot afford this upgrade		;Вы не можете позволить себе это улучшение
-Click Pay button above to initiate upgrade		;Нажмите кнопку «Оплатить» выше, чтобы начать обновление
+Click Pay button above to initiate upgrade		;Нажмите «Оплатить» для начала модернизации
 Money Available		;Доступные деньги
 Pay and Upgrade		;Оплатить и улучшить
 Pay and Build		;Оплатить и построить
@@ -7848,9 +7848,9 @@ YARD has begun construction on our new ship SHIP		;{0} начал строите
 
 X will buy up to Y units		;{0} приобретет до {1} единиц
 X will buy at least Y units		;{0} купит не менее {1} единиц
-This location is unwilling to buy any of this resource		;Это место не желает покупать ни одного из этих ресурсов
-Buy Price Explanation More		;Цена, которую мы платим за покупку одной единицы этого ресурса, то есть цена, по которой это место продаст одну единицу данного ресурса.
-Sell Price Explanation More		;Цена, которую мы получаем за продажу одной единицы этого ресурса, то есть цена, по которой это место купит одну единицу данного ресурса.
+This location is unwilling to buy any of this resource		;Здесь этот ресурс не покупают
+Buy Price Explanation More		;Цена, которую мы платим за покупку одной единицы этого ресурса, то есть цена, по которой нам продадут одну единицу данного ресурса.
+Sell Price Explanation More		;Цена, которую мы получаем за продажу одной единицы этого ресурса, то есть цена, по которой у нас купят одну единицу данного ресурса.
 
 Pirate Colony Takeover Invasion Title		;Пираты сражаются за захват {0}!
 Pirate Colony Takeover Invasion Description		;{1} отказались от пиратских путей и создали официальное правительство.\n\nК сожалению для нас это означает, что они хотят захватить нашу колонию {0}, благодаря своему значительному влиянию там.\n\nВ {0} началась наземная битва, поскольку {1} пытаются вырвать контроль над колонией у нас!
@@ -8047,7 +8047,7 @@ Greetings X		;Приветствую, {0}!
 Welcome to X		;Добро пожаловать в {0}.
 What can we do for you?		;Что мы можем для вас сделать?
 Please select from the services below		;Пожалуйста, выберите одну из услуг ниже.
-Note Hull Available		;Обратите внимание, что [HL]{0}[/HL] доступен! Это было бы отличным улучшением корабля для вас.
+Note Hull Available		;Стал доступен элемент [HL]{0}[/HL]! Отличный повод модернизировать ваш корабль.
 Note Equipment Available		;Обратите внимание, у нас есть [HL]{0}[/HL]!
 Note Contract Available		;
 
@@ -8379,7 +8379,7 @@ Cycle Lone Pirate View Mode		;Переключить режим просмотр
 
 Lone Pirate Relations		;Отношения с одиночными пиратами
 Shadowport Relations		;Отношения с теневыми портами
-Contracts, Trade, Threats		;Договоры, Торговля, Угрозы
+Contracts, Trade, Threats		;Контракты, Торговля, Угрозы
 
 Lone Pirate Research Title		;Исследование одиночного пирата
 Lone Pirate Research Explanation		;Обратите внимание, что Одинокие пираты не имеют исследовательского потенциала, поэтому не могут продвигать никакие исследовательские проекты.\n\nОднако Одинокие пираты могут красть технологии у других фракций.
@@ -8533,8 +8533,8 @@ Default Diplomatic Strategy for Independent Colonies		;Стратегия дип
 Welcome back to X		;Добро пожаловать обратно в {0}
 Our services are at your command		;Наши услуги к вашим услугам.
 
-Refunds		;Возврат средств
-Less Refunds		;Меньше возвратов
+Refunds		;Возврат
+Less Refunds		;За вычетом возвратов
 Refund Amount		;Сумма возврата
 Refund amount for removed components		;Сумма возврата за удаленные компоненты. При удалении старых компонентов из проекта вы получаете возврат 25% их стоимости.
 
@@ -8563,7 +8563,7 @@ Cannot Investigate Explanation Ship		;Этот корабль не поддае�
 Cannot Investigate Explanation Base		;Эта база не поддается попыткам абордажа и исследования. Поэтому мы не можем захватить эту покинутую базу.
 
 Limit Explanation		;Лимит количества этого ресурса, которое будет покупать данная локация
-Limit		;Ограничение
+Limit		;Огранич.
 
 Population Boom		;Бум населения
 The formation of our new empire has caused a population boom		;Основание нашей новой империи вызвало демографический взрыв
@@ -8576,5 +8576,5 @@ This tour is only available when playing as a pirate faction		;Этот тур �
 This tour is only available when playing as a lone pirate		;Этот тур доступен только при игре за Одинокого Пирата, а не за стандартную планетарную империю или пиратскую фракцию.\n\nНачните новую игру за Одинокого Пирата, чтобы пройти этот тур.
 This tour is only available when playing as either a pirate faction or a lone pirate		;Этот тур доступен только при игре за пиратскую фракцию или Одиночного пирата.\n\nНачните новую игру за пиратскую фракцию или Одиночного пирата, чтобы пройти этот тур.
 
-Playing as a Lone Pirate		;Игра за Одиночного пирата
-Playing as a Pirate		;Игра за пиратов
+Playing as a Lone Pirate		;Игры за Одиночного пирата
+Playing as a Pirate		;Игры за пиратов

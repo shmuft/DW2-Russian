@@ -8534,7 +8534,7 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Ударный малый грузовой корабль</Name>
+		<Name>Ударный малый грузовоз</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -9081,7 +9081,7 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Быстрый малый грузовой корабль</Name>
+		<Name>Быстрый малый грузовоз</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -9630,7 +9630,7 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Ударный малый грузовой корабль v2</Name>
+		<Name>Ударный малый грузовоз v2</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -10181,7 +10181,7 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Быстрый малый грузовой корабль v2</Name>
+		<Name>Быстрый малый грузовоз v2</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -10817,7 +10817,7 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Ударный средний грузовой корабль</Name>
+		<Name>Ударный средний грузовоз</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter02</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -11455,7 +11455,7 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Быстрый средний грузовой корабль</Name>
+		<Name>Быстрый средний грузовоз</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter02</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -12123,7 +12123,7 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Ударный большой грузовой корабль</Name>
+		<Name>Ударный большой грузовоз</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -12791,7 +12791,7 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Быстрый большой грузовой корабль</Name>
+		<Name>Быстрый большой грузовоз</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -13459,7 +13459,7 @@
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Ударный большой грузовой корабль v2</Name>
+		<Name>Ударный большой грузовоз v2</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter03</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -14127,7 +14127,7 @@
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Быстрый большой грузовой корабль v2</Name>
+		<Name>Быстрый большой грузовоз v2</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter03</ImageFilename>
 	</ShipHull>
 	<ShipHull>

@@ -682,7 +682,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Гравитонный потоковый проектор [L]</Name>
+		<Name>Гравитонный излучатель [L]</Name>
 		<ImageFilename>Environment/Components/003-Graviton Flux Projector</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -1558,7 +1558,7 @@
 				<WeaponVolleyFireRate>0.1</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Многозарядный бластер «Баклер» [PD]</Name>
+		<Name>Многозар. бластер «Баклер» [PD]</Name>
 		<ImageFilename>Environment/Components/008-Buckler Repeating Blaster</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -2666,7 +2666,7 @@
 				<WeaponVolleyFireRate>1</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Импульсный залп «Устрашитель» [L]</Name>
+		<Name>Имп. залп «Устрашитель» [L]</Name>
 		<ImageFilename>Environment/Components/013-Intimidator Surge Blast</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -4347,7 +4347,7 @@
 				<WeaponVolleyFireRate>0.1</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Ионный импульсный бластер [PD]</Name>
+		<Name>Ионный имп. бластер [PD]</Name>
 		<ImageFilename>Environment/Components/021-Ion Pulse Blaster</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -5448,7 +5448,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Тяжелое рельсовое орудие [L]</Name>
+		<Name>Тяжелое рельс. орудие [L]</Name>
 		<ImageFilename>Environment/Components/027-Heavy Rail Gun</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -5685,7 +5685,7 @@
 				<WeaponVolleyFireRate>0.1</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Многолучевая защита «Часовой» [PD]</Name>
+		<Name>Многолуч. защита Часовой [PD]</Name>
 		<ImageFilename>Environment/Components/028-Sentinel Multi Beam Defense</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -5914,7 +5914,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Луч «Разрушительная сила» [M]</Name>
+		<Name>Луч «Разрушитель» [M]</Name>
 		<ImageFilename>Environment/Components/227-Shatterforce Beam</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -6133,7 +6133,7 @@
 				<WeaponVolleyFireRate>0.2</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Ракетная батарея «Балварк» [PD]</Name>
+		<Name>Батарея ракет Балварк [PD]</Name>
 		<ImageFilename>Environment/Components/030-Bulwark Missile Battery</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -6347,7 +6347,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Ударный штурмовой бластер [S]</Name>
+		<Name>Штурмовой бластер [S]</Name>
 		<ImageFilename>Environment/Components/225-Impact Assault Blaster</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -6782,7 +6782,7 @@
 				<WeaponVolleyFireRate>1</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Деразианская ударная волна [L]</Name>
+		<Name>Деразианская волна [L]</Name>
 		<ImageFilename>Environment/Components/033-Derasian Shockwave</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -7037,7 +7037,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Ударно-волновая торпеда [M]</Name>
+		<Name>Ударно-волн. торпеда [M]</Name>
 		<ImageFilename>Environment/Components/297-Shockwave Torpedo</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -7488,7 +7488,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Нейтронный истребитель [L]</Name>
+		<Name>Нейтронный истреб. [L]</Name>
 		<ImageFilename>Environment/Components/036-Neutron Exterminator</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -7689,7 +7689,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Масс-драйвер «Затмение» [L]</Name>
+		<Name>Орудие «Затмение» [L]</Name>
 		<ImageFilename>Environment/Components/037-Eclipse Mass Driver</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -7886,7 +7886,7 @@
 				<WeaponVolleyFireRate>0.1</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Связанная батарея ПВО [PD]</Name>
+		<Name>Синхр. батарея ПВО [PD]</Name>
 		<ImageFilename>Environment/Components/038-Linked Point Defense Battery</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -8559,7 +8559,7 @@
 				<WeaponVolleyFireRate>0.5</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Шоковые мины "Аннигилятор" [L]</Name>
+		<Name>Шок. мины Аннигилятор [L]</Name>
 		<ImageFilename>Environment/Components/041-Annihilator Shock Mines</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -8762,7 +8762,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Резонансный гравитонный луч [S]</Name>
+		<Name>Резонан. гравилуч [S]</Name>
 		<ImageFilename>Environment/Components/300-Resonant Graviton Beam</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -8943,7 +8943,7 @@
 				<WeaponSpeed>1100</WeaponSpeed>
 			</ComponentStats>
 		</Values>
-		<Name>Дальнобойный тяговый луч [S]</Name>
+		<Name>Дальний тяговый луч [S]</Name>
 		<ImageFilename>Environment/Components/043-Long Range Tractor Beam</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -9124,7 +9124,7 @@
 				<WeaponSpeed>1100</WeaponSpeed>
 			</ComponentStats>
 		</Values>
-		<Name>Мощный притягивающий луч [S]</Name>
+		<Name>Мощный притяг. луч [S]</Name>
 		<ImageFilename>Environment/Components/044-High Power Tractor Beam</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -9559,7 +9559,7 @@
 				<WeaponVolleyFireRate>1</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Гравитационные мины «Разрывное течение» [L]</Name>
+		<Name>Гравимины «Разрывное течение» [L]</Name>
 		<ImageFilename>Environment/Components/046-Riptide Gravitic Mines</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -10433,7 +10433,7 @@
 				<WeaponVolleyFireRate>0.5</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Ракетная батарея «Балварк» [S]</Name>
+		<Name>Батарея ракет Балварк [S]</Name>
 		<ImageFilename>Environment/Components/030-Bulwark Missile Battery</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -10631,7 +10631,7 @@
 				<WeaponVolleyFireRate>0.1</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Ракетная батарея "Эгида" [PD]</Name>
+		<Name>Батарея ракетида [PD]</Name>
 		<ImageFilename>Environment/Components/051-Aegis Missile Battery</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -10834,7 +10834,7 @@
 				<WeaponVolleyFireRate>0.2</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Ракетная батарея «Улья» [S]</Name>
+		<Name>Батарея ракет Улья [S]</Name>
 		<ImageFilename>Environment/Components/052-Hive Missile Battery</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -11027,7 +11027,7 @@
 				<WeaponVolleyFireRate>1</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Ракетная батарея «Охотник» [L]</Name>
+		<Name>Батарея ракет Охотник [L]</Name>
 		<ImageFilename>Environment/Components/053-Hunter Missile Battery</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -11228,7 +11228,7 @@
 				<WeaponVolleyFireRate>0.1</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Автопушка «Терминатор» батарея [PD]</Name>
+		<Name>Батарея АП «Терминатор» [PD]</Name>
 		<ImageFilename>Environment/Components/054-Terminator Autocannon Battery</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -11421,7 +11421,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Рельсовая батарея «Кузня» [L]</Name>
+		<Name>Рельс. батарея Кузня [L]</Name>
 		<ImageFilename>Environment/Components/055-Forge Rail Battery</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -15220,7 +15220,7 @@
 				<TargetingBonus>0.3</TargetingBonus>
 			</ComponentStats>
 		</Values>
-		<Name>Система сопровождения цели</Name>
+		<Name>Система сопров. цели</Name>
 		<ImageFilename>Environment/Components/078-Target Tracking System</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -15335,7 +15335,7 @@
 				<StaticEnergyUsed>5</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Базовый исследовательский модуль</Name>
+		<Name>Базовый исслед. модуль</Name>
 		<ImageFilename>Environment/Components/081-Basic Survey Module</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -15385,7 +15385,7 @@
 				<StaticEnergyUsed>10</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Базовый пассажирский отсек</Name>
+		<Name>Базовый пасс. отсек</Name>
 		<ImageFilename>Environment/Components/083-Basic Passenger Compartment</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -15435,7 +15435,7 @@
 				<StaticEnergyUsed>1</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Базовый топливный элемент</Name>
+		<Name>Базовый топлив. элемент</Name>
 		<ImageFilename>Environment/Components/085-Basic Fuel Cell</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -15571,7 +15571,7 @@
 				<StaticEnergyUsed>2</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Базовые системы жизнеобеспечения экипажа</Name>
+		<Name>Базовые системы жизнеоб. экипажа</Name>
 		<ImageFilename>Environment/Components/088-Basic Crew Systems</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -15918,7 +15918,7 @@
 				<TargetingBonus>0.05</TargetingBonus>
 			</ComponentStats>
 		</Values>
-		<Name>Сенсорная сеть ближнего радиуса</Name>
+		<Name>Сенсорная сеть ближ. радиуса</Name>
 		<ImageFilename>Environment/Components/096-Short Range Sensor Array</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -16008,7 +16008,7 @@
 				<StaticEnergyUsed>5</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Продвинутый исследовательский модуль</Name>
+		<Name>Продвинутый иссл. модуль</Name>
 		<ImageFilename>Environment/Components/098-Advanced Survey Module</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -16138,7 +16138,7 @@
 				<StaticEnergyUsed>15</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Пассажирский отсек</Name>
+		<Name>Пасс. отсек</Name>
 		<ImageFilename>Environment/Components/101-Passenger Compartment</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -16198,7 +16198,7 @@
 				<StaticEnergyUsed>1</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Топливный элемент</Name>
+		<Name>Топлив. элемент</Name>
 		<ImageFilename>Environment/Components/103-Fuel Cell</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -16243,7 +16243,7 @@
 				<StaticEnergyUsed>1</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Топливный элемент сверхвысокой плотности</Name>
+		<Name>Топлив. элемент сверхвысокой плотности</Name>
 		<ImageFilename>Environment/Components/104-Mega-Density Fuel Cell</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -16526,7 +16526,7 @@
 				<TargetingFleetBonus>0.2</TargetingFleetBonus>
 			</ComponentStats>
 		</Values>
-		<Name>Флотская система наведения</Name>
+		<Name>Флотская сист. навед.</Name>
 		<ImageFilename>Environment/Components/110-Fleet Targeting System</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -16572,7 +16572,7 @@
 				<StaticEnergyUsed>10</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Флотская система противодействия</Name>
+		<Name>Флотская сист. противод</Name>
 		<ImageFilename>Environment/Components/111-Fleet Countermeasures System</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -16672,7 +16672,7 @@
 				<TargetingBonus>0.05</TargetingBonus>
 			</ComponentStats>
 		</Values>
-		<Name>Дальнобойная сенсорная сеть</Name>
+		<Name>Дальноб. сенсор. сеть</Name>
 		<ImageFilename>Environment/Components/113-Long Range Sensor Array</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -16740,7 +16740,7 @@
 				<StaticEnergyUsed>20</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Большой пассажирский отсек</Name>
+		<Name>Большой пасс. отсек</Name>
 		<ImageFilename>Environment/Components/115-Large Passenger Compartment</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -16808,7 +16808,7 @@
 				<StaticEnergyUsed>1</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Большой топливный элемент</Name>
+		<Name>Большой топлив. элемент</Name>
 		<ImageFilename>Environment/Components/117-Large Fuel Cell</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -17246,7 +17246,7 @@
 				<StaticEnergyUsed>25</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Массивный пассажирский отсек</Name>
+		<Name>Массивный пасс. отсек</Name>
 		<ImageFilename>Environment/Components/128-Massive Passenger Compartment</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -17304,7 +17304,7 @@
 				<StaticEnergyUsed>1</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Топливный элемент высокой плотности</Name>
+		<Name>Топлив. элемент высокой плотности</Name>
 		<ImageFilename>Environment/Components/130-High Density Fuel Cell</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -17576,7 +17576,7 @@
 				<StaticEnergyUsed>1</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Генератор отклоняющего поля</Name>
+		<Name>Дефлекторный генератор</Name>
 		<ImageFilename>Environment/Components/137-Deflection Field Generator</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -17803,7 +17803,7 @@
 				<StaticEnergyUsed>10</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Средний ангар истребителей</Name>
+		<Name>Средний ангар истреб.</Name>
 		<ImageFilename>Environment/Components/142-Medium Starfighter Bay</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -18330,7 +18330,7 @@
 				<StaticEnergyUsed>5</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Модуль борьбы за живучесть</Name>
+		<Name>Модуль живучести</Name>
 		<ImageFilename>Environment/Components/151-Damage Control Unit</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -18717,7 +18717,7 @@
 				<WeaponVolleyFireRate>0.1</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Генератор блокирующего поля [PD]</Name>
+		<Name>Генератор блокир. поля [PD]</Name>
 		<ImageFilename>Environment/Components/153-Blocking Field Generator</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -19725,7 +19725,7 @@
 				<WeaponVolleyFireRate>0.25</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Рельсовая батарея «Кузня» [M]</Name>
+		<Name>Рельс. батарея Кузня [M]</Name>
 		<ImageFilename>Environment/Components/055-Forge Rail Battery</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -20380,7 +20380,7 @@
 				<StaticEnergyUsed>2</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Гипердвигатель «Калиста-Даль»</Name>
+		<Name>Гипердв. «Калиста-Даль»</Name>
 		<ImageFilename>Environment/Components/170-Calista-Dal Hyper Drive</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -20468,7 +20468,7 @@
 				<StaticEnergyUsed>3</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Гипердвигатель «Эквинокс»</Name>
+		<Name>Гипердв. «Эквинокс»</Name>
 		<ImageFilename>Environment/Components/171-Equinox Hyper Drive</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -20916,7 +20916,7 @@
 				<WeaponVolleyFireRate>0.1</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Локальный генератор щита [PD]</Name>
+		<Name>Локальный ген. щита [PD]</Name>
 		<ImageFilename>Environment/Components/178-Point Shield Generator</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -21543,7 +21543,7 @@
 				<WeaponVolleyFireRate>0.2</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Ракетная батарея «Улья» [M]</Name>
+		<Name>Батарея ракет Улья [M]</Name>
 		<ImageFilename>Environment/Components/052-Hive Missile Battery</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -22017,7 +22017,7 @@
 				<WeaponVolleyFireRate>0.1</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Ракетная батарея «Улья» [Ftr]</Name>
+		<Name>Батарея ракет Улья [Ftr]</Name>
 		<ImageFilename>Environment/Components/052-Hive Missile Battery</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -22196,7 +22196,7 @@
 				<WeaponVolleyFireRate>1</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Ракетная батарея «Охотник» [M]</Name>
+		<Name>Батарея ракет Охотник [M]</Name>
 		<ImageFilename>Environment/Components/053-Hunter Missile Battery</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -24129,7 +24129,7 @@
 				<StaticEnergyUsed>1</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Ионная оболочечная броня</Name>
+		<Name>Ионная броня</Name>
 		<ImageFilename>Environment/Components/205-Ion Sheath Armor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -24321,7 +24321,7 @@
 				<StaticEnergyUsed>2</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Генератор отклоняющего поля [Ftr]</Name>
+		<Name>Дефлекторный генератор [Ftr]</Name>
 		<ImageFilename>Environment/Components/137-Deflection Field Generator</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -24643,7 +24643,7 @@
 				<FuelStorageCapacity>18</FuelStorageCapacity>
 			</ComponentStats>
 		</Values>
-		<Name>Топливный элемент [Ftr]</Name>
+		<Name>Топлив. элемент [Ftr]</Name>
 		<ImageFilename>Environment/Components/103-Fuel Cell</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -24886,7 +24886,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Ионный импульсный бластер [Ftr]</Name>
+		<Name>Ионный имп. бластер [Ftr]</Name>
 		<ImageFilename>Environment/Components/021-Ion Pulse Blaster</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -26001,7 +26001,7 @@
 				<WeaponVolleyFireRate>0.25</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Ударный штурмовой бластер [M]</Name>
+		<Name>Штурмовой бластер [M]</Name>
 		<ImageFilename>Environment/Components/225-Impact Assault Blaster</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -26443,7 +26443,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Луч «Разрушительная сила» [L]</Name>
+		<Name>Луч «Разрушитель» [L]</Name>
 		<ImageFilename>Environment/Components/227-Shatterforce Beam</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -27689,7 +27689,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Ударный штурмовой бластер [Ftr]</Name>
+		<Name>Штурмовой бластер [Ftr]</Name>
 		<ImageFilename>Environment/Components/225-Impact Assault Blaster</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -28910,7 +28910,7 @@
 				<StaticEnergyUsed>2</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Системы жизнеобеспечения экипажа</Name>
+		<Name>Системы жизнеоб. экипажа</Name>
 		<ImageFilename>Environment/Components/240-Crew Systems</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -29157,7 +29157,7 @@
 				<WeaponVolleyFireRate>0.25</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Планетарная ракетная батарея</Name>
+		<Name>Планетарная батарея ракет</Name>
 		<ImageFilename>Environment/Components/242-Planetary Missile Battery</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -32055,7 +32055,7 @@
 				<StaticEnergyUsed>1</StaticEnergyUsed>
 			</ComponentStats>
 		</Values>
-		<Name>Ионная оболочечная броня [Ftr]</Name>
+		<Name>Ионная броня [Ftr]</Name>
 		<ImageFilename>Environment/Components/205-Ion Sheath Armor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -33418,7 +33418,7 @@
 				<EngineVectoringThrust>195</EngineVectoringThrust>
 			</ComponentStats>
 		</Values>
-		<Name>Мультивекторный двигатель</Name>
+		<Name>Мультивекторный двиг.</Name>
 		<ImageFilename>Environment/Components/289-Multi Vector</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -34047,7 +34047,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Резонансный гравитонный луч [Ftr]</Name>
+		<Name>Резонан. гравилуч [Ftr]</Name>
 		<ImageFilename>Environment/Components/300-Resonant Graviton Beam</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -34693,7 +34693,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Ударно-волновая торпеда [L]</Name>
+		<Name>Ударно-волн. торпеда [L]</Name>
 		<ImageFilename>Environment/Components/297-Shockwave Torpedo</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -35392,7 +35392,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Резонансный гравитонный луч [M]</Name>
+		<Name>Резонан. гравилуч [M]</Name>
 		<ImageFilename>Environment/Components/300-Resonant Graviton Beam</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -35569,7 +35569,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Тяжелое рельсовое орудие [M]</Name>
+		<Name>Тяжелое рельс. орудие [M]</Name>
 		<ImageFilename>Environment/Components/027-Heavy Rail Gun</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -41905,7 +41905,7 @@
 				<RemoteFuelTransferRange>1000</RemoteFuelTransferRange>
 			</ComponentStats>
 		</Values>
-		<Name>Модуль дистанционной передачи топлива</Name>
+		<Name>Модуль дозаправки</Name>
 		<ImageFilename>Environment/Components/189-Energy To Fuel Converter</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -42856,7 +42856,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Луч «Разрушительная сила» [S]</Name>
+		<Name>Луч «Разрушитель» [S]</Name>
 		<ImageFilename>Environment/Components/227-Shatterforce Beam</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -43072,7 +43072,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Резонансный гравитонный луч [L]</Name>
+		<Name>Резонан. гравилуч [L]</Name>
 		<ImageFilename>Environment/Components/300-Resonant Graviton Beam</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -43235,7 +43235,7 @@
 				<WeaponVolleyFireRate>0.5</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Ударный штурмовой бластер [L]</Name>
+		<Name>Штурмовой бластер [L]</Name>
 		<ImageFilename>Environment/Components/225-Impact Assault Blaster</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -44379,7 +44379,7 @@
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 			</ComponentStats>
 		</Values>
-		<Name>Луч «Разрушительная сила» [Ftr]</Name>
+		<Name>Луч «Разрушитель» [Ftr]</Name>
 		<ImageFilename>Environment/Components/227-Shatterforce Beam</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -44402,7 +44402,7 @@
 				<FuelStorageCapacity>15</FuelStorageCapacity>
 			</ComponentStats>
 		</Values>
-		<Name>Базовый топливный элемент [Ftr]</Name>
+		<Name>Базовый топлив. элемент [Ftr]</Name>
 		<ImageFilename>Environment/Components/085-Basic Fuel Cell</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -44434,7 +44434,7 @@
 				<FuelStorageCapacity>38</FuelStorageCapacity>
 			</ComponentStats>
 		</Values>
-		<Name>Топливный элемент сверхвысокой плотности [Ftr]</Name>
+		<Name>Топлив. элемент сверхвысокой плотности [Ftr]</Name>
 		<ImageFilename>Environment/Components/104-Mega-Density Fuel Cell</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -44464,7 +44464,7 @@
 				<FuelStorageCapacity>26</FuelStorageCapacity>
 			</ComponentStats>
 		</Values>
-		<Name>Большой топливный элемент [Ftr]</Name>
+		<Name>Большой топлив. элемент [Ftr]</Name>
 		<ImageFilename>Environment/Components/117-Large Fuel Cell</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -44491,7 +44491,7 @@
 				<FuelStorageCapacity>30</FuelStorageCapacity>
 			</ComponentStats>
 		</Values>
-		<Name>Топливный элемент высокой плотности [Ftr]</Name>
+		<Name>Топлив. элемент высокой плотности [Ftr]</Name>
 		<ImageFilename>Environment/Components/130-High Density Fuel Cell</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>

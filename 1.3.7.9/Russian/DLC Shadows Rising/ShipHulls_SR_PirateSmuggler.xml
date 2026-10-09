@@ -6210,7 +6210,7 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Неуловимый малый грузовой корабль</Name>
+		<Name>Неуловимый малый грузовоз</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -12836,7 +12836,7 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Неуловимый малый грузовой корабль v2</Name>
+		<Name>Неуловимый малый грузовоз v2</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter01</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -23481,7 +23481,7 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Неуловимый средний грузовой корабль</Name>
+		<Name>Неуловимый средний грузовоз</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter02</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -30261,7 +30261,7 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Неуловимый большой грузовой корабль</Name>
+		<Name>Неуловимый большой грузовоз</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter05</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -37013,7 +37013,7 @@
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Неуловимый большой грузовой корабль v2</Name>
+		<Name>Неуловимый большой грузовоз v2</Name>
 		<ImageFilename>Ships/Independent/Images/PEFreighter05</ImageFilename>
 	</ShipHull>
 	<ShipHull>
