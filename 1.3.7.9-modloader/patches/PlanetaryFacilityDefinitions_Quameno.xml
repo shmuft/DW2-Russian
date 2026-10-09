@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfPlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="95">
+    <Name>Лабиринт Загадок</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="96">
+    <Name>Центр Возвышения</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="98">
+    <Name>Древний парк головоломок</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="99">
+    <Name>Древняя база исследований Куамено</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="107">
+    <Name>Разбившийся корабль Шактури</Name>
+  </PlanetaryFacilityDefinition>
+</ArrayOfPlanetaryFacilityDefinition>

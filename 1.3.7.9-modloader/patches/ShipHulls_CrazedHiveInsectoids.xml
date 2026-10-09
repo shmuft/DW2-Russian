@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfShipHull>
+  <ShipHull id="737">
+    <Name>Авианосец Улья</Name>
+  </ShipHull>
+  <ShipHull id="738">
+    <Name>Дрон-бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="739">
+    <Name>Дрон-истребитель</Name>
+  </ShipHull>
+  <ShipHull id="1116">
+    <Name>Фрегат Улья</Name>
+  </ShipHull>
+  <ShipHull id="1117">
+    <Name>Эсминец Улья</Name>
+  </ShipHull>
+  <ShipHull id="1118">
+    <Name>Эсминец Улья</Name>
+  </ShipHull>
+  <ShipHull id="1119">
+    <Name>Эсминец Улья</Name>
+  </ShipHull>
+  <ShipHull id="1120">
+    <Name>Фрегат Улья</Name>
+  </ShipHull>
+  <ShipHull id="1121">
+    <Name>Крейсер Улья</Name>
+  </ShipHull>
+  <ShipHull id="1122">
+    <Name>Крейсер Улья</Name>
+  </ShipHull>
+</ArrayOfShipHull>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfColonyEventDefinition>
+  <ColonyEventDefinition id="76">
+    <Name>Волна воинов</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="77">
+    <Name>Волна воинов</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="78">
+    <Name>Волна патриотизма</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="79">
+    <Name>Волна патриотизма</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="80">
+    <Name>Знай своего врага</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="81">
+    <Name>Знай своего врага</Name>
+  </ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

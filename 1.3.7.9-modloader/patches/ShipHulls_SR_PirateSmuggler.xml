@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfShipHull>
+  <ShipHull id="1398">
+    <Name>Космопорт сектора</Name>
+  </ShipHull>
+  <ShipHull id="1676">
+    <MarketingName>Wildfire ST100</MarketingName>
+    <MarketingDescription>The legendary Wildfire showcases incredible speed and significantly more cargo capacity than industry standard. As the infamous Dol Kassieda once said: It’s a dream to fly and a nightmare to pin down.</MarketingDescription>
+    <Name>Быстрый эскорт</Name>
+  </ShipHull>
+  <ShipHull id="1677">
+    <Name>Малый порт</Name>
+  </ShipHull>
+  <ShipHull id="1678">
+    <Name>Малый строительный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1679">
+    <Name>Малый исслед-й корабль</Name>
+  </ShipHull>
+  <ShipHull id="1680">
+    <Name>Неуловимый добывающий корабль</Name>
+  </ShipHull>
+  <ShipHull id="1681">
+    <Name>Неуловимый малый грузовой корабль</Name>
+  </ShipHull>
+  <ShipHull id="1682">
+    <Name>Малая добывающая станция</Name>
+  </ShipHull>
+  <ShipHull id="1683">
+    <Name>Исследовательская станция</Name>
+  </ShipHull>
+  <ShipHull id="1684">
+    <MarketingName>Wildfire ST190</MarketingName>
+    <MarketingDescription>The legendary Wildfire showcases incredible speed and significantly more cargo capacity than industry standard. As the infamous Dol Kassieda once said: It’s a dream to fly and a nightmare to pin down.</MarketingDescription>
+    <Name>Быстрый эскорт v2</Name>
+  </ShipHull>
+  <ShipHull id="1685">
+    <MarketingName>Lightning PX3</MarketingName>
+    <MarketingDescription>The Lightning lives up to its name—with exceptional speed and a superb stealth system, you can be gone before they even knew you were there. This adaptable frigate is the first choice for many captains.</MarketingDescription>
+    <Name>Быстрый фрегат</Name>
+  </ShipHull>
+  <ShipHull id="1686">
+    <Name>Малый десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1687">
+    <Name>Малый космопорт v2</Name>
+  </ShipHull>
+  <ShipHull id="1688">
+    <Name>Малый колонизационный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1689">
+    <Name>Неуловимый добывающий корабль v2</Name>
+  </ShipHull>
+  <ShipHull id="1690">
+    <Name>Неуловимый малый грузовой корабль v2</Name>
+  </ShipHull>
+  <ShipHull id="1691">
+    <Name>Малый пассажирский корабль</Name>
+  </ShipHull>
+  <ShipHull id="1692">
+    <Name>Малый топливный заправщик</Name>
+  </ShipHull>
+  <ShipHull id="1693">
+    <Name>Большая добывающая станция</Name>
+  </ShipHull>
+  <ShipHull id="1694">
+    <Name>Развлекательная станция</Name>
+  </ShipHull>
+  <ShipHull id="1695">
+    <MarketingName>Lightning PX6</MarketingName>
+    <MarketingDescription>The Lightning lives up to its name—with exceptional speed and a superb stealth system, you can be gone before they even knew you were there. This adaptable frigate is the first choice for many captains.</MarketingDescription>
+    <Name>Быстрый фрегат v2</Name>
+  </ShipHull>
+  <ShipHull id="1696">
+    <MarketingName>Firebolt Z7</MarketingName>
+    <MarketingDescription>The Firebolt incorporates ion defence, excellent manoevering, and still has ample room for any cargo. Its signature speed is among the best in the galaxy for its size.</MarketingDescription>
+    <Name>Быстрый эсминец</Name>
+  </ShipHull>
+  <ShipHull id="1697">
+    <Name>Средний десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1698">
+    <Name>Малый космопорт v3</Name>
+  </ShipHull>
+  <ShipHull id="1699">
+    <Name>Средний топливный заправщик</Name>
+  </ShipHull>
+  <ShipHull id="1700">
+    <Name>Станция наблюдения</Name>
+  </ShipHull>
+  <ShipHull id="1701">
+    <Name>Средний строительный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1702">
+    <Name>Средний исследовательский корабль</Name>
+  </ShipHull>
+  <ShipHull id="1703">
+    <Name>Неуловимый добывающий корабль v3</Name>
+  </ShipHull>
+  <ShipHull id="1704">
+    <Name>Неуловимый средний грузовой корабль</Name>
+  </ShipHull>
+  <ShipHull id="1705">
+    <Name>Средний пассажирский корабль</Name>
+  </ShipHull>
+  <ShipHull id="1706">
+    <MarketingName>Firebolt Z8</MarketingName>
+    <MarketingDescription>The Firebolt incorporates ion defence, excellent manoevering, and still has ample room for any cargo. Its signature speed is among the best in the galaxy for its size.</MarketingDescription>
+    <Name>Быстрый эсминец v2</Name>
+  </ShipHull>
+  <ShipHull id="1707">
+    <Name>Средний космопорт</Name>
+  </ShipHull>
+  <ShipHull id="1708">
+    <Name>Космический бастион</Name>
+  </ShipHull>
+  <ShipHull id="1709">
+    <Name>Средний колонизационный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1710">
+    <Name>Большой топливный заправщик</Name>
+  </ShipHull>
+  <ShipHull id="1711">
+    <Name>Неуловимый большой грузовой корабль</Name>
+  </ShipHull>
+  <ShipHull id="1712">
+    <Name>Большой пассажирский корабль</Name>
+  </ShipHull>
+  <ShipHull id="1713">
+    <MarketingName>Thunderstrike RF100</MarketingName>
+    <MarketingDescription>The Thunderstrike is a popular option for those wanting versatility without compromising on speed or manoeuvrability. The incredibly spacious cruiser even incorporates extra weapons range.</MarketingDescription>
+    <Name>Быстрый крейсер</Name>
+  </ShipHull>
+  <ShipHull id="1714">
+    <Name>Большой десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1715">
+    <Name>Средний космопорт v2</Name>
+  </ShipHull>
+  <ShipHull id="1716">
+    <Name>Космический бастион v2</Name>
+  </ShipHull>
+  <ShipHull id="1717">
+    <Name>Неуловимый большой грузовой корабль v2</Name>
+  </ShipHull>
+  <ShipHull id="1718">
+    <Name>Большой строительный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1719">
+    <Name>Большой исследовательский корабль</Name>
+  </ShipHull>
+  <ShipHull id="1720">
+    <Name>Большой колонизационный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1721">
+    <Name>Быстрый линейный крейсер</Name>
+  </ShipHull>
+  <ShipHull id="1722">
+    <Name>Быстрый лёгкий авианосец</Name>
+  </ShipHull>
+  <ShipHull id="1723">
+    <MarketingName>Thunderstrike RF200</MarketingName>
+    <MarketingDescription>The Thunderstrike is a popular option for those wanting versatility without compromising on speed or manoeuvrability. The incredibly spacious cruiser even incorporates extra weapons range.</MarketingDescription>
+    <Name>Быстрый крейсер v2</Name>
+  </ShipHull>
+  <ShipHull id="1724">
+    <Name>Сверхкрупный десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1725">
+    <Name>Быстрый линкор</Name>
+  </ShipHull>
+  <ShipHull id="1726">
+    <Name>Быстрый авианосец v2</Name>
+  </ShipHull>
+  <ShipHull id="1727">
+    <MarketingName>Thunderstrike RF300</MarketingName>
+    <MarketingDescription>The Thunderstrike is a popular option for those wanting versatility without compromising on speed or manoeuvrability. The incredibly spacious cruiser even incorporates extra weapons range.</MarketingDescription>
+    <Name>Быстрый крейсер v3</Name>
+  </ShipHull>
+  <ShipHull id="1728">
+    <Name>Экспедиционный транспорт</Name>
+  </ShipHull>
+  <ShipHull id="1729">
+    <Name>Большой космопорт</Name>
+  </ShipHull>
+  <ShipHull id="1730">
+    <Name>Массивный колонизационный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1731">
+    <Name>Быстрый линкор</Name>
+  </ShipHull>
+  <ShipHull id="1732">
+    <Name>Быстрый авианосец v3</Name>
+  </ShipHull>
+  <ShipHull id="1733">
+    <Name>Десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1734">
+    <Name>Мировой корабль</Name>
+  </ShipHull>
+  <ShipHull id="1735">
+    <Name>Быстрый дредноут v4</Name>
+  </ShipHull>
+  <ShipHull id="1736">
+    <Name>Быстрый Материнский корабль v4</Name>
+  </ShipHull>
+  <ShipHull id="1737">
+    <Name>Базовый истребитель</Name>
+  </ShipHull>
+  <ShipHull id="1738">
+    <Name>Лёгкий перехватчик</Name>
+  </ShipHull>
+  <ShipHull id="1739">
+    <Name>Перехватчик «Кречет»</Name>
+  </ShipHull>
+  <ShipHull id="1740">
+    <Name>Лёгкий ударный истребитель</Name>
+  </ShipHull>
+  <ShipHull id="1741">
+    <Name>Тактический перехватчик</Name>
+  </ShipHull>
+  <ShipHull id="1742">
+    <Name>Ударный истребитель</Name>
+  </ShipHull>
+  <ShipHull id="1743">
+    <Name>Прыжковый истребитель</Name>
+  </ShipHull>
+  <ShipHull id="1744">
+    <Name>Ударный шаттл «ЗимЗип»</Name>
+  </ShipHull>
+  <ShipHull id="1745">
+    <Name>Перехватчик «Кречет» v2</Name>
+  </ShipHull>
+  <ShipHull id="1746">
+    <Name>Продвинутый перехватчик</Name>
+  </ShipHull>
+  <ShipHull id="1747">
+    <Name>Штурмовой истребитель</Name>
+  </ShipHull>
+  <ShipHull id="1748">
+    <Name>Ударный шаттл «ЗимЗип» v2</Name>
+  </ShipHull>
+  <ShipHull id="1749">
+    <Name>Перехватчик «Кречет» v3</Name>
+  </ShipHull>
+  <ShipHull id="1750">
+    <Name>Перехватчик «Кречет» v4</Name>
+  </ShipHull>
+  <ShipHull id="1751">
+    <Name>Истребитель превосходства</Name>
+  </ShipHull>
+  <ShipHull id="1752">
+    <Name>Ударный шаттл «ЗимЗип» v3</Name>
+  </ShipHull>
+  <ShipHull id="1753">
+    <Name>Истребитель превосходства v2</Name>
+  </ShipHull>
+  <ShipHull id="1754">
+    <Name>Базовый бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1755">
+    <Name>Лёгкий бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1756">
+    <Name>Средний бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1757">
+    <Name>Волновой бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1758">
+    <Name>Штурмовой бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1759">
+    <Name>Тяжёлый бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1760">
+    <Name>Штурм. бомбард.</Name>
+  </ShipHull>
+</ArrayOfShipHull>

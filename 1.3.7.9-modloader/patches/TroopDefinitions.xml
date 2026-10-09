@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfTroopDefinition>
+  <TroopDefinition id="0">
+    <Name>Бригада боевых роботов</Name>
+  </TroopDefinition>
+  <TroopDefinition id="1">
+    <Name>Бригада андроидов</Name>
+  </TroopDefinition>
+  <TroopDefinition id="2">
+    <Name>Бригада штурмовиков</Name>
+  </TroopDefinition>
+  <TroopDefinition id="3">
+    <Name>Бригада тяжелой бронетехники</Name>
+  </TroopDefinition>
+  <TroopDefinition id="4">
+    <Name>Бригада аэрокосмической обороны</Name>
+  </TroopDefinition>
+  <TroopDefinition id="5">
+    <Name>Группа спецназа</Name>
+  </TroopDefinition>
+  <TroopDefinition id="6">
+    <Name>Рота титанов</Name>
+  </TroopDefinition>
+  <TroopDefinition id="7">
+    <Name>Группа ловчих</Name>
+  </TroopDefinition>
+  <TroopDefinition id="8">
+    <Name>Бронетанковая группа истребителей</Name>
+  </TroopDefinition>
+  <TroopDefinition id="9">
+    <Name>Оборонительная группа</Name>
+  </TroopDefinition>
+  <TroopDefinition id="10">
+    <Name>Охотничья группа</Name>
+  </TroopDefinition>
+  <TroopDefinition id="11">
+    <Name>Мобильная крепость</Name>
+  </TroopDefinition>
+  <TroopDefinition id="12">
+    <Name>Бригада баттлематонов</Name>
+  </TroopDefinition>
+  <TroopDefinition id="13">
+    <Name>Гравитационная бригада</Name>
+  </TroopDefinition>
+  <TroopDefinition id="14">
+    <Name>Бригада перехватчиков</Name>
+  </TroopDefinition>
+  <TroopDefinition id="15">
+    <Name>Разведывательная бригада</Name>
+  </TroopDefinition>
+  <TroopDefinition id="16">
+    <Name>Рота боевых мехов</Name>
+  </TroopDefinition>
+  <TroopDefinition id="17">
+    <Name>Силы завоевателей</Name>
+  </TroopDefinition>
+  <TroopDefinition id="18">
+    <Name>Бронетанковые силы завоевателей</Name>
+  </TroopDefinition>
+  <TroopDefinition id="19">
+    <Name>Репульсорные силы</Name>
+  </TroopDefinition>
+  <TroopDefinition id="20">
+    <Name>Силы коммандос</Name>
+  </TroopDefinition>
+  <TroopDefinition id="21">
+    <Name>Штурмовые силы титанов</Name>
+  </TroopDefinition>
+  <TroopDefinition id="22">
+    <Name>Карательный улей</Name>
+  </TroopDefinition>
+  <TroopDefinition id="23">
+    <Name>Передовой улей</Name>
+  </TroopDefinition>
+  <TroopDefinition id="24">
+    <Name>Оборонительный улей</Name>
+  </TroopDefinition>
+  <TroopDefinition id="25">
+    <Name>Скрытый улей</Name>
+  </TroopDefinition>
+  <TroopDefinition id="26">
+    <Name>Кластер Джаггернаутов</Name>
+  </TroopDefinition>
+  <TroopDefinition id="27">
+    <Name>Бригада защитников</Name>
+  </TroopDefinition>
+  <TroopDefinition id="28">
+    <Name>Бронетанковая бригада</Name>
+  </TroopDefinition>
+  <TroopDefinition id="29">
+    <Name>Силы перехватчиков</Name>
+  </TroopDefinition>
+  <TroopDefinition id="30">
+    <Name>Силы специальных операций</Name>
+  </TroopDefinition>
+  <TroopDefinition id="31">
+    <Name>Мобильные силы титанов</Name>
+  </TroopDefinition>
+  <TroopDefinition id="32">
+    <Name>Силы робо-стражей</Name>
+  </TroopDefinition>
+  <TroopDefinition id="33">
+    <Name>Силы робо-мехов</Name>
+  </TroopDefinition>
+  <TroopDefinition id="34">
+    <Name>Группа робо-батарей</Name>
+  </TroopDefinition>
+  <TroopDefinition id="35">
+    <Name>Силы робо-коммандос</Name>
+  </TroopDefinition>
+  <TroopDefinition id="36">
+    <Name>Группа робо-титанов</Name>
+  </TroopDefinition>
+  <TroopDefinition id="37">
+    <Name>Силы часовых</Name>
+  </TroopDefinition>
+  <TroopDefinition id="42">
+    <Name>Бригада стражей</Name>
+  </TroopDefinition>
+  <TroopDefinition id="43">
+    <Name>Охотничий отряд</Name>
+  </TroopDefinition>
+  <TroopDefinition id="44">
+    <Name>Бригада наемников</Name>
+  </TroopDefinition>
+  <TroopDefinition id="45">
+    <Name>Военный рой</Name>
+  </TroopDefinition>
+  <TroopDefinition id="46">
+    <Name>Боевая группа</Name>
+  </TroopDefinition>
+  <TroopDefinition id="47">
+    <Name>Бригада боевых десантников</Name>
+  </TroopDefinition>
+  <TroopDefinition id="48">
+    <Name>Боевой клан</Name>
+  </TroopDefinition>
+  <TroopDefinition id="49">
+    <Name>Бригада боевых мехов</Name>
+  </TroopDefinition>
+  <TroopDefinition id="50">
+    <Name>Группа скаутов</Name>
+  </TroopDefinition>
+  <TroopDefinition id="51">
+    <Name>Силы защиты</Name>
+  </TroopDefinition>
+  <TroopDefinition id="52">
+    <Name>Бригада терминаторов</Name>
+  </TroopDefinition>
+  <TroopDefinition id="53">
+    <Name>Бригада боевых ботов</Name>
+  </TroopDefinition>
+  <TroopDefinition id="54">
+    <Name>Рой-убийца</Name>
+  </TroopDefinition>
+  <TroopDefinition id="55">
+    <Name>Стражи-мехи</Name>
+  </TroopDefinition>
+  <TroopDefinition id="32764">
+    <Name>Рейдер улья</Name>
+  </TroopDefinition>
+  <TroopDefinition id="32765">
+    <Name>Стандартный рейдер</Name>
+  </TroopDefinition>
+  <TroopDefinition id="32766">
+    <Name>Стандартное ополчение</Name>
+  </TroopDefinition>
+  <TroopDefinition id="32767">
+    <Name>Стандартная пехота</Name>
+  </TroopDefinition>
+</ArrayOfTroopDefinition>

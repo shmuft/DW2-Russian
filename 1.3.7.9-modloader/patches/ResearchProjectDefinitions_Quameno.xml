@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfResearchProjectDefinition>
+  <ResearchProjectDefinition id="258">
+    <Name>Зажигание синтеза</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="292">
+    <Name>Улучшенные реакции синтеза</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="491">
+    <Name>Интенсивные реакции синтеза</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="530">
+    <Name>Нулевой порог синтеза</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="817">
+    <Name>Эксперименты с жесткой энергией</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="818">
+    <Name>Укрепленные щиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="819">
+    <Name>Усиленные жесткие щиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="820">
+    <Name>Непробиваемые щиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="821">
+    <Name>Испытания заслуг</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="822">
+    <Name>Возвышение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="824">
+    <Name>Базовые системы убежища</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="825">
+    <Name>Основные конструкции хранилищ</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="826">
+    <Name>Исследование культуры пиратов-головоломок</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="827">
+    <Name>Проектирование и поведение Шактури</Name>
+  </ResearchProjectDefinition>
+</ArrayOfResearchProjectDefinition>

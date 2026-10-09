@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfComponentDefinition>
+  <ComponentDefinition id="389">
+    <Name>Пси-щит</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="390">
+    <Name>Пси-усилитель Шактури</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="391">
+    <Name>Излучатель разлома</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="392">
+    <Name>Массивный колонизационный модуль Шактури</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="393">
+    <Name>Торпеда «Инферно» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="394">
+    <Name>Торпеда «Инферно» [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="395">
+    <Name>Торпеда «Инферно» [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="396">
+    <Name>Торпеда «Инферно» [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="405">
+    <Name>Колонизационный модуль для беженцев</Name>
+  </ComponentDefinition>
+</ArrayOfComponentDefinition>

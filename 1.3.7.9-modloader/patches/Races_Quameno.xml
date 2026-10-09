@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfRace>
+  <Race id="15">
+    <Name>Куамено</Name>
+    <Description>Куамено - высокоразвитая амфибийная раса. Куамено высокие и грациозные, с длинными конечностями и шеей. Их крупные глаза расположены по бокам головы, что обеспечивает отличное периферийное зрение в диапазоне почти 360 градусов.\n\nКуамено очень миролюбивы и предпочитают держаться обособленно. Обычно они выбирают жизнь в изоляции от других рас, оставаясь за пределами основного потока галактической деятельности.\n\nОни любят сложные интеллектуальные задачи, такие как решение головоломок или расшифровка неизвестных надписей. Эта естественная склонность также делает их одарёнными лингвистами - они могут освоить новый язык всего за несколько дней.\n\nКуамено также любят экспериментировать с экзотическими научными принципами, и в процессе часто создают мощные технологии. Более того, их естественное увлечение необычными теориями энергии привело их к созданию НоваКора - чрезвычайно мощного и эффективного реактора.\n\nКуамено проявляют огромный интерес к галактической истории. Они также ищут странные доисторические артефакты. Их исследования заставили многих куаменских учёных заявить, что в нашем понимании прошлых событий существуют значительные пробелы.\n\nСообщества Куамено обычно живут в полузатопленных высокотехнологичных биосферах на мелководных прибрежных зонах планет с биомами «Мангровый лес», «Болотистые топи» или «Океан».</Description>
+    <DesignNames op="replace">
+      <string>Quartos</string>
+      <string>Dunavia</string>
+      <string>Heruso</string>
+      <string>Yiqqus</string>
+      <string>Qasar</string>
+      <string>Rubandi</string>
+      <string>Urto</string>
+      <string>Wereshta</string>
+      <string>Shupoq</string>
+      <string>Liriso</string>
+      <string>Astara</string>
+      <string>Azuros</string>
+      <string>Orotu</string>
+      <string>Basula</string>
+      <string>Xertu</string>
+      <string>Juura</string>
+      <string>Rurek</string>
+      <string>Klasur</string>
+      <string>Sutak</string>
+      <string>Faruutin</string>
+      <string>Excosu</string>
+      <string>Naculon</string>
+      <string>Torsandu</string>
+      <string>Gendu</string>
+      <string>Zorshasta</string>
+      <string>Varisek</string>
+      <string>Mendachu</string>
+      <string>Corasol</string>
+      <string>Perrandu</string>
+      <string>Isaren</string>
+      <string>Lankaros</string>
+      <string>Dursto</string>
+      <string>Rankon</string>
+      <string>Kurestian</string>
+      <string>Judasian</string>
+      <string>Cwasten</string>
+    </DesignNames>
+    <CharacterFirstNames op="replace">
+      <string>Equia</string>
+      <string>Senaris</string>
+      <string>Udy</string>
+      <string>Tala</string>
+      <string>Kara</string>
+      <string>Setu</string>
+      <string>Cwegu</string>
+      <string>Cos</string>
+      <string>Tesa</string>
+      <string>Pok</string>
+      <string>Yadu</string>
+      <string>Deria</string>
+      <string>Aki</string>
+      <string>Shardu</string>
+      <string>Inar</string>
+      <string>Wendos</string>
+      <string>Jokal</string>
+      <string>Seru</string>
+      <string>Vuntal</string>
+      <string>Netu</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Wassoga</string>
+      <string>Qendo</string>
+      <string>Lapuri</string>
+      <string>Se</string>
+      <string>Mokuri</string>
+      <string>Zo</string>
+      <string>Tan</string>
+      <string>Mudo</string>
+      <string>Brosi</string>
+      <string>Neres</string>
+      <string>Yudos</string>
+      <string>Ukan</string>
+      <string>Opadu</string>
+      <string>Kassaru</string>
+      <string>Nerasi</string>
+      <string>Dando</string>
+      <string>Passun</string>
+      <string>Tafus</string>
+      <string>Zu</string>
+      <string>Nerendu</string>
+    </CharacterLastNames>
+    <FeatureExplanations op="replace">
+      <string>[HL]Инопланетные отвлечения:[/HL] +1 к счастью и -20% ко всем исследованиям на 2 года при подписании договора с другой фракцией</string>
+      <string>[HL]Изучение интеграции:[/HL] снижает счастье и исследования, пока в ваших колониях есть неассимилированное инопланетное население. Размер снижения зависит от доли неассимилированного населения в вашей империи</string>
+      <string>[HL]Ответ:[/HL] +10% к счастью на 5 лет и случайный технологический бонус при постройке планетарного сооружения «Узел трансцендентности»</string>
+      <string>[HL]Головоломка решена:[/HL] при завершении продвинутого исследовательского проекта (технологический уровень 5 и выше) есть небольшой шанс получить: +10% счастья и +10% ко всем исследованиям на 2 года, а также бонусную положительную черту у вашего лидера и у учёного. Чем выше уровень проекта, тем выше шанс этого события</string>
+      <string>[HL]Строим будущее:[/HL] +5 к счастью на 6 месяцев при постройке новой исследовательской станции</string>
+      <string>[HL]Часть головоломки:[/HL] при обнаружении нового места исследований с шансом 50% даёт и +25% к исследованиям в смежной технологии, и +10% к росту населения по всей империи на один год</string>
+      <string>[HL]Уникальная черта лидера — Решатель головоломок:[/HL] +5% ко всем исследованиям, -5% к доходу колоний</string>
+      <string>[HL]Уникальная черта лидера — Замкнутый:[/HL] -10% к дипломатии</string>
+      <string>[HL]Уникальная черта учёного — Целеустремлённый:[/HL] +5% ко всем исследованиям, но повышен шанс критической неудачи в исследовании</string>
+      <string>[HL]Уникальная черта учёного — Специалист по эффективности:[/HL] скидка 20% на стоимость срочных исследований</string>
+      <string>[HL]Начальная черта послов:[/HL] все послы начинают с чертой «Лингвист» (+5% к дипломатии, +5% к доходу от туризма)</string>
+      <string>[HL]Параллельные исследования отключены:[/HL] можно исследовать только один проект одновременно</string>
+    </FeatureExplanations>
+  </Race>
+</ArrayOfRace>

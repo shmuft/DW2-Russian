@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfGovernment>
+  <Government id="32740">
+    <LeaderTitle>Пират</LeaderTitle>
+    <Name>Пират</Name>
+    <Description>Одинокие пираты не специализируются на чём-то одном. Они универсальны и могут пробовать всё подряд.\n\nОни способны захватывать вражеские корабли, совершать набеги на базы и контрабандой переправлять ресурсы.\n\nОни также могут принимать различные контракты от других фракций.\n\nВаш стартовый корабль — небольшое военное судно, [HL]Эскорт[/HL], оснащённый базовыми технологиями.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Bloody</string>
+      <string>Dread</string>
+      <string>Dirty</string>
+      <string>Evil</string>
+      <string>Iron</string>
+      <string>Fierce</string>
+      <string>Cruel</string>
+      <string>Sinister</string>
+      <string>Vicious</string>
+      <string>Lone</string>
+      <string>Savage</string>
+      <string>Fearsome</string>
+      <string>Deadly</string>
+      <string>Venomous</string>
+      <string>Murderous</string>
+      <string>Red</string>
+      <string>Black</string>
+      <string>Dark</string>
+      <string>Grim</string>
+      <string>Haunted</string>
+      <string>Menacing</string>
+      <string>Blood</string>
+      <string>Burning</string>
+      <string>Hidden</string>
+      <string>Fire</string>
+      <string>Lost</string>
+    </EmpireNameAdjectives>
+    <EmpireNameMiddles op="replace">
+      <string>Sun</string>
+      <string>Star</string>
+      <string>Rock</string>
+      <string>Moon</string>
+      <string>Storm</string>
+      <string>Fang</string>
+      <string>Claw</string>
+      <string>Dagger</string>
+      <string>Lightning</string>
+      <string>Flame</string>
+    </EmpireNameMiddles>
+    <EmpireNameNouns op="replace">
+      <string>Pirates</string>
+      <string>Marauders</string>
+      <string>Bandits</string>
+      <string>Buccaneers</string>
+      <string>Outlaws</string>
+      <string>Corsairs</string>
+      <string>Gangsters</string>
+      <string>Prowlers</string>
+      <string>Intruders</string>
+      <string>Skyjackers</string>
+      <string>Gang</string>
+      <string>Council</string>
+      <string>Network</string>
+      <string>League</string>
+      <string>Force</string>
+      <string>Clan</string>
+      <string>Authority</string>
+      <string>Confederacy</string>
+      <string>Confederation</string>
+      <string>Fleet</string>
+      <string>Consortium</string>
+      <string>Syndicate</string>
+      <string>Cartel</string>
+    </EmpireNameNouns>
+  </Government>
+  <Government id="32741">
+    <LeaderTitle>Контрабандист</LeaderTitle>
+    <Name>Контрабандист</Name>
+    <Description>Контрабандисты-одиночки сосредоточены на торговле ресурсами с фракциями. Они также часто выполняют контракты по поставке ресурсов.\n\nКонтрабандисты ценят стабильность и мирное сосуществование с другими фракциями вместо открытых конфликтов. Они также эффективно используют шпионов, чтобы влиять на события в свою пользу.\n\nВаш стартовый корабль — [HL]Малый грузовой корабль[/HL], оснащённый базовыми технологиями.\n\nКонтрабандисты также получают дополнительную скидку в 10% на ресурсы черного рынка.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Lone</string>
+      <string>Red</string>
+      <string>Black</string>
+      <string>Dark</string>
+      <string>Grim</string>
+      <string>Haunted</string>
+      <string>Blood</string>
+      <string>Burning</string>
+      <string>Hidden</string>
+      <string>Fire</string>
+      <string>Lost</string>
+      <string>Swift</string>
+      <string>Nimble</string>
+      <string>Agile</string>
+      <string>Fearless</string>
+      <string>Audacious</string>
+      <string>Bold</string>
+      <string>Adept</string>
+    </EmpireNameAdjectives>
+    <EmpireNameMiddles op="replace">
+      <string>Sun</string>
+      <string>Star</string>
+      <string>Rock</string>
+      <string>Moon</string>
+      <string>Storm</string>
+      <string>Fang</string>
+      <string>Claw</string>
+      <string>Dagger</string>
+      <string>Lightning</string>
+      <string>Flame</string>
+    </EmpireNameMiddles>
+    <EmpireNameNouns op="replace">
+      <string>Gang</string>
+      <string>Council</string>
+      <string>Network</string>
+      <string>League</string>
+      <string>Force</string>
+      <string>Clan</string>
+      <string>Fleet</string>
+      <string>Authority</string>
+      <string>Confederacy</string>
+      <string>Confederation</string>
+      <string>Horde</string>
+      <string>Corporation</string>
+      <string>Consortium</string>
+      <string>Syndicate</string>
+      <string>Cartel</string>
+      <string>Guild</string>
+      <string>Smugglers</string>
+      <string>Traders</string>
+      <string>Enterprises</string>
+    </EmpireNameNouns>
+  </Government>
+  <Government id="32742">
+    <LeaderTitle>Рейдер</LeaderTitle>
+    <Name>Рейдер</Name>
+    <Description>Одиночные рейдеры специализируются на набегах на базы для грабежа денег и ресурсов.\n\nОни также могут собирать обломки после уничтожения целей, подбирая найденные ценные предметы.\n\nВаш стартовый корабль — небольшое военное судно, [HL]Эскорт[/HL], оснащённое базовыми технологиями.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Bloody</string>
+      <string>Dread</string>
+      <string>Dirty</string>
+      <string>Evil</string>
+      <string>Iron</string>
+      <string>Fierce</string>
+      <string>Cruel</string>
+      <string>Sinister</string>
+      <string>Vicious</string>
+      <string>Lone</string>
+      <string>Savage</string>
+      <string>Fearsome</string>
+      <string>Deadly</string>
+      <string>Venomous</string>
+      <string>Murderous</string>
+      <string>Red</string>
+      <string>Black</string>
+      <string>Dark</string>
+      <string>Grim</string>
+      <string>Haunted</string>
+      <string>Menacing</string>
+      <string>Blood</string>
+      <string>Burning</string>
+      <string>Hidden</string>
+      <string>Fire</string>
+      <string>Lost</string>
+    </EmpireNameAdjectives>
+    <EmpireNameMiddles op="replace">
+      <string>Sun</string>
+      <string>Star</string>
+      <string>Rock</string>
+      <string>Moon</string>
+      <string>Storm</string>
+      <string>Fang</string>
+      <string>Claw</string>
+      <string>Dagger</string>
+      <string>Lightning</string>
+      <string>Flame</string>
+    </EmpireNameMiddles>
+    <EmpireNameNouns op="replace">
+      <string>Pirates</string>
+      <string>Marauders</string>
+      <string>Bandits</string>
+      <string>Raiders</string>
+      <string>Buccaneers</string>
+      <string>Outlaws</string>
+      <string>Corsairs</string>
+      <string>Pillagers</string>
+      <string>Gangsters</string>
+      <string>Ravagers</string>
+      <string>Prowlers</string>
+      <string>Intruders</string>
+      <string>Invaders</string>
+      <string>Skyjackers</string>
+      <string>Gang</string>
+      <string>Force</string>
+      <string>Clan</string>
+      <string>Army</string>
+      <string>Fleet</string>
+      <string>Horde</string>
+    </EmpireNameNouns>
+  </Government>
+  <Government id="32743">
+    <LeaderTitle>Охотник за головами</LeaderTitle>
+    <Name>Охотник за головами</Name>
+    <Description>Охотники за головами — это наемные воины, которые ищут контракты на нападение и оборону, предлагаемые другими империями.\n\nКогда они не выполняют контракты, они могут захватывать корабли вражеских империй. Они также совершают набеги на колонии и базы, чтобы захватить добычу.\n\nОни также могут заключать соглашения о каперстве с другими империями.\n\nВаш стартовый корабль — это небольшой военный корабль, [HL]Эскорт[/HL], оснащенный базовыми технологиями.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Bloody</string>
+      <string>Dread</string>
+      <string>Dirty</string>
+      <string>Evil</string>
+      <string>Iron</string>
+      <string>Fierce</string>
+      <string>Cruel</string>
+      <string>Sinister</string>
+      <string>Vicious</string>
+      <string>Lone</string>
+      <string>Savage</string>
+      <string>Fearsome</string>
+      <string>Deadly</string>
+      <string>Venomous</string>
+      <string>Murderous</string>
+      <string>Red</string>
+      <string>Black</string>
+      <string>Dark</string>
+      <string>Grim</string>
+      <string>Haunted</string>
+      <string>Menacing</string>
+      <string>Blood</string>
+      <string>Burning</string>
+      <string>Hidden</string>
+      <string>Fire</string>
+      <string>Lost</string>
+    </EmpireNameAdjectives>
+    <EmpireNameMiddles op="replace">
+      <string>Sun</string>
+      <string>Star</string>
+      <string>Rock</string>
+      <string>Moon</string>
+      <string>Storm</string>
+      <string>Fang</string>
+      <string>Claw</string>
+      <string>Dagger</string>
+      <string>Lightning</string>
+      <string>Flame</string>
+    </EmpireNameMiddles>
+    <EmpireNameNouns op="replace">
+      <string>Buccaneers</string>
+      <string>Outlaws</string>
+      <string>Corsairs</string>
+      <string>Gangsters</string>
+      <string>Prowlers</string>
+      <string>Intruders</string>
+      <string>Gang</string>
+      <string>Mercenaries</string>
+      <string>Council</string>
+      <string>Network</string>
+      <string>League</string>
+      <string>Force</string>
+      <string>Clan</string>
+      <string>Authority</string>
+      <string>Security</string>
+      <string>Warriors</string>
+      <string>Hunters</string>
+      <string>Guild</string>
+    </EmpireNameNouns>
+  </Government>
+  <Government id="32720">
+    <LeaderTitle>Пират</LeaderTitle>
+    <Name>Легендарный одинокий пират</Name>
+    <Description>Легендарные одинокие пираты — это вершина пиратского управления.\n\nОна объединяет все преимущества различных стилей одиночного пиратства (пираты, контрабандисты, рейдеры, наемники) в единую форму правления.\n\nВы автоматически перейдете к правлению Легендарного Одинокого Пирата, когда победите охотника за головами, посланного за вами другими пиратами.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Bloody</string>
+      <string>Dread</string>
+      <string>Dirty</string>
+      <string>Evil</string>
+      <string>Iron</string>
+      <string>Fierce</string>
+      <string>Cruel</string>
+      <string>Sinister</string>
+      <string>Vicious</string>
+      <string>Lone</string>
+      <string>Savage</string>
+      <string>Fearsome</string>
+      <string>Deadly</string>
+      <string>Venomous</string>
+      <string>Murderous</string>
+      <string>Red</string>
+      <string>Black</string>
+      <string>Dark</string>
+      <string>Grim</string>
+      <string>Haunted</string>
+      <string>Menacing</string>
+      <string>Blood</string>
+      <string>Burning</string>
+      <string>Hidden</string>
+      <string>Fire</string>
+      <string>Lost</string>
+    </EmpireNameAdjectives>
+    <EmpireNameMiddles op="replace">
+      <string>Sun</string>
+      <string>Star</string>
+      <string>Rock</string>
+      <string>Moon</string>
+      <string>Storm</string>
+      <string>Fang</string>
+      <string>Claw</string>
+      <string>Dagger</string>
+      <string>Lightning</string>
+      <string>Flame</string>
+    </EmpireNameMiddles>
+    <EmpireNameNouns op="replace">
+      <string>Pirates</string>
+      <string>Marauders</string>
+      <string>Bandits</string>
+      <string>Buccaneers</string>
+      <string>Outlaws</string>
+      <string>Corsairs</string>
+      <string>Gangsters</string>
+      <string>Prowlers</string>
+      <string>Intruders</string>
+      <string>Skyjackers</string>
+      <string>Gang</string>
+      <string>Council</string>
+      <string>Network</string>
+      <string>League</string>
+      <string>Force</string>
+      <string>Clan</string>
+      <string>Authority</string>
+      <string>Confederacy</string>
+      <string>Confederation</string>
+      <string>Fleet</string>
+      <string>Consortium</string>
+      <string>Syndicate</string>
+      <string>Cartel</string>
+    </EmpireNameNouns>
+  </Government>
+</ArrayOfGovernment>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfGameEvent>
+  <GameEvent id="Warrior Wave Choice (Mortalen)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Волна воинов</MessageTitle>
+        <Description>Недавнее объявление войны вызвало всплеск воинственного духа в нашей империи.\n\nВ результате наша империя получит бонус [BONUS]+20% к скорости роста населения Морталенов[/BONUS] на следующие 2 года.\n\nКроме того, мы также можем выбрать одно из следующего:\n\n[ULI][BONUS]+50% к скорости набора войск[/BONUS][/ULI]\n[ULI][BONUS]+20% к силе атаки войск[/BONUS][/ULI]\n\nЧто же нам выбрать? Скорость набора войск или силу атаки войск?</Description>
+        <ChoiceButtonText>+50% к скорости набора войск</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>+20% к силе атаки войск</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Patriotic Wave Choice (Mortalen)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Волна патриотизма</MessageTitle>
+        <Description>Недавнее объявление войны против нас вызвало всплеск патриотического духа во всей нашей империи.\n\nВ результате наша империя в течение следующих 2 лет получит бонус [BONUS]+20% к скорости роста населения Морталенов[/BONUS].\n\nКроме того, мы также можем выбрать один из следующих вариантов:\n\n[ULI][BONUS]+10% к снижению коррупции в колониях[/BONUS][/ULI]\n[ULI][BONUS]+50% к снижению усталости от войны[/BONUS][/ULI]\n\nЧто же нам выбрать? Снижение коррупции в колониях или снижение усталости от войны?</Description>
+        <ChoiceButtonText>+10% к снижению коррупции в колониях</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>+50% к снижению усталости от войны</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Know Your Enemy Choice (Mortalen)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Знай своего врага</MessageTitle>
+        <Description>Наша недавняя победа над вражеским миром позволяет нам получить временные улучшения в текущем конфликте.\n\nМы можем выбрать одно из следующих на ближайшие 2 года:\n\n[ULI][BONUS]+10% к шпионажу и +10% к контршпионажу[/BONUS][/ULI]\n[ULI][BONUS]+10% к точности наведения и +10% к противодействию[/BONUS][/ULI]\n\nЧто мы выберем? Шпионаж и контршпионаж? Или точность наведения и противодействие?</Description>
+        <ChoiceButtonText>+10% к шпионажу и +10% к контршпионажу</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>+10% к точности наведения и +10% к противодействию</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+</ArrayOfGameEvent>

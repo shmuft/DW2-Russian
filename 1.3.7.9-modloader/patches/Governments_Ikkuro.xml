@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfGovernment>
+  <Government id="11">
+    <LeaderTitle>Страж Жизни</LeaderTitle>
+    <Name>Гармоничная утопия</Name>
+    <Description>Гармоничные утопии - это форма идеального общества, стремящаяся обеспечить своим членам жизнь в мире, счастье и процветании. Иногда они больше напоминают фантазию, чем реальность, хотя некоторые виды и культуры способны приблизиться к этому идеалу сильнее других.\n\nНа практике гармоничные утопии могут быть удушающими для некоторых из-за акцента на гармонии. Этот акцент создаёт общественное давление, заставляющее подавлять любое недовольство или выражение несогласия. Существует также риск определённой стагнации, если гармония и счастье достигнуты в полной мере.\n\nТипичные цели лидеров и жителей гармоничной утопии - долголетие, гармония и мудрость, а также получение новых приятных впечатлений. В целом такие места привлекают людей со всей галактики, поскольку они ближе всего к реализации идеи рая.\n\nГармоничные утопии обычно являются открытыми обществами и могут испытывать трудности в периоды конфликтов и потрясений, так как меры, необходимые для обороны или нападения, часто противоречат их базовым философским принципам.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Harmonious</string>
+      <string>United</string>
+      <string>Benevolent</string>
+      <string>Grand</string>
+      <string>Idyllic</string>
+    </EmpireNameAdjectives>
+    <EmpireNameNouns op="replace">
+      <string>Utopia</string>
+      <string>Paradise</string>
+      <string>Perfection</string>
+      <string>Bliss</string>
+      <string>Serenity</string>
+      <string>Nirvana</string>
+      <string>Tranquility</string>
+      <string>Commune</string>
+      <string>Cooperative</string>
+    </EmpireNameNouns>
+  </Government>
+</ArrayOfGovernment>

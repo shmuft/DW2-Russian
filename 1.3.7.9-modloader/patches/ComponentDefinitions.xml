@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfComponentDefinition>
+  <ComponentDefinition id="0">
+    <Name>Лазерная пушка [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="1">
+    <Name>Проектор ионного поля [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="2">
+    <Name>Волновая бомба [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="3">
+    <Name>Гравитонный потоковый проектор [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="4">
+    <Name>Плазменная торпеда [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="5">
+    <Name>Ищущая ракета [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="6">
+    <Name>Дальнобойная пушка [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="7">
+    <Name>Лазерная пушка [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="8">
+    <Name>Многозарядный бластер «Баклер» [PD]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="9">
+    <Name>Туонный луч [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="10">
+    <Name>Бластер «Максос» [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="11">
+    <Name>Ионная пушка [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="12">
+    <Name>Ионная бомба [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="13">
+    <Name>Импульсный залп «Устрашитель» [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="14">
+    <Name>Гравитонный луч [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="15">
+    <Name>Торпеда «Эпсилон» [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="16">
+    <Name>Ракета-перехватчик [PD]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="17">
+    <Name>Ударная ракета [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="18">
+    <Name>Атомный опустошитель [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="19">
+    <Name>Зенитная пушка [PD]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="20">
+    <Name>Рельсовое орудие [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="21">
+    <Name>Ионный импульсный бластер [PD]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="22">
+    <Name>Ионный щит</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="23">
+    <Name>Тяговый луч [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="24">
+    <Name>Торпеда «Огненный шторм» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="25">
+    <Name>Ракета «Молния» [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="26">
+    <Name>Ракета «Копьё» [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="27">
+    <Name>Тяжелое рельсовое орудие [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="28">
+    <Name>Многолучевая защита «Часовой» [PD]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="29">
+    <Name>Луч «Разрушительная сила» [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="30">
+    <Name>Ракетная батарея «Балварк» [PD]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="31">
+    <Name>Ударный штурмовой бластер [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="32">
+    <Name>Ионный импульс [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="33">
+    <Name>Деразианская ударная волна [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="34">
+    <Name>Ударно-волновая торпеда [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="35">
+    <Name>Осколок скорости [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="36">
+    <Name>Нейтронный истребитель [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="37">
+    <Name>Масс-драйвер «Затмение» [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="38">
+    <Name>Связанная батарея ПВО [PD]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="39">
+    <Name>Фазерное копьё [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="40">
+    <Name>Электромагнитное копьё [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="41">
+    <Name>Шоковые мины "Аннигилятор" [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="42">
+    <Name>Резонансный гравитонный луч [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="43">
+    <Name>Дальнобойный тяговый луч [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="44">
+    <Name>Мощный притягивающий луч [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="45">
+    <Name>Рельсовая пушка «Град» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="46">
+    <Name>Гравитационные мины «Разрывное течение» [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="47">
+    <Name>Гравитонный импульс [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="48">
+    <Name>Плазменная молния [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="49">
+    <Name>Ракета «Нова» [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="50">
+    <Name>Ракетная батарея «Балварк» [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="51">
+    <Name>Ракетная батарея "Эгида" [PD]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="52">
+    <Name>Ракетная батарея «Улья» [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="53">
+    <Name>Ракетная батарея «Охотник» [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="54">
+    <Name>Автопушка «Терминатор» батарея [PD]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="55">
+    <Name>Рельсовая батарея «Кузня» [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="56">
+    <Name>Бластер «Титан» [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="57">
+    <Name>Ионная скорострельная импульсная матрица [PD]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="58">
+    <Name>Тяжелая ионная пушка [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="59">
+    <Name>Торпеда «Эпсилон» [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="60">
+    <Name>Оборонительная сеть «Страж» [PD]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="61">
+    <Name>Фазированная лучевая матрица [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="62">
+    <Name>Импульсная волна «Нова» [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="63">
+    <Name>Квантовый осколок [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="64">
+    <Name>Омега-луч [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="65">
+    <Name>Скип-двигатель</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="66">
+    <Name>Нестабильная сингулярность [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="67">
+    <Name>Гравитационный луч контроля [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="68">
+    <Name>Генератор гравитационного колодца</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="69">
+    <Name>Подкрепляющие роевые ракеты [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="70">
+    <Name>Истребитель континентов [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="71">
+    <Name>Луч смерти [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="72">
+    <Name>Солнечный бластер [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="73">
+    <Name>Квантовый всплеск [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="74">
+    <Name>Проектор черных дыр [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="75">
+    <Name>Торпеда «Сверхновая» [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="76">
+    <Name>Реплицирующаяся роевая батарея [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="77">
+    <Name>Планетарный истребитель [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="78">
+    <Name>Система сопровождения цели</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="79">
+    <Name>Система противодействия</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="80">
+    <Name>Сеть датчиков приближения</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="81">
+    <Name>Базовый исследовательский модуль</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="82">
+    <Name>Базовый десантный отсек</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="83">
+    <Name>Базовый пассажирский отсек</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="84">
+    <Name>Базовый грузовой отсек</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="85">
+    <Name>Базовый топливный элемент</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="86">
+    <Name>Стыковочный отсек</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="87">
+    <Name>Торговый центр</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="88">
+    <Name>Базовые системы жизнеобеспечения экипажа</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="89">
+    <Name>Базовый медицинский центр</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="90">
+    <Name>Базовый центр отдыха</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="91">
+    <Name>Базовая исследовательская лаборатория</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="92">
+    <Name>Базовый командный центр</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="93">
+    <Name>Многоцелевые сенсоры</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="94">
+    <Name>Система РЭБ «Призрачная тень»</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="95">
+    <Name>Сканер следа</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="96">
+    <Name>Сенсорная сеть ближнего радиуса</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="97">
+    <Name>Сканер ресурсов</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="98">
+    <Name>Продвинутый исследовательский модуль</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="99">
+    <Name>Колонизационный модуль</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="100">
+    <Name>Десантный отсек</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="101">
+    <Name>Пассажирский отсек</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="102">
+    <Name>Грузовой отсек</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="103">
+    <Name>Топливный элемент</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="104">
+    <Name>Топливный элемент сверхвысокой плотности</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="105">
+    <Name>Медицинский центр</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="106">
+    <Name>Центр отдыха</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="107">
+    <Name>Исследовательская лаборатория</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="108">
+    <Name>Командный центр</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="109">
+    <Name>Подавитель следа</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="110">
+    <Name>Флотская система наведения</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="111">
+    <Name>Флотская система противодействия</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="112">
+    <Name>Стелс-завеса</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="113">
+    <Name>Дальнобойная сенсорная сеть</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="114">
+    <Name>Большой десантный отсек</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="115">
+    <Name>Большой пассажирский отсек</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="116">
+    <Name>Большой грузовой отсек</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="117">
+    <Name>Большой топливный элемент</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="118">
+    <Name>Малый добывающий двигатель</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="119">
+    <Name>Продвинутая система наведения</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="120">
+    <Name>Продвинутая система противодействия</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="121">
+    <Name>Мультиспектральный сканер следа</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="122">
+    <Name>Сверхдальняя сенсорная сеть</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="123">
+    <Name>Стелс-оболочка I-межпространства</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="124">
+    <Name>Мультиспектральный подавитель следа</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="125">
+    <Name>Глубинный сканер планет</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="126">
+    <Name>Модуль глубокого обследования</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="127">
+    <Name>Массивный десантный отсек</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="128">
+    <Name>Массивный пассажирский отсек</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="129">
+    <Name>Массивный грузовой отсек</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="130">
+    <Name>Топливный элемент высокой плотности</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="131">
+    <Name>Продвинутый медицинский центр</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="132">
+    <Name>Продвинутый центр отдыха</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="133">
+    <Name>Боевая система всецелевого захвата</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="134">
+    <Name>Генератор туннеля I-межпространства</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="135">
+    <Name>Датчики Пустоты</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="136">
+    <Name>Базовый космический реактор</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="137">
+    <Name>Генератор отклоняющего поля</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="138">
+    <Name>Генератор варп-пузыря</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="139">
+    <Name>Ионный двигатель</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="140">
+    <Name>Маневровый двигатель</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="141">
+    <Name>Большой горнодобывающий двигатель (бур)</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="142">
+    <Name>Средний ангар истребителей</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="143">
+    <Name>Большой ангар истребителей</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="144">
+    <Name>Коллектор энергии</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="146">
+    <Name>Ядерный реактор</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="147">
+    <Name>Протонный двигатель</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="148">
+    <Name>Омега-луч [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="149">
+    <Name>Штурмовая капсула</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="150">
+    <Name>Стандартная броня</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="151">
+    <Name>Модуль борьбы за живучесть</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="152">
+    <Name>Омега-луч [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="153">
+    <Name>Генератор блокирующего поля [PD]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="154">
+    <Name>Корвидианские щиты</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="155">
+    <Name>Гипердвигатель «Геракс»</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="156">
+    <Name>Турбо-импульсный двигатель</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="157">
+    <Name>Квантовый двигатель</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="158">
+    <Name>Двигатель «Акцелерос»</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="159">
+    <Name>Двигатель «Звездный форсаж»</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="160">
+    <Name>Пушка электромагнитных волн [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="161">
+    <Name>Торпеда «Огненный шторм» [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="162">
+    <Name>Рельсовая батарея «Кузня» [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="163">
+    <Name>Термоядерный реактор</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="164">
+    <Name>Квантовый реактор</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="165">
+    <Name>Омега-луч [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="166">
+    <Name>Щиты «Талассос»</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="167">
+    <Name>Щиты «Девкалион»</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="168">
+    <Name>Гипер-запретитель GW1000</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="169">
+    <Name>Гипердвигатель «Калдос»</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="170">
+    <Name>Гипердвигатель «Калиста-Даль»</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="171">
+    <Name>Гипердвигатель «Эквинокс»</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="172">
+    <Name>Векторный двигатель</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="173">
+    <Name>Улучшенная броня</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="175">
+    <Name>Малый ангар истребителей</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="176">
+    <Name>Ремонтные боты SF24</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="177">
+    <Name>Гипер-термоядерный реактор</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="178">
+    <Name>Локальный генератор щита [PD]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="179">
+    <Name>Гипер-запретитель GW4000</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="180">
+    <Name>Гипер-термоядерный реактор [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="181">
+    <Name>Тяжелая ионная пушка [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="182">
+    <Name>Реактивная броня</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="183">
+    <Name>Щиты «Меридиан»</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="184">
+    <Name>Ракетная батарея «Улья» [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="185">
+    <Name>Подзарядка щитов области</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="186">
+    <Name>Сверхплотная броня</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="187">
+    <Name>Реактор нулевой точки</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="188">
+    <Name>Поглощающая броня</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="189">
+    <Name>Преобразователь энергии в топливо</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="190">
+    <Name>Реактор «Тёмная звезда»</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="191">
+    <Name>Щиты «Цитадель»</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="192">
+    <Name>Ракетная батарея «Улья» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="193">
+    <Name>Ракетная батарея «Охотник» [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="194">
+    <Name>Фазированная лучевая матрица [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="195">
+    <Name>Звездная броня</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="196">
+    <Name>Строительная верфь</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="197">
+    <Name>Ищущая ракета [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="198">
+    <Name>Торпеда «Эпсилон» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="199">
+    <Name>Дальнобойная пушка [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="200">
+    <Name>Бластер «Максос» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="201">
+    <Name>Ударная ракета [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="202">
+    <Name>Рельсовое орудие [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="203">
+    <Name>Ударная ракета [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="204">
+    <Name>Рельсовое орудие [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="205">
+    <Name>Ионная оболочечная броня</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="206">
+    <Name>Ионная закаленная броня</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="207">
+    <Name>Стандартная броня [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="208">
+    <Name>Улучшенная броня [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="209">
+    <Name>Реактивная броня [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="210">
+    <Name>Генератор отклоняющего поля [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="211">
+    <Name>Щиты Корвидиан [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="212">
+    <Name>Ионный двигатель [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="213">
+    <Name>Протонный двигатель [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="214">
+    <Name>Базовый космический реактор [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="215">
+    <Name>Ядерный реактор [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="216">
+    <Name>Термоядерный реактор [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="217">
+    <Name>Топливный элемент [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="218">
+    <Name>Тяговый вектор</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="219">
+    <Name>Ионный импульсный бластер [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="220">
+    <Name>Гравитонный луч [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="221">
+    <Name>Туонный луч [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="222">
+    <Name>Бластер «Максос» [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="223">
+    <Name>Гравитонный луч [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="224">
+    <Name>Ионная пушка [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="225">
+    <Name>Ударный штурмовой бластер [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="226">
+    <Name>Фазерная пушка [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="227">
+    <Name>Луч «Разрушительная сила» [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="228">
+    <Name>Ударная ракета [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="229">
+    <Name>Осколок скорости [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="230">
+    <Name>Ракета «Молния» [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="231">
+    <Name>Ракета «Молния» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="232">
+    <Name>Фазерная пушка [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="233">
+    <Name>Ударный штурмовой бластер [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="234">
+    <Name>Ракета «Копьё» [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="235">
+    <Name>Торпеда «Огненный шторм» [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="236">
+    <Name>Торпеда «Огненный шторм» [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="237">
+    <Name>Базовый командный модуль [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="238">
+    <Name>Ионный скорострельный импульсный бластер [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="239">
+    <Name>Луч «Разрушитель сделок» [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="240">
+    <Name>Системы жизнеобеспечения экипажа</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="241">
+    <Name>Генератор звездного поля</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="242">
+    <Name>Планетарная ракетная батарея</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="243">
+    <Name>Планетарная пушечная батарея</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="244">
+    <Name>Звездный луч [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="245">
+    <Name>Плазменный бластер [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="246">
+    <Name>Звездный луч [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="247">
+    <Name>Плазменный бластер [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="249">
+    <Name>Звездный луч [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="250">
+    <Name>Плазменный бластер [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="253">
+    <Name>Импульсная торпеда [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="255">
+    <Name>Звездный луч [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="257">
+    <Name>Фазированная лучевая матрица [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="258">
+    <Name>Импульсная торпеда [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="260">
+    <Name>Фазированная лучевая матрица [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="261">
+    <Name>Потоковая закаленная броня</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="262">
+    <Name>Потоковая оболочечная броня</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="263">
+    <Name>Потоковая барьерная броня</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="264">
+    <Name>Потоковая закаленная броня [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="265">
+    <Name>Потоковая оболочечная броня [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="266">
+    <Name>Ионная оболочечная броня [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="267">
+    <Name>Сверхплотная броня [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="268">
+    <Name>Потоковая барьерная броня [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="269">
+    <Name>Ионная закаленная броня [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="270">
+    <Name>Поглощающая броня [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="271">
+    <Name>Звездная броня [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="272">
+    <Name>Щиты «Мегатрон Z4»</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="273">
+    <Name>Квантовые конденсаторы</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="274">
+    <Name>Щиты «Мегатрон Z4» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="275">
+    <Name>Щиты «Талассос» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="276">
+    <Name>Щиты «Девкалион» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="277">
+    <Name>Щиты «Меридиан» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="278">
+    <Name>Щиты «Цитадель» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="279">
+    <Name>Вихревой двигатель</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="280">
+    <Name>Потоковый двигатель «Бесконечность»</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="281">
+    <Name>Квантовый двигатель [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="282">
+    <Name>Двигатель «Акцелерос» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="283">
+    <Name>Турбо-импульсный двигатель [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="284">
+    <Name>Двигатель «Звездный форсаж» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="285">
+    <Name>Векторный двигатель [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="286">
+    <Name>Вихревой двигатель [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="287">
+    <Name>Потоковый двигатель «Бесконечность» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="288">
+    <Name>Одновекторный двигатель</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="289">
+    <Name>Мультивекторный двигатель</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="290">
+    <Name>Скоростной векторный узел</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="291">
+    <Name>Всевекторный двигатель</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="292">
+    <Name>Безынерционный двигатель</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="293">
+    <Name>Луч «Разрушитель сделок» [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="294">
+    <Name>Резонансный гравитонный луч [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="295">
+    <Name>Осколок скорости [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="296">
+    <Name>Импульсная торпеда [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="297">
+    <Name>Ударно-волновая торпеда [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="298">
+    <Name>Рельсовая пушка «Град» [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="299">
+    <Name>Фазерная пушка [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="300">
+    <Name>Резонансный гравитонный луч [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="301">
+    <Name>Тяжелое рельсовое орудие [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="303">
+    <Name>Квантовый реактор [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="304">
+    <Name>Реактор нулевой точки [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="305">
+    <Name>Реактор «Тёмная звезда» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="306">
+    <Name>Потоковый двигатель</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="307">
+    <Name>Червоточинный двигатель</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="308">
+    <Name>Кристаллические сенсоры</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="310">
+    <Name>Интегрированный командный центр</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="311">
+    <Name>Продвинутый командный центр</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="312">
+    <Name>Командный модуль [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="313">
+    <Name>Захватный луч [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="314">
+    <Name>Планетарная гравитационная сеть</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="315">
+    <Name>Кристаллический луч (Белый карлик)</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="316">
+    <Name>Кристаллический луч (Главная последовательность)</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="317">
+    <Name>Кристаллический луч (Красный гигант)</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="318">
+    <Name>Кристаллический луч (Голубой гигант)</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="319">
+    <Name>Кристаллический луч (Сверхгигант)</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="320">
+    <Name>Кристаллический луч (Нейтронная звезда)</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="321">
+    <Name>Кристаллический луч (Черная дыра)</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="322">
+    <Name>Гравитонный импульс космического слизня</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="323">
+    <Name>Молниевая дуга «Ардилус»</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="324">
+    <Name>Планетарная оборонительная батарея</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="325">
+    <Name>Планетарная лучевая оборона</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="326">
+    <Name>Планетарная гигантская ионная пушка</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="327">
+    <Name>Планетарные минные проекторы</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="328">
+    <Name>Планетарная торпедная установка</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="329">
+    <Name>Плазменная молния [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="330">
+    <Name>Плазменная молния [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="331">
+    <Name>Квантовый осколок [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="332">
+    <Name>Квантовый осколок [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="333">
+    <Name>Квантовый осколок [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="334">
+    <Name>Скорострельная ионная пушка [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="335">
+    <Name>Подкрепляющая роевая батарея [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="336">
+    <Name>Подкрепляющая роевая батарея [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="337">
+    <Name>Подкрепляющая роевая батарея [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="338">
+    <Name>Автопушка «Терминатор» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="339">
+    <Name>Бластер «Титан» [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="340">
+    <Name>Бластер «Титан» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="341">
+    <Name>Луч «Разрушитель сделок» [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="342">
+    <Name>Импульсная торпеда [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="343">
+    <Name>Улучшенный коллектор энергии</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="344">
+    <Name>Казармы звездного десанта</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="345">
+    <Name>Обсерватория дальнего космоса</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="346">
+    <Name>Модуль дистанционной передачи топлива</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="347">
+    <Name>Двигатель «Улья»</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="348">
+    <Name>Мотор «Улья»</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="349">
+    <Name>Мотор «Улья» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="350">
+    <Name>Тяжёлая броня</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="351">
+    <Name>Тяжёлая броня [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="352">
+    <Name>Частичный луч [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="353">
+    <Name>Частичный луч [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="354">
+    <Name>Туонный луч [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="355">
+    <Name>Луч «Разрушительная сила» [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="356">
+    <Name>Резонансный гравитонный луч [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="357">
+    <Name>Ударный штурмовой бластер [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="358">
+    <Name>Фазерная пушка [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="359">
+    <Name>Бластер «Титан» [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="360">
+    <Name>Фазерное копьё [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="361">
+    <Name>Частичный луч [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="362">
+    <Name>Туонный луч [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="363">
+    <Name>Луч «Разрушительная сила» [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="364">
+    <Name>Базовый топливный элемент [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="365">
+    <Name>Топливный элемент сверхвысокой плотности [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="366">
+    <Name>Большой топливный элемент [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="367">
+    <Name>Топливный элемент высокой плотности [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="368">
+    <Name>Супер-лазер [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="369">
+    <Name>Импульс «Опустошитель» [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="382">
+    <Name>Рельсовая пушка «Град» [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="383">
+    <Name>Блоковая броня</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="384">
+    <Name>Реактивная блоковая броня</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="385">
+    <Name>Плотная блоковая броня</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="386">
+    <Name>Блоковая броня [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="387">
+    <Name>Реактивная блоковая броня [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="388">
+    <Name>Плотная блоковая броня [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="415">
+    <Name>Броня из потокового сплава</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="416">
+    <Name>Броня из потокового сплава [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="417">
+    <Name>Дальнобойные кристаллические сенсоры</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="418">
+    <Name>Дальнобойные кристаллические сенсоры</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="421">
+    <Name>Вихревая бомба [L]</Name>
+  </ComponentDefinition>
+</ArrayOfComponentDefinition>

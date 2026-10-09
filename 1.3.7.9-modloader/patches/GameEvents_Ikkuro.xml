@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfGameEvent>
+  <GameEvent id="Home Ruin Generation (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Поиск Гармонии!</MessageTitle>
+        <Description>Иккуро служат земле и небу. Они всегда указывали нам путь.  \n\nЗемля: с незапамятных времён мы стремимся жить в гармонии со своим миром, питать его и процветать вместе с ним. Мы - часть природы, и мы стремимся существовать рядом с растениями и животными, окружающими нас, а не господствовать над ними.  \n\nНебо: древние мифы наших предков гласят, что мы произошли за пределами звёзд. По мере того как мы становились более развитыми, а наука заполняла пробелы в наших знаниях, наши интеллектуалы отвергли эти истории как бессмыслицу. Однако по мере роста нашего научного познания мы начали обнаруживать расхождения между нашей биологией и биологией окружающего нас мира. Тогда мы осознали, что древние реликвии, некогда центральные для примитивных религиозных практик, являются артефактами древней цивилизации Иккуро. Теперь кажется вероятным, что мифы наших предков выросли из семян истины и что наше место происхождения действительно следует искать на других мирах.  \n\nСодержат ли мифы о том, что наши предки были вынуждены прибыть на этот мир ужасным Катаклизмом, уничтожившим цивилизации по всей галактике, долю правды? Были ли там по-настоящему чудовища, которые развязали ужасную войну, ставшую искрой Катаклизма? Чудовища - это лишь другие существа; почему же наши предки не смогли договориться с ними, показать им путь мира и сосуществования?  \n\nМы должны открыть истину. Наше изучение древних реликвий и руин помогло нам приблизиться к овладению секретами сверхсветового путешествия. Мы обнаружили запасы ресурсов, не являющихся родными для этого мира, но их количество ограничено. Нам необходимо найти больше таких ресурсов, если наше исследование должно продолжаться. Только продвигаясь вперёд в наших знаниях, мы сможем понять наше происхождение. Только поняв, кто мы были и что привело нас сюда, мы сможем надеяться жить в мире со всеми теми, кого можем встретить среди звёзд.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Contact Independent Dhayut World (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Необычный мир</MessageTitle>
+        <Description>Хотя мы лишь начали исследовать наш регион космоса, мы уже совершили невероятное открытие. Планета Дамаци, похоже, населена разумной жизнью. Мы давно полагали, что в галактике должны существовать другие формы сознательной жизни, но не ожидали обнаружить развитый мир так близко к нашей собственной системе. Нам следует действовать осторожно и с уважением.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Damazy Information (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Дети избегающие конфликтов</MessageTitle>
+        <Description>После мониторинга коммуникаций этой планеты мы обнаружили, что её обитатели называют себя «Дети Избегающие Конфликта». Они принадлежат к виду Дхают, и их легенды, как и наши, говорят о происхождении за пределами звёзд. Примечательно, что в их легендах также говорится: их предков спасли от древнего Катаклизма существа, похожие на наш вид.\n\nСогласно этим сказаниям, давно «Дети Избегающие Конфликта» были жестоки и кровожадны, но спасители, подобные Иккуро, не только избавили их от гибели, но и показали им более совершенный, гармоничный путь. Существа, описываемые в их легендах как похожие на Иккуро, являются объектами почти божественного почитания в их культуре.\n\nХотя, подобно нам, «Дети Избегающие Конфликта» лишь начали исследовать вселенную за пределами своей планеты, наши сканирования показывают, что они обладают крупными запасами ресурсов, жизненно важных для космических исследований и путешествий. Также стоит отметить: несмотря на своё название, у «Детей Избегающих Конфликт» имеется развитая военная мощь.\n\nМы также обнаружили, что эта планета обладает обильными запасами Гираксианского нектара.</Description>
+      </GameEventAction>
+      <GameEventAction index="4">
+        <Description>У нас есть легенды о вас</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="First Damazy Warning (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Тревожные культурные сдвиги</MessageTitle>
+        <Description>Из Дамазы поступают тревожные новости.\n\nС момента нашего первого контакта с Дхаятами кажется, что Дети, избегающие конфликтов, становятся всё менее склонными к избеганию конфликтов. Их общество милитаризируется. Молодёжь ведёт себя более жестоко, чем их родители. Возникает движение «Сеть Судьбы», проповедующее ненависть к древним миротворцам, которых агитаторы теперь связывают с нами. Мы не можем исключать возможности того, что однажды эти Дхаяты станут опасным врагом.\n\nВозможно, они уже являются врагами. С момента нашего первого контакта мы узнали, что Дхаяты в процессе массового уничтожения лесов на своей планете. Это ужасное зрелище, и мы не верим, что сможем научить их жить более гармонично.\n\nТеперь мы стоим перед ужасающей дилеммой. Дхаяты не разделяют наши ценности и не живут в гармонии со своим миром, но они ещё не угрожали нам. Правильно ли вступать в конфликт из-за того, кем может стать цивилизация? И всё же, если мы будем ждать, они могут в конечном итоге поставить под угрозу всю нашу цивилизацию.</Description>
+        <ChoiceButtonText>Пусть Дхают найдут свой собственный путь</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Направляйте Дхают</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="First Damazy Warning 2 (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Тревожные культурные сдвиги</MessageTitle>
+        <Description>Фракция «Анти-Иккуро Сеть Судьбы» продолжает расти на Дамазе. В будущем они могут стать угрозой. Если мы хотим сохранить гармонию в этом регионе космоса, нам придётся следить за их развитием и, возможно, составить планы реагирования на случай, если они проявят агрессию.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Guide the Dhayut 2 (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Тревожные культурные сдвиги</MessageTitle>
+        <Description>Мы не можем допустить, чтобы Сеть Судьбы продолжала накапливать силу. Было бы катастрофой позволить столь воинственной фракции расцвести так близко к нашему родному миру. Однако внутри ведутся споры о том, как управлять этим кризисом. Должны ли мы попытаться внедриться в общество Дхают и предпринять прямые действия, чтобы направить их по пути, наиболее выгодному для нас? Награды за безопасность были бы велики, но есть также моральные вопросы и риск того, что наше влияние не продлится долго. Альтернативно, мы могли бы посвятить себя более глубокому пониманию этих существ в надежде научиться убеждать их следовать пути гармонии.</Description>
+        <ChoiceButtonText>Изучить язык Дхают</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Повлиять на их культуру [-25,000cr]</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Influence Culture (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Тревожные культурные сдвиги</MessageTitle>
+        <Description>Мы начали процесс подготовки про-иккуровских солдат на Дамазии, прививая им ценности гармонии и обучая опасностям, которые несёт движение «Паутина Судьбы». Мы также запустили образовательные программы для населения, вновь подчёркивая ценности «избегания конфликтов», которым научились их предки. Наша цель - помочь им осознать, что мир и гармония являются их истинной природой. Тем временем «Паутина Судьбы» пытается испортить их мышление, их молодёжь и их культуру.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Influence Culture 2 (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Тревожные культурные сдвиги</MessageTitle>
+        <Description>Наши усилия на Дамазе оказались успешными. Обученные нами солдаты, поддерживающие Иккуро, обнаружили и нейтрализовали оплоты Сети Судьбы. Жаль, что нам пришлось применить насилие для обеспечения гармонии, но иногда это неизбежно. Тем временем наши лоялисты смогли занять влиятельные позиции во всём правительстве.\n\nТеперь мы можем рассчитывать на позитивные отношения с Дхают Дамазы, хотя всегда существует вероятность ослабления этого влияния. Даже те, кто следует путём гармонии, не могут избежать последствий энтропии.</Description>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <Description>Ваши усилия принесли плоды</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Research Dhayut Language (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Тревожные культурные сдвиги</MessageTitle>
+        <Description>Мы должны начать исследовательский проект, чтобы лучше понять язык Дхают. Мы надеемся, что это поможет нам жить в гармонии с ними.</Description>
+        <ChoiceButtonText>Исследования</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Research Dhayut Language Completed 3 (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Тревожные культурные сдвиги</MessageTitle>
+        <Description>Мы углубили своё понимание языка Дхают, но будет ли этого достаточно для жизни в гармонии с ними? Наши этнологи полагают, что мы сможем извлечь пользу из более тщательного изучения их культуры.</Description>
+        <ChoiceButtonText>Исследовать культуру Дхают</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <MessageTitle>Достаточно</MessageTitle>
+        <Description>Мы потратили достаточно времени на изучение этих Дхают. Нам остаётся лишь надеяться, что то, что мы узнали, будет достаточно.</Description>
+        <ChoiceButtonText>Испытать удачу</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Research Dhayut Culture (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Тревожные культурные сдвиги</MessageTitle>
+        <Description>Мы должны начать исследовательский проект, чтобы лучше понять культуру Дхают. Мы надеемся, что это поможет нам жить с ними в гармонии.</Description>
+        <ChoiceButtonText>Исследования</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Research Dhayut Culture Completed 2 (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Тревожные культурные сдвиги</MessageTitle>
+        <Description>Мы завершили исследования культуры Дхают. Теперь мы лучше понимаем этих... интересных существ. Мы надеемся, что сможем использовать это понимание для построения будущего мирного сосуществования.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Ikkuro Xenophobic Pirates (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Входящее сообщение</MessageTitle>
+        <Description>Это было лишь вопросом времени до нашей встречи. Наши передовые разведчики предупреждали нас о вашем существовании, однако, если быть честными, многие считали вас несуществующими. Мы - Гармоничная Пустота, те, кто ищет мира и понимания в тихой пустоте космоса. Наши предки когда-то были привязаны к почве и необработанному воздуху, как вы, но мы преодолели такие ограничения.\n\nВаш примитивный упор на жизнь на планетах не тревожит нас, однако. Мы уважаем жизнь, будь она продвинутой, как у нас, или примитивной, как у вас, при условии её гармонии с окружающей средой.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Pirate Stance Neutral (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Входящее сообщение</MessageTitle>
+        <Description>Мы хотим предупредить вас о негодяях с планеты Дамизи, называющих себя «Дети Избегающие Конфликта». Мы распознаём в них Дхают, которые по своей природе обманчивы, эгоистичны и разрушительны. Во времена до Катаклизма они сражались бок о бок со злыми захватчиками, уничтожая целые миры, включая мир наших предков. Дхают - враги жизни. Мы укажем вам их местоположение, чтобы вы могли избежать их или уничтожить, как сочтёте нужным. Если же вы решите вступить с ними в контакт, мы будем считать вас своими врагами. Иного выбора, который мы считали бы... гармоничным, не существует.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Pirate Stance Positive (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Входящее сообщение</MessageTitle>
+        <Description>Мы получаем ещё одно сообщение от Гармоничной Пустоты.\n\n«Наши разведчики сообщают, что вы столкнулись с чудовищными Дхаятами из Дамази и решили не вмешиваться в их грязные дела. Мы поздравляем вас. Те, кто избегает негармоничных, - наши друзья. Мы надеемся на приятное и дружественное сотрудничество с вами в будущем».</Description>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <Description>Вы проигнорировали Дамазы</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Pirate Stance Hostile (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <Description>Вы вступили в контакт с Дамазы</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Ikkuro Xenophobic Pirates (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Поступающее сообщение</MessageTitle>
+        <Description>Мы не приветствуем вас, Дхают, а предупреждаем. Мы - Гармоничная Пустота. Мы стремимся жить в мире и гармонии со всеми, кто обитает в этой богатой ресурсами системе. Именно поэтому мы не можем допустить вашего присутствия здесь. Мы знаем ваш род как коварный, жестокий и враждебный миру. Ваше присутствие здесь недопустимо. Уходите, пока можете.</Description>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <Description>Мы не потерпим ваш род</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Ikkuro Xenophobic Pirates (Other)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Входящее сообщение</MessageTitle>
+        <Description>Приветствуем гостей нашей системы. Мы - Гармоничная Пустота. Мы стремимся жить в мире и гармонии со всеми, кто обитает в этой богатой ресурсами системе. Если ваша миссия направлена на исследование и понимание, мы разрешим вам проход. Однако любые попытки установить постоянный плацдарм в нашей родной системе будут восприняты как... негармоничные.</Description>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <Description>Мы открыты для улучшения отношений</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Pirate Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Гармоничный подход к пустоте</MessageTitle>
+        <Description>Мы получаем ещё одно сообщение от Гармоничной Пустоты:\n\n«Хотя вы и наши дальние родственники, мы осуждаем вашу глупость. Вы избрали путь установления отношений с Дхают из Дамизи. Эти существа повсюду, где они обитают, сеят насилие, раздор и разрушение. Попытавшись заключить мир с ними, вы выбрали раздор вместо гармонии, и мы теперь предаём вас анафеме».</Description>
+        <ChoiceButtonText>Инвестировать в дипломатию 20,000cr</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Отказаться от дипломатии</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Invest in Diplomacy Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Дипломатические результаты</MessageTitle>
+        <Description>Наши дипломаты начали переговоры с Гармоничной Пустотой. Они оказались более склонны к диалогу, чем мы первоначально опасались, и наши кредиты значительно способствовали успокоению их гнева.</Description>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <Description>Вы вложились в дипломатию</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Reject Diplomacy Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Печальная доброта</MessageTitle>
+        <Description>Пытаясь принудить нас к вражде с нашими соседями, Гармоничная Пустота демонстрирует, что забыла, что значит быть Иккуро. Если они решат начать войну против нас, то нам придётся восстановить мир и порядок в этом регионе.</Description>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <Description>Вы отвергли дипломатию</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Ikkuro Pirate Endgame (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Входящее сообщение</MessageTitle>
+        <Description>Мы получаем сообщение от лидера Гармоничной Пустоты.\n\n«{15}, вы победили нас в честном бою. Поскольку мы вели войну и были повержены, мы должны заключить, что наши усилия по поиску гармонии оказались тщетными. Мы просим лишь милосердия к нашим оставшимся в живых мирным жителям. Им может потребоваться некоторое время, чтобы привыкнуть к вашим обычаям, но в конечном итоге они станут продуктивными членами вашего общества. Примете ли вы этих беженцев?»</Description>
+        <ChoiceButtonText>Принять беженцев</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Отказаться от приёма беженцев</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Accept Refugees Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Входящее сообщение</MessageTitle>
+        <Description>Спасибо за это предложение убежища. Всё, что у нас осталось, мы дарим в знак благодарности.</Description>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <Description>Они выплатили нам 20 000 кр в качестве военных репараций.</Description>
+      </GameEventAction>
+      <GameEventAction index="3">
+        <Description>На наш родной мир прибыли 2 миллиона беженцев.</Description>
+      </GameEventAction>
+      <GameEventAction index="4">
+        <Description>Мы получили 5,000 Каслона, 2,500 Репхидиевого Эля и 2,500 Меха Кагуара. Они были доставлены на наш родной мир.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Reject Refugees Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Беженцы бегут</MessageTitle>
+        <Description>По мере того как беженцы покидают наши просторы, мы обнаружили несколько тайников с ресурсами и материалами. Они пригодятся нам по мере дальнейшего роста и расширения, когда мы будем стремиться жить в мире со всеми, кого встретим.</Description>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <Description>Мы получили 10,000 Каслонf, 5,000 Репхидиевого Эля и 5,000 Меха Кагуара. Они были доставлены на наш родной мир.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Investigate Ancient Ikkuro Vault (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Мы совершили замечательное открытие. На {0}, который давно пострадал от сильных сейсмических повреждений, мы обнаружили вход в древнее сооружение Иккуро. Это особенно примечательно, поскольку нет никаких других свидетельств строительства со стороны Иккуро или любого другого вида. Какова была цель этого здания и почему древние построили его здесь? Наши ранние исследования ничего не выявили, но мы не можем смотреть в будущее, не поняв сначала прошлое. Мы продолжим изучать и узнавать новое.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Ancient Ikkuro Vault Research Requirement (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Наши инженеры, изучающие древнее сооружение на {0}, полагают, что знания для открытия этой двери могут быть получены, если мы полностью поймём технологию больших топливных хранилищ.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Ikkuro Vault Prioritize Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Приоритизировать или не приоритизировать</MessageTitle>
+        <Description>Мы ещё не завершили это исследование. Нам необходимо решить, приоритетно ли нам развивать «Большой топливный резервуар» для открытия древнего объекта или же мы хотим сосредоточиться на других исследованиях.</Description>
+        <ChoiceButtonText>Приоритет 20,000cr</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Не приоритизировать</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Prioritize Large Fuel Storage Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Выбор исхода</MessageTitle>
+        <Description>Наши учёные сделали это исследование своим главным приоритетом.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Don't Prioritize Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Выбор исхода</MessageTitle>
+        <Description>Мы доверяем нашим учёным стремиться к тем технологиям, которые, по их мнению, наилучшим образом послужат нашей цивилизации. Они сообщат нам, когда мы приобретём знания, необходимые для открытия древнего объекта.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Open Ancient Ikkuro Vault (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Древний Хранилище</MessageTitle>
+        <Description>Наши учёные проникли в древнее сооружение иккурово. Похоже, это хранилище данных, хотя базы данных в значительной степени повреждены и разрушены. По-видимому, сооружение было уничтожено сейсмическими повреждениями, поразившими остальную часть этой планеты.\n\nСохранилось несколько упоминаний о древних захватчиках, ведших войну против галактики. Также упоминаются их союзники - Сети Дхают, к которым наши предки испытывали особую враждебность. Мы не можем определить причину. Ответ может быть связан со звёздной картой, указывающей на место, имеющее огромное значение. Нам следует провести расследование.\n\nМы также обнаружили древний том - «Книгу Гармоничной Необходимости». Это увлекательное философское обоснование того, почему сохранение жизни иногда может требовать жестокой и даже превентивной войны. Любой учёный, читающий этот труд, несомненно, будет вдохновлён при разработке технологий оружия.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Investigate Ancient Ikkuro Vault (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Замечательное открытие. На {0}, которое давно пострадало от сильных сейсмических повреждений, мы обнаружили вход в древнее сооружение, вероятно, построенное Иккуро, чьи легенды говорят о том, что они когда-то были врагами нашего вида. Никаких признаков строительства другими видами не обнаружено. Какова была цель этого сооружения и почему они построили его здесь? Наши ранние исследования ничего не выявили, но нам следует узнать больше, чтобы понять, какие прошлые опасности и предательства могут ожидать нас по мере нашего расширения в галактике.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Ancient Ikkuro Vault Research Requirement (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Наши инженеры, изучающие древнее сооружение на {0}, полагают, что знания для открытия этой двери могут быть получены, если мы полностью поймём технологию больших топливных хранилищ.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Ikkuro Vault Prioritize Choice (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Приоритизировать или не приоритизировать</MessageTitle>
+        <Description>Мы ещё не завершили это исследование. Нам необходимо решить, приоритетно ли нам развивать «Большой топливный резервуар» для открытия древнего объекта или же мы хотим сосредоточиться на других исследованиях.</Description>
+        <ChoiceButtonText>Приоритет 20,000cr</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Не приоритизировать</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Prioritize Large Fuel Storage Choice (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Выбор исхода</MessageTitle>
+        <Description>Наши учёные сделали это исследование своим главным приоритетом.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Don't Prioritize Choice (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Выбор исхода</MessageTitle>
+        <Description>Мы доверяем нашим учёным стремиться к тем технологиям, которые, по их мнению, наилучшим образом послужат нашей цивилизации. Они сообщат нам, когда мы приобретём знания, необходимые для открытия древнего объекта.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Open Ancient Ikkuro Vault (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Древний Хранилище</MessageTitle>
+        <Description>Наши учёные получили доступ к древнему объекту Иккуро. Похоже, это хранилище данных, хотя базы данных в значительной степени повреждены и разрушены. Вероятно, объект был уничтожен сейсмическими повреждениями, поразившими остальную часть этой планеты. Несомненно, Иккуро заслужили страдания.\n\nСохранилось несколько упоминаний о древних захватчиках, воевавших с галактикой. Также упоминаются их союзники - Сети Дхают, к которым Иккуро испытывали особую враждебность. Мы обнаружили звёздную карту, указывающую на локацию, имеющую, по-видимому, огромное значение. Возможно, стоит потратить усилия на её исследование.\n\nМы также нашли древний том под названием «Книга Гармоничной Необходимости». Это странное философское обоснование того, почему сохранение жизни иногда может требовать жестокой и даже превентивной войны. Зачем войне такие измученные оправдания? Это чуждое понятие, трудное для понимания, тем не менее оно даёт неожиданные прозрения. Любой учёный, читающий этот труд, несомненно, будет вдохновлён при разработке технологий оружия.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Investigate Ancient Ikkuro Vault (Other)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Замечательное открытие. На {0}, которое давно пострадало от сильных сейсмических повреждений, мы обнаружили вход в древнее сооружение, вероятно, построенное инопланетянами, известными как Иккуро. Никаких иных свидетельств строительства со стороны Иккуро или любого другого вида не обнаружено. Какова была цель этого здания? Наши ранние исследования ничего не выявили, однако стоит ли его изучить тщательнее.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Ancient Ikkuro Vault Research Requirement (Other)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Наши инженеры, изучающие древнее сооружение на {0}, полагают, что знания для открытия этой двери могут быть получены, если мы полностью поймём технологию больших топливных хранилищ.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Ikkuro Vault Prioritize Choice (Other)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Приоритизировать или не приоритизировать</MessageTitle>
+        <Description>Мы ещё не завершили это исследование. Нам необходимо решить, приоритетно ли нам развивать «Большой топливный резервуар» для открытия древнего объекта или же мы хотим сосредоточиться на других исследованиях.</Description>
+        <ChoiceButtonText>Приоритет 20,000cr</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Не приоритизировать</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Prioritize Large Fuel Storage Choice (Other)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Выбор исхода</MessageTitle>
+        <Description>Наши учёные сделали это исследование своим главным приоритетом.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Don't Prioritize Choice (Other)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Выбор исхода</MessageTitle>
+        <Description>Мы доверяем нашим учёным стремиться к тем технологиям, которые, по их мнению, наилучшим образом послужат нашей цивилизации. Они сообщат нам, когда мы приобретём знания, необходимые для открытия древнего объекта.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Open Ancient Ikkuro Vault (Other)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Древний Хранилище</MessageTitle>
+        <Description>Наши учёные получили доступ к древнему объекту Иккуро. Похоже, это хранилище данных, хотя базы данных в значительной степени повреждены и разрушены. По-видимому, объект был уничтожен сейсмическими повреждениями, затронувшими остальную часть этой планеты.\n\nСохранилось несколько упоминаний о древних захватчиках, ведших войну с галактикой. Также упоминаются их союзники - Сети Дхают, к которым Иккуро испытывали особую враждебность. Мы не можем определить причину. Ответ может быть связан со звёздной картой, указывающей на локацию, имеющую огромное значение.\n\nМы также обнаружили древний том под названием «Книга гармоничной необходимости». Это философское обоснование того, почему сохранение жизни иногда требует насильственной и даже превентивной войны. Любой учёный, читающий этот труд, несомненно, будет вдохновлён при разработке технологий оружия.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Destroyed Ikkuro Colony (Ikkuro)">
+    <PlacementActions>
+      <GameEventAction index="1">
+        <MessageTitle>Древняя колония?</MessageTitle>
+        <Description>Этот поврежденный мир свидетельствует о том, что когда-то он был населен. Первичные данные указывают на то, что его обитателями были Иккуро. Это требует дальнейшего исследования.</Description>
+      </GameEventAction>
+    </PlacementActions>
+  </GameEvent>
+  <GameEvent id="Investigate Destroyed Ikkuro Colony (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Мы можем подтвердить, что этот сильно повреждённый мир некогда был процветающим центром культуры Иккуро. Сейсмические повреждения указывают на разрушения во время древнего Катаклизма, однако тревожные признаки свидетельствуют о ужасном конфликте, предшествовавшем этим событиям. Массовые захоронения и следы орбитальной бомбардировки говорят нам о том, что древние Иккуро участвовали в войне, охватившей всю галактику. Мы можем лишь предполагать, какая угроза могла быть настолько значительной, чтобы наши Предки приняли конфликт такого масштаба.\n\nПочти ни одно крупное сооружение не сохранилось или даже не поддаётся раскопкам, однако на большом изолированном острове мы обнаружили два относительно целых здания: архив, вероятно содержащий записи прошлого, и склад, в котором могут находиться ресурсы непосредственной ценности. Они расположены близко друг к другу, и наши инженеры считают, что раскопки одного из них сделают другой навсегда недоступным.</Description>
+        <ChoiceButtonText>Раскопать архив</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Раскопать склад</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Investigate Destroyed Ikkuro Colony (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Мы можем подтвердить, что этот сильно повреждённый мир когда-то был заражён Иккуро. Сейсмические повреждения указывают на разрушения во время древнего Катаклизма, однако имеются признаки конфликта, предшествовавшего этим событиям. Массовые захоронения и следы орбитальной бомбардировки свидетельствуют о том, что древние Иккуро были крайне ненавистны в старой галактике.\n\nПочти ни одно крупное сооружение не сохранилось или даже не поддаётся раскопкам, но на большом изолированном острове мы обнаружили два относительно целых здания: архив, вероятно содержащий записи прошлого, и склад, который может содержать ресурсы немедленной ценности. Они расположены близко друг к другу, и наши инженеры полагают, что раскопки одного из них сделают другое навсегда недоступным.</Description>
+        <ChoiceButtonText>Раскопать архив</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Раскопать склад</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Investigate Destroyed Ikkuro Colony (Other)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Мы можем подтвердить, что этот сильно повреждённый мир когда-то населяли Иккуро. Сейсмические повреждения указывают на разрушения во время древнего Катаклизма, однако имеются признаки конфликта, предшествовавшего этим событиям. Массовые захоронения и следы орбитальной бомбардировки свидетельствуют о разрушениях до Катаклизма.\n\nПочти ни одно крупное сооружение не сохранилось или даже не поддаётся раскопкам, но на большом изолированном острове мы обнаружили два относительно целых здания: архив, вероятно содержащий записи прошлого, и склад, в котором могут находиться ресурсы немедленной ценности. Они расположены близко друг к другу, и наши инженеры полагают, что раскопки одного из них сделают другое навсегда недоступным.</Description>
+        <ChoiceButtonText>Раскопать архив</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Раскопать склад</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Excavate the Archive Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Это было административное здание Мирного Серпа, который, как мы полагаем, был фракцией или, возможно, политической партией, поднявшейся на пик влияния во время галактического конфликта, известного как Война Шактури. Шактури описываются как захватчики, хотя откуда они пришли - нам не угадать. Среди их самых страшных союзников были древние Сети Дхают. Похоже, целью войны было не оборона территорий или возвращение миров, а уничтожение Шактури и их союзников.\n\nТеперь имеются неопровержимые доказательства того, что это была война галактического масштаба, и конгломерация миров Иккуро, известная как Гармония Иккуро, решила полностью участвовать в борьбе против Шактури и их союзников.\n\nЭто тревожное открытие. Конфликт - часть природы, он может быть неизбежным и даже полезным для общего блага. Тем не менее мы не можем представить обстоятельств, которые привели наших предков к участию в войне такого масштаба, сделав их добровольными участниками усилий по уничтожению целого вида. Данные, извлечённые из архива, могут помочь нам в некоторых направлениях оборонительных исследований, которые нам понадобятся скорее, чем позже. Галактика, похоже, является гораздо более опасным и хаотичным местом, чем мы ранее представляли.\n\nМы также обнаружили упоминание о научно-исследовательском центре по терраформированию, местоположение которого нам удалось установить. Это стоит расследовать.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Excavate the Warehouse Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Это был склад, управляемый Мирными Серпами, которые, как мы полагаем, были фракцией или, возможно, политической партией, поднявшейся на вершину влияния во время галактического конфликта, известного как Война Шактури.  \n\nЭтот склад содержит значительные запасы полимера и карбонита. Записи указывают на то, что они поступили из источника в этой системе.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Excavate the Archive Choice (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Это было административное здание, построенное во время Войны Шактури. В нём много упоминаний о страшных союзниках Шактури - Сетях Дхают.  \n\nМы также обнаружили упоминание о исследовательском центре по терраформированию, местоположение которого нам удалось установить. Это стоит исследовать.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Excavate the Warehouse Choice (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Этот склад поддерживался во время войны с Шактури. В нём находится большой запас полимера и карбонита. Записи указывают, что он был получен из источника в этой системе.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Excavate the Archive Choice (Other)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Это административное здание было построено во время Войны Шактури. В нём много упоминаний о союзниках Шактури - Сетях Дхают.  \n\nМы также обнаружили упоминание о исследовательском центре по терраформированию, местоположение которого нам удалось установить. Это стоит исследовать.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Excavate the Warehouse Choice (Other)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Этот склад поддерживался во время войны с Шактури. В нём находится большой запас полимера и карбонита. Записи указывают, что он был получен из источника в этой системе.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Encounter Ancient Terraforming World (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Древний мир терраформирования</MessageTitle>
+        <Description>Это нетронутый мир, который каким-то образом избежал древней войны. Наши предварительные исследования показывают, что фракция Иккуро под названием «Мирный Серп» эксплуатировала здесь террансформирующий комплекс. Сам мир, по-видимому, служил демонстрацией концепции их технологии террансформации. Однако он хорошо защищён. Нам предстоит определить наилучший способ проникновения.\n\nНаши инженеры изучили сканы оборонительных платформ и полагают, что смогут создать небольшой флот сапёрных дронов, которые повредят щиты этих платформ. Наши корабли затем смогут подойти ближе и быстро уничтожить их. Однако это будет дорогостоящая операция.</Description>
+        <ChoiceButtonText>Инвестировать в сапёрные дроны 50,000cr</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Подойти к платформам, не повредив их</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Encounter Ancient Terraforming World (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Древний мир терраформирования</MessageTitle>
+        <Description>Это мир, который каким-то образом избежал древней войны. Наши предварительные исследования показывают, что фракция Иккуро под названием «Мирный Серп» эксплуатировала здесь террансформирующий комплекс. Сам мир, по-видимому, служил демонстрацией концепции их технологии террансформации. Однако он хорошо защищён.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Encounter Ancient Terraforming World (Other)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Древний мир терраформирования</MessageTitle>
+        <Description>Это мир, который каким-то образом избежал древней войны. Наши предварительные исследования показывают, что фракция Иккуро под названием «Мирный Серп» эксплуатировала здесь террансформирующий комплекс. Сам мир, по-видимому, служил демонстрацией концепции их технологии террансформации. Однако он хорошо защищён.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Invest in Sapper Drones Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Нанесённый урон</MessageTitle>
+        <Description>Наши инженеры сообщают, что их сапёрные дроны были успешно развернуты. Они работали как и ожидалось, и оборонительные платформы теперь сильно повреждены. Наши корабли могут быстро уничтожить их.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Face the Platforms Without Damaging Them Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результат выбора</MessageTitle>
+        <Description>Наши корабли теперь должны будут уничтожить оборонительные платформы без дополнительной помощи.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Investigate Ancient Terraforming World (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Как мы и подозревали, этот мир идеален для обитания Иккуро, несомненно благодаря применению древней технологии терраформирования. После поиска немногих существующих планетных сооружений мы обнаружили Древо Творения - голографический памятник чудесам пересоздания непригодных миров в более подходящие для нас. Это даст нам значительные преимущества при любом возможном нами проведении терраформирования.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Investigate Ancient Terraforming World (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Эта планета идеальна для обитания Иккуро, но не для нас. Похоже, она была изменена с помощью древней иккуровской технологии терраформирования. После поиска немногих существующих планетных объектов мы обнаружили Дерево Творения - голографический памятник перестройке планеты. Это даст нам значительные преимущества, если мы попытаемся сделать непригодную для жизни планету более подходящей для наших нужд.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Investigate Ancient Terraforming World (Other)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты расследования</MessageTitle>
+        <Description>Эта планета, по-видимому, была изменена с помощью древней иккурской технологии терраформирования. После поиска немногих существующих планетарных сооружений мы обнаружили Древо Творения - голографический памятник перестройке планеты. Это даст нам значительные преимущества, если мы попытаемся сделать непригодную для жизни планету более подходящей для наших нужд.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Neighbour System War Avoided (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Гармоничный конец</MessageTitle>
+        <Description>Наши агенты на Дамазы сообщают о возобновлении активности «Сети Судьбы» среди Дхают. К счастью, нам удалось выявить причины беспокойства и убедить население сменить свои приверженности. Теперь мы чувствуем ещё большую уверенность в том, что сможем жить в мире со своими соседями.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Neighbour System War A (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="4">
+        <MessageTitle>Революция!</MessageTitle>
+        <Description>На Дамизи вспыхнула анти-Иккурская революция. Первые сообщения указывают на то, что все Иккуры собираются и казняются. Фракция, называющая себя «Сетью Судьбы», заявляет о своём контроле над ситуацией.</Description>
+      </GameEventAction>
+      <GameEventAction index="5">
+        <MessageTitle>Приходящее сообщение</MessageTitle>
+        <Description>Мы получаем передачу от Сети Судьбы на Дамазе.\n\n«Иккуро из {15}, обратите внимание. Мы - Сеть Судьбы. Нам известно, что легенды о вашей добродетели ложны. Мы знаем, что ваши предки пытались навязать нам искажённые ценности, и вы поступаете так же. Мы больше не будем терпеть угнетение со стороны Иккуро. Теперь и навсегда мы - ваши враги».</Description>
+      </GameEventAction>
+      <GameEventAction index="7">
+        <Description>Вы - наши вечные враги</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Neighbour System War B (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="4">
+        <MessageTitle>Революция!</MessageTitle>
+        <Description>Анти-иккурская фракция захватила власть на Дамазе. Группа, называющая себя «Сетью Судьбы», заявляет о том, что теперь контролирует ситуацию.</Description>
+      </GameEventAction>
+      <GameEventAction index="5">
+        <MessageTitle>Приходящее сообщение</MessageTitle>
+        <Description>Мы получаем передачу от Сети Судьбы на Дамазе.\n\n«Иккуро из {15}, примите к сведению. Мы - Сеть Судьбы. Нам известно, что легенды о вашей добродетели ложны. Мы знаем, что ваши предки пытались навязать нам свои ценности, и вы поступаете так же. Мы больше не терпим присутствия Иккуро вблизи нашей системы. Теперь и навсегда мы - ваши враги».</Description>
+      </GameEventAction>
+      <GameEventAction index="7">
+        <Description>Вы - наши вечные враги</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Conquer Damazy (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Возможное решение</MessageTitle>
+        <Description>Дхают Дамазы могут по-прежнему враждебно относиться к нам, но мы взяли под контроль их мир. Мы захватили несколько их кораблей, ещё находящихся в стадии постройки, и выяснили, что им удалось получить обширную информацию о древней войне с Шактури.  \n\nВ частности, они пришли к выводу, что древние Иккуро начали геноцидную кампанию против Дхают. Они определили далёкую планету как место активности Иккуро в отношении Дхают во время той давней войны.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Neighbour System War Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Манипуляция Дхают</MessageTitle>
+        <Description>Возможно, мы были слишком доверчивы. Мы уважали местные обычаи и просьбы о конфиденциальности. В результате Дхают из Дамази смогли построить базу и корабли, оставшись незамеченными. Возможно, мы были наивны, полагая, что это «проекты религиозного характера».</Description>
+        <ChoiceButtonText>Попытаться установить контакт с верными Дхают (30,000cr)</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Объявить войну милосердия</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Neighbour System Reach Out Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Неугасимая верность</MessageTitle>
+        <Description>Наши агенты пытались выйти на связь с лояльными нам Дхают из Дамазы, которые ценят то, что наши Предки сделали для них. Возможно, таких больше, чем хотела бы верить Сеть Судьбы. Многие из этих сторонников занимают высокие посты и готовы сражаться на нашей стороне.\n\nТри их недавно построенных эсминца были похищены этими лоялистами и теперь находятся под нашим контролем.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Neighbour System War of Mercy Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Война с Дисгармонией</MessageTitle>
+        <Description>Наш народ возмущён предательством Дамазы. Мы полны решимости сражаться с этой фракцией, чтобы вернуть гармонию в наши местные системы. Мы уже захватили транспортный корабль, перевозивший крупную партию вражеских ресурсов. В конце концов мы подавим это восстание.\n\nОпросы общественного мнения на нашей родной планете в основном свидетельствуют о поддержке войны, но также показывают, что наш народ ожидает от нас завершения конфликта в течение года.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Destroy Damazy Orbital Space Port (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Возможное решение</MessageTitle>
+        <Description>Атуук Дамазы могут по-прежнему враждебно относиться к нам, но мы уничтожили их главную планетарную базу обороны. Мы захватили несколько их кораблей, ещё находящихся в стадии постройки, и выяснили, что им удалось получить обширную информацию о древней войне с Шактури.  \n\nВ частности, они пришли к убеждению, что древние Иккуро начали геноцидную кампанию против Дхают. Они определили далёкую планету как место активности Иккуро в отношении Дхают во время той давней войны.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Capture Damazy Orbital Space Port (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Возможное решение</MessageTitle>
+        <Description>Атуук Дамаци могут по-прежнему враждебно относиться к нам, но мы захватили их главную планетарную базу обороны. Мы захватили несколько их кораблей, находящихся в стадии постройки, и выяснили, что им удалось получить обширную информацию о древней войне с Шактури.\n\nВ частности, они пришли к убеждению, что древние Иккуро начали геноцидную кампанию против Дхают. Они определили далёкую планету как место активности Иккуро в отношении Дхают во время той давней войны.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Encounter Peaceful Scythe Headquarters (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="6">
+        <Description>Вы - наши Боги</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Encounter Peaceful Scythe Headquarters (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Древние оборонительные сооружения</MessageTitle>
+        <Description>Эта планета, по-видимому, принадлежала древней фракции Иккуро, которую мы можем перевести лишь приблизительно как «Уязвимые сельскохозяйственные орудия». Предварительные сканирования указывают на то, что это непривлекательный лесной мир. Он защищён автоматизированными оборонительными системами. Сама планета не представляет для нас ценности, однако на её поверхности может содержаться интересная информация о прошлом.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Encounter Peaceful Scythe Headquarters (Other)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Древние оборонительные сооружения</MessageTitle>
+        <Description>Этот мир, по-видимому, принадлежал древней фракции Иккуро под названием Мирные Серпы. Предварительные сканирования указывают на то, что это лесной мир. Он защищён автоматизированными оборонительными системами.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Peaceful Scythe Headquarters Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Мирный Серп</MessageTitle>
+        <Description>Этот мир, по-видимому, принадлежал древней фракции Иккуро под названием Мирная Коса. Предварительные сканирования указывают на то, что это нетронутый лесной мир, идеальный для колонизации. Более того, этот мир, вероятно, содержит важную информацию об Иккуро времён великого Катаклизма. Проникновение через их автоматические оборонительные системы может быть сложным, но усилия, безусловно, стоят того, если мы стремимся к гармонии с прошлым.\n\nНаши инженеры полагают, что смогут эффективно саботировать хотя бы часть автоматических защитных систем этого мира. Предприятие будет дорогостоящим, однако оно значительно упростит доступ на поверхность.</Description>
+        <ChoiceButtonText>Инвестировать в саботаж 75,000cr</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <MessageTitle>Саботаж отклонён</MessageTitle>
+        <Description>Наша армия должна теперь уничтожить оборону этого мира, если мы хотим узнать, что скрыто на поверхности.</Description>
+        <ChoiceButtonText>Победить оборону без саботажа</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Invest in Sabotage Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Саботаж успешен</MessageTitle>
+        <Description>Наши инженеры преуспели. Оборона этого мира была значительно ослаблена. Теперь очередь за нашей армией завершить дело.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Investigate Peaceful Scythe Headquarters 1 (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Невозможный выбор</MessageTitle>
+        <Description>На поверхности Касима мы обнаружили популяцию генетически модифицированных Дхают. Очевидно, они были изменены в древние времена фракцией Иккуро - Мирной Серпом. Подобно Дхают из Дамази, у них существуют легенды, уподобляющие Иккуро богам. Эти Дхают, похоже, не способны воспринимать нас ни в какой иной роли. Их природа настолько покорна, что они никогда не смогут восстать против любого Иккуро.\n\nНам удалось составить, как мы полагаем, точную хронологию некоторых прошлых событий. Во время войны с Шактури Дхают проявили себя как особенно жестокие союзники великого врага, очевидно получая удовольствие от уничтожения целых миров. Иккуро, всегда предпочитавшие мир, изначально хотели остаться в стороне от конфликта, но, став свидетелями масштабов разрушений, наши Предки почувствовали, что у них нет иного выбора, кроме как вмешаться. В частности, они посвятили себя разгрому Дхают везде, где бы те ни были обнаружены, даже если это означало полное уничтожение вида.\n\nМирная Серп возникла из этого решения, считая преследование геноцида недопустимым. Вместо этого они стремились переделать Дхают в вид, способный жить в гармонии с мирной галактикой.\n\nХотя, как и другие Иккуро, они признавали угрозу, которую Дхату представляли для галактики, они стремились изменить врага, а не уничтожить его. Они создали биоагент, который должен был изменить Дхают, сделать их способными процветать на мирах, пригодных для Иккуро, и полностью устранить агрессию и коварство, столь неотъемлемые от природы Дхату. Это было многоэтапное лечение, проводимое различными компонентами в течение разных поколений.\n\nДревние не оставили нам секретов создания биоагентов, но мы обнаружили крупный запас финального лечения. Оно не подействует на обычных Дхают, однако наши учёные полагают, что оно способно изменить генетический код Дхату из Дамази. Если мы применим этот биоагент, эти Дхату никогда больше не будут воевать с нами.\n\nТеперь мы, как и наши Предки, должны принять трудное моральное решение: изменять ли природу другого народа, чтобы сделать его более похожим на нас, или же уважать жизнь такой, какой мы её обнаружили?</Description>
+        <ChoiceButtonText>Использовать биоагент на Дамазе</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Уничтожить биоагент</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Investigate Peaceful Scythe Headquarters 2 (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Лишняя необходимость выбора</MessageTitle>
+        <Description>На поверхности Касима мы обнаружили популяцию генетически модифицированных Дхают. Очевидно, они были изменены в древние времена фракцией Иккуро - Мирным Серпом. Подобно Дхают с Дамази, у них существуют легенды, приравнивающие Иккуро к богам. Эти Дхают, похоже, не способны воспринимать нас ни в какой иной роли. Их природа настолько покорна, что они никогда не смогут восстать против любого Иккуро.\n\nНам удалось составить, как мы полагаем, точную хронологию некоторых прошлых событий. Во время войны с Шактури Дхают проявили себя как особенно жестокие союзники великого врага, очевидно получая удовольствие от уничтожения целых миров. Иккуро, всегда предпочитавшие мир, изначально хотели остаться в стороне от конфликта, но, став свидетелями масштабов разрушений, наши Предки почувствовали, что у них нет иного выбора, кроме как вмешаться. В частности, они посвятили себя победе над Дхают везде, где бы их ни обнаружили, даже если это означало полное уничтожение вида.\n\nМирный Серп возник в результате этого решения, считая преследование геноцида неприемлемым. Вместо этого они стремились пересоздать Дхают в вид, способный жить в гармонии с мирной галактикой.\n\nХотя, как и другие Иккуро, они осознавали угрозу, которую Дхату представляли для галактики, они стремились изменить врага, а не уничтожить его. Они создали биоагент, который должен был изменить Дхают, сделав их способными процветать на мирах, пригодных для Иккуро, и полностью устранить агрессию и коварство, столь неотъемлемые от природы Дхают. Это было многоэтапное лечение, проводимое различными компонентами в течение разных поколений.\n\nКакие ужасы должны были пережить наши Предки, чтобы решиться на перепрограммирование генетического кода другого разумного вида? Нам повезло, что нам не приходится прибегать к таким крайностям. Возможно, мы сможем изучить этот биоагент и научиться применять эту технологию для достижения наших более гармоничных целей.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Use Bioagent Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Результаты биологического агента</MessageTitle>
+        <Description>Мы применили биологический агент на Дамазе. Результаты проявились почти мгновенно. Население Дхают стало мирным, а руководство обратилось к нам с просьбой о прощении. Они объявили, что желают лишь жить в гармонии с нами и приветствуют присутствие Иккуро на их мире.\n\nРезультаты были встречены далеко не везде в {15}. Многие ставят под сомнение этичность изменения природы популяции, особенно когда эта популяция не представляла никакой экзистенциальной угрозы для других видов. Наши Предки создали технологию, позволяющую им принимать решения богов. Теперь мы должны жить с последствиями использования этой технологии.\n\nМы сделали ещё одно важное открытие на поверхности Касима: древнюю звёздную карту. Она указывает местоположение древнего родного мира Иккуро.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Destroy the Bioagent Choice (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Не здесь, чтобы играть в Бога</MessageTitle>
+        <Description>Не в нашей власти перекраивать другой вид, чтобы он больше соответствовал нашим предпочтениям. Хотя нам было бы приятнее видеть их более сговорчивыми, население Дамазы должно иметь свободу выбрать свою судьбу, даже если она окажется жестокой. Они должны оставаться верными своей природе, как и мы остаёмся верны нашей.\n\nМы сделали ещё одно важное открытие на поверхности Касима: древнюю звёздную карту. Она указывает местоположение родного мира древних Иккуро.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Investigate Peaceful Scythe Headquarters (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Невозможный выбор</MessageTitle>
+        <Description>На поверхности Касима мы обнаружили популяцию генетически искажённых Дхают. Похоже, древние Иккуро использовали отвратительные технологии, чтобы изменить природу этих Дхают, сделав их мирными, подчинёнными и слабыми.  \n\nСогласно имеющимся записям, эти уродства были созданы фракцией Иккуро, решившей устранить угрозу со стороны Дхают. Они настолько извратили местное население, что эти Дхают воспринимают Иккуро как богов.  \n\nИзучая записи и подвергая пыткам некоторых местных жителей, мы полагаем, что раскрыли ужасную правду об этом мире. Во время древней войны Шактури Иккуро сочли Дхают столь могущественными и пугающими, что решили уничтожить нас. Некоторые, следуя своим извращённым убеждениям, не желали прибегать к насилию и вместо этого избрали ещё более ужасный путь - попытку переделать Дхают по своему образу. К счастью, большинство компонентов, необходимых для этой чудовищной метаморфозы, уже не существует. Нам нечего бояться: мы не превратимся в уродства.  \n\nЧто касается извращённых и бесполезных Дхают этого мира, нам необходимо решить, что с ними делать. Похоже, существует лишь два логичных варианта.</Description>
+        <ChoiceButtonText>Уничтожить Дхают Касима</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Покорить Дхают Касима</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Exterminate the Dhayut of Kasim (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="2">
+        <MessageTitle>Результаты истребления</MessageTitle>
+        <Description>Популяция Касима была уничтожена. Это великое облегчение для всего рода Дхают. Среди руин мы обнаружили, по нашему мнению, место древнего родного мира Иккуро. Возможно, там можно найти что-то ценное. А возможно, и нет.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Enslave the Dhayut of Kasim (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="2">
+        <MessageTitle>Результаты истребления</MessageTitle>
+        <Description>Население Касима было обращено в рабство. Эти генетически изменённые уродцы служат полезным напоминанием о том, что другим расам нельзя доверять. Возможно, хотя они и не заслуживают жизни, эти Дхают могут найти некоторое утешение в том, чтобы прожить свои дни в жалкой покорности.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Investigate Peaceful Scythe Headquarters (Other)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Невозможный выбор</MessageTitle>
+        <Description>На поверхности Касима мы обнаружили популяцию мирных Дхают. Согласно имеющимся данным, древние Иккуро использовали биологические агенты для изменения природы Дхают, превратив их из агрессивных в миролюбивых. Это произошло во время Древней Шактури войны, когда по крайней мере часть Иккуро считала Дхают экзистенциальной угрозой. Фанатичная расколотая фракция, стремясь избежать риска уничтожения целого вида, желала переделать Дхают по своему образу и подобию.\n\nСреди записей мы обнаружили местоположение древнего родного мира Иккуро.</Description>
+        <ChoiceButtonText>Уничтожить Дхают Касима</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Encounter Ancient Ikkuro Homeworld (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Наш Древний Родной Мир</MessageTitle>
+        <Description>Мы обнаружили наш древний родной мир. Когда-то это был лесной мир, изобилующий гармоничной жизнью, но после Катаклизма он стал неузнаваемым и непригодным для жизни. Именно на этом мире Иккуро научились понимать своё место как часть природы, а не её центр. Какая чудесная жизнь процветала здесь когда-то, что теперь безвозвратно ушла? Больно размышлять о таких вопросах, но мы можем почерпнуть силу и решимость из этой потери. Мы можем возродить свою решимость защищать жизнь в других местах.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Encounter Ancient Ikkuro Homeworld (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Древний родной мир Иккуро</MessageTitle>
+        <Description>Мы обнаружили родной мир отвратительных Иккуро. Когда-то это была планета, покрытая лесами, но древний Катаклизм, похоже, очистил её. По крайней мере, из этого ужасного события последовала какая-то польза.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Encounter Ancient Ikkuro Homeworld (Other)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Древний родной мир Иккуро</MessageTitle>
+        <Description>Мы обнаружили то, что, по-видимому, является древним родным миром Иккуро. Его стоит исследовать.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Investigate Ancient Ikkuro Homeworld (Ikkuro)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Наш Древний Родной Мир</MessageTitle>
+        <Description>На нашей древней столице мы узнали многое о нашем прошлом. Наряду с фрагментами, которые уже были обнаружены, мы полагаем, что теперь можем воссоздать хронологию нашей роли в древнем конфликте. Иккуро изначально стремились сохранить нейтралитет во время войны со Шактури, полагая, что любая война есть зло, но когда мы стали свидетелями разрушений, причинённых Шактури, особенно уничтожения, нанесённого их Мировыми Разрушителями, мы поняли, что у нас не было иного выбора, кроме как вмешаться. Когда один из основных миров Иккуро, кишмя кишевший разнообразной жизнью, был уничтожен силами Дхают, наши предки пришли к выводу, что Дхают живут по этическому принципу, столь противоречащему самой жизни, что их необходимо сражаться более беспощадно, чем любого врага в нашей истории. Была объявлена война благостного разрушения. Раскол внутри военных сил, назвавший себя «Мирным Серпом», считал, что война, ведущаяся с такой жестокостью, изменит то, кем мы являемся как Иккуро, и поэтому они решили вместо этого генетически изменить Дхают, сделав их более похожими на нас. Они основали модифицированную колонию Дхату вблизи уже существующей колонии Иккуро. Когда произошло Катаклизм, обе колонии остались предоставлены сами себе.\n\nВ руинах нашего родного мира мы обнаружили удивительные реликвии, свидетельствующие о том, как наши предки умели жить в гармонии с природным миром. Среди наших находок - Талисман Мудрого Навигатора, который улучшит наши корабли.\n\nМы также обнаружили Сферу Расцвета, которая сделает наши колонии более процветающими.\n\nЭтот мир когда-то был процветающим центром всех исследований Иккуро. Восстановление исследовательских объектов здесь несомненно поможет нашим собственным усилиям по пониманию вселенной, в которой мы живём и частью которой являемся. Такие знания, которые мы получим здесь, лишь углубят наше понимание, а это, в свою очередь, усилит нашу скромность.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Investigate Ancient Ikkuro Homeworld (Dhayut)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Древний родной мир Иккуро</MessageTitle>
+        <Description>На древней столице Иккуро мы узнали многое об их прошлых замыслах и кознях. Иккуро поначалу были слишком трусливы, чтобы вступить в войну с Шактури, прячась за предлогом, что война - это плохо, или подобной чепухой, но когда мощь «Мировых разрушителей» Шактури вынудила их осознать, что их трусость не спасёт их, они каким-то образом обрели мотивацию защищать свои жалкие жизни. Лучше бы им принять гибель. Они выделили Дхают за их жалкие попытки воевать, но искажённая фракция внутри их рядов стремилась переделать наш вид, а не сражаться с нами. Эти извращенные твари, называющие себя «Мирными косами», стремились превратить Дхают в иной тип мирно настроенных Иккуро. Они основали колонию этих чудовищ в той же системе, что и одна из их собственных колоний Иккуро. Возможно, нам следует провести расследование.\n\nВ руинах их опустошённого мира мы обнаружили некоторые любопытные артефакты. Возможно, они могут пригодиться нам. Среди них - Талисман мудрой навигации, который улучшит наши и без того превосходные корабли.\n\nМы также обнаружили Сферу процветания, которая сделает наши колонии, не требующие помощи инопланетян, ещё более процветающими.\n\nЖалкие любители Иккуро занимались здесь тем, что они называли исследованиями. Мы должны с неохотой признать, что сооружения выглядят превосходно, и нам было бы разумно воспользоваться тем, что создали Иккуро. Научная база здесь послужит нам на благо.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Investigate Ancient Ikkuro Homeworld (Other)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Древний родной мир Иккуро</MessageTitle>
+        <Description>До Катаклизма это, вероятно, был процветающий лесной мир. Несмотря на масштабные разрушения этого мира, мы обнаружили несколько важных артефактов. Среди наших находок - Талисман Мудрой Навигации, который улучшит наши корабли.  \n\nМы также обнаружили Сферу Процветания, которая сделает наши колонии более благополучными.  \n\nЭтот мир некогда был процветающим центром всех исследований Иккуро. Восстановление исследовательских объектов здесь несомненно поможет нашим собственным научным усилиям.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+</ArrayOfGameEvent>

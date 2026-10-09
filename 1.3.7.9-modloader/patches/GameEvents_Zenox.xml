@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfGameEvent>
+  <GameEvent id="Wonders of the Past Choice (Zenox)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Чудеса прошлого</MessageTitle>
+        <Description>Наше недавнее исследование руин вызвало у нашего народа всплеск интереса к галактической истории.\n\nМы можем направить этот интерес одним из двух способов:\n[ULI]+10 к счастью империи на один год[/ULI][ULI]+10% ко всем исследованиям на один год[/ULI]\nКак нам использовать этот энтузиазм?</Description>
+        <ChoiceButtonText>+10 к счастью империи</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>-5% ко всем исследованиям</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Implement Wonders of the Past - Happiness (Zenox)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Чудеса прошлого</MessageTitle>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Implement Wonders of the Past - Scientists (Zenox)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Чудеса прошлого</MessageTitle>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Predictive History Choice (Zenox)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Предсказательная история</MessageTitle>
+        <Description>Наши недавние раскопки дают нам возможность применить здесь наши открытия для улучшения дипломатических и разведывательных миссий нашей империи, но ценой замедления исследований.\n\nЕсли мы воспользуемся этой возможностью, то в течение следующих двух лет получим следующие бонусы и штрафы:[ULI][BAD]-5% ко всем исследованиям[/BAD][/ULI][ULI][GOOD]+10% к дипломатии[/GOOD][/ULI][ULI][GOOD]+10% к контршпионажу[/GOOD][/ULI][ULI][GOOD]+10% к шпионажу[/GOOD][/ULI][ULI][GOOD]+10% к Пси-операциям[/GOOD][/ULI]\n\nСледует ли нам применить эти открытия таким образом или нет?</Description>
+        <ChoiceButtonText>Применить наши открытия</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Не применять наши открытия</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Implement Predictive History (Zenox)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Предсказательная история</MessageTitle>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Preserve the Ruins Choice (Zenox)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Сохранить руины</MessageTitle>
+        <Description>Наша недавняя колонизация мира с древними руинами открывает уникальную возможность.\n\nМы можем сделать одно из следующего с руинами:[ULI]Преобразовать руины в административное сооружение бесплатно (потеряв любые бонусы от руин)[/ULI][ULI]Сохранить руины, но с повышенным уровнем бонусов (1.5x)[/ULI]\nЧто мы должны сделать с руинами?</Description>
+        <ChoiceButtonText>Преобразовать руины в правительственное учреждение</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Сохранить руины с повышенными бонусами</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Implement Preserve the Ruins - Governance Facility (Zenox)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Сохранить руины</MessageTitle>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <MessageTitle>Сохранить руины</MessageTitle>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Implement Preserve the Ruins - Better Ruins Bonuses (Zenox)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Сохранить руины</MessageTitle>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Search the Archives (Zenox)">
+    <TriggerActions>
+      <GameEventAction index="2">
+        <MessageTitle>Поиск в архивах</MessageTitle>
+        <Description>Наше исследование архивов открыло утраченные научные знания, ускоряющие наши исследовательские усилия!\n\nВ течение следующих двух лет наша империя получит бонус [BONUS]+5% ко всем исследованиям[/BONUS].</Description>
+      </GameEventAction>
+      <GameEventAction index="3">
+        <MessageTitle>Поиск в архивах</MessageTitle>
+        <Description>Наше исследование архивов раскрыло новые подробности о древних Зеноксах, очаровав народ нашей империи!\n\nВ течение следующих двух лет наша колония получит бонус к счастью [+10].</Description>
+      </GameEventAction>
+      <GameEventAction index="4">
+        <MessageTitle>Поиск в архивах</MessageTitle>
+        <Description>Наше исследование архивов выявило особое место в галактике.\n\nСведений об этом месте крайне мало. Мы смогли лишь приблизительно определить его местоположение по случайным упоминаниям в архивах. Поэтому мы не знаем о нём ничего, кроме того, что оно обладает определённой важностью. Вероятно, нам следует исследовать это место.\n\nНа нашу карту галактики добавлен [HL]навигационный маяк[/HL]. Это место также можно найти в списке особых локаций в разделе «Исследование».</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+</ArrayOfGameEvent>

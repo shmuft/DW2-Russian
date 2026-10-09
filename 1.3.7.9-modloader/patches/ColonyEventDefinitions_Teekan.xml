@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfColonyEventDefinition>
+  <ColonyEventDefinition id="135">
+    <Name>Время странствий</Name>
+    <Description>Наша новая колония привлекает новых поселенцев со всей области!</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="136">
+    <Name>Посредственная охота на Бакдуров</Name>
+    <Description>Великая охота на Бакдуров в нашей колонии {0} оказалась разочаровывающей, с лишь посредственным уловом.\n\nТем не менее, в течение следующих 5 лет мы будем испытывать [GOOD]+5% прирост общеимперского счастья[/GOOD].\n\nКроме того, наша колония [LOCATION]{0}[/LOCATION] получит [GOOD]+5 бонус к развитию[/GOOD] на 5 лет.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="137">
+    <Name>Удачная охота на Бакдуров</Name>
+    <Description>Великая охота на Бакдуров в нашей колонии {0} прошла успешно, и было добыто множество Бакдуров!\n\nТаким образом, в течение следующих 5 лет мы будем испытывать [GOOD]+10% бонус к общему уровню счастья империи[/GOOD].\n\nКроме того, наша колония [LOCATION]{0}[/LOCATION] получит [GOOD]+10% к развитию[/GOOD] на 5 лет.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="138">
+    <Name>Выдающаяся охота на Бакдуров</Name>
+    <Description>Великая охота на Бакдуров в нашей колонии {0} стала настоящим триумфом, и добыча Бакдуров оказалась колоссальной!\n\nТаким образом, в течение следующих 5 лет мы будем испытывать [GOOD]+10% прирост общеимперского счастья[/GOOD].\n\nКроме того, наша колония [LOCATION]{0}[/LOCATION] получит [GOOD]+5 бонус к развитию[/GOOD] на срок 5 лет.\n\nЭта выдающаяся охота также выявила крупное месторождение [RESOURCE]Кораббианской пряности[/RESOURCE], что обеспечит огромный прирост развития нашей империи!</Description>
+  </ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

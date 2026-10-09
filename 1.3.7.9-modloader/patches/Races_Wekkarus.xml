@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfRace>
+  <Race id="8">
+    <Name>Веккарусы</Name>
+    <Description>Веккарусы - крупные ракообразные с характерными челюстными придатками на лице.  \n\nВеккарусы обитают глубоко в морях планет-океанов. Они способны жить вне воды продолжительное время, однако предпочитают влажную среду.  \n\nОни возводят целые подводные города в обширных пещерах и туннелях океанических миров, которые населяют. Эти города являются центрами технологий и промышленности, производя передовую подводную технику, используемую по всей галактике.  \n\nГлубоководные туннели, где обитают Веккарусы, также служат домом для обилия другой морской фауны - часть которой враждебна. Веккарусы особенно боятся одного хищника: левиафана Дархула, грозного глубоководного чудовища, достигающего длины 100 метров и более.  \n\nВеккарусы адаптировались к этим угрозам, создав мощные силовые поля, защищающие входы в их подводные колонии.  \n\nВеккарусы также обладают глубокими знаниями о высоко специализированных лучевых оружиях типа «Wave Beam». Это позволило им разработать мощное оружие «PulseWave». Этот уникальный тип лучевого оружия выпускает по целям мощные энергетические волны.  \n\nВеккарусы - в целом мирный вид, предпочитающий держаться обособленно.</Description>
+    <DesignNames op="replace">
+      <string>Dessau</string>
+      <string>Munich</string>
+      <string>Dresden</string>
+      <string>Kiel</string>
+      <string>Kassel</string>
+      <string>Graz</string>
+      <string>Linz</string>
+      <string>Montreux</string>
+      <string>Westfalen</string>
+      <string>Osnabruck</string>
+      <string>Brandenburg</string>
+      <string>Ingolstadt</string>
+      <string>Dortmund</string>
+      <string>Stuttgart</string>
+      <string>Teuton</string>
+      <string>Eindhoven</string>
+      <string>Koblenz</string>
+      <string>Heidelberg</string>
+      <string>Hannover</string>
+      <string>Lubeck</string>
+      <string>Berlin</string>
+      <string>Munich</string>
+      <string>Hamburg</string>
+      <string>Frankfurt</string>
+      <string>Innsbruck</string>
+      <string>Zurich</string>
+      <string>Dachau</string>
+      <string>Baden</string>
+      <string>Kufstein</string>
+      <string>Klagenfurt</string>
+      <string>Stralsund</string>
+      <string>Wismar</string>
+      <string>Dusseldorf</string>
+      <string>Hagen</string>
+      <string>Lindau</string>
+      <string>Bremen</string>
+    </DesignNames>
+    <CharacterFirstNames op="replace">
+      <string>Equia</string>
+      <string>Senaris</string>
+      <string>Udy</string>
+      <string>Okkuroo</string>
+      <string>Tenshik</string>
+      <string>Gorzandu</string>
+      <string>Jekaru</string>
+      <string>Dagranta</string>
+      <string>Kensek</string>
+      <string>Wooshik</string>
+      <string>Atsugok</string>
+      <string>Bektul</string>
+      <string>Redarik</string>
+      <string>Ikkutus</string>
+      <string>Volkta</string>
+      <string>Zuuro</string>
+      <string>Larix</string>
+      <string>Oseon</string>
+      <string>Pinzi</string>
+      <string>Ati</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Wassoga</string>
+      <string>Qendo</string>
+      <string>Lapuri</string>
+      <string>Nakshil</string>
+      <string>Lokhar</string>
+      <string>Zupol</string>
+      <string>Rektu</string>
+      <string>Danshik</string>
+      <string>Vudugar</string>
+      <string>Maggula</string>
+      <string>Odorio</string>
+      <string>Sukantu</string>
+      <string>Jitula</string>
+      <string>Wogaras</string>
+      <string>Addibu</string>
+      <string>Bogari</string>
+      <string>Yektus</string>
+      <string>Kandusa</string>
+      <string>Piyyaru</string>
+      <string>Hutan</string>
+    </CharacterLastNames>
+    <FeatureExplanations op="replace">
+      <string>[HL]Вспышки прошлого:[/HL] всякий раз, когда учёный добивается критического успеха в исследовании, выберите для него один из двух новых исследовательских навыков. У учёного должно быть менее 4 навыков</string>
+      <string>[HL]Глубокий лабиринт:[/HL] всякий раз, когда обнаружен вражеский шпион, действующий против нас, с шансом 50% его перехватывают, после чего можно выбрать: заключить его в тюрьму или казнить</string>
+      <string>[HL]Богатства глубин:[/HL] периодически обнаруживается новый ресурс в любой из наших колоний на глубоком океане</string>
+      <string>[HL]Предки среди нас:[/HL] в моменты сильного стресса может возникнуть мощная связь с психической памятью предков, из-за чего эти воспоминания проявляются в данном месте. Это может произойти в следующих ситуациях:[ULI]всякий раз, когда корабль участвует в космическом бою, может появиться временный [HL]корабль-призрак[/HL], помогающий в бою. Он неуправляем и через некоторое время исчезнет[/ULI][ULI]всякий раз, когда на колонии происходит наземный бой (при вторжении или обороне), могут появиться временные [HL]войска-призраки[/HL], помогающие в бою. Они неуправляемы и через некоторое время исчезнут[/ULI][ULI]всякий раз, когда учёный добивается критического успеха или терпит критическую неудачу в исследовании, может появиться временный [CHARACTER]учёный-призрак[/CHARACTER], помогающий в дальнейших исследованиях. Он не может менять местоположение и через некоторое время исчезнет[/ULI][ULI]всякий раз, когда вы подписываете соглашение о свободной торговле, исследовательское соглашение или оборонительный пакт, есть небольшой шанс получить дополнительные +20 к отношениям с фракцией благодаря вмешательству [CHARACTER]древнего посла[/CHARACTER][/ULI][ULI]всякий раз, когда одна из ваших шпионских миссий раскрыта и шпиона вот-вот схватят, с шансом 25% шпион избегает плена благодаря вмешательству [CHARACTER]древнего шпиона[/CHARACTER][/ULI][ULI]всякий раз, когда флот участвует в космическом бою, может появиться временный [CHARACTER]адмирал-призрак[/CHARACTER], помогающий в бою. Он не может менять местоположение и через некоторое время исчезнет[/ULI][ULI]всякий раз, когда на колонии происходит наземный бой (при вторжении или обороне), может появиться временный [CHARACTER]генерал-призрак[/CHARACTER], помогающий в бою. Он не может менять местоположение и через некоторое время исчезнет[/ULI]\nКроме того, следующие артефакты веккарусов увеличивают частоту событий «Предки среди нас». Чтобы получить их преимущества, эти артефакты нужно найти в ходе исследований:[ULI][ARTIFACT]Кенотаф первого поколения[/ARTIFACT]: удваивает частоту вмешательства персонажей-призраков (адмиралов, генералов, учёных и шпионов). Увеличивает психическое сопротивление на +7%[/ULI][ULI][ARTIFACT]Воздушный корабль предков[/ARTIFACT]: удваивает частоту появления кораблей-призраков. Увеличивает психическое сопротивление на +7%[/ULI][ULI][ARTIFACT]Сфера силы предков[/ARTIFACT]: удваивает частоту появления войск-призраков. Увеличивает психическое сопротивление на +7%[/ULI]</string>
+      <string>[HL]Уникальная черта шпиона — Непроницаемый:[/HL] +10% к контршпионажу</string>
+      <string>[HL]Уникальная черта шпиона — Пронзительный взгляд:[/HL] +10% к PsyOps</string>
+      <string>[HL]Уникальная черта учёного — Неземной интеллект:[/HL] +5% ко всем исследованиям, +5% к контршпионажу</string>
+      <string>[HL]Уникальная черта учёного — Память предков:[/HL] повышенный шанс критического успеха в исследовании</string>
+      <string>[HL]Память предков:[/HL] у адмиралов и генералов на 2 положительные черты больше</string>
+    </FeatureExplanations>
+  </Race>
+</ArrayOfRace>

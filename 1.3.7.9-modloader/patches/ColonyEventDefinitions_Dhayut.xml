@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfColonyEventDefinition>
+  <ColonyEventDefinition id="38">
+    <Name>Вдохновлённая коварность</Name>
+    <Description>Наши успешные шпионские усилия вдохновили наш народ принять наши ценности Дхают! В течение следующего года мы можем ожидать, что все наши усилия в области Шпионажа, Саботажа и Уклонения от сканирования будут на 20% более успешными.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="42">
+    <Name>Инженеры похвалены</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="43">
+    <Name>Инженеры казнены</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="44">
+    <Name>Приятная ложь</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="45">
+    <Name>Грабёж удался</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="46">
+    <Name>Успех обмана</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="47">
+    <Name>Учёный, сеющий страх</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="48">
+    <Name>Древний родной мир раскрыт</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="49">
+    <Name>Не подвергнутый влиянию Древних Иккуро</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="52">
+    <Name>Порочные Дхают погибли</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="53">
+    <Name>Порочные Дхают - наши рабы</Name>
+  </ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

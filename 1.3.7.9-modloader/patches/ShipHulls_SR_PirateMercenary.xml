@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfShipHull>
+  <ShipHull id="1506">
+    <MarketingName>Blitz AT1000</MarketingName>
+    <MarketingDescription>The Blitz incorporates a versatile array of features, including excellent speed and manoeuvrability and a brilliant targeting system. This popular model even includes extra countermeasures.</MarketingDescription>
+    <Name>Ударный эскорт</Name>
+  </ShipHull>
+  <ShipHull id="1507">
+    <Name>Малый порт</Name>
+  </ShipHull>
+  <ShipHull id="1508">
+    <Name>Малый строительный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1509">
+    <Name>Малый исслед-й корабль</Name>
+  </ShipHull>
+  <ShipHull id="1510">
+    <Name>Неуловимый добывающий корабль</Name>
+  </ShipHull>
+  <ShipHull id="1511">
+    <Name>Уклоняющийся малый грузовой корабль</Name>
+  </ShipHull>
+  <ShipHull id="1512">
+    <Name>Малая добывающая станция</Name>
+  </ShipHull>
+  <ShipHull id="1513">
+    <Name>Исследовательская станция</Name>
+  </ShipHull>
+  <ShipHull id="1514">
+    <MarketingName>Blitz AT1600</MarketingName>
+    <MarketingDescription>The Blitz incorporates a versatile array of features, including excellent speed and manoeuvrability and a brilliant targeting system. This popular model even includes extra countermeasures.</MarketingDescription>
+    <Name>Ударный эскорт v2</Name>
+  </ShipHull>
+  <ShipHull id="1515">
+    <MarketingName>Turbulent FG4</MarketingName>
+    <MarketingDescription>The Turbulent gives you flexibility and offensive range, especially with its enhanced targeting. The line is designed for attack versatility and reliability.</MarketingDescription>
+    <Name>Ударный фрегат</Name>
+  </ShipHull>
+  <ShipHull id="1516">
+    <Name>Малый десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1517">
+    <Name>Малый космопорт v2</Name>
+  </ShipHull>
+  <ShipHull id="1518">
+    <Name>Малый колонизационный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1519">
+    <Name>Неуловимый добывающий корабль v2</Name>
+  </ShipHull>
+  <ShipHull id="1520">
+    <Name>Неуловимый малый грузовой корабль v2</Name>
+  </ShipHull>
+  <ShipHull id="1521">
+    <Name>Малый пассажирский корабль</Name>
+  </ShipHull>
+  <ShipHull id="1522">
+    <Name>Малый топливный заправщик</Name>
+  </ShipHull>
+  <ShipHull id="1523">
+    <Name>Большая добывающая станция</Name>
+  </ShipHull>
+  <ShipHull id="1524">
+    <Name>Развлекательная станция</Name>
+  </ShipHull>
+  <ShipHull id="1525">
+    <MarketingName>Turbulent FG7</MarketingName>
+    <MarketingDescription>The Turbulent gives you flexibility and offensive range, especially with its enhanced targeting. The line is designed for attack versatility and reliability.</MarketingDescription>
+    <Name>Ударный фрегат v2</Name>
+  </ShipHull>
+  <ShipHull id="1526">
+    <MarketingName>Surge KR50</MarketingName>
+    <MarketingDescription>Built for attack, the Surge carries extra speed for those tough situations. Its up-to-date countermeasures and targeting systems give it an edge against any opponents you might come up against.</MarketingDescription>
+    <Name>Ударный эсминец</Name>
+  </ShipHull>
+  <ShipHull id="1527">
+    <Name>Средний десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1528">
+    <Name>Малый космопорт v3</Name>
+  </ShipHull>
+  <ShipHull id="1529">
+    <Name>Средний топливный заправщик</Name>
+  </ShipHull>
+  <ShipHull id="1530">
+    <Name>Станция наблюдения</Name>
+  </ShipHull>
+  <ShipHull id="1531">
+    <Name>Средний строительный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1532">
+    <Name>Средний исследовательский корабль</Name>
+  </ShipHull>
+  <ShipHull id="1533">
+    <Name>Неуловимый добывающий корабль v3</Name>
+  </ShipHull>
+  <ShipHull id="1534">
+    <Name>Неуловимый средний грузовой корабль</Name>
+  </ShipHull>
+  <ShipHull id="1535">
+    <Name>Средний пассажирский корабль</Name>
+  </ShipHull>
+  <ShipHull id="1536">
+    <MarketingName>Surge KR80</MarketingName>
+    <MarketingDescription>Built for attack, the Surge carries extra speed for those tough situations. Its up-to-date countermeasures and targeting systems give it an edge against any opponents you might come up against.</MarketingDescription>
+    <Name>Ударный эсминец v2</Name>
+  </ShipHull>
+  <ShipHull id="1537">
+    <Name>Средний космопорт</Name>
+  </ShipHull>
+  <ShipHull id="1538">
+    <Name>Космический бастион</Name>
+  </ShipHull>
+  <ShipHull id="1539">
+    <Name>Средний колонизационный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1540">
+    <Name>Большой топливный заправщик</Name>
+  </ShipHull>
+  <ShipHull id="1541">
+    <Name>Неуловимый большой грузовой корабль</Name>
+  </ShipHull>
+  <ShipHull id="1542">
+    <Name>Большой пассажирский корабль</Name>
+  </ShipHull>
+  <ShipHull id="1543">
+    <MarketingName>Warlord MX100</MarketingName>
+    <MarketingDescription>The Warlord model cruiser is well-known for packing a punch. It carries the latest in armament development, with increased weapons range and weapons damage.</MarketingDescription>
+    <Name>Ударный крейсер</Name>
+  </ShipHull>
+  <ShipHull id="1544">
+    <Name>Большой десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1545">
+    <Name>Средний космопорт v2</Name>
+  </ShipHull>
+  <ShipHull id="1546">
+    <Name>Космический бастион v2</Name>
+  </ShipHull>
+  <ShipHull id="1547">
+    <Name>Уклонистский большой грузовой корабль v2</Name>
+  </ShipHull>
+  <ShipHull id="1548">
+    <Name>Большой строительный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1549">
+    <Name>Большой исследовательский корабль</Name>
+  </ShipHull>
+  <ShipHull id="1550">
+    <Name>Большой колонизационный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1551">
+    <Name>Ударный линейный крейсер</Name>
+  </ShipHull>
+  <ShipHull id="1552">
+    <Name>Ударный лёгкий авианосец</Name>
+  </ShipHull>
+  <ShipHull id="1553">
+    <MarketingName>Warlord MX200</MarketingName>
+    <MarketingDescription>The Warlord model cruiser is well-known for packing a punch. It carries the latest in armament development, with increased weapons range and weapons damage.</MarketingDescription>
+    <Name>Ударный крейсер v2</Name>
+  </ShipHull>
+  <ShipHull id="1554">
+    <Name>Сверхкрупный десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1555">
+    <Name>Ударный Линкор v2</Name>
+  </ShipHull>
+  <ShipHull id="1556">
+    <Name>Ударный Авианосец v2</Name>
+  </ShipHull>
+  <ShipHull id="1557">
+    <MarketingName>Warlord MX300</MarketingName>
+    <MarketingDescription>The Warlord model cruiser is well-known for packing a punch. It carries the latest in armament development, with increased weapons range and weapons damage.</MarketingDescription>
+    <Name>Ударный крейсер v3</Name>
+  </ShipHull>
+  <ShipHull id="1558">
+    <Name>Экспедиционный транспорт</Name>
+  </ShipHull>
+  <ShipHull id="1559">
+    <Name>Большой космопорт</Name>
+  </ShipHull>
+  <ShipHull id="1560">
+    <Name>Массивный колонизационный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1561">
+    <Name>Ударный линкор v3</Name>
+  </ShipHull>
+  <ShipHull id="1562">
+    <Name>Ударный авианосец v3</Name>
+  </ShipHull>
+  <ShipHull id="1563">
+    <Name>Десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1564">
+    <Name>Мировой корабль</Name>
+  </ShipHull>
+  <ShipHull id="1565">
+    <Name>Ударный дредноут v4</Name>
+  </ShipHull>
+  <ShipHull id="1566">
+    <Name>Ударный материнский корабль v4</Name>
+  </ShipHull>
+  <ShipHull id="1567">
+    <Name>Базовый истребитель</Name>
+  </ShipHull>
+  <ShipHull id="1568">
+    <Name>Лёгкий перехватчик</Name>
+  </ShipHull>
+  <ShipHull id="1569">
+    <Name>Перехватчик «Кречет»</Name>
+  </ShipHull>
+  <ShipHull id="1570">
+    <Name>Лёгкий ударный истребитель</Name>
+  </ShipHull>
+  <ShipHull id="1571">
+    <Name>Тактический перехватчик</Name>
+  </ShipHull>
+  <ShipHull id="1572">
+    <Name>Ударный истребитель</Name>
+  </ShipHull>
+  <ShipHull id="1573">
+    <Name>Прыжковый истребитель</Name>
+  </ShipHull>
+  <ShipHull id="1574">
+    <Name>Ударный шаттл «ЗимЗип»</Name>
+  </ShipHull>
+  <ShipHull id="1575">
+    <Name>Перехватчик «Кречет» v2</Name>
+  </ShipHull>
+  <ShipHull id="1576">
+    <Name>Продвинутый перехватчик</Name>
+  </ShipHull>
+  <ShipHull id="1577">
+    <Name>Штурмовой истребитель</Name>
+  </ShipHull>
+  <ShipHull id="1578">
+    <Name>Ударный шаттл «ЗимЗип» v2</Name>
+  </ShipHull>
+  <ShipHull id="1579">
+    <Name>Перехватчик «Кречет» v3</Name>
+  </ShipHull>
+  <ShipHull id="1580">
+    <Name>Перехватчик «Кречет» v4</Name>
+  </ShipHull>
+  <ShipHull id="1581">
+    <Name>Истребитель превосходства</Name>
+  </ShipHull>
+  <ShipHull id="1582">
+    <Name>Ударный шаттл «ЗимЗип» v3</Name>
+  </ShipHull>
+  <ShipHull id="1583">
+    <Name>Истребитель превосходства v2</Name>
+  </ShipHull>
+  <ShipHull id="1584">
+    <Name>Базовый бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1585">
+    <Name>Лёгкий бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1586">
+    <Name>Средний бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1587">
+    <Name>Волновой бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1588">
+    <Name>Штурмовой бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1589">
+    <Name>Тяжёлый бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1590">
+    <Name>Штурм. бомбард.</Name>
+  </ShipHull>
+  <ShipHull id="1783">
+    <Name>Космопорт сектора</Name>
+  </ShipHull>
+</ArrayOfShipHull>

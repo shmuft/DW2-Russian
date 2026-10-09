@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfRace>
+  <Race id="20">
+    <Name>Шактури</Name>
+    <Description>Шактури - исчезнувшая раса инсектоидных пришельцев, которые, по преданиям, населяли галактику в далеком прошлом.\n\nМногие древние мифы и легенды описывают Шактури как грозных захватчиков из другой далёкой галактики. Они были хитрыми и беспощадными агрессорами, успешно завоевавшими большую часть галактики. Но когда они стояли на пороге полной победы, они внезапно исчезли бесследно.\n\nПо крайней мере, так говорят древние предания. Другие утверждают, что Шактури никогда не существовали на самом деле, а являются лишь выдумкой, созданной для того, чтобы очернить все инсектоидные расы как жестокие и злые.</Description>
+    <DesignNames op="replace">
+      <string>Kandakret</string>
+      <string>Agarasu</string>
+      <string>Zhetik</string>
+      <string>Mulkaz</string>
+      <string>Jareltoz</string>
+      <string>Sezpo</string>
+      <string>Lazzerul</string>
+      <string>Groshak</string>
+      <string>Bortezzhu</string>
+      <string>Daletur</string>
+      <string>Shaktol</string>
+      <string>Sharudiz</string>
+      <string>Klotep</string>
+      <string>Zharantur</string>
+      <string>Xekkutur</string>
+      <string>Tobintu</string>
+      <string>Blundakari</string>
+      <string>Hekshan</string>
+      <string>Qerindut</string>
+      <string>Dezzhandi</string>
+      <string>Nesagri</string>
+      <string>Terayandos</string>
+      <string>Pattarez</string>
+      <string>Rakazhet</string>
+      <string>Murgastek</string>
+      <string>Ottoran</string>
+      <string>Veskuta</string>
+      <string>Feshtak</string>
+      <string>Jartazak</string>
+      <string>Huzzantaga</string>
+      <string>Tikba</string>
+      <string>Skarzek</string>
+      <string>Laxindak</string>
+      <string>Ukkutar</string>
+      <string>Ruktar</string>
+    </DesignNames>
+    <CharacterFirstNames op="replace">
+      <string>Grotek</string>
+      <string>Sjandar</string>
+      <string>Urzi</string>
+      <string>Pergat</string>
+      <string>Bosta</string>
+      <string>Kartik</string>
+      <string>Zhentok</string>
+      <string>Ekkat</string>
+      <string>Litoz</string>
+      <string>Akshi</string>
+      <string>Khoravvi</string>
+      <string>Feksha</string>
+      <string>Ottun</string>
+      <string>Mekri</string>
+      <string>Jukol</string>
+      <string>Sareku</string>
+      <string>Zikula</string>
+      <string>Gerrik</string>
+      <string>Dakru</string>
+      <string>Nikkux</string>
+      <string>Roppat</string>
+      <string>Tukal</string>
+      <string>Sirkaz</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Tokret</string>
+      <string>Jaratek</string>
+      <string>Shuktar</string>
+      <string>Shuztak</string>
+      <string>Zhakaruz</string>
+      <string>Kobarrek</string>
+      <string>Medukaret</string>
+      <string>Ozzhari</string>
+      <string>Tamzuk</string>
+      <string>Dularri</string>
+      <string>Wukontu</string>
+      <string>Azgard</string>
+      <string>Bhruket</string>
+      <string>Xippita</string>
+      <string>Yugaret</string>
+      <string>Rissinda</string>
+      <string>Korgash</string>
+      <string>Gantura</string>
+      <string>Gaktesh</string>
+      <string>Skusirrit</string>
+      <string>Prozheg</string>
+      <string>Lukitri</string>
+      <string>Norzhaka</string>
+      <string>Okutar</string>
+      <string>Ukrisbek</string>
+      <string>Masmekra</string>
+    </CharacterLastNames>
+  </Race>
+</ArrayOfRace>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfColonyEventDefinition>
+  <ColonyEventDefinition id="82">
+    <Name>Всплеск научно-исследовательских работ</Name>
+    <Description>Наша [B]демократическая форма правления[/B] поощрила предприимчивый дух нашего народа.\n\nРасходы на исследования и разработки со стороны наших частных корпораций резко возросли.\n\nТаким образом, в течение следующего года наша империя получит следующие бонусы:\n\n[ULI][BONUS]+10% ко всем исследованиям[/BONUS][/ULI]</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="83">
+    <Name>Энергия сотрудничества</Name>
+    <Description>Наша [B]демократическая форма правления[/B] поощрила предприимчивый дух нашего народа.\n\nВ нашем населении растёт сильное стремление к единству и сотрудничеству.\n\nТаким образом, в течение следующего года наша империя получит следующие бонусы:\n\n[ULI][BONUS]+10% к навыку дипломатии[/BONUS][/ULI]</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="84">
+    <Name>Шпионские триллеры</Name>
+    <Description>Наша [B]демократическая форма правления[/B] поощрила предприимчивый дух нашего народа.\n\nВсеобщее увлечение шпионскими триллерами и фильмами привело к фокусу на операциях шпионажа и разведывательных миссиях.\n\nТаким образом, в течение следующего года наша империя получит следующие бонусы:\n\n[ULI][BONUS]+10% к навыку шпионажа[/BONUS][/ULI]</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="85">
+    <Name>Остросюжетное кино</Name>
+    <Description>Наша [B]демократическая форма правления[/B] поощрила предприимчивый дух нашего народа.\n\nВсеобщее увлечение патриотическими боевиками привело к фокусу на военных вопросах.\n\nТаким образом, в течение следующего года наша империя получит следующие бонусы:\n\n[ULI][BONUS]+10% к скорости набора войск[/BONUS][/ULI]\n[ULI][BONUS]+10% к экономии на содержании войск[/BONUS][/ULI]</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="86">
+    <Name>Мир войны</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="87">
+    <Name>Флагман уничтожен</Name>
+    <Description>Наш флагманский корабль империи погиб в бою.\n\nЭто катастрофическое событие вызвало волну скорби, снизив уровень счастья на следующий год.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="88">
+    <Name>Триумф флагмана</Name>
+    <Description>Флагман нашей империи одержал победу в решающем сражении.\n\nЭто великое достижение породило волну патриотического подъема, повысив уровень счастья на следующий год.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="89">
+    <Name>Боевой улей</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="90">
+    <Name>Феодальная повинность</Name>
+  </ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

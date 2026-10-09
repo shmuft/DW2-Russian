@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfComponentDefinition>
+  <ComponentDefinition id="397">
+    <Name>Суперторпеда «Инферно» [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="398">
+    <Name>Суперлазер [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="399">
+    <Name>Суперторпеда «Огненный шторм» [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="400">
+    <Name>Суперлазер Дхаютов [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="401">
+    <Name>Суперлазер Гизуреан [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="402">
+    <Name>Супер-кинетическое орудие [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="403">
+    <Name>Супер-рельсотрон Морталенов [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="404">
+    <Name>Суперионная бомба [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="406">
+    <Name>Роботизированная фабрика войск [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="407">
+    <Name>Супер-гравитационный импульс [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="408">
+    <Name>Супер-гиперзапретитель GW9600 [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="409">
+    <Name>Суперсканер дальнего действия [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="410">
+    <Name>Супер-стелс Зеноксов [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="419">
+    <Name>Супер-импульсная волновая пушка [X]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="420">
+    <Name>Устройство «Бум» [X]</Name>
+  </ComponentDefinition>
+</ArrayOfComponentDefinition>

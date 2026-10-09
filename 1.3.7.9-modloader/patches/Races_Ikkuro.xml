@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfRace>
+  <Race id="5">
+    <Name>Иккуро</Name>
+    <Description>Иккуро - крупные мускулистые приматы с короткой коричнево-красной шерстью.\n\nУ них очень большие, широко расставленные уши, позволяющие точно определять местоположение звуков. Эта способность даёт им элементарные навыки эхолокации, позволяя «видеть» в темноте.\n\nИккуро обычно умны и агрессивны, хотя и осторожны. Они часто вспыльчивы. При провокации или угрозе могут быстро стать жестоки. Несмотря на это, они, как правило, мягки и ласковы с теми, кого хорошо знают.\n\nОни исключительно талантливые механики. Иккуро способны починить практически любую технику. Они также уверенно разбирают новые устройства, с которыми сталкиваются. Более того, при сборке они часто улучшают машину.\n\nЭта естественная склонность к механике привела Иккуро к созданию ремонтного робота S2F7 RepairBot - продвинутого аппарата для быстрой починки повреждений космических кораблей даже в ходе боя.\n\nИккуро испытывают глубокое пристрастие к деревьям и растениям, обладая обширными знаниями о разнообразных видах флоры во всей галактике. Они используют это экспертное понимание для создания широкого спектра высокоэффективных лекарственных средств на основе трав.\n\nОбычно они живут в жилищах на деревьях, расположенных высоко в кронах лесов на планетах с типами биомов: Лес, Континент или Степь.</Description>
+    <DesignNames op="replace">
+      <string>Bordeaux</string>
+      <string>Bayeux</string>
+      <string>Nazaire</string>
+      <string>Lyon</string>
+      <string>Monaco</string>
+      <string>Montpellier</string>
+      <string>Avignon</string>
+      <string>Strasbourg</string>
+      <string>Douai</string>
+      <string>Besancon</string>
+      <string>Montauban</string>
+      <string>Bayonne</string>
+      <string>Carcassonne</string>
+      <string>Narbonne</string>
+      <string>Bergerac</string>
+      <string>Chateauroux</string>
+      <string>Vendome</string>
+      <string>Valence</string>
+      <string>Cavaillon</string>
+      <string>Carpentras</string>
+      <string>Dijon</string>
+      <string>Beauvais</string>
+      <string>Calais</string>
+      <string>Versailles</string>
+      <string>Chartres</string>
+      <string>Chaumont</string>
+      <string>Massif</string>
+      <string>Anjou</string>
+      <string>Artois</string>
+      <string>Picardie</string>
+      <string>Rochefort</string>
+      <string>Auxerre</string>
+      <string>Montargis</string>
+      <string>Cherbourg</string>
+      <string>Verdun</string>
+      <string>Dunkerque</string>
+    </DesignNames>
+    <CharacterFirstNames op="replace">
+      <string>Gokut</string>
+      <string>Chandoor</string>
+      <string>Tokros</string>
+      <string>Wosant</string>
+      <string>Meegor</string>
+      <string>Kolisant</string>
+      <string>Esati</string>
+      <string>Quakku</string>
+      <string>Jundal</string>
+      <string>Putor</string>
+      <string>Borros</string>
+      <string>Dunal</string>
+      <string>Harrik</string>
+      <string>Lasdun</string>
+      <string>Astagar</string>
+      <string>Chupol</string>
+      <string>Okkian</string>
+      <string>Sando</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Baccasta</string>
+      <string>Yerod</string>
+      <string>Hodol</string>
+      <string>Ikkul</string>
+      <string>Hadar</string>
+      <string>Kurin</string>
+      <string>Lopeer</string>
+      <string>Zunod</string>
+      <string>Yafoos</string>
+      <string>Mechu</string>
+      <string>Rookil</string>
+      <string>Neesilon</string>
+      <string>Vutan</string>
+      <string>Durian</string>
+      <string>Wookos</string>
+      <string>Pakul</string>
+      <string>Caradas</string>
+      <string>Gokub</string>
+    </CharacterLastNames>
+    <FeatureExplanations op="replace">
+      <string>[HL]Дипломатия консенсуса:[/HL] +5 к порогу подписания новых договоров, +2 к долгосрочному росту доверия (у обеих империй) по всем договорам с иккуро</string>
+      <string>[HL]Уважение к жизни:[/HL] -10 к счастью, если вы бомбардируете или уничтожаете мир либо выбираете истребление в качестве политики населения колонии</string>
+      <string>[HL]Тайны жизни:[/HL] +10 к счастью и +10% к скорости роста населения во всех колониях на один год при первой колонизации мира нового типа. Также открывает новые исследовательские проекты для дальнейшего улучшения пригодности нового типа мира</string>
+      <string>[HL]Защита жизни:[/HL] +5 к счастью во всех колониях на один год при подписании нового договора о ненападении или оборонительного договора с другой фракцией</string>
+      <string>[HL]Разлад:[/HL] -10 к счастью на один год, когда между иккуро и другой фракцией вспыхивает война</string>
+    </FeatureExplanations>
+  </Race>
+</ArrayOfRace>

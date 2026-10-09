@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfColonyEventDefinition>
+  <ColonyEventDefinition id="100">
+    <Name>Тревожные открытия</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="101">
+    <Name>Уклонение от трудных вопросов</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="102">
+    <Name>Познал древнюю жестокость</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="103">
+    <Name>Мы нашли карту Друзей</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="106">
+    <Name>Уставшие учёные</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="107">
+    <Name>Великое Направление - Умнее</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="108">
+    <Name>Великое Направление - Дружелюбнее</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="109">
+    <Name>Великое Направление - Сильнее</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="110">
+    <Name>Великое Направление - Богаче</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="111">
+    <Name>Великое Направление - Быстрее</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="112">
+    <Name>Великое Направление - Скрытнее</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="113">
+    <Name>Великое Направление - Приумножить</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="114">
+    <Name>Направление Сомнений</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="115">
+    <Name>Вы не нажали кнопку</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="116">
+    <Name>Мы Велики!</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="117">
+    <Name>Что делает эта кнопка - Бонус к исследованиям сенсоров</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="118">
+    <Name>Что делает эта кнопка - Бонус к исследованиям оружия</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="119">
+    <Name>Что делает эта кнопка - Бонус к исследованиям гипердвигателя</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="120">
+    <Name>Что делает эта кнопка? - Бонус к исследованиям реактора</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="121">
+    <Name>Что делает эта кнопка - Бонус к исследованиям щитов</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="122">
+    <Name>Что делает эта кнопка - Бонус к исследованиям двигателя</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="123">
+    <Name>Что делает эта кнопка - Бонус к исследованиям брони</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="124">
+    <Name>Что делает эта кнопка? - Бонус к исследованиям строительства</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="125">
+    <Name>Что делает эта кнопка? - Бонус к исследованиям высоких технологий</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="126">
+    <Name>Что делает эта кнопка - Бонус к промышленным исследованиям</Name>
+  </ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

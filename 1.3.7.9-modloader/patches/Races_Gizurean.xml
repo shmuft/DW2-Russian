@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfRace>
+  <Race id="11">
+    <Name>Гизуриане</Name>
+    <Description>Гизуриане - насекомоеподобная раса с четырьмя руками. Гизуриане также могут летать на короткие расстояния благодаря своим небольшим крыльям.\n\nОни агрессивны и недружелюбны, хотя не отличаются высоким интеллектом. Гизурианы склонны к крайней воинственности. Они часто выдвигают провокационные заявления о собственном племенном превосходстве, жестоко высмеивая и оскорбляя другие племена. Это приводит к частым межплеменным битвам.\n\nГизуриане испытывают глубокую неприязнь к другим инопланетным расам, особенно к не-насекомым. Эта черта делает крайне сложной мирную ассимиляцию Гизуринов в империю.\n\nУ них очень высокий темп размножения, поэтому их империи могут расти и расширяться чрезвычайно быстро.\n\nГизуриане обычно строят свои просторные подземные жилища в скалистых районах планет с биомом Каменистой пустыни или Песчаной пустыни, но иногда их можно встретить также на планетах с биомом Пустынной саванны или Вулканическим.</Description>
+    <DesignNames op="replace">
+      <string>Kojari</string>
+      <string>Karjing</string>
+      <string>Lonsu</string>
+      <string>Chodan</string>
+      <string>Gudari</string>
+      <string>Zuukeer</string>
+      <string>Larkos</string>
+      <string>Jutang</string>
+      <string>Makrho</string>
+      <string>Tonshak</string>
+      <string>Pokari</string>
+      <string>Yartos</string>
+      <string>Sarmeer</string>
+      <string>Dekrun</string>
+      <string>Raaki</string>
+      <string>Ventuul</string>
+      <string>Birshak</string>
+      <string>Fodari</string>
+      <string>Nunkros</string>
+      <string>Hanpo</string>
+      <string>Yukoros</string>
+      <string>Linshek</string>
+      <string>Sharqeri</string>
+      <string>Doshak</string>
+      <string>Zamlek</string>
+      <string>Foshera</string>
+      <string>Mandaxi</string>
+      <string>Orelex</string>
+      <string>Rhektalex</string>
+      <string>Xura</string>
+      <string>Aruga</string>
+      <string>Teklosan</string>
+    </DesignNames>
+    <CharacterFirstNames op="replace">
+      <string>Suun</string>
+      <string>Jizor</string>
+      <string>Ruugar</string>
+      <string>Qutar</string>
+      <string>Dashak</string>
+      <string>Karzi</string>
+      <string>Mugap</string>
+      <string>Vedank</string>
+      <string>Cruzeb</string>
+      <string>Ovistu</string>
+      <string>Jotari</string>
+      <string>Yedor</string>
+      <string>Ret</string>
+      <string>Xok</string>
+      <string>Pundi</string>
+      <string>Zak</string>
+      <string>Pigar</string>
+      <string>Darpo</string>
+      <string>Gundek</string>
+      <string>Li</string>
+      <string>Yogar</string>
+      <string>Shindu</string>
+      <string>Agra</string>
+      <string>Kintu</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Wuzzeki</string>
+      <string>Jharshek</string>
+      <string>Clodari</string>
+      <string>Nyutal</string>
+      <string>Chungat</string>
+      <string>Lijar</string>
+      <string>Priltok</string>
+      <string>Narsil</string>
+      <string>Frodak</string>
+      <string>Buuzak</string>
+      <string>Orzeri</string>
+      <string>Kelsu</string>
+      <string>Greedul</string>
+      <string>Panaki</string>
+      <string>Fundark</string>
+      <string>Baktuu</string>
+      <string>Kardari</string>
+      <string>Zhodaki</string>
+      <string>Goshek</string>
+      <string>Lyvax</string>
+      <string>Uztan</string>
+      <string>Yutalix</string>
+      <string>Eparzi</string>
+      <string>Jhorbek</string>
+    </CharacterLastNames>
+    <FeatureExplanations op="replace">
+      <string>[HL]Ничего не пропадёт:[/HL] на 25% выше шанс технологических бонусов при утилизации или списании корабля с передовыми технологиями. Дополнительный технологический бонус при полном списании передового корабля</string>
+      <string>[HL]Выжигание:[/HL] возможность «выжечь» только что захваченную вражескую колонию. Выжигание сбрасывает развитие колонии, уничтожает 10% населения, добавляет временный штраф к счастью и вредит репутации. Но даёт дополнительный прорыв в технологиях завоевания, большой запас ресурсов и временно повышает рост населения гизуриан по всей империи</string>
+      <string>[HL]Соперничество:[/HL] нужно выбрать между 2 персонажами в борьбе за власть: один погибнет, а другой получит новые навыки и черты</string>
+      <string>[HL]Мир-инкубатор:[/HL] даёт бонус к скорости роста населения гизуриан по всей империи, когда вы применяете политику истребления населения против не-гизуриан на одной из ваших колоний. Дополнительные миры-инкубаторы дают суммирующиеся бонусы</string>
+      <string>[HL]Племенной конфликт:[/HL] краткосрочный рост населения гизуриан по всей империи, но с сопутствующим штрафом к счастью</string>
+      <string>[HL]Командование роем:[/HL] специальный компьютер наведения для кораблей, повышающий точность наведения в зависимости от общего числа кораблей во флоте</string>
+      <string>[HL]Уникальная черта лидера — Одарённый проводник:[/HL] +10% к счастью колоний</string>
+      <string>[HL]Уникальная черта лидера — Контролирующий разум:[/HL] +10% к снижению коррупции</string>
+      <string>[HL]Уникальная черта генерала — Повелитель роя:[/HL] +10% к скорости набора войск, +10% к экономии на обслуживании войск</string>
+      <string>[HL]Уникальная черта генерала — Надзиратель личинок:[/HL] +10% к скорости восстановления войск</string>
+    </FeatureExplanations>
+  </Race>
+</ArrayOfRace>

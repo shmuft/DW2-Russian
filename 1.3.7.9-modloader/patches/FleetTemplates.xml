@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfFleetTemplate>
+  <FleetTemplate id="0">
+    <Name>Ударный флот - Эскорт</Name>
+  </FleetTemplate>
+  <FleetTemplate id="1">
+    <Name>Ударный флот</Name>
+  </FleetTemplate>
+  <FleetTemplate id="2">
+    <Name>Рейд звено - Эскорт</Name>
+  </FleetTemplate>
+  <FleetTemplate id="3">
+    <Name>Рейд звено</Name>
+  </FleetTemplate>
+  <FleetTemplate id="4">
+    <Name>Флот обороны - Эскорт</Name>
+  </FleetTemplate>
+  <FleetTemplate id="5">
+    <Name>Флот обороны</Name>
+  </FleetTemplate>
+  <FleetTemplate id="6">
+    <Name>Флот вторжения</Name>
+  </FleetTemplate>
+  <FleetTemplate id="14">
+    <Name>Пиратский флот</Name>
+  </FleetTemplate>
+  <FleetTemplate id="15">
+    <Name>Пиратские рейдеры</Name>
+  </FleetTemplate>
+</ArrayOfFleetTemplate>

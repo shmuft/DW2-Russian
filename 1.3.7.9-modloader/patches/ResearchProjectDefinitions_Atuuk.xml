@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfResearchProjectDefinition>
+  <ResearchProjectDefinition id="535">
+    <Name>Обнаружены старые друзья</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши открытия прошлого улучшили наши отношения</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="923">
+    <Name>Великая выставка достижений</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="924">
+    <Name>Приём новых друзей</Name>
+  </ResearchProjectDefinition>
+</ArrayOfResearchProjectDefinition>

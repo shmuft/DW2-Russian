@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfColonyEventDefinition>
+  <ColonyEventDefinition id="139">
+    <Name>Высшее предназначение</Name>
+    <Description>Наш недавний прорыв в исследованиях хааконишских технологий укрепил нашу уверенность в нашем высшем предназначении</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="140">
+    <Name>Экономический подъем - Доход</Name>
+    <Description>Наши хитроумные финансовые волшебники нашли способ временно стимулировать экономический рост с помощью творческого учета!\n\nВся наша империя получит бонус к доходу в размере +10% на 5 лет.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="141">
+    <Name>Экономический подъем - Коррупция</Name>
+    <Description>Творческий учет наших якобы хитроумных финансовых волшебников привел к нежелательному побочному эффекту - росту коррупции во всей нашей империи! И эта коррупция, похоже, продолжает расти со временем!\n\nВ течение 5 лет вся наша империя будет страдать от растущего уровня коррупции.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="142">
+    <Name>Межрасовые беспорядки - Счастье</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="143">
+    <Name>Межрасовые беспорядки - Ущерб миграции</Name>
+  </ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

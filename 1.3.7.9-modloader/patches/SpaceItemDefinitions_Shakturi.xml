@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfSpaceItemDefinition>
+  <SpaceItemDefinition id="58">
+    <Name>Останки Скитальца Разлома</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="59">
+    <Name>Останки Скитальца Разлома</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="60">
+    <Name>Останки Скитальца Разлома</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="61">
+    <Name>Останки Скитальца Разлома</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="62">
+    <Name>Останки Скитальца Разлома</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="63">
+    <Name>Останки Скитальца Разлома</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="64">
+    <Name>Туша Скитальца Разлома</Name>
+  </SpaceItemDefinition>
+</ArrayOfSpaceItemDefinition>

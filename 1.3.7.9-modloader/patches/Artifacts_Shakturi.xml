@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfArtifact>
+  <Artifact id="58">
+    <Name>Память Шактура</Name>
+    <Description>Древний артефакт Шактури, излучающий странную силу по всей планете, где он находится. Артефакт вызывает ностальгические воспоминания о родном мире Шактури и каким-то образом улучшает развитие и качество самой планеты. Или, по крайней мере, так воспринимают те, кто находится на этой планете.</Description>
+  </Artifact>
+  <Artifact id="59">
+    <Name>Кристалл маскировки</Name>
+  </Artifact>
+  <Artifact id="60">
+    <Name>Статуэтка генной инженерии</Name>
+  </Artifact>
+  <Artifact id="61">
+    <Name>Сфера агрессии</Name>
+  </Artifact>
+  <Artifact id="62">
+    <Name>Шлем понимания Шактури</Name>
+  </Artifact>
+</ArrayOfArtifact>

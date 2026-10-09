@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfResearchProjectDefinition>
+  <ResearchProjectDefinition id="208">
+    <Name>Сверхмощный плазменный заряд</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="607">
+    <Name>Шактурский архив биологической войны</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="879">
+    <Name>Манипуляция психической энергией</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="880">
+    <Name>Психическая активация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="881">
+    <Name>Пси-агенты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="882">
+    <Name>Продвинутые пси-агенты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="883">
+    <Name>Мастерство пси-контроля</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="884">
+    <Name>Пси-послы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="885">
+    <Name>Продвинутое пси-влияние</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="886">
+    <Name>Мастерство психического влияния</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="887">
+    <Name>Пси-подготовка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="888">
+    <Name>Пси-усилители</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="889">
+    <Name>Продвинутые усилители</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="890">
+    <Name>Совершенные усилители</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="891">
+    <Name>Психическая дестабилизация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="892">
+    <Name>Пси-щиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="893">
+    <Name>Зональные ментальные щиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="894">
+    <Name>Устройства психической отдачи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="895">
+    <Name>Тренировка психической устойчивости</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="896">
+    <Name>Обнаружение психического влияния</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="897">
+    <Name>Обращение психического влияния</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="898">
+    <Name>Мастерство психической дестабилизации</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="899">
+    <Name>Поля пси-защиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="900">
+    <Name>Продвинутые поля пси-защиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="901">
+    <Name>Эффективное психическое подавление</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="902">
+    <Name>Генная инженерия</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="903">
+    <Name>Межзвёздные биологические исследования</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="904">
+    <Name>Изучение Скитальцев Разлома</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="905">
+    <Name>Продвинутое изучение Скитальцев Разлома</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="906">
+    <Name>Мастерство управления Скитальцами Разлома</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="907">
+    <Name>Изучение Гравиллексов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="908">
+    <Name>Продвинутое изучение Гравиллекcов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="909">
+    <Name>Мастерство управления Гравиллекcами</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="910">
+    <Name>Изучение Ардилусов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="911">
+    <Name>Продвинутое изучение Ардилусов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="912">
+    <Name>Мастерство управления Ардилусами</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="913">
+    <Name>Изучение Вордикаров</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="914">
+    <Name>Продвинутое изучение Вордикаров</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="915">
+    <Name>Мастерство управления Вордикарами</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="916">
+    <Name>Изучение Скитальцев Разлома</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="917">
+    <Name>Продвинутое изучение Скитальцев Разлома</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="918">
+    <Name>Мастерство управления Скитальцами Разлома</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="919">
+    <Name>Изучение Гравиллексов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="922">
+    <Name>Изучение Ардилусов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="928">
+    <Name>Инженерия существ</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="929">
+    <Name>Планетарное улучшение видов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="930">
+    <Name>Улучшенные наземные войска</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="931">
+    <Name>Войска с защитой от внешних сред</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="932">
+    <Name>Автономные наземные войска</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="933">
+    <Name>Суперсолдаты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="934">
+    <Name>Улучшенные экипажи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="935">
+    <Name>Экипаж с защитой от радиации</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="936">
+    <Name>Автономный экипаж</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="937">
+    <Name>Прирожденные покорители космоса</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="938">
+    <Name>Улучшенные лидеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="939">
+    <Name>Героические лидеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="940">
+    <Name>Легендарные лидеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="941">
+    <Name>Легендарные лидеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="942">
+    <Name>Улучшенное население</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="943">
+    <Name>Продвинутая популяция</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="944">
+    <Name>Легендарное население</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="945">
+    <Name>Оптимальная численность населения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="946">
+    <Name>Биологическая война</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="947">
+    <Name>Пси-вирус Шактури</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="948">
+    <Name>Улучшенный пси-вирус Шактури</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="949">
+    <Name>Улучшенный пси-вирус Шактури</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="950">
+    <Name>Совершенный пси-вирус Шактури</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="951">
+    <Name>Применение лихорадки «Гекретос»</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="952">
+    <Name>Применение вируса «Декара»</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="953">
+    <Name>Применение синдрома генетической дезорганизации</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="954">
+    <Name>Применение чумы «Мертуров»</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="955">
+    <Name>Шактурский архив Генной Инженерии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="956">
+    <Name>Экспериментальный вирус «Характор»</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="957">
+    <Name>Улучшенный вирус «Характор»</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="958">
+    <Name>Оптимизированный вирус «Характор»</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="959">
+    <Name>Создание патогенов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="960">
+    <Name>Лечение патогенов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="961">
+    <Name>Лечение псионич. вируса Шактури</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="962">
+    <Name>Лечение улучшенного псионического вируса</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="963">
+    <Name>Лечение продвинутого псионического вируса</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="964">
+    <Name>Лечение совершенного псионического вируса</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="971">
+    <Name>Исследовать магнитные импульсы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="972">
+    <Name>Изучение маяка Шактури</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="973">
+    <Name>Уничтожить маяк Шактури</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="974">
+    <Name>Вскрыть Хранилище маскировки</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="975">
+    <Name>Вскрыть Хранилище созидания</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="976">
+    <Name>Вскрыть Хранилище агрессии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="977">
+    <Name>Вскрыть Хранилище разума Шактури</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="978">
+    <Name>Теория червоточин</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="979">
+    <Name>Продвинутые червоточинные двигатели</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="980">
+    <Name>Превосходные червоточинные двигатели</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="981">
+    <Name>Единая теория червоточин</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="982">
+    <Name>Шактурский психический архив</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="983">
+    <Name>Паранормальные исследования</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="984">
+    <Name>Обнаружение психической энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="985">
+    <Name>Генетическое картирование</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="986">
+    <Name>Генетические изыскания</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="987">
+    <Name>Ксенобиологические исследования</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="988">
+    <Name>Ксенобиологические изыскания</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="989">
+    <Name>Плазменное супероружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="990">
+    <Name>Корабли-губители планет</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="991">
+    <Name>Лучевое супероружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="992">
+    <Name>Плазменное супероружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="993">
+    <Name>Лучевое супероружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="994">
+    <Name>Лучевое супероружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="995">
+    <Name>Кинетическое супероружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="996">
+    <Name>Кинетическое супероружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="997">
+    <Name>Ионное супероружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1003">
+    <Name>Фабрика наземных войск Куамено</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1004">
+    <Name>Гравитационный импульс Хааконишей</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1005">
+    <Name>Супер-гиперблокатор Хааконишей</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1006">
+    <Name>Сверхдальние сканеры Зеноксов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1007">
+    <Name>Супер-стелс Зеноксов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1020">
+    <Name>Импульсно-волновое супероружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1021">
+    <Name>Сверхмощное штурмовое оружие</Name>
+  </ResearchProjectDefinition>
+</ArrayOfResearchProjectDefinition>

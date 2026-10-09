@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfShipHull>
+  <ShipHull id="8">
+    <Name>Эскорт</Name>
+  </ShipHull>
+  <ShipHull id="9">
+    <Name>Станция наблюдения</Name>
+  </ShipHull>
+  <ShipHull id="10">
+    <Name>Малый строительный корабль</Name>
+  </ShipHull>
+  <ShipHull id="11">
+    <Name>Малый исслед-й корабль</Name>
+  </ShipHull>
+  <ShipHull id="12">
+    <Name>Малый добывающий корабль</Name>
+  </ShipHull>
+  <ShipHull id="13">
+    <Name>Малый грузовой корабль</Name>
+  </ShipHull>
+  <ShipHull id="14">
+    <Name>Малая добывающая станция</Name>
+  </ShipHull>
+  <ShipHull id="15">
+    <Name>Исследовательская станция</Name>
+  </ShipHull>
+  <ShipHull id="29">
+    <Name>Тяжёлый эскорт</Name>
+  </ShipHull>
+  <ShipHull id="30">
+    <Name>Патрульный эскорт</Name>
+  </ShipHull>
+  <ShipHull id="31">
+    <Name>Фрегат</Name>
+  </ShipHull>
+  <ShipHull id="32">
+    <Name>Малый десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="33">
+    <Name>Малый космопорт v2</Name>
+  </ShipHull>
+  <ShipHull id="34">
+    <Name>Малый колонизационный корабль</Name>
+  </ShipHull>
+  <ShipHull id="35">
+    <Name>Средний добывающий корабль</Name>
+  </ShipHull>
+  <ShipHull id="36">
+    <Name>Малый пассажирский корабль</Name>
+  </ShipHull>
+  <ShipHull id="37">
+    <Name>Малый топливный заправщик</Name>
+  </ShipHull>
+  <ShipHull id="38">
+    <Name>Большая добывающая станция</Name>
+  </ShipHull>
+  <ShipHull id="39">
+    <Name>Развлекательная станция</Name>
+  </ShipHull>
+  <ShipHull id="40">
+    <Name>Базовый истребитель</Name>
+  </ShipHull>
+  <ShipHull id="41">
+    <Name>Базовый бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="45">
+    <Name>Тяжёлый фрегат</Name>
+  </ShipHull>
+  <ShipHull id="46">
+    <Name>Быстрый фрегат</Name>
+  </ShipHull>
+  <ShipHull id="47">
+    <Name>Флотский фрегат</Name>
+  </ShipHull>
+  <ShipHull id="49">
+    <Name>Эсминец</Name>
+  </ShipHull>
+  <ShipHull id="51">
+    <Name>Средний десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="53">
+    <Name>Малый космопорт v3</Name>
+  </ShipHull>
+  <ShipHull id="55">
+    <Name>Средний строительный корабль</Name>
+  </ShipHull>
+  <ShipHull id="57">
+    <Name>Средний исследовательский корабль</Name>
+  </ShipHull>
+  <ShipHull id="59">
+    <Name>Большой добывающий корабль</Name>
+  </ShipHull>
+  <ShipHull id="61">
+    <Name>Средний грузовой корабль</Name>
+  </ShipHull>
+  <ShipHull id="63">
+    <Name>Средний пассажирский корабль</Name>
+  </ShipHull>
+  <ShipHull id="66">
+    <Name>Лёгкий бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="67">
+    <Name>Лёгкий перехватчик</Name>
+  </ShipHull>
+  <ShipHull id="69">
+    <Name>Лёгкий ударный истребитель</Name>
+  </ShipHull>
+  <ShipHull id="73">
+    <Name>Тяжёлый эсминец</Name>
+  </ShipHull>
+  <ShipHull id="74">
+    <Name>Быстрый эсминец</Name>
+  </ShipHull>
+  <ShipHull id="75">
+    <Name>Флотский Эсминец</Name>
+  </ShipHull>
+  <ShipHull id="77">
+    <Name>Средний космопорт</Name>
+  </ShipHull>
+  <ShipHull id="79">
+    <Name>Космический бастион</Name>
+  </ShipHull>
+  <ShipHull id="81">
+    <Name>Средний колонизационный корабль</Name>
+  </ShipHull>
+  <ShipHull id="83">
+    <Name>Большой топливный заправщик</Name>
+  </ShipHull>
+  <ShipHull id="85">
+    <Name>Большой грузовой корабль</Name>
+  </ShipHull>
+  <ShipHull id="87">
+    <Name>Большой пассажирский корабль</Name>
+  </ShipHull>
+  <ShipHull id="91">
+    <Name>Тактический перехватчик</Name>
+  </ShipHull>
+  <ShipHull id="92">
+    <Name>Ударный истребитель</Name>
+  </ShipHull>
+  <ShipHull id="93">
+    <Name>Средний бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="98">
+    <Name>Лёгкий крейсер</Name>
+  </ShipHull>
+  <ShipHull id="100">
+    <Name>Большой десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="102">
+    <Name>Средний космопорт v2</Name>
+  </ShipHull>
+  <ShipHull id="104">
+    <Name>Космический бастион v2</Name>
+  </ShipHull>
+  <ShipHull id="106">
+    <Name>Большой строительный корабль</Name>
+  </ShipHull>
+  <ShipHull id="108">
+    <Name>Большой исследовательский корабль</Name>
+  </ShipHull>
+  <ShipHull id="110">
+    <Name>Большой колонизационный корабль</Name>
+  </ShipHull>
+  <ShipHull id="113">
+    <Name>Малый космопорт</Name>
+  </ShipHull>
+  <ShipHull id="294">
+    <Name>Линейный крейсер</Name>
+  </ShipHull>
+  <ShipHull id="295">
+    <Name>Лёгкий авианосец</Name>
+  </ShipHull>
+  <ShipHull id="296">
+    <Name>Быстрый крейсер</Name>
+  </ShipHull>
+  <ShipHull id="297">
+    <Name>Дальнобойный крейсер</Name>
+  </ShipHull>
+  <ShipHull id="298">
+    <Name>Крейсер командования</Name>
+  </ShipHull>
+  <ShipHull id="299">
+    <Name>Крейсер</Name>
+  </ShipHull>
+  <ShipHull id="300">
+    <Name>Сверхкрупный десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="301">
+    <Name>Линкор</Name>
+  </ShipHull>
+  <ShipHull id="302">
+    <Name>Авианосец</Name>
+  </ShipHull>
+  <ShipHull id="303">
+    <Name>Исследовательский крейсер</Name>
+  </ShipHull>
+  <ShipHull id="304">
+    <Name>Патрульный крейсер</Name>
+  </ShipHull>
+  <ShipHull id="305">
+    <Name>Крейсер командования флотом</Name>
+  </ShipHull>
+  <ShipHull id="306">
+    <Name>Тяжёлый крейсер</Name>
+  </ShipHull>
+  <ShipHull id="307">
+    <Name>Экспедиционный транспорт</Name>
+  </ShipHull>
+  <ShipHull id="308">
+    <Name>Большой космопорт</Name>
+  </ShipHull>
+  <ShipHull id="309">
+    <Name>Массивный колонизационный корабль</Name>
+  </ShipHull>
+  <ShipHull id="310">
+    <Name>Тяжёлый линкор</Name>
+  </ShipHull>
+  <ShipHull id="311">
+    <Name>Тяжёлый авианосец</Name>
+  </ShipHull>
+  <ShipHull id="312">
+    <Name>Десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="313">
+    <Name>Мировой корабль</Name>
+  </ShipHull>
+  <ShipHull id="314">
+    <Name>Дредноут</Name>
+  </ShipHull>
+  <ShipHull id="315">
+    <Name>Флотский авианосец</Name>
+  </ShipHull>
+  <ShipHull id="316">
+    <Name>Космопорт сектора</Name>
+  </ShipHull>
+  <ShipHull id="411">
+    <Name>Продвинутый перехватчик</Name>
+  </ShipHull>
+  <ShipHull id="412">
+    <Name>Штурмовой истребитель</Name>
+  </ShipHull>
+  <ShipHull id="413">
+    <Name>Истребитель превосходства</Name>
+  </ShipHull>
+  <ShipHull id="414">
+    <Name>Истребитель превосходства v2</Name>
+  </ShipHull>
+  <ShipHull id="415">
+    <Name>Штурмовой бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="416">
+    <Name>Тяжёлый бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="417">
+    <Name>Штурм. бомбард.</Name>
+  </ShipHull>
+  <ShipHull id="765">
+    <Name>Средний топливный заправщик</Name>
+  </ShipHull>
+</ArrayOfShipHull>

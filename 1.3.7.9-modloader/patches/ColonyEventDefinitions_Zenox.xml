@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfColonyEventDefinition>
+  <ColonyEventDefinition id="127">
+    <Name>Чудеса прошлого - Счастье</Name>
+    <Description>Наши недавние раскопки на руинах повысили уровень счастья во всей нашей империи</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="128">
+    <Name>Чудеса прошлого - Исследование</Name>
+    <Description>Наши недавние раскопки древних руин повысили эффективность исследований</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="129">
+    <Name>Поиск в архивах</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="130">
+    <Name>Поиск в архивах - Бонус к исследованиям</Name>
+    <Description>Наше исследование архивов выявило утраченные научные знания, ускоряющие наши исследовательские усилия.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="131">
+    <Name>Поиск в архивах - Бонус к счастью</Name>
+    <Description>Наше исследование архивов выявило больше подробностей о древних Зеноксах, очаровав народ нашей империи.</Description>
+  </ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfResearchProjectDefinition>
+  <ResearchProjectDefinition id="7">
+    <Name>Импульсно-волновое оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="48">
+    <Name>Улучшенное волновое оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="106">
+    <Name>Продвинутое волновое оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="161">
+    <Name>Превосходное волновое оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="921">
+    <Name>Защищённые пещеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1008">
+    <Name>Хранение жидкой энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1009">
+    <Name>Высокоплотные накопители энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1010">
+    <Name>Квантовое извлечение энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1011">
+    <Name>Ограничивающие тяговые лучи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1012">
+    <Name>Усиленные тяговые лучи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1013">
+    <Name>Обездвиживающие тяговые лучи</Name>
+  </ResearchProjectDefinition>
+</ArrayOfResearchProjectDefinition>

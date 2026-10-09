@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfGameEvent>
+  <GameEvent id="Hero of the Hour Choice (Human)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Герой часа</MessageTitle>
+        <Description>Недавнее объявление войны против нас пробудило в наших военных рядах глубокие чувства героизма и мужества.\n\nВ результате ряд перспективных офицеров демонстрирует выдающийся боевой дух. Нам следует повысить одного из них до звания флотского адмирала или генерала.\n\nКого же нам выбрать? [CHARACTER]Адмирала[/CHARACTER] или [CHARACTER]Генерала[/CHARACTER]?</Description>
+        <ChoiceButtonText>Новый адмирал</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Новый генерал</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Implement Hero of the Hour - Admiral (Human)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Герой часа</MessageTitle>
+        <Description>Новый герой вышел вперёд!\n\n[CHARACTER]Адмирал {1}[/CHARACTER] появился на {2}.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Implement Hero of the Hour - General (Human)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Герой часа</MessageTitle>
+        <Description>Новый герой вышел вперёд!\n\n[CHARACTER]Генерал {1}[/CHARACTER] появился на {2}.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Internal Debates (Human)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Внутренние споры</MessageTitle>
+        <Description>Подписание нами оборонительного договора вызвало обеспокоенность среди населения, спровоцировав споры «за» и «против». Это [BAD]снизило уровень счастья во всей нашей империи на 2 года[/BAD].\n\nОднако новый оборонительный договор также привел к появлению [CHARACTER]нового посла {1}[/CHARACTER] в точке {2}.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Heightened Security Choice (Human)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Усиленные меры безопасности</MessageTitle>
+        <Description>Недавний успех иностранной разведывательной миссии против нас вызывает обеспокоенность.\n\nЧтобы противостоять этим усилиям, мы можем [CHARACTER]потратить случайно выбранного шпиона[/CHARACTER], чтобы получить [BONUS]+20% бонус к контршпионажу на 2 года[/BONUS]. Шпион будет безвозвратно потерян.\n\nОднако это также приведет к тому, что [BAD]уровень счастья в нашей империи снизится на -5% на 2 года[/BAD].\n\nСтоит ли нам потратить шпиона ради получения этих временных бонусов к контршпионажу?</Description>
+        <ChoiceButtonText>Пожертвовать шпионом</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Оставить шпионов в покое</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="New Worlds Continental Conquest (Human)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <Description>Наше недавнее завоевание континентальной планеты углубило наше понимание того, как колонизировать новые миры.\n\nВ результате мы достигли научного прорыва в новой технологии колонизации.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="New Worlds Continental Colonization (Human)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Новые миры</MessageTitle>
+        <Description>Наша недавняя колонизация континентальной планеты углубила наше понимание того, как заселять новые миры.\n\nВ результате мы достигли научного прорыва в новой технологии колонизации.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Great Art Exposition from Resort Base Built (Human)">
+    <TriggerActions>
+      <GameEventAction index="2">
+        <MessageTitle>Великая художественная выставка</MessageTitle>
+        <Description>Недавнее строительство новой Развлекательной базы в {0} вызвало всплеск энтузиазма среди нашего населения, побудив некоторых наших деловых лидеров и местных чиновников организовать [GOOD]Великую художественную выставку[/GOOD] на нашей колонии [LOCATION]{6}[/LOCATION]. Эта выставка демонстрирует вершину искусства и культуры из окрестных систем.\n\nВ результате наша империя в течение следующих 2 лет получит [BONUS]+10% к доходам от торговли и туризма[/BONUS].\n\n[LOCATION]{6}[/LOCATION] также получит [BONUS]+10% к доходу колонии и +10% бонус за живописность[/BONUS] в этот период.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Great Art Exposition from Free Trade (Human)">
+    <TriggerActions>
+      <GameEventAction index="2">
+        <MessageTitle>Великая художественная выставка</MessageTitle>
+        <Description>Недавнее подписание соглашения о свободной торговле вызвало всплеск энтузиазма во всём нашем населении, побудив некоторых наших деловых лидеров и местных чиновников организовать [GOOD]Великую художественную выставку[/GOOD] в нашей колонии [LOCATION]{6}[/LOCATION]. На этой выставке представлены вершина искусства и культуры из окрестных систем.\n\nВ результате наша империя на следующие 2 года получит [BONUS]+10% к доходам от торговли и туризма[/BONUS].\n\n[LOCATION]{6}[/LOCATION] также в этот период получит [BONUS]+10% к доходу колонии и +10% бонус за живописность[/BONUS].</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+</ArrayOfGameEvent>

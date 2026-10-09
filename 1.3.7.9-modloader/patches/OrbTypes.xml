@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfOrbType>
+  <OrbType id="0">
+    <Name>Главная последовательность</Name>
+    <Description>Звездные системы главной последовательности часто содержат обилие планет, некоторые из которых пригодны для жизни.</Description>
+  </OrbType>
+  <OrbType id="1">
+    <Name>Красный гигант</Name>
+    <Description>Звездные системы красных гигантов часто содержат обилие планет, некоторые из которых пригодны для жизни.</Description>
+    <CommonBonuses>
+      <BonusRange id="ResearchShields">
+        <Descriptions op="replace">
+          <string>Dense Plasma Vortices</string>
+          <string>Supercharged Gaseous Flow</string>
+          <string>Magnetic Inversion Fields</string>
+          <string>Stable Gravimetric Pulses</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchHyperDrive">
+        <Descriptions op="replace">
+          <string>Magnetic Inversion Fields</string>
+          <string>Stable Gravimetric Pulses</string>
+          <string>Turbulent Energy Oscillations</string>
+          <string>Powerful Magnetic Bursts</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+  </OrbType>
+  <OrbType id="2">
+    <Name>Сверхгигант</Name>
+    <Description>Звездные системы сверхгигантов часто содержат обилие планет, некоторые из которых обитаемы.</Description>
+    <CommonBonuses>
+      <BonusRange id="ResearchShields">
+        <Descriptions op="replace">
+          <string>Supercharged Gaseous Flow</string>
+          <string>Magnetic Inversion Fields</string>
+          <string>Arcing Energy Paths</string>
+          <string>Streaming Plasma Eruptions</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchHyperDrive">
+        <Descriptions op="replace">
+          <string>Turbulent Energy Oscillations</string>
+          <string>Powerful Magnetic Bursts</string>
+          <string>Streaming Plasma Eruptions</string>
+          <string>Cool Plasma Eddies</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+  </OrbType>
+  <OrbType id="3">
+    <Name>Белый карлик</Name>
+    <Description>Звёзды белые карлики иногда имеют небольшую систему планет и спутников.</Description>
+    <CommonBonuses>
+      <BonusRange id="ResearchShields">
+        <Descriptions op="replace">
+          <string>Dense Plasma Vortices</string>
+          <string>Magnetic Inversion Fields</string>
+          <string>Powerful Magnetic Bursts</string>
+          <string>Highly-charged Particle Showers</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchHyperDrive">
+        <Descriptions op="replace">
+          <string>Supercharged Gaseous Flow</string>
+          <string>Streaming Plasma Eruptions</string>
+          <string>Antimatter Plasma Torrents</string>
+          <string>Cool Plasma Eddies</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+  </OrbType>
+  <OrbType id="4">
+    <Name>Красный карлик</Name>
+    <Description>Звёзды красных карликов иногда имеют небольшую систему планет и спутников.</Description>
+    <CommonBonuses>
+      <BonusRange id="ResearchAll">
+        <Descriptions op="replace">
+          <string>Dense Plasma Vortices</string>
+          <string>Magnetic Inversion Fields</string>
+          <string>Arcing Energy Paths</string>
+          <string>Cool Plasma Eddies</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchShields">
+        <Descriptions op="replace">
+          <string>Supercharged Gaseous Flow</string>
+          <string>Stable Gravimetric Pulses</string>
+          <string>Unstable Neutron Surges</string>
+          <string>Sustained Neutron Surges</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchHyperDrive">
+        <Descriptions op="replace">
+          <string>Turbulent Energy Oscillations</string>
+          <string>Powerful Magnetic Bursts</string>
+          <string>Highly-charged Particle Showers</string>
+          <string>Antimatter Plasma Torrents</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Spectacular Coronal Eruptions</string>
+          <string>Towering Plasma Geysers</string>
+          <string>Intense Plasma Aurorae</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+  </OrbType>
+  <OrbType id="5">
+    <Name>Нейтронная звезда</Name>
+    <Description>Нейтронные звезды иногда могут иметь систему из одной или двух планет.\n\nОни испускают интенсивное радиоизлучение, достойное пристального изучения. По этой причине исследовательские станции, построенные рядом с нейтронной звездой, часто получают бонус к исследованиям.</Description>
+    <CommonBonuses>
+      <BonusRange id="ResearchAll">
+        <Descriptions op="replace">
+          <string>Magnetic Inversion Fields</string>
+          <string>Arcing Energy Paths</string>
+          <string>Stable Gravimetric Pulses</string>
+          <string>Unstable Neutron Surges</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchShields">
+        <Descriptions op="replace">
+          <string>Turbulent Energy Oscillations</string>
+          <string>Powerful Magnetic Bursts</string>
+          <string>Streaming Plasma Eruptions</string>
+          <string>Sustained Neutron Surges</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchHyperDrive">
+        <Descriptions op="replace">
+          <string>Dense Plasma Vortices</string>
+          <string>Highly-charged Particle Showers</string>
+          <string>Antimatter Plasma Torrents</string>
+          <string>Whirling Graviton Fluxes</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Spectacular Coronal Eruptions</string>
+          <string>Neutron Shell Bursts</string>
+          <string>Sparkling Neutron Pulses</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+  </OrbType>
+  <OrbType id="6">
+    <Name>Черная дыра</Name>
+    <Description>Черные дыры - это сверхплотные коллапсировавшие звезды. Их огромная масса упакована в крошечное пространство, что придает им непреодолимую гравитационную тягу.\n\nЧерные дыры могут затягивать пролетающие мимо звездные корабли в свой вихрь, полностью уничтожая их. По этой причине разумно держать безопасное расстояние от их края.\n\nЧерные дыры достойны пристального научного изучения - исследовательские станции, построенные рядом с черной дырой, часто получают бонус к исследованиям.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Impressive Event Horizon</string>
+          <string>Glowing Plasma Bursts</string>
+          <string>Shimmering Energy Vortex</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchWeapons">
+        <Descriptions op="replace">
+          <string>Arcing Energy Paths</string>
+          <string>Unstable Neutron Surges</string>
+          <string>Highly-charged Particle Showers</string>
+          <string>Ruptured Graviton Bursts</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchHyperDrive">
+        <Descriptions op="replace">
+          <string>Supercharged Gaseous Flow</string>
+          <string>Stable Gravimetric Pulses</string>
+          <string>Turbulent Energy Oscillations</string>
+          <string>Whirling Graviton Fluxes</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchReactor">
+        <Descriptions op="replace">
+          <string>Supercharged Gaseous Flow</string>
+          <string>Magnetic Inversion Fields</string>
+          <string>Sustained Neutron Surges</string>
+          <string>Whirling Graviton Fluxes</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchShields">
+        <Descriptions op="replace">
+          <string>Powerful Magnetic Bursts</string>
+          <string>Antimatter Plasma Torrents</string>
+          <string>Whirling Graviton Fluxes</string>
+          <string>Ruptured Graviton Bursts</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+  </OrbType>
+  <OrbType id="7">
+    <Name>Континентальная</Name>
+    <Description>Континентальные планеты обладают землеподобным, разнообразным рельефом с богатой растительностью. Они могут поставлять широкий спектр ресурсов.\n\nВеличественные снежные горные хребты возвышаются над пышными лесными долинами. Огромные первобытные леса покрывают холмы и равнины низменностей. Плодородные луговые степи опоясывают прибрежные районы. Сверкающие океаны усеяны джунглями на островах и тропическими атоллами.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Rings of {0}</string>
+          <string>Great Petrified Forest</string>
+          <string>Grand Fjords</string>
+          <string>Pristine Lakes</string>
+          <string>Idyllic Coastal Islands</string>
+          <string>Great Caverns of {0}</string>
+          <string>Majestic Waterfalls</string>
+          <string>Great Tropical Lagoon</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="PlagueCuring">
+        <Descriptions op="replace">
+          <string>Rich Biological Ecosystem</string>
+          <string>Rare Plant Nutrients</string>
+          <string>Giant Fungal Bioreserve</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ColonyHappiness">
+        <Descriptions op="replace">
+          <string>Idyllic Warm Climate</string>
+          <string>Lofty Mountain Ranges</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>lie deep in a dense forest</string>
+      <string>sit on a rocky mountain outcrop</string>
+      <string>are located in the midst of a grassy plain</string>
+      <string>sit at the bottom of a forest-covered valley</string>
+      <string>are perched atop rocky coastal cliffs overlooking a vast ocean</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="8">
+    <Name>Болотистая топь</Name>
+    <Description>Планеты болотистых топей покрыты густыми тропическими лесами и заболоченными маршами.\n\nГустые, непроходимые джунгли окутывают целые континенты. Сочные зеленые леса изобилуют бесчисленными ручьями и глубокими подземными источниками.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Rings of {0}</string>
+          <string>Great Marshlands</string>
+          <string>Sinkhole of {0}</string>
+          <string>Watery Caverns of {0}</string>
+          <string>Uplifted Highland Waterfalls</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="PlagueCuring">
+        <Descriptions op="replace">
+          <string>Rich Biological Ecosystem</string>
+          <string>Rare Plant Nutrients</string>
+          <string>Giant Fungal Bioreserve</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="MiningRate">
+        <Descriptions op="replace">
+          <string>Deep Crustal Sinkholes</string>
+          <string>Highly Porous Mantle</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>are surrounded by lush jungle</string>
+      <string>are situated on a reed-covered island in the middle of a marshy bog</string>
+      <string>are located in a clearing in the heart of a swampy jungle</string>
+      <string>sit in a grassy riverside clearing upstream from a large waterfall</string>
+      <string>are half-buried in undergrowth near a huge swampy wasteland</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="9">
+    <Name>Океан</Name>
+    <Description>Планеты с океанами покрыты обширными глубокими морями, в которых разбросаны редкие небольшие изолированные острова.\n\nГлубоко под поверхностью океана скрытые подводные пропасти скрывают темные расщелины и извилистые туннели. От дна океана возвышаются колоссальные скальные башни. Эти области являются домом для удивительного разнообразия растительной и животной жизни.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Great Tropical Lagoon</string>
+          <string>Underwater Caves of {0}</string>
+          <string>Vast Underwater Tunnel Network</string>
+          <string>Rings of {0}</string>
+          <string>Great Coral Reef</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchConstruction">
+        <Descriptions op="replace">
+          <string>Underwater Geothermal Vent</string>
+          <string>Great Tidal Whirlpool</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ColonyDefense">
+        <Descriptions op="replace">
+          <string>Deep Underwater Retreat</string>
+          <string>Coastal Cave Network</string>
+          <string>Bottomless Undersea Labyrinth</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>sit on a rocky island lashed by giant storm waves from the surrounding sea</string>
+      <string>sit half-submerged atop a vast reef in the midst of an endless ocean</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="10">
+    <Name>Песчаная пустыня</Name>
+    <Description>Планеты песчаных пустынь характеризуются сухими, пыльными равнинами и скалистыми горами.\n\nБескрайние пустыни с бесконечными песчаными дюнами простираются на сотни километров. Высокие плато возвышаются над безжизненными каменистыми пустошами. Опустошенные горные хребты перемежаются глубокими извилистыми каньонами.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Dust Rings of {0}</string>
+          <string>Sinking Sand Fields</string>
+          <string>Giant Sand Dunes</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchArmor">
+        <Descriptions op="replace">
+          <string>Layered Rock Formations</string>
+          <string>Ultra-Hardened Sand Pillars</string>
+          <string>Wind-blasted Sand Canyons</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchTroops">
+        <Descriptions op="replace">
+          <string>Layered Rock Formations</string>
+          <string>Ultra-Hardened Sand Pillars</string>
+          <string>Wind-blasted Sand Canyons</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>lie half buried by deep sand drifts</string>
+      <string>are nearly consumed by a vast sandbank</string>
+      <string>are set into the wall of a rocky canyon</string>
+      <string>are perched atop a precipice overlooking a vast dusty plain</string>
+      <string>are situated atop a large mesa in a desert plain</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="11">
+    <Name>Ледяной биом</Name>
+    <Description>Ледяные миры покрыты промёрзлой тундрой и заснеженными горами.\n\nВечные ледяные бури непрерывно дуют над бескрайними равнинами льда и снега. Скалистые возвышенности укрыты гигантскими ледниками. В заснеженных долинах скрываются бесчисленные коварные трещины.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Ice Rings of {0}</string>
+          <string>Colossal Crevasse</string>
+          <string>Glacial Rivers</string>
+          <string>Ice Caverns of {0}</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchSensors">
+        <Descriptions op="replace">
+          <string>Magnetic Ice Crystals</string>
+          <string>Neutrino-Free Deep Ice Cavern</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ColonyDefense">
+        <Descriptions op="replace">
+          <string>Ice Cave Network</string>
+          <string>Deep Ice Caverns</string>
+          <string>Ice Canyon Maze</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>lie deep in snow drifts at the peak of a windswept mountain pass</string>
+      <string>are located near the edge of an icy tundra wasteland</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="12">
+    <Name>Вулканическая</Name>
+    <Description>Вулканические планеты изобилуют обширными лавовыми потоками, вулканическими фумаролами и удушающе горячим воздухом.\n\nБескрайние поля раскалённого пепла и пылающих скал покрывают поверхность. Густой дым и ядовитые испарения поднимаются из тлеющих озер лавы. В вулканических кратерах, переполненных расплавленной породой, горят невероятно яркие огни.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Fire Rings of {0}</string>
+          <string>Burning Lava Lakes</string>
+          <string>Fire Caverns of {0}</string>
+          <string>Great Lava Geyser</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchConstruction">
+        <Descriptions op="replace">
+          <string>Towering Lava Formations</string>
+          <string>Molten Glass River</string>
+          <string>Magma Venting Pools</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchWeapons">
+        <Descriptions op="replace">
+          <string>Magma Geyser</string>
+          <string>Atmospheric Firestorms</string>
+          <string>Deep Mantle Tunnels</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>sit on a stone ledge overlooking a fiery lake of lava</string>
+      <string>lie in the midst of a vast rocky plain blanketed with thousands of geothermal steam vents</string>
+      <string>are located next to a molten river of lava</string>
+      <string>sit on a small rocky island that glows from the surrounding ocean of bright molten lava</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="13">
+    <Name>Каменисто-кремниевая планета</Name>
+    <Description>Планеты каменисто-кремниевых типов не имеют пригодной для дыхания атмосферы. Они часто богаты залежами кремния.\n\nСуровые, мрачные горы возвышаются над пыльными равнинами, озарёнными звёздами. Глубокие каньоны и трещины скрывают тёмные пещеры и тоннели.\n\nПланеты каменисто-кремниевых типов крайне непригодны для жизни и никогда не подходят для колонизации.</Description>
+    <CommonBonuses>
+      <BonusRange id="ResearchSensors">
+        <Descriptions op="replace">
+          <string>Gravimetric Distortions</string>
+          <string>Magnetic Anomaly</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>sit at the center of a shadowy, star-lit plain</string>
+      <string>lie at the bottom of a desolate, rocky valley</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="14">
+    <Name>Газовый гигант</Name>
+    <Description>Газовые гиганты - это сверхкрупные планеты юпитероподобного типа, состоящие преимущественно из газов. Они являются основным источником каслона, универсального топливного ресурса.\n\nИх верхние атмосферы часто опустошаются бурными штормовыми ветрами, оставляющими за собой следы вихревых газовых потоков. Газовые гиганты обычно имеют несколько спутников, некоторые из которых могут быть пригодны для колонизации.\n\nОднако сами планеты-газовые гиганты не подлежат колонизации, поскольку они слишком суровы и лишены твердой поверхности.</Description>
+    <CommonBonuses>
+      <BonusRange id="ResearchIndustrial">
+        <Descriptions op="replace">
+          <string>Gaseous Plasma Flows</string>
+          <string>High-speed Wind Vortex</string>
+          <string>Polar Wind Currents</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchReactor">
+        <Descriptions op="replace">
+          <string>Magnetic Anomaly</string>
+          <string>Gravimetric Distortion</string>
+          <string>Unusual Neutron Radiation</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+  </OrbType>
+  <OrbType id="15">
+    <Name>Замерзший газовый гигант</Name>
+    <Description>Замерзшие газовые гиганты - это крупные планеты нептуноподобного типа, состоящие преимущественно из инертных замороженных газов. Они могут стать отличным источником экзотических газообразных ресурсов, таких как Аргон или Криптон.\n\nИх верхние атмосферы насыщены бесчисленными крошечными кристаллами замороженного газа, парящими в морях сверххолодного газа.\n\nЗамерзшие газовые гиганты не могут быть колонизированы, поскольку они слишком суровы и лишены твердой поверхности.</Description>
+    <CommonBonuses>
+      <BonusRange id="ResearchWeapons">
+        <Descriptions op="replace">
+          <string>Unstable Plasma Discharges</string>
+          <string>Charged Plasma Fields</string>
+          <string>Turbulent Electrical Currents</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchHighTech">
+        <Descriptions op="replace">
+          <string>Dense Gas Pockets</string>
+          <string>Gaseous Crystal Formations</string>
+          <string>Crystal Windstorm</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+  </OrbType>
+  <OrbType id="16">
+    <Name>Скалистый астероид</Name>
+    <Description>Скалистые астероиды - это скалистый мусор, часто богатый металлическими рудами. Крупные астероиды могут скрывать обширные сети туннелей и пещер.\n\nИх можно найти в большинстве звездных систем: поодиночке или иногда в составе крупных поясов астероидов.\n\nАстероиды никогда не бывают достаточно пригодными для колонизации.</Description>
+    <RuinLocationDescriptions op="replace">
+      <string>are set into the wall of a deep canyon</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="17">
+    <Name>Лесной биом</Name>
+    <Description>Планеты с лесами отличаются густыми лесными массивами, высокими лесами и заросшими джунглями.\n\nОгромные первобытные леса покрывают холмы и равнинные регионы. Растительность часто бывает густой и плотно упакованной, даже непроницаемой.\n\nЖивотный мир представлен на всех уровнях: на тёмном лесном полу, среди лиственных ветвей деревьев и высоко в кроне леса.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Rings of {0}</string>
+          <string>Ancient Rain Forest</string>
+          <string>Grand Fjords</string>
+          <string>Pristine Lakes</string>
+          <string>Idyllic Coastal Islands</string>
+          <string>Great Caverns of {0}</string>
+          <string>Majestic Waterfalls</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="PlagueCuring">
+        <Descriptions op="replace">
+          <string>Rich Biological Ecosystem</string>
+          <string>Rare Plant Nutrients</string>
+          <string>Lush Forest Root Network</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ColonyHappiness">
+        <Descriptions op="replace">
+          <string>Idyllic Warm Climate</string>
+          <string>Grand Forest Canopy</string>
+          <string>Exotic Jungle Blossoms</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>lie deep in a dense forest</string>
+      <string>sit on a rocky mountain outcrop</string>
+      <string>sit at the bottom of a forest-covered valley</string>
+      <string>are perched atop rocky coastal cliffs overlooking a vast ocean</string>
+      <string>are surrounded by lush jungle</string>
+      <string>are located in a clearing in the heart of a dense jungle</string>
+      <string>sit in a grassy riverside clearing upstream from a large waterfall</string>
+      <string>are half-buried in undergrowth of an ancient forest</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="18">
+    <Name>Луговая планета</Name>
+    <Description>Планеты луговых биомов преимущественно представляют собой низменные равнины. Поверхность покрыта бескрайними полями различных видов трав, уходящих до самого горизонта.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Rings of {0}</string>
+          <string>Wildflower Plains</string>
+          <string>Great River Gorge</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ColonyHappiness">
+        <Descriptions op="replace">
+          <string>Idyllic Warm Climate</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>are located in the midst of a grassy plain</string>
+      <string>sit at the bottom of a forest-covered valley</string>
+      <string>sit in a grassy riverside clearing upstream from a large waterfall</string>
+      <string>are located on a grassy hilltop overlooking the ocean</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="19">
+    <Name>Каменистая пустыня</Name>
+    <Description>Планеты каменистых пустынь представляют собой сухие скалистые равнины, а также обширные горные ландшафты с крутыми склонами.\n\nВысокие плато возвышаются над засушливыми скалистыми пустошами. Опустошительные горные хребты чередуются с глубокими извилистыми каньонами. Широкие системы пещер и туннелей встречаются повсеместно.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Dust Rings of {0}</string>
+          <string>Canyon of {0}</string>
+          <string>Grand Mesa Highland</string>
+          <string>Rock Spires of {0}</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchArmor">
+        <Descriptions op="replace">
+          <string>Weathered Rock Formations</string>
+          <string>SuperDense Rock Layers</string>
+          <string>Crystal-suffused Rock Structures</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchTroops">
+        <Descriptions op="replace">
+          <string>Weathered Rock Formations</string>
+          <string>SuperDense Rock Layers</string>
+          <string>Crystal-suffused Rock Structures</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ColonyDefense">
+        <Descriptions op="replace">
+          <string>Extensive Cave Network</string>
+          <string>Deep Strong Caverns</string>
+          <string>Canyon Redoubt of {0}</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>lie half buried by deep sand drifts</string>
+      <string>are nearly consumed by a vast sandbank</string>
+      <string>are set into the wall of a rocky canyon</string>
+      <string>are perched atop a precipice overlooking a vast dusty plain</string>
+      <string>are situated atop a large mesa in a desert plain</string>
+      <string>sit on a vast rocky plain strewn with boulders</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="20">
+    <Name>Пустынная саванна</Name>
+    <Description>Планеты пустынной саванны представляют собой сухие и пыльные равнины, перемежающиеся короткой травой и чахлыми кустарниками.\n\nЗдесь часто встречаются крупные пресноводные озера, окруженные редкими группами низкорослых деревьев.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Rings of {0}</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>lie half buried by deep sand drifts</string>
+      <string>are nearly consumed by a vast sandbank</string>
+      <string>are set into the wall of a rocky canyon</string>
+      <string>are perched atop a precipice overlooking a vast dusty plain</string>
+      <string>are situated atop a large mesa in a desert plain</string>
+      <string>are located next to a small lake in dense woodland</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="21">
+    <Name>Ледяная тундра</Name>
+    <Description>Планеты ледяной тундры характеризуются обширными территориями замерзших ледяных пустошей. Скалистые возвышенности содержат гигантские ледники.\n\nВдоль низменной береговой линии лёд и снег перемешаны с альпийскими лесами, образуя более гостеприимный регион.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Ice Rings of {0}</string>
+          <string>Ice Caverns of {0}</string>
+          <string>Grand Ice Spires</string>
+          <string>Great Alpine Forest</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>lie deep in snow drifts at the peak of a windswept mountain pass</string>
+      <string>are located near the edge of an icy tundra wasteland</string>
+      <string>are located on the shores of an icy ocean</string>
+      <string>are surrounded by a vast tundra forest</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="22">
+    <Name>Замерзший ледяной биом</Name>
+    <Description>Планеты с замерзшим ледяным биомом покрыты глубокими слоями льда и снега.\n\nХолодные ветры снежной бури непрерывно дуют над бесконечными замерзшими равнинами. Скалистые возвышенности покрыты колоссальными ледниками шириной в сотни километров.\n\nВременами теплые геотермальные источники проплавляют сложные туннельные системы сквозь сверхплотный лед.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Ice Rings of {0}</string>
+          <string>Ice Caverns of {0}</string>
+          <string>Grand Ice Spires</string>
+          <string>Vast Ice Tunnel Network</string>
+          <string>Grand Glacier</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchArmor">
+        <Descriptions op="replace">
+          <string>SuperDense Ice Sheets</string>
+          <string>Cryogenic Rock Formations</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchTroops">
+        <Descriptions op="replace">
+          <string>Monatomic Water Caverns</string>
+          <string>Dense Crystalline Ice Formations</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ColonyDefense">
+        <Descriptions op="replace">
+          <string>Extensive Ice Tunnel Network</string>
+          <string>Deep Ice Caverns</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>lie deep in snow drifts at the peak of a windswept mountain pass</string>
+      <string>are located near the edge of an icy tundra wasteland</string>
+      <string>are situated at the entrance to a vast network of ice tunnels</string>
+      <string>are half-buried under a thick glacial ice-sheet covering a wide valley</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="23">
+    <Name>Глубокий океан</Name>
+    <Description>Планеты с глубоким океаном покрыты огромными водными пространствами, часто без видимой суши.\n\nГлубоко под поверхностью, в толще воды, глубоководные пропасти скрывают тёмные расщелины и извилистые тоннели. Эти скалистые лабиринты могут уходить далеко вниз, к ядру планеты.</Description>
+    <CommonBonuses>
+      <BonusRange id="ResearchShields">
+        <Descriptions op="replace">
+          <string>SuperDense Water Pockets</string>
+          <string>Very Deep Underwater Caverns</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchSensors">
+        <Descriptions op="replace">
+          <string>Compressed Seismic Layers</string>
+          <string>Geomagnetic Anomaly</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Deep Underwater Tunnel Network</string>
+          <string>Coral Forest of {0}</string>
+          <string>Grand Underwater Cavern</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ColonyDefense">
+        <Descriptions op="replace">
+          <string>Deep Underwater Retreat</string>
+          <string>Dark Sea Abyss</string>
+          <string>Bottomless Undersea Labyrinth</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>sit on a rocky island lashed by giant storm waves from the surrounding sea</string>
+      <string>sit half-submerged atop a vast reef in the midst of an endless ocean</string>
+      <string>are submerged in the shallow water atop a sub-oceanic ridge</string>
+      <string>are submerged deep underwater amidst a network of ocean ridges</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="24">
+    <Name>Коричневый карлик</Name>
+    <Description>Коричневые карлики - это очень крупные газовые гиганты, не обладающие достаточной массой для превращения в полноценную звезду.\n\nОднако они достаточно плотны, чтобы поддерживать низкий уровень термоядерного синтеза, и поэтому излучают некоторое количество света и энергии, сжигая часть своих поверхностных газов.\n\nИногда они могут служить источником каслона - универсального реакторного топлива. Их необычные характеристики также часто дают бонусы к исследованиям.</Description>
+    <CommonBonuses>
+      <BonusRange id="ResearchHyperDrive">
+        <Descriptions op="replace">
+          <string>Gravimetric Distortion</string>
+          <string>Turbulent Plasma Flow</string>
+          <string>Magnetic Storm</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchReactor">
+        <Descriptions op="replace">
+          <string>Magnetic Anomaly</string>
+          <string>Plasma Fireballs</string>
+          <string>Plasma Lightning</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Plasma Rings of {0}</string>
+          <string>Spectacular Plasma Discharges</string>
+          <string>Gaseous Flow Vortex</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+  </OrbType>
+  <OrbType id="25">
+    <Name>Каменисто-металлическая</Name>
+    <Description>Планеты каменисто-металлического типа не имеют пригодной для дыхания атмосферы. Они часто богаты месторождениями металлических руд.\n\nСуровые, тенистые горы возвышаются над пыльными равнинами, озарёнными звёздами. Глубокие каньоны и трещины скрывают тёмные пещеры и тоннели.\n\nПланеты каменисто-металлического типа крайне непригодны для жизни и никогда не подходят для колонизации.</Description>
+    <CommonBonuses>
+      <BonusRange id="ResearchConstruction">
+        <Descriptions op="replace">
+          <string>Dense Metallic Pockets</string>
+          <string>Metallic Lattice Networks</string>
+          <string>Compressed Ore Structures</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchIndustrial">
+        <Descriptions op="replace">
+          <string>Magnetic Anomaly</string>
+          <string>Gravimetric Distortion</string>
+          <string>Magnetic Field Polarization</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>sit at the center of a shadowy, star-lit plain</string>
+      <string>lie at the bottom of a desolate, rocky valley</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="26">
+    <Name>Каменисто-ледяная</Name>
+    <Description>Планеты каменисто-ледяного типа не имеют пригодной для дыхания атмосферы. Иногда на них встречаются залежи замороженного газа тидериоса.\n\nБескрайние равнины льда и снега перемежаются полями пыли и камней.\n\nПланеты каменисто-ледяного типа крайне непригодны для жизни и никогда не подходят для колонизации.</Description>
+    <CommonBonuses>
+      <BonusRange id="ResearchIndustrial">
+        <Descriptions op="replace">
+          <string>Icy Silicate Deposits</string>
+          <string>Densified Frozen Gases</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>sit at the center of a shadowy, star-lit plain</string>
+      <string>lie at the bottom of a desolate, rocky valley</string>
+      <string>are located on the edge of an icy plain</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="27">
+    <Name>Мангровый лес</Name>
+    <Description>Планеты мангровых лесов покрыты болотистыми заболоченными угодьями, густо заросшими плотными зарослями мангровых деревьев.\n\nВозвышенные сухие земли редки. Вместо этого болотистые джунгли погружаются в мелководные моря.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Rings of {0}</string>
+          <string>Great Mangrove Swamp</string>
+          <string>Vast Swampy Jungle</string>
+          <string>Swampy Caverns of {0}</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="PlagueCuring">
+        <Descriptions op="replace">
+          <string>Rich Biological Ecosystem</string>
+          <string>Rare Plant Nutrients</string>
+          <string>Vast Fungal Forest</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="MiningRate">
+        <Descriptions op="replace">
+          <string>Deep Crustal Sinkholes</string>
+          <string>Highly Porous Mantle</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>are surrounded by lush jungle</string>
+      <string>are situated on a reed-covered island in the middle of a marshy bog</string>
+      <string>are located in a clearing in the heart of a swampy jungle</string>
+      <string>sit in a grassy riverside clearing upstream from a large waterfall</string>
+      <string>are half-buried in undergrowth near a huge swampy wasteland</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="28">
+    <Name>Голубой гигант</Name>
+    <Description>Звездные системы голубых гигантов часто содержат обилие планет, некоторые из которых пригодны для жизни.</Description>
+    <CommonBonuses>
+      <BonusRange id="ResearchReactor">
+        <Descriptions op="replace">
+          <string>Dense Plasma Vortices</string>
+          <string>Magnetic Inversion Fields</string>
+          <string>Unstable Neutron Surges</string>
+          <string>Turbulent Energy Oscillations</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchHighTech">
+        <Descriptions op="replace">
+          <string>Stable Gravimetric Pulses</string>
+          <string>Powerful Magnetic Bursts</string>
+          <string>Streaming Plasma Eruptions</string>
+          <string>Antimatter Plasma Torrents</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+  </OrbType>
+  <OrbType id="29">
+    <Name>Углеродистая</Name>
+    <Description>Углеродистые планеты имеют тлеющие вулканы и обширную геотермальную активность.\n\nВоздух здесь обычно густо насыщен дымом и пеплом. На них часто встречаются крупные озера метана и других углеводородов.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Rings of {0}</string>
+          <string>Great Hydrocarbon Geyser</string>
+          <string>Smoke Crater of {0}</string>
+          <string>Grand Valley of Steam Vents</string>
+          <string>Lava Caverns of {0}</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchArmor">
+        <Descriptions op="replace">
+          <string>Super Hard Molten Formations</string>
+          <string>Carbonized Magma Flows</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchTroops">
+        <Descriptions op="replace">
+          <string>Super Hard Molten Formations</string>
+          <string>Carbonized Magma Flows</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchEngines">
+        <Descriptions op="replace">
+          <string>Magma Distortion</string>
+          <string>Hot Densified Methane Pockets</string>
+          <string>Molten Glass Formations</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>sit on a stone ledge overlooking a hydrocarbon lake</string>
+      <string>lie in the midst of a vast rocky plain blanketed with thousands of geothermal steam vents</string>
+      <string>are in a rocky valley littered with shards of hardened molten glass</string>
+      <string>are located next to a molten river of lava</string>
+      <string>are situated on a vast plain covered in thick black soot and ash</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="30">
+    <Name>Серно-вулканическая</Name>
+    <Description>Планеты серно-вулканического типа покрыты толстыми слоями оксидов серы, что придает им характерный желто-оранжевый оттенок.\n\nВулканические жерла извергают высокие фонтаны серы в атмосферу, распространяя вещество по поверхности планеты. Коррозионные облака кислоты поглощают почти все остальные материалы, оставляя после себя лишь бескрайние равнины желтого серного снега.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Sulphur Rings of {0}</string>
+          <string>Great Sulphur Geyser</string>
+          <string>Grand Valley of Steam Vents</string>
+          <string>Vast Burning Sulphur Lake</string>
+          <string>Sulphur Caverns of {0}</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchEngines">
+        <Descriptions op="replace">
+          <string>Magma Distortion</string>
+          <string>Sulphur Ceramic Formations</string>
+          <string>Molten Glass Formations</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>sit on a stone ledge overlooking a firey lake of sulphur</string>
+      <string>lie in the midst of a vast rocky plain blanketed with thousands of geothermal steam vents</string>
+      <string>are in a rocky valley littered with shards of hardened molten glass</string>
+      <string>are situated on a vast plain deeply covered in bright yellow sulphur</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="31">
+    <Name>Ледяной астероид</Name>
+    <Description>Ледяные астероиды - это замороженные скалистые обломки, часто богатые металлическими рудами. Крупные астероиды могут скрывать обширные сети туннелей и пещер.\n\nИх можно найти в большинстве звездных систем: поодиночке или в составе крупных поясов астероидов.\n\nАстероиды никогда не бывают достаточно пригодными для колонизации.</Description>
+    <RuinLocationDescriptions op="replace">
+      <string>are set into the wall of a deep ice canyon</string>
+      <string>are buried under a thick sheet of ice</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="32">
+    <Name>Металлический астероид</Name>
+    <Description>Металлические астероиды - это скалистые обломки, часто богатые металлическими рудами. Крупные астероиды могут скрывать обширные сети туннелей и пещер.\n\nИх можно найти в большинстве звездных систем: поодиночке или же как часть крупных астероидных поясов.\n\nАстероиды никогда не бывают достаточно пригодными для колонизации.</Description>
+    <CommonBonuses>
+      <BonusRange id="ResearchHighTech">
+        <Descriptions op="replace">
+          <string>Magnetic Anomaly</string>
+          <string>Unusual Ore Concentrations</string>
+          <string>Gravimetric Distortion</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>are set into the wall of a deep canyon</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="33">
+    <Name>Осколок разрушенной планеты</Name>
+  </OrbType>
+  <OrbType id="34">
+    <Name>Осколок разрушенной планеты</Name>
+  </OrbType>
+  <OrbType id="35">
+    <Name>Осколок разрушенной планеты</Name>
+  </OrbType>
+  <OrbType id="36">
+    <Name>Осколок разрушенной планеты</Name>
+  </OrbType>
+  <OrbType id="37">
+    <Name>Осколок разрушенной планеты</Name>
+  </OrbType>
+  <OrbType id="38">
+    <Name>Осколок разрушенной планеты</Name>
+  </OrbType>
+  <OrbType id="39">
+    <Name>Астероид разрушенной планеты</Name>
+    <CommonBonuses>
+      <BonusRange id="ResearchHighTech">
+        <Descriptions op="replace">
+          <string>Magnetic Anomaly</string>
+          <string>Unusual Ore Concentrations</string>
+          <string>Gravimetric Distortion</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>are set into the wall of a deep canyon</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+</ArrayOfOrbType>

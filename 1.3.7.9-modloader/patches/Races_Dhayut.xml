@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfRace>
+  <Race id="10">
+    <Name>Дхаюты</Name>
+    <Description>Дхаюты - крупная и мощная раса паукообразных. У Дхаютов массивная выпуклая голова с заметными красными пятнами и большие оранжево-жёлтые глаза.\n\nДхаюты крайне агрессивны и крайне недружелюбны. Они также могут оказаться предательскими партнёрами, предавая своих союзников всякий раз, когда это выгодно.\n\nОни размножаются медленно, поэтому их популяциям требуется некоторое время для роста.\n\nКогда Дхаютов приводят в ярость, они впадают в бешенство и временно теряют рассудок, действуя инстинктивно дико. В такие моменты они крайне опасны, становясь совершенно бесстрашными при атаке.\n\nДхаюты также известны своей безжалостностью. Они обычно не испытывают угрызений совести, совершая кражи, обман или убийства, если это служит их интересам. По этой причине следует проявлять крайнюю осторожность при взаимодействии с ними.\n\nЕстественная тяга Дхаютов к технологиям гиперпространства привела их к созданию VelocityDrive ST3 - чрезвычайно быстрого и эффективного гипердвигателя.\n\nЕстественные места обитания Дхаютов - скалистые убежища на планетах типа Пустынной саванны, Скалистой пустыни или Песчаной пустыни.</Description>
+    <DesignNames op="replace">
+      <string>Kazan</string>
+      <string>Ostrov</string>
+      <string>Kirov</string>
+      <string>Astrakhan</string>
+      <string>Ivanov</string>
+      <string>Vasil</string>
+      <string>Murmansk</string>
+      <string>Batumi</string>
+      <string>Rostov</string>
+      <string>Vostok</string>
+      <string>Stavropol</string>
+      <string>Omsk</string>
+      <string>Novgorod</string>
+      <string>Leningrad</string>
+      <string>Chelyabinsk</string>
+      <string>Kharkov</string>
+      <string>Kiev</string>
+      <string>Minsk</string>
+      <string>Volgograd</string>
+      <string>Odessa</string>
+      <string>Ufa</string>
+      <string>Gorkiy</string>
+      <string>Vilnius</string>
+      <string>Smolensk</string>
+      <string>Sevastopol</string>
+      <string>Donetsk</string>
+      <string>Grozny</string>
+      <string>Tula</string>
+      <string>Zhitomir</string>
+      <string>Yekaterinburg</string>
+      <string>Kamchatka</string>
+      <string>Khabarovsk</string>
+      <string>Vladivostok</string>
+      <string>Severnaya</string>
+      <string>Saratov</string>
+      <string>Sibirskaya</string>
+    </DesignNames>
+    <CharacterFirstNames op="replace">
+      <string>Qarg</string>
+      <string>Cwedo</string>
+      <string>Rardi</string>
+      <string>Dashak</string>
+      <string>Dosti</string>
+      <string>Spidos</string>
+      <string>Arak</string>
+      <string>Konid</string>
+      <string>Edul</string>
+      <string>Cossot</string>
+      <string>Garko</string>
+      <string>Madog</string>
+      <string>Nerut</string>
+      <string>Landi</string>
+      <string>Aesunt</string>
+      <string>Kapulit</string>
+      <string>Warsun</string>
+      <string>Fandu</string>
+      <string>Yurit</string>
+      <string>Xandu</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Boshak</string>
+      <string>Teklor</string>
+      <string>Zaddaty</string>
+      <string>Kazzantor</string>
+      <string>Gotraz</string>
+      <string>Dhaszan</string>
+      <string>Yutak</string>
+      <string>Hasshal</string>
+      <string>Panzut</string>
+      <string>Oodan</string>
+      <string>Xarak</string>
+      <string>Arratul</string>
+      <string>Mukran</string>
+      <string>Suuyat</string>
+      <string>Werok</string>
+      <string>Fashat</string>
+      <string>Nuumal</string>
+      <string>Heredos</string>
+      <string>Karkran</string>
+      <string>Bhayut</string>
+      <string>Joorabek</string>
+    </CharacterLastNames>
+    <FeatureExplanations op="replace">
+      <string>[HL]Дезинформация:[/HL] успех миссии глубокого внедрения против другой фракции также даёт возможность создавать дезинформацию на всех уровнях, из-за чего целевая фракция относится к дхаютам лучше</string>
+      <string>[HL]Вдохновенное интриганство:[/HL] всякий раз, когда удаётся сложная разведывательная миссия, вы получаете бонус ко всем шпионским миссиям против этой фракции на следующий год</string>
+      <string>[HL]Уникальная черта лидера — Рабовладелец:[/HL] +10% к доходу от политики рабства</string>
+      <string>[HL]Уникальная черта лидера — Разделяй и властвуй:[/HL] +5% к счастью</string>
+      <string>[HL]Уникальная черта шпиона — Осторожный ткач:[/HL] +10% к контршпионажу</string>
+      <string>[HL]Уникальная черта шпиона — Удар из тени:[/HL] +10% к убийствам</string>
+    </FeatureExplanations>
+  </Race>
+</ArrayOfRace>

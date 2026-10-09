@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfColonyEventDefinition>
+  <ColonyEventDefinition id="35">
+    <Name>Дипломатический успех</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="36">
+    <Name>Война с Дисгармонией</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="37">
+    <Name>Гармоничные преимущества</Name>
+    <Description>Счастье на колонизационном мире {0} породило новый дух гармонии. Мы можем ожидать снижения уровня коррупции на 30% в течение следующего года.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="39">
+    <Name>Тревога от биологического агента</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="40">
+    <Name>Биоагент использован</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="41">
+    <Name>Не играя в Бога</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="50">
+    <Name>Следуя собственному пути</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="54">
+    <Name>Уважение к жизни</Name>
+    <Description>Недавние зверства, совершённые нашей империей, шокировали наших граждан и временно снизили их уровень счастья.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="55">
+    <Name>Тайны жизни</Name>
+    <Description>Недавняя колонизация нового типа мира привела наших граждан в восторг и временно повысила их уровень счастья и темпы роста.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="56">
+    <Name>Защита жизни</Name>
+    <Description>Недавнее подписание нового договора воодушевило наших граждан и временно повысило их уровень счастья.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="57">
+    <Name>Дисгармония</Name>
+    <Description>Недавнее начало войны повергло наших граждан в уныние и временно снизило их уровень счастья.</Description>
+  </ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>
