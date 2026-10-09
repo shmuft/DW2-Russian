@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfResearchProjectDefinition>
+  <ResearchProjectDefinition id="319">
+    <Name>Сфокусированный термоядерный луч</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="330">
+    <Name>Регенерирующие осколки корпуса</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="360">
+    <Name>Быстрая регенерация корпуса</Name>
+    <Description>Заполнитель для Иккуро</Description>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="377">
+    <Name>Быстрое изгнание осколков</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="486">
+    <Name>Продвинутое термоядерное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="494">
+    <Name>Регенерация прочного корпуса</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="511">
+    <Name>Повышенная целостность осколков</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="546">
+    <Name>Рои осколков</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="556">
+    <Name>Мгновенная регенерация корпуса</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="774">
+    <Name>Улучшенное термоядерное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="791">
+    <Name>Улучш. колонизация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="792">
+    <Name>Усил. колонизация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="793">
+    <Name>Улучш. обитаемость</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="794">
+    <Name>Продв. обитаемость</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="795">
+    <Name>Превосх. обитаемость</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="800">
+    <Name>Гармоничное развитие континентального биома</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="801">
+    <Name>Гармоничное развитие лесного биома</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="802">
+    <Name>Гармоничное развитие лугового биома</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="803">
+    <Name>Гармоничное развитие глубокого океана</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="804">
+    <Name>Гармоничное развитие океана</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="805">
+    <Name>Гармоничное развитие мангрового леса</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="806">
+    <Name>Гармоничное развитие болотистых топей</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="807">
+    <Name>Гармоничное развитие песчаной пустыни</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="808">
+    <Name>Гармоничное развитие каменистой пустыни</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="809">
+    <Name>Гармоничное развитие пустынной саванны</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="810">
+    <Name>Гармоничное развитие ледяного биома</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="811">
+    <Name>Гармоничное развитие промёрзшего ледяного биома</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="812">
+    <Name>Гармоничное развитие ледяной тундры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="813">
+    <Name>Гармоничное развитие вулканического биома</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="814">
+    <Name>Гармоничное развитие углеродистого биома</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="815">
+    <Name>Гармоничное развитие серно-вулканического биома</Name>
+  </ResearchProjectDefinition>
+</ArrayOfResearchProjectDefinition>

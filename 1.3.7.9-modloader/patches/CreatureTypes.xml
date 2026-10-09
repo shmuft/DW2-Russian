@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfCreatureType>
+  <CreatureType id="0">
+    <Name>Вордикары</Name>
+  </CreatureType>
+  <CreatureType id="1">
+    <Name>Ардилусы</Name>
+  </CreatureType>
+  <CreatureType id="2">
+    <Name>Гравиллекс (белый карлик)</Name>
+  </CreatureType>
+  <CreatureType id="3">
+    <Name>Гравиллекс (главная последовательность)</Name>
+  </CreatureType>
+  <CreatureType id="4">
+    <Name>Гравиллекс (красный гигант)</Name>
+  </CreatureType>
+  <CreatureType id="5">
+    <Name>Гравиллекс (голубой гигант)</Name>
+  </CreatureType>
+  <CreatureType id="6">
+    <Name>Гравиллекс (сверхгигант)</Name>
+  </CreatureType>
+  <CreatureType id="7">
+    <Name>Гравиллекс (нейтронная звезда)</Name>
+  </CreatureType>
+  <CreatureType id="8">
+    <Name>Гравиллекс (чёрная дыра)</Name>
+  </CreatureType>
+</ArrayOfCreatureType>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfGameEvent>
+  <GameEvent id="Underlords (Boskara)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Подчиненные лорды</MessageTitle>
+        <Description>Мы недавно колонизировали [LOCATION]{0}[/LOCATION], вулканический мир, родной для Боскара.\n\nВ ходе первоначального всплеска исследований на новой колонии наши поселенцы обнаружили новый ресурс!\n\nМы нашли новый источник [RESOURCE]RESOURCENAME[/RESOURCE] в {0}.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="We Reign Supreme (Boskara)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Мы безраздельно властвуем</MessageTitle>
+        <Description>Наша недавняя победа в захвате столичного мира другой империи наполнила наше население эйфорической гордостью!\n\nТаким образом, в течение следующих 10 лет наша империя будет пользоваться следующими преимуществами:[ULI]+20% к счастью империи[/ULI][ULI]+50% к снижению военной усталости[/ULI]</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Crazed Cannibalism (Boskara)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Безумный каннибализм</MessageTitle>
+        <Description>Жизнь без войны и завоеваний не подходит воинственным Боскара.\n\nВремена мира довели население нашей колонии [LOCATION]{0}[/LOCATION] до безумного неистовства. Из-за этой гиперагрессивной паранойи повсюду царит массовый каннибализм!\n\nМы ожидаем, что это неистовство продлится шесть месяцев. В течение этого времени в {0} произойдут значительные потери населения.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+  <GameEvent id="Warspawn Choice (Boskara)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Порождения войны</MessageTitle>
+        <Description>Наше недавнее объявление войны предоставляет нам возможность назначить [HL]Порождение войны[/HL] для руководства нашей войной.\n\nЕсли мы решим сделать это, появится новый [CHARACTER]адмирал или генерал[/CHARACTER] с чертой Порождения войны, что придаст ему [BONUS]огромную силу в наземных и космических боях[/BONUS].\n\nКроме того, наличие Порождения войны в нашей империи позволяет нам реализовать [HL]Генерацию войны[/HL], где мы можем периодически превращать 10% населения колонии в 10 отрядов пехоты.\n\nОднако это также [WARN]очень негативно повлияет на наши отношения[/WARN] со всеми остальными империями, с которыми у нас еще нет пакта о ненападении или оборонительного договора.\n\nНазначить ли Порождение войны?</Description>
+        <ChoiceButtonText>Назначить Порождение войны!</ChoiceButtonText>
+      </GameEventAction>
+      <GameEventAction index="2">
+        <ChoiceButtonText>Не использовать Порождения войны</ChoiceButtonText>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+</ArrayOfGameEvent>

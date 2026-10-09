@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfPlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="0">
+    <Name>Планетарная ракетная оборона</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="1">
+    <Name>Планетарные пушечные батареи</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="2">
+    <Name>Планетарная лучевая оборона Mk2</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="3">
+    <Name>Планетарная гигантская ионная пушка Mk2</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="4">
+    <Name>Планетарные минные проекторы Mk2</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="5">
+    <Name>Планетарная гравитационная сеть</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="6">
+    <Name>Планетарная торпедная установка Mk2</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="7">
+    <Name>Планетарная ракетная оборона Mk2</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="8">
+    <Name>Планетарные пушечные батареи Mk2</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="9">
+    <Name>Планетарная лучевая оборона Mk3</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="10">
+    <Name>Планетарная гигантская ионная пушка Mk3</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="11">
+    <Name>Планетарные минные проекторы Mk3</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="12">
+    <Name>Планетарная гравитационная сеть Mk2</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="13">
+    <Name>Планетарная торпедная установка Mk3</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="14">
+    <Name>Планетарная ракетная оборона Mk3</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="15">
+    <Name>Планетарные пушечные батареи Mk3</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="16">
+    <Name>Планетарный генератор щита Mk2</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="17">
+    <Name>Планетарный генератор щита Mk3</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="18">
+    <Name>Генератор гравитационного колодца</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="19">
+    <Name>Генератор гравитационного колодца Mk2</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="20">
+    <Name>Планетарная база истребителей</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="21">
+    <Name>Планетарная база истребителей Mk2</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="22">
+    <Name>Планетарная база истребителей Mk3</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="23">
+    <Name>Базар космических торговцев</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="24">
+    <Name>Улучшенная верфь</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="25">
+    <Name>Улучшенный медкомплекс</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="26">
+    <Name>Голографическая сеть</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="27">
+    <Name>Гильдия космических торговцев</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="28">
+    <Name>Высокоскоростная верфь</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="29">
+    <Name>Матрица корректировки реальности</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="30">
+    <Name>Узел космической коммерции</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="31">
+    <Name>Медицинская академия «Колорос»</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="32">
+    <Name>Верфенный комплекс «Бакурас»</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="33">
+    <Name>Голографическая вселенная</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="34">
+    <Name>Галактический горнодобывающий центр</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="35">
+    <Name>Галактический командный центр</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="36">
+    <Name>Галактический туристический мега-парк</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="37">
+    <Name>Галактический дипломатический центр</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="38">
+    <Name>Планетарный административный центр</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="39">
+    <Name>Академия шпионажа</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="40">
+    <Name>Академия наук</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="41">
+    <Name>Военная академия</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="42">
+    <Name>Планетарный административный комплекс</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="43">
+    <Name>Планетарный административный район</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="44">
+    <Name>Планетарный административный мегаполис</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="45">
+    <Name>Галактический мегаполис администрации</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="46">
+    <Name>Галактическая командная сеть</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="47">
+    <Name>Усиленная установка терраформирования</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="48">
+    <Name>Улучшенная установка терраформирования</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="49">
+    <Name>Полноценная установка терраформирования</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="50">
+    <Name>Академия высоких технологий</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="51">
+    <Name>Оружейная академия</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="52">
+    <Name>Академия энергетики</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="53">
+    <Name>Промышленная академия</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="54">
+    <Name>Академия строительства</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="55">
+    <Name>Технологическая установка Руслана</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="56">
+    <Name>Оружейный завод «Касидор»</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="57">
+    <Name>Энергетический комплекс «Вортиген»</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="58">
+    <Name>Инженерный центр «Данула»</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="59">
+    <Name>Строительная зона «Форбард»</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="60">
+    <Name>Галактический научный центр</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="61">
+    <Name>Казармы бронетанковых войск</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="62">
+    <Name>Роботизированная фабрика войск</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="63">
+    <Name>Установка клонирования войск</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="64">
+    <Name>Казармы сил специальных операций</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="65">
+    <Name>Фабрика андроидных войск</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="66">
+    <Name>Установка клонирования «Химера»</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="67">
+    <Name>Центр производства «Титанов»</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="68">
+    <Name>Планетарный центр обороны</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="69">
+    <Name>Планетарный бастион Mk2</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="70">
+    <Name>Планетарная крепость «Меркидор»</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="71">
+    <Name>Погребенный древний звездолет</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="72">
+    <Name>Великий зал Хаако</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="73">
+    <Name>Галактические архивы</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="74">
+    <Name>Обсерватория дальнего космоса</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="75">
+    <Name>Обсерватория дальнего космоса</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="76">
+    <Name>Обсерватория дальнего космоса</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="77">
+    <Name>Ограниченная установка терраформирования</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="78">
+    <Name>Установка терраформирования</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="79">
+    <Name>Погребённый древний линкор</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="80">
+    <Name>Погребенная древняя научная станция</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="81">
+    <Name>Древняя верфь</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="82">
+    <Name>Древняя исследовательская база Акдариан</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="83">
+    <Name>Разрушенная крепость</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="84">
+    <Name>Древние боскаранские норы</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="85">
+    <Name>Древний центр подготовки войск</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="86">
+    <Name>Древний центр подготовки войск</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="94">
+    <Name>Планетарный дворец</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="108">
+    <Name>Фонд галактического сотрудничества</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="123">
+    <Name>Планетарная лучевая оборона</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="124">
+    <Name>Планетарная гигантская ионная пушка</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="125">
+    <Name>Планетарные минные проекторы</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="126">
+    <Name>Планетарная торпедная установка</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="127">
+    <Name>Планетарный генератор щита</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="128">
+    <Name>Планетарный бастион</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="132">
+    <Name>Генератор щита «Мегатрон»</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="133">
+    <Name>Генератор щита «Мегатрон» Mk2</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="134">
+    <Name>Генератор щита «Мегатрон» Mk3</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="135">
+    <Name>Оружейная мега-лаборатория с прямой связью с ядром</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="137">
+    <Name>Древний разбившийся корабль</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="138">
+    <Name>Центр изучения гляциоматерии</Name>
+  </PlanetaryFacilityDefinition>
+</ArrayOfPlanetaryFacilityDefinition>

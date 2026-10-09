@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfRace>
+  <Race id="0">
+    <Name>Люди</Name>
+    <Description>Люди - противоречивый вид: жестокие в войне, но открытые к общению. Какой путь они выберут, может зависеть от их лидеров и тех опасностей или возможностей, с которыми они столкнутся при расширении в звезды. Многие виды рабски подчинены своей природе, но людей notoriously трудно предсказать.\n\nХотя люди не являются самым ориентированным на исследования видом галактических рас, они по своей природе любопытны и креативны, что может дать им небольшое преимущество в научных изысканиях. Они также искусные купцы и торговцы. Но их истинная сила заключается в дипломатии, шпионаже и (если другие варианты исчерпаны) войне.\n\nЛюди охотно делятся своей культурой и стремятся перенять обычаи других видов, что делает их готовыми искать новых партнеров для торговли и культурного обмена. Они также любят расширяться, и заселение новых миров вдохновляет их двигаться еще дальше в неизведанное. Возможно, именно это больше всего делает их опасными: как только люди попробуют вкус успеха, они будут жаждать лишь большего.\n\nКогда война становится неизбежной (или просто желаемой), они пользуются преимуществами своих огромных кораблей и искусных лидеров, на которых полагаются, чтобы проложить путь к победе. Они также стремятся к силе в числах и всегда готовы искать партнеров для оборонительных союзов.\n\nЛюди могут не обладать уникальными сильными сторонами некоторых космических видов, но их способность учиться, адаптироваться, торговать и вести переговоры делает их достойными союзниками и опасными врагами. Их нельзя недооценивать.</Description>
+    <DesignNames op="replace">
+      <string>Excelsior</string>
+      <string>Titan</string>
+      <string>Colossia</string>
+      <string>Striker</string>
+      <string>Thunder</string>
+      <string>Royale</string>
+      <string>Centurion</string>
+      <string>Consul</string>
+      <string>Senator</string>
+      <string>Praetor</string>
+      <string>Quaestor</string>
+      <string>Imperator</string>
+      <string>Maximus</string>
+      <string>Praefectus</string>
+      <string>Tetrarch</string>
+      <string>Decimator</string>
+      <string>Argossia</string>
+      <string>Apulon</string>
+      <string>Battleaxe</string>
+      <string>Javelin</string>
+      <string>Trident</string>
+      <string>Shadow</string>
+      <string>Cossack</string>
+      <string>Minotaur</string>
+      <string>Medusa</string>
+      <string>Victory</string>
+      <string>Vengeance</string>
+      <string>Eclipse</string>
+      <string>Enforcer</string>
+      <string>Sovereign</string>
+      <string>Executor</string>
+      <string>Venator</string>
+      <string>Dominator</string>
+      <string>Allegiance</string>
+      <string>Decurion</string>
+      <string>Sabre</string>
+    </DesignNames>
+    <CharacterFirstNames op="replace">
+      <string>Donato</string>
+      <string>Gudan</string>
+      <string>Juran</string>
+      <string>Lorien</string>
+      <string>Matthia</string>
+      <string>Paedri</string>
+      <string>Than</string>
+      <string>Yuri</string>
+      <string>Kevian</string>
+      <string>Laurus</string>
+      <string>Caran</string>
+      <string>Keryn</string>
+      <string>Thassun</string>
+      <string>Kasto</string>
+      <string>Derras</string>
+      <string>Loras</string>
+      <string>Mishku</string>
+      <string>Obidar</string>
+      <string>Indo</string>
+      <string>Gerrin</string>
+      <string>Luc</string>
+      <string>San</string>
+      <string>Dak</string>
+      <string>Kor</string>
+      <string>Tiko</string>
+      <string>Cobi</string>
+      <string>Peet</string>
+      <string>Yan</string>
+      <string>Basant</string>
+      <string>Hugo</string>
+      <string>Esari</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Ikkuros</string>
+      <string>Nothris</string>
+      <string>Hassari</string>
+      <string>Walkin</string>
+      <string>Mankara</string>
+      <string>Jaksun</string>
+      <string>Undulian</string>
+      <string>Dobachi</string>
+      <string>Trebulo</string>
+      <string>Tarfan</string>
+      <string>Callosk</string>
+      <string>Lukadi</string>
+      <string>Bendu</string>
+      <string>Kesky</string>
+      <string>Berallia</string>
+      <string>Obarria</string>
+      <string>Nesalio</string>
+      <string>Xanaria</string>
+      <string>Allaria</string>
+      <string>Dokari</string>
+      <string>Marteri</string>
+      <string>Okkoros</string>
+      <string>Zoberia</string>
+      <string>Zotri</string>
+      <string>Kalan</string>
+      <string>Redan</string>
+    </CharacterLastNames>
+    <FeatureExplanations op="replace">
+      <string>[HL]Великая художественная выставка:[/HL] когда вы подписываете соглашение о свободной торговле или строите новую курортную базу, вы получаете на 2 года повышенный доход от торговли и туризма по всей империи, а также повышенный доход колонии и туризм в той колонии, где проходит выставка. Не может срабатывать чаще одного раза в 5 лет</string>
+      <string>[HL]Герой дня:[/HL] когда вам объявляют войну, выберите нового адмирала или нового генерала с двумя положительными чертами</string>
+      <string>[HL]Внутренние споры:[/HL] при подписании нового оборонительного договора вы получаете способного нового посла, но также на 2 года снижается счастье колоний по всей империи</string>
+      <string>[HL]Усиленная безопасность:[/HL] когда иностранная разведывательная миссия против вас удаётся (но обнаружена), вы можете потратить шпиона, чтобы на 2 года получить бонус к контршпионажу вместе со снижением счастья колоний по всей империи</string>
+      <string>[HL]Новые миры:[/HL] при колонизации или захвате континентальной планеты вы получаете бесплатное случайное достижение в технологиях колонизации</string>
+      <string>[HL]Большие авианосцы:[/HL] все корпуса кораблей-авианосцев +50 к размеру</string>
+      <string>[HL]Уникальная черта лидера — Создатель альянсов:[/HL] +10% к дипломатии</string>
+      <string>[HL]Уникальная черта посла — Предприниматель:[/HL] +10% к доходу от торговли</string>
+      <string>[HL]Уникальная черта шпиона — Промышленный агент:[/HL] +5% к шпионажу</string>
+      <string>[HL]Уникальная черта учёного — Разрушитель:[/HL] +10% к исследованиям оружия</string>
+    </FeatureExplanations>
+  </Race>
+  <Race id="1">
+    <Name>Акдарианы</Name>
+    <Description>Акдарианы - крайне трудолюбивые полуводные морские млекопитающие. У них большие перепончатые руки и ноги, что делает их превосходными пловцами. Однако их руки также очень ловкие, и они с равным удовольствием живут как в воде, так и на суше.\n\nАкдарианы умны, миролюбивы и дружелюбны. У них богатая культура, сосредоточенная на гибридной природе их среды обитания, объединяющей воду и землю.\n\nОни преуспевают в создании высокоподдерживаемых звездных кораблей. Их технологии включают усовершенствованный двигатель «Турбо-импульс». Этот компонент двигателя обладает исключительной топливной эффективностью, позволяя акдарианским звездным кораблям расходовать меньше топлива и преодолевать большие расстояния.\n\nАкдарианы известны выращиванием нефтидской водоросли, из которой они производят нефтидское вино. Они культивируют огромные леса этой водоросли глубоко под океанами. Регулярно собирая её, они медленно сбраживают в превосходное по гладкости вино.\n\nОни также являются мастерами подводного строительства, возводя обширные и изысканные подводные города. Эти города имеют множество уровней, некоторые из которых уходят далеко вниз в бездны океанов, которыми они населяют. На самых глубоких уровнях акдарианы добывают ценные ресурсы, такие как редкая укантиевая жемчужина.\n\nАкдарианы также обитают на небольших островах и мелководных прибрежных зонах океанических планет.</Description>
+    <DesignNames op="replace">
+      <string>Deliverance</string>
+      <string>Axos</string>
+      <string>Arcadia</string>
+      <string>Atlantis</string>
+      <string>Equinox</string>
+      <string>Epsilon</string>
+      <string>Meridian</string>
+      <string>Nimitz</string>
+      <string>Phoenix</string>
+      <string>Raptor</string>
+      <string>Rekallios</string>
+      <string>Sentinel</string>
+      <string>Tarassian</string>
+      <string>Vortex</string>
+      <string>Verossus</string>
+      <string>Xeros</string>
+      <string>Corellos</string>
+      <string>Cantras</string>
+      <string>Challenger</string>
+      <string>Discovery</string>
+      <string>Enterprise</string>
+      <string>Falcon</string>
+      <string>Giraxon</string>
+      <string>Hercules</string>
+      <string>Lapricus</string>
+      <string>Portia</string>
+      <string>Eagle</string>
+      <string>Osprey</string>
+      <string>Pegasus</string>
+      <string>Sentry</string>
+      <string>Viper</string>
+      <string>Liberty</string>
+      <string>Archaea</string>
+      <string>Condor</string>
+      <string>Iridos</string>
+      <string>Independence</string>
+    </DesignNames>
+    <CharacterFirstNames op="replace">
+      <string>Equia</string>
+      <string>Senaris</string>
+      <string>Udy</string>
+      <string>Olbar</string>
+      <string>Cudas</string>
+      <string>Chozul</string>
+      <string>Wesda</string>
+      <string>Nachis</string>
+      <string>Secho</string>
+      <string>Sorrit</string>
+      <string>Uki</string>
+      <string>Raqi</string>
+      <string>Ebo</string>
+      <string>Yorpa</string>
+      <string>Jukri</string>
+      <string>Ossan</string>
+      <string>Gyut</string>
+      <string>Lutar</string>
+      <string>Xu</string>
+      <string>Aki</string>
+      <string>Vos</string>
+      <string>Xo</string>
+      <string>Xa</string>
+      <string>Osu</string>
+      <string>Wod</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Wassoga</string>
+      <string>Qendo</string>
+      <string>Lapuri</string>
+      <string>Serafu</string>
+      <string>Paklidu</string>
+      <string>Unkaro</string>
+      <string>Opanko</string>
+      <string>Corras</string>
+      <string>Zabros</string>
+      <string>Ebuta</string>
+      <string>Wodos</string>
+      <string>Gokaal</string>
+      <string>Thanda</string>
+      <string>Matado</string>
+      <string>Edari</string>
+      <string>Nobriy</string>
+      <string>Possari</string>
+      <string>Haksur</string>
+      <string>Assari</string>
+      <string>Banasa</string>
+    </CharacterLastNames>
+  </Race>
+  <Race id="2">
+    <Name>Тиканы</Name>
+    <Description>Тиканы - небольшой пушистый род, похожий на грызунов, обладающий тремя глазами.\n\nОни не видят ценности в регулярном мытье и потому часто имеют неприятный запах.\n\nТиканы проявляют особый интерес к накоплению всякого механического хлама, разбирая и ремонтируя собранные ими предметы. У тиканов очень мало по-настоящему оригинальных технологий, но иногда они способны развиться до уровня космических странников.\n\nТиканы рождаются торговцами, выгодно сбывая свои товары далеко и широко. Они также являются отличными шахтёрами, быстро эксплуатируя любые природные ресурсы, которые обнаруживают.\n\nНесмотря на довольно замкнутый образ жизни, они очень миролюбивы и станут верными союзниками, если вы пожелаете подружиться с ними.\n\nТиканы ведут полукочевой образ жизни; хотя некоторые живут в постоянных поселениях, многие предпочитают временные лагеря, периодически мигрируя на новые места.\n\nКочевые племена Тиканов одержимы охотой на Бакдуров, также известных как Песчаный Слизень. Поскольку стада Бакдуров мигрируют через песчаные пустыни, лагеря тиканов следуют за ними.\n\nТиканы населяют обширные пустынные пустоши планет типов Песчаная пустыня, Каменистая пустыня и Пустынная саванна.</Description>
+    <DesignNames op="replace">
+      <string>Lusaka</string>
+      <string>Bindura</string>
+      <string>Sofala</string>
+      <string>Lobito</string>
+      <string>Zanzibar</string>
+      <string>Mombasa</string>
+      <string>Mahajanga</string>
+      <string>Comoros</string>
+      <string>Kinshasa</string>
+      <string>Cabinda</string>
+      <string>Nairobi</string>
+      <string>Axum</string>
+      <string>Senanga</string>
+      <string>Ubundu</string>
+      <string>Aketi</string>
+      <string>Turkana</string>
+      <string>Nyasa</string>
+      <string>Asmera</string>
+      <string>Atbara</string>
+      <string>Calabar</string>
+      <string>Sokoto</string>
+      <string>Takoradi</string>
+      <string>Abidjan</string>
+      <string>Monrovia</string>
+      <string>Bamako</string>
+      <string>Dakar</string>
+      <string>Ibadan</string>
+      <string>Tripoli</string>
+      <string>Aswan</string>
+      <string>Cairo</string>
+      <string>Giza</string>
+      <string>Suez</string>
+      <string>Casablanca</string>
+      <string>Tangiers</string>
+      <string>Agadir</string>
+      <string>Kaduna</string>
+    </DesignNames>
+    <CharacterFirstNames op="replace">
+      <string>Darrat</string>
+      <string>Kibul</string>
+      <string>Ruty</string>
+      <string>Zephry</string>
+      <string>Kweeki</string>
+      <string>Chorpi</string>
+      <string>Jindak</string>
+      <string>Repta</string>
+      <string>Wunta</string>
+      <string>Zacha</string>
+      <string>Dekshi</string>
+      <string>Sawa</string>
+      <string>Sunja</string>
+      <string>Wudri</string>
+      <string>Tek</string>
+      <string>Wia</string>
+      <string>Lerz</string>
+      <string>Faz</string>
+      <string>Rek</string>
+      <string>Iko</string>
+      <string>Yaka</string>
+      <string>Asan</string>
+      <string>Wozi</string>
+      <string>Dex</string>
+      <string>Karg</string>
+      <string>Asunka</string>
+      <string>Jundo</string>
+      <string>Randul</string>
+      <string>Edi</string>
+      <string>Arl</string>
+      <string>Wek</string>
+      <string>Oro</string>
+      <string>Lashar</string>
+      <string>Nashan</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Uktab</string>
+      <string>Woppit</string>
+      <string>Owak</string>
+      <string>Ebarrik</string>
+      <string>Okel</string>
+      <string>Okari</string>
+      <string>Odechy</string>
+      <string>Gachuz</string>
+      <string>Qytian</string>
+      <string>Larrant</string>
+      <string>Noskri</string>
+      <string>Raktan</string>
+      <string>Hanari</string>
+      <string>Diitak</string>
+      <string>Oseri</string>
+      <string>Machka</string>
+      <string>Fossit</string>
+      <string>Shokia</string>
+      <string>Varqi</string>
+      <string>Losit</string>
+      <string>Xetry</string>
+      <string>Tasran</string>
+      <string>Ixito</string>
+      <string>Echigo</string>
+      <string>Poldan</string>
+      <string>Wradu</string>
+      <string>Sartora</string>
+      <string>Nassiki</string>
+      <string>Yablik</string>
+      <string>Urtion</string>
+    </CharacterLastNames>
+    <FeatureExplanations op="replace">
+      <string>[HL]Быстрое модульное строительство:[/HL] все корабли, базы и планетарные сооружения строятся на 30% быстрее обычного</string>
+      <string>[HL]Прирождённые торговцы:[/HL] -5 к порогу подписания новых торговых договоров</string>
+      <string>[HL]Кочевое население:[/HL] естественно рассредоточенное население даёт +30% сопротивления бомбардировкам и потерям в наземных боях</string>
+      <string>[HL]Жители пустынь:[/HL] ополчение тиканов получает +50% к атаке и обороне, а все остальные войска тиканов (пехота, бронетехника и т. д.) получают +20% к атаке и обороне при бое на любой пустынной планете (песчаная пустыня, каменистая пустыня, пустынная саванна)</string>
+      <string>[HL]Галактические кочевники:[/HL] когда у фракции тиканов остаётся только одна колония, она может покинуть эту планету и стать Флотом беженцев в поисках нового дома. Всё население последней колонии загружается на единственный колониальный корабль. Все прежние корабли и базы теряются, за исключением небольшого Флота беженцев. Чтобы активировать «Галактических кочевников», выберите свою последнюю колонию и нажмите кнопку действия «Галактические кочевники» под панелью выбора</string>
+      <string>[HL]Время странствий:[/HL] при основании новой колонии приток миграции в неё сильно возрастает на 5 лет</string>
+      <string>[HL]Великая охота на бакдуров:[/HL] игрок-тикан может вручную начать Великую охоту на бакдуров в любой пустынной колонии (песчаная пустыня, каменистая пустыня, пустынная саванна) за 25 000 кредитов раз в 5 лет. Исход охоты различается, но всегда даёт какие-то преимущества: как правило, бонус к счастью по всей империи и бонус к развитию в колонии</string>
+      <string>[HL]Короли утилизации:[/HL] когда корабль тиканов находит добычу в обломках утилизированного корабля, иногда есть возможность отказаться от первой находки в обмен на шанс найти добычу получше, поискав усерднее. Однако порой это не даёт дополнительных преимуществ, и тогда ничего не будет получено из утилизации</string>
+      <string>[HL]Хрупкие корпуса:[/HL] все корпуса военных кораблей на 20% меньше, из-за чего они уязвимее в бою</string>
+      <string>[HL]Уникальная черта лидера — Странник:[/HL] +20% к качеству лидера, что ускоряет развитие навыков</string>
+      <string>[HL]Уникальная черта лидера — Торгаш:[/HL] +5% к доходу от торговли</string>
+      <string>[HL]Уникальная черта учёного — Мастер на все руки:[/HL] +5% к исследованиям высоких технологий, +5% к промышленным исследованиям</string>
+      <string>[HL]Уникальная черта посла — Торгаш:[/HL] +5% к доходу от торговли</string>
+      <string>[HL]Уникальная черта шпиона — Незамеченный:[/HL] +10% к маскировке</string>
+    </FeatureExplanations>
+  </Race>
+  <Race id="3">
+    <Name>Хаакониш</Name>
+    <Description>Хаакониш - это двуногая рептилоидная раса. У них широкие плоские головы с заметными выступами по бокам. Эти выступы представляют собой носовые полости, обеспечивающие хаакониш непревзойдённым обонянием. Хаакониш обладают крайне плохим зрением, но компенсируют это превосходным чувством обоняния и вкуса.\n\nОни умны и довольно агрессивны. Хаакониш чрезвычайно тщеславны. Они также сильно ощущают собственное расовое превосходство. Поэтому они не любят общество других рас и склонны к ксенофобии.\n\nХаакониш от природы тяготеют к сложным технологиям. Они гордятся проектированием и созданием оборудования с множеством передовых функций, даже если некоторые из этих функций излишни или избыточны.\n\nПриродная бережливость хаакониш привела их к созданию топливного элемента высокой плотности - высокоёмкого топливного бака. Это обеспечивает звёздным кораблям хаакониш большую дальность полёта и выносливость.\n\nХаакониш обычно живут в полностью закрытых биосферах в прибрежных районах планет с болотистыми топями и мангровыми лесами.</Description>
+    <DesignNames op="replace">
+      <string>Medan</string>
+      <string>Pattani</string>
+      <string>Malacca</string>
+      <string>Letong</string>
+      <string>Tenasserim</string>
+      <string>Tavoy</string>
+      <string>Henzada</string>
+      <string>Chon Buri</string>
+      <string>Vung Tau</string>
+      <string>Chiang Mai</string>
+      <string>Mandalay</string>
+      <string>Haiphong</string>
+      <string>Saigon</string>
+      <string>Bangkok</string>
+      <string>Kelang</string>
+      <string>Singapore</string>
+      <string>Lumpur</string>
+      <string>Jakarta</string>
+      <string>Sarawak</string>
+      <string>Andaman</string>
+      <string>Surabaya</string>
+      <string>Bandar Seri</string>
+      <string>Semarang</string>
+      <string>Kalimanta</string>
+      <string>Surakarta</string>
+      <string>Sumbawa</string>
+      <string>Telok</string>
+      <string>Saravane</string>
+      <string>Samarinda</string>
+      <string>Kandangan</string>
+      <string>Phan Thiet</string>
+      <string>Mekong</string>
+      <string>Sumatra</string>
+      <string>Hanoi</string>
+      <string>Kuantan</string>
+      <string>Sanggau</string>
+    </DesignNames>
+    <CharacterFirstNames op="replace">
+      <string>Equia</string>
+      <string>Senaris</string>
+      <string>Udy</string>
+      <string>Olbar</string>
+      <string>Cudas</string>
+      <string>Chozul</string>
+      <string>Wesda</string>
+      <string>Nachis</string>
+      <string>Secho</string>
+      <string>Sorrit</string>
+      <string>Uki</string>
+      <string>Raqi</string>
+      <string>Ebo</string>
+      <string>Yorpa</string>
+      <string>Jukri</string>
+      <string>Ossan</string>
+      <string>Gyut</string>
+      <string>Lutar</string>
+      <string>Xu</string>
+      <string>Aki</string>
+      <string>Vos</string>
+      <string>Xo</string>
+      <string>Xa</string>
+      <string>Osu</string>
+      <string>Wod</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Wassoga</string>
+      <string>Qendo</string>
+      <string>Lapuri</string>
+      <string>Serafu</string>
+      <string>Paklidu</string>
+      <string>Unkaro</string>
+      <string>Opanko</string>
+      <string>Corras</string>
+      <string>Zabros</string>
+      <string>Ebuta</string>
+      <string>Wodos</string>
+      <string>Gokaal</string>
+      <string>Thanda</string>
+      <string>Matado</string>
+      <string>Edari</string>
+      <string>Nobriy</string>
+      <string>Possari</string>
+      <string>Haksur</string>
+      <string>Assari</string>
+      <string>Banasa</string>
+    </CharacterLastNames>
+    <FeatureExplanations op="replace">
+      <string>[HL]Претенциозный дизайн:[/HL] все корпуса кораблей и баз используют на 20% больше ресурсов и стоят на 10% дороже. Планетарные сооружения строятся на 10% медленнее</string>
+      <string>[HL]Обязывающие контракты:[/HL] другие фракции, имеющие торговый договор с хаакониш, [B]чаще покупают ресурсы в локациях хаакониш[/B], а не у других иностранных поставщиков</string>
+      <string>[HL]Штрафные оговорки:[/HL] фракции, объявляющие войну фракции хаакониш, получают [B]штраф -10 к репутации[/B]. Независимые колонии также немедленно [B]расторгнут любые торговые договоры с воюющей фракцией[/B], если у них есть торговый договор с фракцией хаакониш</string>
+      <string>[HL]Конфискация счетов:[/HL] когда фракция объявляет войну хаакониш, фракция хаакониш немедленно [B]получает бонусный доход, равный всей торговле[/B] с воюющей фракцией за предыдущий год</string>
+      <string>[HL]Высшая судьба:[/HL] каждый раз, когда завершён исследовательский проект, специфичный для хаакониш, вы получаете [GOOD]бонус +5 к счастью по всей империи[/GOOD] на 2 года</string>
+      <string>[HL]Использование лазеек:[/HL] фракция хаакониш может использовать торговый договор с другой фракцией, [GOOD]забирая деньги напрямую у другой фракции[/GOOD] (до 30 000 кредитов для обычных империй, до 15 000 кредитов для независимых колоний). Однако это действие заставит другую фракцию немедленно [BAD]расторгнуть торговый договор[/BAD] и [BAD]нанесёт ущерб нашей репутации[/BAD]</string>
+      <string>[HL]Экономический подъём:[/HL] творческая бухгалтерия [GOOD]увеличивает доход империи на +10%[/GOOD] на 5 лет. Однако позже она вызывает [BAD]рост коррупции во всех колониях[/BAD], длящийся 5 лет. Можно запустить в любой колонии раз в 8 лет</string>
+      <string>[HL]Ксенофобские беспорядки:[/HL] можно запустить в любой колонии, чтобы [B]немедленно сократить население не-хаакониш на 25%[/B] в этой колонии. Колония также получает [GOOD]+10 к счастью[/GOOD] на 5 лет и [BAD]сниженную миграцию[/BAD] на 10 лет. Фракция хаакониш также получает [BAD]штраф -10 к репутации[/BAD]</string>
+      <string>[HL]Уникальная черта лидера — Жёсткий переговорщик:[/HL] +10% к доходу от торговли, -5% к дипломатии</string>
+      <string>[HL]Уникальная черта лидера — Ксенофил:[/HL] -5% к счастью колоний, -5% к контршпионажу</string>
+      <string>[HL]Уникальная черта учёного — Многомерный:[/HL] +5% к исследованиям брони, +5% к исследованиям строительства, +5% к исследованиям двигателей, +5% к исследованиям высоких технологий, +5% к исследованиям гипердвигателей, +5% к промышленным исследованиям, +5% к исследованиям реакторов, +5% к исследованиям сенсоров, +5% к исследованиям щитов, +5% к исследованиям войск, +5% к исследованиям оружия</string>
+      <string>[HL]Уникальная черта посла — Ксенолокутор:[/HL] +10% к дипломатии, -5% к контршпионажу</string>
+      <string>[HL]Уникальная черта шпиона — Подозрительный:[/HL] +5% к контршпионажу, +5% к маскировке</string>
+    </FeatureExplanations>
+  </Race>
+  <Race id="4">
+    <Name>Морталены</Name>
+    <Description>Хотя некоторые виды смотрят в будущее, Морталены обращаются к прошлому, однако было бы ошибкой считать их традиционные пути слабостью. Для Морталенов честь, верность и победа стоят превыше всего, что делает их желанными друзьями и ужасными врагами.\n\nИх культура прочно укоренена в древних обычаях, и теперь они готовы нести эти традиции к звёздам. Главной из их ценностей является приоритет боя. Как личности, Морталены ищут славы в состязаниях воли, охоте на опасных зверей и смертельных поединках.\n\nКак общество, Морталены процветают благодаря состязаниям, дающим возможность продемонстрировать мощь и дисциплину своей культуры. Когда они выбирают врага, всё население Морталенов посвящает себя победе. Морталены гораздо реже других видов устают от конфликтов. Они никогда не сдаются и сражаются даже тогда, когда успех невозможен. Славная смерть несравнимо лучше позорного выживания.\n\nЭта врождённая воинственность вселяет страх в их врагов, но имеет свою цену внутри самой культуры Морталенов. В соответствии со своими древними традициями они сражаются друг с другом в состязаниях мастерства и мужества, и даже высокопоставленные лидеры могут предаваться личным междоусобицам.\n\nМорталены известны своими хорошо бронированными кораблями, обладающими уникальной маневренностью. Это идеальные инструменты для покорения новых миров. Стремясь к прогрессу и гонясь за честью, их военные лидеры мечтают о галактическом господстве, захватывая больше миров и порабощая больше народов, чем их соперники.\n\nДля Морталенов честь превыше всего, а сама галактика - это арена для проверки своей доблести.</Description>
+    <DesignNames op="replace">
+      <string>Isfahan</string>
+      <string>Shiraz</string>
+      <string>Bushehr</string>
+      <string>Tabriz</string>
+      <string>Mashhad</string>
+      <string>Ashkhabad</string>
+      <string>Hamadan</string>
+      <string>Yerevan</string>
+      <string>Ahvaz</string>
+      <string>Sanandaj</string>
+      <string>Kashan</string>
+      <string>Ankara</string>
+      <string>Trabzon</string>
+      <string>Istanbul</string>
+      <string>Tarsus</string>
+      <string>Adana</string>
+      <string>Mersin</string>
+      <string>Izmir</string>
+      <string>Iskenderun</string>
+      <string>Sarikamis</string>
+      <string>Hakkari</string>
+      <string>Ordu</string>
+      <string>Mosul</string>
+      <string>Nasiriyah</string>
+      <string>Aleppo</string>
+      <string>Malatya</string>
+      <string>Baku</string>
+      <string>Baqubah</string>
+      <string>Abadan</string>
+      <string>Rutbah</string>
+      <string>Ramadi</string>
+      <string>Bubiyan</string>
+      <string>Astara</string>
+      <string>Latakia</string>
+      <string>Zagros</string>
+      <string>Arak</string>
+    </DesignNames>
+    <CharacterFirstNames op="replace">
+      <string>Balluk</string>
+      <string>Doktan</string>
+      <string>Kutar</string>
+      <string>Yurkan</string>
+      <string>Yentor</string>
+      <string>Maztar</string>
+      <string>Danpo</string>
+      <string>Jattub</string>
+      <string>Cwedo</string>
+      <string>Sarriq</string>
+      <string>Bakra</string>
+      <string>Xadry</string>
+      <string>Gartra</string>
+      <string>Zekan</string>
+      <string>Zhatar</string>
+      <string>Wokor</string>
+      <string>Haki</string>
+      <string>Gar</string>
+      <string>Kuut</string>
+      <string>Mok</string>
+      <string>Uza</string>
+      <string>Vok</string>
+      <string>Yaz</string>
+      <string>Raak</string>
+      <string>Zeek</string>
+      <string>Dekshi</string>
+      <string>Bherat</string>
+      <string>Ghoran</string>
+      <string>Wunta</string>
+      <string>Zacha</string>
+      <string>Sabri</string>
+      <string>Ebari</string>
+      <string>Suntaj</string>
+      <string>Fhasha</string>
+      <string>Yepta</string>
+      <string>Yudar</string>
+      <string>Gobar</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Bhulkadin</string>
+      <string>Zhukziban</string>
+      <string>Rustov</string>
+      <string>Jandirrosk</string>
+      <string>Makarius</string>
+      <string>Daghrun</string>
+      <string>Takruan</string>
+      <string>Halskut</string>
+      <string>Gepkiy</string>
+      <string>Hakhra</string>
+      <string>Jukelos</string>
+      <string>Yemodo</string>
+      <string>Yskllor</string>
+      <string>Kazzdi</string>
+      <string>Erakto</string>
+      <string>Makkatar</string>
+      <string>Akshat</string>
+      <string>Ghazzik</string>
+      <string>Argria</string>
+      <string>Tzarak</string>
+      <string>Hudall</string>
+      <string>Fushti</string>
+      <string>Taghran</string>
+      <string>Ruuntul</string>
+      <string>Kawass</string>
+      <string>Pazdaris</string>
+      <string>Frokaal</string>
+      <string>Shiddai</string>
+      <string>Cutsan</string>
+    </CharacterLastNames>
+    <FeatureExplanations op="replace">
+      <string>[HL]Волна воинов:[/HL] когда вы объявляете войну, вы получаете на 2 года бонус к росту населения морталенов и на выбор либо большой бонус к скорости набора войск, либо бонус к силе атаки войск</string>
+      <string>[HL]Патриотическая волна:[/HL] когда вам объявляют войну, вы получаете на 2 года бонус к росту населения морталенов и на выбор либо снижение коррупции колоний, либо снижение усталости от войны</string>
+      <string>[HL]Знай своего врага:[/HL] при вторжении и захвате вражеского мира выберите бонус на 2 года либо к шпионажу и контршпионажу, либо к наведению и контрмерам</string>
+      <string>[HL]Докажи себя:[/HL] периодически выбирайте двух персонажей (из лидера, адмиралов, генералов) для испытания боем. При успехе выбранный персонаж получает положительную черту, иначе — отрицательную</string>
+      <string>[HL]Усиленные корпуса:[/HL] у всех корпусов кораблей и космопортов +1 к рейтингу реактивной брони</string>
+      <string>[HL]Уникальная черта лидера — Военачальник:[/HL] +10% к экономии на обслуживании войск, +20% к экономии на обслуживании кораблей</string>
+      <string>[HL]Уникальная черта адмирала — Гранд-адмирал:[/HL] +10% к урону оружия, +10% к наведению</string>
+      <string>[HL]Уникальная черта генерала — Ученик войны:[/HL] +20% к силе атаки войск, +10% к экономии на обслуживании войск</string>
+      <string>[HL]Уникальная черта посла — Устрашающее присутствие:[/HL] +10% к дипломатии</string>
+    </FeatureExplanations>
+  </Race>
+  <Race id="6">
+    <Name>Боскара</Name>
+    <Description>Боскара - свирепая раса инсектоидов с прочной коричневой хитиновой броней.\n\nОни являются самой жестокой и агрессивной расой в известной галактике. Боскара преуспевают в боях, используя хитрость и обман для достижения превосходства. Боскара - ненадежные союзники.\n\nИнстинктивная жажда завоеваний и экспансии у боскаран не имеет равных. Большинство других рас считает их совершенно беспринципными, поэтому они держатся от них подальше. Однако у боскара есть естественный союзник - слукены, их немного более разумные близкие родственники.\n\nИх технологии включают смертоносное оружие «Шактурский Огненный Шторм» - чрезвычайно разрушительную торпеду. Это вооружение придает звездным кораблям боскаран колоссальные возможности для планетарных штурмов, позволяя им быстро уничтожать оборонительные космопорты на вражеских колониях. «Шактурский Огненный Шторм» также обладает способностью к планетарной бомбардировке, что позволяет боскара полностью истреблять население вражеских колоний.\n\nБоскара обычно обитают в суровых условиях вулканических планет. Сообщества иногда можно обнаружить и в скалистых горах углеродистых планет.</Description>
+    <FeatureExplanations op="replace">
+      <string>[HL]Слабая борьба за живучесть:[/HL] у всех корпусов кораблей и баз -10% к снижению урона, из-за чего больше урона пробивает щиты и броню</string>
+      <string>[HL]Порождение войны:[/HL] возможность получить нового сильного [CHARACTER]адмирала или генерала[/CHARACTER] типа «Порождение войны» при объявлении войны другой фракции, но ценой [BAD]сильно ухудшившихся отношений[/BAD] со всеми остальными фракциями, не имеющими пакта о ненападении или оборонительного договора. Наличие такого персонажа также включает механику [B]порождения войны[/B] (см. ниже). Не наступает, если у вас уже есть такой персонаж</string>
+      <string>[HL]Подвластелины:[/HL] открывается дополнительный ресурс при основании новой вулканической колонии</string>
+      <string>[HL]Мы правим безраздельно:[/HL] при захвате родного мира другой империи вы получаете +20% к счастью империи на 10 лет</string>
+      <string>[HL]Безумный каннибализм:[/HL] в мирное время одна из ваших колоний боскара может периодически впадать в сверхагрессивное каннибальское безумие, теряя около 10% населения</string>
+      <string>[HL]Тотальная война:[/HL] в мирное время игрок может направить любую колонию на военное производство на 2 года. В это время колония получает +50% к скорости строительства кораблей и +50% к скорости набора войск. Однако колония также будет получать [BAD]5 урона в год[/BAD]</string>
+      <string>[HL]Порождение войны (процесс):[/HL] когда в империи есть персонаж «Порождение войны», игрок может начать порождение войны в любой колонии с населением боскара более 1 миллиарда. Это немедленно превратит 10% населения колонии в 10 новых отрядов пехоты бесплатно</string>
+      <string>[HL]Мегалаборатория оружия с привязкой к ядру:[/HL] уникальное сооружение боскара, дающее бонусы к исследованиям оружия и ко всем исследованиям, но снижающее качество планеты, на которой построено</string>
+      <string>[HL]Уникальная черта лидера — Подвластелин:[/HL] +10% к скорости добычи. Высокий шанс получить при основании новой вулканической колонии</string>
+      <string>[HL]Уникальная черта шпиона — Злонамеренный:[/HL] +10% к диверсиям, +10% к убийствам. Высокий шанс получить при успешном завершении любой диверсионной миссии или миссии убийства</string>
+      <string>[HL]Уникальная черта адмирала и генерала — Порождение войны:[/HL] +20% к силе наземной атаки, +10% к урону оружия, +10% к наведению. Приобретается, если после объявления войны выбрано назначить Порождение войны</string>
+      <string>[HL]Уникальная черта адмирала — Испепелитель миров:[/HL] +20% к урону бомбардировкой. Приобретается при полном уничтожении колонии бомбардировкой</string>
+    </FeatureExplanations>
+    <DesignNames op="replace">
+      <string>Jaipur</string>
+      <string>Kathmandu</string>
+      <string>Varanasi</string>
+      <string>Guntur</string>
+      <string>Agra</string>
+      <string>Kochi</string>
+      <string>Dhaka</string>
+      <string>Karachi</string>
+      <string>Kashmir</string>
+      <string>Delhi</string>
+      <string>Orissa</string>
+      <string>Pradesh</string>
+      <string>Dehra Dun</string>
+      <string>Bhopal</string>
+      <string>Jamnagar</string>
+      <string>Bhavnagar</string>
+      <string>Kanpur</string>
+      <string>Bihar</string>
+      <string>Bhatpara</string>
+      <string>Akola</string>
+      <string>Hyderabad</string>
+      <string>Bangalore</string>
+      <string>Tenali</string>
+      <string>Proddatur</string>
+      <string>Sira</string>
+      <string>Bhatkal</string>
+      <string>Badagara</string>
+      <string>Imphal</string>
+      <string>Alwar</string>
+      <string>Gurkha</string>
+      <string>Simikot</string>
+      <string>Bengal</string>
+      <string>Ratlam</string>
+      <string>Sikar</string>
+      <string>Ranchi</string>
+      <string>Srinagar</string>
+    </DesignNames>
+    <CharacterFirstNames op="replace">
+      <string>Qarg</string>
+      <string>Cwedo</string>
+      <string>Rardi</string>
+      <string>Falok</string>
+      <string>Jedok</string>
+      <string>Mavoq</string>
+      <string>Buzdi</string>
+      <string>Tubek</string>
+      <string>Vallu</string>
+      <string>Bhalod</string>
+      <string>Gwudo</string>
+      <string>Jovuk</string>
+      <string>Vakuz</string>
+      <string>Terak</string>
+      <string>Wokku</string>
+      <string>Bakra</string>
+      <string>Bhenta</string>
+      <string>Suutan</string>
+      <string>Xadry</string>
+      <string>Ishmat</string>
+      <string>Gex</string>
+      <string>Kaz</string>
+      <string>Zok</string>
+      <string>Yorg</string>
+      <string>Krebo</string>
+      <string>Udriul</string>
+      <string>Xha</string>
+      <string>Pok</string>
+      <string>Jaka</string>
+      <string>Erut</string>
+      <string>Mek</string>
+      <string>Azdun</string>
+      <string>Dyr</string>
+      <string>Nerg</string>
+      <string>Seg</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Boshak</string>
+      <string>Teklor</string>
+      <string>Zaddaty</string>
+      <string>Rakkarid</string>
+      <string>Rokaas</string>
+      <string>Kuutsian</string>
+      <string>Mokkodis</string>
+      <string>Narrit</string>
+      <string>Menkar</string>
+      <string>Exotun</string>
+      <string>Summorak</string>
+      <string>Puksha</string>
+      <string>Tobbat</string>
+      <string>Hezzok</string>
+      <string>Hektor</string>
+      <string>Vretok</string>
+      <string>Roxilli</string>
+      <string>Varkiy</string>
+      <string>Jattub</string>
+      <string>Sarriq</string>
+      <string>Pruggu</string>
+      <string>Prokari</string>
+      <string>Callax</string>
+      <string>Fimto</string>
+      <string>Tannax</string>
+      <string>Yurkan</string>
+      <string>Koomiel</string>
+      <string>Yhekhri</string>
+      <string>Dhziry</string>
+      <string>Mhegrhi</string>
+    </CharacterLastNames>
+  </Race>
+  <Race id="7">
+    <Name>Зеноксы</Name>
+    <Description>Зеноксы - древняя кошачья раса с густой золотистой шерстью.\n\nОни крайне осторожны и не вступают легко в соглашения с другими. Любые новые договоры, которые они заключают, обычно требуют чрезвычайно длительного периода переговоров, на каждом этапе которых проводится затянутая фаза пересмотра. Зеноксы убеждаются, что абсолютно ясно понимают каждую последнюю деталь соглашения, прежде чем окончательно его утвердить.\n\nЗеноксы проявляют особый интерес к записи и сохранению галактической истории. Они ищут предметы исторического значения по всей галактике.\n\nОни также являются выдающимися рассказчиками эпических историй. Они черпают из своего обширного запаса древних мифов и легенд, чтобы создавать уникальные и захватывающие повествования. Зеноксы утверждают, что являются хранителями секретных знаний о галактической истории, часть которых они раскрывают в своих историях.\n\nНа самом деле некоторые их исторические исследования привели к неординарным утверждениям о прошлом галактики. Одна из этих историй утверждает, что все инсектоидные расы когда-то предали остальную галактику внешнему захватчику. Однако большинство других инопланетных рас отвергают эти выводы как недоказанные сказки.\n\nТехнологии Зеноксов включают передовой компонент щитов - «Мега́трон». Эти мощные щиты обеспечивают надежную защиту звездолетам и базам Зеноксов.\n\nЗеноксы населяют тундровые пустоши планет типов Ледяная тундра, Лед или Замерзший лед. Обычно они строят крупные города глубоко под землей в огромных ледяных пещерах и тоннелях.</Description>
+    <DesignNames op="replace">
+      <string>Constantia</string>
+      <string>Stara Zagora</string>
+      <string>Oradea</string>
+      <string>Foscani</string>
+      <string>Satu Mare</string>
+      <string>Napoca</string>
+      <string>Zalau</string>
+      <string>Rimnicu</string>
+      <string>Varna</string>
+      <string>Negru Voda</string>
+      <string>Medias</string>
+      <string>Venezia</string>
+      <string>Rovigo</string>
+      <string>Rimini</string>
+      <string>Brindisi</string>
+      <string>Cosenza</string>
+      <string>Capri</string>
+      <string>Livorno</string>
+      <string>Alassio</string>
+      <string>Macerata</string>
+      <string>Taranto</string>
+      <string>Salerno</string>
+      <string>Bergamo</string>
+      <string>Imperia</string>
+      <string>Barcelona</string>
+      <string>Valencia</string>
+      <string>Cartagena</string>
+      <string>Zaragoza</string>
+      <string>Lerida</string>
+      <string>Montblanc</string>
+      <string>Toledo</string>
+      <string>Portalegre</string>
+      <string>Sintra</string>
+      <string>Segovia</string>
+      <string>Legrono</string>
+      <string>Agricento</string>
+    </DesignNames>
+    <FeatureExplanations op="replace">
+      <string>[HL]Встроенная скрытность:[/HL] у большинства корпусов военных кораблей и баз +10 к скрытности</string>
+      <string>[HL]Древние звёздные карты:[/HL] исследовательские корабли сканируют и обследуют на 20% быстрее. У всех кораблей на 20% выше точность гиперпрыжка: они выходят из прыжка ближе к цели (в чужих локациях)</string>
+      <string>[HL]Чудеса прошлого:[/HL] при исследовании руин можно выбрать +10% к счастью империи или +10% ко всем исследованиям на один год</string>
+      <string>[HL]Предсказательная история:[/HL] при исследовании руин можно получить улучшенную дипломатию и разведку на два года ценой сниженных исследований</string>
+      <string>[HL]Сохранить руины:[/HL] при основании новой колонии в локации с руинами можно выбрать: превратить руины в бесплатное сооружение управления либо сохранить руины с повышенными уровнями бонусов</string>
+      <string>[HL]Подземные города:[/HL] у всех планетарных сооружений +25% к сопротивлению бомбардировке и +25% к сопротивлению наземному бою</string>
+      <string>[HL]Поиск в архивах:[/HL] можно заплатить за тщательную проверку всех данных в архивах зеноксов. Эта проверка даёт случайное преимущество: краткосрочный бонус к счастью или исследованиям, а то и координаты важного галактического объекта...</string>
+      <string>[HL]Уникальная черта лидера — Архивариус:[/HL] +5% ко всем исследованиям, -5% к дипломатии. Приобретается при исследовании руин с любым бонусом 10% и выше</string>
+      <string>[HL]Уникальная черта лидера — Древний род:[/HL] гарантирует, что у персонажа только положительные черты. Любые отрицательные черты будут заменены на положительные. Высокий шанс получить при исследовании руин с бонусом «Все исследования»</string>
+      <string>[HL]Уникальная черта учёного — Живущий прошлым:[/HL] -5% ко всем исследованиям, но сильно повышен шанс критических прорывов в исследованиях. Приобретается при исследовании хранилищ Древних Стражей</string>
+      <string>[HL]Уникальная черта посла — Манипулятор:[/HL] -10% к дипломатии, +10% к PsyOps. Приобретается при подписании договора с другой империей</string>
+      <string>[HL]Уникальная черта шпиона — Скрытный:[/HL] +5% к контршпионажу, +5% к маскировке. Приобретается при перехвате вражеского шпиона</string>
+    </FeatureExplanations>
+    <CharacterFirstNames op="replace">
+      <string>Lebon</string>
+      <string>Arridan</string>
+      <string>Essaf</string>
+      <string>Jundo</string>
+      <string>Randul</string>
+      <string>Kupi</string>
+      <string>Gordas</string>
+      <string>Kodias</string>
+      <string>Yuros</string>
+      <string>Ubi</string>
+      <string>Yusan</string>
+      <string>Gudan</string>
+      <string>Thassun</string>
+      <string>Derras</string>
+      <string>Mishku</string>
+      <string>Gerrin</string>
+      <string>Jarus</string>
+      <string>Bam</string>
+      <string>Ko</string>
+      <string>Yok</string>
+      <string>Bant</string>
+      <string>Garuk</string>
+      <string>Koti</string>
+      <string>Coz</string>
+      <string>Mak</string>
+      <string>Arramy</string>
+      <string>Klopis</string>
+      <string>Col</string>
+      <string>Usu</string>
+      <string>Eda</string>
+      <string>Het</string>
+      <string>Yuros</string>
+      <string>Copian</string>
+      <string>Kupi</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Atthanchi</string>
+      <string>Kodansta</string>
+      <string>Saxxul</string>
+      <string>Vuulior</string>
+      <string>Xatara</string>
+      <string>Napulon</string>
+      <string>Orridan</string>
+      <string>Mekorta</string>
+      <string>Icarri</string>
+      <string>Jaxsta</string>
+      <string>Halan</string>
+      <string>Bechido</string>
+      <string>Dokari</string>
+      <string>Ulari</string>
+      <string>Haachut</string>
+      <string>Nissuri</string>
+      <string>Assari</string>
+      <string>Metrii</string>
+      <string>Eksari</string>
+      <string>Atsios</string>
+      <string>Suppari</string>
+      <string>Serraby</string>
+      <string>Arridan</string>
+      <string>Idantia</string>
+      <string>Glapir</string>
+      <string>Lobas</string>
+      <string>Profarian</string>
+      <string>Lincarz</string>
+    </CharacterLastNames>
+  </Race>
+  <Race id="12">
+    <Name>Кетаровы</Name>
+    <Description>Кетаровы - раса средних размеров, двуногих млекопитающих с короткой белой шерстью.\n\nКетаровы обладают высоким интеллектом и любят интриги и обман. Вместо того чтобы вступать в открытую конфронтацию со своими врагами, они предпочитают использовать шпионаж и саботаж, чтобы эксплуатировать их слабости.\n\nОни часто подозревают, что другие стремятся подорвать их позиции. Эта естественная паранойя укрепляет их склонность к шпионажу и разведке. Однако это также может приводить к недопониманию, поскольку они постоянно ставят под сомнение намерения даже своих друзей.\n\nПо этим причинам Кетаровы часто являются ненадежными союзниками - иронично, но они не заслуживают доверия именно потому, что сами никому не доверяют.\n\nКетаровы обычно обитают в крупных сообществах на открытых равнинах планет с луговым или континентальным биомом.</Description>
+    <CharacterFirstNames op="replace">
+      <string>Lebon</string>
+      <string>Arridan</string>
+      <string>Essaf</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Atthanchi</string>
+      <string>Kodansta</string>
+      <string>Saxxul</string>
+    </CharacterLastNames>
+  </Race>
+  <Race id="13">
+    <Name>Киадианы</Name>
+    <Description>Киадианы - высокоразвитая гуманоидная раса с увеличенным черепом.\n\nКиадианы хитры и рассудительны. Они тщательно оценивают и планируют возможные последствия любого предпринимаемого ими действия. Кроме того, они являются одними из самых верных союзников в галактике.\n\nКиадианы - глубокие мыслители с поглотительной культурой, проникнутой тончайшей глубиной. Они любят размышлять над абстрактными сложностями продвинутой математики. В то же время они очень практичны: применяют свой острый интеллект для создания изощренных технологий.\n\nИх передовые технологии включают систему противодействия ShadowGhost ECM - исключительно эффективный компонент защиты. Эти мощные средства противодействия делают звездные корабли киадиан крайне трудными целями для врагов, позволяя им уклоняться от значительной части вражеского огня.\n\nКод чести киадианов легендарен: они предпочтут смерть нарушению своего слова. Как только киадиан дает обещание или заключает соглашение, он никогда его не нарушит.\n\nОни также - очень гордая раса и с радостью берутся за невыполнимые задания, которые обычно заканчиваются почетным поражением. Этот кажущийся иррациональным подход иногда приводит к удивительным достижениям: киадианы будут упорно бороться в ситуации, которую другие сочли бы безнадежной.\n\nТипичные места обитания киадианов - горы и равнины континентальных или лесных планет.</Description>
+    <CharacterFirstNames op="replace">
+      <string>Donato</string>
+      <string>Gudan</string>
+      <string>Juran</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Ikkuros</string>
+      <string>Nothris</string>
+      <string>Hassari</string>
+    </CharacterLastNames>
+  </Race>
+  <Race id="14">
+    <Name>Наксиллианы</Name>
+    <Description>Наксиллианы - это величественные и страшные рептилии с яростными красными глазами. Несмотря на то что они являются рептилиями, их тела покрыты густой шерстью. Они обладают невероятно мощными предплечьями, что делает их превосходными бойцами в рукопашном бою.\n\nОни крайне агрессивны, но могут стать весьма верными союзниками, если с ними подружиться. Наксиллианы обычно проявляют крайнюю осторожность, однако становятся довольно дружелюбными, когда узнают друг друга поближе.\n\nНаксиллианы фанатично преданы конкурентному спорту, который они называют Тодаш. Тодаш - это игра с двумя маленькими камнями. Цель игры заключается в том, чтобы одновременно забросить оба камня в зону ворот противника. Очко засчитывается, когда это происходит. Команда, первой набравшая 10 очков, выигрывает игру.\n\nВ Тодаше нет строгих правил относительно того, как можно сбить игрока, несущего один из камней, поэтому игра иногда становится довольно жестокой. Владение двумя камнями может переходить от одной команды к другой в течение длительного времени без явного преимущества ни для кого. Игры могут длиться многие часы и даже прерываться на следующий день для продолжения.\n\nМногие Наксиллианы живут в небольших племенных лагерях. Однако у них также есть высокоразвитые городские районы, наполненные передовыми отраслями промышленности, такими как строительство звездолетов.\n\nНаксиллианы обычно обитают на тундровых пустошах мира Ice Tundra и ледяных планет, но их иногда можно встретить в уединенных долинах на замерзших ледяных планетах.</Description>
+    <CharacterFirstNames op="replace">
+      <string>Balluk</string>
+      <string>Doktan</string>
+      <string>Kutar</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Bhulkadin</string>
+      <string>Zhukziban</string>
+      <string>Rustov</string>
+    </CharacterLastNames>
+  </Race>
+  <Race id="16">
+    <Name>Секураны</Name>
+    <Description>Секураны - поразительно привлекательная раса гуманоидов с зеленой кожей.\n\nОни дружелюбны и являются также очень верными союзниками.\n\nУ секуранов высокий темп размножения, поэтому их популяция может расти довольно быстро.\n\nСекураны преуспевают в исполнительском искусстве, особенно в пении и танцах. Они также являются экспертами-музыкантами и композиторами.\n\nУ секуранов высоко развитая театральная традиция. Их спектакли переполнены драматизмом и напряжением. Актеры и актрисы секуранов пользуются высоким спросом по всей галактике, занимая ведущие роли в драматических постановках. Крупные труппы секуранских драматургов путешествуют по галактике, выступая в различных местах.\n\nОни также с большой страстью интересуются кулинарией и едой. Наслаждение хорошей пищей и изысканным винным напитком секуранов является центральной частью их культуры.\n\nСекураны очень гостеприимны, и они неизменно угощают любых посетителей из других миров грандиозным пиром, в котором представлены все их превосходные блюда.\n\nСекураны населяют обширные открытые равнины планет типа Пустынно-саванновые, Песчаные пустынные или Каменистые пустынные.</Description>
+    <CharacterFirstNames op="replace">
+      <string>Donato</string>
+      <string>Gudan</string>
+      <string>Juran</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Ikkuros</string>
+      <string>Nothris</string>
+      <string>Hassari</string>
+    </CharacterLastNames>
+  </Race>
+  <Race id="17">
+    <Name>Шандары</Name>
+    <Description>Шандары - это легко приспосабливающаяся рептилоидная раса с зеленой чешуйчатой кожей.\n\nШандары обитают вблизи вулканических паровых фумарол на вулканических или углеродистых планетах. Их также иногда можно встретить на серно-вулканических мирах. Они любят жару и тепло, особенно предпочитая часами нежиться в геотермальных горячих бассейнах.\n\nПродолжительность жизни шандаров исчисляется столетиями; некоторые из них доживают даже до 1000 лет. Обычно они довольно расслаблены и беззаботны, не озабочены тревогами или планированием будущего. Шандары сосредоточены на наслаждении простыми радостями жизни и живут настоящим моментом.\n\nОни особенно искусно используют жидкую лаву в строительстве, формируя из неё сооружения по мере остывания до камня. Используя эти техники, они могут быстро возводить прочные и долговечные здания. Их огромные подземные верфи, построенные таким образом, особенно знамениты.\n\nХотя они часто усердно добывают драгоценные камни, в целом они проявляют мало интереса к остальной галактике вокруг себя. Обычно им достаточно спокойно прожить свои столетия, нежась на берегу лавовых озер.</Description>
+    <CharacterFirstNames op="replace">
+      <string>Balluk</string>
+      <string>Doktan</string>
+      <string>Kutar</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Bhulkadin</string>
+      <string>Zhukziban</string>
+      <string>Rustov</string>
+    </CharacterLastNames>
+  </Race>
+  <Race id="18">
+    <Name>Слукены</Name>
+    <Description>Слукены - короткая раса инсектоидов с толстым коричневым экзоскелетом. У Слукенов множество маленьких предплечий, позволяющих им выполнять несколько действий одновременно.\n\nСлукены крайне агрессивны и умны. Центральная тема их обычаев - мрачное почитание смерти.\n\nСлукены обладают странным и ужасающим умением встраивать в собственное тело биологические конечности и органы других инопланетных рас. Поэтому некоторые Слукены имеют дополнительные конечности, глаза или другие части тела.\n\nНекоторые другие инопланетные расы утверждают, что Слукены на самом деле являются генетически модифицированными существами, созданными как высшая раса воинов. Однако сами Слукены отвергают такие утверждения как возмутительную клевету.\n\nТехнологии Слукенов включают двигатель «Звездный форсаж» - очень быстрый и мощный двигатель. Благодаря этим двигателям звездолеты Слукенов способны обгонять почти любого противника.\n\nСлукены обитают на планетах с болотистыми топями и мангровыми лесами.</Description>
+    <CharacterFirstNames op="replace">
+      <string>Qarg</string>
+      <string>Cwedo</string>
+      <string>Rardi</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Boshak</string>
+      <string>Teklor</string>
+      <string>Zaddaty</string>
+    </CharacterLastNames>
+  </Race>
+  <Race id="19">
+    <Name>Угнари</Name>
+    <Description>Угнари - короткая, морщинистая раса грызунов.\n\nХотя они не особенно одарены технологиями, Угнари очарованы машинами и электроникой и проводят много времени, усердно изучая их и экспериментируя с ними.\n\nЭто увлечение часто приводит Угнари к созданию интересных альтернативных технологий путем объединения несвязанных компонентов для формирования нового оборудования с улучшенными характеристиками.\n\nУгнари также любят азартные игры и делают ставки практически на любое imaginable занятие.\n\nПо своей природе они довольно дружелюбны, хотя и осторожны. Однако разумно внимательно изучить мелкий шрифт любого делового контракта, заключенного с Угнари - они часто коварны, даже нечестны.\n\nУгнари не считают подлость негативной чертой и не рассматривают обман кого-либо как личное оскорбление для жертвы. Вместо этого они считают высокоприбыльную сделку великим достижением, даже если она была достигнута хитростью. Более того, они высоко ценят любого, кто сумел превзойти их в коварстве.\n\nИх технологии включают систему целеуказания «Ястреб». Эта мощная система наведения делает огонь оружия с военных кораблей Угнари более точным и смертоносным.\n\nУгнари населяют тундровые пустоши миров типа Ледяная тундра и Ледяные планеты. Обычно они строят крупные города глубоко под землей в огромных ледяных пещерах и тоннелях.</Description>
+    <CharacterFirstNames op="replace">
+      <string>Darrat</string>
+      <string>Kibul</string>
+      <string>Ruty</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Uktab</string>
+      <string>Woppit</string>
+      <string>Owak</string>
+    </CharacterLastNames>
+  </Race>
+  <Race id="248">
+    <Name>Берсерк ИИ</Name>
+    <CharacterFirstNames op="replace">
+      <string>BK</string>
+      <string>ZG</string>
+      <string>MX</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>497</string>
+      <string>229</string>
+      <string>843</string>
+    </CharacterLastNames>
+  </Race>
+  <Race id="249">
+    <Name>Безумные ульевые насекомые</Name>
+    <CharacterFirstNames op="replace">
+      <string>Qarg</string>
+      <string>Cwedo</string>
+      <string>Rardi</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Boshak</string>
+      <string>Teklor</string>
+      <string>Zaddaty</string>
+    </CharacterLastNames>
+  </Race>
+</ArrayOfRace>

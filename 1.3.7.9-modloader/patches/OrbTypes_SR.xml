@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfOrbType>
+  <OrbType id="40">
+    <Name>Водорослевый лес</Name>
+    <Description>Планеты с грибо-водорослевыми лесами покрыты густой топью из грибковой растительности. Многие из этих грибов имеют красный или оранжевый цвет, что придает этим планетам характерный красный оттенок.\n\nМелководные океаны заполнены водорослями и грибковыми сорняками, из-за чего они также приобретают красный цвет.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Rings of {0}</string>
+          <string>Primeval Fungal Forest</string>
+          <string>Great Algae Ocean Reef</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchHyperDrive">
+        <Descriptions op="replace">
+          <string>Sentient Quantum Fungal Network</string>
+          <string>Symbiotic Algal Mass</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="PlagueCuring">
+        <Descriptions op="replace">
+          <string>Cyanobacterial Bioreserve</string>
+          <string>Deep Ocean Kelp Forest</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>lie at the bottom of a deep valley covered in tall red fungal growths</string>
+      <string>lie in the midst of a vast plain filled with thousands of strange trees with glowing red branches</string>
+      <string>sit at the top of a small hill surrounded by a dense matting of deep red algae</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+  <OrbType id="41">
+    <Name>Каменисто-вулканическая пустыня</Name>
+    <Description>Каменистые вулканические планеты покрыты обширными пустынями из пыли и пепла. Другие регионы более активны, с извергающимися вулканами, лавовыми озерами и глубокими каньонами.\n\nПодземные пещеры и туннели здесь распространены, часто через них протекают реки расплавленной лавы.</Description>
+    <CommonBonuses>
+      <BonusRange id="Scenery">
+        <Descriptions op="replace">
+          <string>Dust Rings of {0}</string>
+          <string>Burning Lava Lakes</string>
+          <string>Fire Caverns of {0}</string>
+          <string>Great Lava River</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchConstruction">
+        <Descriptions op="replace">
+          <string>Deformable Molten Structures</string>
+          <string>Plasticized Glass Crystals</string>
+        </Descriptions>
+      </BonusRange>
+      <BonusRange id="ResearchArmor">
+        <Descriptions op="replace">
+          <string>SuperDense Lava Tunnels</string>
+          <string>Crystal Lattice Rock Formations</string>
+        </Descriptions>
+      </BonusRange>
+    </CommonBonuses>
+    <RuinLocationDescriptions op="replace">
+      <string>sit on a stone ledge overlooking a fiery lake of lava</string>
+      <string>lie in the midst of a vast rocky plain blanketed with thousands of geothermal steam vents</string>
+      <string>are located next to a molten river of lava</string>
+      <string>sit on a small rocky island that glows from the surrounding ocean of bright molten lava</string>
+    </RuinLocationDescriptions>
+  </OrbType>
+</ArrayOfOrbType>

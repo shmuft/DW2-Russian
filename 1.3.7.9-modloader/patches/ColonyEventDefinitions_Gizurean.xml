@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfColonyEventDefinition>
+  <ColonyEventDefinition id="66">
+    <Name>Подавление недовольства</Name>
+    <Description>Наше недавнее «очищение» этой колонии снизило уровень счастья</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="67">
+    <Name>Подавление роста популяции Гизуриане</Name>
+    <Description>Наше недавнее «очищение» этой колонии ускорило темпы роста популяции Гизурианов во всей нашей империи.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="68">
+    <Name>Племенной конфликт</Name>
+    <Description>Вспыхнули межплеменные конфликты.\n\nЭто ускорило темпы роста популяции Гизурианов во всей нашей империи.\n\nОднако это также снизило уровень счастья в империи в целом.\n\nМы ожидаем, что этот племенной конфликт продлится от одного до трёх лет.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="69">
+    <Name>Вкусные Тиканы</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="70">
+    <Name>Отважные Гизуриане</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="71">
+    <Name>Уничтожен опасный корабль</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="72">
+    <Name>Псионический вирус Шактури - Дельта-вариант</Name>
+    <Description>Псионический вирус Шактури делает вид более уязвимым для психических сил Шактури.\n\nЭто особенно смертоносная вариация.\n\nЗаражённые жертвы попадают под форму психического внушения, заставляя их действовать так, чтобы максимально увеличить распространение вируса. Таким образом, псионический вирус Шактури крайне заразен и может быстро распространяться.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="73">
+    <Name>Мир-инкубатор</Name>
+    <Description>Мы уничтожаем инопланетные популяции на нашей колонии {0}, обеспечивая вкусный источник пищи для нового поколения Гизуриан!\n\nКаждый Мир-инкубатор в нашей империи обеспечит кумулятивный бонус [+10%] к темпам роста популяции Гизуриан[/BONUS].</Description>
+  </ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

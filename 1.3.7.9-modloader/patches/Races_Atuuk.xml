@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfRace>
+  <Race id="9">
+    <EmpireDirections>
+      <EmpireDirection index="1">
+        <DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+30% ко всем исследованиям[/ULI][ULI]+30% к лечению патогенов[/ULI][ULI]+30% к сдерживанию патогенов[/ULI]</DescriptionBonuses>
+        <DescriptionObjective>[HL]Цель победы:[/HL] Завершить исследование проекта технологического уровня 6 или выше</DescriptionObjective>
+      </EmpireDirection>
+      <EmpireDirection index="2">
+        <DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+40% к дипломатии[/ULI][ULI]+40% к пси-операциям[/ULI][ULI]+10% к счастью колоний[/ULI]</DescriptionBonuses>
+        <DescriptionObjective>[HL]Задача:[/HL] Подписать оборонительный договор</DescriptionObjective>
+      </EmpireDirection>
+      <EmpireDirection index="3">
+        <DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+40% к снижению усталости от войны[/ULI][ULI]+20% к штурмовой мощи[/ULI][ULI]+40% к скорости восстановления войск[/ULI][ULI]+20% к урону оружия[/ULI][ULI]+40% к скорости строительства кораблей[/ULI][ULI]+40% к скорости ремонта кораблей[/ULI]</DescriptionBonuses>
+        <DescriptionObjective>[HL]Цель победы:[/HL] Уничтожить вражеский линкор или авианосец</DescriptionObjective>
+      </EmpireDirection>
+      <EmpireDirection index="4">
+        <DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+10% к доходу колонии[/ULI][ULI]+5% к снижению коррупции в колониях[/ULI][ULI]+25% к доходу от торговли[/ULI][ULI]+25% к доходу от туризма[/ULI]</DescriptionBonuses>
+        <DescriptionObjective>[HL]Цель победы:[/HL] Обеспечить положительный денежный поток империи на уровне +50 000 или выше</DescriptionObjective>
+      </EmpireDirection>
+      <EmpireDirection index="5">
+        <DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+40% к исследованиям двигателей[/ULI][ULI]+40% к исследованиям гипердвигателей[/ULI][ULI]+25% к скорости гиперпрыжка[/ULI][ULI]+25% к скорости корабля[/ULI][ULI]+25% к маневренности корабля[/ULI]</DescriptionBonuses>
+        <DescriptionObjective>[HL]Цель победы:[/HL] Завершить исследование проекта «Улучшенные двигатели»</DescriptionObjective>
+      </EmpireDirection>
+      <EmpireDirection index="6">
+        <DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+40% к шпионажу[/ULI][ULI]+40% к контршпионажу[/ULI][ULI]+40% к диверсиям[/ULI]</DescriptionBonuses>
+        <DescriptionObjective>[HL]Цель победы:[/HL] Украсть проект исследования технологического уровня 6 или выше</DescriptionObjective>
+      </EmpireDirection>
+      <EmpireDirection index="7">
+        <DescriptionBonuses>[HL]Бонусы:[/HL]\n[ULI]+25% к скорости роста населения[/ULI]</DescriptionBonuses>
+        <DescriptionObjective>[HL]Цель победы:[/HL] Достичь численности населения империи в 100 миллиардов</DescriptionObjective>
+      </EmpireDirection>
+    </EmpireDirections>
+    <Name>Атууки</Name>
+    <Description>Атууки - примитивная, низкорослая, ласковая раса, похожая на медведей, с золотисто-зелёным мехом.\n\nАтууки очень дружелюбны, но редко развивают достаточные технологии для космических полётов. Однако благодаря высокой рождаемости сообщества Атууков могут быстро расти.\n\nОни сохранили подробную устную историю, уходящую на сотни поколений. Со временем они также выработали сложный социальный порядок. Каждый индивид должен принять предопределённый статус в сообществе или столкнуться с изгнанием.\n\nИх нежелание терпеть любое новаторское мышление привело к тому, что их культура и технологии застыли на довольно примитивном уровне.\n\nПрежде всего Атууки любят охотиться в джунглях своих родных миров. Их любимая добыча - полосатый кагуар, огромный саблезубый кот с бритвенно-острыми когтями. Охота на это огромное существо крайне опасна. Атууки обычно охотятся на кагуаров группами по 30–40 человек, вооружённые лишь простыми копьями с каменными наконечниками.\n\nАтууки живут в грубых хижинах на деревьях планет Лес, Степь или Мангровый лес.</Description>
+    <DesignNames op="replace">
+      <string>Panama</string>
+      <string>Nicaragua</string>
+      <string>Venezuela</string>
+      <string>Salvador</string>
+      <string>Janeiro</string>
+      <string>Santiago</string>
+      <string>Comodoro</string>
+      <string>Arica</string>
+      <string>Maracaibo</string>
+      <string>Cali</string>
+      <string>Acapulco</string>
+      <string>Veracruz</string>
+      <string>Merida</string>
+      <string>Managua</string>
+      <string>Cuzco</string>
+      <string>Santa Cruz</string>
+      <string>Antofagasta</string>
+      <string>Fortaleza</string>
+      <string>Sorocaba</string>
+      <string>Concordia</string>
+      <string>Durazno</string>
+      <string>Osorno</string>
+      <string>Rancagua</string>
+      <string>Punta Alta</string>
+      <string>Olavarria</string>
+      <string>Sarmiento</string>
+      <string>Valcheta</string>
+      <string>Punta Arenas</string>
+      <string>Cordoba</string>
+      <string>Mendoza</string>
+      <string>Reconquista</string>
+      <string>Alegrete</string>
+      <string>Pelotas</string>
+      <string>Catamarca</string>
+      <string>Iquitos</string>
+      <string>Buenaventura</string>
+    </DesignNames>
+    <CharacterFirstNames op="replace">
+      <string>Lebon</string>
+      <string>Arridan</string>
+      <string>Essaf</string>
+      <string>Ageru</string>
+      <string>Mandu</string>
+      <string>Ekuro</string>
+      <string>Hendi</string>
+      <string>Ketsri</string>
+      <string>Ukand</string>
+      <string>Zekto</string>
+      <string>Ooki</string>
+      <string>Duwanga</string>
+      <string>Yurip</string>
+      <string>Fugiri</string>
+      <string>Aksu</string>
+      <string>Bekta</string>
+      <string>Cwedu</string>
+      <string>Wotip</string>
+      <string>Lekta</string>
+      <string>Supan</string>
+    </CharacterFirstNames>
+    <CharacterLastNames op="replace">
+      <string>Atthanchi</string>
+      <string>Kodansta</string>
+      <string>Saxxul</string>
+      <string>Agiyo</string>
+      <string>Koozentri</string>
+      <string>Turfaz</string>
+      <string>Wooktu</string>
+      <string>Yubnub</string>
+      <string>Rokta</string>
+      <string>Itabang</string>
+      <string>Moori</string>
+      <string>Fektaz</string>
+      <string>Dublub</string>
+      <string>Pagto</string>
+      <string>Lokri</string>
+      <string>Caseep</string>
+      <string>Vangu</string>
+      <string>Ettaroos</string>
+      <string>Bagari</string>
+      <string>Unkas</string>
+    </CharacterLastNames>
+    <FeatureExplanations op="replace">
+      <string>[HL]Смена лидеров:[/HL] обратите внимание: [B]атууки не следуют обычным механизмам смены лидера выбранного ими правительства[/B]. Вместо этого они выбирают новых лидеров с помощью механик [B]Великого Направления[/B] и [B]Великого[/B], описанных ниже. Поэтому фракции атууков не могут вручную сместить своего лидера</string>
+      <string>[HL]Великое Направление:[/HL] каждые 5 лет выбирайте одно из трёх Великих Направлений со связанными бонусами, действующими 5 лет. Всего есть семь Великих Направлений, у каждого своя уникальная цель победы</string>
+      <string>[HL]Кто велик?:[/HL] периодически вам предлагают выбрать двух персонажей, чтобы назначить одного из них Великим атууком будущего. Выбранный получает черту [B]Великий потенциал[/B], что делает его пригодным для будущего лидерства</string>
+      <string>[HL]Великий:[/HL] всякий раз, когда Великое Направление меняется, с шансом 25% нужно выбрать нового лидера фракции из двух случайных персонажей с чертой [B]Великий потенциал[/B]. Новый лидер может оказаться обладателем нужных качеств, чтобы стать [B]Великим[/B]. А может оказаться разочарованием ([B]Не Великий[/B]), что приведёт к повторному выбору через год</string>
+      <string>[HL]Сомнения в Направлении:[/HL] каждый раз, когда Великое Направление меняется, с шансом 20% часть атууков сомневается в этом изменении. В таком случае в течение двух лет атууки страдают от -10% счастья, пока привыкают к новому направлению</string>
+      <string>[HL]Быстрая незапланированная разборка:[/HL] иногда корабль государства атууков терпит серьёзный отказ из-за плохой инженерии. Корабль, вероятно, получит серьёзные повреждения или даже будет полностью уничтожен. Чаще случается с кораблями в гиперпространстве.</string>
+      <string>[HL]Что делает эта кнопка?:[/HL] всякий раз при критическом успехе в исследовании можно выбрать: нажать кнопку или не нажимать, что приводит к различным положительным или отрицательным событиям</string>
+      <string>[HL]Смертоносны... числом:[/HL] +25% к наземному бою, когда войск атууков во время боя за колонию больше, чем у противника</string>
+      <string>[HL]Мы велики![/HL]: +5% к счастью и +10% к снижению коррупции на один год при подписании соглашения о свободной торговле, исследовательского или оборонительного договора</string>
+      <string>[HL]Уникальная черта лидера — Процветающий:[/HL] +5% к доходу колоний, +5% к доходу от торговли</string>
+      <string>[HL]Уникальная черта лидера — Первый из многих:[/HL] +5% к росту населения колоний</string>
+      <string>[HL]Уникальная черта лидера — Великий:[/HL] +10% к счастью империи</string>
+      <string>[HL]Уникальная черта лидера — Не Великий:[/HL] -20% к счастью империи</string>
+      <string>[HL]Уникальная черта посла — Обаятельный:[/HL] +5% к дипломатии, +10% к PsyOps</string>
+      <string>[HL]Уникальная черта посла — Доверчивый:[/HL] -5% к дипломатии, -10% к доходу от торговли</string>
+      <string>[HL]Уникальная черта генерала — Почётный охотник:[/HL] +10% к силе атаки войск</string>
+      <string>[HL]Уникальная черта адмирала — Маньяк скорости:[/HL] +20% к скорости кораблей, +20% к маневренности кораблей, -10% к экономии на обслуживании кораблей</string>
+      <string>[HL]Уникальная черта учёного — Интуитивный:[/HL] +10% к исследованиям в области строительства</string>
+      <string>[HL]Уникальная черта шпиона — Мил, но смертелен:[/HL] +10% к шпионажу, +10% к убийствам</string>
+    </FeatureExplanations>
+  </Race>
+</ArrayOfRace>

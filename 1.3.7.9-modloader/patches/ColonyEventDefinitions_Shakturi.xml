@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfColonyEventDefinition>
+  <ColonyEventDefinition id="91">
+    <Name>Проникновение Шактури остановлено</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="92">
+    <Name>Инвестиции в подкуп</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="93">
+    <Name>Инвестиции в подкуп снова</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="94">
+    <Name>Маяк, влияющий на исследования</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="95">
+    <Name>Маяк, сильно подавляющий исследования</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="96">
+    <Name>Экспериментальный вирус «Характор»</Name>
+    <Description>Вирус «Характор» — особенно смертоносная синтетическая чума, направленная преимущественно против Шактури. [HL]Эта вариация в 1,5 раза более смертельна для Шактури, чем для других видов.[/HL]</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="97">
+    <Name>Улучшенный вирус «Характор»</Name>
+    <Description>Вирус «Характор» - особенно смертоносная искусственная чума. Он нацелен преимущественно на Шактури. [HL]Эта вариация в 2,25 раза более смертельна для Шактури, чем для других видов.[/HL]</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="98">
+    <Name>Вирус «Характор»</Name>
+    <Description>Вирус «Характор» — особенно смертоносная синтетическая чума. Он нацелен преимущественно на Шактури. [HL]Эта вариация в 4 раза более смертельна для Шактури, чем для других видов.[/HL]</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="32760">
+    <Name>Псионический вирус Шактури</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="32761">
+    <Name>Улучшенный псионический вирус</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="32762">
+    <Name>Продвинутый псионический вирус</Name>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="32763">
+    <Name>Абсолютный псионический вирус</Name>
+  </ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfTroopDefinition>
+  <TroopDefinition id="68">
+    <Name>Рой бронированных убийц</Name>
+  </TroopDefinition>
+  <TroopDefinition id="69">
+    <Name>Защитный рой</Name>
+  </TroopDefinition>
+  <TroopDefinition id="70">
+    <Name>Рой ассасинов</Name>
+  </TroopDefinition>
+  <TroopDefinition id="71">
+    <Name>Вестники погибели</Name>
+  </TroopDefinition>
+  <TroopDefinition id="72">
+    <Name>Ополчение роя</Name>
+  </TroopDefinition>
+</ArrayOfTroopDefinition>

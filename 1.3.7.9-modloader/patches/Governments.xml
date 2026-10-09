@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfGovernment>
+  <Government id="0">
+    <LeaderTitle>Президент</LeaderTitle>
+    <Name>Республика</Name>
+    <Description>Республики - это государства, возглавляемые главой государства, который обычно избирается. Глава государства, часто называемый Президентом, служит в течение установленного срока, после чего избирается новый президент. Хотя президент избирается, это может происходить косвенно: народ избирает некий совет, а этот совет затем выбирает президента. Во многих отношениях республики схожи с демократиями и обычно разделяют сходные идеалы.\n\nГраждане республик обычно пользуются многими свободами и правами. Республики неизменно тщательно разграничивают государственную власть между исполнительной, законодательной и судебной ветвями. Президент контролирует исполнительную ветвь, тогда как другие избранные представители контролируют законодательную ветвь. Суды контролируют судебную ветвь.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Free</string>
+      <string>United</string>
+      <string>Combined</string>
+      <string>Imperial</string>
+      <string>Great</string>
+    </EmpireNameAdjectives>
+    <EmpireNameNouns op="replace">
+      <string>Empire</string>
+      <string>Republic</string>
+      <string>Alliance</string>
+      <string>Territory</string>
+      <string>Nation</string>
+      <string>Federation</string>
+      <string>Confederacy</string>
+      <string>Coalition</string>
+    </EmpireNameNouns>
+  </Government>
+  <Government id="1">
+    <LeaderTitle>Великий торговец</LeaderTitle>
+    <Name>Торговая гильдия</Name>
+    <Description>Правительства Торговых гильдий в высокой степени ориентированы на коммерцию, торговлю и промышленность. Структура правления зачастую носит свободный и неформальный характер - ключевые решения, затрагивающие всех граждан, принимаются группой ведущих представителей делового сообщества.\n\nТорговые гильдии, как правило, предоставляют гражданам высокую степень свободы и автономии. Базовые права и свободы гарантируются простым сводом законов, применимым ко многим ситуациям. Предпринимательская деятельность очень распространена, создавая динамичную деловую среду, где быстро генерируются высокие уровни богатства.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Free</string>
+    </EmpireNameAdjectives>
+    <EmpireNameNouns op="replace">
+      <string>Syndicate</string>
+      <string>Consortium</string>
+      <string>Corporation</string>
+      <string>Industries</string>
+      <string>Guilds</string>
+    </EmpireNameNouns>
+  </Government>
+  <Government id="2">
+    <LeaderTitle>Премьер-министр</LeaderTitle>
+    <CabinetTitle>Cabinet</CabinetTitle>
+    <Name>Демократия</Name>
+    <Description>Демократические правительства черпают свою власть у народов, живущих под их властью. Проводятся конкурентные выборы для избрания представителей, которые правят в течение установленного срока.\n\nГраждане демократических правительств пользуются всеобщими признанными свободами и правами, включая: свободу политической деятельности, свободу слова и свободу прессы. Демократические правительства обычно также поддерживают другие важные принципы, такие как: равенство перед законом, надлежащая правовая процедура и гражданские свободы.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Free</string>
+      <string>United</string>
+      <string>Combined</string>
+      <string>Great</string>
+      <string>Grand</string>
+    </EmpireNameAdjectives>
+    <EmpireNameNouns op="replace">
+      <string>Empire</string>
+      <string>Republic</string>
+      <string>Alliance</string>
+      <string>Territory</string>
+      <string>Federation</string>
+      <string>Confederation</string>
+      <string>Coalition</string>
+      <string>Colonies</string>
+    </EmpireNameNouns>
+    <FeatureExplanations op="replace">
+      <string>[HL]Предприимчивый дух:[/HL] шанс периодического случайного положительного события, временно улучшающего исследования, дипломатию, шпионаж или военное дело.\nПроисходит примерно раз в 10 лет в среднем</string>
+    </FeatureExplanations>
+  </Government>
+  <Government id="3">
+    <LeaderTitle>Первый лорд</LeaderTitle>
+    <CabinetTitle>Noble Council</CabinetTitle>
+    <Name>Феодализм</Name>
+    <Description>Феодализм - это форма правления, основанная на системе взаимных правовых и военных обязательств среди воинской знати. В своей самой простой сущности феодализм представляет собой передачу земель и прав в обмен на военную службу.\n\nПри феодальных правительствах класс благородных людей фактически образует правящий совет. Они предоставляют права и свободы простым людям в обмен на их военную поддержку.\n\nФеодальные общества придают огромное значение иерархии и рангу. Их социальные структуры, как правило, крайне статичны. У каждого есть своё предопределённое место в обществе - они подчиняются своему местному вождю.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>United</string>
+      <string>Combined</string>
+    </EmpireNameAdjectives>
+    <EmpireNameNouns op="replace">
+      <string>Empire</string>
+      <string>Alliance</string>
+      <string>Union</string>
+      <string>Group</string>
+      <string>Federation</string>
+      <string>Enclave</string>
+      <string>Council</string>
+      <string>Colonies</string>
+      <string>Alignment</string>
+    </EmpireNameNouns>
+    <FeatureExplanations op="replace">
+      <string>[HL]Улучшенное ополчение:[/HL] защищающиеся войска ополчения намного сильнее обычного, что даёт лучшую защиту от захватчиков. Когда одна из ваших колоний захвачена, любое восстание против захватчиков также создаёт более сильные войска ополчения, пытающиеся вернуть колонию вашей империи</string>
+      <string>[HL]Феодальная повинность:[/HL] скорость набора войск удваивается на 2 года после начала войны</string>
+      <string>[HL]Флот каперов:[/HL] дворяне вашей империи будут финансировать постройку и содержание небольшого числа эскортов для защиты гражданского судоходства. Эти корабли оплачиваются из вашей частной экономики (покупка и обслуживание). Ими нельзя управлять вручную</string>
+    </FeatureExplanations>
+  </Government>
+  <Government id="4">
+    <LeaderTitle>Император</LeaderTitle>
+    <Name>Монархия</Name>
+    <Description>Монархии возлагают верховную власть на одного человека (монарха), который является главой государства, часто пожизненно или до отречения. Монархии обычно являются наследственными: после смерти родителя власть переходит к его ребенку.\n\nМонархи могут править с абсолютной властью или разделять её с правящим советом дворян или избранных представителей.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Imperial</string>
+      <string>Royal</string>
+      <string>Great</string>
+    </EmpireNameAdjectives>
+    <EmpireNameNouns op="replace">
+      <string>Dominion</string>
+      <string>Kingdom</string>
+      <string>Realm</string>
+      <string>Commonwealth</string>
+      <string>Domain</string>
+      <string>Dynasty</string>
+    </EmpireNameNouns>
+    <FeatureExplanations op="replace">
+      <string>[HL]Флагман:[/HL] можно назначить один военный корабль флагманом империи. У флагманов +10% к наведению, контрмерам, маневренности, скорости и борьбе за живучесть. Когда ваш флагман уничтожает вражеский военный корабль равного или большего размера, империя получает годовой бонус к счастью. Когда ваш флагман уничтожен, империя получает годовой штраф к счастью. Чтобы назначить военный корабль флагманом, щёлкните по нему правой кнопкой мыши и выберите пункт во всплывающем меню</string>
+      <string>[HL]Всегда оправданы:[/HL] все объявленные вами войны всегда считаются населением оправданными, что замедляет рост усталости от войны</string>
+    </FeatureExplanations>
+  </Government>
+  <Government id="5">
+    <LeaderTitle>Вождь</LeaderTitle>
+    <CabinetTitle>War Council</CabinetTitle>
+    <Name>Военная диктатура</Name>
+    <Description>Военная диктатура - это автократическая форма абсолютного правления, не ограниченная законами, конституциями или другими социальными и политическими факторами.\n\nВоенные диктатуры регулируют практически все аспекты общественного и частного поведения своих подданных. Их политическая, социальная и гражданская структура ориентирована на военные вопросы и ведение войны. Правительства такого типа обычно сосредоточены на завоеваниях и экспансии.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Imperial</string>
+      <string>Great</string>
+      <string>Grand</string>
+    </EmpireNameAdjectives>
+    <EmpireNameNouns op="replace">
+      <string>Empire</string>
+      <string>Territory</string>
+      <string>Nation</string>
+      <string>Supremacy</string>
+      <string>Authority</string>
+      <string>Sovereignty</string>
+      <string>Hegemony</string>
+    </EmpireNameNouns>
+    <FeatureExplanations op="replace">
+      <string>[HL]Мир войны:[/HL] можно вручную запустить временное событие «Мир войны» в одной из ваших колоний: +100% к набору войск, строительству кораблей и строительству сооружений, но со сниженным счастьем колонии. Мир войны длится два года, запуск стоит 20 000 кредитов</string>
+      <string>[HL]Успокаивающая безопасность:[/HL] большое присутствие войск в ваших колониях добавляет до +5 к счастью. Этот фактор одобрения колонии начинает действовать, когда у вас есть хотя бы половина ожидаемой численности войск для защиты колонии. Подробности смотрите в факторах одобрения колонии на панели выбора</string>
+    </FeatureExplanations>
+  </Government>
+  <Government id="6">
+    <LeaderTitle>Администратор</LeaderTitle>
+    <CabinetTitle>Panel of Experts</CabinetTitle>
+    <Name>Технократия</Name>
+    <Description>Правление технократов возлагает управление на инженеров, ученых и технических экспертов. Лица, принимающие решения, отбираются исходя из их знаний и компетентности.\n\nТехнократии обычно отличаются высокой эффективностью и отсутствием коррупции. Однако они часто навязывают строгий контроль над поведением своих граждан. Эта потеря личной свободы иногда может привести к беспорядкам.\n\nТип правления «Технократия» доступен только расам Акдариан и Зенокс.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>United</string>
+    </EmpireNameAdjectives>
+    <EmpireNameNouns op="replace">
+      <string>Empire</string>
+      <string>Technocracy</string>
+      <string>Ascendancy</string>
+    </EmpireNameNouns>
+  </Government>
+  <Government id="7">
+    <LeaderTitle>Великий Надзиратель</LeaderTitle>
+    <Name>Коллективный разум</Name>
+    <Description>Правление Коллективного разума может быть установлено инопланетными расами, обладающими врожденной способностью к телепатии. Главная ценность - преданность сообществу в целом: индивидуальное самовыражение и свобода подавляются ради общего блага.\n\nВ правительствах с Коллективным разумом вся работа разделена между различными социальными кастами. Одни касты отвечают за производство продовольствия, другие - за оборону, третьи - за администрирование. В некоторых инопланетных обществах даже размножение специализировано и возложено на небольшую касту, где одна или несколько «королев» производят каждое новое поколение.\n\nТип правления «Коллективный разум» доступен только расам Боскара и Дхаютов.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Great</string>
+    </EmpireNameAdjectives>
+    <EmpireNameNouns op="replace">
+      <string>Hive</string>
+      <string>Collective</string>
+      <string>Conformity</string>
+      <string>Consciousness</string>
+    </EmpireNameNouns>
+    <FeatureExplanations op="replace">
+      <string>[HL]Интуитивные прыжки:[/HL] точность гиперпрыжка удваивается при выходе из прыжка в локации, где у вашей империи есть постоянное присутствие (колония или база)</string>
+      <string>[HL]Военный улей:[/HL] скорость роста населения увеличивается на +50% во время войны</string>
+    </FeatureExplanations>
+  </Government>
+  <Government id="8">
+    <LeaderTitle>Тёмный лорд</LeaderTitle>
+    <Name>Путь Тьмы</Name>
+  </Government>
+  <Government id="9">
+    <LeaderTitle>Верховный лидер</LeaderTitle>
+    <CabinetTitle>Cabinet</CabinetTitle>
+    <Name>Путь Древних</Name>
+  </Government>
+  <Government id="10">
+    <LeaderTitle>Верховный лидер</LeaderTitle>
+    <CabinetTitle>Cabinet</CabinetTitle>
+    <Name>Путь Предков</Name>
+  </Government>
+</ArrayOfGovernment>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfComponentDefinition>
+  <ComponentDefinition id="145">
+    <Name>Реактор "Новакор"</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="302">
+    <Name>Реактор "Новакор" [Ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="371">
+    <Name>Пузырьковые щиты</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="372">
+    <Name>Пузырьковые щиты [Ftr]</Name>
+  </ComponentDefinition>
+</ArrayOfComponentDefinition>

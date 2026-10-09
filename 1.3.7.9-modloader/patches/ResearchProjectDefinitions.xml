@@ -1,0 +1,2897 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfResearchProjectDefinition>
+  <ResearchProjectDefinition id="0">
+    <Name>Ранние лучевые орудия</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1">
+    <Name>Раннее ионное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="2">
+    <Name>Раннее площадное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="3">
+    <Name>Раннее торпедное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="4">
+    <Name>Ракетное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="5">
+    <Name>Кинетическое оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="6">
+    <Name>Наземный бой</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="8">
+    <Name>Оружие непрерывного луча</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="9">
+    <Name>Импульсное взрывное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="10">
+    <Name>Ионное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="11">
+    <Name>Тяжелое ионное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="12">
+    <Name>Площадное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="13">
+    <Name>Гравитац. оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="14">
+    <Name>Энергет. торпедное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="15">
+    <Name>Оборонительные ракеты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="16">
+    <Name>Улучш. ракеты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="17">
+    <Name>Оружие бомбардировки</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="18">
+    <Name>Базовая точеч. оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="19">
+    <Name>Рельсотронное вооружение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="20">
+    <Name>Улучш. колонизация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="21">
+    <Name>Ударные войска</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="22">
+    <Name>Роботизир. войска</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="23">
+    <Name>Генетическая репликация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="24">
+    <Name>Улучш. тактика штурма</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="25">
+    <Name>Улучш. оборонит. тактика</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="26">
+    <Name>Бой в невесомости</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="27">
+    <Name>Улучш. логистика</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="28">
+    <Name>Эффект. точечная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="29">
+    <Name>Эффект. лучевое оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="30">
+    <Name>Эффект. бластеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="31">
+    <Name>Ионная точечная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="32">
+    <Name>Электромагн. защита</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="33">
+    <Name>Улучш. площадные орудия</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="34">
+    <Name>Улучш. гравит. лучи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="35">
+    <Name>Притягивающие лучи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="36">
+    <Name>Сокрушительный плазменный заряд</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="37">
+    <Name>Улучш. торпеды</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="38">
+    <Name>Улучш. оборонит. ракеты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="39">
+    <Name>Быстрые ракеты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="40">
+    <Name>Улучш. ракеты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="41">
+    <Name>Тяжелые ракеты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="42">
+    <Name>Улучш. бомбардировка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="43">
+    <Name>Улучш. точечная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="44">
+    <Name>Скорострельные снаряды</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="45">
+    <Name>Ускор. снаряды</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="46">
+    <Name>Боевые диверсии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="47">
+    <Name>Планетар. подразд. обороны</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="49">
+    <Name>Скоростр. точечная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="50">
+    <Name>Дальноб. лучи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="51">
+    <Name>Фазированная энергия</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="52">
+    <Name>Продв. бластеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="53">
+    <Name>Мощные бластеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="54">
+    <Name>Продв. ионное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="55">
+    <Name>Строительство: Специализация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="56">
+    <Name>Улучш. ионная проекция</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="57">
+    <Name>Продв. площадные оружия</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="58">
+    <Name>Продв. лучи захвата</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="59">
+    <Name>Высокоэнергет. связность</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="60">
+    <Name>Продв. торпеды</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="61">
+    <Name>Быстрая энергетич. тяга</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="62">
+    <Name>Продв. оборонит. ракеты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="63">
+    <Name>Роевые ракеты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="64">
+    <Name>Продв. ракеты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="65">
+    <Name>Усиленные ракеты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="66">
+    <Name>Массивное ракетное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="67">
+    <Name>Продв. бомбардировка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="68">
+    <Name>Аннигилирующая бомбардировка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="69">
+    <Name>Масс-драйверы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="70">
+    <Name>Двухфазная точечная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="71">
+    <Name>Снарядные батареи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="72">
+    <Name>Ультра-плотные снаряды</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="73">
+    <Name>Массивные рельсотроны</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="74">
+    <Name>Продв. ударные войска</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="75">
+    <Name>Улучш. робототехника</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="76">
+    <Name>Продв. генетика</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="77">
+    <Name>Продв. штурм. тактики</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="78">
+    <Name>Продв. оборонит. тактика</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="79">
+    <Name>Однослойная планетарная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="80">
+    <Name>Тяжелые установки</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="81">
+    <Name>Корабельный космодесант</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="82">
+    <Name>Корабельные системы обороны</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="83">
+    <Name>Улучш. полевая медицина</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="84">
+    <Name>Точное многоцел. сопровожд.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="85">
+    <Name>Продв. фокусировка луча</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="86">
+    <Name>Интенсификация фазера</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="87">
+    <Name>Фокусировка фазера</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="88">
+    <Name>Продв. наведение флота</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="89">
+    <Name>Электромагн. лучи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="90">
+    <Name>Многомерные голограммы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="91">
+    <Name>Энергет. минные проекторы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="92">
+    <Name>Гравитац. резонанс</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="93">
+    <Name>Дальноб. притягивающие лучи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="94">
+    <Name>Мощные притягивающие лучи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="95">
+    <Name>Фокусировка плазмы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="96">
+    <Name>Мощный разряд</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="97">
+    <Name>Тотальное энергетич. ускорение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="98">
+    <Name>Батареи роевых ракет</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="99">
+    <Name>Тяжелые ракетные батареи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="100">
+    <Name>Многофазная точечная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="101">
+    <Name>Продв. автоматиз. турелей</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="102">
+    <Name>Массивные снарядные батареи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="103">
+    <Name>Гиперускоренные снаряды</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="104">
+    <Name>Специальные операции</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="105">
+    <Name>Продв. логистика</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="107">
+    <Name>Массивные энергет. лучи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="108">
+    <Name>Лучи высокой интенсивности</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="109">
+    <Name>Оптимизация фазера</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="110">
+    <Name>Сокрушительный выброс энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="111">
+    <Name>Продв. ЭМИ-взрыв</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="112">
+    <Name>Продв. ионные взрывы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="113">
+    <Name>Массивное ионное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="114">
+    <Name>Сокрушительные площадные эффекты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="115">
+    <Name>Массивные площадные оружия</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="116">
+    <Name>Гравитац. минные проекторы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="117">
+    <Name>Продв. гравитац. резонанс</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="118">
+    <Name>Поле гравитац. искажения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="119">
+    <Name>Продв. гравитац. растяжение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="120">
+    <Name>Продв. гравитац. искривление</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="121">
+    <Name>Массивное гравитац. управление</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="122">
+    <Name>Интенс. энергет. вихри</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="123">
+    <Name>Превосх. наведение торпед</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="124">
+    <Name>Ровные энергетические потоки</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="125">
+    <Name>Массивное торпедное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="126">
+    <Name>Высокоэнергет. боезаряд</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="127">
+    <Name>Предиктивная ракетная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="128">
+    <Name>Сеть ракетной обороны</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="129">
+    <Name>Батареи повышенной ёмкости</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="130">
+    <Name>Тяжелые ракетные рои</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="131">
+    <Name>Интегриров. ракетная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="132">
+    <Name>Мощный радиационный выброс</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="133">
+    <Name>Сверхтяжелые масс-драйверы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="134">
+    <Name>Финальная точечная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="135">
+    <Name>Продв. адапт. снаряды</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="136">
+    <Name>Сеть рельсотронной обороны</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="137">
+    <Name>Тяжелые ударные войска</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="138">
+    <Name>Базовые андроиды</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="139">
+    <Name>Базовые Химеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="140">
+    <Name>Превосх. тактика штурма</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="141">
+    <Name>Превосх. оборон. тактика</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="142">
+    <Name>Многослойная планетарная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="143">
+    <Name>Интегриров. установки</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="144">
+    <Name>Штурм. космодесант</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="145">
+    <Name>Корабельная сеть обороны</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="146">
+    <Name>Продв. полевая медицина</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="147">
+    <Name>Продв. фазерные конденс.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="148">
+    <Name>Оптимиз. импульсной мощности</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="149">
+    <Name>Продв. электромагнитные лучи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="150">
+    <Name>Превосх. ионная точечная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="151">
+    <Name>Превосх. ионное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="152">
+    <Name>Оптимизация детонации</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="153">
+    <Name>Зона гравитац. искажения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="154">
+    <Name>Экстрем. зарядка энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="155">
+    <Name>Гиперпрогностическое наведение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="156">
+    <Name>Гиперэффективное сдерживание</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="157">
+    <Name>Рои приманок</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="158">
+    <Name>Продв. ракетные рои</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="159">
+    <Name>Синхронизир. стрельба</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="160">
+    <Name>Скрытные операции</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="162">
+    <Name>Превосх. точечная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="163">
+    <Name>Энергет. лучи, связ. с ядром</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="164">
+    <Name>Превосх. фазированные лучи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="165">
+    <Name>Превосх. интенсификация импульса</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="166">
+    <Name>Экстрем. ионное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="167">
+    <Name>Превосх. защита от ЭМИ</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="168">
+    <Name>Сокрушительные ионные залпы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="169">
+    <Name>Ионное оружие, связ. с ядром</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="170">
+    <Name>Превосх. всплеск энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="171">
+    <Name>Оптимиз. площадного паттерна</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="172">
+    <Name>Оружие площади, связ. с ядром</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="173">
+    <Name>Улучш. волновое поле</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="174">
+    <Name>Превосх. гравитац. резонанс</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="175">
+    <Name>Интенс. гравитац. растяжение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="176">
+    <Name>Интенс. гравитац. искривление</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="177">
+    <Name>Гравитац. управл., связ. с ядром</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="178">
+    <Name>Резонансный плазм. импульс</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="179">
+    <Name>Многомерная физика плазмы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="180">
+    <Name>Торпедное оружие, связ. с ядром</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="181">
+    <Name>Экстрем. энергет. боеголовки</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="182">
+    <Name>Непробиваемая ракетная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="183">
+    <Name>Превосх. сеть ракетной обороны</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="184">
+    <Name>Укрепленная ракетная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="185">
+    <Name>Тотальное разрушение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="186">
+    <Name>Экстрем. масс-драйверы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="187">
+    <Name>Превосходная точечная кинетическая оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="188">
+    <Name>Экстрем. батареи снарядов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="189">
+    <Name>Укрепленная рельсотронная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="190">
+    <Name>Супертяжелые ударные войска</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="191">
+    <Name>Продв. андроиды</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="192">
+    <Name>Продв. Химеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="193">
+    <Name>Штурм. превосходство</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="194">
+    <Name>Элитные оперативники</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="195">
+    <Name>Оборонительное превосходство</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="196">
+    <Name>Орбитальная сеть обороны</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="197">
+    <Name>Установки, связ. с ядром</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="198">
+    <Name>Брон. штурм. космодес</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="199">
+    <Name>Превосх. логистика</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="200">
+    <Name>Превосх. полевая медицина</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="201">
+    <Name>Экстрем. точечная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="202">
+    <Name>Экстрем. фазированная энергия</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="203">
+    <Name>Сверхпоток луча</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="204">
+    <Name>Проекция электромагн. волн</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="205">
+    <Name>Экстрем. энергет. всплеск</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="206">
+    <Name>Создание гравитац. сингулярности</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="207">
+    <Name>Экстрем. гравит. управление</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="209">
+    <Name>Интенс. плазменные извержения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="210">
+    <Name>Самовосстанавливающиеся рои</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="211">
+    <Name>Полное истребление</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="212">
+    <Name>Массивные штурмовые силы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="213">
+    <Name>Улучш. точность ПВО</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="214">
+    <Name>Улучш. дальность ПВО</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="215">
+    <Name>Улучш. скорострельность ПВО</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="216">
+    <Name>Сниж. энергопотр. электром. оружия</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="217">
+    <Name>Улучш. электромагнитная дальность</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="218">
+    <Name>Улучш. электромагнитный урон</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="219">
+    <Name>Повыш. площадь «Новы»</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="220">
+    <Name>Улучш. урон «Новы»</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="221">
+    <Name>Сниж. энергопотр. «Новы»</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="222">
+    <Name>Повыш. область сингулярности</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="223">
+    <Name>Улучш. урон сингулярности</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="224">
+    <Name>Повыш. сила сингулярности</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="225">
+    <Name>Повыш. дальность контроля</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="226">
+    <Name>Сниж. энергопотр. управления</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="227">
+    <Name>Повыш. дальность контроля</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="228">
+    <Name>Повыш. дальность «Дилбрейкера»</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="229">
+    <Name>Улучш. урон торпед</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="230">
+    <Name>Сниж. энергопотр. торпед</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="231">
+    <Name>Повыш. дальность торпед</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="232">
+    <Name>Улучш. урон ракет</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="233">
+    <Name>Улучш. скорострель. ракет</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="234">
+    <Name>Улучш. урон по населению</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="235">
+    <Name>Улучш. военный урон</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="236">
+    <Name>Сниж. потеря качества планеты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="237">
+    <Name>Улучш. скоростр. снарядов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="238">
+    <Name>Улучш. урон снарядов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="239">
+    <Name>Сниж. энергопотр. снарядов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="240">
+    <Name>Улучшенная атака</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="241">
+    <Name>Улучш. защита</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="242">
+    <Name>Супер-матрица</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="243">
+    <Name>Супер-бластер</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="244">
+    <Name>Супер-ионный залп</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="245">
+    <Name>Площадной супер-взрыв</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="246">
+    <Name>Супер-сингулярность</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="247">
+    <Name>Супер-торпеда</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="248">
+    <Name>Супер-ракеты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="249">
+    <Name>Супер-уничтожитель</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="250">
+    <Name>Космические реакторы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="251">
+    <Name>Ранние энергет дефлект</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="252">
+    <Name>Ранние эксп. с варп-полем</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="253">
+    <Name>Двигатели звездолетов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="254">
+    <Name>Маневрирование звездолетов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="255">
+    <Name>Базовая орбит. сборка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="256">
+    <Name>Базовая добыча</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="257">
+    <Name>Базовый сбор энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="259">
+    <Name>Продв. ядерное деление</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="260">
+    <Name>Продв. дефлекторы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="261">
+    <Name>Стабильные варп-поля</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="262">
+    <Name>Протонная ионизация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="263">
+    <Name>Улучш. маневрирование</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="264">
+    <Name>Абордаж кораблей</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="265">
+    <Name>Звездные истребители</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="266">
+    <Name>Бронелисты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="267">
+    <Name>Космическое строительство</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="268">
+    <Name>Улучшенные эскорты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="269">
+    <Name>Борьба за живуч. в глуб. космосе</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="270">
+    <Name>Ядерное суперзарежение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="271">
+    <Name>Ультра-быстрая подзарядка щитов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="272">
+    <Name>Точечные дефлекторы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="273">
+    <Name>- Слоевые энерг. щиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="274">
+    <Name>Технология гипердвигателя</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="275">
+    <Name>Ультра-эффективные двигатели</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="276">
+    <Name>Эффект. преобраз. энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="277">
+    <Name>Улучш. двигатели</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="278">
+    <Name>Высокообъёмная тяга</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="279">
+    <Name>Двигатели максимальной тяги</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="280">
+    <Name>Эффект. маневрирование</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="281">
+    <Name>Повыш. маневренность</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="282">
+    <Name>Стремит. ускорение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="283">
+    <Name>Лёгкие перехват.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="284">
+    <Name>Лёгкие ударные истреб.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="285">
+    <Name>Ударные шаттлы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="286">
+    <Name>Лёгкие бомбард.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="287">
+    <Name>Улучш. фрегаты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="288">
+    <Name>Улучш. строительство</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="289">
+    <Name>Продв. борьба за живуч.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="290">
+    <Name>Быстрая добыча</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="291">
+    <Name>Улучш. сбор энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="293">
+    <Name>Термоядерный баланс</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="294">
+    <Name>Быстрый всплеск энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="295">
+    <Name>Сфокусированные щиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="296">
+    <Name>Массивное проецир. щитов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="297">
+    <Name>Уточненная теория гиперпрыжка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="298">
+    <Name>Продв. гипердвигатели</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="299">
+    <Name>Продв. двигатели</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="300">
+    <Name>Всенаправленная тяга</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="301">
+    <Name>Синхронизир. векторы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="302">
+    <Name>Превосх. маневрирование</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="303">
+    <Name>Устойчивые штурмкапсулы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="304">
+    <Name>Дальноб. перехватчики</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="305">
+    <Name>Ударные истребители</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="306">
+    <Name>Ударные бомбардировщики</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="307">
+    <Name>Планетарные аэрокосм. силы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="308">
+    <Name>Устойчивые наносплавы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="309">
+    <Name>Специализир. авианосцы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="310">
+    <Name>Быстрая сборка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="311">
+    <Name>Тяжёлые корабли</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="312">
+    <Name>Улучш. крейсеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="313">
+    <Name>- Ускор. стройка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="314">
+    <Name>Продв. роботизир. ремонт</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="315">
+    <Name>Множественное лучевое оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="316">
+    <Name>Гибридное плазменное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="317">
+    <Name>Расширенное гравит. оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="318">
+    <Name>Улучш. звездные лучи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="320">
+    <Name>Быстрая подзар. плазмы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="321">
+    <Name>Проекция ЭМИ-взрыва</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="322">
+    <Name>Притяг. лучи увелич. дальности</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="323">
+    <Name>Улучш. гравит. управление</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="324">
+    <Name>Продв. сдерживание</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="325">
+    <Name>Дальноб. точечная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="326">
+    <Name>Синхронизир. энергоотдача</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="327">
+    <Name>Продв. ионная точеч. обор.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="328">
+    <Name>Продв. защита от ЭМИ</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="329">
+    <Name>Быстрая подзар. энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="331">
+    <Name>Термоядерная физика</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="332">
+    <Name>Мастерство деления</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="333">
+    <Name>Квантовая эксплуатация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="334">
+    <Name>Квантовое хранение энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="335">
+    <Name>Продв. точеч. дефлекторы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="336">
+    <Name>Ускор. подзар. щитов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="337">
+    <Name>Улучш. щиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="338">
+    <Name>Повышенная прочность щитов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="339">
+    <Name>Блокировка гиперпрыжка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="340">
+    <Name>Быстрые гипердвигатели</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="341">
+    <Name>Улучш. гипердвигатели</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="342">
+    <Name>Эффект. гипердвигатели</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="343">
+    <Name>Высокоскоростные гипердвигатели</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="344">
+    <Name>Продв. протонная ионизация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="345">
+    <Name>Гибридные ускорители</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="346">
+    <Name>Скоординир. маневрир.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="347">
+    <Name>Продв. маневрирование</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="348">
+    <Name>Высокоскоростное маневрирование</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="349">
+    <Name>Дальноб. штурм. капсулы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="350">
+    <Name>Тактические перехватчики</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="351">
+    <Name>Быстрые перехватчики</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="352">
+    <Name>Ударные истребители</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="353">
+    <Name>Быстрые бомбардир.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="354">
+    <Name>Средние бомбард.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="355">
+    <Name>Орбитальные пусковые установки</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="356">
+    <Name>Сплавы высокой плотности</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="357">
+    <Name>Флюкс-закалённая броня</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="358">
+    <Name>Предвар. сборка компон.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="359">
+    <Name>Улучш. эсминцы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="361">
+    <Name>Продв. физика термояда</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="362">
+    <Name>Квантовая микроутилизация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="363">
+    <Name>Перегрузка конденсаторов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="364">
+    <Name>Высокоэнергет. конденсаторы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="365">
+    <Name>Усиление щитов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="366">
+    <Name>Конденс. повыш. ёмкости хранения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="367">
+    <Name>Продв. подавление прыжка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="368">
+    <Name>Ускор. гиперпрыжок</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="369">
+    <Name>Оптимизация последоват. прыжка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="370">
+    <Name>Повыш. эффектив. прыжка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="371">
+    <Name>Сверхсветовое скольжение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="372">
+    <Name>Локализ. преобр. энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="373">
+    <Name>Чистое преобразов. энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="374">
+    <Name>Оптимизир. выходная тяга</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="375">
+    <Name>Синхронизир. тяга</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="376">
+    <Name>Мгновенное ускорение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="378">
+    <Name>Улучш. перехватчики</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="379">
+    <Name>Продв. звёздные истреб.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="380">
+    <Name>Крупномасшт. строительство</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="381">
+    <Name>Роботизир. ремонт</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="382">
+    <Name>Самооптимизир. экстракторы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="383">
+    <Name>Мощные рецепторы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="384">
+    <Name>Базовое сопровожд. целей</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="385">
+    <Name>Базовые контрмеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="386">
+    <Name>Базовые сенсоры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="387">
+    <Name>Базовая разведка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="388">
+    <Name>Базовые транспор. системы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="389">
+    <Name>Базовые системы хранения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="390">
+    <Name>Базовый стыков. отсек</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="391">
+    <Name>Базовая космич. торговля</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="392">
+    <Name>Базовые сист. жизнеоб.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="393">
+    <Name>Базовые медицин. системы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="394">
+    <Name>Базовые системы отдыха</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="395">
+    <Name>Базовые космич. исследования</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="396">
+    <Name>Космическое командование</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="397">
+    <Name>Управление множествен. целями</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="398">
+    <Name>Улучш. сопровождение цели</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="399">
+    <Name>Улучш. контрмеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="400">
+    <Name>Голографическая проекция</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="401">
+    <Name>Искривленное световое поле</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="402">
+    <Name>Проникающие сканеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="403">
+    <Name>Улучш. сенсоры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="404">
+    <Name>Кристалл. сенсоры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="405">
+    <Name>Исследов. сканеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="406">
+    <Name>Планетарное исследов.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="407">
+    <Name>Базовая колонизация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="408">
+    <Name>Транспортные системы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="409">
+    <Name>Системы хранения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="410">
+    <Name>Сжатое хранилище топлива</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="411">
+    <Name>Системы жизнеоб. экипажа</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="412">
+    <Name>Медицинские системы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="413">
+    <Name>Системы отдыха</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="414">
+    <Name>Исследов. лаборатории</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="415">
+    <Name>Скоординир. управление</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="416">
+    <Name>Улучш. сопровождение целей</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="417">
+    <Name>Улучш. контрмеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="418">
+    <Name>Подавление сканеров</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="419">
+    <Name>Улучш. сенсоры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="420">
+    <Name>Улучш. колонизация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="421">
+    <Name>Улучш. перевозка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="422">
+    <Name>Улучш. хранение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="423">
+    <Name>Скоординир. стыковка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="424">
+    <Name>Улучш. торговый центр</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="425">
+    <Name>Планетарное управление</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="426">
+    <Name>Продв. многоцел. сопровож.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="427">
+    <Name>Флотское наведение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="428">
+    <Name>Флотские контрмеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="429">
+    <Name>Продв. голограммы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="430">
+    <Name>Улучшенное искажение света</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="431">
+    <Name>Скрытность</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="432">
+    <Name>Улучш. сканирование</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="433">
+    <Name>Дальнобойные сенсоры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="434">
+    <Name>Улучш. сканирование ресурсов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="435">
+    <Name>Исслед. несколькими группами</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="436">
+    <Name>Континентальная колонизация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="437">
+    <Name>Умеренная колонизация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="438">
+    <Name>Водная колонизация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="439">
+    <Name>Колонизация пустынь</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="440">
+    <Name>Колониз. ледяных миров</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="441">
+    <Name>Вулканическая колонизация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="442">
+    <Name>Крупномасшт. дисантный трансп</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="443">
+    <Name>Крупномасшт. пассаж. трансп</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="444">
+    <Name>Большое грузовое хранилище</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="445">
+    <Name>Большое хранилище топлива</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="446">
+    <Name>Высокоплотное хранилище топлива</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="447">
+    <Name>Открытая торговая сеть</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="448">
+    <Name>Улуч. системы жизнеобесп.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="449">
+    <Name>Улучш. медицинские системы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="450">
+    <Name>Голографические развлечения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="451">
+    <Name>Структурированные исследования</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="452">
+    <Name>Подготовка офицеров</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="453">
+    <Name>Системное управление</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="454">
+    <Name>Продв. сопровожд. целей</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="455">
+    <Name>Продв. контрмеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="456">
+    <Name>Улучш. подавление</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="457">
+    <Name>Продв. сенсоры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="458">
+    <Name>Высокообъёмная перегрузка грузов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="459">
+    <Name>Эффект. транзакции</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="460">
+    <Name>Биомастерские</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="461">
+    <Name>Сетевые развлечения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="462">
+    <Name>Специал. на высоких технологиях</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="463">
+    <Name>Оружейная специализация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="464">
+    <Name>Энергет. специализация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="465">
+    <Name>Промышл. специализ.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="466">
+    <Name>Улучш. скрытность</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="467">
+    <Name>Быстрое сканиров. ресурсов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="468">
+    <Name>Всесторонняя разведка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="469">
+    <Name>Продв. перевозка войск</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="470">
+    <Name>Продв. пассаж. транспорт</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="471">
+    <Name>Продв. хранение грузов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="472">
+    <Name>Продв. хранение топлива</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="473">
+    <Name>Супер-плотное хранилище топлива</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="474">
+    <Name>Неограниченная торговля</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="475">
+    <Name>Продв. системы жизнеоб.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="476">
+    <Name>Продв. медицинские системы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="477">
+    <Name>Голографическая реальность</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="478">
+    <Name>Улучш. исследования</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="479">
+    <Name>Высокотехнологичные мега-лаборатории</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="480">
+    <Name>Оружейные мега-лабы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="481">
+    <Name>Мегалабы энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="482">
+    <Name>Промышленные мега-лабы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="483">
+    <Name>Строительство: Мегалабы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="484">
+    <Name>Искусное командование</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="485">
+    <Name>Секторальное управление</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="487">
+    <Name>Продв звёздные лучи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="488">
+    <Name>Продв. плазменное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="489">
+    <Name>Улучш. захватные лучи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="490">
+    <Name>Продв. гравитац. модуляция</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="492">
+    <Name>Продв. ударные шаттлы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="493">
+    <Name>Улучш. закаленная броня</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="495">
+    <Name>Секреты термоядерного цикла</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="496">
+    <Name>Гипертермоядерная интенсификация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="497">
+    <Name>Квантовое мастерство</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="498">
+    <Name>Чистый энергетич. разряд</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="499">
+    <Name>Усиленные точечные щиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="500">
+    <Name>Многофазные конденсаторы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="501">
+    <Name>Продв. щиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="502">
+    <Name>Высокоплотные накопители энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="503">
+    <Name>Дальноб. блокировка прыжка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="504">
+    <Name>Мгновенная инициация прыжка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="505">
+    <Name>Обратная энергия прыжка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="506">
+    <Name>Динамика гиперпотока</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="507">
+    <Name>Перегр. энергет. пузыря</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="508">
+    <Name>Оптимизир. эффектив. двигателей</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="509">
+    <Name>Перегрузка полной тяги</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="510">
+    <Name>Мгновенное маневрир.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="512">
+    <Name>Продв. перехватчики</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="513">
+    <Name>Тяжёлый бомбардировщик</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="514">
+    <Name>Флотские авианосцы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="515">
+    <Name>Мега-масштабное строительство</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="516">
+    <Name>Флотские командные корабли</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="517">
+    <Name>Продв. крейсеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="518">
+    <Name>Мощные экстракторы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="519">
+    <Name>Тотальное поглощение энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="520">
+    <Name>Превосх. сопровождение цели</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="521">
+    <Name>Превосх. контрмеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="522">
+    <Name>Продв. сканирование</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="523">
+    <Name>Массивы дальнего космоса</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="524">
+    <Name>Улучш. обитаемость</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="525">
+    <Name>Автоматиз. грузовые системы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="526">
+    <Name>Виртуальная реальность</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="527">
+    <Name>Региональное управление</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="528">
+    <Name>Продв. захватные лучи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="529">
+    <Name>Превосх. гравитац. модуляция</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="531">
+    <Name>Гипертермоядерное равновесие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="532">
+    <Name>Мгновенный всплеск энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="533">
+    <Name>Дистанц. подзарядка щитов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="534">
+    <Name>Множители щитов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="536">
+    <Name>Глобальное усиление щитов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="537">
+    <Name>Тотальное прерывание гиперпрыжка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="538">
+    <Name>Превосх. прерывание гиперпрыжка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="539">
+    <Name>Рассечение гиперпростран. путей</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="540">
+    <Name>Гармонизированная тяга</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="541">
+    <Name>Интенсивная тяга</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="542">
+    <Name>Единая тяга</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="543">
+    <Name>Мгновенное маневрирование</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="544">
+    <Name>Мгновенное ускорение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="545">
+    <Name>Продв. штурмкапсулы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="547">
+    <Name>Превосх. перехватчики</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="548">
+    <Name>Истреб. завоевания превосходства</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="549">
+    <Name>Превосх. ударные шаттлы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="550">
+    <Name>Массивные базы истреб.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="551">
+    <Name>Неразрушимые соединения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="552">
+    <Name>Превосх. закаленная броня</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="553">
+    <Name>Мега-авианосцы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="554">
+    <Name>Автоматиз. произв. модулей</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="555">
+    <Name>Мега-тяжелые корабли</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="557">
+    <Name>Бесшовное многокан. сопровож.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="558">
+    <Name>Превосх. флотское наведение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="559">
+    <Name>Превосх. флотские контрмеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="560">
+    <Name>Превосх. управление голограммами</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="561">
+    <Name>Продв. скрытность</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="562">
+    <Name>Превосх. подавление</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="563">
+    <Name>Продв. массивы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="564">
+    <Name>Планетарные секреты ресурсов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="565">
+    <Name>Планетарные секреты качества</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="566">
+    <Name>Продв. обитаемость</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="567">
+    <Name>Ультимативный десантный транспорт</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="568">
+    <Name>Роскошные пассаж. перевозки</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="569">
+    <Name>Оптимизир. хранение грузов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="570">
+    <Name>Оптимизир. хранение топлива</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="571">
+    <Name>Ультра-плотное хранилище топлива</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="572">
+    <Name>Продв. торговля</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="573">
+    <Name>Роскошные условия экипажа</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="574">
+    <Name>Генетическая перестройка</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="575">
+    <Name>Замещение реальности</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="576">
+    <Name>Продв. исследования</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="577">
+    <Name>Превосх. командование</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="578">
+    <Name>Энергия нулевой точки</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="579">
+    <Name>Саморегенер. энергет. поля</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="580">
+    <Name>Превосх. мощность подзарядки</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="581">
+    <Name>Самоусиливающиеся щиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="582">
+    <Name>Единая теория гиперпространства</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="583">
+    <Name>Беспотерьное преобраз. энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="584">
+    <Name>Резонансная выходная тяга</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="585">
+    <Name>Гашение инерции</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="586">
+    <Name>Роевые штурмовые капсулы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="587">
+    <Name>Продв. истреб. превосходства</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="588">
+    <Name>Штурм. бомбард.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="589">
+    <Name>Неуязвимые соединения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="590">
+    <Name>Колоссальное строит.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="591">
+    <Name>Продв. энергет. секреты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="592">
+    <Name>Оптим. наведение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="593">
+    <Name>Оптимальные контрмеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="594">
+    <Name>Безупречная скрытность</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="595">
+    <Name>Превосх. матрицы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="596">
+    <Name>Превосх. обитаемость</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="597">
+    <Name>Генетическое мастерство</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="598">
+    <Name>Тотальное погружение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="599">
+    <Name>Превосх. исследования</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="600">
+    <Name>Галакт. управление</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="601">
+    <Name>Супер-реактор</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="602">
+    <Name>Супер-щиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="603">
+    <Name>Супер-привод</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="604">
+    <Name>Супер-двигатель</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="605">
+    <Name>Супер-маневрирование</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="606">
+    <Name>Супер-броня</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="608">
+    <Name>Супер-боевые системы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="609">
+    <Name>Супер-скрытность</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="610">
+    <Name>Супер-сенсоры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="611">
+    <Name>Супер-колонизация</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="612">
+    <Name>Улучш. урон лучевого оружия</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="613">
+    <Name>Сниж. энергопотр. лучей</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="614">
+    <Name>Улучш. дальность лучевого оружия</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="615">
+    <Name>Повыш. дальность ракет</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="616">
+    <Name>Сниж. размер реактора</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="617">
+    <Name>Улучш. энергоотдача реактора</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="618">
+    <Name>Улучш. емкость накопителей реактора</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="619">
+    <Name>Сниж. размер щитов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="620">
+    <Name>Улучш. прочность щитов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="621">
+    <Name>Улучш. подзарядка щитов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="622">
+    <Name>Улучш. скорость гипердвигателя</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="623">
+    <Name>Сниж. энергопотр. гипердвигателя</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="624">
+    <Name>Сниж. размер гипердвигателя</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="625">
+    <Name>Улучш. тяга двигателя</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="626">
+    <Name>Сниж. энергопотр. двигателей</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="627">
+    <Name>Сниж. размер двигателей</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="628">
+    <Name>Улучш. векторная тяга</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="629">
+    <Name>Сниж. энергопотр. векторной тяги</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="630">
+    <Name>Сниж. размер векторных двигат.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="631">
+    <Name>Штурмовая мощь</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="632">
+    <Name>Дальность абордажа</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="633">
+    <Name>Улучш. скорость штурм. капсул</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="634">
+    <Name>Улучш. скорость истребителей</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="635">
+    <Name>Скорость разворота</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="636">
+    <Name>Наведение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="637">
+    <Name>Улучш. скорость бомбард.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="638">
+    <Name>Щиты/Броня</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="639">
+    <Name>Контрмеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="640">
+    <Name>Улучш. рейтинг</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="641">
+    <Name>Улучш. реактивный рейтинг</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="642">
+    <Name>Улучшенная скорость строительства (Строительная верфь)</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="643">
+    <Name>Улучшенная мощность верфи (Строительная верфь)</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="644">
+    <Name>Улучш. макс. размер корабля/базы (Дредноут/Флотский авианосец)</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="645">
+    <Name>Сниж. энергия к размеру топлива</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="646">
+    <Name>Улучш. производство топлива</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="647">
+    <Name>Улучш. наведение</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="648">
+    <Name>Усиленные контрмеры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="649">
+    <Name>Сниж. энергопотр. скрытности</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="650">
+    <Name>Улучш. показатель скрытности</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="651">
+    <Name>Сниж. размер скрытности</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="652">
+    <Name>Улучш. дальность сенсоров</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="653">
+    <Name>Улучш. мощность сенсоров</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="654">
+    <Name>Улучш. рост</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="655">
+    <Name>Улучш. планетарный ремонт</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="656">
+    <Name>Улучш. скорость терраформ.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="657">
+    <Name>Продв. строительство</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="658">
+    <Name>Безупречная коммерция</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="659">
+    <Name>Репликация компонентов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="660">
+    <Name>Безупречное командование</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="661">
+    <Name>Усиленная конструкция</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="662">
+    <Name>Неприступные конструкции</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="663">
+    <Name>Архивные сооружения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="664">
+    <Name>Продв. исслед. добычи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="665">
+    <Name>Туризм в мега-парках</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="666">
+    <Name>Объедин. военное команд.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="667">
+    <Name>Галакт. дипломатия</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="668">
+    <Name>Продв. точеч. оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="669">
+    <Name>Продв. контрмеры флота</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="670">
+    <Name>Улучш. гражд. корабли</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="671">
+    <Name>Улучш. гражданские корабли</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="672">
+    <Name>Крупные гражданские корабли</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="673">
+    <Name>Дальноб. гражданские корабли</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="674">
+    <Name>Базовые космич. станции</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="675">
+    <Name>Улучш. космические станции</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="676">
+    <Name>Станции слежения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="677">
+    <Name>Оборонительные базы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="678">
+    <Name>Улучш. оборонит. базы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="679">
+    <Name>Баз. военные корабли</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="680">
+    <Name>Корабли системного патруля</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="681">
+    <Name>Межзвёздные эсминцы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="682">
+    <Name>Многоцелевые звездолеты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="683">
+    <Name>Базовые транспор. войск</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="684">
+    <Name>Улучш. десантные транспорты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="685">
+    <Name>Крупный десантный трансп.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="686">
+    <Name>Базовые гражд. корабли</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="687">
+    <Name>Многослойная броня</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="688">
+    <Name>Базовая диплом.: язык и выражения Людей</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="689">
+    <Name>Эффект. дипл: культура и обычаи Людей</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="690">
+    <Name>Продв. диплом.: история и традиции Людей</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="691">
+    <Name>Полная дипл: погруж. в культ. Людей</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="692">
+    <Name>Базовая диплом.: язык и выражения Акдариан</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="693">
+    <Name>Эффект. дипл: культура и обычаи Акдариан</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="694">
+    <Name>Продв. диплом.: история и традиции Акдариан</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="695">
+    <Name>Полная дипл: погруж. в культ. Акдариан</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="696">
+    <Name>Базовая диплом.: язык и выражения Тиканов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="697">
+    <Name>Эффект. дипл: культура и обычаи Тиканов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="698">
+    <Name>Продв. диплом.: история и традиции Тиканов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="699">
+    <Name>Полная дипл: погруж. в культ. Тиканов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="700">
+    <Name>Базовая диплом.: язык и выражения Хааконишей</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="701">
+    <Name>Эффект. дипл: культура и обычаи Хааконишей</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="702">
+    <Name>Продв. диплом.: история и традиции Хааконишей</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="703">
+    <Name>Полная дипл: погруж. в культ. Хааконишей</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="704">
+    <Name>Базовая диплом.: язык и выражения Морталенов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="705">
+    <Name>Эффект. дипл: культура и обычаи Морталенов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="706">
+    <Name>Продв. диплом.: история и традиции Морталенов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="707">
+    <Name>Полная дипл: погруж. в культ. Морталенов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="708">
+    <Name>Базовая диплом.: язык и выражения Иккуро</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="709">
+    <Name>Эффект. дипл: культура и обычаи Иккуро</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="710">
+    <Name>Продв. диплом.: история и традиции Иккуро</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="711">
+    <Name>Полная дипл: погруж. в культ. Иккуро</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="712">
+    <Name>Базовая диплом.: язык и выражения Боскара</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="713">
+    <Name>Эффект. дипл: культура и обычаи Боскара</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="714">
+    <Name>Продв. диплом.: история и традиции Боскара</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="715">
+    <Name>Полная дипл: погруж. в культ. Боскара</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="716">
+    <Name>Базовая диплом.: язык и выражения Зеноксов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="717">
+    <Name>Эффект. дипл: культура и обычаи Зеноксов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="718">
+    <Name>Продв. диплом.: история и традиции Зеноксов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="719">
+    <Name>Полная дипл: погруж. в культ. Зеноксов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="720">
+    <Name>Базовая диплом.: язык и выражения Веккарусов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="721">
+    <Name>Эффект. дипл: культура и обычаи Веккарусов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="722">
+    <Name>Продв. диплом.: история и традиции Веккарусов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="723">
+    <Name>Полная дипл: погруж. в культ. Веккарусов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="724">
+    <Name>Базовая диплом.: язык и выражения Атууков</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="725">
+    <Name>Эффект. дипл: культура и обычаи Атууков</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="726">
+    <Name>Продв. диплом.: история и традиции Атууков</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="727">
+    <Name>Полная дипл: погруж. в культ. Атууков</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="728">
+    <Name>Базовая диплом.: язык и выражения Дхаютов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="729">
+    <Name>Эффект. дипл: культура и обычаи Дхаютов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="730">
+    <Name>Продв. диплом.: история и традиции Дхаютов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="731">
+    <Name>Полная дипл: погруж. в культ. Дхаютов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="732">
+    <Name>Базовая диплом.: язык и выражения Гизуриан</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="733">
+    <Name>Эффект. дипл: культура и обычаи Гизуриан</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="734">
+    <Name>Продв. диплом.: история и традиции Гизуриан</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="735">
+    <Name>Полная дипл: погруж. в культ. Гизуриан</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="736">
+    <Name>Базовая диплом.: язык и выражения Кетаров</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="737">
+    <Name>Эффект. дипл: культура и обычаи Кетаров</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="738">
+    <Name>Продв. диплом.: история и традиции Кетаров</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="739">
+    <Name>Полная дипл: погруж. в культ. Кетаров</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="740">
+    <Name>Базовая диплом.: язык и выражения Киадиан</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="741">
+    <Name>Эффект. дипл: культура и обычаи Киадиан</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="742">
+    <Name>Продв. диплом.: история и традиции Киадиан</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="743">
+    <Name>Полная дипл: погруж. в культ. Киадиан</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="744">
+    <Name>Базовая диплом.: язык и выражения Наксиллиан</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="745">
+    <Name>Эффект. дипл: культура и обычаи Наксиллиан</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="746">
+    <Name>Продв. диплом.: история и традиции Наксиллиан</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="747">
+    <Name>Полная дипл: погруж. в культ. Наксиллиан</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="748">
+    <Name>Базовая диплом.: язык и выражения Куамено</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="749">
+    <Name>Эффект. дипл: культура и обычаи Куамено</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="750">
+    <Name>Продв. диплом.: история и традиции Куамено</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="751">
+    <Name>Полная дипл: погруж. в культ. Куамено</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="752">
+    <Name>Базовая диплом.: язык и выражения Секуран</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="753">
+    <Name>Эффект. дипл: культура и обычаи Секуран</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="754">
+    <Name>Продв. диплом.: история и традиции Секуран</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="755">
+    <Name>Полная дипл: погруж. в культ. Секуран</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="756">
+    <Name>Базовая диплом.: язык и выражения Шандар</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="757">
+    <Name>Эффект. дипл: культура и обычаи Шандар</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="758">
+    <Name>Продв. диплом.: история и традиции Шандар</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="759">
+    <Name>Полная дипл: погруж. в культ. Шандар</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="760">
+    <Name>Базовая диплом.: язык и выражения Слукенов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="761">
+    <Name>Эффект. дипл: культура и обычаи Слукенов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="762">
+    <Name>Продв. диплом.: история и традиции Слукенов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="763">
+    <Name>Полная дипл: погруж. в культ. Слукенов</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="764">
+    <Name>Базовая диплом.: язык и выражения Угнари</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашего языка улучшили наше взаимопонимание.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="765">
+    <Name>Эффект. дипл: культура и обычаи Угнари</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваши знания нашей культуры и обычаев улучшают наши отношения.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="766">
+    <Name>Продв. диплом.: история и традиции Угнари</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Ваше знание нашей истории и традиций произвело на нас впечатление.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="767">
+    <Name>Полная дипл: погруж. в культ. Угнари</Name>
+    <DiplomacyFactors>
+      <EmpireIncidentFactor index="1">
+        <Description>Вы понимаете наши обычаи так же глубоко, как любой пришелец мог бы понять.</Description>
+      </EmpireIncidentFactor>
+    </DiplomacyFactors>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="768">
+    <Name>Раннее импульсное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="769">
+    <Name>Безупречное удержание импульса</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="770">
+    <Name>Усиленная точеч. обор.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="771">
+    <Name>Превосх. плазменное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="772">
+    <Name>Площадн. точеч. оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="773">
+    <Name>- - Точная точеч. оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="775">
+    <Name>Сниж. энергопотр. лучей/бластеров</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="776">
+    <Name>Улучш. дальность лучей/бластеров</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="777">
+    <Name>Улучш. скоростр. лучей/бластеров</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="778">
+    <Name>Таинственная чума</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="779">
+    <Name>Улучш. континентальная колониз.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="780">
+    <Name>Улучш. умеренная колониз.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="781">
+    <Name>Улучш. водная колониз.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="782">
+    <Name>Улучш. колон. пустынь</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="783">
+    <Name>Улучш. колонизация ледяных планет</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="784">
+    <Name>Улучш. вулканич. колониз.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="785">
+    <Name>Колонизация болот</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="786">
+    <Name>Улучшенная колониз. болот</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="787">
+    <Name>Разрушитель планет</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="788">
+    <Name>Супер-лучи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="816">
+    <Name>Планетарный дворец</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="823">
+    <Name>Древние стражи: Исслед. Хранилищ</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="845">
+    <Name>Лечение псионич. вируса Шактури</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="848">
+    <Name>Древние стражи: Устои</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="849">
+    <Name>Древние стражи: Политич. экономия</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="850">
+    <Name>Древние стражи: Медицинская этика</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="851">
+    <Name>Древние стражи: Медицинская практика</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="852">
+    <Name>Древние стражи: Тактики</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="853">
+    <Name>Древние стражи: Стратегия</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="854">
+    <Name>Древние стражи: Теория лидерства</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="855">
+    <Name>Древние стражи: Наблюд. за лидерством</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="856">
+    <Name>Древние стражи: Механическая теория</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="857">
+    <Name>Древние стражи: Теория гипердвиг.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="858">
+    <Name>Древние стражи: Источники энергии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="859">
+    <Name>Древние стражи: Энергет. технологии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="860">
+    <Name>Древние стражи: Дипломат. история</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="861">
+    <Name>Древние стражи: Дипломат. теория</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="862">
+    <Name>Древние стражи: Оборон. тактики</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="863">
+    <Name>Древние стражи: Оборон. сооружения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="864">
+    <Name>Древние стражи: Двигат. технологии</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="865">
+    <Name>Древние стражи: Инженерия</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="866">
+    <Name>Древние стражи: Проектир. кораблей</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="867">
+    <Name>Древние стражи: Конструк. двигат.</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="868">
+    <Name>Древние стражи: Градостроительство</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="869">
+    <Name>Древние стражи: Управл. населением</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="870">
+    <Name>Основа галакт. сотрудничества</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="871">
+    <Name>Быстрые турели</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="872">
+    <Name>Зональная ракетная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="873">
+    <Name>Стойкие перехватчики</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="874">
+    <Name>Быстрое когерентное удержание</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="875">
+    <Name>Блоковая броня</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="876">
+    <Name>Улучш. блоковая броня</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="877">
+    <Name>Устойчивая блоковая броня</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="878">
+    <Name>Многослойная блоковая броня</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="920">
+    <Name>Улучш. строительство</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="925">
+    <Name>Перегрузка плазмы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="926">
+    <Name>Дальноб. кристаллические сенсоры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="927">
+    <Name>Продв. кристаллич. сенсоры</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="965">
+    <Name>Лечение лихорадки Хекретос</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="966">
+    <Name>Лекарство от вируса Декара</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="967">
+    <Name>Лечение синдрома генет. перемешивания</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="968">
+    <Name>Лечение Мертуровской чумы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="969">
+    <Name>Кристалл. сенсорн. матрицы</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="970">
+    <Name>Сжатый энергет. поток</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="998">
+    <Name>Планетар. энергетич. оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="999">
+    <Name>Планетарное ионное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1000">
+    <Name>Планетарное площадное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1001">
+    <Name>Планетарное торпедное оружие</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1002">
+    <Name>Планетарные щиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1014">
+    <Name>Усиленные планетарные щиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1015">
+    <Name>Мощные планетарные щиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1016">
+    <Name>Закаленные планетарные щиты</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1017">
+    <Name>Сканирующие лучевые орудия</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1018">
+    <Name>Броня из флюкс-сплава</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1019">
+    <Name>Эксперим. с планетарным ядром</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1022">
+    <Name>Мега-плотное хранилище топлива</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1023">
+    <Name>Гравитационные токи</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1024">
+    <Name>Гравитац. вихри</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1025">
+    <Name>Улучш. урон «Дилбрейкера»</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1026">
+    <Name>Продв. искажение света</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1027">
+    <Name>Превосх. искривление света</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1028">
+    <Name>Оптим. искривление света</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="1029">
+    <Name>Усиленные контрмеры</Name>
+  </ResearchProjectDefinition>
+</ArrayOfResearchProjectDefinition>

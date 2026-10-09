@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfPlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="100">
+    <Name>База истребителей улья</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="101">
+    <Name>База истребителей улья Mk2</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="102">
+    <Name>База истребителей улья Mk3</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="103">
+    <Name>База истребителей улья Mk4</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="109">
+    <Name>Норы дегенератов-гизуринов</Name>
+  </PlanetaryFacilityDefinition>
+</ArrayOfPlanetaryFacilityDefinition>

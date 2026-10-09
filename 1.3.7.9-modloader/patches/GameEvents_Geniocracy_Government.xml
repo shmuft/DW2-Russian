@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfGameEvent>
+  <GameEvent id="Initialise Government (Geniocracy)">
+    <TriggerActions>
+      <GameEventAction index="1">
+        <MessageTitle>Гениократия</MessageTitle>
+        <Description>Благодаря выбранной форме правления мы получили доступ к следующим исследованиям:\n\n[ULI][RESEARCH]Исследовательские лаборатории[/RESEARCH][/ULI]\n[ULI][RESEARCH]Улучшенные сенсоры[/RESEARCH][/ULI]\n[ULI][RESEARCH]Координированное управление[/RESEARCH][/ULI]\n\nНа нашем родном мире также доступен [CHARACTER]учёный[/CHARACTER].</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+</ArrayOfGameEvent>

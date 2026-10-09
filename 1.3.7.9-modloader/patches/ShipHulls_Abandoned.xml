@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfShipHull>
+  <ShipHull id="733">
+    <Name>Эсминец</Name>
+  </ShipHull>
+  <ShipHull id="734">
+    <Name>Крейсер</Name>
+  </ShipHull>
+  <ShipHull id="735">
+    <Name>Колонизатор</Name>
+  </ShipHull>
+  <ShipHull id="736">
+    <Name>Малый космопорт</Name>
+  </ShipHull>
+  <ShipHull id="740">
+    <Name>Малый космопорт</Name>
+  </ShipHull>
+  <ShipHull id="741">
+    <Name>Малый космопорт</Name>
+  </ShipHull>
+  <ShipHull id="742">
+    <Name>Малый космопорт</Name>
+  </ShipHull>
+  <ShipHull id="743">
+    <Name>Эсминец</Name>
+  </ShipHull>
+  <ShipHull id="744">
+    <Name>Эсминец</Name>
+  </ShipHull>
+  <ShipHull id="745">
+    <Name>Малый космопорт</Name>
+  </ShipHull>
+  <ShipHull id="746">
+    <Name>Малый космопорт</Name>
+  </ShipHull>
+  <ShipHull id="747">
+    <Name>Малый космопорт</Name>
+  </ShipHull>
+  <ShipHull id="748">
+    <Name>Малый космопорт</Name>
+  </ShipHull>
+  <ShipHull id="749">
+    <Name>Большая добывающая станция</Name>
+  </ShipHull>
+  <ShipHull id="750">
+    <Name>Большая добывающая станция</Name>
+  </ShipHull>
+  <ShipHull id="751">
+    <Name>Станция наблюдения</Name>
+  </ShipHull>
+  <ShipHull id="752">
+    <Name>Станция наблюдения</Name>
+  </ShipHull>
+  <ShipHull id="753">
+    <Name>Исследовательская станция</Name>
+  </ShipHull>
+  <ShipHull id="754">
+    <Name>Исследовательская станция</Name>
+  </ShipHull>
+  <ShipHull id="755">
+    <Name>Эскорт</Name>
+  </ShipHull>
+  <ShipHull id="756">
+    <Name>Эскорт</Name>
+  </ShipHull>
+  <ShipHull id="757">
+    <Name>Крейсер</Name>
+  </ShipHull>
+  <ShipHull id="758">
+    <Name>Фрегат</Name>
+  </ShipHull>
+  <ShipHull id="759">
+    <Name>Фрегат</Name>
+  </ShipHull>
+</ArrayOfShipHull>

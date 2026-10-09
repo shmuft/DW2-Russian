@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfGovernment>
+  <Government id="12">
+    <LeaderTitle>Верховный инквизитор</LeaderTitle>
+    <Name>Надзорная олигархия</Name>
+    <Description>Правительства Олигархии наблюдения превосходно манипулируют другими как внутри своих границ, так и за их пределами.\n\nОбычно они представляют собой структуру власти, в которой небольшая группа осуществляет контроль над массовым населением посредством обширного и навязчивого мониторинга их деятельности и данных. Это может делаться в корыстных или эгоистичных целях, таких как сохранение богатства и влияния, либо подавление инакомыслия и оппозиции.\n\nВласть обычно рассматривает тех, кто находится ниже её, как пешки, которых необходимо контролировать во всём с помощью тщательно созданной пропаганды. Они также постоянно создают разделения, а затем используют их в качестве рычага для удержания власти.\n\nОлигархии наблюдения - это закрытые общества. Однако, когда они направляют свои способности вовне, они оказываются весьма способными к внедрению и манипуляции другими, поскольку отработали необходимые методы на собственном населении.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Vigilant</string>
+      <string>Watchful</string>
+      <string>Wily</string>
+      <string>Wary</string>
+      <string>Grand</string>
+    </EmpireNameAdjectives>
+    <EmpireNameNouns op="replace">
+      <string>Autocracy</string>
+      <string>Despotism</string>
+      <string>Oligarchy</string>
+      <string>Totality</string>
+      <string>Domination</string>
+      <string>Tyranny</string>
+      <string>Inquisition</string>
+    </EmpireNameNouns>
+  </Government>
+</ArrayOfGovernment>

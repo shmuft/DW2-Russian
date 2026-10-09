@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfComponentDefinition>
+  <ComponentDefinition id="248">
+    <Name>Импульсно-волновая пушка [S]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="251">
+    <Name>Импульсно-волновая пушка [M]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="411">
+    <Name>Импульсно-волновая пушка [ftr]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="412">
+    <Name>Импульсно-волновая пушка [L]</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="413">
+    <Name>Гидроядерный конденсатор</Name>
+  </ComponentDefinition>
+  <ComponentDefinition id="414">
+    <Name>Луч-сжиматель [S]</Name>
+  </ComponentDefinition>
+</ArrayOfComponentDefinition>

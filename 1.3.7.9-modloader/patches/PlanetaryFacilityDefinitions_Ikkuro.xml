@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfPlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="89">
+    <Name>Ограниченный комплекс формирования биома</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="90">
+    <Name>Комплекс формирования биома</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="91">
+    <Name>Усиленный комплекс формирования биома</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="92">
+    <Name>Продвинутый комплекс формирования биома</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="93">
+    <Name>Полный комплекс формирования биома</Name>
+  </PlanetaryFacilityDefinition>
+</ArrayOfPlanetaryFacilityDefinition>

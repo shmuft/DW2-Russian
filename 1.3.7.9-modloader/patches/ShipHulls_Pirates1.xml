@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfShipHull>
+  <ShipHull id="433">
+    <Name>Эскорт</Name>
+  </ShipHull>
+  <ShipHull id="434">
+    <Name>Фрегат</Name>
+  </ShipHull>
+  <ShipHull id="435">
+    <Name>Эсминец</Name>
+  </ShipHull>
+  <ShipHull id="436">
+    <Name>Малый космопорт</Name>
+  </ShipHull>
+  <ShipHull id="437">
+    <Name>Тяжёлый эскорт</Name>
+  </ShipHull>
+  <ShipHull id="438">
+    <Name>Тяжёлый фрегат</Name>
+  </ShipHull>
+  <ShipHull id="439">
+    <Name>Тяжёлый эсминец</Name>
+  </ShipHull>
+  <ShipHull id="440">
+    <Name>Малый космопорт v2</Name>
+  </ShipHull>
+  <ShipHull id="441">
+    <Name>Патрульный эскорт</Name>
+  </ShipHull>
+  <ShipHull id="442">
+    <Name>Быстрый фрегат</Name>
+  </ShipHull>
+  <ShipHull id="443">
+    <Name>Быстрый эсминец</Name>
+  </ShipHull>
+  <ShipHull id="444">
+    <Name>Малый космопорт v3</Name>
+  </ShipHull>
+  <ShipHull id="445">
+    <Name>Флотский Эсминец</Name>
+  </ShipHull>
+  <ShipHull id="446">
+    <Name>Космический бастион</Name>
+  </ShipHull>
+  <ShipHull id="447">
+    <Name>Космический бастион v2</Name>
+  </ShipHull>
+  <ShipHull id="448">
+    <Name>Флотский фрегат</Name>
+  </ShipHull>
+  <ShipHull id="449">
+    <Name>Базовый истребитель</Name>
+  </ShipHull>
+  <ShipHull id="450">
+    <Name>Лёгкий перехватчик</Name>
+  </ShipHull>
+  <ShipHull id="451">
+    <Name>Лёгкий ударный истребитель</Name>
+  </ShipHull>
+  <ShipHull id="452">
+    <Name>Тактический перехватчик</Name>
+  </ShipHull>
+  <ShipHull id="453">
+    <Name>Ударный истребитель</Name>
+  </ShipHull>
+  <ShipHull id="454">
+    <Name>Продвинутый перехватчик</Name>
+  </ShipHull>
+  <ShipHull id="455">
+    <Name>Штурмовой истребитель</Name>
+  </ShipHull>
+  <ShipHull id="456">
+    <Name>Истребитель превосходства</Name>
+  </ShipHull>
+  <ShipHull id="457">
+    <Name>Истребитель превосходства v2</Name>
+  </ShipHull>
+  <ShipHull id="458">
+    <Name>Базовый бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="459">
+    <Name>Лёгкий бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="460">
+    <Name>Средний бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="461">
+    <Name>Штурмовой бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="462">
+    <Name>Тяжёлый бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="463">
+    <Name>Штурм. бомбард.</Name>
+  </ShipHull>
+  <ShipHull id="1205">
+    <Name>Крейсер</Name>
+  </ShipHull>
+</ArrayOfShipHull>

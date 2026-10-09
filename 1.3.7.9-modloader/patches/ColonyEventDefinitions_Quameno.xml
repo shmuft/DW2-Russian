@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfColonyEventDefinition>
+  <ColonyEventDefinition id="58">
+    <Name>Инопланетные забавы</Name>
+    <Description>Наш недавно подписанный договор отвлек наших граждан от их задач, поскольку они временно занялись новыми инопланетными народами. В результате общегосударственное счастье возросло, но объём научных исследований снизился.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="59">
+    <Name>Исследования интеграции</Name>
+    <Description>Неассимилированные инопланетные популяции на наших колониях снизили общее счастье в империи и уменьшили объём научных исследований.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="60">
+    <Name>Ответ</Name>
+    <Description>Недавнее строительство Центра Трансцендентности повысило уровень счастья в нашей империи.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="61">
+    <Name>Загадка разгадана</Name>
+    <Description>Завершение передового исследовательского проекта обеспечило нашей империи двухлетний бонус к уровню счастья и объёму научных исследований.\n\n[BONUS]+10% ко всем исследованиям[/BONUS]\n[BONUS]+10% к счастью[/BONUS]\n\nТакже оно предоставило [CHARACTER]бонусные черты характера нашему Лидеру и одному из наших учёных[/CHARACTER].</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="62">
+    <Name>Строим будущее</Name>
+    <Description>Недавнее строительство новой исследовательской станции дало кратковременный прирост счастья в нашей империи.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="63">
+    <Name>Разрушение пиратской тюрьмы</Name>
+    <Description>Наше решение снести древний парк, использовавшийся пиратами, дало краткосрочный прирост счастья в нашей империи.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="64">
+    <Name>Использование Пиратской тюрьмы</Name>
+    <Description>Наше решение использовать древний парк, ранее использовавшийся пиратами, дало нам краткосрочный удар по счастью нашей империи.</Description>
+  </ColonyEventDefinition>
+  <ColonyEventDefinition id="65">
+    <Name>Уничтожен кибернетический мозг</Name>
+    <Description>Наше решение уничтожить кибернетический мозг обеспечило прирост счастья в нашей империи на 3 года</Description>
+  </ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

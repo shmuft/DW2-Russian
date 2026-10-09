@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfGovernment>
+  <Government id="32750">
+    <LeaderTitle>Верховный Пират</LeaderTitle>
+    <Name>Пираты</Name>
+    <Description>Сбалансированные пираты не специализируются сильно ни в одной области. Они универсальны и могут попробовать всё понемногу, но лучше всего им даются шпионаж, контракты и доход, получаемый через влияние и коррупцию.\n\nОни стремятся контролировать колонии, получать доход от соглашений о защите с другими империями, а также захватывать вражеские корабли и базы.\n\nСбалансированные пираты начинают игру с более продвинутыми технологиями для кают экипажа и командных центров.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Bloody</string>
+      <string>Dread</string>
+      <string>Dirty</string>
+      <string>Evil</string>
+      <string>Iron</string>
+      <string>Fierce</string>
+      <string>Cruel</string>
+      <string>Sinister</string>
+      <string>Vicious</string>
+      <string>Lone</string>
+      <string>Savage</string>
+      <string>Fearsome</string>
+      <string>Deadly</string>
+      <string>Venomous</string>
+      <string>Murderous</string>
+      <string>Red</string>
+      <string>Black</string>
+      <string>Dark</string>
+      <string>Grim</string>
+      <string>Haunted</string>
+      <string>Menacing</string>
+      <string>Blood</string>
+      <string>Burning</string>
+      <string>Hidden</string>
+      <string>Fire</string>
+      <string>Lost</string>
+    </EmpireNameAdjectives>
+    <EmpireNameMiddles op="replace">
+      <string>Sun</string>
+      <string>Star</string>
+      <string>Rock</string>
+      <string>Moon</string>
+      <string>Storm</string>
+      <string>Fang</string>
+      <string>Claw</string>
+      <string>Dagger</string>
+      <string>Lightning</string>
+      <string>Flame</string>
+    </EmpireNameMiddles>
+    <EmpireNameNouns op="replace">
+      <string>Pirates</string>
+      <string>Marauders</string>
+      <string>Bandits</string>
+      <string>Buccaneers</string>
+      <string>Outlaws</string>
+      <string>Corsairs</string>
+      <string>Gangsters</string>
+      <string>Prowlers</string>
+      <string>Intruders</string>
+      <string>Skyjackers</string>
+      <string>Gang</string>
+      <string>Council</string>
+      <string>Network</string>
+      <string>League</string>
+      <string>Force</string>
+      <string>Clan</string>
+      <string>Authority</string>
+      <string>Confederacy</string>
+      <string>Confederation</string>
+      <string>Fleet</string>
+      <string>Consortium</string>
+      <string>Syndicate</string>
+      <string>Cartel</string>
+    </EmpireNameNouns>
+  </Government>
+  <Government id="32751">
+    <LeaderTitle>Главный торговец</LeaderTitle>
+    <Name>Контрабандисты</Name>
+    <Description>Контрабандисты сосредоточены на торговле ресурсами с другими фракциями.\n\nОбычно они также строят сеть добывающих станций для обеспечения ключевыми ресурсами, которые затем продают другим.\n\nКонтрабандисты ценят стабильность и мирное сосуществование с другими фракциями вместо открытых конфликтов. Они также эффективно используют влияние скрытых планетарных баз для получения экономических преимуществ.\n\nКонтрабандисты также получают дополнительную скидку в 10% на ресурсы черного рынка.\n\nКонтрабандисты начинают игру с более продвинутыми технологиями для двигателей и грузовых отсеков.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Lone</string>
+      <string>Red</string>
+      <string>Black</string>
+      <string>Dark</string>
+      <string>Grim</string>
+      <string>Haunted</string>
+      <string>Blood</string>
+      <string>Burning</string>
+      <string>Hidden</string>
+      <string>Fire</string>
+      <string>Lost</string>
+      <string>Swift</string>
+      <string>Nimble</string>
+      <string>Agile</string>
+      <string>Fearless</string>
+      <string>Audacious</string>
+      <string>Bold</string>
+      <string>Adept</string>
+    </EmpireNameAdjectives>
+    <EmpireNameMiddles op="replace">
+      <string>Sun</string>
+      <string>Star</string>
+      <string>Rock</string>
+      <string>Moon</string>
+      <string>Storm</string>
+      <string>Fang</string>
+      <string>Claw</string>
+      <string>Dagger</string>
+      <string>Lightning</string>
+      <string>Flame</string>
+    </EmpireNameMiddles>
+    <EmpireNameNouns op="replace">
+      <string>Gang</string>
+      <string>Council</string>
+      <string>Network</string>
+      <string>League</string>
+      <string>Force</string>
+      <string>Clan</string>
+      <string>Fleet</string>
+      <string>Authority</string>
+      <string>Confederacy</string>
+      <string>Confederation</string>
+      <string>Horde</string>
+      <string>Corporation</string>
+      <string>Consortium</string>
+      <string>Syndicate</string>
+      <string>Cartel</string>
+      <string>Guild</string>
+      <string>Smugglers</string>
+      <string>Traders</string>
+      <string>Enterprises</string>
+    </EmpireNameNouns>
+  </Government>
+  <Government id="32752">
+    <LeaderTitle>Пиратский ужас</LeaderTitle>
+    <Name>Рэйдеры</Name>
+    <Description>Рейдеры пытаются установить контроль над колониями силой, как над независимыми, так и над принадлежащими обычным империям. Они обогащаются благодаря повторяющимся набегам и обретению местного влияния, которое позволяет им откачивать богатства из этих контролируемых колоний.\n\nЧтобы укрепить свой контроль, они отражают нападения конкурирующих пиратских группировок и часто захватывают их корабли и базы.\n\nРейдеры начинают игру с более продвинутыми технологиями для штурмовых капсул и тяговых лучей.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Bloody</string>
+      <string>Dread</string>
+      <string>Dirty</string>
+      <string>Evil</string>
+      <string>Iron</string>
+      <string>Fierce</string>
+      <string>Cruel</string>
+      <string>Sinister</string>
+      <string>Vicious</string>
+      <string>Lone</string>
+      <string>Savage</string>
+      <string>Fearsome</string>
+      <string>Deadly</string>
+      <string>Venomous</string>
+      <string>Murderous</string>
+      <string>Red</string>
+      <string>Black</string>
+      <string>Dark</string>
+      <string>Grim</string>
+      <string>Haunted</string>
+      <string>Menacing</string>
+      <string>Blood</string>
+      <string>Burning</string>
+      <string>Hidden</string>
+      <string>Fire</string>
+      <string>Lost</string>
+    </EmpireNameAdjectives>
+    <EmpireNameMiddles op="replace">
+      <string>Sun</string>
+      <string>Star</string>
+      <string>Rock</string>
+      <string>Moon</string>
+      <string>Storm</string>
+      <string>Fang</string>
+      <string>Claw</string>
+      <string>Dagger</string>
+      <string>Lightning</string>
+      <string>Flame</string>
+    </EmpireNameMiddles>
+    <EmpireNameNouns op="replace">
+      <string>Pirates</string>
+      <string>Marauders</string>
+      <string>Bandits</string>
+      <string>Raiders</string>
+      <string>Buccaneers</string>
+      <string>Outlaws</string>
+      <string>Corsairs</string>
+      <string>Pillagers</string>
+      <string>Gangsters</string>
+      <string>Ravagers</string>
+      <string>Prowlers</string>
+      <string>Intruders</string>
+      <string>Invaders</string>
+      <string>Skyjackers</string>
+      <string>Gang</string>
+      <string>Force</string>
+      <string>Clan</string>
+      <string>Army</string>
+      <string>Fleet</string>
+      <string>Horde</string>
+    </EmpireNameNouns>
+  </Government>
+  <Government id="32753">
+    <LeaderTitle>Лорд-адмирал</LeaderTitle>
+    <Name>Наёмники</Name>
+    <Description>Наемники — самые дисциплинированные и милитаристски настроенные из пиратов, происходящие от сохранившихся флотов древней галактики. В настоящее время они являются наемными солдатами, ищущими возможности для атак, обороны и каперства, предлагаемые другими.\n\nКогда они не выполняют контракты, они наращивают свои флоты и укрепляют свои базы посредством торговли и исследований. Наемники также могут совершать набеги на колонии и базы ради добычи.\n\nНаемники начинают игру с более продвинутыми технологиями для корпусов военных кораблей и ангаров для истребителей.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Bloody</string>
+      <string>Dread</string>
+      <string>Dirty</string>
+      <string>Evil</string>
+      <string>Iron</string>
+      <string>Fierce</string>
+      <string>Cruel</string>
+      <string>Sinister</string>
+      <string>Vicious</string>
+      <string>Lone</string>
+      <string>Savage</string>
+      <string>Fearsome</string>
+      <string>Deadly</string>
+      <string>Venomous</string>
+      <string>Murderous</string>
+      <string>Red</string>
+      <string>Black</string>
+      <string>Dark</string>
+      <string>Grim</string>
+      <string>Haunted</string>
+      <string>Menacing</string>
+      <string>Blood</string>
+      <string>Burning</string>
+      <string>Hidden</string>
+      <string>Fire</string>
+      <string>Lost</string>
+    </EmpireNameAdjectives>
+    <EmpireNameMiddles op="replace">
+      <string>Sun</string>
+      <string>Star</string>
+      <string>Rock</string>
+      <string>Moon</string>
+      <string>Storm</string>
+      <string>Fang</string>
+      <string>Claw</string>
+      <string>Dagger</string>
+      <string>Lightning</string>
+      <string>Flame</string>
+    </EmpireNameMiddles>
+    <EmpireNameNouns op="replace">
+      <string>Buccaneers</string>
+      <string>Outlaws</string>
+      <string>Corsairs</string>
+      <string>Gangsters</string>
+      <string>Prowlers</string>
+      <string>Intruders</string>
+      <string>Gang</string>
+      <string>Mercenaries</string>
+      <string>Council</string>
+      <string>Network</string>
+      <string>League</string>
+      <string>Force</string>
+      <string>Clan</string>
+      <string>Authority</string>
+      <string>Security</string>
+      <string>Warriors</string>
+      <string>Hunters</string>
+      <string>Guild</string>
+    </EmpireNameNouns>
+  </Government>
+  <Government id="32746">
+    <LeaderTitle>Гранд-Босс</LeaderTitle>
+    <Name>Конфедерация окраины</Name>
+    <Description>Конфедерация окраины — это переходная форма правления, занимающая промежуточное положение между сбалансированными пиратами и другими стандартными стилями управления империей. Она сочетает в себе некоторые преимущества пиратства с повышенной стабильностью и структурой планетарной цивилизации.\n\nКак только пиратская фракция переходит на эту форму правления, становятся доступными другие, более типичные формы планетарного управления (Демократия, Республика, Монархия и т. д.). Затем фракция может выбрать последующий переход на одну из этих форм правления.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Bloody</string>
+      <string>Dread</string>
+      <string>Dirty</string>
+      <string>Evil</string>
+      <string>Iron</string>
+      <string>Fierce</string>
+      <string>Cruel</string>
+      <string>Sinister</string>
+      <string>Vicious</string>
+      <string>Lone</string>
+      <string>Savage</string>
+      <string>Fearsome</string>
+      <string>Deadly</string>
+      <string>Venomous</string>
+      <string>Murderous</string>
+      <string>Red</string>
+      <string>Black</string>
+      <string>Dark</string>
+      <string>Grim</string>
+      <string>Haunted</string>
+      <string>Menacing</string>
+      <string>Blood</string>
+      <string>Burning</string>
+      <string>Hidden</string>
+      <string>Fire</string>
+      <string>Lost</string>
+    </EmpireNameAdjectives>
+    <EmpireNameMiddles op="replace">
+      <string>Sun</string>
+      <string>Star</string>
+      <string>Rock</string>
+      <string>Moon</string>
+      <string>Storm</string>
+      <string>Fang</string>
+      <string>Claw</string>
+      <string>Dagger</string>
+      <string>Lightning</string>
+      <string>Flame</string>
+    </EmpireNameMiddles>
+    <EmpireNameNouns op="replace">
+      <string>Pirates</string>
+      <string>Marauders</string>
+      <string>Bandits</string>
+      <string>Buccaneers</string>
+      <string>Outlaws</string>
+      <string>Corsairs</string>
+      <string>Gangsters</string>
+      <string>Prowlers</string>
+      <string>Intruders</string>
+      <string>Skyjackers</string>
+      <string>Gang</string>
+      <string>Council</string>
+      <string>Network</string>
+      <string>League</string>
+      <string>Force</string>
+      <string>Clan</string>
+      <string>Authority</string>
+      <string>Confederacy</string>
+      <string>Confederation</string>
+      <string>Fleet</string>
+      <string>Consortium</string>
+      <string>Syndicate</string>
+      <string>Cartel</string>
+    </EmpireNameNouns>
+  </Government>
+  <Government id="32747">
+    <LeaderTitle>Торговый лорд</LeaderTitle>
+    <Name>Торговля</Name>
+    <Description>Торговая гильдия — это переходная форма правления между контрабандистами и другими стандартными стилями управления империей. Она сочетает в себе некоторые преимущества контрабанды с повышенной стабильностью и структурой планетарной цивилизации.\n\nПосле того как фракция контрабандистов переходит к этой форме правления, становятся доступными другие, более типичные формы планетарного управления (Демократия, Республика, Монархия и т. д.). Затем фракция может выбрать последующий переход к одной из этих форм правления.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Lone</string>
+      <string>Red</string>
+      <string>Black</string>
+      <string>Dark</string>
+      <string>Grim</string>
+      <string>Haunted</string>
+      <string>Blood</string>
+      <string>Burning</string>
+      <string>Hidden</string>
+      <string>Fire</string>
+      <string>Lost</string>
+      <string>Swift</string>
+      <string>Nimble</string>
+      <string>Agile</string>
+      <string>Fearless</string>
+      <string>Audacious</string>
+      <string>Bold</string>
+      <string>Adept</string>
+    </EmpireNameAdjectives>
+    <EmpireNameMiddles op="replace">
+      <string>Sun</string>
+      <string>Star</string>
+      <string>Rock</string>
+      <string>Moon</string>
+      <string>Storm</string>
+      <string>Fang</string>
+      <string>Claw</string>
+      <string>Dagger</string>
+      <string>Lightning</string>
+      <string>Flame</string>
+    </EmpireNameMiddles>
+    <EmpireNameNouns op="replace">
+      <string>Gang</string>
+      <string>Council</string>
+      <string>Network</string>
+      <string>League</string>
+      <string>Force</string>
+      <string>Clan</string>
+      <string>Fleet</string>
+      <string>Authority</string>
+      <string>Confederacy</string>
+      <string>Confederation</string>
+      <string>Horde</string>
+      <string>Corporation</string>
+      <string>Consortium</string>
+      <string>Syndicate</string>
+      <string>Cartel</string>
+      <string>Guild</string>
+      <string>Smugglers</string>
+      <string>Traders</string>
+      <string>Enterprises</string>
+    </EmpireNameNouns>
+  </Government>
+  <Government id="32748">
+    <LeaderTitle>Король гангстеров</LeaderTitle>
+    <Name>Бандитократия</Name>
+    <Description>Бандитократия — это переходная форма правления между рейдерами и другими стандартными стилями управления империей. Она сочетает в себе некоторые преимущества набега с повышенной стабильностью и структурой планетарной цивилизации.\n\nКогда фракция, занимающаяся набегами, переходит к этой форме правления, становятся доступными и другие, более типичные формы планетарного управления (Демократия, Республика, Монархия и т. д.). Затем фракция может выбрать последующий переход к одной из этих форм правления.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Bloody</string>
+      <string>Dread</string>
+      <string>Dirty</string>
+      <string>Evil</string>
+      <string>Iron</string>
+      <string>Fierce</string>
+      <string>Cruel</string>
+      <string>Sinister</string>
+      <string>Vicious</string>
+      <string>Lone</string>
+      <string>Savage</string>
+      <string>Fearsome</string>
+      <string>Deadly</string>
+      <string>Venomous</string>
+      <string>Murderous</string>
+      <string>Red</string>
+      <string>Black</string>
+      <string>Dark</string>
+      <string>Grim</string>
+      <string>Haunted</string>
+      <string>Menacing</string>
+      <string>Blood</string>
+      <string>Burning</string>
+      <string>Hidden</string>
+      <string>Fire</string>
+      <string>Lost</string>
+    </EmpireNameAdjectives>
+    <EmpireNameMiddles op="replace">
+      <string>Sun</string>
+      <string>Star</string>
+      <string>Rock</string>
+      <string>Moon</string>
+      <string>Storm</string>
+      <string>Fang</string>
+      <string>Claw</string>
+      <string>Dagger</string>
+      <string>Lightning</string>
+      <string>Flame</string>
+    </EmpireNameMiddles>
+    <EmpireNameNouns op="replace">
+      <string>Pirates</string>
+      <string>Marauders</string>
+      <string>Bandits</string>
+      <string>Raiders</string>
+      <string>Buccaneers</string>
+      <string>Outlaws</string>
+      <string>Corsairs</string>
+      <string>Pillagers</string>
+      <string>Gangsters</string>
+      <string>Ravagers</string>
+      <string>Prowlers</string>
+      <string>Intruders</string>
+      <string>Invaders</string>
+      <string>Skyjackers</string>
+      <string>Gang</string>
+      <string>Force</string>
+      <string>Clan</string>
+      <string>Army</string>
+      <string>Fleet</string>
+      <string>Horde</string>
+    </EmpireNameNouns>
+  </Government>
+  <Government id="32749">
+    <LeaderTitle>Гранд-адмирал</LeaderTitle>
+    <Name>Власть Пограничья</Name>
+    <Description>Власть на границе — это переходная форма правления, занимающая промежуточное положение между наёмниками и другими стандартными стилями управления империей. Она сочетает в себе некоторые преимущества охоты за головами с повышенной стабильностью и структурой планетарной цивилизации.\n\nКак только наёмническая фракция переходит к этой форме правления, становятся доступными другие, более типичные формы планетарного управления (Демократия, Республика, Монархия и т. д.). Затем фракция может выбрать последующий переход к одной из этих форм правления.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Bloody</string>
+      <string>Dread</string>
+      <string>Dirty</string>
+      <string>Evil</string>
+      <string>Iron</string>
+      <string>Fierce</string>
+      <string>Cruel</string>
+      <string>Sinister</string>
+      <string>Vicious</string>
+      <string>Lone</string>
+      <string>Savage</string>
+      <string>Fearsome</string>
+      <string>Deadly</string>
+      <string>Venomous</string>
+      <string>Murderous</string>
+      <string>Red</string>
+      <string>Black</string>
+      <string>Dark</string>
+      <string>Grim</string>
+      <string>Haunted</string>
+      <string>Menacing</string>
+      <string>Blood</string>
+      <string>Burning</string>
+      <string>Hidden</string>
+      <string>Fire</string>
+      <string>Lost</string>
+    </EmpireNameAdjectives>
+    <EmpireNameMiddles op="replace">
+      <string>Sun</string>
+      <string>Star</string>
+      <string>Rock</string>
+      <string>Moon</string>
+      <string>Storm</string>
+      <string>Fang</string>
+      <string>Claw</string>
+      <string>Dagger</string>
+      <string>Lightning</string>
+      <string>Flame</string>
+    </EmpireNameMiddles>
+    <EmpireNameNouns op="replace">
+      <string>Buccaneers</string>
+      <string>Outlaws</string>
+      <string>Corsairs</string>
+      <string>Gangsters</string>
+      <string>Prowlers</string>
+      <string>Intruders</string>
+      <string>Gang</string>
+      <string>Mercenaries</string>
+      <string>Council</string>
+      <string>Network</string>
+      <string>League</string>
+      <string>Force</string>
+      <string>Clan</string>
+      <string>Authority</string>
+      <string>Security</string>
+      <string>Warriors</string>
+      <string>Hunters</string>
+      <string>Guild</string>
+    </EmpireNameNouns>
+  </Government>
+  <Government id="32730">
+    <LeaderTitle>Король пиратов</LeaderTitle>
+    <Name>Свободная анархия</Name>
+    <Description>Свободная анархия — это вершина пиратского управления. Она объединяет все преимущества различных стилей пиратства (пираты, контрабандисты, рейдеры, наемники) в единую форму правления.\n\nСвободная анархия активируется путем постройки пиратского чуда — Анархополиса — в колонии. Это чудо можно возвести только путем модернизации существующего сооружения «Преступная сеть».\n\nЛидер пиратской фракции с такой формой правления считается де-факто главой всех пиратов и, следовательно, получает постоянный дипломатический бонус со всеми остальными пиратскими фракциями.</Description>
+    <EmpireNameAdjectives op="replace">
+      <string>Lone</string>
+      <string>Red</string>
+      <string>Black</string>
+      <string>Dark</string>
+      <string>Grim</string>
+      <string>Haunted</string>
+      <string>Blood</string>
+      <string>Burning</string>
+      <string>Hidden</string>
+      <string>Fire</string>
+      <string>Lost</string>
+      <string>Swift</string>
+      <string>Nimble</string>
+      <string>Agile</string>
+      <string>Fearless</string>
+      <string>Audacious</string>
+      <string>Bold</string>
+      <string>Adept</string>
+    </EmpireNameAdjectives>
+    <EmpireNameMiddles op="replace">
+      <string>Sun</string>
+      <string>Star</string>
+      <string>Rock</string>
+      <string>Moon</string>
+      <string>Storm</string>
+      <string>Fang</string>
+      <string>Claw</string>
+      <string>Dagger</string>
+      <string>Lightning</string>
+      <string>Flame</string>
+    </EmpireNameMiddles>
+    <EmpireNameNouns op="replace">
+      <string>Gang</string>
+      <string>Council</string>
+      <string>Network</string>
+      <string>League</string>
+      <string>Force</string>
+      <string>Clan</string>
+      <string>Fleet</string>
+      <string>Authority</string>
+      <string>Confederacy</string>
+      <string>Confederation</string>
+      <string>Horde</string>
+      <string>Corporation</string>
+      <string>Consortium</string>
+      <string>Syndicate</string>
+      <string>Cartel</string>
+      <string>Guild</string>
+      <string>Smugglers</string>
+      <string>Traders</string>
+      <string>Enterprises</string>
+    </EmpireNameNouns>
+  </Government>
+</ArrayOfGovernment>

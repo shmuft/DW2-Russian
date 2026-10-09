@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfSpaceItemDefinition>
+  <SpaceItemDefinition id="0">
+    <Name>Силовой кабель</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="1">
+    <Name>Структурное усиление</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="2">
+    <Name>Обшивка корпуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="3">
+    <Name>Секция корпуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="4">
+    <Name>Фрагмент обтекателя антенны</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="5">
+    <Name>Обшивка корпуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="6">
+    <Name>Обшивка корпуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="7">
+    <Name>Обшивка корпуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="8">
+    <Name>Структурная балка</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="9">
+    <Name>Усиленная стойка</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="10">
+    <Name>Обшивка корпуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="11">
+    <Name>Секция переборки</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="12">
+    <Name>Суперконденсатор</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="13">
+    <Name>Ядро реактора</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="14">
+    <Name>Лом силового шунта</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="15">
+    <Name>Секция корпуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="16">
+    <Name>Обшивка корпуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="17">
+    <Name>Секция корпуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="18">
+    <Name>Секция переборки</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="19">
+    <Name>Реле питания</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="20">
+    <Name>Эстакада</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="21">
+    <Name>Силовой кабель</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="22">
+    <Name>Структурный силовой каркас</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="23">
+    <Name>Усиление корпуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="24">
+    <Name>Секция корпуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="25">
+    <Name>Крепление корпуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="26">
+    <Name>Обшивка корпуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="027">
+    <Name>Обшивка корпуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="28">
+    <Name>Надстройка двигателя</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="29">
+    <Name>Секция корпуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="30">
+    <Name>Надстройка корпуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="31">
+    <Name>Компьютерное ядро</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="32">
+    <Name>Спасательная капсула</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="33">
+    <Name>Грузовой контейнер</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="34">
+    <Name>Герметичное хранилище</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="35">
+    <Name>Хранилище летучих веществ</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="36">
+    <Name>Грузовой контейнер</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="37">
+    <Name>Грузовой контейнер</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="38">
+    <Name>Остатки Гравиллекса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="39">
+    <Name>Остатки Гравиллекса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="40">
+    <Name>Остатки Гравиллекса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="41">
+    <Name>Туша Гравиллекса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="42">
+    <Name>Остатки Ардилуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="43">
+    <Name>Остатки Ардилуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="44">
+    <Name>Остатки Ардилуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="45">
+    <Name>Остатки Ардилуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="46">
+    <Name>Остатки Ардилуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="47">
+    <Name>Остатки Ардилуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="48">
+    <Name>Остатки Ардилуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="49">
+    <Name>Туша Ардилуса</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="50">
+    <Name>Туша Вордикара</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="51">
+    <Name>Остатки Вордикара</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="52">
+    <Name>Остатки Вордикара</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="53">
+    <Name>Остатки Вордикара</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="54">
+    <Name>Остатки Вордикара</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="55">
+    <Name>Остатки Вордикара</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="56">
+    <Name>Остатки Вордикара</Name>
+  </SpaceItemDefinition>
+  <SpaceItemDefinition id="57">
+    <Name>Остов Улья</Name>
+  </SpaceItemDefinition>
+</ArrayOfSpaceItemDefinition>

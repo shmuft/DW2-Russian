@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfShipHull>
+  <ShipHull id="1397">
+    <Name>Космопорт сектора</Name>
+  </ShipHull>
+  <ShipHull id="1421">
+    <MarketingName>Kestrel T100</MarketingName>
+    <MarketingDescription>The Kestrel series combines raw speed with excellent agility, giving it the edge in quickly evading attackers. 
+
+It also includes ion defence and some of the most competitive countermeasures on the market.</MarketingDescription>
+    <Name>Неуловимый эскорт</Name>
+  </ShipHull>
+  <ShipHull id="1422">
+    <Name>Малый порт</Name>
+  </ShipHull>
+  <ShipHull id="1423">
+    <Name>Малый строительный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1424">
+    <Name>Малый исслед-й корабль</Name>
+  </ShipHull>
+  <ShipHull id="1425">
+    <Name>Неуловимый добывающий корабль</Name>
+  </ShipHull>
+  <ShipHull id="1426">
+    <MarketingName>Harrier LT1000</MarketingName>
+    <MarketingDescription>The Harrier is an exceptionally practical make, intended as a tough all-rounder. 
+
+Its superb stealth and extra shield recharge rate help it deliver its cargo anywhere in the galaxy.</MarketingDescription>
+    <Name>Неуловимый малый грузовой корабль</Name>
+  </ShipHull>
+  <ShipHull id="1427">
+    <Name>Малая добывающая станция</Name>
+  </ShipHull>
+  <ShipHull id="1428">
+    <Name>Исследовательская станция</Name>
+  </ShipHull>
+  <ShipHull id="1429">
+    <MarketingName>Kestrel T200</MarketingName>
+    <MarketingDescription>The Kestrel series combines raw speed with excellent agility, giving it the edge in quickly evading attackers. 
+
+It also includes ion defence and some of the most competitive countermeasures on the market.</MarketingDescription>
+    <Name>Неуловимый эскорт v2</Name>
+  </ShipHull>
+  <ShipHull id="1430">
+    <MarketingName>Falcon XT1000</MarketingName>
+    <MarketingDescription>The Falcon is a step up in size while preserving its exceptional manoeuvrability. 
+
+Its extra speed and solid countermeasures are designed to help extract you from any sticky situation you find yourself in.</MarketingDescription>
+    <Name>Неуловимый фрегат</Name>
+  </ShipHull>
+  <ShipHull id="1431">
+    <Name>Малый десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1432">
+    <Name>Малый космопорт v2</Name>
+  </ShipHull>
+  <ShipHull id="1433">
+    <Name>Малый колонизационный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1434">
+    <Name>Неуловимый добывающий корабль v2</Name>
+  </ShipHull>
+  <ShipHull id="1435">
+    <MarketingName>Harrier LT1500</MarketingName>
+    <MarketingDescription>The Harrier is an exceptionally practical make, intended as a tough all-rounder. 
+
+Its superb stealth and extra shield recharge rate help it deliver its cargo anywhere in the galaxy.</MarketingDescription>
+    <Name>Неуловимый малый грузовой корабль v2</Name>
+  </ShipHull>
+  <ShipHull id="1436">
+    <Name>Малый пассажирский корабль</Name>
+  </ShipHull>
+  <ShipHull id="1437">
+    <Name>Малый топливный заправщик</Name>
+  </ShipHull>
+  <ShipHull id="1438">
+    <Name>Большая добывающая станция</Name>
+  </ShipHull>
+  <ShipHull id="1439">
+    <Name>Развлекательная станция</Name>
+  </ShipHull>
+  <ShipHull id="1440">
+    <MarketingName>Falcon XT1200</MarketingName>
+    <MarketingDescription>The Falcon is a step up in size while preserving its exceptional manoeuvrability. 
+
+Its extra speed and solid countermeasures are designed to help extract you from any sticky situation you find yourself in.</MarketingDescription>
+    <Name>Неуловимый фрегат v2</Name>
+  </ShipHull>
+  <ShipHull id="1441">
+    <MarketingName>Hawk KR1000</MarketingName>
+    <MarketingDescription>The Hawk model of destroyer is a fast, reliable choice. 
+
+Built for adventure, it offers extra countermeasures and decent cargo capacity, while the additional speed is sure to come in handy.</MarketingDescription>
+    <Name>Неуловимый эсминец</Name>
+  </ShipHull>
+  <ShipHull id="1442">
+    <Name>Средний десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1443">
+    <Name>Малый космопорт v3</Name>
+  </ShipHull>
+  <ShipHull id="1444">
+    <Name>Средний топливный заправщик</Name>
+  </ShipHull>
+  <ShipHull id="1445">
+    <Name>Станция наблюдения</Name>
+  </ShipHull>
+  <ShipHull id="1446">
+    <Name>Средний строительный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1447">
+    <Name>Средний исследовательский корабль</Name>
+  </ShipHull>
+  <ShipHull id="1448">
+    <Name>Неуловимый добывающий корабль v3</Name>
+  </ShipHull>
+  <ShipHull id="1449">
+    <MarketingName>Osprey JT100</MarketingName>
+    <MarketingDescription>The Osprey is an agile, highly popular model of freighter. 
+
+Designed for speed, it also incorporates excellent countermeasures, stealth, and shield recharge.</MarketingDescription>
+    <Name>Неуловимый средний грузовой корабль</Name>
+  </ShipHull>
+  <ShipHull id="1450">
+    <Name>Средний пассажирский корабль</Name>
+  </ShipHull>
+  <ShipHull id="1451">
+    <MarketingName>Hawk KR1600</MarketingName>
+    <MarketingDescription>The Hawk model of destroyer is a fast, reliable choice. 
+
+Built for adventure, it offers extra countermeasures and decent cargo capacity, while the additional speed is sure to come in handy.</MarketingDescription>
+    <Name>Неуловимый эсминец v2</Name>
+  </ShipHull>
+  <ShipHull id="1452">
+    <Name>Средний космопорт</Name>
+  </ShipHull>
+  <ShipHull id="1453">
+    <Name>Космический бастион</Name>
+  </ShipHull>
+  <ShipHull id="1454">
+    <Name>Средний колонизационный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1455">
+    <Name>Большой топливный заправщик</Name>
+  </ShipHull>
+  <ShipHull id="1456">
+    <MarketingName>Condor TK100</MarketingName>
+    <MarketingDescription>The Condor line incorporates larger capacity with solid defence. 
+
+It boasts a fast shield recharge rate and substantial countermeasures while still maintaining its famous speed.</MarketingDescription>
+    <Name>Неуловимый большой грузовой корабль</Name>
+  </ShipHull>
+  <ShipHull id="1457">
+    <Name>Большой пассажирский корабль</Name>
+  </ShipHull>
+  <ShipHull id="1458">
+    <MarketingName>Eagle FX1000</MarketingName>
+    <MarketingDescription>The Eagle balances attack and defence, swifter than average and with extra weapons range. 
+
+With ion defence, countermeasures, and eleven weapon bays, you won't be easily taken down.</MarketingDescription>
+    <Name>Неуловимый крейсер</Name>
+  </ShipHull>
+  <ShipHull id="1459">
+    <Name>Большой десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1460">
+    <Name>Средний космопорт v2</Name>
+  </ShipHull>
+  <ShipHull id="1461">
+    <Name>Космический бастион v2</Name>
+  </ShipHull>
+  <ShipHull id="1462">
+    <MarketingName>Condor TK200</MarketingName>
+    <MarketingDescription>The Condor line incorporates larger capacity with solid defence. 
+
+It boasts a fast shield recharge rate and substantial countermeasures while still maintaining its famous speed.</MarketingDescription>
+    <Name>Уклонистский большой грузовой корабль v2</Name>
+  </ShipHull>
+  <ShipHull id="1463">
+    <Name>Большой строительный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1464">
+    <Name>Большой исследовательский корабль</Name>
+  </ShipHull>
+  <ShipHull id="1465">
+    <Name>Большой колонизационный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1466">
+    <Name>Неуловимый линейный крейсер</Name>
+  </ShipHull>
+  <ShipHull id="1467">
+    <Name>Неуловимый лёгкий авианосец</Name>
+  </ShipHull>
+  <ShipHull id="1468">
+    <MarketingName>Eagle FX1400</MarketingName>
+    <MarketingDescription>The Eagle balances attack and defence, swifter than average and with extra weapons range. 
+
+With ion defence, countermeasures, and eleven weapon bays, you won't be easily taken down.</MarketingDescription>
+    <Name>Неуловимый крейсер v2</Name>
+  </ShipHull>
+  <ShipHull id="1469">
+    <Name>Сверхкрупный десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1470">
+    <Name>Неуловимый линкор v2</Name>
+  </ShipHull>
+  <ShipHull id="1471">
+    <Name>Неуловимый авианосец v2</Name>
+  </ShipHull>
+  <ShipHull id="1472">
+    <MarketingName>Eagle FX1800</MarketingName>
+    <MarketingDescription>The Eagle balances attack and defence, swifter than average and with extra weapons range. 
+
+With ion defence, countermeasures, and eleven weapon bays, you won't be easily taken down.</MarketingDescription>
+    <Name>Неуловимый крейсер v3</Name>
+  </ShipHull>
+  <ShipHull id="1473">
+    <Name>Экспедиционный транспорт</Name>
+  </ShipHull>
+  <ShipHull id="1474">
+    <Name>Большой космопорт</Name>
+  </ShipHull>
+  <ShipHull id="1475">
+    <Name>Массивный колонизационный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1476">
+    <Name>Неуловимый линкор v3</Name>
+  </ShipHull>
+  <ShipHull id="1477">
+    <Name>Неуловимый авианосец v3</Name>
+  </ShipHull>
+  <ShipHull id="1478">
+    <Name>Десантный корабль</Name>
+  </ShipHull>
+  <ShipHull id="1479">
+    <Name>Мировой корабль</Name>
+  </ShipHull>
+  <ShipHull id="1480">
+    <Name>Неуловимый дредноут v4</Name>
+  </ShipHull>
+  <ShipHull id="1481">
+    <Name>Неуловимый материнский корабль v4</Name>
+  </ShipHull>
+  <ShipHull id="1482">
+    <Name>Базовый истребитель</Name>
+  </ShipHull>
+  <ShipHull id="1483">
+    <Name>Лёгкий перехватчик</Name>
+  </ShipHull>
+  <ShipHull id="1484">
+    <Name>Перехватчик «Кречет»</Name>
+  </ShipHull>
+  <ShipHull id="1485">
+    <Name>Лёгкий ударный истребитель</Name>
+  </ShipHull>
+  <ShipHull id="1486">
+    <Name>Тактический перехватчик</Name>
+  </ShipHull>
+  <ShipHull id="1487">
+    <Name>Ударный истребитель</Name>
+  </ShipHull>
+  <ShipHull id="1488">
+    <Name>Прыжковый истребитель</Name>
+  </ShipHull>
+  <ShipHull id="1489">
+    <Name>Ударный шаттл «ЗимЗип»</Name>
+  </ShipHull>
+  <ShipHull id="1490">
+    <Name>Перехватчик «Кречет» v2</Name>
+  </ShipHull>
+  <ShipHull id="1491">
+    <Name>Продвинутый перехватчик</Name>
+  </ShipHull>
+  <ShipHull id="1492">
+    <Name>Штурмовой истребитель</Name>
+  </ShipHull>
+  <ShipHull id="1493">
+    <Name>Ударный шаттл «ЗимЗип» v2</Name>
+  </ShipHull>
+  <ShipHull id="1494">
+    <Name>Перехватчик «Кречет» v3</Name>
+  </ShipHull>
+  <ShipHull id="1495">
+    <Name>Перехватчик «Кречет» v4</Name>
+  </ShipHull>
+  <ShipHull id="1496">
+    <Name>Истребитель превосходства</Name>
+  </ShipHull>
+  <ShipHull id="1497">
+    <Name>Ударный шаттл «ЗимЗип» v3</Name>
+  </ShipHull>
+  <ShipHull id="1498">
+    <Name>Истребитель превосходства v2</Name>
+  </ShipHull>
+  <ShipHull id="1499">
+    <Name>Базовый бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1500">
+    <Name>Лёгкий бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1501">
+    <Name>Средний бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1502">
+    <Name>Волновой бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1503">
+    <Name>Штурмовой бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1504">
+    <Name>Тяжёлый бомбардировщик</Name>
+  </ShipHull>
+  <ShipHull id="1505">
+    <Name>Штурм. бомбард.</Name>
+  </ShipHull>
+</ArrayOfShipHull>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfPlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="110">
+    <Name>Академия генетических исследований</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="111">
+    <Name>Комплекс биологической войны</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="112">
+    <Name>Разрушенное типовое убежище</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="113">
+    <Name>Хранилище маскировки</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="114">
+    <Name>Хранилище созидания</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="115">
+    <Name>Хранилище агрессии</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="116">
+    <Name>Хранилище разума Шактури</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="117">
+    <Name>Шактурский архив биологической войны</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="118">
+    <Name>Шактурский архив Генной Инженерии</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="119">
+    <Name>Шактурский архив Психической Защиты</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="120">
+    <Name>Пси-академия</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="121">
+    <Name>Шактурский архив Обороны</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="122">
+    <Name>Инкубатор Скитальцев Разлома</Name>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition id="32760">
+    <Name>Шактурский маяк</Name>
+  </PlanetaryFacilityDefinition>
+</ArrayOfPlanetaryFacilityDefinition>

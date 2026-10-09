@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfResearchProjectDefinition>
+  <ResearchProjectDefinition id="828">
+    <Name>Лечение деградировавших гизуриан</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="829">
+    <Name>Переплетенная броня</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="830">
+    <Name>Улучшенная переплетенная броня</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="831">
+    <Name>Устойчивая переплетенная броня</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="832">
+    <Name>Многослойная переплетенная броня</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="833">
+    <Name>Единая сетевая система наведения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="834">
+    <Name>Улучшенная сетевая система наведения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="835">
+    <Name>Продвинутая сетевая система наведения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="836">
+    <Name>Интегрированная сетевая система наведения</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="837">
+    <Name>Звездные истребители улья</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="838">
+    <Name>Средние истребители улья</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="839">
+    <Name>Тяжелые истребители улья</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="840">
+    <Name>Продвинутые истребители улья</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="841">
+    <Name>Орбитальная оборона улья</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="842">
+    <Name>Улучшенная орбитальная оборона</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="843">
+    <Name>Большие базы истребителей улья</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="844">
+    <Name>Массивные базы истребителей улья</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="846">
+    <Name>Восстановить коллективный разум Гизуринов</Name>
+  </ResearchProjectDefinition>
+  <ResearchProjectDefinition id="847">
+    <Name>Изучение деградировавших гизуринов</Name>
+  </ResearchProjectDefinition>
+</ArrayOfResearchProjectDefinition>

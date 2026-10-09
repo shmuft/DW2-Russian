@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfTroopDefinition>
+  <TroopDefinition id="73">
+    <Name>Танк-манта «Лихорадка»</Name>
+  </TroopDefinition>
+  <TroopDefinition id="74">
+    <Name>Оборонительный модуль «Удильщик»</Name>
+  </TroopDefinition>
+  <TroopDefinition id="75">
+    <Name>Охотничий отряд Даркхулов</Name>
+  </TroopDefinition>
+  <TroopDefinition id="76">
+    <Name>Связанные Даркхулы</Name>
+  </TroopDefinition>
+</ArrayOfTroopDefinition>

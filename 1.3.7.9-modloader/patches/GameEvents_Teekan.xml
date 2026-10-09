@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translate the text of the fields below in place. Do not change id="..." or index="...": they say which entity or list item the text belongs to. -->
+<ArrayOfGameEvent>
+  <GameEvent id="Wander Time (Teekan)">
+    <TriggerActions>
+      <GameEventAction index="2">
+        <MessageTitle>Время странствий</MessageTitle>
+        <Description>Наше недавнее основание новой колонии в [LOCATION]{6}[/LOCATION] вызвало новую волну стремления к странствиям и кочевых настроений среди нашего населения Тиканов.\n\nВ результате [LOCATION]{6}[/LOCATION] станет очень популярным направлением для миграции на следующие 5 лет.</Description>
+      </GameEventAction>
+    </TriggerActions>
+  </GameEvent>
+</ArrayOfGameEvent>
