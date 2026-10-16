@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<ArrayOfArtifact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Artifact>
+		<ArtifactId>65</ArtifactId> <!-- Cenotaph of the First Generation -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityTroopGeneral</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityFleetAdmiral</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityIntelligenceAgent</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityAmbassador</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<PsychicResistance>0.07</PsychicResistance>
+		<RaceId>8</RaceId>
+		<Name>Cenotaph of the First Generation</Name>
+		<Description>A stone rectangle approximately as tall as an adult Wekkarus. Regal decorations of the ancient Wekkarus keep the monument upright and accent the stone’s engravings. Though quite heavy, an ancient gravity reduction device is affixed to the Cenotaph’s base, promoting portability. Many who are near this artifact report feelings of competence and safety.\n\nIn addition this artifact will double the chance of Ancestors Among Us ghost character events (when owned by a Wekkarus faction).</Description>
+		<ImageFilename>Artifacts/cenotaph of the first generation</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>66</ArtifactId> <!-- Airship of the Ancestors -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Countermeasures</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<PsychicResistance>0.07</PsychicResistance>
+		<RaceId>8</RaceId>
+		<Name>Airship of the Ancestors</Name>
+		<Description>A tabletop model of an ancient Wekkarus vehicle which adventurers used to explore the Wekkarus homeworld beyond the oceans. It is made of an unknown metal, darker blue in color though certain kinds of light reveal it is marbled with hues of lighter blue inscriptions, creating the impression of an ocean surface.\n\nIn addition this artifact will double the chance of Ancestors Among Us ghost ship appearance (when owned by a Wekkarus faction).</Description>
+		<ImageFilename>Artifacts/airship of the ancestors</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>67</ArtifactId> <!-- Orb of Ancestral Strength -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TroopGroundAttack</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopGroundDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<PsychicResistance>0.07</PsychicResistance>
+		<RaceId>8</RaceId>
+		<Name>Orb of Ancestral Strength</Name>
+		<Description>This is a metal sphere, small enough to hold. Tapping on it suggests it is hollow, but the sphere is nevertheless curiously heavy. All who hold is report seeing mental images of ground combat. These are strong impressions rather than full hallucinations.\n\nIn addition this artifact will double the chance of Ancestors Among Us ghost troop appearance (when owned by a Wekkarus faction).</Description>
+		<ImageFilename>Artifacts/orb of ancestral strength</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>68</ArtifactId> <!-- The Devastator Compendium -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>245</short> <!-- Super Area Blast -->
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>8</RaceId>
+		<Name>The Devastator Compendium</Name>
+		<Description>An Ancient Wekkarus Artifact. Though charred and chipped, this data crystal remains mostly intact and entirely functional. Because it was created by the Ancient Wekkarus, its dimensions do not precisely conform with modern technology. Nevertheless, through means that our scientists find baffling, it is able to interface with our computer systems. An Ancient Wekkarus Data Crystal that is somehow hooked up to a computer. The crystal shows signs of damage.</Description>
+		<ImageFilename>Artifacts/Devastator Compendium</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>

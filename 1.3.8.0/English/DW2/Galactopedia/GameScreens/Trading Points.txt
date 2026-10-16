@@ -1,0 +1,7 @@
+To view trading locations, you can use the Trading Points screen. This will show you a distance-sorted list of places where you can buy and sell resources. For each location you can click the button at the right to show the resource amounts and prices, as well as the buy limit for the resource.
+
+You can also click the 'Move and Dock' button at the right of each location to immediately send your selected ship to that location. When it arrives it will automatically dock and open a menu panel for you to select what you want to do there, e.g. trading resources.
+
+Hovering over each location will ping its location on the galaxy map. Clicking the location will select it and also reorder the list to show the nearest other locations to the selected one (when Sort = 'Distance from Selected Item').
+
+Filtering the Trading Points list by a specific resource will show the amounts, prices and limits for that resource for each location directly in the Trading Points list.

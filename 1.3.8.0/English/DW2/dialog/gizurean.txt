@@ -1,0 +1,67 @@
+
+GREETING_INTRODUCTION			;We are the {0}.\n\nWe consume all, especially tasty things.\n\nAre you tasty?
+GREETING_FRIENDLY			;Hello friend. Send us your words
+GREETING_NEUTRAL			;What is it?
+GREETING_ANGRY				;Your presence displeases us. Make your point quickly
+
+GIFT_PROPOSE				;What kind of gift are you offering us? Can we eat it?
+GIFT_THANKS_ANGRY				;Your pitiful offering has been noted
+GIFT_THANKS_NEUTRAL				;Thanks for the gift!
+GIFT_THANKS_FRIENDLY				;Your generous gift makes us happy!
+
+OFFER_DEAL				;Would you accept this trade?
+PIRATEPROTECTION_DEAL				;It would be very unfortunate if any of your ships or bases suffered harm.\n\nFor the modest monthly fee of {0} credits we can ensure that our vessels avoid damaging your vessels.\n\nYou would be wise to accept our offer...
+DEAL_BEGIN				;What is this deal?
+DEAL_ACCEPT				;We like this deal - we accept
+DEAL_ACCEPT_RESPONSE		;We are happy you accept!
+DEAL_REJECT_RESPONSE		;How disappointing...
+DEAL_REJECT				;This deal tastes bad - we reject it
+
+TREATY_PROPOSAL				;What new treaty are you proposing?
+TREATY_ACCEPTRESPONSE			;Wonderful! Let us feast together with our new allies!
+TREATY_REJECTRESPONSE			;How disappointing...
+PROTECTION_ACCEPTRESPONSE		;Good choice! We look forward to your monthly payments
+PROTECTION_REJECTRESPONSE		;A poor choice. You will pay one way or another...
+
+SWAP_MAPS		;What kind of map would you like to swap?
+
+WAR_END_ACCEPT				;Yes, this war should end now. We will withdraw our forces. We expect you to do the same
+WAR_END_REJECT				;No, you must be consumed. We have already created some tasty recipes with you as the main ingredient!
+WAR_END_ACCEPT_RESPONSE			;A good choice. We can always fight again later
+
+WAR_END_ACCEPT_BECOMEVASSAL				;We agree to become your vassal. We will cease hostilities immediately and commence our monthly tribute payments
+WAR_END_REJECT_BECOMEVASSAL				;No, we refuse to subjugate ourselves as your vassal
+WAR_END_ACCEPT_ACCEPTVASSAL				;We agree to your surrender and subjugation as our vassal. We look forward to your monthly tribute payments
+WAR_END_REJECT_ACCEPTVASSAL				;No, we refuse your offer of subjugation as our vassal. This war is not over yet
+
+WAR_DECLARE_RESPONSE_ANGRY		;We welcome war with you! Prepare to be consumed...
+WAR_DECLARE_RESPONSE_NEUTRAL		;As you wish. Our war swarms are ready
+WAR_DECLARE_RESPONSE_FRIENDLY		;Wait, what?! Why is this?! We thought you liked us?
+
+TREATY_ACCEPT			;We accept your offer of {0}
+TREATY_REJECT			;No, we do not want {0} right now
+TREATY_REJECT_TOOSOON_NEUTRAL			;No, we are not interested in {0}. It is too soon after the last change to our relations
+TREATY_REJECT_TOOSOON_ANGRY			;We definitely have no interest in {0} with you! Besides, it is too soon after the last change to our relations
+TREATY_REJECT_TOOSOON_FRIENDLY			;Sorry but we are not interested in {0}. It is too soon after the last change to our relations
+TREATY_ACCEPT_NEUTRAL			;We accept your offer of {0}
+TREATY_REJECT_NEUTRAL			;No, we are not interested in {0} at this time
+TREATY_ACCEPT_ANGRY			;We have nothing better to do, so why not? We accept your offer of {0}
+TREATY_REJECT_ANGRY			;We definitely have no interest in {0} with you!
+TREATY_ACCEPT_FRIENDLY			;{0} is a great idea! We accept. Let's have a feast to celebrate!
+TREATY_REJECT_FRIENDLY			;Sorry, but {0} does not suit us at this time
+
+PROTECTION_ACCEPT		;We accept your request for protection. The monthly fee is {0} credits
+PROTECTION_ACCEPT_NEUTRAL		;We accept your request for protection. The monthly fee is {0} credits
+PROTECTION_ACCEPT_ANGRY		;Your weakness has been noted. Our 'protection' will cost you {0} credits per month. You may go now
+PROTECTION_ACCEPT_FRIENDLY		;We accept your request for protection. The monthly fee is {0} credits
+PROTECTION_REJECT			;No, we are not interested in protection at this time
+PROTECTION_REJECT_NEUTRAL		;No, we don't want a Protection Arrangement with you
+PROTECTION_REJECT_ANGRY		;No, we don't want to protect you. We have other plans for you. Plans that involve tasty spices and seasonings...
+PROTECTION_REJECT_FRIENDLY		;No, we don't want a Protection Arrangement with you
+
+CANCELTREATY_RESPONSE_FRIENDLY		;Just when we thought things were going so well!
+CANCELTREATY_RESPONSE_NEUTRAL		;Sure, whatever.
+CANCELTREATY_RESPONSE_ANGRY		;We didn't like that treaty anyway! You were only dragging us down
+CANCELPROTECTION_RESPONSE_FRIENDLY		;That makes us sad. We liked those monthly payments
+CANCELPROTECTION_RESPONSE_NEUTRAL		;Look like we will have to find other ways to obtain those monthly payments...
+CANCELPROTECTION_RESPONSE_ANGRY		;How dare you! How will we get our money from you now?!... Never mind, we've thought of a way...
