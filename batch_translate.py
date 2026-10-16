@@ -7,6 +7,8 @@ using the existing translate.py script.
 """
 
 import argparse
+import json
+import shutil
 import subprocess
 import sys
 import os
@@ -34,6 +36,20 @@ from rag.rag import (
 DEFAULT_TARGET_VERSION = '1.3.5.7'
 DEFAULT_CACHE_VERSIONS = ('1.3.4.3',)
 DEFAULT_CACHE_FILE_NAME = '.translation_cache.pkl'
+
+XML_ENTITY_KEYS = {
+    'GameEvent': 'Name',
+    'TourItem': 'Title',
+}
+
+XML_LIST_ITEM_KEYS = {
+    'Bonus': 'Type',
+    'Component': 'ComponentId',
+    'ComponentBay': 'ComponentBayId',
+    'OrbTypeFactor': 'OrbTypeId',
+    'RaceFactor': 'RaceId',
+    'ResourceQuantity': 'ResourceId',
+}
 
 
 def get_galactopedia_translated_rel_path(rel_path: Path) -> Path:
@@ -137,6 +153,438 @@ def has_untranslated_txt_content(english_file: Path, russian_file: Path) -> bool
             return True
 
     return False
+
+
+def _element_key(element: ET.Element) -> tuple[str, str] | None:
+    """Return the patch key for an entity or keyed list item."""
+    preferred_key = XML_ENTITY_KEYS.get(
+        element.tag,
+        XML_LIST_ITEM_KEYS.get(element.tag),
+    )
+    key_element = element.find(preferred_key) if preferred_key else None
+    if key_element is None:
+        possible_keys = (
+            f'{element.tag}Id',
+            f'{element.tag.removesuffix("Definition")}Id',
+        )
+        for candidate_name in possible_keys:
+            key_element = element.find(candidate_name)
+            if key_element is not None:
+                break
+    if key_element is None and element.tag == 'Bonus':
+        key_element = element.find('Type')
+    if key_element is None:
+        return None
+
+    key_value = (key_element.text or '').strip()
+    if not key_value:
+        return None
+    return key_element.tag, key_value
+
+
+def _is_key_element(parent: ET.Element, child: ET.Element) -> bool:
+    key = _element_key(parent)
+    return key is not None and child.tag == key[0]
+
+
+def _children_are_list_items(parent: ET.Element, children: list[ET.Element]) -> bool:
+    if parent.tag.startswith('ArrayOf'):
+        return True
+    if not children:
+        return False
+    if len(children) > 1 and all(child.tag == children[0].tag for child in children):
+        return True
+    if len(children) == 1:
+        child = children[0]
+        return (
+            _element_key(child) is not None
+            or (
+                parent.tag.endswith('s')
+                and not parent.tag.endswith(('ss', 'us', 'is'))
+            )
+        )
+    return False
+
+
+def _match_xml_child(
+    english_child: ET.Element,
+    russian_children: list[ET.Element],
+    occurrence: int,
+    is_list: bool,
+) -> ET.Element | None:
+    candidates = [child for child in russian_children if child.tag == english_child.tag]
+    if not candidates:
+        return None
+
+    key = _element_key(english_child) if is_list else None
+    if key is not None:
+        for candidate in candidates:
+            if _element_key(candidate) == key:
+                return candidate
+
+    if occurrence < len(candidates):
+        return candidates[occurrence]
+    return None
+
+
+def _build_xml_patch(
+    english: ET.Element,
+    russian: ET.Element,
+    translatable_element_ids: set[int],
+    parent_is_list: bool = False,
+    list_index: int = 0,
+) -> ET.Element | None:
+    """Build a minimal launcher XML patch containing translated text only."""
+    patch = ET.Element(english.tag)
+
+    if parent_is_list:
+        key = _element_key(english)
+        if key is not None:
+            patch.set('id', key[1])
+        else:
+            patch.set('index', str(list_index + 1))
+
+    english_children = list(english)
+    russian_children = list(russian)
+    english_is_list = _children_are_list_items(english, english_children)
+    occurrences: dict[str, int] = {}
+
+    for english_child in english_children:
+        occurrence = occurrences.get(english_child.tag, 0)
+        occurrences[english_child.tag] = occurrence + 1
+        russian_child = _match_xml_child(
+            english_child,
+            russian_children,
+            occurrence,
+            english_is_list,
+        )
+        if russian_child is None:
+            continue
+        if _is_key_element(english, english_child):
+            continue
+
+        matching_siblings = [
+            child for child in english_children if child.tag == english_child.tag
+        ]
+        child_is_list_item = english_is_list
+        child_index = occurrence
+        if not child_is_list_item and len(matching_siblings) > 1:
+            child_is_list_item = True
+
+        child_patch = _build_xml_patch(
+            english_child,
+            russian_child,
+            translatable_element_ids,
+            parent_is_list=child_is_list_item,
+            list_index=child_index,
+        )
+        if child_patch is not None:
+            patch.append(child_patch)
+
+    english_text = (english.text or '').strip()
+    russian_text = (russian.text or '').strip()
+    if not english_children and english_text and russian_text:
+        if (
+            id(english) in translatable_element_ids
+            and english_text != russian_text
+            and not _is_technical_string(english_text)
+        ):
+            patch.text = russian_text
+            return patch
+        return None
+
+    return patch if len(patch) else None
+
+
+def _make_xml_translation_patch(english_root: ET.Element, russian_root: ET.Element) -> ET.Element | None:
+    if english_root.tag != russian_root.tag:
+        raise ValueError(
+            f'Не совпадают корневые XML-элементы: '
+            f'{english_root.tag} и {russian_root.tag}'
+        )
+
+    patch_root = ET.Element(english_root.tag)
+    translatable_element_ids = {
+        id(element)
+        for element, _, _ in iter_translatable_elements(english_root)
+    }
+    english_entities = list(english_root)
+    russian_entities = list(russian_root)
+    russian_by_key = {
+        _element_key(entity): entity
+        for entity in russian_entities
+        if _element_key(entity) is not None
+    }
+    english_is_list = _children_are_list_items(english_root, english_entities)
+
+    for index, english_entity in enumerate(english_entities):
+        key = _element_key(english_entity) if english_is_list else None
+        russian_entity = russian_by_key.get(key) if key is not None else None
+
+        # TourItems in the legacy translation output contain translated copies
+        # first, followed by the original English items.
+        if russian_entity is None and english_root.tag == 'ArrayOfTourItem':
+            matching = [
+                entity for entity in russian_entities
+                if entity.tag == english_entity.tag
+            ]
+            russian_entity = matching[index] if index < len(matching) else None
+
+        if russian_entity is None:
+            russian_entity = _match_xml_child(
+                english_entity,
+                russian_entities,
+                index,
+                english_is_list,
+            )
+        if russian_entity is None:
+            continue
+
+        entity_patch = _build_xml_patch(
+            english_entity,
+            russian_entity,
+            translatable_element_ids,
+            parent_is_list=english_is_list,
+            list_index=index,
+        )
+        if entity_patch is not None:
+            patch_root.append(entity_patch)
+
+    return patch_root if len(patch_root) else None
+
+
+def _line_parts(line: str) -> tuple[str, str]:
+    content = line.rstrip('\r\n')
+    return content, line[len(content):]
+
+
+def _build_galactopedia_title_map(english_dir: Path, russian_dir: Path) -> dict[str, str]:
+    english_file = english_dir / 'DW2' / 'GameText.txt'
+    russian_file = russian_dir / 'DW2' / 'GameText.txt'
+    if not english_file.exists() or not russian_file.exists():
+        return {}
+
+    english_by_key = {}
+    for line in _read_text_file_lines(english_file):
+        content, _ = _line_parts(line)
+        if ';' in content:
+            key, text = content.split(';', 1)
+            english_by_key[key.strip()] = text.strip()
+
+    translated_titles = {}
+    for line in _read_text_file_lines(russian_file):
+        content, _ = _line_parts(line)
+        if ';' not in content:
+            continue
+        key, translated = content.split(';', 1)
+        key = key.strip()
+        translated = translated.strip()
+        if key in english_by_key and translated and translated != english_by_key[key]:
+            translated_titles[key] = translated
+    return translated_titles
+
+
+def _resolve_export_russian_path(
+    english_file: Path,
+    english_dir: Path,
+    russian_dir: Path,
+    galactopedia_titles: dict[str, str],
+) -> Path:
+    relative_path = english_file.relative_to(english_dir)
+    direct_path = russian_dir / relative_path
+    if direct_path.exists():
+        return direct_path
+
+    if 'Galactopedia' in relative_path.parts:
+        translated_title = galactopedia_titles.get(relative_path.stem)
+        if translated_title:
+            translated_path = russian_dir / relative_path.with_name(
+                translated_title + relative_path.suffix
+            )
+            if translated_path.exists():
+                return translated_path
+    return direct_path
+
+
+def _merge_translated_txt(
+    english_file: Path,
+    russian_file: Path,
+) -> tuple[str, bool]:
+    english_lines = _read_text_file_lines(english_file)
+    russian_lines = _read_text_file_lines(russian_file)
+    russian_by_key: dict[str, list[str]] = {}
+    for line in russian_lines:
+        content, _ = _line_parts(line)
+        if ';' in content:
+            key, text = content.split(';', 1)
+            russian_by_key.setdefault(key.strip(), []).append(text.strip())
+
+    merged_lines = []
+    translated_any = False
+    used_keys: dict[str, int] = {}
+    for index, english_line in enumerate(english_lines):
+        english_content, newline = _line_parts(english_line)
+        if not english_content.strip():
+            merged_lines.append(english_line)
+            continue
+
+        if ';' in english_content:
+            key, english_text = english_content.split(';', 1)
+            key_value = key.strip()
+            candidates = russian_by_key.get(key_value, [])
+            candidate_index = used_keys.get(key_value, 0)
+            used_keys[key_value] = candidate_index + 1
+            if candidate_index >= len(candidates):
+                merged_lines.append(english_line)
+                continue
+
+            russian_text = candidates[candidate_index]
+            if russian_text and russian_text != english_text.strip():
+                delimiter = english_content.index(';') + 1
+                spacing = english_content[delimiter:]
+                spacing = spacing[:len(spacing) - len(spacing.lstrip())]
+                merged_lines.append(
+                    english_content[:delimiter] + spacing + russian_text + newline
+                )
+                translated_any = True
+            else:
+                merged_lines.append(english_line)
+            continue
+
+        if index < len(russian_lines):
+            russian_content, _ = _line_parts(russian_lines[index])
+            if (
+                russian_content.strip()
+                and russian_content.strip() != english_content.strip()
+            ):
+                merged_lines.append(russian_content + newline)
+                translated_any = True
+                continue
+        merged_lines.append(english_line)
+
+    return ''.join(merged_lines), translated_any
+
+
+def export_modloader_mod(
+    version: str,
+    english_dir: Path,
+    russian_dir: Path,
+    output_dir: Path,
+    project_root: Path,
+) -> int:
+    """Export translated entries into the DW2 Mod Launcher localization format."""
+    if not english_dir.exists() or not russian_dir.exists():
+        print(f"[ERROR] Не найдена папка English или Russian версии {version}")
+        return 1
+    if output_dir.exists() and any(output_dir.iterdir()):
+        print(f"[ERROR] Папка вывода не пуста: {output_dir}")
+        print("[INFO] Укажите новую или пустую папку для экспорта.")
+        return 1
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    galactopedia_titles = _build_galactopedia_title_map(english_dir, russian_dir)
+    written_xml = 0
+    written_txt = 0
+    skipped = 0
+
+    for english_file in sorted(english_dir.rglob('*')):
+        if not english_file.is_file() or english_file.suffix.lower() not in {'.xml', '.txt'}:
+            continue
+
+        russian_file = _resolve_export_russian_path(
+            english_file,
+            english_dir,
+            russian_dir,
+            galactopedia_titles,
+        )
+        if not russian_file.exists():
+            skipped += 1
+            continue
+
+        relative_path = english_file.relative_to(english_dir)
+        if english_file.suffix.lower() == '.xml':
+            try:
+                english_root = ET.parse(english_file).getroot()
+                russian_root = ET.parse(russian_file).getroot()
+                patch_root = _make_xml_translation_patch(english_root, russian_root)
+            except (ET.ParseError, OSError, ValueError) as exc:
+                print(f"[ERROR] Не удалось подготовить XML-патч {english_file}: {exc}")
+                return 1
+            if patch_root is None:
+                skipped += 1
+                continue
+
+            if relative_path.parts[0] == 'DW2':
+                patch_relative_path = Path('patches') / 'data' / Path(*relative_path.parts[1:])
+            else:
+                patch_relative_path = Path('patches') / relative_path
+            patch_path = output_dir / patch_relative_path
+            patch_path.parent.mkdir(parents=True, exist_ok=True)
+            ET.indent(patch_root, space='  ')
+            ET.ElementTree(patch_root).write(
+                patch_path,
+                encoding='utf-8',
+                xml_declaration=True,
+            )
+            written_xml += 1
+            continue
+
+        merged_text, translated_any = _merge_translated_txt(english_file, russian_file)
+        if not translated_any:
+            skipped += 1
+            continue
+
+        if relative_path.parts[0] == 'DW2':
+            text_relative_path = Path(*relative_path.parts[1:])
+        else:
+            text_relative_path = relative_path
+        if 'Galactopedia' in relative_path.parts:
+            text_relative_path = russian_file.relative_to(russian_dir)
+            if text_relative_path.parts[0] == 'DW2':
+                text_relative_path = Path(*text_relative_path.parts[1:])
+        text_path = output_dir / text_relative_path
+        text_path.parent.mkdir(parents=True, exist_ok=True)
+        with text_path.open('w', encoding='utf-8', newline='') as output_file:
+            output_file.write(merged_text)
+        written_txt += 1
+
+    mod_json_path = project_root / 'mod.json'
+    if not mod_json_path.exists():
+        print(f"[ERROR] Не найден манифест игры: {mod_json_path}")
+        return 1
+    try:
+        mod_json = json.loads(mod_json_path.read_text(encoding='utf-8-sig'))
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"[ERROR] Не удалось прочитать {mod_json_path}: {exc}")
+        return 1
+    mod_json['version'] = version
+    (output_dir / 'mod.json').write_text(
+        json.dumps(mod_json, ensure_ascii=False, indent=2) + '\n',
+        encoding='utf-8',
+    )
+
+    launcher_manifest = {
+        'language': 'ru',
+        'font': 'RussianFont',
+        'galactopedia': 'replace',
+        'minLauncherVersion': '1.0.5',
+    }
+    (output_dir / 'dw2modlauncher.json').write_text(
+        json.dumps(launcher_manifest, ensure_ascii=False, indent=2) + '\n',
+        encoding='utf-8',
+    )
+
+    font_bundles = sorted((project_root / 'data' / 'db' / 'bundles').glob('RussianFont*.bundle'))
+    if not font_bundles:
+        print(f"[ERROR] Не найдены файлы шрифта в {project_root / 'data' / 'db' / 'bundles'}")
+        return 1
+    for bundle in font_bundles:
+        shutil.copyfile(bundle, output_dir / bundle.name)
+
+    print(f"[INFO] Мод загрузчика собран в {output_dir}")
+    print(f"[INFO] XML-патчей: {written_xml}; TXT-файлов: {written_txt}; пропущено: {skipped}")
+    print("[INFO] В TXT сохраняется английский оригинал, заменяются только переведённые строки.")
+    return 0
 
 
 def translate_file(input_path: Path, output_path: Path, words_mode: bool = False, check_mode: bool = False, pool_addresses=None, pool_timeout: int = 120, cache_file: str = None, file_cache_file: str = None, fix_untranslated: bool = False, fix_newlines: bool = False) -> int:
@@ -630,8 +1078,40 @@ def main():
         dest='check_rag',
         help='Проверить найденные RAG-примеры для английского текста без запуска перевода'
     )
+    parser.add_argument(
+        '--export-modloader',
+        metavar='OUTPUT_DIR',
+        help='Собрать в указанную папку мод локализации для DW2 Mod Launcher'
+    )
 
     args = parser.parse_args()
+
+    if args.export_modloader:
+        incompatible_options = (
+            args.force
+            or args.all
+            or args.words
+            or args.check
+            or args.pool
+            or args.fix_untranslated
+            or args.fix_newlines
+            or args.show_new_translated_diff_ver
+            or args.check_rag
+        )
+        if incompatible_options:
+            parser.error('--export-modloader нельзя использовать с другими режимами обработки')
+
+        project_root = Path(__file__).resolve().parent
+        english_dir = project_root / args.target_version / 'English'
+        russian_dir = project_root / args.target_version / 'Russian'
+        output_dir = Path(args.export_modloader).resolve()
+        return export_modloader_mod(
+            args.target_version,
+            english_dir,
+            russian_dir,
+            output_dir,
+            project_root,
+        )
 
     if args.check_rag and not os.environ.get('DW2_PG_PASSWORD', '').strip():
         parser.error('--check-rag требует DW2_PG_PASSWORD для доступа к PostgreSQL')

@@ -2,13 +2,61 @@ param(
     [Parameter(Mandatory=$true)]
     [string]$Version,
 
-    [switch]$Beta
+    [switch]$Beta,
+
+    [switch]$ModLoader
 )
 
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 
 # Корень проекта
 $ProjectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
+
+if ($ModLoader) {
+    if ($Beta) {
+        $FinalName = "DW2Russian_Beta_${Version}_ModLoader"
+    } else {
+        $FinalName = "DW2Russian_${Version}_ModLoader"
+    }
+
+    $BuildRoot = Join-Path $ProjectRoot "build"
+    $ModPath = Join-Path $BuildRoot $FinalName
+    $ZipPath = Join-Path $BuildRoot ($FinalName + ".zip")
+
+    if (-not (Test-Path $BuildRoot)) {
+        New-Item -ItemType Directory -Path $BuildRoot | Out-Null
+    }
+    if (Test-Path $ModPath) {
+        Remove-Item $ModPath -Recurse -Force
+    }
+    if (Test-Path $ZipPath) {
+        Remove-Item $ZipPath -Force
+    }
+
+    $PythonExecutable = Join-Path $ProjectRoot ".venv\Scripts\python.exe"
+    if (-not (Test-Path $PythonExecutable)) {
+        $PythonExecutable = (Get-Command python -ErrorAction Stop).Source
+    }
+    Push-Location $ProjectRoot
+    try {
+        & $PythonExecutable "batch_translate.py" `
+            "--target-version" $Version `
+            "--export-modloader" $ModPath
+        if ($LASTEXITCODE -ne 0) {
+            throw "Экспорт перевода для DW2 Mod Launcher завершился с ошибкой."
+        }
+    }
+    finally {
+        Pop-Location
+    }
+
+    $compression = [System.IO.Compression.CompressionLevel]::NoCompression
+    [System.IO.Compression.ZipFile]::CreateFromDirectory($ModPath, $ZipPath, $compression, $false)
+
+    Write-Host "Папка мода создана: $ModPath"
+    Write-Host "ZIP создан: $ZipPath"
+    return
+}
 
 # Имя итогового файла
 if ($Beta) {

@@ -9,3 +9,4 @@ __pycache__
 *_log.txt
 *_new_translated_lines.txt
 .env
+build/
