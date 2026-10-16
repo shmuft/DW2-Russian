@@ -249,7 +249,7 @@ Shields		;Щиты
 Speed		;Скорость
 Weapons		;Оружие
 Health		;Здоровье
-Max DPS		;Мак DPS
+Max DPS		;Max DPS
 Range		;Дальн.
 Avg DPS		;Ср. DPS
 Min DPS		;Мин. DPS
@@ -1506,7 +1506,7 @@ Latest Components		;Последние компоненты
 Latest Per Category		;Последнее по категориям
 Latest Per Category, Family		;Последнее по категориям, семействам
 General		;Общие
-Engines		;Двигатели
+Engines		;Двиг.
 Defenses		;Оборона
 Hangars		;Ангары
 Sensors		;Сенсоры
