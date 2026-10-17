@@ -358,54 +358,6 @@ def _line_parts(line: str) -> tuple[str, str]:
     return content, line[len(content):]
 
 
-def _build_galactopedia_title_map(english_dir: Path, russian_dir: Path) -> dict[str, str]:
-    english_file = english_dir / 'DW2' / 'GameText.txt'
-    russian_file = russian_dir / 'DW2' / 'GameText.txt'
-    if not english_file.exists() or not russian_file.exists():
-        return {}
-
-    english_by_key = {}
-    for line in _read_text_file_lines(english_file):
-        content, _ = _line_parts(line)
-        if ';' in content:
-            key, text = content.split(';', 1)
-            english_by_key[key.strip()] = text.strip()
-
-    translated_titles = {}
-    for line in _read_text_file_lines(russian_file):
-        content, _ = _line_parts(line)
-        if ';' not in content:
-            continue
-        key, translated = content.split(';', 1)
-        key = key.strip()
-        translated = translated.strip()
-        if key in english_by_key and translated and translated != english_by_key[key]:
-            translated_titles[key] = translated
-    return translated_titles
-
-
-def _resolve_export_russian_path(
-    english_file: Path,
-    english_dir: Path,
-    russian_dir: Path,
-    galactopedia_titles: dict[str, str],
-) -> Path:
-    relative_path = english_file.relative_to(english_dir)
-    direct_path = russian_dir / relative_path
-    if direct_path.exists():
-        return direct_path
-
-    if 'Galactopedia' in relative_path.parts:
-        translated_title = galactopedia_titles.get(relative_path.stem)
-        if translated_title:
-            translated_path = russian_dir / relative_path.with_name(
-                translated_title + relative_path.suffix
-            )
-            if translated_path.exists():
-                return translated_path
-    return direct_path
-
-
 def _merge_translated_txt(
     english_file: Path,
     russian_file: Path,
@@ -482,26 +434,32 @@ def export_modloader_mod(
         return 1
 
     output_dir.mkdir(parents=True, exist_ok=True)
-    galactopedia_titles = _build_galactopedia_title_map(english_dir, russian_dir)
     written_xml = 0
     written_txt = 0
     skipped = 0
+
+    russian_dw2_dir = russian_dir / 'DW2'
+    for directory_name in ('Galactopedia', 'dialog'):
+        source_directory = russian_dw2_dir / directory_name
+        if not source_directory.is_dir():
+            print(f"[ERROR] Не найдена папка русского перевода: {source_directory}")
+            return 1
+        shutil.copytree(source_directory, output_dir / directory_name)
 
     for english_file in sorted(english_dir.rglob('*')):
         if not english_file.is_file() or english_file.suffix.lower() not in {'.xml', '.txt'}:
             continue
 
-        russian_file = _resolve_export_russian_path(
-            english_file,
-            english_dir,
-            russian_dir,
-            galactopedia_titles,
-        )
+        relative_path = english_file.relative_to(english_dir)
+        if len(relative_path.parts) > 1 and relative_path.parts[0] == 'DW2':
+            if relative_path.parts[1] in {'Galactopedia', 'dialog'}:
+                continue
+
+        russian_file = russian_dir / relative_path
         if not russian_file.exists():
             skipped += 1
             continue
 
-        relative_path = english_file.relative_to(english_dir)
         if english_file.suffix.lower() == '.xml':
             try:
                 english_root = ET.parse(english_file).getroot()
@@ -564,6 +522,7 @@ def export_modloader_mod(
     )
 
     launcher_manifest = {
+        'author': 'shmuft',
         'language': 'ru',
         'font': 'RussianFont',
         'galactopedia': 'replace',
