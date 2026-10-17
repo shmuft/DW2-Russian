@@ -8,6 +8,11 @@
 Для перевода использовались LLM Qwen3.5-35b-a3b Q6_K, LLM Qwen3.6-35b-a3b Q6_K.
 Для уточнения перевода заголовков исследований Google Gemeni, Github Copilot.
 
+## Контрибьюторы
+
+Огромная благодарность [SergeAvgust](https://github.com/SergeAvgust) за помощь с переходом
+на новый формат мода для DW2 Mod Launcher.
+
 ## Сборка релиза
 
 ```powershell
