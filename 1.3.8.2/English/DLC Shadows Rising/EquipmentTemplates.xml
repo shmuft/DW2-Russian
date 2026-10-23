@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfArtifact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<Artifact>
+		<ArtifactId>0</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<WeaponsFireRateModifier>0.9</WeaponsFireRateModifier>
+		<Cost>10000</Cost>
+		
+		<BonusesToOwner>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		
+		<RaceId>-1</RaceId>
+		<Name>Kaprikur Surefire BX-100</Name>
+		<Description>The Surefire system increases the fire rate for all weapons while also extending their range. Just be sure you have emough reactor energy output to run your weapons at a higher rate!</Description>
+		<ImageFilename>Artifacts/pirate weapons 1</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>1</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<WeaponsFireRateModifier>0.85</WeaponsFireRateModifier>
+		<TargetingBonus>0.05</TargetingBonus>
+		<Cost>30000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Kaprikur Surefire BX-300</Name>
+		<Description>The Surefire system increases the fire rate for all weapons while also extending their range. This BX-300 model also gives a small improvement to targeting. Just be sure you have emough reactor energy output to run your weapons at a higher rate!</Description>
+		<ImageFilename>Artifacts/pirate weapons 2</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>2</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<WeaponsFireRateModifier>0.8</WeaponsFireRateModifier>
+		<TargetingBonus>0.1</TargetingBonus>
+		<Cost>60000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Kaprikur Surefire BX-520</Name>
+		<Description>The Surefire system increases the fire rate for all weapons while also extending their range. This BX-520 model also gives a decent improvement to targeting. Another enhancement specific only to the BX-520 is a slight increase to weapon damage. Just be sure you have emough reactor energy output to run your weapons at a higher rate!</Description>
+		<ImageFilename>Artifacts/pirate weapons 3</ImageFilename>
+	</Artifact>
+	
+	<Artifact>
+		<ArtifactId>3</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<TargetingBonus>0.1</TargetingBonus>
+		<Cost>12000</Cost>
+		
+		<BonusesToOwner>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		
+		<RaceId>-1</RaceId>
+		<Name>Geminar TK-300 Battletron</Name>
+		<Description>The TK-300 Battletron improves both targeting and damage for all of your weapons.</Description>
+		<ImageFilename>Artifacts/pirate weapons 1</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>4</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<TargetingBonus>0.15</TargetingBonus>
+		<Cost>36000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Geminar TK-440 Battletron</Name>
+		<Description>The TK-440 Battletron improves both targeting and damage for all of your weapons. The TK-440 model also slightly improves weapons range.</Description>
+		<ImageFilename>Artifacts/pirate weapons 2</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>5</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<TargetingBonus>0.25</TargetingBonus>
+		<Cost>68000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.08</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Geminar TK-600 Battletron</Name>
+		<Description>The TK-600 Battletron significantly improves both targeting and damage for all of your weapons. The TK-600 model also improves weapons range.</Description>
+		<ImageFilename>Artifacts/pirate weapons 3</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>6</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<ShieldRechargeRate>3</ShieldRechargeRate>
+		<CountermeasuresBonus>0.05</CountermeasuresBonus>
+		<Cost>11000</Cost>
+
+		<RaceId>-1</RaceId>
+		<Name>AkuTech GX-60 Defendor</Name>
+		<Description>The GX-60 Defendor system improves shield recharge rate to provide greater battle endurance. It also provides a small Countermeasures bonus.</Description>
+		<ImageFilename>Artifacts/pirate shields 1</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>7</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<ShieldRechargeRate>5</ShieldRechargeRate>
+		<CountermeasuresBonus>0.1</CountermeasuresBonus>
+		<Cost>32000</Cost>
+
+		<RaceId>-1</RaceId>
+		<Name>AkuTech GX-100 Defendor</Name>
+		<Description>The GX-100 Defendor system significantly improves shield recharge rate to provide greater battle endurance. It also provides a decent Countermeasures bonus.</Description>
+		<ImageFilename>Artifacts/pirate shields 2</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>8</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<DamageReduction>0.25</DamageReduction>
+		<DamageRepair>0.1</DamageRepair>
+		<Cost>37000</Cost>
+
+		<RaceId>-1</RaceId>
+		<Name>BaktoCorp RD-11 RepairBot</Name>
+		<Description>The RD-11 RepairBot provides damage control and repair abilities for your ship. This can be a real saving, allowing onboard repairs for non-critical damage instead of expensive visits to Shadowport repair yards.</Description>
+		<ImageFilename>Artifacts/pirate shields 2</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>9</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<ShieldRechargeRate>1</ShieldRechargeRate>
+		<CountermeasuresBonus>0.1</CountermeasuresBonus>
+		<DamageReduction>0.35</DamageReduction>
+		<DamageRepair>0.2</DamageRepair>
+		<Cost>78000</Cost>
+
+		<RaceId>-1</RaceId>
+		<Name>BaktoCorp RD-22 RepairBot</Name>
+		<Description>The RD-22 RepairBot provides significant damage control and repair abilities for your ship. This can be a real saving, allowing onboard repairs for non-critical damage instead of expensive visits to Shadowport repair yards. The RD-22 model also provides a small built-in shield recharge capability and even a countermeasures bonus.</Description>
+		<ImageFilename>Artifacts/pirate shields 3</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>10</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<Cost>8000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Tegra T-200 Supercharger</Name>
+		<Description>The T-200 Supercharger improves the thrust output of engines, allowing your ship to move faster. It also provides a small improvement to maneuverability.</Description>
+		<ImageFilename>Artifacts/pirate engines1</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>11</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<Cost>25000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.08</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Tegra T-350 Supercharger</Name>
+		<Description>The T-350 Supercharger improves the thrust output of engines, allowing your ship to move faster. It also provides a small improvement to maneuverability.</Description>
+		<ImageFilename>Artifacts/pirate engines 2</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>12</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<Cost>48000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Tegra T-570 Supercharger</Name>
+		<Description>The T-570 Supercharger significantly improves the thrust output of engines, allowing your ship to move faster. It also provides an improvement to maneuverability.</Description>
+		<ImageFilename>Artifacts/pirate engines 3</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>13</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<HyperDriveJumpInitiationModifier>0.85</HyperDriveJumpInitiationModifier>
+		<Cost>16000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>HyperjumpSpeed</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>ZantoCorp KX-12 NaviTech</Name>
+		<Description>The KX-12 NaviTech enhances your hyperdrive to provide faster jump initiation, especially useful when you need to make a quick getaway. It also improves hyperjump speed.</Description>
+		<ImageFilename>Artifacts/pirate hyperspace 1</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>14</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<HyperDriveJumpInitiationModifier>0.75</HyperDriveJumpInitiationModifier>
+		<HyperDriveBlockingInsulation>5</HyperDriveBlockingInsulation>
+		<Cost>49000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>HyperjumpSpeed</Type>
+				<Amount>0.07</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>HyperDriveJumpAccuracy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>ZantoCorp KX-16 NaviTech</Name>
+		<Description>The KX-16 NaviTech enhances your hyperdrive to provide faster jump initiation, especially useful when you need to make a quick getaway. It also improves hyperjump speed. The KX-16 model adds Hyper Blocking Insulation, increasing your ability to jump even when enemy Hyper Deny is active. This model even improves jump exit accuracy.</Description>
+		<ImageFilename>Artifacts/pirate hyperspace 2</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>15</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<HyperDriveJumpInitiationModifier>0.6</HyperDriveJumpInitiationModifier>
+		<HyperDriveBlockingInsulation>8</HyperDriveBlockingInsulation>
+		<Cost>98000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>HyperjumpSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>HyperDriveJumpAccuracy</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>ZantoCorp KX-24 NaviTech</Name>
+		<Description>The KX-24 NaviTech significantly enhances your hyperdrive to provide much faster jump initiation, especially useful when you need to make a quick getaway. It also significantly improves hyperjump speed. The KX-24 model also includes Hyper Blocking Insulation, increasing your ability to jump even when enemy Hyper Deny is active. This model also improves jump exit accuracy.</Description>
+		<ImageFilename>Artifacts/pirate hyperspace 3</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>16</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<ScannerJammingPower>120</ScannerJammingPower>
+		<ScannerRoleMaskingPower>7</ScannerRoleMaskingPower>
+		<ScannerEmpireMaskingPower>7</ScannerEmpireMaskingPower>
+
+		<Cost>7000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ScanFocusing</Type>
+				<!-- Jump Tracking, Trace Scan Power + Range, Long Range Scanner, Exploration Scanning -->
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>DuraTech CamoScan SR-61</Name>
+		<Description>The CamoScan SR-61 enables a ship to mask its faction and role, thus improving the ability to hide from adversaries. It also has basic scanner jamming and enhanced scan focussing for a broad range of scanners.</Description>
+		<ImageFilename>Artifacts/pirate sensors 1</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>17</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<ScannerJammingPower>160</ScannerJammingPower>
+		<ScannerRoleMaskingPower>10</ScannerRoleMaskingPower>
+		<ScannerEmpireMaskingPower>10</ScannerEmpireMaskingPower>
+		
+		<Cost>27000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ScanFocusing</Type> <!-- Jump Tracking, Trace Scan Power + Range, Long Range Scanner, Exploration Scanning -->
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>DuraTech CamoScan SR-72</Name>
+		<Description>The CamoScan SR-72 enables a ship to mask its faction and role, thus improving the ability to hide from adversaries. It also has good scanner jamming and enhanced scan focussing for a broad range of scanners.</Description>
+		<ImageFilename>Artifacts/pirate sensors 2</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>18</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<TargetingBonus>0.05</TargetingBonus>
+		<CountermeasuresBonus>0.05</CountermeasuresBonus>
+
+		<ScannerJammingPower>200</ScannerJammingPower>
+		<ScannerRoleMaskingPower>15</ScannerRoleMaskingPower>
+		<ScannerEmpireMaskingPower>15</ScannerEmpireMaskingPower>
+
+		<Cost>52000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ScanFocusing</Type>
+				<!-- Jump Tracking, Trace Scan Power + Range, Long Range Scanner, Exploration Scanning -->
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>DuraTech CamoScan SR-84</Name>
+		<Description>The CamoScan SR-84 enables a ship to mask its faction and role, thus improving the ability to hide from adversaries. It also has very good scanner jamming and enhanced scan focussing for a broad range of scanners. This SR-84 model even adds small improvements to Targeting and Countermeasures.</Description>
+		<ImageFilename>Artifacts/pirate sensors 3</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>19</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<TargetingBonus>0.1</TargetingBonus>
+		<CountermeasuresBonus>0.1</CountermeasuresBonus>
+
+		<Stealth>40</Stealth>
+		<ScannerJammingPower>250</ScannerJammingPower>
+		<ScannerRoleMaskingPower>20</ScannerRoleMaskingPower>
+		<ScannerEmpireMaskingPower>20</ScannerEmpireMaskingPower>
+
+		<Cost>88000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ScanFocusing</Type>
+				<!-- Jump Tracking, Trace Scan Power + Range, Long Range Scanner, Exploration Scanning -->
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>DuraTech CamoScan SR-98</Name>
+		<Description>The CamoScan SR-98 is the premier tech for secrecy and stealthiness. It enables a ship to mask its faction and role, thus improving the ability to hide from adversaries. It also has excellent scanner jamming and enhanced scan focussing for a broad range of scanners. This SR-98 model also includes noticeable improvements to Targeting and Countermeasures. This top-of-the-line model even adds Stealth capabilities.</Description>
+		<ImageFilename>Artifacts/pirate sensors 3</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>20</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<Cost>6000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>RaidIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Jaridu RaidTech 3000</Name>
+		<Description>The RaidTech 3000 provides improvements to boarding and raiding capabilities. It also enhances income gained from raiding targets.</Description>
+		<ImageFilename>Artifacts/pirate boarding 1</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>21</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<Cost>24000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>RaidIncome</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Jaridu RaidTech 4000</Name>
+		<Description>The RaidTech 4000 provides improvements to boarding and raiding capabilities. It also enhances income gained from raiding targets. This 4000 model also adds improvements to boarding defense against enemy raids on your own ship.</Description>
+		<ImageFilename>Artifacts/pirate boarding 2</ImageFilename>
+	</Artifact>
+
+	<Artifact>
+		<ArtifactId>22</ArtifactId>
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<IsEquipment>true</IsEquipment>
+
+		<TargetingBonus>0.1</TargetingBonus>
+		<CountermeasuresBonus>0.1</CountermeasuresBonus>
+
+		<Cost>45000</Cost>
+
+		<BonusesToOwner>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.35</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingDefense</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>RaidIncome</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+
+		<RaceId>-1</RaceId>
+		<Name>Jaridu RaidTech 5600</Name>
+		<Description>The RaidTech 5600 provides significant improvements to boarding and raiding capabilities. It also greatly enhances income gained from raiding targets. This 5600 model also adds significant improvements to boarding defense against enemy raids on your own ship. It even includes improvements to Targeting and Countermeasures.</Description>
+		<ImageFilename>Artifacts/pirate boarding 3</ImageFilename>
+	</Artifact>
+
+</ArrayOfArtifact>

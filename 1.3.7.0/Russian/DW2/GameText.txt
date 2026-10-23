@@ -1308,7 +1308,7 @@ X% Y bonuses from all sources		;{0} {1} бонусов от всех источ�
 Initiation Cost		;Стоимость инициации
 Extra Requirements		;Дополнительные требования
 Improved COMPONENT		;Улучшенный {0}
-COMPONENT LEVEL		;{{0}} (v{{1}})
+COMPONENT LEVEL		;{0} (v{1})
 RACE only		;{0} только
 Not RACE		;Не {0}
 

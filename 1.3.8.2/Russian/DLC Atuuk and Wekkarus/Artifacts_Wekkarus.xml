@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfArtifact>
+	<Artifact>
+		<ArtifactId>65</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityTroopGeneral</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityFleetAdmiral</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityIntelligenceAgent</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityAmbassador</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<PsychicResistance>0.07</PsychicResistance>
+		<RaceId>8</RaceId>
+		<Name>Памятник Неизвестному Солдату Первого Поколения</Name>
+		<Description>Каменный прямоугольник высотой примерно с взрослого Веккаруса. Царственные украшения древних Веккарусов удерживают памятник в вертикальном положении и подчеркивают гравировку на камне. Несмотря на значительный вес, к основанию Памятника Неизвестному Солдату прикреплено древнее устройство снижения гравитации, обеспечивающее его переносимость. Многие, находящиеся рядом с этим артефактом, испытывают чувство уверенности и безопасности.\n\nКроме того, этот артефакт удваивает вероятность событий с призрачными персонажами «Предки среди нас» (если он принадлежит фракции Веккарусов).</Description>
+		<ImageFilename>Artifacts/cenotaph of the first generation</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>66</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Countermeasures</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<PsychicResistance>0.07</PsychicResistance>
+		<RaceId>8</RaceId>
+		<Name>Корабль предков</Name>
+		<Description>Настольная модель древнего транспортного средства Атуук, которую искатели приключений использовали для исследования родного мира Атуук за пределами океанов. Она изготовлена из неизвестного металла тёмно-синего цвета, однако при определённом освещении на нём проступают мраморные узоры светло-голубых надписей, создавая впечатление поверхности океана.\n\nКроме того, этот артефакт удваивает шанс появления корабля-призрака «Предки среди нас» (если он находится во владении фракции Атуук).</Description>
+		<ImageFilename>Artifacts/airship of the ancestors</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>67</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TroopGroundAttack</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopGroundDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<PsychicResistance>0.07</PsychicResistance>
+		<RaceId>8</RaceId>
+		<Name>Сфера Силы Предков</Name>
+		<Description>Это металлический шар, достаточно малый, чтобы поместиться в руке. Постукивание по нему позволяет предположить, что он внутри пустой, однако сам шар удивительно тяжёл. Все, кто держит его, сообщают о видении ментальных образов наземных боев. Это сильные впечатления, а не полные галлюцинации.\n\nКроме того, этот артефакт удваивает шанс появления призрачных войск события «Предки среди нас» (если он принадлежит фракции Веккарус).</Description>
+		<ImageFilename>Artifacts/orb of ancestral strength</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>68</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>245</short> 
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>8</RaceId>
+		<Name>Сводный свод разрушителей</Name>
+		<Description>Древний артефакт Веккаруса. Несмотря на обугленность и сколы, этот кристалл данных в основном цел и полностью функционален. Поскольку он был создан древними Веккарусом, его размеры не точно соответствуют современной технологии. Тем не менее, благодаря средствам, которые наши учёные считают непостижимыми, он способен взаимодействовать с нашими компьютерными системами. Древний кристалл данных Веккаруса, каким-то образом подключённый к компьютеру. Кристалл имеет признаки повреждений.</Description>
+		<ImageFilename>Artifacts/Devastator Compendium</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>
