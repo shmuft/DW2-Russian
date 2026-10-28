@@ -13,34 +13,40 @@ $BuildRoot = Join-Path $ProjectRoot "build"
 $ReleasesPath = Join-Path $ProjectRoot "releases"
 
 if ($Beta) {
-    $PackageName = "DW2Russian_Beta_${Version}_ModLoader"
+    $ModLoaderName = "DW2Russian_Beta_${Version}_ModLoader"
     $LegacyName = "DW2Russian_Beta_${Version}_full"
+    $SteamName = "DW2Russian_Beta_${Version}_Steam"
 } else {
-    $PackageName = "DW2Russian_${Version}_ModLoader"
+    $ModLoaderName = "DW2Russian_${Version}_ModLoader"
     $LegacyName = "DW2Russian_${Version}_full"
+    $SteamName = "DW2Russian_${Version}_Steam"
 }
 
-$PackagePath = Join-Path $BuildRoot $PackageName
-$NewModPath = $PackagePath
-$OldModPath = Join-Path $PackagePath "old_mod"
+$ModLoaderBuildPath = Join-Path $BuildRoot "_modloader_tmp_${Version}"
+$SteamBuildPath = Join-Path $BuildRoot "_steam_tmp_${Version}"
+$NewModPath = $ModLoaderBuildPath
 $LegacyBuildPath = Join-Path $BuildRoot "_legacy_tmp_${Version}"
-$LegacyZipPath = Join-Path $OldModPath ($LegacyName + ".zip")
-$ReleaseZipPath = Join-Path $ReleasesPath ($PackageName + ".zip")
+$LegacyZipPath = Join-Path $ReleasesPath ($LegacyName + ".zip")
+$ModLoaderReleaseZipPath = Join-Path $ReleasesPath ($ModLoaderName + ".zip")
+$SteamReleaseZipPath = Join-Path $ReleasesPath ($SteamName + ".zip")
 
 New-Item -ItemType Directory -Path $BuildRoot -Force | Out-Null
 New-Item -ItemType Directory -Path $ReleasesPath -Force | Out-Null
 
-if (Test-Path $PackagePath) {
-    Remove-Item $PackagePath -Recurse -Force
-}
-if (Test-Path $LegacyBuildPath) {
-    Remove-Item $LegacyBuildPath -Recurse -Force
-}
-if (Test-Path $ReleaseZipPath) {
-    Remove-Item $ReleaseZipPath -Force
+foreach ($buildPath in @($ModLoaderBuildPath, $SteamBuildPath, $LegacyBuildPath)) {
+    if (Test-Path $buildPath) {
+        Remove-Item $buildPath -Recurse -Force
+    }
 }
 
-New-Item -ItemType Directory -Path $NewModPath -Force | Out-Null
+foreach ($releasePath in @($LegacyZipPath, $ModLoaderReleaseZipPath, $SteamReleaseZipPath)) {
+    if (Test-Path $releasePath) {
+        Remove-Item $releasePath -Force
+    }
+}
+
+New-Item -ItemType Directory -Path $ModLoaderBuildPath -Force | Out-Null
+New-Item -ItemType Directory -Path $SteamBuildPath -Force | Out-Null
 New-Item -ItemType Directory -Path $LegacyBuildPath -Force | Out-Null
 
 try {
@@ -103,8 +109,17 @@ try {
         Copy-Item -Path $ThumbSource -Destination $LegacyBuildPath -Force
     }
 
+    $modLoaderReadme = @"
+Файлы мода для DW2 Mod Launcher находятся в корне архива. Распакуйте архив и добавьте
+эту директорию в список модов загрузчика или скопируйте её в директорию модов.
+"@
+    [System.IO.File]::WriteAllText(
+        (Join-Path $ModLoaderBuildPath "README.txt"),
+        $modLoaderReadme + [Environment]::NewLine,
+        [System.Text.UTF8Encoding]::new($false)
+    )
+
     $compression = [System.IO.Compression.CompressionLevel]::NoCompression
-    New-Item -ItemType Directory -Path $OldModPath -Force | Out-Null
     [System.IO.Compression.ZipFile]::CreateFromDirectory(
         $LegacyBuildPath,
         $LegacyZipPath,
@@ -112,7 +127,12 @@ try {
         $false
     )
 
-    $readme = @"
+    $steamOldModPath = Join-Path $SteamBuildPath "old_mod"
+    New-Item -ItemType Directory -Path $steamOldModPath -Force | Out-Null
+    Copy-Item -Path (Join-Path $ModLoaderBuildPath "*") -Destination $SteamBuildPath -Recurse -Force
+    Copy-Item -Path $LegacyZipPath -Destination $steamOldModPath -Force
+
+    $steamReadme = @"
 Перевод Distant Worlds 2 перешёл на новую модель модов для DW2 Mod Launcher.
 
 Файлы мода для загрузчика находятся в корне архива. Распакуйте архив и добавьте
@@ -122,26 +142,35 @@ try {
 архив находится в директории old_mod.
 "@
     [System.IO.File]::WriteAllText(
-        (Join-Path $PackagePath "README.txt"),
-        $readme + [Environment]::NewLine,
+        (Join-Path $SteamBuildPath "README.txt"),
+        $steamReadme + [Environment]::NewLine,
         [System.Text.UTF8Encoding]::new($false)
     )
 
     [System.IO.Compression.ZipFile]::CreateFromDirectory(
-        $PackagePath,
-        $ReleaseZipPath,
+        $ModLoaderBuildPath,
+        $ModLoaderReleaseZipPath,
+        $compression,
+        $false
+    )
+
+    [System.IO.Compression.ZipFile]::CreateFromDirectory(
+        $SteamBuildPath,
+        $SteamReleaseZipPath,
         $compression,
         $false
     )
 }
 finally {
-    if (Test-Path $LegacyBuildPath) {
-        Remove-Item $LegacyBuildPath -Recurse -Force
-    }
-    if (Test-Path $PackagePath) {
-        Remove-Item $PackagePath -Recurse -Force
+    foreach ($buildPath in @($ModLoaderBuildPath, $SteamBuildPath, $LegacyBuildPath)) {
+        if (Test-Path $buildPath) {
+            Remove-Item $buildPath -Recurse -Force
+        }
     }
 }
 
-Write-Host "Временные файлы сборки удалены из: $PackagePath"
-Write-Host "Итоговый архив создан: $ReleaseZipPath"
+Write-Host "Временные файлы сборки удалены из: $BuildRoot"
+Write-Host "Архивы созданы:"
+Write-Host "  $ModLoaderReleaseZipPath"
+Write-Host "  $LegacyZipPath"
+Write-Host "  $SteamReleaseZipPath"
