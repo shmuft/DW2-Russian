@@ -40,6 +40,7 @@ TECHNICAL_PHRASES = frozenset({
     "{0}x{1}",
     "\ufeff",
     "{0}/{1}",
+    "{0} (v{1})"
 })
 
 paused = False

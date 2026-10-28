@@ -10,3 +10,6 @@ __pycache__
 *_new_translated_lines.txt
 .env
 build/
+.gigaide
+.idea
+.venv

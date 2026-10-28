@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfGameEvent>
+	<GameEvent>
+		<Name>Wander Time (Teekan)</Name>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<Id1>135</Id1> 
+				<Id2>-1</Id2> 
+				<Id3>-1</Id3> 
+				<Value1>0</Value1> 
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Время странствий</MessageTitle>
+				<Description>Наше недавнее основание новой колонии в [LOCATION]{6}[/LOCATION] вызвало новую волну стремления к странствиям и кочевых настроений среди нашего населения Тиканов.\n\nВ результате [LOCATION]{6}[/LOCATION] станет очень популярным направлением для миграции на следующие 5 лет.</Description>
+				<ImageFilepath>Environment/Events/Wander Time</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Id2>-1</Id2> 
+				<Id3>-1</Id3> 
+				<Value1>0</Value1> 
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Great Bakdur Hunt (Teekan)</Name>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>SetGlobalVariableRandomRange</Type>
+				<Value1>0</Value1> 
+				<Value2>100</Value2> 
+				<GeneratedItemName>Great Bakdur Hunt Outcome</GeneratedItemName>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<Id1>136</Id1> 
+				<Id2>0</Id2> 
+				<Id3>-1</Id3> 
+				<Value1>0</Value1> 
+				<Conditions>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>Great Bakdur Hunt Outcome</VariableName>
+						<ComparisonType>GreaterThanOrEqual</ComparisonType>
+						<ComparisonValue>0</ComparisonValue>
+					</GameEventCondition>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>Great Bakdur Hunt Outcome</VariableName>
+						<ComparisonType>LessThan</ComparisonType>
+						<ComparisonValue>15</ComparisonValue>
+					</GameEventCondition>
+				</Conditions>
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<Id1>137</Id1> 
+				<Id2>0</Id2> 
+				<Id3>-1</Id3> 
+				<Value1>0</Value1> 
+				<Conditions>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>Great Bakdur Hunt Outcome</VariableName>
+						<ComparisonType>GreaterThanOrEqual</ComparisonType>
+						<ComparisonValue>15</ComparisonValue>
+					</GameEventCondition>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>Great Bakdur Hunt Outcome</VariableName>
+						<ComparisonType>LessThan</ComparisonType>
+						<ComparisonValue>90</ComparisonValue>
+					</GameEventCondition>
+				</Conditions>
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<Id1>138</Id1> 
+				<Id2>0</Id2> 
+				<Id3>-1</Id3> 
+				<Value1>0</Value1> 
+				<Conditions>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>Great Bakdur Hunt Outcome</VariableName>
+						<ComparisonType>GreaterThanOrEqual</ComparisonType>
+						<ComparisonValue>90</ComparisonValue>
+					</GameEventCondition>
+					<GameEventCondition>
+						<Type>VariableComparison</Type>
+						<VariableName>Great Bakdur Hunt Outcome</VariableName>
+						<ComparisonType>LessThan</ComparisonType>
+						<ComparisonValue>100</ComparisonValue>
+					</GameEventCondition>
+				</Conditions>
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Outstanding Bakdur Hunt Spice (Teekan)</Name>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>AddCargo</Type>
+				<Id1>18</Id1> 
+				<Value1>1000</Value1> 
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+</ArrayOfGameEvent>

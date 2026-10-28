@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>82</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<RandomInitiationChance>0.025</RandomInitiationChance>
+		<GovernmentFilterIds>
+			<short>2</short> 
+		</GovernmentFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<MinimumIntervalPerEmpireYears>20</MinimumIntervalPerEmpireYears>
+		<Name>Всплеск научно-исследовательских работ</Name>
+		<Description>Наша [B]демократическая форма правления[/B] поощрила предприимчивый дух нашего народа.\n\nРасходы на исследования и разработки со стороны наших частных корпораций резко возросли.\n\nТаким образом, в течение следующего года наша империя получит следующие бонусы:\n\n[ULI][BONUS]+10% ко всем исследованиям[/BONUS][/ULI]</Description>
+		<ImageFilename>Environment/Events/Democracy Positive Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>83</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<RandomInitiationChance>0.025</RandomInitiationChance>
+		<GovernmentFilterIds>
+			<short>2</short> 
+		</GovernmentFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<MinimumIntervalPerEmpireYears>20</MinimumIntervalPerEmpireYears>
+		<Name>Энергия сотрудничества</Name>
+		<Description>Наша [B]демократическая форма правления[/B] поощрила предприимчивый дух нашего народа.\n\nВ нашем населении растёт сильное стремление к единству и сотрудничеству.\n\nТаким образом, в течение следующего года наша империя получит следующие бонусы:\n\n[ULI][BONUS]+10% к навыку дипломатии[/BONUS][/ULI]</Description>
+		<ImageFilename>Environment/Events/Democracy Positive Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>84</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<RandomInitiationChance>0.025</RandomInitiationChance>
+		<GovernmentFilterIds>
+			<short>2</short> 
+		</GovernmentFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<MinimumIntervalPerEmpireYears>20</MinimumIntervalPerEmpireYears>
+		<Name>Шпионские триллеры</Name>
+		<Description>Наша [B]демократическая форма правления[/B] поощрила предприимчивый дух нашего народа.\n\nВсеобщее увлечение шпионскими триллерами и фильмами привело к фокусу на операциях шпионажа и разведывательных миссиях.\n\nТаким образом, в течение следующего года наша империя получит следующие бонусы:\n\n[ULI][BONUS]+10% к навыку шпионажа[/BONUS][/ULI]</Description>
+		<ImageFilename>Environment/Events/Democracy Positive Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>85</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<RandomInitiationChance>0.025</RandomInitiationChance>
+		<GovernmentFilterIds>
+			<short>2</short> 
+		</GovernmentFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<MinimumIntervalPerEmpireYears>20</MinimumIntervalPerEmpireYears>
+		<Name>Остросюжетное кино</Name>
+		<Description>Наша [B]демократическая форма правления[/B] поощрила предприимчивый дух нашего народа.\n\nВсеобщее увлечение патриотическими боевиками привело к фокусу на военных вопросах.\n\nТаким образом, в течение следующего года наша империя получит следующие бонусы:\n\n[ULI][BONUS]+10% к скорости набора войск[/BONUS][/ULI]\n[ULI][BONUS]+10% к экономии на содержании войск[/BONUS][/ULI]</Description>
+		<ImageFilename>Environment/Events/Democracy Positive Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>86</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<ColonyHappiness>-5</ColonyHappiness>
+		<GovernmentFilterIds>
+			<short>5</short> 
+		</GovernmentFilterIds>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<ManualInitiationCost>20000</ManualInitiationCost>
+		<Bonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ConstructionSpeedFacility</Type>
+				<Amount>1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<MinimumIntervalPerEmpireYears>10</MinimumIntervalPerEmpireYears>
+		<Name>Мир войны</Name>
+		<ImageFilename>Environment/Events/War World</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>87</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Флагман уничтожен</Name>
+		<Description>Наш флагманский корабль империи погиб в бою.\n\nЭто катастрофическое событие вызвало волну скорби, снизив уровень счастья на следующий год.</Description>
+		<ImageFilename>Environment/Events/flagship negative</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>88</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Триумф флагмана</Name>
+		<Description>Флагман нашей империи одержал победу в решающем сражении.\n\nЭто великое достижение породило волну патриотического подъема, повысив уровень счастья на следующий год.</Description>
+		<ImageFilename>Environment/Events/flagship positive</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>89</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1000</DurationMinimum>
+		<DurationMaximum>1000</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Боевой улей</Name>
+		<ImageFilename>Environment/Events/Hive Mind Population Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>90</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Феодальная повинность</Name>
+		<ImageFilename>Environment/Events/Feudalism Troop Boost</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

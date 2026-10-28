@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfArtifact>
+	<Artifact>
+		<ArtifactId>63</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TroopGroundAttack</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopGroundDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>9</RaceId>
+		<Name>Песнь воинов</Name>
+		<Description>Это устройство воспроизведения аудио содержит единственную запись с исключительной точностью звука. Многие виды не смогут расшифровать текст песни, но все, кто её услышит, наполнятся мужеством и будут вдохновлены на новые высоты воинского мастерства.</Description>
+		<ImageFilename>Artifacts/the soldiers anthem</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>64</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>BombardmentDamage</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>6</RaceId>
+		<Name>Компьютер тактической бомбардировки</Name>
+		<Description>Небольшой портативный компьютер с внешним корпусом, соответствующим эстетике Боскара. Это устройство предназначено для лёгкого подключения к другим компьютерным системам, что максимизирует эффективность бомбардировок.</Description>
+		<ImageFilename>Artifacts/tactical bombardment computer</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>69</ArtifactId> 
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<RaceId>9</RaceId>
+		<Name>Фигурка Вдохновляющих Героев</Name>
+		<Description>Эта лёгкая статуэтка изображает важного на вид Атуук, с довольным видом взирающего вдаль. Видны швы, где части статуэтки были соединены вместе. Эта реликвия старой галактики станет отличным экспонатом музея и, вероятно, вызовет счастье и удивление у всех, кто на неё смотрит.</Description>
+		<ImageFilename>Artifacts/figurine of inspiring heroes</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>

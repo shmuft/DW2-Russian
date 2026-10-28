@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfGameEvent>
+	<GameEvent>
+		<Name>Hero of the Hour Trigger (Human)</Name>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<GeneratedItemName>Hero of the Hour Choice (Human)</GeneratedItemName>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Hero of the Hour Choice (Human)</Name>
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>Герой часа</MessageTitle>
+				<Description>Недавнее объявление войны против нас пробудило в наших военных рядах глубокие чувства героизма и мужества.\n\nВ результате ряд перспективных офицеров демонстрирует выдающийся боевой дух. Нам следует повысить одного из них до звания флотского адмирала или генерала.\n\nКого же нам выбрать? [CHARACTER]Адмирала[/CHARACTER] или [CHARACTER]Генерала[/CHARACTER]?</Description>
+				<ImageFilepath>Environment/Events/Hero of the Hour</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ChoiceButtonText>Новый адмирал</ChoiceButtonText>
+				<GeneratedItemName>Implement Hero of the Hour - Admiral (Human)</GeneratedItemName>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ChoiceButtonText>Новый генерал</ChoiceButtonText>
+				<GeneratedItemName>Implement Hero of the Hour - General (Human)</GeneratedItemName>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Implement Hero of the Hour - Admiral (Human)</Name>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GenerateCharacter</Type>
+				<MessageTitle>Герой часа</MessageTitle>
+				<Description>Новый герой вышел вперёд!\n\n[CHARACTER]Адмирал {1}[/CHARACTER] появился на {2}.</Description>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>0</Id1> 
+				<CharacterRole>FleetAdmiral</CharacterRole>
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ClearCharacterTraits</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Id3>-1</Id3> 
+				<CharacterRole>FleetAdmiral</CharacterRole>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCharacterTrait</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Id2>-1</Id2> 
+				<Id3>-1</Id3> 
+				<CharacterRole>FleetAdmiral</CharacterRole>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCharacterTrait</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Id2>-1</Id2> 
+				<Id3>-1</Id3> 
+				<CharacterRole>FleetAdmiral</CharacterRole>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>SetCharacterTraitsKnown</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Id2>1</Id2> 
+				<Id3>-1</Id3> 
+				<CharacterRole>FleetAdmiral</CharacterRole>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Implement Hero of the Hour - General (Human)</Name>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GenerateCharacter</Type>
+				<MessageTitle>Герой часа</MessageTitle>
+				<Description>Новый герой вышел вперёд!\n\n[CHARACTER]Генерал {1}[/CHARACTER] появился на {2}.</Description>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>0</Id1> 
+				<CharacterRole>TroopGeneral</CharacterRole>
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ClearCharacterTraits</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Id3>-1</Id3> 
+				<CharacterRole>TroopGeneral</CharacterRole>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCharacterTrait</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Id2>-1</Id2> 
+				<Id3>-1</Id3> 
+				<CharacterRole>TroopGeneral</CharacterRole>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCharacterTrait</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Id2>-1</Id2> 
+				<Id3>-1</Id3> 
+				<CharacterRole>TroopGeneral</CharacterRole>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>SetCharacterTraitsKnown</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Id2>1</Id2> 
+				<Id3>-1</Id3> 
+				<CharacterRole>TroopGeneral</CharacterRole>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Internal Debates Trigger (Human)</Name>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<GeneratedItemName>Internal Debates (Human)</GeneratedItemName>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Internal Debates (Human)</Name>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GenerateCharacter</Type>
+				<MessageTitle>Внутренние споры</MessageTitle>
+				<Description>Подписание нами оборонительного договора вызвало обеспокоенность среди населения, спровоцировав споры «за» и «против». Это [BAD]снизило уровень счастья во всей нашей империи на 2 года[/BAD].\n\nОднако новый оборонительный договор также привел к появлению [CHARACTER]нового посла {1}[/CHARACTER] в точке {2}.</Description>
+				<ImageFilepath>Environment/Events/Internal Debates</ImageFilepath>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>0</Id1> 
+				<CharacterRole>Ambassador</CharacterRole>
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ClearCharacterTraits</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Id3>-1</Id3> 
+				<CharacterRole>Ambassador</CharacterRole>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>AddCharacterTrait</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Id2>-1</Id2> 
+				<Id3>-1</Id3> 
+				<CharacterRole>Ambassador</CharacterRole>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>SetCharacterTraitsKnown</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Id2>1</Id2> 
+				<Id3>-1</Id3> 
+				<CharacterRole>Ambassador</CharacterRole>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>74</Id1> 
+				<Id2>0</Id2> 
+				<Id3>-1</Id3> 
+				<Value1>0</Value1> 
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Heightened Security Trigger (Human)</Name>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<GeneratedItemName>Heightened Security Choice (Human)</GeneratedItemName>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Heightened Security Choice (Human)</Name>
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle>Усиленные меры безопасности</MessageTitle>
+				<Description>Недавний успех иностранной разведывательной миссии против нас вызывает обеспокоенность.\n\nЧтобы противостоять этим усилиям, мы можем [CHARACTER]потратить случайно выбранного шпиона[/CHARACTER], чтобы получить [BONUS]+20% бонус к контршпионажу на 2 года[/BONUS]. Шпион будет безвозвратно потерян.\n\nОднако это также приведет к тому, что [BAD]уровень счастья в нашей империи снизится на -5% на 2 года[/BAD].\n\nСтоит ли нам потратить шпиона ради получения этих временных бонусов к контршпионажу?</Description>
+				<ImageFilepath>Environment/Events/Heightened Security</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ChoiceButtonText>Пожертвовать шпионом</ChoiceButtonText>
+				<GeneratedItemName>Implement Heightened Security (Human)</GeneratedItemName>
+				<MessageViewMode>Dialog</MessageViewMode>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>Undefined</Type>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ChoiceButtonText>Оставить шпионов в покое</ChoiceButtonText>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Implement Heightened Security (Human)</Name>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>DestroyCharacter</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Id3>-1</Id3> 
+				<CharacterRole>Spy</CharacterRole>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>75</Id1> 
+				<Id2>0</Id2> 
+				<Id3>-1</Id3> 
+				<Value1>0</Value1> 
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>New Worlds Continental Conquest (Human)</Name>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<Description>Наше недавнее завоевание континентальной планеты углубило наше понимание того, как колонизировать новые миры.\n\nВ результате мы достигли научного прорыва в новой технологии колонизации.</Description>
+				<ImageFilepath>Environment/Events/New Worlds</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Id2>-1</Id2> 
+				<Id3>-1</Id3> 
+				<Value1>0</Value1> 
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Value1>0</Value1> 
+				<ResearchCategory>Colonization</ResearchCategory>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>New Worlds Continental Colonization (Human)</Name>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Новые миры</MessageTitle>
+				<Description>Наша недавняя колонизация континентальной планеты углубила наше понимание того, как заселять новые миры.\n\nВ результате мы достигли научного прорыва в новой технологии колонизации.</Description>
+				<ImageFilepath>Environment/Events/New Worlds</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Id2>-1</Id2> 
+				<Id3>-1</Id3> 
+				<Value1>0</Value1> 
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Value1>0</Value1> 
+				<ResearchCategory>Colonization</ResearchCategory>
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Great Art Exposition from Resort Base Built (Human)</Name>
+		<Conditions>
+			<GameEventCondition>
+				<Type>CheckColonyEventIntervalSinceLastActiveInEmpire</Type>
+				<LookupValue>20</LookupValue> 
+				<ComparisonType>GreaterThan</ComparisonType>
+				<ComparisonValue>5</ComparisonValue> 
+			</GameEventCondition>
+		</Conditions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<ActionLocationHint>HighestDevelopmentColony</ActionLocationHint>
+				<Id1>20</Id1> 
+				<Id2>-1</Id2> 
+				<Id3>-1</Id3> 
+				<Value1>0</Value1> 
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Великая художественная выставка</MessageTitle>
+				<Description>Недавнее строительство новой Развлекательной базы в {0} вызвало всплеск энтузиазма среди нашего населения, побудив некоторых наших деловых лидеров и местных чиновников организовать [GOOD]Великую художественную выставку[/GOOD] на нашей колонии [LOCATION]{6}[/LOCATION]. Эта выставка демонстрирует вершину искусства и культуры из окрестных систем.\n\nВ результате наша империя в течение следующих 2 лет получит [BONUS]+10% к доходам от торговли и туризма[/BONUS].\n\n[LOCATION]{6}[/LOCATION] также получит [BONUS]+10% к доходу колонии и +10% бонус за живописность[/BONUS] в этот период.</Description>
+				<ImageFilepath>Environment/Events/Great Art Exposition</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Id2>-1</Id2> 
+				<Id3>-1</Id3> 
+				<Value1>0</Value1> 
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Great Art Exposition from Free Trade (Human)</Name>
+		<Conditions>
+			<GameEventCondition>
+				<Type>CheckColonyEventIntervalSinceLastActiveInEmpire</Type>
+				<LookupValue>20</LookupValue> 
+				<ComparisonType>GreaterThan</ComparisonType>
+				<ComparisonValue>5</ComparisonValue> 
+			</GameEventCondition>
+		</Conditions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>StartColonyEvent</Type>
+				<ActionLocationHint>HighestDevelopmentColony</ActionLocationHint>
+				<Id1>20</Id1> 
+				<Id2>-1</Id2> 
+				<Id3>-1</Id3> 
+				<Value1>0</Value1> 
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Великая художественная выставка</MessageTitle>
+				<Description>Недавнее подписание соглашения о свободной торговле вызвало всплеск энтузиазма во всём нашем населении, побудив некоторых наших деловых лидеров и местных чиновников организовать [GOOD]Великую художественную выставку[/GOOD] в нашей колонии [LOCATION]{6}[/LOCATION]. На этой выставке представлены вершина искусства и культуры из окрестных систем.\n\nВ результате наша империя на следующие 2 года получит [BONUS]+10% к доходам от торговли и туризма[/BONUS].\n\n[LOCATION]{6}[/LOCATION] также в этот период получит [BONUS]+10% к доходу колонии и +10% бонус за живописность[/BONUS].</Description>
+				<ImageFilepath>Environment/Events/Great Art Exposition</ImageFilepath>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<Id1>-1</Id1> 
+				<Id2>-1</Id2> 
+				<Id3>-1</Id3> 
+				<Value1>0</Value1> 
+				<ActionObjectId>-1</ActionObjectId>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+</ArrayOfGameEvent>
