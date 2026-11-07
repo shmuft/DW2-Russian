@@ -1,4 +1,5 @@
 import argparse
+import hashlib
 import re
 import sys
 import threading
@@ -95,6 +96,12 @@ def _get_glossary_cache_path() -> str:
     return os.environ.get('DW2_GLOSSARY_CACHE') or DEFAULT_GLOSSARY_CACHE_FILE
 
 
+def _get_system_prompt_hash() -> str:
+    """Возвращает SHA-256 исходного файла системного промпта."""
+    prompt_path = Path(__file__).with_name('system_prompt.py')
+    return hashlib.sha256(prompt_path.read_bytes()).hexdigest()
+
+
 def _get_glossary():
     """Возвращает закешированный словарь (потокобезопасно)."""
     global _glossary_cache
@@ -102,11 +109,21 @@ def _get_glossary():
         with _glossary_lock:
             if _glossary_cache is None:
                 cache_file = _get_glossary_cache_path()
+                prompt_hash = _get_system_prompt_hash()
                 if cache_file and os.path.exists(cache_file):
                     try:
                         with open(cache_file, 'rb') as f:
-                            _glossary_cache = pickle.load(f)
-                        print(f"[INFO] Загружено {len(_glossary_cache)} требований из кэша словаря")
+                            cached_data = pickle.load(f)
+                        if (
+                            isinstance(cached_data, dict)
+                            and cached_data.get('cache_format') == 1
+                            and cached_data.get('system_prompt_sha256') == prompt_hash
+                            and isinstance(cached_data.get('glossary'), dict)
+                        ):
+                            _glossary_cache = cached_data['glossary']
+                            print(f"[INFO] Загружено {len(_glossary_cache)} требований из кэша словаря")
+                        else:
+                            print("[INFO] Кэш словаря устарел или имеет старый формат; пересоздаю.")
                     except Exception as exc:
                         print(f"[WARNING] Ошибка загрузки кэша словаря: {exc}")
                         _glossary_cache = None
@@ -115,7 +132,11 @@ def _get_glossary():
                     _glossary_cache = _build_glossary()
                     try:
                         with open(cache_file, 'wb') as f:
-                            pickle.dump(_glossary_cache, f)
+                            pickle.dump({
+                                'cache_format': 1,
+                                'system_prompt_sha256': prompt_hash,
+                                'glossary': _glossary_cache,
+                            }, f)
                         print(f"[INFO] Сохранён кэш словаря в {cache_file} ({len(_glossary_cache)} записей)")
                     except Exception as exc:
                         print(f"[WARNING] Не удалось сохранить кэш словаря: {exc}")
@@ -261,7 +282,7 @@ def _build_rag_prompt_text(text: str, top_k: int = 5) -> str:
         return ""
 
 
-def translate_text(text: str) -> str:
+def translate_text(text: str, allow_llm: bool = True) -> str:
     """
     Перевод текста через LM Studio (локальный LLM) используя lmstudio-python SDK.
     Проверяет в порядке приоритета:
@@ -288,6 +309,9 @@ def translate_text(text: str) -> str:
     if cache_translation:
         print(f"[CACHE] {text} -> {cache_translation}")
         return cache_translation
+    if not allow_llm:
+        print(f"[WARNING] Перевод {text!r} отсутствует в кэшах; LLM пропущена.")
+        return text
 
     rag_examples = _build_rag_prompt_text(text, top_k=5)
     user_message = f"Text: {text}"

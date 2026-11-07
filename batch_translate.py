@@ -52,23 +52,30 @@ XML_LIST_ITEM_KEYS = {
 }
 
 
-def get_galactopedia_translated_rel_path(rel_path: Path) -> Path:
+def get_galactopedia_translated_rel_path(rel_path: Path, allow_llm: bool = True) -> Path:
     """Возвращает путь к русскому имени файла для Galactopedia, как это делает основной цикл перевода."""
     if 'Galactopedia' not in str(rel_path):
         return rel_path
 
     original_stem = rel_path.stem + rel_path.suffix
-    translated_stem = translate_text(original_stem)
+    translated_stem = translate_text(original_stem, allow_llm=allow_llm)
     return rel_path.with_name(translated_stem)
 
 
-def resolve_russian_rel_path(english_rel_path: Path, russian_dir: Path) -> Path:
+def resolve_russian_rel_path(
+    english_rel_path: Path,
+    russian_dir: Path,
+    allow_llm: bool = True,
+) -> Path:
     """Находит корректный путь к русскому файлу, учитывая переведённые имена Galactopedia."""
     candidate = russian_dir / english_rel_path
     if candidate.exists():
         return english_rel_path
 
-    translated_rel_path = get_galactopedia_translated_rel_path(english_rel_path)
+    translated_rel_path = get_galactopedia_translated_rel_path(
+        english_rel_path,
+        allow_llm=allow_llm,
+    )
     translated_candidate = russian_dir / translated_rel_path
     if translated_candidate.exists():
         return translated_rel_path
@@ -809,7 +816,12 @@ def build_previous_versions_cache(cache_versions, base_dir: Path):
     return merged_cache
 
 
-def build_file_translation_cache(cache_versions, base_dir: Path, rel_path: Path) -> dict:
+def build_file_translation_cache(
+    cache_versions,
+    base_dir: Path,
+    rel_path: Path,
+    allow_llm: bool = True,
+) -> dict:
     """
     Строит локальный приоритетный кэш только для конкретного файла из предыдущих версий.
     Используется перед общим кэшем и словарём, чтобы файл мог иметь свои собственные
@@ -820,7 +832,11 @@ def build_file_translation_cache(cache_versions, base_dir: Path, rel_path: Path)
     for version in cache_versions:
         version_dir = base_dir / version
         english_file = version_dir / 'English' / rel_path
-        russian_file = version_dir / 'Russian' / resolve_russian_rel_path(rel_path, version_dir / 'Russian')
+        russian_file = version_dir / 'Russian' / resolve_russian_rel_path(
+            rel_path,
+            version_dir / 'Russian',
+            allow_llm=allow_llm,
+        )
 
         if not english_file.exists() or not russian_file.exists():
             continue
@@ -933,9 +949,18 @@ def write_new_translated_lines_report(target_english_dir: Path, target_russian_d
             continue
 
         rel_path = english_file.relative_to(target_english_dir)
-        file_old_cache = build_file_translation_cache(previous_versions, base_dir, rel_path)
+        file_old_cache = build_file_translation_cache(
+            previous_versions,
+            base_dir,
+            rel_path,
+            allow_llm=False,
+        )
 
-        russian_file = target_russian_dir / resolve_russian_rel_path(rel_path, target_russian_dir)
+        russian_file = target_russian_dir / resolve_russian_rel_path(
+            rel_path,
+            target_russian_dir,
+            allow_llm=False,
+        )
         if not russian_file.exists():
             continue
 

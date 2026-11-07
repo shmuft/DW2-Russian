@@ -138,7 +138,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>797</ResearchProjectId>
-		<Name>Совершенные импульсные прыжковые двигатели</Name>
+		<Name>Совершенные импульсные гипердвигатели</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2640</Size>
 		<InitiationCost>
@@ -200,7 +200,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>798</ResearchProjectId>
-		<Name>Совершенные импульсные прыжковые двигатели</Name>
+		<Name>Совершенные импульсные гипердвигатели</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>7920</Size>
 		<InitiationCost>

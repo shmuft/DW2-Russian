@@ -41,7 +41,7 @@ Default target version: `1.3.5.7`. Override with `--target-version`. Cache sourc
 
 ## Translation cache
 
-- `.glossary_cache.pkl` — glossary from `system_prompt.py`
+- `.glossary_cache.pkl` — glossary from `system_prompt.py`, regenerated when its SHA-256 changes
 - `.translation_cache_*.pkl` — built from paired English/Russian files across versions
 - `.previous_translation_cache_*.pkl` — cache from prior versions only
 - `.translation_cache_file_*.pkl` — per-file local cache (passed via `DW2_FILE_TRANSLATION_CACHE`)
