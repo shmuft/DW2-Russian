@@ -1,0 +1,56 @@
+Contracts are tasks that are assigned by one faction but carried out by another faction for a reward of some kind. The reward is often money, but may also include diplomacy benefits or other items.
+
+They can include tasks like delivering resources to a location, destroying a specific enemy threat, defending a base from attack for a time period or clearing out space creatures from a location.
+
+Contracts have a time limit for completion. If the contract is not completed by the expiry date then it ends without reward payment. Any failure penalties are also applied to the faction who failed to complete it.
+
+[H3]Contract Sources[/H3]
+When playing as a standard planetary empire you can be offered contracts by:
+[ULI]independent colonies[/ULI]
+[ULI]pirate factions[/ULI]
+[ULI]internal factions within your own empire, e.g. individual colonies or businesses[/ULI]
+
+When playing as a pirate faction you can be offered contracts by:
+[ULI]independent colonies[/ULI]
+[ULI]planetary empires[/ULI]
+[ULI]other pirate factions[/ULI]
+[ULI]Shadowports[/ULI]
+
+
+[H3]Assigning Contracts[/H3]
+You can assign contracts for a location using the 'Create New Contract' action button underneath the Selection Panel.
+
+This will show the 'Offer Contract' dialog that allows you to specify the type of contract and the monetary reward for completion.
+
+When you click the Offer button the new contract will appear in the 'Available Contracts' list for other factions to accept.
+
+[H3]Available Contracts[/H3]
+The Available Contracts list shows all of the contracts that you can accept or bid on. It also shows any contracts that you have created for other factions to consider.
+
+Hovering each contract in the list will show the details, including the reward, expiry length and any failure penalties. It will also usually ping the galaxy map with the target location for the contract (if known to your faction).
+
+Clicking a contract will select the target of the contract (when known).
+
+[H3]Accepting Contracts[/H3]
+To accept a contract from this list, click the accept or bid button at the right.
+
+Note that some contracts may be difficult or even impossible for your faction to complete, so consider the requirements carefully before accepting a contract.
+
+[H3]Bidding on Contracts[/H3]
+Resource Delivery contracts have a fixed reward that is set when they are offered.
+
+Other contract types (Attack, Defend, etc) are bid on by factions who are interested in the contract. Each subsequent bid lowers the reward price.
+
+Interested factions consider whether they are willing to offer a lower price to win the contract. After 30 seconds with no further bids, the current bid is accepted and the contract is assigned to the last bidder.
+
+[H3]Accepted Contracts[/H3]
+The Accepted Contracts list shows all of the contracts that your faction has accepted. It also shows any contracts that you have assigned that have been accepted by other factions.
+
+Hovering each contract in the list will show the details, including the reward, expiry date and any failure penalties. It will also usually ping the galaxy map with the target location for the contract (if known to your faction).
+
+Clicking a contract will select the target of the contract (when known).
+
+If a ship has been assigned to fulfill the contract (e.g. to deliver resources) then it will show up at the right of the contract row.
+
+[H3]Automation Settings[/H3]
+The Empire Policy screen has automation settings for Contracts in the Diplomacy section: Contract Acceptance, Contract Offering.

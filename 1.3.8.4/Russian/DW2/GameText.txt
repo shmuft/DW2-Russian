@@ -1928,7 +1928,7 @@ ExpenseType PrivateColonyTax		;Колониальные налоги
 ExpenseType PrivateShipMaintenance		;Частн. обсл. кораб.
 ExpenseType PrivateTourism		;Частный туризм
 ExpenseType PrivateShipBuilding		;Частн. строит. кораб.
-ExpenseType PrivateFuel		;Частный заправщик
+ExpenseType PrivateFuel		;Частное топливо
 ExpenseType Privateering		;Каперство
 
 ExpenseType ColonyGrowthFunding Explanation		;Колонии обычно растут медленно, но вы можете ускорить их рост, выделив финансирование.
@@ -1951,7 +1951,7 @@ ExpenseType PrivateColonyTax Explanation		;Налоги с колоний, вы�
 ExpenseType PrivateShipMaintenance Explanation		;Стоимость обслуживания частных кораблей и баз
 ExpenseType PrivateTourism Explanation		;Деньги, потраченные на туризм частными лицами в вашей империи
 ExpenseType PrivateShipBuilding Explanation		;Стоимость покупки новых частных кораблей и баз
-ExpenseType PrivateFuel Explanation		;Стоимость топлива для частных кораблей в вашей империи
+ExpenseType PrivateFuel Explanation		;Затраты на топливо для кораблей, находящихся в частной собственности вашей империи.
 ExpenseType Privateering Explanation		;Деньги, выплачиваемые для финансирования частной войны против других фракций, то есть платежи пиратам за уничтожение кораблей и баз целевых фракций
 
 Previous		;Предыдущий
