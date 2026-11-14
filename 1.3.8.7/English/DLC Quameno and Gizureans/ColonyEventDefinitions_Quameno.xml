@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>58</ColonyEventDefinitionId> <!-- Alien Distractions -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<EmpireHappiness>1</EmpireHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>true</ValuesDecayGradually>
+		<Name>Alien Distractions</Name>
+		<Description>Our recently signed treaty has distracted our citizens from their tasks as they become temporarily preoccupied with the new alien peoples. As a result empire-wide happiness has increased, but research output has decreased.</Description>
+		<ImageFilename>Environment/Events/alien distractions</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>59</ColonyEventDefinitionId> <!-- Integration Studies -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>-25</EmpireHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Integration Studies</Name>
+		<Description>Unassimilated alien populations at our colonies have reduced our empire-wide happiness and decreased our research output.</Description>
+		<ImageFilename>Environment/Events/Integration studies</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>60</ColonyEventDefinitionId> <!-- The Answer -->
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>The Answer</Name>
+		<Description>The recent construction of the Transcendence Hub has provided a boost to our empire happiness</Description>
+		<ImageFilename>Environment/Events/the answer</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>61</ColonyEventDefinitionId> <!-- A Puzzle Solved -->
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>A Puzzle Solved</Name>
+		<Description>The recent completion of an advanced research project has provided a 2-year boost to our empire happiness and research output.\n\n[BONUS]+10% All Research[/BONUS]\n[BONUS]+10% Happiness[/BONUS]\n\nIt has also provided [CHARACTER]bonus traits for our Leader and one of our Scientists[/CHARACTER].</Description>
+		<ImageFilename>Environment/Events/A puzzle solved</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>62</ColonyEventDefinitionId> <!-- Building the Future -->
+		<Type>Undefined</Type>
+		<DurationMinimum>0.5</DurationMinimum>
+		<DurationMaximum>0.5</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Building the Future</Name>
+		<Description>The recent construction of a new research station has provided a short-term boost to our empire happiness</Description>
+		<ImageFilename>Environment/Events/building the future</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>63</ColonyEventDefinitionId> <!-- Razing the Pirate Prison -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Razing the Pirate Prison</Name>
+		<Description>Our decision to raze the ancient park used by the pirates has provided a short-term boost to our empire happiness</Description>
+		<ImageFilename>Environment/Events/pirates-maze</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>64</ColonyEventDefinitionId> <!-- Using the Pirate Prison -->
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>-5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Using the Pirate Prison</Name>
+		<Description>Our decision to use the ancient park used by the pirates has given us a short-term hit to our empire happiness</Description>
+		<ImageFilename>Environment/Events/pirates-maze</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>65</ColonyEventDefinitionId> <!-- Destroyed the Cybernetic Brain -->
+		<Type>Undefined</Type>
+		<DurationMinimum>3</DurationMinimum>
+		<DurationMaximum>3</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Destroyed the Cybernetic Brain</Name>
+		<Description>Our decision to destroy the cybernetic brain has provided a 3 year boost to our empire happiness</Description>
+		<ImageFilename>Environment/Events/Happiness Boost</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>
