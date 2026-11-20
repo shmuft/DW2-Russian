@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>66</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<ColonyHappiness>-10</ColonyHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Подавление недовольства</Name>
+		<Description>Наше недавнее «очищение» этой колонии снизило уровень счастья</Description>
+		<ImageFilename>Environment/Events/the scouring</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>67</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>11</FilterId>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Подавление роста популяции Гизуриане</Name>
+		<Description>Наше недавнее «очищение» этой колонии ускорило темпы роста популяции Гизурианов во всей нашей империи.</Description>
+		<ImageFilename>Environment/Events/the scouring</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>68</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>3</DurationMaximum>
+		<EmpireHappiness>-10</EmpireHappiness>
+		<RandomInitiationChance>0.003</RandomInitiationChance>
+		<RaceFilterIds>
+			<unsignedByte>11</unsignedByte> 
+		</RaceFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>11</FilterId>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Племенной конфликт</Name>
+		<Description>Вспыхнули межплеменные конфликты.\n\nЭто ускорило темпы роста популяции Гизурианов во всей нашей империи.\n\nОднако это также снизило уровень счастья в империи в целом.\n\nМы ожидаем, что этот племенной конфликт продлится от одного до трёх лет.</Description>
+		<ImageFilename>Environment/Events/tribe-wars</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>69</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Вкусные Тиканы</Name>
+		<ImageFilename>UserInterface/Races/Teekan</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>70</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Отважные Гизуриане</Name>
+		<ImageFilename>UserInterface/Races/Gizurean</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>71</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Уничтожен опасный корабль</Name>
+		<ImageFilename>Environment/Events/CrashedShip</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>72</ColonyEventDefinitionId> 
+		<Type>Plague</Type>
+		<IconFilename>Environment/Events/Icons/PsionicMindVirus</IconFilename>
+		<DurationMinimum>4</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<PopulationAmount>-0.08</PopulationAmount>
+		<ColonyHappiness>-15</ColonyHappiness>
+		<SpreadToOtherColoniesChance>0.5</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>150000000</SpreadToOtherColoniesRange>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<PlagueModifiersPerRaceId>
+			<unsignedByte>20</unsignedByte> 
+		</PlagueModifiersPerRaceId>
+		<PlagueModifiersPerRaceAmount>
+			<float>0</float>
+		</PlagueModifiersPerRaceAmount>
+		<PlagueCuringFactor>1.5</PlagueCuringFactor>
+		<Name>Псионический вирус Шактури - Дельта-вариант</Name>
+		<Description>Псионический вирус Шактури делает вид более уязвимым для психических сил Шактури.\n\nЭто особенно смертоносная вариация.\n\nЗаражённые жертвы попадают под форму психического внушения, заставляя их действовать так, чтобы максимально увеличить распространение вируса. Таким образом, псионический вирус Шактури крайне заразен и может быстро распространяться.</Description>
+		<ImageFilename>Environment/Events/PsionicMindVirus</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>73</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>100</DurationMinimum>
+		<DurationMaximum>100</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>11</FilterId>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Мир-инкубатор</Name>
+		<Description>Мы уничтожаем инопланетные популяции на нашей колонии {0}, обеспечивая вкусный источник пищи для нового поколения Гизуриан!\n\nКаждый Мир-инкубатор в нашей империи обеспечит кумулятивный бонус [+10%] к темпам роста популяции Гизуриан[/BONUS].</Description>
+		<ImageFilename>Environment/Events/breeding world</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

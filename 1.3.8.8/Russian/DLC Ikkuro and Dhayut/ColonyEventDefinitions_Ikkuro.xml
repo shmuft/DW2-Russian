@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>35</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<ColonyHappiness>5</ColonyHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Дипломатический успех</Name>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>36</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Война с Дисгармонией</Name>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>37</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<RandomInitiationChance>0.005</RandomInitiationChance>
+		<RaceFilterIds>
+			<unsignedByte>5</unsignedByte> 
+		</RaceFilterIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Гармоничные преимущества</Name>
+		<Description>Счастье на колонизационном мире {0} породило новый дух гармонии. Мы можем ожидать снижения уровня коррупции на 30% в течение следующего года.</Description>
+		<ImageFilename>Environment/Events/harmonious benefits</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>39</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>-0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Тревога от биологического агента</Name>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>40</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>500</DurationMinimum>
+		<DurationMaximum>500</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Биоагент использован</Name>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>41</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Не играя в Бога</Name>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>50</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<ColonyHappiness>5</ColonyHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Следуя собственному пути</Name>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>54</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>-10</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Уважение к жизни</Name>
+		<Description>Недавние зверства, совершённые нашей империей, шокировали наших граждан и временно снизили их уровень счастья.</Description>
+		<ImageFilename>Environment/Events/respect for life</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>55</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>10</EmpireHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Тайны жизни</Name>
+		<Description>Недавняя колонизация нового типа мира привела наших граждан в восторг и временно повысила их уровень счастья и темпы роста.</Description>
+		<ImageFilename>Environment/Events/secrets of life</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>56</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>5</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Защита жизни</Name>
+		<Description>Недавнее подписание нового договора воодушевило наших граждан и временно повысило их уровень счастья.</Description>
+		<ImageFilename>Environment/Events/protection of life</ImageFilename>
+	</ColonyEventDefinition>
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>57</ColonyEventDefinitionId> 
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<EmpireHappiness>-10</EmpireHappiness>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Дисгармония</Name>
+		<Description>Недавнее начало войны повергло наших граждан в уныние и временно снизило их уровень счастья.</Description>
+		<ImageFilename>Environment/Events/disharmony</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>
